@@ -4500,6 +4500,26 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/TwinleafTown_BarrysHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_BarrysHouse_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWINLEAF_TOWN_HOUSE1",
+      "name": "TwinleafTown_House1_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/TwinleafTown_House1/border.bin",
+      "blockdata_filepath": "data/layouts/TwinleafTown_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWINLEAF_TOWN_HOUSE2",
+      "name": "TwinleafTown_House2_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/TwinleafTown_House2/border.bin",
+      "blockdata_filepath": "data/layouts/TwinleafTown_House2/map.bin"
     }
   ]
 }

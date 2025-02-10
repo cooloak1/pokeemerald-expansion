@@ -110,7 +110,9 @@
     "TwinleafTown_PlayersHouse_1F",
     "TwinleafTown_PlayersHouse_2F",
     "TwinleafTown_BarrysHouse_1F",
-    "TwinleafTown_BarrysHouse_2F"
+    "TwinleafTown_BarrysHouse_2F",
+    "TwinleafTown_House1",
+    "TwinleafTown_House2"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

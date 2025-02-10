@@ -1172,3 +1172,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/TwinleafTown_BarrysHouse_1F/scripts.inc"
 
 	.include "data/maps/TwinleafTown_BarrysHouse_2F/scripts.inc"
+
+	.include "data/maps/TwinleafTown_House1/scripts.inc"
+
+	.include "data/maps/TwinleafTown_House2/scripts.inc"

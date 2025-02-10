@@ -23,7 +23,34 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 14,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_TWINLEAF_TOWN_PLAYERS_HOUSE_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_TWINLEAF_TOWN_BARRYS_HOUSE_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 14,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_TWINLEAF_TOWN_HOUSE1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 4,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_TWINLEAF_TOWN_HOUSE2",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 
