@@ -4434,8 +4434,8 @@
     {
       "id": "LAYOUT_LAKE_VERITY",
       "name": "LakeVerity_Layout",
-      "width": 30,
-      "height": 30,
+      "width": 48,
+      "height": 38,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Sandgem",
       "border_filepath": "data/layouts/LakeVerity/border.bin",
