@@ -1164,3 +1164,11 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/NewMap1/scripts.inc"
 
 	.include "data/maps/SandgemTown/scripts.inc"
+
+	.include "data/maps/TwinleafTown_PlayersHouse_1F/scripts.inc"
+
+	.include "data/maps/TwinleafTown_PlayersHouse_2F/scripts.inc"
+
+	.include "data/maps/TwinleafTown_BarrysHouse_1F/scripts.inc"
+
+	.include "data/maps/TwinleafTown_BarrysHouse_2F/scripts.inc"
