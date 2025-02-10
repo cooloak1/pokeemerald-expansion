@@ -1,0 +1,4 @@
+raw `
+LakeVerity_MapScripts::
+	.byte 0
+`
