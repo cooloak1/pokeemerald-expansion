@@ -4442,14 +4442,14 @@
       "blockdata_filepath": "data/layouts/LakeVerity/map.bin"
     },
     {
-      "id": "LAYOUT_NEW_MAP1",
-      "name": "NewMap1_Layout",
+      "id": "LAYOUT_VERITY_CAVERN",
+      "name": "VerityCavern_Layout",
       "width": 23,
       "height": 26,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Sinnoh_Cave",
-      "border_filepath": "data/layouts/NewMap1/border.bin",
-      "blockdata_filepath": "data/layouts/NewMap1/map.bin"
+      "border_filepath": "data/layouts/VerityCavern/border.bin",
+      "blockdata_filepath": "data/layouts/VerityCavern/map.bin"
     }
   ]
 }
