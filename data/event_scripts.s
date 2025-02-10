@@ -1160,3 +1160,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/LakeVerity/scripts.inc"
 
 	.include "data/maps/LakeVerity/scripts.inc"
+
+	.include "data/maps/NewMap1/scripts.inc"
