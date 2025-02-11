@@ -104,7 +104,9 @@
     "SandgemTown"
   ],
   "gMapGroup_SinnohCaves": [
-    "VerityCavern"
+    "VerityCavern",
+    "ValorCavern",
+    "AcuityCavern"
   ],
   "gMapGroup_IndoorTwinleaf": [
     "TwinleafTown_PlayersHouse_1F",

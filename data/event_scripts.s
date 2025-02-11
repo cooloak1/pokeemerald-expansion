@@ -1173,3 +1173,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/TwinleafTown_House1/scripts.inc"
 
 	.include "data/maps/TwinleafTown_House2/scripts.inc"
+
+	.include "data/maps/ValorCavern/scripts.inc"
+
+	.include "data/maps/AcuityCavern/scripts.inc"

@@ -4520,6 +4520,26 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/TwinleafTown_House2/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_VALOR_CAVERN",
+      "name": "ValorCavern_Layout",
+      "width": 23,
+      "height": 26,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Sinnoh_Cave",
+      "border_filepath": "data/layouts/ValorCavern/border.bin",
+      "blockdata_filepath": "data/layouts/ValorCavern/map.bin"
+    },
+    {
+      "id": "LAYOUT_ACUITY_CAVERN",
+      "name": "AcuityCavern_Layout",
+      "width": 23,
+      "height": 26,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Sinnoh_Cave",
+      "border_filepath": "data/layouts/AcuityCavern/border.bin",
+      "blockdata_filepath": "data/layouts/AcuityCavern/map.bin"
     }
   ]
 }

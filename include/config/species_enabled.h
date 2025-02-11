@@ -450,7 +450,7 @@
 #define P_FAMILY_WIMPOD                  FALSE
 #define P_FAMILY_SANDYGAST               FALSE
 #define P_FAMILY_PYUKUMUKU               FALSE
-#define P_FAMILY_TYPE_NULL               P_GEN_7_POKEMON
+#define P_FAMILY_TYPE_NULL               FALSE
 #define P_FAMILY_MINIOR                  FALSE
 #define P_FAMILY_KOMALA                  FALSE
 #define P_FAMILY_TURTONATOR              FALSE
