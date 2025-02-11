@@ -11539,42 +11539,42 @@
                 "species": "SPECIES_MAGIKARP"
               },
               {
-                "min_level": 5,
+                "min_level": 20,
                 "max_level": 20,
                 "species": "SPECIES_MAGIKARP"
               },
               {
-                "min_level": 5,
+                "min_level": 20,
                 "max_level": 20,
                 "species": "SPECIES_GOLDEEN"
               },
               {
-                "min_level": 5,
+                "min_level": 20,
                 "max_level": 20,
                 "species": "SPECIES_GOLDEEN"
               },
               {
-                "min_level": 5,
+                "min_level": 40,
                 "max_level": 40,
                 "species": "SPECIES_MAGIKARP"
               },
               {
-                "min_level": 5,
+                "min_level": 40,
                 "max_level": 40,
                 "species": "SPECIES_GOLDEEN"
               },
               {
-                "min_level": 5,
+                "min_level": 40,
                 "max_level": 40,
                 "species": "SPECIES_GOLDEEN"
               },
               {
-                "min_level": 5,
+                "min_level": 40,
                 "max_level": 40,
                 "species": "SPECIES_MAGIKARP"
               },
               {
-                "min_level": 5,
+                "min_level": 40,
                 "max_level": 40,
                 "species": "SPECIES_MAGIKARP"
               }
@@ -11693,42 +11693,42 @@
                 "species": "SPECIES_MAGIKARP"
               },
               {
-                "min_level": 5,
+                "min_level": 20,
                 "max_level": 20,
                 "species": "SPECIES_MAGIKARP"
               },
               {
-                "min_level": 5,
+                "min_level": 20,
                 "max_level": 20,
                 "species": "SPECIES_GOLDEEN"
               },
               {
-                "min_level": 5,
+                "min_level": 20,
                 "max_level": 20,
                 "species": "SPECIES_GOLDEEN"
               },
               {
-                "min_level": 5,
+                "min_level": 40,
                 "max_level": 40,
                 "species": "SPECIES_MAGIKARP"
               },
               {
-                "min_level": 5,
+                "min_level": 40,
                 "max_level": 40,
                 "species": "SPECIES_GOLDEEN"
               },
               {
-                "min_level": 5,
+                "min_level": 40,
                 "max_level": 40,
                 "species": "SPECIES_GOLDEEN"
               },
               {
-                "min_level": 5,
+                "min_level": 40,
                 "max_level": 40,
                 "species": "SPECIES_MAGIKARP"
               },
               {
-                "min_level": 5,
+                "min_level": 40,
                 "max_level": 40,
                 "species": "SPECIES_MAGIKARP"
               }
