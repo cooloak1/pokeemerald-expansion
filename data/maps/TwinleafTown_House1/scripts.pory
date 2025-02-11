@@ -5,7 +5,7 @@ TwinleafTown_House1_MapScripts::
 script TwinleafTown_House1_Man_Text {
 	lockall
 	faceplayer
-	msgbox(format("I went on an adventure with some Pokemon a long time ago."))
+	msgbox(format("I went on an adventure with some Pokemon a long time ago.\p"))
 	msgbox(format("It was only to Sandgem, the next town over, though. Yeah, good times..."))
 	releaseall
 }
