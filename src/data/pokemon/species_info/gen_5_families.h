@@ -569,8 +569,8 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         )
         .levelUpLearnset = sDewottLevelUpLearnset,
         .teachableLearnset = sDewottTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_SAMUROTT},
-                                {EVO_NONE, 0, SPECIES_SAMUROTT_HISUI}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_SAMUROTT_HISUI},
+                                {EVO_NONE, 0, SPECIES_SAMUROTT}),
     },
 
     [SPECIES_SAMUROTT] =
@@ -3711,69 +3711,69 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
                                 {EVO_NONE, 0, SPECIES_LILLIGANT_HISUI}),
     },
 
-    [SPECIES_LILLIGANT] =
-    {
-        .baseHP        = 70,
-        .baseAttack    = 60,
-        .baseDefense   = 75,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 110,
-        .baseSpDefense = 75,
-        .types = MON_TYPES(TYPE_GRASS),
-        .catchRate = 75,
-        .expYield = 168,
-        .evYield_SpAttack = 2,
-        .itemRare = ITEM_ABSORB_BULB,
-        .genderRatio = MON_FEMALE,
-        .eggCycles = 20,
-        .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS),
-        .abilities = { ABILITY_CHLOROPHYLL, ABILITY_OWN_TEMPO, ABILITY_LEAF_GUARD },
-        .bodyColor = BODY_COLOR_GREEN,
-        .noFlip = TRUE,
-        .speciesName = _("Lilligant"),
-        .cryId = CRY_LILLIGANT,
-        .natDexNum = NATIONAL_DEX_LILLIGANT,
-        .categoryName = _("Flowering"),
-        .height = 11,
-        .weight = 163,
-        .description = COMPOUND_STRING(
-            "Even veteran Trainers face a challenge\n"
-            "in getting its beautiful flower to bloom.\n"
-            "It withers away if a trainer does not\n"
-            "take good care of it."),
-        .pokemonScale = 320,
-        .pokemonOffset = 7,
-        .trainerScale = 256,
-        .trainerOffset = 0,
-        .frontPic = gMonFrontPic_Lilligant,
-        .frontPicSize = MON_COORDS_SIZE(56, 64),
-        .frontPicYOffset = 1,
-        .frontAnimFrames = sAnims_Lilligant,
-        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
-        .backPic = gMonBackPic_Lilligant,
-        .backPicSize = MON_COORDS_SIZE(64, 56),
-        .backPicYOffset = 8,
-        .backAnimId = BACK_ANIM_SHRINK_GROW,
-        .palette = gMonPalette_Lilligant,
-        .shinyPalette = gMonShinyPalette_Lilligant,
-        .iconSprite = gMonIcon_Lilligant,
-        .iconPalIndex = 1,
-        SHADOW(-2, 13, SHADOW_SIZE_M)
-        FOOTPRINT(Lilligant)
-        OVERWORLD(
-            sPicTable_Lilligant,
-            SIZE_32x32,
-            SHADOW_SIZE_M,
-            TRACKS_FOOT,
-            gOverworldPalette_Lilligant,
-            gShinyOverworldPalette_Lilligant
-        )
-        .levelUpLearnset = sLilligantLevelUpLearnset,
-        .teachableLearnset = sLilligantTeachableLearnset,
-        .formSpeciesIdTable = sLilligantFormSpeciesIdTable,
-    },
+//    [SPECIES_LILLIGANT] =
+//    {
+//        .baseHP        = 70,
+//        .baseAttack    = 60,
+//        .baseDefense   = 75,
+//        .baseSpeed     = 90,
+//        .baseSpAttack  = 110,
+//        .baseSpDefense = 75,
+//        .types = MON_TYPES(TYPE_GRASS),
+//        .catchRate = 75,
+//        .expYield = 168,
+//        .evYield_SpAttack = 2,
+//        .itemRare = ITEM_ABSORB_BULB,
+//        .genderRatio = MON_FEMALE,
+//        .eggCycles = 20,
+//        .friendship = STANDARD_FRIENDSHIP,
+//        .growthRate = GROWTH_MEDIUM_FAST,
+//        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS),
+//        .abilities = { ABILITY_CHLOROPHYLL, ABILITY_OWN_TEMPO, ABILITY_LEAF_GUARD },
+//        .bodyColor = BODY_COLOR_GREEN,
+//        .noFlip = TRUE,
+//        .speciesName = _("Lilligant"),
+//        .cryId = CRY_LILLIGANT,
+//        .natDexNum = NATIONAL_DEX_LILLIGANT,
+//        .categoryName = _("Flowering"),
+//        .height = 11,
+//        .weight = 163,
+//        .description = COMPOUND_STRING(
+//            "Even veteran Trainers face a challenge\n"
+//            "in getting its beautiful flower to bloom.\n"
+//            "It withers away if a trainer does not\n"
+//            "take good care of it."),
+//        .pokemonScale = 320,
+//        .pokemonOffset = 7,
+//        .trainerScale = 256,
+//        .trainerOffset = 0,
+//        .frontPic = gMonFrontPic_Lilligant,
+//        .frontPicSize = MON_COORDS_SIZE(56, 64),
+//        .frontPicYOffset = 1,
+//        .frontAnimFrames = sAnims_Lilligant,
+//        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+//        .backPic = gMonBackPic_Lilligant,
+//        .backPicSize = MON_COORDS_SIZE(64, 56),
+//        .backPicYOffset = 8,
+//        .backAnimId = BACK_ANIM_SHRINK_GROW,
+//        .palette = gMonPalette_Lilligant,
+//        .shinyPalette = gMonShinyPalette_Lilligant,
+//        .iconSprite = gMonIcon_Lilligant,
+//        .iconPalIndex = 1,
+//        SHADOW(-2, 13, SHADOW_SIZE_M)
+//        FOOTPRINT(Lilligant)
+//        OVERWORLD(
+//            sPicTable_Lilligant,
+//            SIZE_32x32,
+//            SHADOW_SIZE_M,
+//            TRACKS_FOOT,
+//            gOverworldPalette_Lilligant,
+//            gShinyOverworldPalette_Lilligant
+//        )
+//        .levelUpLearnset = sLilligantLevelUpLearnset,
+//        .teachableLearnset = sLilligantTeachableLearnset,
+//        .formSpeciesIdTable = sLilligantFormSpeciesIdTable,
+//    },
 
 #if P_HISUIAN_FORMS
     [SPECIES_LILLIGANT_HISUI] =
@@ -3839,7 +3839,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sLilligantHisuiLevelUpLearnset,
         .teachableLearnset = sLilligantHisuiTeachableLearnset,
-        .formSpeciesIdTable = sLilligantFormSpeciesIdTable,
+//        .formSpeciesIdTable = sLilligantFormSpeciesIdTable,
     },
 #endif //P_HISUIAN_FORMS
 #endif //P_FAMILY_PETILIL
@@ -5889,7 +5889,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sZoruaLevelUpLearnset,
         .teachableLearnset = sZoruaTeachableLearnset,
         .eggMoveLearnset = sZoruaEggMoveLearnset,
-        .formSpeciesIdTable = sZoruaFormSpeciesIdTable,
+//        .formSpeciesIdTable = sZoruaFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_ZOROARK}),
     },
 
@@ -5952,7 +5952,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         )
         .levelUpLearnset = sZoroarkLevelUpLearnset,
         .teachableLearnset = sZoroarkTeachableLearnset,
-        .formSpeciesIdTable = sZoroarkFormSpeciesIdTable,
+//        .formSpeciesIdTable = sZoroarkFormSpeciesIdTable,
     },
 
 #if P_HISUIAN_FORMS
@@ -5977,7 +5977,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .bodyColor = BODY_COLOR_GRAY,
         .speciesName = _("Zorua"),
         .cryId = CRY_ZORUA,
-        .natDexNum = NATIONAL_DEX_ZORUA,
+        .natDexNum = NATIONAL_DEX_ZORUA_HISUIAN,
         .categoryName = _("Spiteful Fox"),
         .height = 7,
         .weight = 125,
@@ -6016,7 +6016,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sZoruaHisuiLevelUpLearnset,
         .teachableLearnset = sZoruaHisuiTeachableLearnset,
-        .formSpeciesIdTable = sZoruaFormSpeciesIdTable,
+//        .formSpeciesIdTable = sZoruaFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_ZOROARK_HISUI}),
     },
 
@@ -6041,7 +6041,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .bodyColor = BODY_COLOR_GRAY,
         .speciesName = _("Zoroark"),
         .cryId = CRY_ZOROARK,
-        .natDexNum = NATIONAL_DEX_ZOROARK,
+        .natDexNum = NATIONAL_DEX_ZOROARK_HISUIAN,
         .categoryName = _("Baneful Fox"),
         .height = 16,
         .weight = 730,
@@ -6080,7 +6080,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sZoroarkHisuiLevelUpLearnset,
         .teachableLearnset = sZoroarkHisuiTeachableLearnset,
-        .formSpeciesIdTable = sZoroarkFormSpeciesIdTable,
+//        .formSpeciesIdTable = sZoroarkFormSpeciesIdTable,
     },
 #endif //P_HISUIAN_FORMS
 #endif //P_FAMILY_ZORUA
@@ -10244,68 +10244,68 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
                                 {EVO_NONE, 0, SPECIES_BRAVIARY_HISUI}),
     },
 
-    [SPECIES_BRAVIARY] =
-    {
-        .baseHP        = 100,
-        .baseAttack    = 123,
-        .baseDefense   = 75,
-        .baseSpeed     = 80,
-        .baseSpAttack  = 57,
-        .baseSpDefense = 75,
-        .types = MON_TYPES(TYPE_NORMAL, TYPE_FLYING),
-        .catchRate = 60,
-        .expYield = 179,
-        .evYield_Attack = 2,
-        .genderRatio = MON_MALE,
-        .eggCycles = 20,
-        .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_SLOW,
-        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
-        .abilities = { ABILITY_KEEN_EYE, ABILITY_SHEER_FORCE, ABILITY_DEFIANT },
-        .bodyColor = BODY_COLOR_RED,
-        .speciesName = _("Braviary"),
-        .cryId = CRY_BRAVIARY,
-        .natDexNum = NATIONAL_DEX_BRAVIARY,
-        .categoryName = _("Valiant"),
-        .height = 15,
-        .weight = 410,
-        .description = COMPOUND_STRING(
-            "For the sake of its friends, this brave\n"
-            "warrior of the sky will not stop battling,\n"
-            "even if it is injured. One can carry a car\n"
-            "while flying."),
-        .pokemonScale = 268,
-        .pokemonOffset = 2,
-        .trainerScale = 271,
-        .trainerOffset = 0,
-        .frontPic = gMonFrontPic_Braviary,
-        .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 1,
-        .frontAnimFrames = sAnims_Braviary,
-        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
-        .enemyMonElevation = 6,
-        .backPic = gMonBackPic_Braviary,
-        .backPicSize = MON_COORDS_SIZE(64, 48),
-        .backPicYOffset = 10,
-        .backAnimId = BACK_ANIM_TRIANGLE_DOWN,
-        .palette = gMonPalette_Braviary,
-        .shinyPalette = gMonShinyPalette_Braviary,
-        .iconSprite = gMonIcon_Braviary,
-        .iconPalIndex = 0,
-        SHADOW(-1, 16, SHADOW_SIZE_M)
-        FOOTPRINT(Braviary)
-        OVERWORLD(
-            sPicTable_Braviary,
-            SIZE_32x32,
-            SHADOW_SIZE_M,
-            TRACKS_FOOT,
-            gOverworldPalette_Braviary,
-            gShinyOverworldPalette_Braviary
-        )
-        .levelUpLearnset = sBraviaryLevelUpLearnset,
-        .teachableLearnset = sBraviaryTeachableLearnset,
-        .formSpeciesIdTable = sBraviaryFormSpeciesIdTable,
-    },
+//    [SPECIES_BRAVIARY] =
+//    {
+//        .baseHP        = 100,
+//        .baseAttack    = 123,
+//        .baseDefense   = 75,
+//        .baseSpeed     = 80,
+//        .baseSpAttack  = 57,
+//        .baseSpDefense = 75,
+//        .types = MON_TYPES(TYPE_NORMAL, TYPE_FLYING),
+//        .catchRate = 60,
+//        .expYield = 179,
+//        .evYield_Attack = 2,
+//        .genderRatio = MON_MALE,
+//        .eggCycles = 20,
+//        .friendship = STANDARD_FRIENDSHIP,
+//        .growthRate = GROWTH_SLOW,
+//        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
+//        .abilities = { ABILITY_KEEN_EYE, ABILITY_SHEER_FORCE, ABILITY_DEFIANT },
+//        .bodyColor = BODY_COLOR_RED,
+//        .speciesName = _("Braviary"),
+//        .cryId = CRY_BRAVIARY,
+//        .natDexNum = NATIONAL_DEX_BRAVIARY,
+//        .categoryName = _("Valiant"),
+//        .height = 15,
+//        .weight = 410,
+//        .description = COMPOUND_STRING(
+//            "For the sake of its friends, this brave\n"
+//            "warrior of the sky will not stop battling,\n"
+//            "even if it is injured. One can carry a car\n"
+//            "while flying."),
+//        .pokemonScale = 268,
+//        .pokemonOffset = 2,
+//        .trainerScale = 271,
+//        .trainerOffset = 0,
+//        .frontPic = gMonFrontPic_Braviary,
+//        .frontPicSize = MON_COORDS_SIZE(64, 64),
+//        .frontPicYOffset = 1,
+//        .frontAnimFrames = sAnims_Braviary,
+//        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+//        .enemyMonElevation = 6,
+//        .backPic = gMonBackPic_Braviary,
+//        .backPicSize = MON_COORDS_SIZE(64, 48),
+//        .backPicYOffset = 10,
+//        .backAnimId = BACK_ANIM_TRIANGLE_DOWN,
+//        .palette = gMonPalette_Braviary,
+//        .shinyPalette = gMonShinyPalette_Braviary,
+//        .iconSprite = gMonIcon_Braviary,
+//        .iconPalIndex = 0,
+//        SHADOW(-1, 16, SHADOW_SIZE_M)
+//        FOOTPRINT(Braviary)
+//        OVERWORLD(
+//            sPicTable_Braviary,
+//            SIZE_32x32,
+//            SHADOW_SIZE_M,
+//            TRACKS_FOOT,
+//            gOverworldPalette_Braviary,
+//            gShinyOverworldPalette_Braviary
+//        )
+//        .levelUpLearnset = sBraviaryLevelUpLearnset,
+//        .teachableLearnset = sBraviaryTeachableLearnset,
+//        .formSpeciesIdTable = sBraviaryFormSpeciesIdTable,
+//    },
 
 #if P_HISUIAN_FORMS
     [SPECIES_BRAVIARY_HISUI] =
@@ -10368,7 +10368,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sBraviaryHisuiLevelUpLearnset,
         .teachableLearnset = sBraviaryHisuiTeachableLearnset,
-        .formSpeciesIdTable = sBraviaryFormSpeciesIdTable,
+//        .formSpeciesIdTable = sBraviaryFormSpeciesIdTable,
     },
 #endif //P_HISUIAN_FORMS
 #endif //P_FAMILY_RUFFLET
