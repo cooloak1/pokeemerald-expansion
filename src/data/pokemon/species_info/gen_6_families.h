@@ -4054,136 +4054,136 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sGoomyLevelUpLearnset,
         .teachableLearnset = sGoomyTeachableLearnset,
         .eggMoveLearnset = sGoomyEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_SLIGGOO},
-                                {EVO_NONE, 0, SPECIES_SLIGGOO_HISUI}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_SLIGGOO_HISUI},
+                                {EVO_NONE, 0, SPECIES_SLIGGOO}),
     },
 
-    [SPECIES_SLIGGOO] =
-    {
-        .baseHP        = 68,
-        .baseAttack    = 75,
-        .baseDefense   = 53,
-        .baseSpeed     = 60,
-        .baseSpAttack  = 83,
-        .baseSpDefense = 113,
-        .types = MON_TYPES(TYPE_DRAGON),
-        .catchRate = 45,
-        .expYield = 158,
-        .evYield_SpDefense = 2,
-        .itemRare = ITEM_SHED_SHELL,
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 40,
-        .friendship = 35,
-        .growthRate = GROWTH_SLOW,
-        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_DRAGON),
-        .abilities = { ABILITY_SAP_SIPPER, ABILITY_HYDRATION, ABILITY_GOOEY },
-        .bodyColor = BODY_COLOR_PURPLE,
-        .speciesName = _("Sliggoo"),
-        .cryId = CRY_SLIGGOO,
-        .natDexNum = NATIONAL_DEX_SLIGGOO,
-        .categoryName = _("Soft Tissue"),
-        .height = 8,
-        .weight = 175,
-        .description = COMPOUND_STRING(
-            "This Pokémon's mucous can dissolve\n"
-            "anything. Toothless, it sprays mucous\n"
-            "on its prey. Once they're nicely dissolved,\n"
-            "it slurps them up."),
-        .pokemonScale = 366,
-        .pokemonOffset = 7,
-        .trainerScale = 257,
-        .trainerOffset = 0,
-        .frontPic = gMonFrontPic_Sliggoo,
-        .frontPicSize = MON_COORDS_SIZE(32, 64),
-        .frontPicYOffset = 6,
-        .frontAnimFrames = sAnims_Sliggoo,
-        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
-        .backPic = gMonBackPic_Sliggoo,
-        .backPicSize = MON_COORDS_SIZE(48, 64),
-        .backPicYOffset = 0,
-        .backAnimId = BACK_ANIM_SHRINK_GROW,
-        .palette = gMonPalette_Sliggoo,
-        .shinyPalette = gMonShinyPalette_Sliggoo,
-        .iconSprite = gMonIcon_Sliggoo,
-        .iconPalIndex = 5,
-        SHADOW(1, 6, SHADOW_SIZE_S)
-        FOOTPRINT(Sliggoo)
-        OVERWORLD(
-            sPicTable_Sliggoo,
-            SIZE_32x32,
-            SHADOW_SIZE_M,
-            TRACKS_FOOT,
-            gOverworldPalette_Sliggoo,
-            gShinyOverworldPalette_Sliggoo
-        )
-        .levelUpLearnset = sSliggooLevelUpLearnset,
-        .teachableLearnset = sSliggooTeachableLearnset,
-        .formSpeciesIdTable = sSliggooFormSpeciesIdTable,
-        .evolutions = EVOLUTION({EVO_LEVEL_RAIN, 50, SPECIES_GOODRA},
-                                {EVO_LEVEL_FOG, 50, SPECIES_GOODRA}),
-    },
+//    [SPECIES_SLIGGOO] =
+//    {
+//        .baseHP        = 68,
+//        .baseAttack    = 75,
+//        .baseDefense   = 53,
+//        .baseSpeed     = 60,
+//        .baseSpAttack  = 83,
+//        .baseSpDefense = 113,
+//        .types = MON_TYPES(TYPE_DRAGON),
+//        .catchRate = 45,
+//        .expYield = 158,
+//        .evYield_SpDefense = 2,
+//        .itemRare = ITEM_SHED_SHELL,
+//        .genderRatio = PERCENT_FEMALE(50),
+//        .eggCycles = 40,
+//        .friendship = 35,
+//        .growthRate = GROWTH_SLOW,
+//        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_DRAGON),
+//        .abilities = { ABILITY_SAP_SIPPER, ABILITY_HYDRATION, ABILITY_GOOEY },
+//        .bodyColor = BODY_COLOR_PURPLE,
+//        .speciesName = _("Sliggoo"),
+//        .cryId = CRY_SLIGGOO,
+//        .natDexNum = NATIONAL_DEX_SLIGGOO,
+//        .categoryName = _("Soft Tissue"),
+//        .height = 8,
+//        .weight = 175,
+//        .description = COMPOUND_STRING(
+//            "This Pokémon's mucous can dissolve\n"
+//            "anything. Toothless, it sprays mucous\n"
+//            "on its prey. Once they're nicely dissolved,\n"
+//            "it slurps them up."),
+//        .pokemonScale = 366,
+//        .pokemonOffset = 7,
+//        .trainerScale = 257,
+//        .trainerOffset = 0,
+//        .frontPic = gMonFrontPic_Sliggoo,
+//        .frontPicSize = MON_COORDS_SIZE(32, 64),
+//        .frontPicYOffset = 6,
+//        .frontAnimFrames = sAnims_Sliggoo,
+//        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+//        .backPic = gMonBackPic_Sliggoo,
+//        .backPicSize = MON_COORDS_SIZE(48, 64),
+//        .backPicYOffset = 0,
+//        .backAnimId = BACK_ANIM_SHRINK_GROW,
+//        .palette = gMonPalette_Sliggoo,
+//        .shinyPalette = gMonShinyPalette_Sliggoo,
+//        .iconSprite = gMonIcon_Sliggoo,
+//        .iconPalIndex = 5,
+//        SHADOW(1, 6, SHADOW_SIZE_S)
+//        FOOTPRINT(Sliggoo)
+//        OVERWORLD(
+//            sPicTable_Sliggoo,
+//            SIZE_32x32,
+//            SHADOW_SIZE_M,
+//            TRACKS_FOOT,
+//            gOverworldPalette_Sliggoo,
+//            gShinyOverworldPalette_Sliggoo
+//        )
+//        .levelUpLearnset = sSliggooLevelUpLearnset,
+//        .teachableLearnset = sSliggooTeachableLearnset,
+//        .formSpeciesIdTable = sSliggooFormSpeciesIdTable,
+//        .evolutions = EVOLUTION({EVO_LEVEL_RAIN, 50, SPECIES_GOODRA},
+//                                {EVO_LEVEL_FOG, 50, SPECIES_GOODRA}),
+//    },
 
-    [SPECIES_GOODRA] =
-    {
-        .baseHP        = 90,
-        .baseAttack    = 100,
-        .baseDefense   = 70,
-        .baseSpeed     = 80,
-        .baseSpAttack  = 110,
-        .baseSpDefense = 150,
-        .types = MON_TYPES(TYPE_DRAGON),
-        .catchRate = 45,
-        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_8) ? 300 : 270,
-        .evYield_SpDefense = 3,
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 40,
-        .friendship = 35,
-        .growthRate = GROWTH_SLOW,
-        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_DRAGON),
-        .abilities = { ABILITY_SAP_SIPPER, ABILITY_HYDRATION, ABILITY_GOOEY },
-        .bodyColor = BODY_COLOR_PURPLE,
-        .speciesName = _("Goodra"),
-        .cryId = CRY_GOODRA,
-        .natDexNum = NATIONAL_DEX_GOODRA,
-        .categoryName = _("Dragon"),
-        .height = 20,
-        .weight = 1505,
-        .description = COMPOUND_STRING(
-            "It gets picked on because it's meek.\n"
-            "But then, whoever teased it gets to feel\n"
-            "the full force of its horns and a good\n"
-            "swatting from its thick tail."),
-        .pokemonScale = 261,
-        .pokemonOffset = 1,
-        .trainerScale = 334,
-        .trainerOffset = 4,
-        .frontPic = gMonFrontPic_Goodra,
-        .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
-        .frontAnimFrames = sAnims_Goodra,
-        .frontAnimId = ANIM_V_SHAKE,
-        .backPic = gMonBackPic_Goodra,
-        .backPicSize = MON_COORDS_SIZE(64, 64),
-        .backPicYOffset = 0,
-        .backAnimId = BACK_ANIM_SHRINK_GROW,
-        .palette = gMonPalette_Goodra,
-        .shinyPalette = gMonShinyPalette_Goodra,
-        .iconSprite = gMonIcon_Goodra,
-        .iconPalIndex = 5,
-        SHADOW(-2, 14, SHADOW_SIZE_M)
-        FOOTPRINT(Goodra)
-        OVERWORLD(
-            sPicTable_Goodra,
-            SIZE_32x32,
-            SHADOW_SIZE_M,
-            TRACKS_FOOT,
-            gOverworldPalette_Goodra,
-            gShinyOverworldPalette_Goodra
-        )
-        .levelUpLearnset = sGoodraLevelUpLearnset,
-        .teachableLearnset = sGoodraTeachableLearnset,
-        .formSpeciesIdTable = sGoodraFormSpeciesIdTable,
-    },
+//    [SPECIES_GOODRA] =
+//    {
+//        .baseHP        = 90,
+//        .baseAttack    = 100,
+//        .baseDefense   = 70,
+//        .baseSpeed     = 80,
+//        .baseSpAttack  = 110,
+//        .baseSpDefense = 150,
+//        .types = MON_TYPES(TYPE_DRAGON),
+//        .catchRate = 45,
+//        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_8) ? 300 : 270,
+//        .evYield_SpDefense = 3,
+//        .genderRatio = PERCENT_FEMALE(50),
+//        .eggCycles = 40,
+//        .friendship = 35,
+//        .growthRate = GROWTH_SLOW,
+//        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_DRAGON),
+//        .abilities = { ABILITY_SAP_SIPPER, ABILITY_HYDRATION, ABILITY_GOOEY },
+//        .bodyColor = BODY_COLOR_PURPLE,
+//        .speciesName = _("Goodra"),
+//        .cryId = CRY_GOODRA,
+//        .natDexNum = NATIONAL_DEX_GOODRA,
+//        .categoryName = _("Dragon"),
+//        .height = 20,
+//        .weight = 1505,
+//        .description = COMPOUND_STRING(
+//            "It gets picked on because it's meek.\n"
+//            "But then, whoever teased it gets to feel\n"
+//            "the full force of its horns and a good\n"
+//            "swatting from its thick tail."),
+//        .pokemonScale = 261,
+//        .pokemonOffset = 1,
+//        .trainerScale = 334,
+//        .trainerOffset = 4,
+//        .frontPic = gMonFrontPic_Goodra,
+//        .frontPicSize = MON_COORDS_SIZE(64, 64),
+//        .frontPicYOffset = 0,
+//        .frontAnimFrames = sAnims_Goodra,
+//        .frontAnimId = ANIM_V_SHAKE,
+//        .backPic = gMonBackPic_Goodra,
+//        .backPicSize = MON_COORDS_SIZE(64, 64),
+//        .backPicYOffset = 0,
+//        .backAnimId = BACK_ANIM_SHRINK_GROW,
+//        .palette = gMonPalette_Goodra,
+//        .shinyPalette = gMonShinyPalette_Goodra,
+//        .iconSprite = gMonIcon_Goodra,
+//        .iconPalIndex = 5,
+//        SHADOW(-2, 14, SHADOW_SIZE_M)
+//        FOOTPRINT(Goodra)
+//        OVERWORLD(
+//            sPicTable_Goodra,
+//            SIZE_32x32,
+//            SHADOW_SIZE_M,
+//            TRACKS_FOOT,
+//            gOverworldPalette_Goodra,
+//            gShinyOverworldPalette_Goodra
+//        )
+//        .levelUpLearnset = sGoodraLevelUpLearnset,
+//        .teachableLearnset = sGoodraTeachableLearnset,
+//        .formSpeciesIdTable = sGoodraFormSpeciesIdTable,
+//    },
 
 #if P_HISUIAN_FORMS
     [SPECIES_SLIGGOO_HISUI] =
@@ -4247,7 +4247,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sSliggooHisuiLevelUpLearnset,
         .teachableLearnset = sSliggooHisuiTeachableLearnset,
-        .formSpeciesIdTable = sSliggooFormSpeciesIdTable,
+//        .formSpeciesIdTable = sSliggooFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL_RAIN, 50, SPECIES_GOODRA_HISUI},
                                 {EVO_LEVEL_FOG, 50, SPECIES_GOODRA_HISUI}),
     },
@@ -4312,7 +4312,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sGoodraHisuiLevelUpLearnset,
         .teachableLearnset = sGoodraHisuiTeachableLearnset,
-        .formSpeciesIdTable = sGoodraFormSpeciesIdTable,
+//        .formSpeciesIdTable = sGoodraFormSpeciesIdTable,
     },
 #endif //P_HISUIAN_FORMS
 #endif //P_FAMILY_GOOMY
@@ -5093,67 +5093,67 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
                                 {EVO_NONE, 0, SPECIES_AVALUGG_HISUI}),
     },
 
-    [SPECIES_AVALUGG] =
-    {
-        .baseHP        = 95,
-        .baseAttack    = 117,
-        .baseDefense   = 184,
-        .baseSpeed     = 28,
-        .baseSpAttack  = 44,
-        .baseSpDefense = 46,
-        .types = MON_TYPES(TYPE_ICE),
-        .catchRate = 55,
-        .expYield = 180,
-        .evYield_Defense = 2,
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 20,
-        .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroups = BERGMITE_EGG_GROUPS,
-        .abilities = { ABILITY_OWN_TEMPO, ABILITY_ICE_BODY, ABILITY_STURDY },
-        .bodyColor = BODY_COLOR_BLUE,
-        .speciesName = _("Avalugg"),
-        .cryId = CRY_AVALUGG,
-        .natDexNum = NATIONAL_DEX_AVALUGG,
-        .categoryName = _("Iceberg"),
-        .height = 20,
-        .weight = 5050,
-        .description = COMPOUND_STRING(
-            "The way several Bergmite huddle on its\n"
-            "back make it look like an aircraft carrier\n"
-            "made of ice. Its cumbersome frame crushes\n"
-            "anything that stands in its way."),
-        .pokemonScale = 261,
-        .pokemonOffset = 1,
-        .trainerScale = 334,
-        .trainerOffset = 4,
-        .frontPic = gMonFrontPic_Avalugg,
-        .frontPicSize = MON_COORDS_SIZE(64, 56),
-        .frontPicYOffset = 4,
-        .frontAnimFrames = sAnims_Avalugg,
-        .frontAnimId = ANIM_V_SHAKE,
-        .backPic = gMonBackPic_Avalugg,
-        .backPicSize = MON_COORDS_SIZE(64, 40),
-        .backPicYOffset = 12,
-        .backAnimId = BACK_ANIM_V_SHAKE_LOW,
-        .palette = gMonPalette_Avalugg,
-        .shinyPalette = gMonShinyPalette_Avalugg,
-        .iconSprite = gMonIcon_Avalugg,
-        .iconPalIndex = 0,
-        SHADOW(1, -1, SHADOW_SIZE_XL_BATTLE_ONLY)
-        FOOTPRINT(Avalugg)
-        OVERWORLD(
-            sPicTable_Avalugg,
-            SIZE_32x32,
-            SHADOW_SIZE_M,
-            TRACKS_FOOT,
-            gOverworldPalette_Avalugg,
-            gShinyOverworldPalette_Avalugg
-        )
-        .levelUpLearnset = sAvaluggLevelUpLearnset,
-        .teachableLearnset = sAvaluggTeachableLearnset,
-        .formSpeciesIdTable = sAvaluggFormSpeciesIdTable,
-    },
+//    [SPECIES_AVALUGG] =
+//    {
+//        .baseHP        = 95,
+//        .baseAttack    = 117,
+//        .baseDefense   = 184,
+//        .baseSpeed     = 28,
+//        .baseSpAttack  = 44,
+//        .baseSpDefense = 46,
+//        .types = MON_TYPES(TYPE_ICE),
+//        .catchRate = 55,
+//        .expYield = 180,
+//        .evYield_Defense = 2,
+//        .genderRatio = PERCENT_FEMALE(50),
+//        .eggCycles = 20,
+//        .friendship = STANDARD_FRIENDSHIP,
+//        .growthRate = GROWTH_MEDIUM_FAST,
+//        .eggGroups = BERGMITE_EGG_GROUPS,
+//        .abilities = { ABILITY_OWN_TEMPO, ABILITY_ICE_BODY, ABILITY_STURDY },
+//        .bodyColor = BODY_COLOR_BLUE,
+//        .speciesName = _("Avalugg"),
+//        .cryId = CRY_AVALUGG,
+//        .natDexNum = NATIONAL_DEX_AVALUGG,
+//        .categoryName = _("Iceberg"),
+//        .height = 20,
+//        .weight = 5050,
+//        .description = COMPOUND_STRING(
+//            "The way several Bergmite huddle on its\n"
+//            "back make it look like an aircraft carrier\n"
+//            "made of ice. Its cumbersome frame crushes\n"
+//            "anything that stands in its way."),
+//        .pokemonScale = 261,
+//        .pokemonOffset = 1,
+//        .trainerScale = 334,
+//        .trainerOffset = 4,
+//        .frontPic = gMonFrontPic_Avalugg,
+//        .frontPicSize = MON_COORDS_SIZE(64, 56),
+//        .frontPicYOffset = 4,
+//        .frontAnimFrames = sAnims_Avalugg,
+//        .frontAnimId = ANIM_V_SHAKE,
+//        .backPic = gMonBackPic_Avalugg,
+//        .backPicSize = MON_COORDS_SIZE(64, 40),
+//        .backPicYOffset = 12,
+//        .backAnimId = BACK_ANIM_V_SHAKE_LOW,
+//        .palette = gMonPalette_Avalugg,
+//        .shinyPalette = gMonShinyPalette_Avalugg,
+//        .iconSprite = gMonIcon_Avalugg,
+//        .iconPalIndex = 0,
+//        SHADOW(1, -1, SHADOW_SIZE_XL_BATTLE_ONLY)
+//        FOOTPRINT(Avalugg)
+//        OVERWORLD(
+//            sPicTable_Avalugg,
+//            SIZE_32x32,
+//            SHADOW_SIZE_M,
+//            TRACKS_FOOT,
+//            gOverworldPalette_Avalugg,
+//            gShinyOverworldPalette_Avalugg
+//        )
+//        .levelUpLearnset = sAvaluggLevelUpLearnset,
+//        .teachableLearnset = sAvaluggTeachableLearnset,
+//        .formSpeciesIdTable = sAvaluggFormSpeciesIdTable,
+//    },
 
 #if P_HISUIAN_FORMS
     [SPECIES_AVALUGG_HISUI] =
@@ -5215,7 +5215,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sAvaluggHisuiLevelUpLearnset,
         .teachableLearnset = sAvaluggHisuiTeachableLearnset,
-        .formSpeciesIdTable = sAvaluggFormSpeciesIdTable,
+//        .formSpeciesIdTable = sAvaluggFormSpeciesIdTable,
     },
 #endif //P_HISUIAN_FORMS
 #endif //P_FAMILY_BERGMITE

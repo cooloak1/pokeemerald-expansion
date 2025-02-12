@@ -632,7 +632,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         )
         .levelUpLearnset = sSamurottLevelUpLearnset,
         .teachableLearnset = sSamurottTeachableLearnset,
-        .formSpeciesIdTable = sSamurottFormSpeciesIdTable,
+//        .formSpeciesIdTable = sSamurottFormSpeciesIdTable,
     },
 
 #if P_HISUIAN_FORMS
@@ -657,7 +657,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Samurott"),
         .cryId = CRY_SAMUROTT,
-        .natDexNum = NATIONAL_DEX_SAMUROTT,
+        .natDexNum = NATIONAL_DEX_SAMUROTT_HISUIAN,
         .categoryName = _("Formidable"),
         .height = 15,
         .weight = 582,
@@ -696,7 +696,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sSamurottHisuiLevelUpLearnset,
         .teachableLearnset = sSamurottHisuiTeachableLearnset,
-        .formSpeciesIdTable = sSamurottFormSpeciesIdTable,
+//        .formSpeciesIdTable = sSamurottFormSpeciesIdTable,
     },
 #endif //P_HISUIAN_FORMS
 #endif //P_FAMILY_OSHAWOTT

@@ -190,7 +190,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         )
         .levelUpLearnset = sDecidueyeLevelUpLearnset,
         .teachableLearnset = sDecidueyeTeachableLearnset,
-        .formSpeciesIdTable = sDecidueyeFormSpeciesIdTable,
+//        .formSpeciesIdTable = sDecidueyeFormSpeciesIdTable,
     },
 
 #if P_HISUIAN_FORMS
@@ -215,7 +215,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Decidueye"),
         .cryId = CRY_DECIDUEYE,
-        .natDexNum = NATIONAL_DEX_DECIDUEYE,
+        .natDexNum = NATIONAL_DEX_DECIDUEYE_HISUIAN,
         .categoryName = _("Arrow Quill"),
         .height = 16,
         .weight = 370,
@@ -254,7 +254,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sDecidueyeHisuiLevelUpLearnset,
         .teachableLearnset = sDecidueyeHisuiTeachableLearnset,
-        .formSpeciesIdTable = sDecidueyeFormSpeciesIdTable,
+//        .formSpeciesIdTable = sDecidueyeFormSpeciesIdTable,
     },
 #endif //P_HISUIAN_FORMS
 #endif //P_FAMILY_ROWLET
