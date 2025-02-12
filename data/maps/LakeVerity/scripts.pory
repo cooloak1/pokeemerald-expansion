@@ -7,3 +7,7 @@ script LakeVerity_Sign{
 	end
 }
 
+raw `
+LakeVerity_MapScripts::
+	.byte 0
+`

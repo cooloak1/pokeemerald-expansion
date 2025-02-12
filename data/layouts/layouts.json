@@ -4434,8 +4434,8 @@
     {
       "id": "LAYOUT_LAKE_VERITY",
       "name": "LakeVerity_Layout",
-      "width": 48,
-      "height": 38,
+      "width": 46,
+      "height": 34,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Sandgem",
       "border_filepath": "data/layouts/LakeVerity/border.bin",
@@ -4540,6 +4540,16 @@
       "secondary_tileset": "gTileset_Sinnoh_Cave",
       "border_filepath": "data/layouts/AcuityCavern/border.bin",
       "blockdata_filepath": "data/layouts/AcuityCavern/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE219",
+      "name": "Route219_Layout",
+      "width": 28,
+      "height": 28,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Sandgem",
+      "border_filepath": "data/layouts/Route219/border.bin",
+      "blockdata_filepath": "data/layouts/Route219/map.bin"
     }
   ]
 }

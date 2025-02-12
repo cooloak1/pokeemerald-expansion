@@ -1177,3 +1177,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/ValorCavern/scripts.inc"
 
 	.include "data/maps/AcuityCavern/scripts.inc"
+
+	.include "data/maps/Route219/scripts.inc"
