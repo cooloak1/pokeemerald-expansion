@@ -1164,19 +1164,19 @@ static const u16 sAudinoFormSpeciesIdTable[] = {
 
 #if P_FAMILY_PETILIL
 static const u16 sLilligantFormSpeciesIdTable[] = {
-//    SPECIES_LILLIGANT,
 #if P_HISUIAN_FORMS
     SPECIES_LILLIGANT_HISUI,
 #endif
+    SPECIES_LILLIGANT,
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_PETILIL
 
 #if P_FAMILY_BASCULIN
 static const u16 sBasculinFormSpeciesIdTable[] = {
+    SPECIES_BASCULIN_WHITE_STRIPED,
     SPECIES_BASCULIN_RED_STRIPED,
     SPECIES_BASCULIN_BLUE_STRIPED,
-    SPECIES_BASCULIN_WHITE_STRIPED,
     FORM_SPECIES_END,
 };
 
@@ -1275,10 +1275,10 @@ static const u16 sStunfiskFormSpeciesIdTable[] = {
 
 #if P_FAMILY_RUFFLET
 static const u16 sBraviaryFormSpeciesIdTable[] = {
-//    SPECIES_BRAVIARY,
 #if P_HISUIAN_FORMS
     SPECIES_BRAVIARY_HISUI,
 #endif
+    SPECIES_BRAVIARY,
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_RUFFLET

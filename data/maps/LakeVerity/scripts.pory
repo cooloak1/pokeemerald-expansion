@@ -1,4 +1,9 @@
-raw `
-LakeVerity_MapScripts::
-	.byte 0
-`
+script LakeVerity_Sign{
+	lock
+	msgbox(format("Lake Verity Ahead/p"))
+	msgbox(format("According to legend, this lake is home to the Pokemon said to be “The Being of Emotion.”/p"))
+	msgbox(format("It is because of this Pokemon that people can experience sorrow and joy."))
+	release
+	end
+}
+
