@@ -2,3 +2,85 @@ raw `
 Route201_MapScripts::
 	.byte 0
 `
+script Route201_EventScript_NPC1 {
+	lock
+	faceplayer
+	msgbox(Route201_Text_NPC1, MSGBOX_NPC)
+	release
+	end
+}
+
+script Route201_EventScript_NPC2 {
+	msgbox(Route201_Text_NPC2, MSGBOX_NPC)
+	end
+}
+
+script Route201_EventScript_NPC3 {
+	msgbox(Route201_Text_NPC3, MSGBOX_NPC)
+}
+
+script Route201_EventScript_PokemartLady {
+	if (!var(FLAG_RECEIVED_POTION_ROUTE_201)) {
+		msgbox(Route201_Text_PokemartLady, MSGBOX_NPC)
+		giveitem(ITEM_POTION)
+		if (!var(VAR_RESULT)) {
+			goto(Common_EventScript_BagIsFull)
+		}
+		else {
+			setflag(FLAG_RECEIVED_POTION_ROUTE_201)
+		}
+	}
+	else {
+		msgbox(Route201_Text_PokemartLady_AlreadyGaveItem)
+	}
+	release
+	end
+}
+
+script Route201_EventScript_RouteSignTwinleaf {
+	msgbox(Route201_Text_RouteSignTwinleaf, MSGBOX_SIGN)
+}
+
+script Route201_EventScript_RouteSignSandgem {
+	msgbox(Route201_Text_RouteSignSandgem, MSGBOX_SIGN)
+}
+
+script Route201_EventScript_TrainerTipsSign {
+	msgbox(Route201_Text_TrainerTipsSign, MSGBOX_SIGN)
+}
+
+text Route201_Text_NPC1 {
+	format("Wild Pokemon lurk in tall grass. They can come bursting out at any time.\pSo, if you're wanting to battle wild Pokemon, just walk in tall grass.\pIf you want to avoid wild Pokemon, then stay out of the tall grass.")
+}
+
+text Route201_Text_NPC2 {
+	format("If your Pokemon's health--that's its HP--is getting low, you should go to a Pokemon Center!")
+}
+
+text Route201_Text_PokemartLady {
+	format("Hi!\nI work at a Pokemon Mart.\pDid you know that a Pokemon's health is measured by Hit Points (HP)?\pIf a Pokemon runs out of HP, it faints and can't battle anymore.\pIf a Pokemon's HP gets low, you should heal it with a Potion.\pHere, let me give you a Potion as a free sample. First one's free!\pIt will automatically go in the Items Pocket of your bag.")
+}
+
+text Route201_Text_PokemartLady_OutOfSpace {
+	format("Oops! You don't have enough space in your bag!")
+}
+
+text Route201_Text_TrainerTipsSign {
+	format("Trainer Tips!\pDon't be shy! Talk to anyone and everyone you happen to see.\pBy talking to people, you will get invaluable information and advice.")
+}
+
+text Route201_Text_RouteSignSandgem {
+	format("Route 201\n{RIGHT_ARROW} Sandgem Town")
+}
+
+text Route201_Text_NPC3 {
+	format("That ledge is one way. Jump down for a shortcut to Twinleaf Town!")
+}
+
+text Route201_Text_RouteSignTwinleaf {
+	format("Route 201\n{DOWN_ARROW} Twinleaf Town")
+}
+
+text Route201_Text_PokemartLady_AlreadyGaveItem {
+	format("You can find a Pokemon Mart in cities and most major towns.")
+}

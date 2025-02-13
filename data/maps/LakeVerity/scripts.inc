@@ -21,13 +21,15 @@ LakeVerity_MapScripts::
 
 LakeVerity_Sign_Text_0:
 # 3 "data/maps/LakeVerity/scripts.pory"
-	.string "Lake Verity Ahead/p$"
+	.string "Lake Verity Ahead\p"
+	.string "$"
 
 LakeVerity_Sign_Text_1:
 # 4 "data/maps/LakeVerity/scripts.pory"
 	.string "According to legend, this lake is home\n"
 	.string "to the Pokemon said to be “The Being of\l"
-	.string "Emotion.”/p$"
+	.string "Emotion.”\p"
+	.string "$"
 
 LakeVerity_Sign_Text_2:
 # 5 "data/maps/LakeVerity/scripts.pory"

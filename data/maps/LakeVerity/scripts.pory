@@ -1,13 +1,13 @@
-script LakeVerity_Sign{
-	lock
-	msgbox(format("Lake Verity Ahead/p"))
-	msgbox(format("According to legend, this lake is home to the Pokemon said to be “The Being of Emotion.”/p"))
-	msgbox(format("It is because of this Pokemon that people can experience sorrow and joy."))
-	release
-	end
-}
-
 raw `
 LakeVerity_MapScripts::
 	.byte 0
 `
+
+script LakeVerity_EventScript_Sign{
+	msgbox(LakeVerity_Text_Sign, MSGBOX_SIGN)
+	end
+}
+
+text LakeVerity_Text_Sign {
+	format("Lake Verity Ahead\pAccording to legend, this lake is home to the Pokemon said to be “The Being of Emotion.”\pIt is because of this Pokemon that people can experience sorrow and joy.")
+}

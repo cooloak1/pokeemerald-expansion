@@ -4554,12 +4554,22 @@
     {
       "id": "LAYOUT_ROUTE220",
       "name": "Route220_Layout",
-      "width": 56,
+      "width": 80,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Sandgem",
       "border_filepath": "data/layouts/Route220/border.bin",
       "blockdata_filepath": "data/layouts/Route220/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE221",
+      "name": "Route221_Layout",
+      "width": 66,
+      "height": 30,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Sandgem",
+      "border_filepath": "data/layouts/Route221/border.bin",
+      "blockdata_filepath": "data/layouts/Route221/map.bin"
     }
   ]
 }

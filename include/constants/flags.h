@@ -151,7 +151,7 @@
 #define FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN  0x81
 #define FLAG_DEFEATED_RIVAL_ROUTE103         0x82
 #define FLAG_RECEIVED_DOLL_LANETTE           0x83
-#define FLAG_RECEIVED_POTION_OLDALE          0x84
+#define FLAG_RECEIVED_POTION_ROUTE_201       0x84 // repurposed for route 201 mart employee instead of oldale
 #define FLAG_RECEIVED_AMULET_COIN            0x85
 #define FLAG_PENDING_DAYCARE_EGG             0x86
 #define FLAG_THANKED_FOR_PLAYING_WITH_WALLY  0x87
@@ -516,7 +516,7 @@
 #define FLAG_DEFEATED_HO_OH                  0x1DC
 #define FLAG_DEFEATED_LUGIA                  0x1DD
 
-#define FLAG_DEBUG_PAUSE_TIME                0x1DE 
+#define FLAG_UNUSED_0x1DE                    0x1DE 
 #define FLAG_DEBUG_NO_ENCOUNTER              0x1DF 
 #define FLAG_DEBUG_NO_TRAINER_SEE            0x1E0 
 #define FLAG_DEBUG_NO_COLLISION              0x1E1 
@@ -656,7 +656,7 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_123_RARE_CANDY                (FLAG_HIDDEN_ITEMS_START + 0x6E) //hoenn only flag
 #define FLAG_HIDDEN_ITEM_ROUTE_105_BIG_PEARL                 (FLAG_HIDDEN_ITEMS_START + 0x6F) //hoenn only flag
 
-#define FLAG_UNUSED_0x264  0x264 // Unused Flag
+#define FLAG_TWINLEAF_TOWN_ODD_KEYSTONE  0x264 
 #define FLAG_UNUSED_0x265  0x265 // Unused Flag
 #define FLAG_UNUSED_0x266  0x266 // Unused Flag
 #define FLAG_UNUSED_0x267  0x267 // Unused Flag

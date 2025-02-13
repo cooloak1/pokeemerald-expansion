@@ -63,6 +63,13 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 5,
+      "y": 24,
+      "elevation": 0,
+      "item": "ITEM_ODD_KEYSTONE",
+      "flag": "FLAG_TWINLEAF_TOWN_ODD_KEYSTONE"
+    }
   ]
 }
