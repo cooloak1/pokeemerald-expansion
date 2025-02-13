@@ -4570,6 +4570,16 @@
       "secondary_tileset": "gTileset_Sandgem",
       "border_filepath": "data/layouts/Route221/border.bin",
       "blockdata_filepath": "data/layouts/Route221/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE202",
+      "name": "Route202_Layout",
+      "width": 28,
+      "height": 28,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Jubilife",
+      "border_filepath": "data/layouts/Route202/border.bin",
+      "blockdata_filepath": "data/layouts/Route202/map.bin"
     }
   ]
 }

@@ -11,16 +11,21 @@ script Route201_EventScript_NPC1 {
 }
 
 script Route201_EventScript_NPC2 {
+	faceplayer
 	msgbox(Route201_Text_NPC2, MSGBOX_NPC)
 	end
 }
 
 script Route201_EventScript_NPC3 {
+	faceplayer
 	msgbox(Route201_Text_NPC3, MSGBOX_NPC)
+	end
 }
 
 script Route201_EventScript_PokemartLady {
-	if (!var(FLAG_RECEIVED_POTION_ROUTE_201)) {
+	lock
+	faceplayer
+	if (!flag(FLAG_RECEIVED_POTION_ROUTE_201)) {
 		msgbox(Route201_Text_PokemartLady, MSGBOX_NPC)
 		giveitem(ITEM_POTION)
 		if (!var(VAR_RESULT)) {
@@ -31,7 +36,7 @@ script Route201_EventScript_PokemartLady {
 		}
 	}
 	else {
-		msgbox(Route201_Text_PokemartLady_AlreadyGaveItem)
+		msgbox(Route201_Text_PokemartLady_AlreadyGaveItem, MSGBOX_NPC)
 	}
 	release
 	end
