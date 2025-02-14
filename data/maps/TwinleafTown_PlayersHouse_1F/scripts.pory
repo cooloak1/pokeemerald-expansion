@@ -1,4 +1,21 @@
-raw `
-TwinleafTown_PlayersHouse_1F_MapScripts::
-	.byte 0
-`
+mapscripts TwinleafTown_PlayersHouse_1F_MapScripts {}
+
+text text1 {
+	format("Mom: {PLAYER}!\pBarry already left.\pI don't know what it was about, but he sure was in a hurry!")
+}
+
+text text2 {
+	format("Mom: You know how impatient Barry is.\pHe took off before I could even ask what it was about.")
+}
+
+text text3 {
+	format("Mom: Oh, yes!\n{PLAYER}!\pDon't go into the tall grass. Wild Pokemon might attack you.\pIt would be OK if you had your own Pokemon, but you don't, so...\pWell, take care, sweetie!")
+}
+
+text text4 {
+	format("Mom: Bye-bye {PLAYER}!\nYou take care now!")
+}
+
+text text5 {
+	format("Mom: What is it, dear?\nIsn't Barry waiting for you?")
+}

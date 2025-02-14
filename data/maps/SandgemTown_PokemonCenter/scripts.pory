@@ -1,7 +1,8 @@
+const LOCALID_NURSE = 1
 mapscripts SandgemTown_PokemonCenter_MapScripts {}
 
 script SandgemTown_PokemonCenter_EventScript_Nurse {
-    setvar(VAR_0x800B, 1)
+    setvar(VAR_0x800B, LOCALID_NURSE)
     call(Common_EventScript_PkmnCenterNurse)
     waitmessage
 	waitbuttonpress
@@ -12,11 +13,15 @@ script SandgemTown_PokemonCenter_EventScript_Nurse {
 script SandgemTown_PokemonCenter_EventScript_NPC1 {
     faceplayer
     msgbox(SandgemTown_PokemonCenter_Text_NPC1)
+    release
+    end
 }
 
 script SandgemTown_PokemonCenter_EventScript_NPC2 {
     faceplayer
     msgbox(SandgemTown_PokemonCenter_Text_NPC2)
+    release
+    end
 }
 
 text SandgemTown_PokemonCenter_Text_NPC1 {

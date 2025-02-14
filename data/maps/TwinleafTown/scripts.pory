@@ -3,3 +3,23 @@ mapscripts TwinleafTown_MapScripts {
 		setflag(FLAG_VISITED_TWINLEAF_TOWN)
 	}
 }
+
+script TwinleafTown_EventScript_TownSign {
+	msgbox(TwinleafTown_Text_TownSign, MSGBOX_SIGN)
+}
+
+text text1a {
+	format("Technology just blows me away!\pI mean, now you can play with people around the world...wirelessly!")
+}
+
+text text2a {
+	format("It's true that wild Pokemon do attack people sometimes...\pBut, Pokemon also open their hearts to you, so you can become friends.")
+}
+
+text text3a {
+	format("Hiya, {PLAYER}.\nBarry was looking for you.\pI think he's home now.\nWhy don't you go check it out?")
+}
+
+text TwinleafTown_Text_TownSign {
+	format("Twinleaf Town\nFresh and Free!")
+}

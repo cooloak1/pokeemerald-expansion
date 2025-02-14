@@ -659,11 +659,11 @@
 #define FLAG_HIDDEN_ITEM_TWINLEAF_TOWN_ODD_KEYSTONE  0x264
 #define FLAG_HIDDEN_ITEM_ROUTE_219_ZINC  0x265
 #define FLAG_HIDDEN_ITEM_ROUTE_220_BIG_PEARL  0x266
-#define FLAG_UNUSED_0x267  0x267 // Unused Flag
-#define FLAG_UNUSED_0x268  0x268 // Unused Flag
-#define FLAG_UNUSED_0x269  0x269 // Unused Flag
-#define FLAG_UNUSED_0x26A  0x26A // Unused Flag
-#define FLAG_UNUSED_0x26B  0x26B // Unused Flag
+#define FLAG_HIDDEN_ITEM_ROUTE_221_BIG_MUSHROOM  0x267 
+#define FLAG_HIDDEN_ITEM_ROUTE_221_HYPER_POTION  0x268 
+#define FLAG_HIDDEN_ITEM_ROUTE_221_MAX_REVIVE  0x269 
+#define FLAG_HIDDEN_ITEM_ROUTE_221_ULTRA_BALL  0x26A 
+#define FLAG_HIDDEN_ITEM_ROUTE_221_CARBOS  0x26B 
 #define FLAG_UNUSED_0x26C  0x26C // Unused Flag
 #define FLAG_UNUSED_0x26D  0x26D // Unused Flag
 #define FLAG_UNUSED_0x26E  0x26E // Unused Flag
@@ -850,156 +850,156 @@
 #define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3                          0x31F // hoenn only flag
 #define FLAG_HIDE_LUGIA                                             0x320
 #define FLAG_HIDE_HO_OH                                             0x321
-#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER                    0x322
-#define FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER                   0x323
-#define FLAG_HIDE_MAUVILLE_CITY_WALLY                               0x324
-#define FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE                        0x325
-#define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY                0x326
-#define FLAG_HIDE_RUSTURF_TUNNEL_WANDAS_BOYFRIEND                   0x327
-#define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDAS_BOYFRIEND     0x328
-#define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE         0x329
-#define FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT                           0x32A
-#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CYNDAQUIL     0x32B
-#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_TOTODILE      0x32C
-#define FLAG_HIDE_ROUTE_116_DROPPED_GLASSES_MAN                     0x32D
-#define FLAG_HIDE_RUSTBORO_CITY_RIVAL                               0x32E
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_SWABLU_DOLL     0x32F
-#define FLAG_HIDE_SOOTOPOLIS_CITY_WALLACE                           0x330
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL       0x331
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL           0x332
-#define FLAG_HIDE_ROUTE_112_TEAM_MAGMA                              0x333
-#define FLAG_HIDE_CAVE_OF_ORIGIN_B1F_WALLACE                        0x334
-#define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE         0x335
-#define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE         0x336
-#define FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA                          0x337
-#define FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD                          0x338
+#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER                    0x322 //hoenn only flag
+#define FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER                   0x323 //hoenn only flag
+#define FLAG_HIDE_MAUVILLE_CITY_WALLY                               0x324 //hoenn only flag
+#define FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE                        0x325 //hoenn only flag
+#define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY                0x326 //hoenn only flag
+#define FLAG_HIDE_RUSTURF_TUNNEL_WANDAS_BOYFRIEND                   0x327 //hoenn only flag
+#define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDAS_BOYFRIEND     0x328 //hoenn only flag
+#define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE         0x329 //hoenn only flag
+#define FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT                           0x32A //hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CYNDAQUIL     0x32B //hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_TOTODILE      0x32C //hoenn only flag
+#define FLAG_HIDE_ROUTE_116_DROPPED_GLASSES_MAN                     0x32D //hoenn only flag
+#define FLAG_HIDE_RUSTBORO_CITY_RIVAL                               0x32E //hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_SWABLU_DOLL     0x32F //hoenn only flag
+#define FLAG_HIDE_SOOTOPOLIS_CITY_WALLACE                           0x330 //hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL       0x331 //hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL           0x332 //hoenn only flag
+#define FLAG_HIDE_ROUTE_112_TEAM_MAGMA                              0x333 //hoenn only flag
+#define FLAG_HIDE_CAVE_OF_ORIGIN_B1F_WALLACE                        0x334 //hoenn only flag
+#define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE         0x335 //hoenn only flag
+#define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE         0x336 //hoenn only flag
+#define FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA                          0x337 //hoenn only flag
+#define FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD                          0x338 //hoenn only flag
 #define FLAG_HIDE_LEGEND_MON_CAVE_OF_ORIGIN                         0x339 // Unused, leftover from R/S
-#define FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE                            0x33A
-#define FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE                             0x33B
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE                     0x33C
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE                      0x33D
-#define FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD                         0x33E
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS               0x33F
-#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER                0x340
-#define FLAG_HIDE_GRANITE_CAVE_STEVEN                               0x341
-#define FLAG_HIDE_ROUTE_128_STEVEN                                  0x342
-#define FLAG_HIDE_SLATEPORT_CITY_GABBY_AND_TY                       0x343
-#define FLAG_HIDE_BATTLE_FRONTIER_RECEPTION_GATE_SCOTT              0x344
-#define FLAG_HIDE_ROUTE_110_BIRCH                                   0x345
-#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CHIKORITA     0x346
-#define FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1                             0x347
-#define FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN                      0x348
-#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN               0x349
-#define FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO                         0x34A
-#define FLAG_HIDE_ROUTE_111_ROCK_SMASH_TIP_GUY                      0x34B
-#define FLAG_HIDE_RUSTBORO_CITY_SCIENTIST                           0x34C
-#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT                  0x34D
-#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_ARCHIE                      0x34E
-#define FLAG_HIDE_JAGGED_PASS_MAGMA_GUARD                           0x34F
-#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW            0x350
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL          0x351
-#define FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON_ASLEEP                   0x352
-#define FLAG_HIDE_ROUTE_119_RIVAL                                   0x353
-#define FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS                         0x354
-#define FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON                          0x355
-#define FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS                         0x356
-#define FLAG_HIDE_SKY_PILLAR_WALLACE                                0x357
-#define FLAG_HIDE_MT_PYRE_SUMMIT_MAXIE                              0x358
-#define FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS                              0x359
-#define FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY                       0x35A
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE                     0x35B
-#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_SS_TIDAL                    0x35C
-#define FLAG_HIDE_LILYCOVE_HARBOR_SSTIDAL                           0x35D
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA          0x35E
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_STEVEN              0x35F
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_1           0x360
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_2           0x361
-#define FLAG_HIDE_PETALBURG_GYM_WALLY                               0x362
+#define FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE                            0x33A //hoenn only flag
+#define FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE                             0x33B //hoenn only flag
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE                     0x33C //hoenn only flag
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE                      0x33D //hoenn only flag
+#define FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD                         0x33E //hoenn only flag
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS               0x33F //hoenn only flag
+#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER                0x340 //hoenn only flag
+#define FLAG_HIDE_GRANITE_CAVE_STEVEN                               0x341 //hoenn only flag
+#define FLAG_HIDE_ROUTE_128_STEVEN                                  0x342 //hoenn only flag
+#define FLAG_HIDE_SLATEPORT_CITY_GABBY_AND_TY                       0x343 //hoenn only flag
+#define FLAG_HIDE_BATTLE_FRONTIER_RECEPTION_GATE_SCOTT              0x344 //hoenn only flag
+#define FLAG_HIDE_ROUTE_110_BIRCH                                   0x345 //hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CHIKORITA     0x346 //hoenn only flag
+#define FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1                             0x347 //hoenn only flag
+#define FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN                      0x348 //hoenn only flag
+#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN               0x349 //hoenn only flag
+#define FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO                         0x34A //hoenn only flag
+#define FLAG_HIDE_ROUTE_111_ROCK_SMASH_TIP_GUY                      0x34B //hoenn only flag
+#define FLAG_HIDE_RUSTBORO_CITY_SCIENTIST                           0x34C //hoenn only flag
+#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT                  0x34D //hoenn only flag
+#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_ARCHIE                      0x34E //hoenn only flag
+#define FLAG_HIDE_JAGGED_PASS_MAGMA_GUARD                           0x34F //hoenn only flag
+#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW            0x350 //hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL          0x351 //hoenn only flag
+#define FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON_ASLEEP                   0x352 //hoenn only flag
+#define FLAG_HIDE_ROUTE_119_RIVAL                                   0x353 //hoenn only flag
+#define FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS                         0x354 //hoenn only flag
+#define FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON                          0x355 //hoenn only flag
+#define FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS                         0x356 //hoenn only flag
+#define FLAG_HIDE_SKY_PILLAR_WALLACE                                0x357 //hoenn only flag
+#define FLAG_HIDE_MT_PYRE_SUMMIT_MAXIE                              0x358 //hoenn only flag
+#define FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS                              0x359 //hoenn only flag
+#define FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY                       0x35A //hoenn only flag
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE                     0x35B //hoenn only flag
+#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_SS_TIDAL                    0x35C //hoenn only flag
+#define FLAG_HIDE_LILYCOVE_HARBOR_SSTIDAL                           0x35D //hoenn only flag
+#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA          0x35E //hoenn only flag
+#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_STEVEN              0x35F //hoenn only flag
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_1           0x360 //hoenn only flag
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_2           0x361 //hoenn only flag
+#define FLAG_HIDE_PETALBURG_GYM_WALLY                               0x362 //hoenn only flag
 #define FLAG_UNKNOWN_0x363                                          0x363 // Set, however has no purpose.
-#define FLAG_HIDE_LITTLEROOT_TOWN_FAT_MAN                           0x364
-#define FLAG_HIDE_SLATEPORT_CITY_STERNS_SHIPYARD_MR_BRINEY          0x365
-#define FLAG_HIDE_LANETTES_HOUSE_LANETTE                            0x366
-#define FLAG_HIDE_FALLARBOR_POKEMON_CENTER_LANETTE                  0x367
-#define FLAG_HIDE_TRICK_HOUSE_ENTRANCE_MAN                          0x368
-#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER_REPLACEMENT    0x369
-#define FLAG_HIDE_DESERT_UNDERPASS_FOSSIL                           0x36A
-#define FLAG_HIDE_ROUTE_111_PLAYER_DESCENT                          0x36B
-#define FLAG_HIDE_ROUTE_111_DESERT_FOSSIL                           0x36C
-#define FLAG_HIDE_MT_CHIMNEY_TRAINERS                               0x36D
-#define FLAG_HIDE_RUSTURF_TUNNEL_AQUA_GRUNT                         0x36E
-#define FLAG_HIDE_RUSTURF_TUNNEL_BRINEY                             0x36F
-#define FLAG_HIDE_RUSTURF_TUNNEL_PEEKO                              0x370
-#define FLAG_HIDE_BRINEYS_HOUSE_PEEKO                               0x371
-#define FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA                          0x372
-#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS         0x373
-#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_AQUA_GRUNT_1     0x374
-#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_AQUA_GRUNT_2     0x375
-#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE           0x376
-#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_CAPTAIN_STERN    0x377
-#define FLAG_HIDE_BATTLE_TOWER_OPPONENT                             0x378
-#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL                  0x379
-#define FLAG_HIDE_ROUTE_119_TEAM_AQUA                               0x37A
-#define FLAG_HIDE_ROUTE_116_MR_BRINEY                               0x37B
-#define FLAG_HIDE_WEATHER_INSTITUTE_1F_WORKERS                      0x37C
-#define FLAG_HIDE_WEATHER_INSTITUTE_2F_WORKERS                      0x37D
-#define FLAG_HIDE_ROUTE_116_WANDAS_BOYFRIEND                        0x37E
-#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_2         0x37F
-#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_UNKNOWN_0x380          0x380
-#define FLAG_HIDE_ROUTE_101_BIRCH                                   0x381
-#define FLAG_HIDE_ROUTE_103_BIRCH                                   0x382
-#define FLAG_HIDE_TRICK_HOUSE_END_MAN                               0x383
-#define FLAG_HIDE_ROUTE_110_TEAM_AQUA                               0x384
-#define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_2                          0x385
-#define FLAG_HIDE_ROUTE_120_GABBY_AND_TY_2                          0x386
-#define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_2                          0x387
-#define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_3                          0x388
-#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_PATRONS                     0x389
-#define FLAG_HIDE_ROUTE_104_WHITE_HERB_FLORIST                      0x38A
-#define FLAG_HIDE_FALLARBOR_AZURILL                                 0x38B
-#define FLAG_HIDE_LILYCOVE_HARBOR_FERRY_ATTENDANT                   0x38C
-#define FLAG_HIDE_LILYCOVE_HARBOR_FERRY_SAILOR                      0x38D
-#define FLAG_HIDE_SOUTHERN_ISLAND_EON_STONE                         0x38E
-#define FLAG_HIDE_SOUTHERN_ISLAND_UNCHOSEN_EON_DUO_MON              0x38F
-#define FLAG_HIDE_MAUVILLE_CITY_WATTSON                             0x390
-#define FLAG_HIDE_MAUVILLE_GYM_WATTSON                              0x391
-#define FLAG_HIDE_ROUTE_121_TEAM_AQUA_GRUNTS                        0x392
+#define FLAG_HIDE_LITTLEROOT_TOWN_FAT_MAN                           0x364 //hoenn only flag
+#define FLAG_HIDE_SLATEPORT_CITY_STERNS_SHIPYARD_MR_BRINEY          0x365 //hoenn only flag
+#define FLAG_HIDE_LANETTES_HOUSE_LANETTE                            0x366 //hoenn only flag
+#define FLAG_HIDE_FALLARBOR_POKEMON_CENTER_LANETTE                  0x367 //hoenn only flag
+#define FLAG_HIDE_TRICK_HOUSE_ENTRANCE_MAN                          0x368 //hoenn only flag
+#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER_REPLACEMENT    0x369 //hoenn only flag
+#define FLAG_HIDE_DESERT_UNDERPASS_FOSSIL                           0x36A //hoenn only flag
+#define FLAG_HIDE_ROUTE_111_PLAYER_DESCENT                          0x36B //hoenn only flag
+#define FLAG_HIDE_ROUTE_111_DESERT_FOSSIL                           0x36C //hoenn only flag
+#define FLAG_HIDE_MT_CHIMNEY_TRAINERS                               0x36D //hoenn only flag
+#define FLAG_HIDE_RUSTURF_TUNNEL_AQUA_GRUNT                         0x36E //hoenn only flag
+#define FLAG_HIDE_RUSTURF_TUNNEL_BRINEY                             0x36F //hoenn only flag
+#define FLAG_HIDE_RUSTURF_TUNNEL_PEEKO                              0x370 //hoenn only flag
+#define FLAG_HIDE_BRINEYS_HOUSE_PEEKO                               0x371 //hoenn only flag
+#define FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA                          0x372 //hoenn only flag
+#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS         0x373 //hoenn only flag
+#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_AQUA_GRUNT_1     0x374 //hoenn only flag
+#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_AQUA_GRUNT_2     0x375 //hoenn only flag
+#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE           0x376 //hoenn only flag
+#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_CAPTAIN_STERN    0x377 //hoenn only flag
+#define FLAG_HIDE_BATTLE_TOWER_OPPONENT                             0x378 //hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL                  0x379 //hoenn only flag
+#define FLAG_HIDE_ROUTE_119_TEAM_AQUA                               0x37A //hoenn only flag
+#define FLAG_HIDE_ROUTE_116_MR_BRINEY                               0x37B //hoenn only flag
+#define FLAG_HIDE_WEATHER_INSTITUTE_1F_WORKERS                      0x37C //hoenn only flag
+#define FLAG_HIDE_WEATHER_INSTITUTE_2F_WORKERS                      0x37D //hoenn only flag
+#define FLAG_HIDE_ROUTE_116_WANDAS_BOYFRIEND                        0x37E //hoenn only flag
+#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_2         0x37F //hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_UNKNOWN_0x380          0x380 //hoenn only flag
+#define FLAG_HIDE_ROUTE_101_BIRCH                                   0x381 //hoenn only flag
+#define FLAG_HIDE_ROUTE_103_BIRCH                                   0x382 //hoenn only flag
+#define FLAG_HIDE_TRICK_HOUSE_END_MAN                               0x383 //hoenn only flag
+#define FLAG_HIDE_ROUTE_110_TEAM_AQUA                               0x384 //hoenn only flag
+#define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_2                          0x385 //hoenn only flag
+#define FLAG_HIDE_ROUTE_120_GABBY_AND_TY_2                          0x386 //hoenn only flag
+#define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_2                          0x387 //hoenn only flag
+#define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_3                          0x388 //hoenn only flag
+#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_PATRONS                     0x389 //hoenn only flag
+#define FLAG_HIDE_ROUTE_104_WHITE_HERB_FLORIST                      0x38A //hoenn only flag
+#define FLAG_HIDE_FALLARBOR_AZURILL                                 0x38B //hoenn only flag
+#define FLAG_HIDE_LILYCOVE_HARBOR_FERRY_ATTENDANT                   0x38C //hoenn only flag
+#define FLAG_HIDE_LILYCOVE_HARBOR_FERRY_SAILOR                      0x38D //hoenn only flag
+#define FLAG_HIDE_SOUTHERN_ISLAND_EON_STONE                         0x38E 
+#define FLAG_HIDE_SOUTHERN_ISLAND_UNCHOSEN_EON_DUO_MON              0x38F 
+#define FLAG_HIDE_MAUVILLE_CITY_WATTSON                             0x390 //hoenn only flag
+#define FLAG_HIDE_MAUVILLE_GYM_WATTSON                              0x391 //hoenn only flag
+#define FLAG_HIDE_ROUTE_121_TEAM_AQUA_GRUNTS                        0x392 //hoenn only flag
 #define FLAG_UNKNOWN_0x393                                          0x393 // Set, however has no purpose.
-#define FLAG_HIDE_MT_PYRE_SUMMIT_ARCHIE                             0x394
-#define FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_AQUA                          0x395
-#define FLAG_HIDE_BATTLE_TOWER_REPORTER                             0x396
-#define FLAG_HIDE_ROUTE_110_RIVAL                                   0x397
+#define FLAG_HIDE_MT_PYRE_SUMMIT_ARCHIE                             0x394 //hoenn only flag
+#define FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_AQUA                          0x395 //hoenn only flag
+#define FLAG_HIDE_BATTLE_TOWER_REPORTER                             0x396 //hoenn only flag
+#define FLAG_HIDE_ROUTE_110_RIVAL                                   0x397 //hoenn only flag
 #define FLAG_HIDE_CHAMPIONS_ROOM_RIVAL                              0x398
 #define FLAG_HIDE_CHAMPIONS_ROOM_BIRCH                              0x399
-#define FLAG_HIDE_ROUTE_110_RIVAL_ON_BIKE                           0x39A
-#define FLAG_HIDE_ROUTE_119_RIVAL_ON_BIKE                           0x39B
-#define FLAG_HIDE_AQUA_HIDEOUT_GRUNTS                               0x39C
-#define FLAG_HIDE_LILYCOVE_MOTEL_GAME_DESIGNERS                     0x39D
-#define FLAG_HIDE_MT_CHIMNEY_TEAM_AQUA                              0x39E
-#define FLAG_HIDE_MT_CHIMNEY_TEAM_MAGMA                             0x39F
-#define FLAG_HIDE_FALLARBOR_HOUSE_PROF_COZMO                        0x3A0
-#define FLAG_HIDE_LAVARIDGE_TOWN_RIVAL                              0x3A1
-#define FLAG_HIDE_LAVARIDGE_TOWN_RIVAL_ON_BIKE                      0x3A2
-#define FLAG_HIDE_RUSTURF_TUNNEL_ROCK_1                             0x3A3
-#define FLAG_HIDE_RUSTURF_TUNNEL_ROCK_2                             0x3A4
-#define FLAG_HIDE_FORTREE_CITY_HOUSE_4_WINGULL                      0x3A5
-#define FLAG_HIDE_MOSSDEEP_CITY_HOUSE_2_WINGULL                     0x3A6
+#define FLAG_HIDE_ROUTE_110_RIVAL_ON_BIKE                           0x39A //hoenn only flag
+#define FLAG_HIDE_ROUTE_119_RIVAL_ON_BIKE                           0x39B //hoenn only flag
+#define FLAG_HIDE_AQUA_HIDEOUT_GRUNTS                               0x39C //hoenn only flag
+#define FLAG_HIDE_LILYCOVE_MOTEL_GAME_DESIGNERS                     0x39D //hoenn only flag
+#define FLAG_HIDE_MT_CHIMNEY_TEAM_AQUA                              0x39E //hoenn only flag
+#define FLAG_HIDE_MT_CHIMNEY_TEAM_MAGMA                             0x39F //hoenn only flag
+#define FLAG_HIDE_FALLARBOR_HOUSE_PROF_COZMO                        0x3A0 //hoenn only flag
+#define FLAG_HIDE_LAVARIDGE_TOWN_RIVAL                              0x3A1 //hoenn only flag
+#define FLAG_HIDE_LAVARIDGE_TOWN_RIVAL_ON_BIKE                      0x3A2 //hoenn only flag
+#define FLAG_HIDE_RUSTURF_TUNNEL_ROCK_1                             0x3A3 //hoenn only flag
+#define FLAG_HIDE_RUSTURF_TUNNEL_ROCK_2                             0x3A4 //hoenn only flag
+#define FLAG_HIDE_FORTREE_CITY_HOUSE_4_WINGULL                      0x3A5 //hoenn only flag
+#define FLAG_HIDE_MOSSDEEP_CITY_HOUSE_2_WINGULL                     0x3A6 //hoenn only flag
 #define FLAG_HIDE_REGIROCK                                          0x3A7
 #define FLAG_HIDE_REGICE                                            0x3A8
 #define FLAG_HIDE_REGISTEEL                                         0x3A9
-#define FLAG_HIDE_METEOR_FALLS_TEAM_AQUA                            0x3AA
-#define FLAG_HIDE_METEOR_FALLS_TEAM_MAGMA                           0x3AB
-#define FLAG_HIDE_DEWFORD_HALL_SLUDGE_BOMB_MAN                      0x3AC
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ENTRANCE_AQUA_GRUNT               0x3AD
-#define FLAG_HIDE_METEOR_FALLS_1F_1R_COZMO                          0x3AE
-#define FLAG_HIDE_AQUA_HIDEOUT_B2F_SUBMARINE_SHADOW                 0x3AF
-#define FLAG_HIDE_ROUTE_128_ARCHIE                                  0x3B0
-#define FLAG_HIDE_ROUTE_128_MAXIE                                   0x3B1
-#define FLAG_HIDE_SEAFLOOR_CAVERN_AQUA_GRUNTS                       0x3B2
-#define FLAG_HIDE_ROUTE_116_DEVON_EMPLOYEE                          0x3B3
-#define FLAG_HIDE_SLATEPORT_CITY_TM_SALESMAN                        0x3B4
-#define FLAG_HIDE_RUSTBORO_CITY_DEVON_CORP_3F_EMPLOYEE              0x3B5
-#define FLAG_HIDE_SS_TIDAL_CORRIDOR_MR_BRINEY                       0x3B6
-#define FLAG_HIDE_SS_TIDAL_ROOMS_SNATCH_GIVER                       0x3B7
+#define FLAG_HIDE_METEOR_FALLS_TEAM_AQUA                            0x3AA //hoenn only flag
+#define FLAG_HIDE_METEOR_FALLS_TEAM_MAGMA                           0x3AB //hoenn only flag
+#define FLAG_HIDE_DEWFORD_HALL_SLUDGE_BOMB_MAN                      0x3AC //hoenn only flag
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ENTRANCE_AQUA_GRUNT               0x3AD //hoenn only flag
+#define FLAG_HIDE_METEOR_FALLS_1F_1R_COZMO                          0x3AE //hoenn only flag
+#define FLAG_HIDE_AQUA_HIDEOUT_B2F_SUBMARINE_SHADOW                 0x3AF //hoenn only flag
+#define FLAG_HIDE_ROUTE_128_ARCHIE                                  0x3B0 //hoenn only flag
+#define FLAG_HIDE_ROUTE_128_MAXIE                                   0x3B1 //hoenn only flag
+#define FLAG_HIDE_SEAFLOOR_CAVERN_AQUA_GRUNTS                       0x3B2 //hoenn only flag
+#define FLAG_HIDE_ROUTE_116_DEVON_EMPLOYEE                          0x3B3 //hoenn only flag
+#define FLAG_HIDE_SLATEPORT_CITY_TM_SALESMAN                        0x3B4 //hoenn only flag
+#define FLAG_HIDE_RUSTBORO_CITY_DEVON_CORP_3F_EMPLOYEE              0x3B5 //hoenn only flag
+#define FLAG_HIDE_SS_TIDAL_CORRIDOR_MR_BRINEY                       0x3B6 //hoenn only flag
+#define FLAG_HIDE_SS_TIDAL_ROOMS_SNATCH_GIVER                       0x3B7 //hoenn only flag
 #define FLAG_RECEIVED_SHOAL_SALT_1                                  0x3B8
 #define FLAG_RECEIVED_SHOAL_SALT_2                                  0x3B9
 #define FLAG_RECEIVED_SHOAL_SALT_3                                  0x3BA
@@ -1008,46 +1008,46 @@
 #define FLAG_RECEIVED_SHOAL_SHELL_2                                 0x3BD
 #define FLAG_RECEIVED_SHOAL_SHELL_3                                 0x3BE
 #define FLAG_RECEIVED_SHOAL_SHELL_4                                 0x3BF
-#define FLAG_HIDE_ROUTE_111_SECRET_POWER_MAN                        0x3C0
-#define FLAG_HIDE_SLATEPORT_MUSEUM_POPULATION                       0x3C1
-#define FLAG_HIDE_LILYCOVE_DEPARTMENT_STORE_ROOFTOP_SALE_WOMAN      0x3C2
-#define FLAG_HIDE_MIRAGE_TOWER_ROOT_FOSSIL                          0x3C3
-#define FLAG_HIDE_MIRAGE_TOWER_CLAW_FOSSIL                          0x3C4
-#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_FAMILIAR_AQUA_GRUNT 0x3C5
-#define FLAG_HIDE_ROUTE_118_STEVEN                                  0x3C6
-#define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN                0x3C7
-#define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_BELDUM_POKEBALL       0x3C8
-#define FLAG_HIDE_FORTREE_CITY_KECLEON                              0x3C9
-#define FLAG_HIDE_ROUTE_120_KECLEON_BRIDGE                          0x3CA
-#define FLAG_HIDE_LILYCOVE_CITY_RIVAL                               0x3CB
-#define FLAG_HIDE_ROUTE_120_STEVEN                                  0x3CC
-#define FLAG_HIDE_SOOTOPOLIS_CITY_STEVEN                            0x3CD
-#define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_1                            0x3CE
-#define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_2                            0x3CF
-#define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_3                            0x3D0
-#define FLAG_HIDE_AQUA_HIDEOUT_B1F_ELECTRODE_1                      0x3D1
-#define FLAG_HIDE_AQUA_HIDEOUT_B1F_ELECTRODE_2                      0x3D2
-#define FLAG_HIDE_OLDALE_TOWN_RIVAL                                 0x3D3
-#define FLAG_HIDE_UNDERWATER_SEA_FLOOR_CAVERN_STOLEN_SUBMARINE      0x3D4
-#define FLAG_HIDE_ROUTE_120_KECLEON_BRIDGE_SHADOW                   0x3D5
-#define FLAG_HIDE_ROUTE_120_KECLEON_1                               0x3D6
-#define FLAG_HIDE_RUSTURF_TUNNEL_WANDA                              0x3D7
-#define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDA                0x3D8
-#define FLAG_HIDE_ROUTE_120_KECLEON_2                               0x3D9
-#define FLAG_HIDE_ROUTE_120_KECLEON_3                               0x3DA
-#define FLAG_HIDE_ROUTE_120_KECLEON_4                               0x3DB
-#define FLAG_HIDE_ROUTE_120_KECLEON_5                               0x3DC
-#define FLAG_HIDE_ROUTE_119_KECLEON_1                               0x3DD
-#define FLAG_HIDE_ROUTE_119_KECLEON_2                               0x3DE
-#define FLAG_HIDE_ROUTE_101_BOY                                     0x3DF
-#define FLAG_HIDE_WEATHER_INSTITUTE_2F_AQUA_GRUNT_M                 0x3E0
-#define FLAG_HIDE_LILYCOVE_POKEMON_CENTER_CONTEST_LADY_MON          0x3E1
-#define FLAG_HIDE_MT_CHIMNEY_LAVA_COOKIE_LADY                       0x3E2
-#define FLAG_HIDE_PETALBURG_CITY_SCOTT                              0x3E3
-#define FLAG_HIDE_SOOTOPOLIS_CITY_RAYQUAZA                          0x3E4
-#define FLAG_HIDE_SOOTOPOLIS_CITY_KYOGRE                            0x3E5
-#define FLAG_HIDE_SOOTOPOLIS_CITY_GROUDON                           0x3E6
-#define FLAG_HIDE_RUSTBORO_CITY_POKEMON_SCHOOL_SCOTT                0x3E7
+#define FLAG_HIDE_ROUTE_111_SECRET_POWER_MAN                        0x3C0 //hoenn only flag
+#define FLAG_HIDE_SLATEPORT_MUSEUM_POPULATION                       0x3C1 //hoenn only flag
+#define FLAG_HIDE_LILYCOVE_DEPARTMENT_STORE_ROOFTOP_SALE_WOMAN      0x3C2 //hoenn only flag
+#define FLAG_HIDE_MIRAGE_TOWER_ROOT_FOSSIL                          0x3C3 //hoenn only flag
+#define FLAG_HIDE_MIRAGE_TOWER_CLAW_FOSSIL                          0x3C4 //hoenn only flag
+#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_FAMILIAR_AQUA_GRUNT 0x3C5 //hoenn only flag
+#define FLAG_HIDE_ROUTE_118_STEVEN                                  0x3C6 //hoenn only flag
+#define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN                0x3C7 //hoenn only flag
+#define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_BELDUM_POKEBALL       0x3C8 //hoenn only flag
+#define FLAG_HIDE_FORTREE_CITY_KECLEON                              0x3C9 //hoenn only flag
+#define FLAG_HIDE_ROUTE_120_KECLEON_BRIDGE                          0x3CA //hoenn only flag
+#define FLAG_HIDE_LILYCOVE_CITY_RIVAL                               0x3CB //hoenn only flag
+#define FLAG_HIDE_ROUTE_120_STEVEN                                  0x3CC //hoenn only flag
+#define FLAG_HIDE_SOOTOPOLIS_CITY_STEVEN                            0x3CD //hoenn only flag
+#define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_1                            0x3CE //hoenn only flag
+#define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_2                            0x3CF //hoenn only flag
+#define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_3                            0x3D0 //hoenn only flag
+#define FLAG_HIDE_AQUA_HIDEOUT_B1F_ELECTRODE_1                      0x3D1 //hoenn only flag
+#define FLAG_HIDE_AQUA_HIDEOUT_B1F_ELECTRODE_2                      0x3D2 //hoenn only flag
+#define FLAG_HIDE_OLDALE_TOWN_RIVAL                                 0x3D3 //hoenn only flag
+#define FLAG_HIDE_UNDERWATER_SEA_FLOOR_CAVERN_STOLEN_SUBMARINE      0x3D4 //hoenn only flag
+#define FLAG_HIDE_ROUTE_120_KECLEON_BRIDGE_SHADOW                   0x3D5 //hoenn only flag
+#define FLAG_HIDE_ROUTE_120_KECLEON_1                               0x3D6 //hoenn only flag
+#define FLAG_HIDE_RUSTURF_TUNNEL_WANDA                              0x3D7 //hoenn only flag
+#define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDA                0x3D8 //hoenn only flag
+#define FLAG_HIDE_ROUTE_120_KECLEON_2                               0x3D9 //hoenn only flag
+#define FLAG_HIDE_ROUTE_120_KECLEON_3                               0x3DA //hoenn only flag
+#define FLAG_HIDE_ROUTE_120_KECLEON_4                               0x3DB //hoenn only flag
+#define FLAG_HIDE_ROUTE_120_KECLEON_5                               0x3DC //hoenn only flag
+#define FLAG_HIDE_ROUTE_119_KECLEON_1                               0x3DD //hoenn only flag
+#define FLAG_HIDE_ROUTE_119_KECLEON_2                               0x3DE //hoenn only flag
+#define FLAG_HIDE_ROUTE_101_BOY                                     0x3DF //hoenn only flag
+#define FLAG_HIDE_WEATHER_INSTITUTE_2F_AQUA_GRUNT_M                 0x3E0 //hoenn only flag
+#define FLAG_HIDE_LILYCOVE_POKEMON_CENTER_CONTEST_LADY_MON          0x3E1 //hoenn only flag
+#define FLAG_HIDE_MT_CHIMNEY_LAVA_COOKIE_LADY                       0x3E2 //hoenn only flag
+#define FLAG_HIDE_PETALBURG_CITY_SCOTT                              0x3E3 //hoenn only flag
+#define FLAG_HIDE_SOOTOPOLIS_CITY_RAYQUAZA                          0x3E4 //hoenn only flag
+#define FLAG_HIDE_SOOTOPOLIS_CITY_KYOGRE                            0x3E5 //hoenn only flag
+#define FLAG_HIDE_SOOTOPOLIS_CITY_GROUDON                           0x3E6 //hoenn only flag
+#define FLAG_HIDE_RUSTBORO_CITY_POKEMON_SCHOOL_SCOTT                0x3E7 //hoenn only flag
 
 // Item Ball Flags
 #define FLAG_ITEM_LAKE_VERITY_TM38                                  0x3E8 // "FLAG_ITEM_ROUTE_102_POTION"
@@ -1226,9 +1226,9 @@
 #define FLAG_ITEM_ROUTE_220_MAX_REPEL                               0x494 
 #define FLAG_ITEM_ROUTE_220_CARBOS                                  0x495 
 #define FLAG_ITEM_ROUTE_220_PROTEIN                                 0x496 
-#define FLAG_UNUSED_0x497                                           0x497 // Unused Flag
-#define FLAG_UNUSED_0x498                                           0x498 // Unused Flag
-#define FLAG_UNUSED_0x499                                           0x499 // Unused Flag
+#define FLAG_ITEM_ROUTE_221_PURE_INCENSE                            0x497 
+#define FLAG_ITEM_ROUTE_221_ULTRA_BALL                              0x498
+#define FLAG_ITEM_ROUTE_221_TM81                                    0x499 // Unused Flag
 #define FLAG_UNUSED_0x49A                                           0x49A // Unused Flag
 #define FLAG_UNUSED_0x49B                                           0x49B // Unused Flag
 #define FLAG_UNUSED_0x49C                                           0x49C // Unused Flag

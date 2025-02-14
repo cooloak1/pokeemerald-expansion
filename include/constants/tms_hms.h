@@ -51,7 +51,18 @@
     F(STEEL_WING) \
     F(SKILL_SWAP) \
     F(SNATCH) \
-    F(OVERHEAT)
+    F(OVERHEAT) \
+    F(ROOST) \
+    F(FOCUS_BLAST) \
+    F(ENERGY_BALL) \
+    F(FALSE_SWIPE) \
+    F(BRINE) \
+    F(FLING) \
+    F(CHARGE_BEAM) \
+    F(ENDURE) \
+    F(DRAGON_PULSE) \
+    F(DRAIN_PUNCH) \
+    F(WILL_O_WISP)
 
 #define FOREACH_HM(F) \
     F(CUT) \

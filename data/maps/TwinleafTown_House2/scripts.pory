@@ -1,4 +1,13 @@
-raw `
-TwinleafTown_House2_MapScripts::
-	.byte 0
-`
+mapscripts TwinleafTown_House2_MapScripts {}
+
+script TwinleafTown_House2_EventScript_OldWoman {
+	msgbox(TwinleafTown_House2_Text_OldWoman_Intro, MSGBOX_NPC)
+}
+
+text TwinleafTown_House2_Text_OldWoman_Intro {
+	format("Did you hear?\pThe Pokemon Professor returned to the next town over.\pThey say he was gone for four long years.\pI wonder if he found some amazing Pokemon while he was gone?")
+}
+
+text TwinleafTown_House2_Text_Girl {
+	format("Listen, listen, {PLAYER}.\nI want a cute Pokemon!")
+}

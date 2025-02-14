@@ -1,1 +1,9 @@
 mapscripts Route221_MapScripts {}
+
+script Route221_EventScript_ParkSign {
+    msgbox(Route221_Text_ParkSign, MSGBOX_SIGN)
+}
+
+text Route221_Text_ParkSign {
+    format("is this pal park or ramanas park aaa")
+}

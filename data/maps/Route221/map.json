@@ -20,7 +20,45 @@
     }
   ],
   "object_events": [
-
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 0,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_PURE_INCENSE",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_ROUTE_221_PURE_INCENSE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 6,
+      "y": 20,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_ULTRA_BALL",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_ROUTE_221_ULTRA_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 40,
+      "y": 26,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_TM81",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_ROUTE_221_TM81"
+    }
   ],
   "warp_events": [
 
@@ -29,6 +67,53 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 52,
+      "y": 16,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route221_EventScript_ParkSign"
+    },
+    {
+      "type": "hidden_item",
+      "x": 52,
+      "y": 24,
+      "elevation": 0,
+      "item": "ITEM_CARBOS",
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_221_CARBOS"
+    },
+    {
+      "type": "hidden_item",
+      "x": 27,
+      "y": 25,
+      "elevation": 0,
+      "item": "ITEM_ULTRA_BALL",
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_221_ULTRA_BALL"
+    },
+    {
+      "type": "hidden_item",
+      "x": 18,
+      "y": 21,
+      "elevation": 0,
+      "item": "ITEM_MAX_REVIVE",
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_221_MAX_REVIVE"
+    },
+    {
+      "type": "hidden_item",
+      "x": 15,
+      "y": 27,
+      "elevation": 0,
+      "item": "ITEM_HYPER_POTION",
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_221_HYPER_POTION"
+    },
+    {
+      "type": "hidden_item",
+      "x": 14,
+      "y": 1,
+      "elevation": 0,
+      "item": "ITEM_BIG_MUSHROOM",
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_221_BIG_MUSHROOM"
+    }
   ]
 }

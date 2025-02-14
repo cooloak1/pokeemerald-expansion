@@ -5,7 +5,13 @@ TwinleafTown_House1_MapScripts::
 script TwinleafTown_House1_Man_Text {
 	lock
 	faceplayer
-	msgbox(format("I went on an adventure with some Pokemon a long time ago.\p"))
-	msgbox(format("It was only to Sandgem, the next town over, though. Yeah, good times..."))
-	release
+	msgbox(TwinleafTown_House1_Text_Man_Adventure, MSGBOX_NPC)
+}
+
+text TwinleafTown_House1_Text_Man_Intro {
+	format("You're off to hang with Barry again, right? You two sure are tight!")
+}
+
+text TwinleafTown_House1_Text_Man_Adventure {
+	format("I went on an adventure with some Pokemon a long time ago.\pIt was only to Sandgem, the next town over, though. Yeah, good times...")
 }
