@@ -1,1 +1,28 @@
 mapscripts SandgemTown_PokemonCenter_MapScripts {}
+
+script SandgemTown_PokemonCenter_EventScript_Nurse {
+    setvar(VAR_0x800B, 1)
+    call(Common_EventScript_PkmnCenterNurse)
+    waitmessage
+	waitbuttonpress
+	release
+	end
+}
+
+script SandgemTown_PokemonCenter_EventScript_NPC1 {
+    faceplayer
+    msgbox(SandgemTown_PokemonCenter_Text_NPC1)
+}
+
+script SandgemTown_PokemonCenter_EventScript_NPC2 {
+    faceplayer
+    msgbox(SandgemTown_PokemonCenter_Text_NPC2)
+}
+
+text SandgemTown_PokemonCenter_Text_NPC1 {
+    format("Talk to that nice lady at the counter and hand her your Pokemon.\pShe'll heal your Pokemon to perfect health in no time at all!")
+}
+
+text SandgemTown_PokemonCenter_Text_NPC2 {
+    format("Do you see that PC over there?\nIf you've got Pokemon with you,\lit's free to use.")
+}

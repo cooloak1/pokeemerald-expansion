@@ -166,24 +166,24 @@
 #define FLAG_RETURNED_DEVON_GOODS            0x90 // hoenn only flag
 #define FLAG_CAUGHT_LUGIA                    0x91
 #define FLAG_CAUGHT_HO_OH                    0x92
-#define FLAG_MR_BRINEY_SAILING_INTRO         0x93
-#define FLAG_DOCK_REJECTED_DEVON_GOODS       0x94
-#define FLAG_DELIVERED_DEVON_GOODS           0x95
+#define FLAG_MR_BRINEY_SAILING_INTRO         0x93 // hoenn only flag
+#define FLAG_DOCK_REJECTED_DEVON_GOODS       0x94 // hoenn only flag
+#define FLAG_DELIVERED_DEVON_GOODS           0x95 // hoenn only flag
 #define FLAG_RECEIVED_CONTEST_PASS           0x96 // Unused, leftover from R/S
 #define FLAG_RECEIVED_CASTFORM               0x97
 #define FLAG_RECEIVED_SUPER_ROD              0x98
-#define FLAG_RUSTBORO_NPC_TRADE_COMPLETED    0x99
-#define FLAG_PACIFIDLOG_NPC_TRADE_COMPLETED  0x9A
-#define FLAG_FORTREE_NPC_TRADE_COMPLETED     0x9B
+#define FLAG_RUSTBORO_NPC_TRADE_COMPLETED    0x99 // hoenn only flag
+#define FLAG_PACIFIDLOG_NPC_TRADE_COMPLETED  0x9A // hoenn only flag
+#define FLAG_FORTREE_NPC_TRADE_COMPLETED     0x9B // hoenn only flag
 #define FLAG_BATTLE_FRONTIER_TRADE_DONE      0x9C
-#define FLAG_FORCE_MIRAGE_TOWER_VISIBLE      0x9D
-#define FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE   0x9E
-#define FLAG_INTERACTED_WITH_DEVON_EMPLOYEE_GOODS_STOLEN 0x9F
-#define FLAG_COOL_PAINTING_MADE              0xA0
-#define FLAG_BEAUTY_PAINTING_MADE            0xA1
-#define FLAG_CUTE_PAINTING_MADE              0xA2
-#define FLAG_SMART_PAINTING_MADE             0xA3
-#define FLAG_TOUGH_PAINTING_MADE             0xA4
+#define FLAG_FORCE_MIRAGE_TOWER_VISIBLE      0x9D // hoenn only flag
+#define FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE   0x9E // hoenn only flag
+#define FLAG_INTERACTED_WITH_DEVON_EMPLOYEE_GOODS_STOLEN 0x9F // hoenn only flag
+#define FLAG_COOL_PAINTING_MADE              0xA0 // hoenn only flag
+#define FLAG_BEAUTY_PAINTING_MADE            0xA1 // hoenn only flag
+#define FLAG_CUTE_PAINTING_MADE              0xA2 // hoenn only flag
+#define FLAG_SMART_PAINTING_MADE             0xA3 // hoenn only flag
+#define FLAG_TOUGH_PAINTING_MADE             0xA4 // hoenn only flag
 #define FLAG_RECEIVED_TM_ROCK_TOMB           0xA5
 #define FLAG_RECEIVED_TM_BULK_UP             0xA6
 #define FLAG_RECEIVED_TM_SHOCK_WAVE          0xA7
@@ -208,46 +208,46 @@
 #define FLAG_DECORATION_13                   0xBA
 #define FLAG_DECORATION_14                   0xBB
 #define FLAG_RECEIVED_POKENAV                0xBC
-#define FLAG_DELIVERED_STEVEN_LETTER         0xBD
-#define FLAG_DEFEATED_WALLY_MAUVILLE         0xBE
-#define FLAG_DEFEATED_GRUNT_SPACE_CENTER_1F  0xBF
-#define FLAG_RECEIVED_SUN_STONE_MOSSDEEP     0xC0
-#define FLAG_WALLY_SPEECH                    0xC1
+#define FLAG_DELIVERED_STEVEN_LETTER         0xBD // hoenn only flag
+#define FLAG_DEFEATED_WALLY_MAUVILLE         0xBE // hoenn only flag
+#define FLAG_DEFEATED_GRUNT_SPACE_CENTER_1F  0xBF // hoenn only flag
+#define FLAG_RECEIVED_SUN_STONE_MOSSDEEP     0xC0 // hoenn only flag
+#define FLAG_WALLY_SPEECH                    0xC1 // hoenn only flag
 #define FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_1   0xC2 // Leftover from the RS version of Puzzle Room 7, functionally unused
 #define FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_2   0xC3 //
 #define FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_3   0xC4 //
 #define FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_4   0xC5 //
 #define FLAG_TRICK_HOUSE_PUZZLE_7_SWITCH_5   0xC6 //
-#define FLAG_RUSTURF_TUNNEL_OPENED           0xC7
+#define FLAG_RUSTURF_TUNNEL_OPENED           0xC7 // hoenn only flag
 #define FLAG_RECEIVED_RED_SCARF              0xC8
 #define FLAG_RECEIVED_BLUE_SCARF             0xC9
 #define FLAG_RECEIVED_PINK_SCARF             0xCA
 #define FLAG_RECEIVED_GREEN_SCARF            0xCB
 #define FLAG_RECEIVED_YELLOW_SCARF           0xCC
-#define FLAG_INTERACTED_WITH_STEVEN_SPACE_CENTER    0xCD
+#define FLAG_INTERACTED_WITH_STEVEN_SPACE_CENTER    0xCD // hoenn only flag
 #define FLAG_ENCOUNTERED_LATIAS_OR_LATIOS    0xCE
-#define FLAG_MET_ARCHIE_METEOR_FALLS         0xCF
-#define FLAG_GOT_BASEMENT_KEY_FROM_WATTSON   0xD0
-#define FLAG_GOT_TM_THUNDERBOLT_FROM_WATTSON 0xD1
+#define FLAG_MET_ARCHIE_METEOR_FALLS         0xCF // hoenn only flag
+#define FLAG_GOT_BASEMENT_KEY_FROM_WATTSON   0xD0 // hoenn only flag
+#define FLAG_GOT_TM_THUNDERBOLT_FROM_WATTSON 0xD1 // hoenn only flag
 #define FLAG_FAN_CLUB_STRENGTH_SHARED        0xD2 // Set when you rate the strength of another trainer in Lilycove's Trainer Fan Club.
-#define FLAG_DEFEATED_RIVAL_RUSTBORO         0xD3
-#define FLAG_RECEIVED_RED_OR_BLUE_ORB        0xD4
-#define FLAG_RECEIVED_PREMIER_BALL_RUSTBORO  0xD5
-#define FLAG_ENABLE_WALLY_MATCH_CALL         0xD6
-#define FLAG_ENABLE_SCOTT_MATCH_CALL         0xD7
-#define FLAG_ENABLE_MOM_MATCH_CALL           0xD8
-#define FLAG_MET_DIVING_TREASURE_HUNTER      0xD9
-#define FLAG_MET_WAILMER_TRAINER             0xDA
-#define FLAG_EVIL_LEADER_PLEASE_STOP         0xDB
+#define FLAG_DEFEATED_RIVAL_RUSTBORO         0xD3 // hoenn only flag
+#define FLAG_RECEIVED_RED_OR_BLUE_ORB        0xD4 // hoenn only flag
+#define FLAG_RECEIVED_PREMIER_BALL_RUSTBORO  0xD5 // hoenn only flag
+#define FLAG_ENABLE_WALLY_MATCH_CALL         0xD6 // hoenn only flag
+#define FLAG_ENABLE_SCOTT_MATCH_CALL         0xD7 // hoenn only flag
+#define FLAG_ENABLE_MOM_MATCH_CALL           0xD8 // hoenn only flag
+#define FLAG_MET_DIVING_TREASURE_HUNTER      0xD9 // hoenn only flag
+#define FLAG_MET_WAILMER_TRAINER             0xDA // hoenn only flag
+#define FLAG_EVIL_LEADER_PLEASE_STOP         0xDB // hoenn only flag
 
 #define FLAG_NEVER_SET_0x0DC                 0xDC // This flag is read, but never written to
 
-#define FLAG_RECEIVED_GO_GOGGLES             0xDD
-#define FLAG_WINGULL_SENT_ON_ERRAND          0xDE
-#define FLAG_RECEIVED_MENTAL_HERB            0xDF
-#define FLAG_WINGULL_DELIVERED_MAIL          0xE0
-#define FLAG_RECEIVED_20_COINS               0xE1
-#define FLAG_RECEIVED_STARTER_DOLL           0xE2
+#define FLAG_RECEIVED_GO_GOGGLES             0xDD // hoenn only flag
+#define FLAG_WINGULL_SENT_ON_ERRAND          0xDE // hoenn only flag
+#define FLAG_RECEIVED_MENTAL_HERB            0xDF // hoenn only flag
+#define FLAG_WINGULL_DELIVERED_MAIL          0xE0 // hoenn only flag
+#define FLAG_RECEIVED_20_COINS               0xE1 // hoenn only flag
+#define FLAG_RECEIVED_STARTER_DOLL           0xE2 // hoenn only flag
 #define FLAG_RECEIVED_GOOD_ROD               0xE3
 #define FLAG_REGI_DOORS_OPENED               0xE4
 #define FLAG_RECEIVED_TM_RETURN              0xE5
@@ -262,15 +262,15 @@
 #define FLAG_RECEIVED_GLASS_ORNAMENT         0xEC
 #define FLAG_RECEIVED_SILVER_SHIELD          0xED
 #define FLAG_RECEIVED_GOLD_SHIELD            0xEE
-#define FLAG_USED_STORAGE_KEY                0xEF
-#define FLAG_USED_ROOM_1_KEY                 0xF0
-#define FLAG_USED_ROOM_2_KEY                 0xF1
-#define FLAG_USED_ROOM_4_KEY                 0xF2
-#define FLAG_USED_ROOM_6_KEY                 0xF3
-#define FLAG_MET_PROF_COZMO                  0xF4
-#define FLAG_RECEIVED_WAILMER_DOLL           0xF5
-#define FLAG_RECEIVED_CHESTO_BERRY_ROUTE_104 0xF6
-#define FLAG_DEFEATED_SS_TIDAL_TRAINERS      0xF7
+#define FLAG_USED_STORAGE_KEY                0xEF // hoenn only flag
+#define FLAG_USED_ROOM_1_KEY                 0xF0 // hoenn only flag
+#define FLAG_USED_ROOM_2_KEY                 0xF1 // hoenn only flag
+#define FLAG_USED_ROOM_4_KEY                 0xF2 // hoenn only flag
+#define FLAG_USED_ROOM_6_KEY                 0xF3 // hoenn only flag
+#define FLAG_MET_PROF_COZMO                  0xF4 // hoenn only flag
+#define FLAG_RECEIVED_WAILMER_DOLL           0xF5 // hoenn only flag
+#define FLAG_RECEIVED_CHESTO_BERRY_ROUTE_104 0xF6 // hoenn only flag
+#define FLAG_DEFEATED_SS_TIDAL_TRAINERS      0xF7 // hoenn only flag
 #define FLAG_RECEIVED_SPELON_BERRY           0xF8
 #define FLAG_RECEIVED_PAMTRE_BERRY           0xF9
 #define FLAG_RECEIVED_WATMEL_BERRY           0xFA
@@ -289,7 +289,7 @@
 #define FLAG_ENTERED_ELITE_FOUR              0x107
 #define FLAG_RECEIVED_TM_HIDDEN_POWER        0x108
 #define FLAG_RECEIVED_TM_TORMENT             0x109
-#define FLAG_RECEIVED_LAVARIDGE_EGG          0x10A
+#define FLAG_RECEIVED_LAVARIDGE_EGG          0x10A // hoenn only flag
 #define FLAG_RECEIVED_REVIVED_FOSSIL_MON     0x10B
 #define FLAG_SECRET_BASE_REGISTRY_ENABLED    0x10C
 #define FLAG_RECEIVED_TM_THIEF               0x10D
@@ -304,39 +304,39 @@
 #define FLAG_RECEIVED_SOOTHE_BELL            0x116
 #define FLAG_RECEIVED_WHITE_HERB             0x117
 #define FLAG_RECEIVED_SOFT_SAND              0x118
-#define FLAG_ENABLE_PROF_BIRCH_MATCH_CALL    0x119
+#define FLAG_ENABLE_PROF_BIRCH_MATCH_CALL    0x119 // hoenn only flag
 #define FLAG_RECEIVED_CLEANSE_TAG            0x11A
 #define FLAG_RECEIVED_FOCUS_BAND             0x11B
-#define FLAG_DECLINED_WALLY_BATTLE_MAUVILLE  0x11C
-#define FLAG_RECEIVED_DEVON_SCOPE            0x11D
-#define FLAG_DECLINED_RIVAL_BATTLE_LILYCOVE  0x11E
-#define FLAG_MET_DEVON_EMPLOYEE              0x11F
-#define FLAG_MET_RIVAL_RUSTBORO              0x120
-#define FLAG_RECEIVED_SILK_SCARF             0x121
-#define FLAG_NOT_READY_FOR_BATTLE_ROUTE_120  0x122
-#define FLAG_RECEIVED_SS_TICKET              0x123
-#define FLAG_MET_RIVAL_LILYCOVE              0x124
-#define FLAG_MET_RIVAL_IN_HOUSE_AFTER_LILYCOVE 0x125
-#define FLAG_EXCHANGED_SCANNER               0x126
-#define FLAG_KECLEON_FLED_FORTREE            0x127
-#define FLAG_PETALBURG_MART_EXPANDED_ITEMS   0x128
+#define FLAG_DECLINED_WALLY_BATTLE_MAUVILLE  0x11C // hoenn only flag
+#define FLAG_RECEIVED_DEVON_SCOPE            0x11D // hoenn only flag
+#define FLAG_DECLINED_RIVAL_BATTLE_LILYCOVE  0x11E // hoenn only flag
+#define FLAG_MET_DEVON_EMPLOYEE              0x11F // hoenn only flag
+#define FLAG_MET_RIVAL_RUSTBORO              0x120 // hoenn only flag
+#define FLAG_RECEIVED_SILK_SCARF             0x121 // hoenn only flag
+#define FLAG_NOT_READY_FOR_BATTLE_ROUTE_120  0x122 // hoenn only flag
+#define FLAG_RECEIVED_SS_TICKET              0x123 // hoenn only flag
+#define FLAG_MET_RIVAL_LILYCOVE              0x124 // hoenn only flag
+#define FLAG_MET_RIVAL_IN_HOUSE_AFTER_LILYCOVE 0x125 // hoenn only flag
+#define FLAG_EXCHANGED_SCANNER               0x126 // hoenn only flag
+#define FLAG_KECLEON_FLED_FORTREE            0x127 // hoenn only flag
+#define FLAG_PETALBURG_MART_EXPANDED_ITEMS   0x128 // hoenn only flag
 #define FLAG_RECEIVED_MIRACLE_SEED           0x129
 #define FLAG_RECEIVED_BELDUM                 0x12A
 #define FLAG_RECEIVED_FANCLUB_TM_THIS_WEEK   0x12B
-#define FLAG_MET_FANCLUB_YOUNGER_BROTHER     0x12C
-#define FLAG_RIVAL_LEFT_FOR_ROUTE103         0x12D
-#define FLAG_OMIT_DIVE_FROM_STEVEN_LETTER    0x12E
+#define FLAG_MET_FANCLUB_YOUNGER_BROTHER     0x12C // hoenn only flag
+#define FLAG_RIVAL_LEFT_FOR_ROUTE103         0x12D // hoenn only flag
+#define FLAG_OMIT_DIVE_FROM_STEVEN_LETTER    0x12E // hoenn only flag
 #define FLAG_HAS_MATCH_CALL                  0x12F
 #define FLAG_ADDED_MATCH_CALL_TO_POKENAV     0x130
 #define FLAG_REGISTERED_STEVEN_POKENAV       0x131
 #define FLAG_ENABLE_NORMAN_MATCH_CALL        0x132
 #define FLAG_STEVEN_GUIDES_TO_CAVE_OF_ORIGIN 0x133 // Set after you follow Steven to the entrance of the Cave of Origin.
-#define FLAG_MET_ARCHIE_SOOTOPOLIS           0x134
-#define FLAG_MET_MAXIE_SOOTOPOLIS            0x135
-#define FLAG_MET_SCOTT_RUSTBORO              0x136
+#define FLAG_MET_ARCHIE_SOOTOPOLIS           0x134 // hoenn only flag
+#define FLAG_MET_MAXIE_SOOTOPOLIS            0x135 // hoenn only flag
+#define FLAG_MET_SCOTT_RUSTBORO              0x136 // hoenn only flag
 #define FLAG_WALLACE_GOES_TO_SKY_PILLAR      0x137 // Set after speaking to Wallace within the Cave of Origin.
 #define FLAG_RECEIVED_HM_WATERFALL           0x138
-#define FLAG_BEAT_MAGMA_GRUNT_JAGGED_PASS    0x139
+#define FLAG_BEAT_MAGMA_GRUNT_JAGGED_PASS    0x139 // hoenn only flag
 #define FLAG_RECEIVED_AURORA_TICKET          0x13A
 #define FLAG_RECEIVED_MYSTIC_TICKET          0x13B
 #define FLAG_RECEIVED_OLD_SEA_MAP            0x13C
@@ -502,13 +502,13 @@
 #define FLAG_MET_SCOTT_ON_SS_TIDAL           0x1D0 // hoenn only flag
 #define FLAG_SCOTT_GIVES_BATTLE_POINTS       0x1D1
 #define FLAG_COLLECTED_ALL_GOLD_SYMBOLS      0x1D2
-#define FLAG_ENABLE_ROXANNE_MATCH_CALL       0x1D3
-#define FLAG_ENABLE_BRAWLY_MATCH_CALL        0x1D4
-#define FLAG_ENABLE_WATTSON_MATCH_CALL       0x1D5
-#define FLAG_ENABLE_FLANNERY_MATCH_CALL      0x1D6
-#define FLAG_ENABLE_WINONA_MATCH_CALL        0x1D7
-#define FLAG_ENABLE_TATE_AND_LIZA_MATCH_CALL 0x1D8
-#define FLAG_ENABLE_JUAN_MATCH_CALL          0x1D9
+#define FLAG_ENABLE_ROXANNE_MATCH_CALL       0x1D3 // hoenn only flag
+#define FLAG_ENABLE_BRAWLY_MATCH_CALL        0x1D4 // hoenn only flag
+#define FLAG_ENABLE_WATTSON_MATCH_CALL       0x1D5 // hoenn only flag
+#define FLAG_ENABLE_FLANNERY_MATCH_CALL      0x1D6 // hoenn only flag
+#define FLAG_ENABLE_WINONA_MATCH_CALL        0x1D7 // hoenn only flag
+#define FLAG_ENABLE_TATE_AND_LIZA_MATCH_CALL 0x1D8 // hoenn only flag
+#define FLAG_ENABLE_JUAN_MATCH_CALL          0x1D9 // hoenn only flag
 
 #define FLAG_UNUSED_0x1DA                    0x1DA // Unused Flag
 
@@ -746,108 +746,108 @@
 #define FLAG_UNUSED_0x2BB  0x2BB // Unused Flag
 
 // Event Flags
-#define FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG                      0x2BC
-#define FLAG_HIDE_APPRENTICE                                        0x2BD
-#define FLAG_HIDE_POKEMON_CENTER_2F_MYSTERY_GIFT_MAN                0x2BE
-#define FLAG_HIDE_UNION_ROOM_PLAYER_1                               0x2BF
-#define FLAG_HIDE_UNION_ROOM_PLAYER_2                               0x2C0
-#define FLAG_HIDE_UNION_ROOM_PLAYER_3                               0x2C1
-#define FLAG_HIDE_UNION_ROOM_PLAYER_4                               0x2C2
-#define FLAG_HIDE_UNION_ROOM_PLAYER_5                               0x2C3
-#define FLAG_HIDE_UNION_ROOM_PLAYER_6                               0x2C4
-#define FLAG_HIDE_UNION_ROOM_PLAYER_7                               0x2C5
-#define FLAG_HIDE_UNION_ROOM_PLAYER_8                               0x2C6
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1               0x2C7
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2               0x2C8
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3               0x2C9
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4               0x2CA
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5               0x2CB
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6               0x2CC
-#define FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS            0x2CD
+#define FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG                      0x2BC // hoenn only flag
+#define FLAG_HIDE_APPRENTICE                                        0x2BD // hoenn only flag
+#define FLAG_HIDE_POKEMON_CENTER_2F_MYSTERY_GIFT_MAN                0x2BE // hoenn only flag
+#define FLAG_HIDE_UNION_ROOM_PLAYER_1                               0x2BF // hoenn only flag
+#define FLAG_HIDE_UNION_ROOM_PLAYER_2                               0x2C0 // hoenn only flag
+#define FLAG_HIDE_UNION_ROOM_PLAYER_3                               0x2C1 // hoenn only flag
+#define FLAG_HIDE_UNION_ROOM_PLAYER_4                               0x2C2 // hoenn only flag
+#define FLAG_HIDE_UNION_ROOM_PLAYER_5                               0x2C3 // hoenn only flag
+#define FLAG_HIDE_UNION_ROOM_PLAYER_6                               0x2C4 // hoenn only flag
+#define FLAG_HIDE_UNION_ROOM_PLAYER_7                               0x2C5 // hoenn only flag
+#define FLAG_HIDE_UNION_ROOM_PLAYER_8                               0x2C6 // hoenn only flag
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1               0x2C7 // hoenn only flag
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2               0x2C8 // hoenn only flag
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3               0x2C9 // hoenn only flag
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4               0x2CA // hoenn only flag
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5               0x2CB // hoenn only flag
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6               0x2CC // hoenn only flag
+#define FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS            0x2CD // hoenn only flag
 #define FLAG_HIDE_MEW                                               0x2CE
-#define FLAG_HIDE_ROUTE_104_RIVAL                                   0x2CF
-#define FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE                  0x2D0
-#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH                  0x2D1
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM          0x2D2
-#define FLAG_HIDE_ROUTE_103_RIVAL                                   0x2D3
-#define FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE                    0x2D4
-#define FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT                        0x2D5
-#define FLAG_HIDE_PETALBURG_CITY_WALLY                              0x2D6
-#define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY   0x2D7
-#define FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM                         0x2D8
+#define FLAG_HIDE_ROUTE_104_RIVAL                                   0x2CF // hoenn only flag
+#define FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE                  0x2D0 // hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH                  0x2D1 // hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM          0x2D2 // hoenn only flag
+#define FLAG_HIDE_ROUTE_103_RIVAL                                   0x2D3 // hoenn only flag
+#define FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE                    0x2D4 // hoenn only flag
+#define FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT                        0x2D5 // hoenn only flag
+#define FLAG_HIDE_PETALBURG_CITY_WALLY                              0x2D6 // hoenn only flag
+#define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY   0x2D7 // hoenn only flag
+#define FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM                         0x2D8 // hoenn only flag
 
 #define FLAG_UNUSED_0x2D9                                           0x2D9 // Unused Flag
 
-#define FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER                     0x2DA
-#define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0x2DB
-#define FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1                    0x2DC
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP              0x2DD
-#define FLAG_HIDE_PLAYERS_HOUSE_DAD                                 0x2DE
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING      0x2DF
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING          0x2E0
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE             0x2E1
-#define FLAG_HIDE_ROUTE_104_MR_BRINEY                               0x2E2
-#define FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY                           0x2E3
-#define FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN                            0x2E4
-#define FLAG_HIDE_ROUTE_109_MR_BRINEY                               0x2E5
-#define FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT                          0x2E6
-#define FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN                       0x2E7
-#define FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT                          0x2E8
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_BRENDAN            0x2E9
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MAY                    0x2EA
-#define FLAG_HIDE_SAFARI_ZONE_SOUTH_EAST_EXPANSION                  0x2EB
-#define FLAG_HIDE_LILYCOVE_HARBOR_EVENT_TICKET_TAKER                0x2EC
-#define FLAG_HIDE_SLATEPORT_CITY_SCOTT                              0x2ED
-#define FLAG_HIDE_ROUTE_101_ZIGZAGOON                               0x2EE
-#define FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY                           0x2EF
-#define FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE                       0x2F0
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN              0x2F1
-#define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_1          0x2F2
-#define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_2          0x2F3
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA          0x2F4
-#define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_BEDROOM_MOM               0x2F5
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM                0x2F6
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MOM                    0x2F7
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM      0x2F8
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK              0x2F9
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK                  0x2FA
+#define FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER                     0x2DA // hoenn only flag
+#define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0x2DB // hoenn only flag
+#define FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1                    0x2DC // hoenn only flag
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP              0x2DD // hoenn only flag
+#define FLAG_HIDE_PLAYERS_HOUSE_DAD                                 0x2DE // hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING      0x2DF // hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING          0x2E0 // hoenn only flag
+#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE             0x2E1 // hoenn only flag
+#define FLAG_HIDE_ROUTE_104_MR_BRINEY                               0x2E2 // hoenn only flag
+#define FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY                           0x2E3 // hoenn only flag
+#define FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN                            0x2E4 // hoenn only flag
+#define FLAG_HIDE_ROUTE_109_MR_BRINEY                               0x2E5 // hoenn only flag
+#define FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT                          0x2E6 // hoenn only flag
+#define FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN                       0x2E7 // hoenn only flag
+#define FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT                          0x2E8 // hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_BRENDAN            0x2E9 // hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MAY                    0x2EA // hoenn only flag
+#define FLAG_HIDE_SAFARI_ZONE_SOUTH_EAST_EXPANSION                  0x2EB // hoenn only flag
+#define FLAG_HIDE_LILYCOVE_HARBOR_EVENT_TICKET_TAKER                0x2EC // hoenn only flag
+#define FLAG_HIDE_SLATEPORT_CITY_SCOTT                              0x2ED // hoenn only flag
+#define FLAG_HIDE_ROUTE_101_ZIGZAGOON                               0x2EE // hoenn only flag
+#define FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY                           0x2EF // hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE                       0x2F0 // hoenn only flag
+#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN              0x2F1 // hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_1          0x2F2 // hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_2          0x2F3 // hoenn only flag
+#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA          0x2F4 // hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_BEDROOM_MOM               0x2F5 // hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM                0x2F6 // hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MOM                    0x2F7 // hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM      0x2F8 // hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK              0x2F9 // hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK                  0x2FA // hoenn only flag
 #define FLAG_HIDE_DEOXYS                                            0x2FB
 #define FLAG_HIDE_BIRTH_ISLAND_DEOXYS_TRIANGLE                      0x2FC
-#define FLAG_HIDE_MAUVILLE_CITY_SCOTT                               0x2FD
-#define FLAG_HIDE_VERDANTURF_TOWN_SCOTT                             0x2FE
-#define FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT                  0x2FF
-#define FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE                        0x300
-#define FLAG_HIDE_ROUTE_111_VICTORIA_WINSTRATE                      0x301
-#define FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE                          0x302
-#define FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE                         0x303
-#define FLAG_HIDE_PETALBURG_GYM_NORMAN                              0x304
-#define FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA                           0x305
-#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_1         0x306
-#define FLAG_HIDE_LILYCOVE_MUSEUM_CURATOR                           0x307
-#define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1                          0x308
-#define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_2                          0x309
-#define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_3                          0x30A
-#define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_4                          0x30B
-#define FLAG_HIDE_LILYCOVE_MUSEUM_TOURISTS                          0x30C
-#define FLAG_HIDE_PETALBURG_GYM_GREETER                             0x30D
-#define FLAG_HIDE_MARINE_CAVE_KYOGRE                                0x30E
-#define FLAG_HIDE_TERRA_CAVE_GROUDON                                0x30F
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM          0x310
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM              0x311
-#define FLAG_HIDE_ROUTE_119_SCOTT                                   0x312
-#define FLAG_HIDE_LILYCOVE_MOTEL_SCOTT                              0x313
-#define FLAG_HIDE_MOSSDEEP_CITY_SCOTT                               0x314
-#define FLAG_HIDE_FANCLUB_OLD_LADY                                  0x315
-#define FLAG_HIDE_FANCLUB_BOY                                       0x316
-#define FLAG_HIDE_FANCLUB_LITTLE_BOY                                0x317
-#define FLAG_HIDE_FANCLUB_LADY                                      0x318
-#define FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT               0x319
-#define FLAG_HIDE_LITTLEROOT_TOWN_RIVAL                             0x31A
-#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCH                             0x31B
-#define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1                          0x31C
-#define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1                          0x31D
-#define FLAG_HIDE_ROUTE_120_GABBY_AND_TY_1                          0x31E
-#define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3                          0x31F
+#define FLAG_HIDE_MAUVILLE_CITY_SCOTT                               0x2FD // hoenn only flag
+#define FLAG_HIDE_VERDANTURF_TOWN_SCOTT                             0x2FE // hoenn only flag
+#define FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT                  0x2FF // hoenn only flag
+#define FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE                        0x300 // hoenn only flag
+#define FLAG_HIDE_ROUTE_111_VICTORIA_WINSTRATE                      0x301 // hoenn only flag
+#define FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE                          0x302 // hoenn only flag
+#define FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE                         0x303 // hoenn only flag
+#define FLAG_HIDE_PETALBURG_GYM_NORMAN                              0x304 // hoenn only flag
+#define FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA                           0x305 // hoenn only flag
+#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_1         0x306 // hoenn only flag
+#define FLAG_HIDE_LILYCOVE_MUSEUM_CURATOR                           0x307 // hoenn only flag
+#define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1                          0x308 // hoenn only flag
+#define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_2                          0x309 // hoenn only flag
+#define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_3                          0x30A // hoenn only flag
+#define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_4                          0x30B // hoenn only flag
+#define FLAG_HIDE_LILYCOVE_MUSEUM_TOURISTS                          0x30C // hoenn only flag
+#define FLAG_HIDE_PETALBURG_GYM_GREETER                             0x30D // hoenn only flag
+#define FLAG_HIDE_MARINE_CAVE_KYOGRE                                0x30E // hoenn only flag
+#define FLAG_HIDE_TERRA_CAVE_GROUDON                                0x30F // hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM          0x310 // hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM              0x311 // hoenn only flag
+#define FLAG_HIDE_ROUTE_119_SCOTT                                   0x312 // hoenn only flag
+#define FLAG_HIDE_LILYCOVE_MOTEL_SCOTT                              0x313 // hoenn only flag
+#define FLAG_HIDE_MOSSDEEP_CITY_SCOTT                               0x314 // hoenn only flag
+#define FLAG_HIDE_FANCLUB_OLD_LADY                                  0x315 // hoenn only flag
+#define FLAG_HIDE_FANCLUB_BOY                                       0x316 // hoenn only flag
+#define FLAG_HIDE_FANCLUB_LITTLE_BOY                                0x317 // hoenn only flag
+#define FLAG_HIDE_FANCLUB_LADY                                      0x318 // hoenn only flag
+#define FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT               0x319 // hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_RIVAL                             0x31A // hoenn only flag
+#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCH                             0x31B // hoenn only flag
+#define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1                          0x31C // hoenn only flag
+#define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1                          0x31D // hoenn only flag
+#define FLAG_HIDE_ROUTE_120_GABBY_AND_TY_1                          0x31E // hoenn only flag
+#define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3                          0x31F // hoenn only flag
 #define FLAG_HIDE_LUGIA                                             0x320
 #define FLAG_HIDE_HO_OH                                             0x321
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER                    0x322
@@ -1316,23 +1316,23 @@
 #define FLAG_UNUSED_0x4EE                                           0x4EE // dread plate
 #define FLAG_UNUSED_0x4EF                                           0x4EF // pixie plate
 
-#define FLAG_DEFEATED_RUSTBORO_GYM                                  0x4F0
-#define FLAG_DEFEATED_DEWFORD_GYM                                   0x4F1
-#define FLAG_DEFEATED_MAUVILLE_GYM                                  0x4F2
-#define FLAG_DEFEATED_LAVARIDGE_GYM                                 0x4F3
-#define FLAG_DEFEATED_PETALBURG_GYM                                 0x4F4
-#define FLAG_DEFEATED_FORTREE_GYM                                   0x4F5
-#define FLAG_DEFEATED_MOSSDEEP_GYM                                  0x4F6
-#define FLAG_DEFEATED_SOOTOPOLIS_GYM                                0x4F7
-#define FLAG_DEFEATED_METEOR_FALLS_STEVEN                           0x4F8
+#define FLAG_DEFEATED_RUSTBORO_GYM                                  0x4F0 // hoenn only flag
+#define FLAG_DEFEATED_DEWFORD_GYM                                   0x4F1 // hoenn only flag
+#define FLAG_DEFEATED_MAUVILLE_GYM                                  0x4F2 // hoenn only flag
+#define FLAG_DEFEATED_LAVARIDGE_GYM                                 0x4F3 // hoenn only flag
+#define FLAG_DEFEATED_PETALBURG_GYM                                 0x4F4 // hoenn only flag
+#define FLAG_DEFEATED_FORTREE_GYM                                   0x4F5 // hoenn only flag
+#define FLAG_DEFEATED_MOSSDEEP_GYM                                  0x4F6 // hoenn only flag
+#define FLAG_DEFEATED_SOOTOPOLIS_GYM                                0x4F7 // hoenn only flag
+#define FLAG_DEFEATED_METEOR_FALLS_STEVEN                           0x4F8 // hoenn only flag
 
 #define FLAG_UNUSED_0x4F9                                           0x4F9 // Unused Flag
 #define FLAG_UNUSED_0x4FA                                           0x4FA // Unused Flag
 
-#define FLAG_DEFEATED_ELITE_4_SIDNEY                                0x4FB
-#define FLAG_DEFEATED_ELITE_4_PHOEBE                                0x4FC
-#define FLAG_DEFEATED_ELITE_4_GLACIA                                0x4FD
-#define FLAG_DEFEATED_ELITE_4_DRAKE                                 0x4FE
+#define FLAG_DEFEATED_ELITE_4_SIDNEY                                0x4FB // hoenn only flag
+#define FLAG_DEFEATED_ELITE_4_PHOEBE                                0x4FC // hoenn only flag
+#define FLAG_DEFEATED_ELITE_4_GLACIA                                0x4FD // hoenn only flag
+#define FLAG_DEFEATED_ELITE_4_DRAKE                                 0x4FE // hoenn only flag
 
 #define FLAG_UNUSED_0x4FF                                           0x4FF // Unused Flag
 
@@ -1367,22 +1367,22 @@
 #define NUM_BADGES                                   (1 + FLAG_BADGE08_GET - FLAG_BADGE01_GET)
 
 // Towns and Cities
-#define FLAG_VISITED_LITTLEROOT_TOWN                (SYSTEM_FLAGS + 0xF)
-#define FLAG_VISITED_OLDALE_TOWN                    (SYSTEM_FLAGS + 0x10)
-#define FLAG_VISITED_DEWFORD_TOWN                   (SYSTEM_FLAGS + 0x11)
-#define FLAG_VISITED_LAVARIDGE_TOWN                 (SYSTEM_FLAGS + 0x12)
-#define FLAG_VISITED_FALLARBOR_TOWN                 (SYSTEM_FLAGS + 0x13)
-#define FLAG_VISITED_VERDANTURF_TOWN                (SYSTEM_FLAGS + 0x14)
-#define FLAG_VISITED_PACIFIDLOG_TOWN                (SYSTEM_FLAGS + 0x15)
-#define FLAG_VISITED_PETALBURG_CITY                 (SYSTEM_FLAGS + 0x16)
-#define FLAG_VISITED_SLATEPORT_CITY                 (SYSTEM_FLAGS + 0x17)
-#define FLAG_VISITED_MAUVILLE_CITY                  (SYSTEM_FLAGS + 0x18)
-#define FLAG_VISITED_RUSTBORO_CITY                  (SYSTEM_FLAGS + 0x19)
-#define FLAG_VISITED_FORTREE_CITY                   (SYSTEM_FLAGS + 0x1A)
-#define FLAG_VISITED_LILYCOVE_CITY                  (SYSTEM_FLAGS + 0x1B)
-#define FLAG_VISITED_MOSSDEEP_CITY                  (SYSTEM_FLAGS + 0x1C)
-#define FLAG_VISITED_SOOTOPOLIS_CITY                (SYSTEM_FLAGS + 0x1D)
-#define FLAG_VISITED_EVER_GRANDE_CITY               (SYSTEM_FLAGS + 0x1E)
+#define FLAG_VISITED_LITTLEROOT_TOWN                (SYSTEM_FLAGS + 0xF)  // hoenn only flag
+#define FLAG_VISITED_OLDALE_TOWN                    (SYSTEM_FLAGS + 0x10) // hoenn only flag
+#define FLAG_VISITED_DEWFORD_TOWN                   (SYSTEM_FLAGS + 0x11) // hoenn only flag
+#define FLAG_VISITED_LAVARIDGE_TOWN                 (SYSTEM_FLAGS + 0x12) // hoenn only flag
+#define FLAG_VISITED_FALLARBOR_TOWN                 (SYSTEM_FLAGS + 0x13) // hoenn only flag
+#define FLAG_VISITED_VERDANTURF_TOWN                (SYSTEM_FLAGS + 0x14) // hoenn only flag
+#define FLAG_VISITED_PACIFIDLOG_TOWN                (SYSTEM_FLAGS + 0x15) // hoenn only flag
+#define FLAG_VISITED_PETALBURG_CITY                 (SYSTEM_FLAGS + 0x16) // hoenn only flag
+#define FLAG_VISITED_SLATEPORT_CITY                 (SYSTEM_FLAGS + 0x17) // hoenn only flag
+#define FLAG_VISITED_MAUVILLE_CITY                  (SYSTEM_FLAGS + 0x18) // hoenn only flag
+#define FLAG_VISITED_RUSTBORO_CITY                  (SYSTEM_FLAGS + 0x19) // hoenn only flag
+#define FLAG_VISITED_FORTREE_CITY                   (SYSTEM_FLAGS + 0x1A) // hoenn only flag
+#define FLAG_VISITED_LILYCOVE_CITY                  (SYSTEM_FLAGS + 0x1B) // hoenn only flag
+#define FLAG_VISITED_MOSSDEEP_CITY                  (SYSTEM_FLAGS + 0x1C) // hoenn only flag
+#define FLAG_VISITED_SOOTOPOLIS_CITY                (SYSTEM_FLAGS + 0x1D) // hoenn only flag
+#define FLAG_VISITED_EVER_GRANDE_CITY               (SYSTEM_FLAGS + 0x1E) // hoenn only flag
 
 #define FLAG_IS_CHAMPION                            (SYSTEM_FLAGS + 0x1F) // Seems to be related to linking.
 #define FLAG_NURSE_UNION_ROOM_REMINDER              (SYSTEM_FLAGS + 0x20)
@@ -1418,23 +1418,23 @@
 #define FLAG_SYS_SHOAL_TIDE                         (SYSTEM_FLAGS + 0x3A)
 #define FLAG_SYS_RIBBON_GET                         (SYSTEM_FLAGS + 0x3B)
 
-#define FLAG_LANDMARK_FLOWER_SHOP                   (SYSTEM_FLAGS + 0x3C)
-#define FLAG_LANDMARK_MR_BRINEY_HOUSE               (SYSTEM_FLAGS + 0x3D)
-#define FLAG_LANDMARK_ABANDONED_SHIP                (SYSTEM_FLAGS + 0x3E)
-#define FLAG_LANDMARK_SEASHORE_HOUSE                (SYSTEM_FLAGS + 0x3F)
-#define FLAG_LANDMARK_NEW_MAUVILLE                  (SYSTEM_FLAGS + 0x40)
-#define FLAG_LANDMARK_OLD_LADY_REST_SHOP            (SYSTEM_FLAGS + 0x41)
-#define FLAG_LANDMARK_TRICK_HOUSE                   (SYSTEM_FLAGS + 0x42)
-#define FLAG_LANDMARK_WINSTRATE_FAMILY              (SYSTEM_FLAGS + 0x43)
-#define FLAG_LANDMARK_GLASS_WORKSHOP                (SYSTEM_FLAGS + 0x44)
-#define FLAG_LANDMARK_LANETTES_HOUSE                (SYSTEM_FLAGS + 0x45)
-#define FLAG_LANDMARK_POKEMON_DAYCARE               (SYSTEM_FLAGS + 0x46)
-#define FLAG_LANDMARK_SEAFLOOR_CAVERN               (SYSTEM_FLAGS + 0x47)
-#define FLAG_LANDMARK_BATTLE_FRONTIER               (SYSTEM_FLAGS + 0x48)
-#define FLAG_LANDMARK_SOUTHERN_ISLAND               (SYSTEM_FLAGS + 0x49)
-#define FLAG_LANDMARK_FIERY_PATH                    (SYSTEM_FLAGS + 0x4A)
+#define FLAG_LANDMARK_FLOWER_SHOP                   (SYSTEM_FLAGS + 0x3C) // hoenn only flag
+#define FLAG_LANDMARK_MR_BRINEY_HOUSE               (SYSTEM_FLAGS + 0x3D) // hoenn only flag
+#define FLAG_LANDMARK_ABANDONED_SHIP                (SYSTEM_FLAGS + 0x3E) // hoenn only flag
+#define FLAG_LANDMARK_SEASHORE_HOUSE                (SYSTEM_FLAGS + 0x3F) // hoenn only flag
+#define FLAG_LANDMARK_NEW_MAUVILLE                  (SYSTEM_FLAGS + 0x40) // hoenn only flag
+#define FLAG_LANDMARK_OLD_LADY_REST_SHOP            (SYSTEM_FLAGS + 0x41) // hoenn only flag
+#define FLAG_LANDMARK_TRICK_HOUSE                   (SYSTEM_FLAGS + 0x42) // hoenn only flag
+#define FLAG_LANDMARK_WINSTRATE_FAMILY              (SYSTEM_FLAGS + 0x43) // hoenn only flag
+#define FLAG_LANDMARK_GLASS_WORKSHOP                (SYSTEM_FLAGS + 0x44) // hoenn only flag
+#define FLAG_LANDMARK_LANETTES_HOUSE                (SYSTEM_FLAGS + 0x45) // hoenn only flag
+#define FLAG_LANDMARK_POKEMON_DAYCARE               (SYSTEM_FLAGS + 0x46) // hoenn only flag
+#define FLAG_LANDMARK_SEAFLOOR_CAVERN               (SYSTEM_FLAGS + 0x47) // hoenn only flag
+#define FLAG_LANDMARK_BATTLE_FRONTIER               (SYSTEM_FLAGS + 0x48) // hoenn only flag
+#define FLAG_LANDMARK_SOUTHERN_ISLAND               (SYSTEM_FLAGS + 0x49) // hoenn only flag
+#define FLAG_LANDMARK_FIERY_PATH                    (SYSTEM_FLAGS + 0x4A) // hoenn only flag
 
-#define FLAG_SYS_PC_LANETTE                         (SYSTEM_FLAGS + 0x4B)
+#define FLAG_SYS_PC_LANETTE                         (SYSTEM_FLAGS + 0x4B) // hoenn only flag
 #define FLAG_SYS_MYSTERY_EVENT_ENABLE               (SYSTEM_FLAGS + 0x4C)
 #define FLAG_SYS_ENC_UP_ITEM                        (SYSTEM_FLAGS + 0x4D)
 #define FLAG_SYS_ENC_DOWN_ITEM                      (SYSTEM_FLAGS + 0x4E)
@@ -1444,26 +1444,26 @@
 #define FLAG_SYS_REGISTEEL_PUZZLE_COMPLETED         (SYSTEM_FLAGS + 0x52)
 #define FLAG_ENABLE_SHIP_SOUTHERN_ISLAND            (SYSTEM_FLAGS + 0x53)
 
-#define FLAG_LANDMARK_POKEMON_LEAGUE                (SYSTEM_FLAGS + 0x54)
-#define FLAG_LANDMARK_ISLAND_CAVE                   (SYSTEM_FLAGS + 0x55)
-#define FLAG_LANDMARK_DESERT_RUINS                  (SYSTEM_FLAGS + 0x56)
-#define FLAG_LANDMARK_FOSSIL_MANIACS_HOUSE          (SYSTEM_FLAGS + 0x57)
-#define FLAG_LANDMARK_SCORCHED_SLAB                 (SYSTEM_FLAGS + 0x58)
-#define FLAG_LANDMARK_ANCIENT_TOMB                  (SYSTEM_FLAGS + 0x59)
-#define FLAG_LANDMARK_TUNNELERS_REST_HOUSE          (SYSTEM_FLAGS + 0x5A)
-#define FLAG_LANDMARK_HUNTERS_HOUSE                 (SYSTEM_FLAGS + 0x5B)
-#define FLAG_LANDMARK_SEALED_CHAMBER                (SYSTEM_FLAGS + 0x5C)
+#define FLAG_LANDMARK_POKEMON_LEAGUE                (SYSTEM_FLAGS + 0x54) // hoenn only flag
+#define FLAG_LANDMARK_ISLAND_CAVE                   (SYSTEM_FLAGS + 0x55) // hoenn only flag
+#define FLAG_LANDMARK_DESERT_RUINS                  (SYSTEM_FLAGS + 0x56) // hoenn only flag
+#define FLAG_LANDMARK_FOSSIL_MANIACS_HOUSE          (SYSTEM_FLAGS + 0x57) // hoenn only flag
+#define FLAG_LANDMARK_SCORCHED_SLAB                 (SYSTEM_FLAGS + 0x58) // hoenn only flag
+#define FLAG_LANDMARK_ANCIENT_TOMB                  (SYSTEM_FLAGS + 0x59) // hoenn only flag
+#define FLAG_LANDMARK_TUNNELERS_REST_HOUSE          (SYSTEM_FLAGS + 0x5A) // hoenn only flag
+#define FLAG_LANDMARK_HUNTERS_HOUSE                 (SYSTEM_FLAGS + 0x5B) // hoenn only flag
+#define FLAG_LANDMARK_SEALED_CHAMBER                (SYSTEM_FLAGS + 0x5C) // hoenn only flag
 
 #define FLAG_SYS_TV_LATIAS_LATIOS                   (SYSTEM_FLAGS + 0x5D)
 
-#define FLAG_LANDMARK_SKY_PILLAR                    (SYSTEM_FLAGS + 0x5E)
+#define FLAG_LANDMARK_SKY_PILLAR                    (SYSTEM_FLAGS + 0x5E) // hoenn only flag
 
 #define FLAG_SYS_SHOAL_ITEM                         (SYSTEM_FLAGS + 0x5F)
 #define FLAG_SYS_B_DASH                             (SYSTEM_FLAGS + 0x60) // RECEIVED Running Shoes
 #define FLAG_SYS_CTRL_OBJ_DELETE                    (SYSTEM_FLAGS + 0x61)
 #define FLAG_SYS_RESET_RTC_ENABLE                   (SYSTEM_FLAGS + 0x62)
 
-#define FLAG_LANDMARK_BERRY_MASTERS_HOUSE           (SYSTEM_FLAGS + 0x63)
+#define FLAG_LANDMARK_BERRY_MASTERS_HOUSE           (SYSTEM_FLAGS + 0x63) // hoenn only flag
 
 #define FLAG_SYS_TOWER_SILVER                       (SYSTEM_FLAGS + 0x64)
 #define FLAG_SYS_TOWER_GOLD                         (SYSTEM_FLAGS + 0x65)

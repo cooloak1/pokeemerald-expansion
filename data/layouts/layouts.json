@@ -4600,6 +4600,46 @@
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/SandgemTown_PokemonCenter/border.bin",
       "blockdata_filepath": "data/layouts/SandgemTown_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_MART",
+      "name": "SandgemTown_Mart_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/SandgemTown_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_HOUSE",
+      "name": "SandgemTown_House_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/SandgemTown_House/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_House/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_RIVALS_HOUSE_1F",
+      "name": "SandgemTown_RivalsHouse_1F_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/SandgemTown_RivalsHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_RivalsHouse_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_RIVALS_HOUSE_2F",
+      "name": "SandgemTown_RivalsHouse_2F_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/SandgemTown_RivalsHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_RivalsHouse_2F/map.bin"
     }
   ]
 }

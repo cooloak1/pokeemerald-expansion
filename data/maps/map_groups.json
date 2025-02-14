@@ -125,7 +125,11 @@
   ],
   "gMapGroup_IndoorSandgem": [
     "SandgemTown_ProfessorRowansLab",
-    "SandgemTown_PokemonCenter"
+    "SandgemTown_PokemonCenter",
+    "SandgemTown_Mart",
+    "SandgemTown_House",
+    "SandgemTown_RivalsHouse_1F",
+    "SandgemTown_RivalsHouse_2F"
   ],
   "gMapGroup_IndoorJubilife": [
 

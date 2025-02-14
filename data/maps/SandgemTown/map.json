@@ -44,7 +44,28 @@
       "x": 15,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_SANDGEM_TOWN_POKEMON_CENTER_1F",
+      "dest_map": "MAP_SANDGEM_TOWN_POKEMON_CENTER",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 25,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_SANDGEM_TOWN_MART",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 15,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_SANDGEM_TOWN_RIVALS_HOUSE_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 7,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_SANDGEM_TOWN_HOUSE",
       "dest_warp_id": "0"
     }
   ],
