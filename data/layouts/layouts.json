@@ -4580,6 +4580,26 @@
       "secondary_tileset": "gTileset_Jubilife",
       "border_filepath": "data/layouts/Route202/border.bin",
       "blockdata_filepath": "data/layouts/Route202/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_PROFESSOR_ROWANS_LAB",
+      "name": "SandgemTown_ProfessorRowansLab_Layout",
+      "width": 20,
+      "height": 14,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/SandgemTown_ProfessorRowansLab/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_ProfessorRowansLab/map.bin"
+    },
+    {
+      "id": "LAYOUT_SANDGEM_TOWN_POKEMON_CENTER_1F",
+      "name": "SandgemTown_PokemonCenter_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/SandgemTown_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/SandgemTown_PokemonCenter/map.bin"
     }
   ]
 }

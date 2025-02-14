@@ -93,28 +93,28 @@
 #define FLAG_UNUSED_0x04F    0x4F // Unused Flag
 
 // Scripts
-#define FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA_STILL  0x50
+#define FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA_STILL  0x50 // hoenn only flag
 #define FLAG_SET_WALL_CLOCK                      0x51
-#define FLAG_RESCUED_BIRCH                       0x52
-#define FLAG_LEGENDARIES_IN_SOOTOPOLIS           0x53
+#define FLAG_RESCUED_BIRCH                       0x52 // hoenn only flag
+#define FLAG_LEGENDARIES_IN_SOOTOPOLIS           0x53 // hoenn only flag
 
 #define FLAG_UNUSED_0x054                    0x54  // Unused Flag
 #define FLAG_UNUSED_0x055                    0x55  // Unused Flag
 
 #define FLAG_HIDE_CONTEST_POKE_BALL          0x56  // Always set after new game, object it hides is added directly
-#define FLAG_MET_RIVAL_MOM                   0x57
-#define FLAG_BIRCH_AIDE_MET                  0x58
-#define FLAG_DECLINED_BIKE                   0x59
-#define FLAG_RECEIVED_BIKE                   0x5A
-#define FLAG_WATTSON_REMATCH_AVAILABLE       0x5B
+#define FLAG_MET_RIVAL_MOM                   0x57 // hoenn only flag
+#define FLAG_BIRCH_AIDE_MET                  0x58 // hoenn only flag
+#define FLAG_DECLINED_BIKE                   0x59 // hoenn only flag
+#define FLAG_RECEIVED_BIKE                   0x5A // hoenn only flag
+#define FLAG_WATTSON_REMATCH_AVAILABLE       0x5B // hoenn only flag
 #define FLAG_COLLECTED_ALL_SILVER_SYMBOLS    0x5C
 #define FLAG_GOOD_LUCK_SAFARI_ZONE           0x5D // Set after talking to NPC blocking Safari Zone entrance/exit once.
-#define FLAG_RECEIVED_WAILMER_PAIL           0x5E
-#define FLAG_RECEIVED_POKEBLOCK_CASE         0x5F
-#define FLAG_RECEIVED_SECRET_POWER           0x60
-#define FLAG_MET_TEAM_AQUA_HARBOR            0x61
-#define FLAG_TV_EXPLAINED                    0x62
-#define FLAG_MAUVILLE_GYM_BARRIERS_STATE     0x63
+#define FLAG_RECEIVED_WAILMER_PAIL           0x5E // hoenn only flag
+#define FLAG_RECEIVED_POKEBLOCK_CASE         0x5F // hoenn only flag
+#define FLAG_RECEIVED_SECRET_POWER           0x60 // hoenn only flag
+#define FLAG_MET_TEAM_AQUA_HARBOR            0x61 // hoenn only flag
+#define FLAG_TV_EXPLAINED                    0x62 // hoenn only flag
+#define FLAG_MAUVILLE_GYM_BARRIERS_STATE     0x63 // hoenn only flag
 #define FLAG_MOSSDEEP_GYM_SWITCH_1           0x64 // Leftover from the RS version of Mossdeep Gym, functionally unused
 #define FLAG_MOSSDEEP_GYM_SWITCH_2           0x65 //
 #define FLAG_MOSSDEEP_GYM_SWITCH_3           0x66 //
@@ -122,48 +122,48 @@
 
 #define FLAG_UNUSED_0x068                    0x68  // Unused Flag
 
-#define FLAG_OCEANIC_MUSEUM_MET_REPORTER     0x69
+#define FLAG_OCEANIC_MUSEUM_MET_REPORTER     0x69 // hoenn only flag
 #define FLAG_RECEIVED_HM_STRENGTH            0x6A
 #define FLAG_RECEIVED_HM_ROCK_SMASH          0x6B
 #define FLAG_WHITEOUT_TO_LAVARIDGE           0x6C // Set after defeating Flannery, so the player cant white out from poison before receiving Go Goggles
 #define FLAG_RECEIVED_HM_FLASH               0x6D
 #define FLAG_RECEIVED_HM_FLY                 0x6E
-#define FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT  0x6F
-#define FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE  0x70
+#define FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT  0x6F // hoenn only flag
+#define FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE  0x70 // hoenn only flag
 #define FLAG_UNUSED_RS_LEGENDARY_BATTLE_DONE 0x71 // Unused Flag. Used in R/S to indicate whether player defeated or caught Groudon/Kyogre in Cave of Origin.
 #define FLAG_SCOTT_CALL_BATTLE_FRONTIER      0x72 // Used in order to activate a phone call from Scott, inviting the player to the SS Tidal.
-#define FLAG_RECEIVED_METEORITE              0x73
+#define FLAG_RECEIVED_METEORITE              0x73 // hoenn only flag
 #define FLAG_ADVENTURE_STARTED               0x74 // RECEIVED Pokédex.
 #define FLAG_DEFEATED_MAGMA_SPACE_CENTER     0x75 // Set when Team Magma is defeated at Mossdeep's Space Center.
 #define FLAG_MET_HIDDEN_POWER_GIVER          0x76
 
 #define FLAG_CANCEL_BATTLE_ROOM_CHALLENGE    0x77
 
-#define FLAG_LANDMARK_MIRAGE_TOWER           0x78
+#define FLAG_LANDMARK_MIRAGE_TOWER           0x78 // hoenn only flag
 #define FLAG_RECEIVED_TM_BRICK_BREAK         0x79
 #define FLAG_RECEIVED_HM_SURF                0x7A
 #define FLAG_RECEIVED_HM_DIVE                0x7B
-#define FLAG_REGISTER_RIVAL_POKENAV          0x7C
-#define FLAG_DEFEATED_RIVAL_ROUTE_104        0x7D
-#define FLAG_DEFEATED_WALLY_VICTORY_ROAD     0x7E
-#define FLAG_MET_PRETTY_PETAL_SHOP_OWNER     0x7F
+#define FLAG_REGISTER_RIVAL_POKENAV          0x7C // hoenn only flag
+#define FLAG_DEFEATED_RIVAL_ROUTE_104        0x7D // hoenn only flag
+#define FLAG_DEFEATED_WALLY_VICTORY_ROAD     0x7E // hoenn only flag
+#define FLAG_MET_PRETTY_PETAL_SHOP_OWNER     0x7F // hoenn only flag
 #define FLAG_ENABLE_ROXANNE_FIRST_CALL       0x80 // Set after defeating Brawly. This will activate a call with Roxanne in order to register her.
-#define FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN  0x81
-#define FLAG_DEFEATED_RIVAL_ROUTE103         0x82
-#define FLAG_RECEIVED_DOLL_LANETTE           0x83
+#define FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN  0x81 // hoenn only flag
+#define FLAG_DEFEATED_RIVAL_ROUTE103         0x82 // hoenn only flag
+#define FLAG_RECEIVED_DOLL_LANETTE           0x83 // hoenn only flag
 #define FLAG_RECEIVED_POTION_ROUTE_201       0x84 // repurposed for route 201 mart employee instead of oldale
 #define FLAG_RECEIVED_AMULET_COIN            0x85
 #define FLAG_PENDING_DAYCARE_EGG             0x86
-#define FLAG_THANKED_FOR_PLAYING_WITH_WALLY  0x87
+#define FLAG_THANKED_FOR_PLAYING_WITH_WALLY  0x87 // hoenn only flag
 #define FLAG_ENABLE_FIRST_WALLY_POKENAV_CALL 0x88 // Set after defeating Wally outside Mauville Gym. Will activate a call later to register Wally.
 #define FLAG_RECEIVED_HM_CUT                 0x89
 #define FLAG_SCOTT_CALL_FORTREE_GYM          0x8A // Triggers call from Scott after defeating Winona
-#define FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY   0x8B
-#define FLAG_RECEIVED_6_SODA_POP             0x8C
-#define FLAG_DEFEATED_SEASHORE_HOUSE         0x8D
-#define FLAG_DEVON_GOODS_STOLEN              0x8E
-#define FLAG_RECOVERED_DEVON_GOODS           0x8F
-#define FLAG_RETURNED_DEVON_GOODS            0x90
+#define FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY   0x8B // hoenn only flag
+#define FLAG_RECEIVED_6_SODA_POP             0x8C // hoenn only flag
+#define FLAG_DEFEATED_SEASHORE_HOUSE         0x8D // hoenn only flag
+#define FLAG_DEVON_GOODS_STOLEN              0x8E // hoenn only flag
+#define FLAG_RECOVERED_DEVON_GOODS           0x8F // hoenn only flag
+#define FLAG_RETURNED_DEVON_GOODS            0x90 // hoenn only flag
 #define FLAG_CAUGHT_LUGIA                    0x91
 #define FLAG_CAUGHT_HO_OH                    0x92
 #define FLAG_MR_BRINEY_SAILING_INTRO         0x93
@@ -484,22 +484,22 @@
 #define FLAG_DEFEATED_KYOGRE                 0x1BE
 #define FLAG_DEFEATED_GROUDON                0x1BF
 #define FLAG_DEFEATED_RAYQUAZA               0x1C0
-#define FLAG_DEFEATED_VOLTORB_1_NEW_MAUVILLE 0x1C1
-#define FLAG_DEFEATED_VOLTORB_2_NEW_MAUVILLE 0x1C2
-#define FLAG_DEFEATED_VOLTORB_3_NEW_MAUVILLE 0x1C3
-#define FLAG_DEFEATED_ELECTRODE_1_AQUA_HIDEOUT 0x1C4
-#define FLAG_DEFEATED_ELECTRODE_2_AQUA_HIDEOUT 0x1C5
+#define FLAG_DEFEATED_VOLTORB_1_NEW_MAUVILLE 0x1C1 // hoenn only flag
+#define FLAG_DEFEATED_VOLTORB_2_NEW_MAUVILLE 0x1C2 // hoenn only flag
+#define FLAG_DEFEATED_VOLTORB_3_NEW_MAUVILLE 0x1C3 // hoenn only flag
+#define FLAG_DEFEATED_ELECTRODE_1_AQUA_HIDEOUT 0x1C4 // hoenn only flag
+#define FLAG_DEFEATED_ELECTRODE_2_AQUA_HIDEOUT 0x1C5 // hoenn only flag
 #define FLAG_DEFEATED_SUDOWOODO              0x1C6
 #define FLAG_DEFEATED_MEW                    0x1C7
 #define FLAG_DEFEATED_LATIAS_OR_LATIOS       0x1C8
 #define FLAG_CAUGHT_LATIAS_OR_LATIOS         0x1C9
 #define FLAG_CAUGHT_MEW                      0x1CA
 #define FLAG_MET_SCOTT_AFTER_OBTAINING_STONE_BADGE 0x1CB
-#define FLAG_MET_SCOTT_IN_VERDANTURF         0x1CC
-#define FLAG_MET_SCOTT_IN_FALLARBOR          0x1CD
-#define FLAG_MET_SCOTT_IN_LILYCOVE           0x1CE
-#define FLAG_MET_SCOTT_IN_EVERGRANDE         0x1CF
-#define FLAG_MET_SCOTT_ON_SS_TIDAL           0x1D0
+#define FLAG_MET_SCOTT_IN_VERDANTURF         0x1CC // hoenn only flag
+#define FLAG_MET_SCOTT_IN_FALLARBOR          0x1CD // hoenn only flag
+#define FLAG_MET_SCOTT_IN_LILYCOVE           0x1CE // hoenn only flag
+#define FLAG_MET_SCOTT_IN_EVERGRANDE         0x1CF // hoenn only flag
+#define FLAG_MET_SCOTT_ON_SS_TIDAL           0x1D0 // hoenn only flag
 #define FLAG_SCOTT_GIVES_BATTLE_POINTS       0x1D1
 #define FLAG_COLLECTED_ALL_GOLD_SYMBOLS      0x1D2
 #define FLAG_ENABLE_ROXANNE_MATCH_CALL       0x1D3
@@ -656,9 +656,9 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_123_RARE_CANDY                (FLAG_HIDDEN_ITEMS_START + 0x6E) //hoenn only flag
 #define FLAG_HIDDEN_ITEM_ROUTE_105_BIG_PEARL                 (FLAG_HIDDEN_ITEMS_START + 0x6F) //hoenn only flag
 
-#define FLAG_TWINLEAF_TOWN_ODD_KEYSTONE  0x264 
-#define FLAG_UNUSED_0x265  0x265 // Unused Flag
-#define FLAG_UNUSED_0x266  0x266 // Unused Flag
+#define FLAG_HIDDEN_ITEM_TWINLEAF_TOWN_ODD_KEYSTONE  0x264
+#define FLAG_HIDDEN_ITEM_ROUTE_219_ZINC  0x265
+#define FLAG_HIDDEN_ITEM_ROUTE_220_BIG_PEARL  0x266
 #define FLAG_UNUSED_0x267  0x267 // Unused Flag
 #define FLAG_UNUSED_0x268  0x268 // Unused Flag
 #define FLAG_UNUSED_0x269  0x269 // Unused Flag
@@ -1222,10 +1222,10 @@
 #define FLAG_ITEM_SAFARI_ZONE_NORTH_EAST_NUGGET                     0x491 //hoenn only flag
 #define FLAG_ITEM_SAFARI_ZONE_SOUTH_EAST_BIG_PEARL                  0x492 //hoenn only flag
 
-#define FLAG_UNUSED_0x493                                           0x493 // Unused Flag
-#define FLAG_UNUSED_0x494                                           0x494 // Unused Flag
-#define FLAG_UNUSED_0x495                                           0x495 // Unused Flag
-#define FLAG_UNUSED_0x496                                           0x496 // Unused Flag
+#define FLAG_ITEM_ROUTE_219_ANTIDOTE                                0x493 
+#define FLAG_ITEM_ROUTE_220_MAX_REPEL                               0x494 
+#define FLAG_ITEM_ROUTE_220_CARBOS                                  0x495 
+#define FLAG_ITEM_ROUTE_220_PROTEIN                                 0x496 
 #define FLAG_UNUSED_0x497                                           0x497 // Unused Flag
 #define FLAG_UNUSED_0x498                                           0x498 // Unused Flag
 #define FLAG_UNUSED_0x499                                           0x499 // Unused Flag
@@ -1297,24 +1297,24 @@
 #define FLAG_UNUSED_0x4DB                                           0x4DB // Unused Flag
 #define FLAG_UNUSED_0x4DC                                           0x4DC // Unused Flag
 #define FLAG_UNUSED_0x4DD                                           0x4DD // Unused Flag
-#define FLAG_UNUSED_0x4DE                                           0x4DE // Unused Flag
-#define FLAG_UNUSED_0x4DF                                           0x4DF // Unused Flag
-#define FLAG_UNUSED_0x4E0                                           0x4E0 // Unused Flag
-#define FLAG_UNUSED_0x4E1                                           0x4E1 // Unused Flag
-#define FLAG_UNUSED_0x4E2                                           0x4E2 // Unused Flag
-#define FLAG_UNUSED_0x4E3                                           0x4E3 // Unused Flag
-#define FLAG_UNUSED_0x4E4                                           0x4E4 // Unused Flag
-#define FLAG_UNUSED_0x4E5                                           0x4E5 // Unused Flag
-#define FLAG_UNUSED_0x4E6                                           0x4E6 // Unused Flag
-#define FLAG_UNUSED_0x4E7                                           0x4E7 // Unused Flag
-#define FLAG_UNUSED_0x4E8                                           0x4E8 // Unused Flag
-#define FLAG_UNUSED_0x4E9                                           0x4E9 // Unused Flag
-#define FLAG_UNUSED_0x4EA                                           0x4EA // Unused Flag
-#define FLAG_UNUSED_0x4EB                                           0x4EB // Unused Flag
-#define FLAG_UNUSED_0x4EC                                           0x4EC // Unused Flag
-#define FLAG_UNUSED_0x4ED                                           0x4ED // Unused Flag
-#define FLAG_UNUSED_0x4EE                                           0x4EE // Unused Flag
-#define FLAG_UNUSED_0x4EF                                           0x4EF // Unused Flag
+#define FLAG_UNUSED_0x4DE                                           0x4DE // blank plate
+#define FLAG_UNUSED_0x4DF                                           0x4DF // fist plate
+#define FLAG_UNUSED_0x4E0                                           0x4E0 // sky plate
+#define FLAG_UNUSED_0x4E1                                           0x4E1 // toxic plate
+#define FLAG_UNUSED_0x4E2                                           0x4E2 // earth plate
+#define FLAG_UNUSED_0x4E3                                           0x4E3 // stone plate
+#define FLAG_UNUSED_0x4E4                                           0x4E4 // insect plate
+#define FLAG_UNUSED_0x4E5                                           0x4E5 // spooky plate
+#define FLAG_UNUSED_0x4E6                                           0x4E6 // iron plate
+#define FLAG_UNUSED_0x4E7                                           0x4E7 // flame plate
+#define FLAG_ITEM_ROUTE_220_SPLASH_PLATE                            0x4E8 // splash plate
+#define FLAG_UNUSED_0x4E9                                           0x4E9 // meadow plate
+#define FLAG_UNUSED_0x4EA                                           0x4EA // zap plate
+#define FLAG_UNUSED_0x4EB                                           0x4EB // mind plate
+#define FLAG_UNUSED_0x4EC                                           0x4EC // icicle plate
+#define FLAG_UNUSED_0x4ED                                           0x4ED // draco plate
+#define FLAG_UNUSED_0x4EE                                           0x4EE // dread plate
+#define FLAG_UNUSED_0x4EF                                           0x4EF // pixie plate
 
 #define FLAG_DEFEATED_RUSTBORO_GYM                                  0x4F0
 #define FLAG_DEFEATED_DEWFORD_GYM                                   0x4F1

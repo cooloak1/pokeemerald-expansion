@@ -1185,3 +1185,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route221/scripts.inc"
 
 	.include "data/maps/Route202/scripts.inc"
+
+	.include "data/maps/SandgemTown_ProfessorRowansLab/scripts.inc"
+
+	.include "data/maps/SandgemTown_PokemonCenter/scripts.inc"

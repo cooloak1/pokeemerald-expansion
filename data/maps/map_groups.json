@@ -4,6 +4,9 @@
     "gMapGroup_SinnohOverworld",
     "gMapGroup_SinnohCaves",
     "gMapGroup_IndoorTwinleaf",
+    "gMapGroup_IndoorSandgem",
+    "gMapGroup_IndoorJubilife",
+    "gMapGroup_IndoorRoute221",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
     "gMapGroup_IndoorDewford",
@@ -119,6 +122,16 @@
     "TwinleafTown_BarrysHouse_2F",
     "TwinleafTown_House1",
     "TwinleafTown_House2"
+  ],
+  "gMapGroup_IndoorSandgem": [
+    "SandgemTown_ProfessorRowansLab",
+    "SandgemTown_PokemonCenter"
+  ],
+  "gMapGroup_IndoorJubilife": [
+
+  ],
+  "gMapGroup_IndoorRoute221": [
+
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

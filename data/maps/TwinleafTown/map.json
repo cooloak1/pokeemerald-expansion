@@ -69,7 +69,7 @@
       "y": 24,
       "elevation": 0,
       "item": "ITEM_ODD_KEYSTONE",
-      "flag": "FLAG_TWINLEAF_TOWN_ODD_KEYSTONE"
+      "flag": "FLAG_HIDDEN_ITEM_TWINLEAF_TOWN_ODD_KEYSTONE"
     }
   ]
 }

@@ -25,7 +25,7 @@
     },
     {
       "map": "MAP_ROUTE202",
-      "offset": 0,
+      "offset": 2,
       "direction": "up"
     }
   ],
@@ -33,7 +33,20 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 10,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_SANDGEM_TOWN_PROFESSOR_ROWANS_LAB",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 15,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_SANDGEM_TOWN_POKEMON_CENTER_1F",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

@@ -29,7 +29,7 @@ script Route201_EventScript_PokemartLady {
 		msgbox(Route201_Text_PokemartLady, MSGBOX_NPC)
 		giveitem(ITEM_POTION)
 		if (!var(VAR_RESULT)) {
-			goto(Common_EventScript_BagIsFull)
+			goto(Common_EventScript_ShowBagIsFull)
 		}
 		else {
 			setflag(FLAG_RECEIVED_POTION_ROUTE_201)
