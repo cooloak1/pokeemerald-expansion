@@ -1,4 +1,41 @@
-raw `
-SandgemTown_MapScripts::
-	.byte 0
-`
+mapscripts SandgemTown_MapScripts {
+	MAP_SCRIPT_ON_TRANSITION {
+		setflag(FLAG_VISITED_SANDGEM_TOWN)
+	}
+}
+
+script SandgemTown_EventScript_RivalsHouseSign {
+	msgbox(SandgemTown_Text_RivalsHouseSign, MSGBOX_SIGN)
+}
+script SandgemTown_EventScript_LabSign {
+	msgbox(SandgemTown_Text_LabSign, MSGBOX_SIGN)
+}
+script SandgemTown_EventScript_PokemonCenterSign {
+	msgbox(SandgemTown_Text_PokemonCenterSign, MSGBOX_SIGN)
+}
+script SandgemTown_EventScript_MartSign {
+	msgbox(SandgemTown_Text_MartSign, MSGBOX_SIGN)
+}
+script SandgemTown_EventScript_TownSign {
+	msgbox(SandgemTown_Text_TownSign, MSGBOX_SIGN)
+}
+
+text SandgemTown_Text_RivalsHouseSign {
+	format("{RIVAL}'s House")
+}
+
+text SandgemTown_Text_LabSign {
+	format("Pokemon Research Lab")
+}
+
+text SandgemTown_Text_PokemonCenterSign {
+	format("Heal your Pokemon!\nPokemon Center")
+}
+
+text SandgemTown_Text_MartSign {
+	format("All Your Item Needs Fulfilled!\nPokemon Mart")
+}
+
+text SandgemTown_Text_TownSign {
+	format("Sandgem Town\nTown of Sand!")
+}

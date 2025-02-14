@@ -61,7 +61,7 @@ Route201_EventScript_PokemartLady_2:
 
 Route201_EventScript_PokemartLady_5:
 # 32 "data/maps/Route201/scripts.pory"
-	goto Common_EventScript_BagIsFull
+	goto Common_EventScript_ShowBagIsFull
 	goto Route201_EventScript_PokemartLady_1
 
 

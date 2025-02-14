@@ -1,4 +1,5 @@
-raw `
-TwinleafTown_MapScripts::
-	.byte 0
-`
+mapscripts TwinleafTown_MapScripts {
+	MAP_SCRIPT_ON_TRANSITION {
+		setflag(FLAG_VISITED_TWINLEAF_TOWN)
+	}
+}

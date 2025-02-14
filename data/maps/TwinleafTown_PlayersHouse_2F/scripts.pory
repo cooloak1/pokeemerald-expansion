@@ -1,4 +1,21 @@
-raw `
-TwinleafTown_PlayersHouse_2F_MapScripts::
-	.byte 0
-`
+mapscripts TwinleafTown_PlayersHouse_2F_MapScripts {}
+
+text TwinleafTown_PlayersHouse_2F_Intro_1 {
+	format("Barry: There you are!")
+}
+
+text TwinleafTown_PlayersHouse_2F_Intro_2 {
+	format("Hey, {PLAYER}!\nDid you just see the TV? Sure you did!\pProf. Rowan's that really important guy who studies Pokemon, right?\pThat means he must have lots and lots of Pokemon.\pSo, if we ask him, I bet he'd give us some Pokemon!")
+}
+
+text TwinleafTown_PlayersHouse_2F_Intro_3 {
+	format("Oh, hey!\nIs this a new PC?!")
+}
+
+text TwinleafTown_PlayersHouse_2F_Intro_4 {
+	format("Barry: Uh...\nWhere was I?")
+}
+
+text TwinleafTown_PlayersHouse_2F_Intro_5 {
+	format("Oh, right, right! We're going to go see Prof. Rowan and get some Pokemon.\pI'll be waiting outside.\pOK, {PLAYER}? If you're late, I'm fining you ¥10 million!")
+}
