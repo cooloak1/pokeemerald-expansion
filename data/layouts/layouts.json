@@ -4640,6 +4640,16 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/SandgemTown_RivalsHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/SandgemTown_RivalsHouse_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE221_HOUSE",
+      "name": "Route221_House_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/Route221_House/border.bin",
+      "blockdata_filepath": "data/layouts/Route221_House/map.bin"
     }
   ]
 }

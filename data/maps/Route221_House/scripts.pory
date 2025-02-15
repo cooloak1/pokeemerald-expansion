@@ -1,0 +1,66 @@
+mapscripts Route221_House_MapScripts {
+    MAP_SCRIPT_ON_LOAD {
+        switch(var(VAR_ROUTE_221_HOUSE_ITEM)){
+            case 0:
+                setvar(VAR_ITEM_ID, ITEM_BLACK_BELT)
+            case 1:
+                setvar(VAR_ITEM_ID, ITEM_EXPERT_BELT) 
+            case 2:
+                setvar(VAR_ITEM_ID, ITEM_FOCUS_SASH)
+        }
+        if(!flag(FLAG_DAILY_ROUTE_221_LEVEL_SET)) { 
+            random(100)
+            copyvar(VAR_ROUTE_221_HOUSE_LEVEL, VAR_RESULT)
+            addvar(VAR_ROUTE_221_HOUSE_LEVEL, 1)
+            setflag(FLAG_DAILY_ROUTE_221_LEVEL_SET)
+        }
+        buffernumberstring(STR_VAR_1, VAR_ROUTE_221_HOUSE_LEVEL)
+        bufferitemname(STR_VAR_2, VAR_ITEM_ID)
+    }
+}
+
+script Route221_House_EventScript_LevelMan {
+    if(flag(FLAG_DAILY_ROUTE_221_LEVEL_RECEIVED_ITEM)) {
+        msgbox(Route221_House_Text_AlreadyReceivedItemToday, MSGBOX_NPC)
+    }
+    else {
+        msgbox(Route221_House_Text_SayTodaysLevel, MSGBOX_NPC)
+        call(Route221_House_CheckPartyMonsForLevel)
+        if(var(VAR_RESULT)) {
+            msgbox(Route221_House_Text_PlayerHasTodaysLevel, MSGBOX_NPC)
+            giveitem(var(VAR_ITEM_ID)) // ??
+            if(!var(VAR_RESULT)) {
+                goto(Common_EventScript_ShowBagIsFull)
+                release
+                end
+            }
+            addvar(var(VAR_ROUTE_221_HOUSE_ITEM), 1) // ??
+            if(var(VAR_ROUTE_221_HOUSE_ITEM>2)){
+                setvar(var(VAR_ROUTE_221_HOUSE_ITEM), 0) // ??
+            }
+            setflag(flag(FLAG_DAILY_ROUTE_221_LEVEL_RECEIVED_ITEM)) // ??
+        }
+    }
+    end
+}
+
+script Route221_House_CheckPartyMonsForLevel {
+    specialvar(var(VAR_ROUTE_221_HOUSE_LEVEL), CheckForLevelInParty)
+    if(var(VAR_RESULT)!=FALSE) {
+        bufferpartymonnick(var(STR_VAR_3, var(VAR_RESULT)))
+        setvar(var(VAR_RESULT), TRUE)
+    }
+    return
+}
+
+text Route221_House_Text_SayTodaysLevel {
+    format("...I saw it!\nToday's number is {STR_VAR_1}!\pShow me a Pokemon that's Level {STR_VAR_1}.\nIf you can, I'll reward you.")
+}
+
+text Route221_House_Text_PlayerHasTodaysLevel {
+    format("...Oh, now, hunh?!\pYour {STR_VAR_3} is Level {STR_VAR_1}.\nWell, I'll be! How remarkable!\pI'll thank you for that visual treat with this {STR_VAR_2}.")
+}
+
+text Route221_House_Text_AlreadyReceivedItemToday {
+    format("High-level Pokemon were once of low level\pLow-level Pokemon will not remain so, for they can only grow.\pThat's how it goes, youngster.\nCome again tomorrow.")
+}

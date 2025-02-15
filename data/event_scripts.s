@@ -1197,3 +1197,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/SandgemTown_RivalsHouse_1F/scripts.inc"
 
 	.include "data/maps/SandgemTown_RivalsHouse_2F/scripts.inc"
+
+	.include "data/maps/Route221_House/scripts.inc"

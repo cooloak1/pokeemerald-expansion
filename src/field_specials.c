@@ -4335,3 +4335,12 @@ void UseBlankMessageToCancelPokemonPic(void)
     AddTextPrinterParameterized(0, FONT_NORMAL, &t, 0, 1, 0, NULL);
     ScriptMenu_HidePokemonPic();
 }
+
+void CheckForLevelInParty(u8 Level)
+{
+    gSpecialVar_Result = FALSE;
+    int i;
+    for (i = 0; i < PARTY_SIZE; i++)
+        if (GetMonData(&gPlayerParty[i], MON_DATA_LEVEL) == Level)
+        gSpecialVar_Result = GetMonData(&gPlayerParty[i], MON_DATA_NICKNAME);
+}
