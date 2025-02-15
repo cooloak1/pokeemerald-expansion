@@ -9636,6 +9636,10 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sMagnetonLevelUpLearnset,
         .teachableLearnset = sMagnetonTeachableLearnset,
         .evolutions = EVOLUTION({EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_MAGNEZONE},
+                                {EVO_MAPSEC, MAPSEC_MOUNT_CORONET_NORTH, SPECIES_MAGNEZONE},
+                                {EVO_MAPSEC, MAPSEC_MOUNT_CORONET_SOUTH, SPECIES_MAGNEZONE},
+                                {EVO_MAPSEC, MAPSEC_SPEAR_PILLAR, SPECIES_MAGNEZONE},
+                                {EVO_MAPSEC, MAPSEC_HALL_OF_ORIGIN, SPECIES_MAGNEZONE},
                                 {EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_MAGNEZONE}),
     },
 
