@@ -4342,5 +4342,6 @@ void CheckForLevelInParty(u8 Level)
     int i;
     for (i = 0; i < PARTY_SIZE; i++)
         if (GetMonData(&gPlayerParty[i], MON_DATA_LEVEL) == Level)
-        gSpecialVar_Result = GetMonData(&gPlayerParty[i], MON_DATA_NICKNAME);
+        gSpecialVar_Result = TRUE;
+        gSpecialVar_0x8005 = i;
 }

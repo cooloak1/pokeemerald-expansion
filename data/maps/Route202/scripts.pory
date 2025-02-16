@@ -1,1 +1,10 @@
 mapscripts Route202_MapScripts {}
+
+script Route202_EventScript_Tristan {
+    trainerbattle_single(TRAINER_TRISTAN_1, Route202_Text_TristanIntro, Route202_Text_TristanDefeat)
+    end
+}
+script Route202_EventScript_Natalie {
+    trainerbattle_single(TRAINER_NATALIE, Route202_Text_NatalieIntro, Route202_Text_NatalieDefeat)
+    end
+}

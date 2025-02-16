@@ -28,27 +28,27 @@ script Route221_House_EventScript_LevelMan {
         call(Route221_House_CheckPartyMonsForLevel)
         if(var(VAR_RESULT)) {
             msgbox(Route221_House_Text_PlayerHasTodaysLevel, MSGBOX_NPC)
-            giveitem(var(VAR_ITEM_ID)) // ??
+            giveitem(VAR_ITEM_ID, 1) // ??
             if(!var(VAR_RESULT)) {
                 goto(Common_EventScript_ShowBagIsFull)
                 release
                 end
             }
-            addvar(var(VAR_ROUTE_221_HOUSE_ITEM), 1) // ??
+            addvar(VAR_ROUTE_221_HOUSE_ITEM, 1) // ??
             if(var(VAR_ROUTE_221_HOUSE_ITEM>2)){
-                setvar(var(VAR_ROUTE_221_HOUSE_ITEM), 0) // ??
+                setvar(VAR_ROUTE_221_HOUSE_ITEM, 0) // ??
             }
-            setflag(flag(FLAG_DAILY_ROUTE_221_LEVEL_RECEIVED_ITEM)) // ??
+            setflag(FLAG_DAILY_ROUTE_221_LEVEL_RECEIVED_ITEM) // ??
         }
     }
+    release
     end
 }
 
 script Route221_House_CheckPartyMonsForLevel {
-    specialvar(var(VAR_ROUTE_221_HOUSE_LEVEL), CheckForLevelInParty)
-    if(var(VAR_RESULT)!=FALSE) {
-        bufferpartymonnick(var(STR_VAR_3, var(VAR_RESULT)))
-        setvar(var(VAR_RESULT), TRUE)
+    specialvar(VAR_ROUTE_221_HOUSE_LEVEL, CheckForLevelInParty) // ??
+    if(var(VAR_RESULT)) {
+        bufferpartymonnick(STR_VAR_3, VAR_0x8005)
     }
     return
 }

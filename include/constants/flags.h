@@ -1222,14 +1222,14 @@
 #define FLAG_ITEM_SAFARI_ZONE_NORTH_EAST_NUGGET                     0x491 //hoenn only flag
 #define FLAG_ITEM_SAFARI_ZONE_SOUTH_EAST_BIG_PEARL                  0x492 //hoenn only flag
 
-#define FLAG_ITEM_ROUTE_219_ANTIDOTE                                0x493 
-#define FLAG_ITEM_ROUTE_220_MAX_REPEL                               0x494 
-#define FLAG_ITEM_ROUTE_220_CARBOS                                  0x495 
-#define FLAG_ITEM_ROUTE_220_PROTEIN                                 0x496 
-#define FLAG_ITEM_ROUTE_221_PURE_INCENSE                            0x497 
+#define FLAG_ITEM_ROUTE_219_ANTIDOTE                                0x493
+#define FLAG_ITEM_ROUTE_220_MAX_REPEL                               0x494
+#define FLAG_ITEM_ROUTE_220_CARBOS                                  0x495
+#define FLAG_ITEM_ROUTE_220_PROTEIN                                 0x496
+#define FLAG_ITEM_ROUTE_221_PURE_INCENSE                            0x497
 #define FLAG_ITEM_ROUTE_221_ULTRA_BALL                              0x498
-#define FLAG_ITEM_ROUTE_221_TM81                                    0x499 // Unused Flag
-#define FLAG_UNUSED_0x49A                                           0x49A // Unused Flag
+#define FLAG_ITEM_ROUTE_221_TM81                                    0x499
+#define FLAG_ITEM_ROUTE_202_POTION                                  0x49A
 #define FLAG_UNUSED_0x49B                                           0x49B // Unused Flag
 #define FLAG_UNUSED_0x49C                                           0x49C // Unused Flag
 #define FLAG_UNUSED_0x49D                                           0x49D // Unused Flag
@@ -1389,7 +1389,7 @@
 
 #define FLAG_VISITED_TWINLEAF_TOWN                  (SYSTEM_FLAGS + 0x21)
 #define FLAG_VISITED_SANDGEM_TOWN                   (SYSTEM_FLAGS + 0x22)
-#define FLAG_UNUSED_0x883                           (SYSTEM_FLAGS + 0x23) // Unused Flag
+#define FLAG_VISITED_JUBILIFE_CITY                  (SYSTEM_FLAGS + 0x23) // Unused Flag
 #define FLAG_UNUSED_0x884                           (SYSTEM_FLAGS + 0x24) // Unused Flag
 #define FLAG_UNUSED_0x885                           (SYSTEM_FLAGS + 0x25) // Unused Flag
 #define FLAG_UNUSED_0x886                           (SYSTEM_FLAGS + 0x26) // Unused Flag

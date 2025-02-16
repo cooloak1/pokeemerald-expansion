@@ -60,6 +60,8 @@ Route221_House_EventScript_LevelMan::
 	compare VAR_RESULT, 0
 	goto_if_ne Route221_House_EventScript_LevelMan_5
 Route221_House_EventScript_LevelMan_1:
+# 44 "data/maps/Route221_House/scripts.pory"
+	release
 	end
 
 Route221_House_EventScript_LevelMan_2:
@@ -71,18 +73,18 @@ Route221_House_EventScript_LevelMan_5:
 # 30 "data/maps/Route221_House/scripts.pory"
 	msgbox Route221_House_Text_PlayerHasTodaysLevel, MSGBOX_NPC
 # 31 "data/maps/Route221_House/scripts.pory"
-	giveitem var ( VAR_ITEM_ID )
+	giveitem VAR_ITEM_ID, 1
 # 32 "data/maps/Route221_House/scripts.pory"
 	compare VAR_RESULT, 0
 	goto_if_eq Route221_House_EventScript_LevelMan_8
 # 37 "data/maps/Route221_House/scripts.pory"
-	addvar var ( VAR_ROUTE_221_HOUSE_ITEM ), 1
+	addvar VAR_ROUTE_221_HOUSE_ITEM, 1
 # 38 "data/maps/Route221_House/scripts.pory"
 	compare VAR_ROUTE_221_HOUSE_ITEM > 2, 0
 	goto_if_ne Route221_House_EventScript_LevelMan_11
 Route221_House_EventScript_LevelMan_10:
 # 41 "data/maps/Route221_House/scripts.pory"
-	setflag flag ( FLAG_DAILY_ROUTE_221_LEVEL_RECEIVED_ITEM )
+	setflag FLAG_DAILY_ROUTE_221_LEVEL_RECEIVED_ITEM
 	goto Route221_House_EventScript_LevelMan_1
 
 Route221_House_EventScript_LevelMan_8:
@@ -94,24 +96,22 @@ Route221_House_EventScript_LevelMan_8:
 
 Route221_House_EventScript_LevelMan_11:
 # 39 "data/maps/Route221_House/scripts.pory"
-	setvar var ( VAR_ROUTE_221_HOUSE_ITEM ), 0
+	setvar VAR_ROUTE_221_HOUSE_ITEM, 0
 	goto Route221_House_EventScript_LevelMan_10
 
 
 Route221_House_CheckPartyMonsForLevel::
-# 48 "data/maps/Route221_House/scripts.pory"
-	specialvar var ( VAR_ROUTE_221_HOUSE_LEVEL ), CheckForLevelInParty
 # 49 "data/maps/Route221_House/scripts.pory"
-	compare VAR_RESULT, FALSE
+	specialvar VAR_ROUTE_221_HOUSE_LEVEL, CheckForLevelInParty
+# 50 "data/maps/Route221_House/scripts.pory"
+	compare VAR_RESULT, 0
 	goto_if_ne Route221_House_CheckPartyMonsForLevel_2
 Route221_House_CheckPartyMonsForLevel_1:
 	return
 
 Route221_House_CheckPartyMonsForLevel_2:
-# 50 "data/maps/Route221_House/scripts.pory"
-	bufferpartymonnick var ( STR_VAR_3, var ( VAR_RESULT ) )
 # 51 "data/maps/Route221_House/scripts.pory"
-	setvar var ( VAR_RESULT ), TRUE
+	bufferpartymonnick STR_VAR_3, VAR_0x8005
 	goto Route221_House_CheckPartyMonsForLevel_1
 
 

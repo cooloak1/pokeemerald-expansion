@@ -58,7 +58,7 @@
         },
     },
 #line 97
-    [TRAINER_GRUNT_AQUA_HIDEOUT_1] =
+    [TRAINER_TRISTAN_1] =
     {
 #line 98
         .trainerName = _("GRUNT"),
@@ -90,7 +90,7 @@
         },
     },
 #line 110
-    [TRAINER_GRUNT_AQUA_HIDEOUT_2] =
+    [TRAINER_NATALIE] =
     {
 #line 111
         .trainerName = _("GRUNT"),
