@@ -4819,3 +4819,12 @@ text Route202_Text_NatalieDefeat {
 text Route202_Text_NataliePostBattle {
     format("My Pokemon are all tuckered out!\nI need to go to a Pokemon Center!")
 }
+text Route202_Text_LoganIntro {
+    format("Let's have a Pokemon battle!\nBut I'm gonna win!")
+}
+text Route202_Text_LoganDefeat {
+    format("You beat me?!\nYou've got talent!")
+}
+text Route202_Text_LoganPostBattle {
+    format("It was fun battling!\nYup! I'm going to battle everyone!")
+}

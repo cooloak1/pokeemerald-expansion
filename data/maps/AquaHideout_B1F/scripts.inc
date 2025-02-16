@@ -179,7 +179,7 @@ AquaHideout_B1F_EventScript_Grunt2Defeated::
 # 90 "data/maps/AquaHideout_B1F/scripts.pory"
 AquaHideout_B1F_EventScript_Grunt3::
 # 91 "data/maps/AquaHideout_B1F/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_AQUA_HIDEOUT_3, AquaHideout_B1F_Text_Grunt3Intro, AquaHideout_B1F_Text_Grunt3Defeat, AquaHideout_B1F_EventScript_Grunt3Defeated
+	trainerbattle_single TRAINER_LOGAN, AquaHideout_B1F_Text_Grunt3Intro, AquaHideout_B1F_Text_Grunt3Defeat, AquaHideout_B1F_EventScript_Grunt3Defeated
 # 92 "data/maps/AquaHideout_B1F/scripts.pory"
 	msgbox AquaHideout_B1F_Text_Grunt3PostBattle, MSGBOX_AUTOCLOSE
 # 93 "data/maps/AquaHideout_B1F/scripts.pory"

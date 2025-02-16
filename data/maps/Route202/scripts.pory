@@ -2,9 +2,37 @@ mapscripts Route202_MapScripts {}
 
 script Route202_EventScript_Tristan {
     trainerbattle_single(TRAINER_TRISTAN_1, Route202_Text_TristanIntro, Route202_Text_TristanDefeat)
+    msgbox(Route202_Text_TristanPostBattle, MSGBOX_AUTOCLOSE)
     end
 }
 script Route202_EventScript_Natalie {
     trainerbattle_single(TRAINER_NATALIE, Route202_Text_NatalieIntro, Route202_Text_NatalieDefeat)
+    msgbox(Route202_Text_NataliePostBattle, MSGBOX_AUTOCLOSE)
     end
+}
+script Route202_EventScript_Logan {
+    trainerbattle_single(TRAINER_LOGAN, Route202_Text_LoganIntro, Route202_Text_LoganDefeat)
+    msgbox(Route202_Text_LoganPostBattle, MSGBOX_AUTOCLOSE)
+    end
+}
+script Route202_EventScript_Youngster {
+    lock
+    faceplayer
+    msgbox(Route202_Text_Youngster, MSGBOX_NPC)
+    release
+}
+script Route202_EventScript_RouteSign_Sandgem {
+    msgbox("Route 202\n{DOWN_ARROW} Sandgem Town", MSGBOX_SIGN)
+}
+script Route202_EventScript_RouteSign_Jubilife {
+    msgbox("Route 202\n{UP_ARROW} Jubilife City", MSGBOX_SIGN)
+}
+script Route202_EventScript_TrainerTipsSign {
+    msgbox(Route202_Text_TrainerTipsSign, MSGBOX_SIGN)
+}
+text Route202_Text_Youngster {
+    format("Some Pokemon only appear in the morning.\pSome only come out at night.\pI'll keep looking till I've seen them all!")
+}
+text Route202_Text_TrainerTipsSign {
+    format("Trainer Tips!\pAll Pokemon that are involved in a battle earn Exp. Points!\pThe more your Pokemon battle, the stronger they will become.")
 }
