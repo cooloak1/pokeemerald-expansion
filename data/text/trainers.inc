@@ -9634,3 +9634,18 @@ Route202_Text_NataliePostBattle::
 # 4819 "data/text/trainers.pory"
 	.string "My Pokemon are all tuckered out!\n"
 	.string "I need to go to a Pokemon Center!$"
+
+Route202_Text_LoganIntro::
+# 4822 "data/text/trainers.pory"
+	.string "Let's have a Pokemon battle!\n"
+	.string "But I'm gonna win!$"
+
+Route202_Text_LoganDefeat::
+# 4825 "data/text/trainers.pory"
+	.string "You beat me?!\n"
+	.string "You've got talent!$"
+
+Route202_Text_LoganPostBattle::
+# 4828 "data/text/trainers.pory"
+	.string "It was fun battling!\n"
+	.string "Yup! I'm going to battle everyone!$"

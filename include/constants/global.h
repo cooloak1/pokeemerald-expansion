@@ -59,9 +59,9 @@
 #define SECRET_BASES_COUNT 1
 #define POKE_NEWS_COUNT 16
 #define PC_ITEMS_COUNT 50
-#define BAG_ITEMS_COUNT 100
-#define BAG_KEYITEMS_COUNT 30
-#define BAG_POKEBALLS_COUNT 16
+#define BAG_ITEMS_COUNT 250
+#define BAG_KEYITEMS_COUNT 80
+#define BAG_POKEBALLS_COUNT 30
 #define BAG_TMHM_COUNT 110
 #define BAG_BERRIES_COUNT 46
 #define OBJECT_EVENT_TEMPLATES_COUNT 64
@@ -75,7 +75,7 @@
 #define GIFT_RIBBONS_COUNT 11
 #define SAVED_TRENDS_COUNT 5
 #define PYRAMID_BAG_ITEMS_COUNT 10
-#define ROAMER_COUNT 1 // Number of maximum concurrent active roamers
+#define ROAMER_COUNT 3 // Number of maximum concurrent active roamers
 
 // Number of facilities for Ranking Hall.
 // 7 facilities for single mode + tower double mode + tower multi mode.
