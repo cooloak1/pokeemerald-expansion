@@ -4575,7 +4575,7 @@
       "id": "LAYOUT_ROUTE202",
       "name": "Route202_Layout",
       "width": 28,
-      "height": 28,
+      "height": 30,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Jubilife",
       "border_filepath": "data/layouts/Route202/border.bin",

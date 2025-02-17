@@ -466,7 +466,7 @@
     },
     {
       "map_section": "MAPSEC_BATTLE_FRONTIER",
-      "name": "SEVII ISLE 23",
+      "name": "BATTLE FRONTIER",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -474,7 +474,7 @@
     },
     {
       "map_section": "MAPSEC_SINNOH_BATTLE_FRONTIER",
-      "name": "SEVII ISLE 23",
+      "name": "BATTLE FRONTIER",
       "x": 17,
       "y": 4,
       "width": 1,
