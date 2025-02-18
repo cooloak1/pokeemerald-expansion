@@ -1201,3 +1201,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route221_House/scripts.inc"
 
 	.include "data/maps/JubilifeCity/scripts.inc"
+
+	.include "data/maps/Route203/scripts.inc"
+
+	.include "data/maps/Route204_South/scripts.inc"
+
+	.include "data/maps/Route218/scripts.inc"

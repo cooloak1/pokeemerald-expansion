@@ -4151,7 +4151,7 @@ static void DebugAction_PCBag_Fill_PCBoxes_Slow(u8 taskId)
     {
         for (boxPosition = 0; boxPosition < IN_BOX_COUNT; boxPosition++)
         {
-            if (!GetBoxMonData(&gPokemonStoragePtr->boxes[boxId][boxPosition], MON_DATA_SANITY_HAS_SPECIES))
+            do 
             {
                 if (!spaceAvailable)
                     PlayBGM(MUS_RG_MYSTERY_GIFT);
@@ -4160,6 +4160,7 @@ static void DebugAction_PCBag_Fill_PCBoxes_Slow(u8 taskId)
                 species = (species < NUM_SPECIES - 1) ? species + 1 : 1;
                 spaceAvailable = TRUE;
             }
+            while (!GetBoxMonData(&gPokemonStoragePtr->boxes[boxId][boxPosition], MON_DATA_SPECIES==SPECIES_NONE));
         }
     }
 

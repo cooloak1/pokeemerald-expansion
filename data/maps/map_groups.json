@@ -109,7 +109,10 @@
     "Route220",
     "Route221",
     "Route202",
-    "JubilifeCity"
+    "JubilifeCity",
+    "Route203",
+    "Route204_South",
+    "Route218"
   ],
   "gMapGroup_SinnohCaves": [
     "VerityCavern",

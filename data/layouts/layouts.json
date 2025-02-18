@@ -2417,7 +2417,7 @@
       "width": 58,
       "height": 26,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "0",
+      "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/UnusedOutdoorArea/border.bin",
       "blockdata_filepath": "data/layouts/UnusedOutdoorArea/map.bin"
     },
@@ -4660,6 +4660,36 @@
       "secondary_tileset": "gTileset_Jubilife",
       "border_filepath": "data/layouts/JubilifeCity/border.bin",
       "blockdata_filepath": "data/layouts/JubilifeCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE203",
+      "name": "Route203_Layout",
+      "width": 46,
+      "height": 28,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Jubilife",
+      "border_filepath": "data/layouts/Route203/border.bin",
+      "blockdata_filepath": "data/layouts/Route203/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE204_SOUTH",
+      "name": "Route204_South_Layout",
+      "width": 28,
+      "height": 28,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Jubilife",
+      "border_filepath": "data/layouts/Route204_South/border.bin",
+      "blockdata_filepath": "data/layouts/Route204_South/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE218",
+      "name": "Route218_Layout",
+      "width": 46,
+      "height": 28,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Jubilife",
+      "border_filepath": "data/layouts/Route218/border.bin",
+      "blockdata_filepath": "data/layouts/Route218/map.bin"
     }
   ]
 }
