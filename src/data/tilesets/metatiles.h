@@ -222,3 +222,6 @@ const u16 gMetatileAttributes_Jubilife[] = INCBIN_U16("data/tilesets/secondary/j
 
 const u16 gMetatiles_Canalave[] = INCBIN_U16("data/tilesets/secondary/canalave/metatiles.bin");
 const u16 gMetatileAttributes_Canalave[] = INCBIN_U16("data/tilesets/secondary/canalave/metatile_attributes.bin");
+
+const u16 gMetatiles_Floaroma[] = INCBIN_U16("data/tilesets/secondary/floaroma/metatiles.bin");
+const u16 gMetatileAttributes_Floaroma[] = INCBIN_U16("data/tilesets/secondary/floaroma/metatile_attributes.bin");

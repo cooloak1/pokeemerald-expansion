@@ -1213,3 +1213,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route204_North/scripts.inc"
 
 	.include "data/maps/RavagedPath/scripts.inc"
+
+	.include "data/maps/FloaromaTown/scripts.inc"
+
+	.include "data/maps/Route205_South/scripts.inc"

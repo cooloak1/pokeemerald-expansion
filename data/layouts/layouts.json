@@ -4415,7 +4415,7 @@
       "id": "LAYOUT_TWINLEAF_TOWN",
       "name": "TwinleafTown_Layout",
       "width": 20,
-      "height": 28,
+      "height": 26,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Sandgem",
       "border_filepath": "data/layouts/TwinleafTown/border.bin",
@@ -4664,8 +4664,8 @@
     {
       "id": "LAYOUT_ROUTE203",
       "name": "Route203_Layout",
-      "width": 46,
-      "height": 28,
+      "width": 50,
+      "height": 26,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Jubilife",
       "border_filepath": "data/layouts/Route203/border.bin",
@@ -4720,6 +4720,26 @@
       "secondary_tileset": "gTileset_Sinnoh_Cave",
       "border_filepath": "data/layouts/RavagedPath/border.bin",
       "blockdata_filepath": "data/layouts/RavagedPath/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLOAROMA_TOWN",
+      "name": "FloaromaTown_Layout",
+      "width": 28,
+      "height": 56,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Floaroma",
+      "border_filepath": "data/layouts/FloaromaTown/border.bin",
+      "blockdata_filepath": "data/layouts/FloaromaTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE205_SOUTH",
+      "name": "Route205_South_Layout",
+      "width": 28,
+      "height": 84,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Floaroma",
+      "border_filepath": "data/layouts/Route205_South/border.bin",
+      "blockdata_filepath": "data/layouts/Route205_South/map.bin"
     }
   ]
 }
