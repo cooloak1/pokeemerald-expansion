@@ -1207,3 +1207,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route204_South/scripts.inc"
 
 	.include "data/maps/Route218/scripts.inc"
+
+	.include "data/maps/CanalaveCity/scripts.inc"
+
+	.include "data/maps/Route204_North/scripts.inc"
+
+	.include "data/maps/RavagedPath/scripts.inc"

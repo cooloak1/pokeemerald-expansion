@@ -869,3 +869,14 @@ const struct Tileset gTileset_Jubilife =
     .metatileAttributes = gMetatileAttributes_Jubilife,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Canalave =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Canalave,
+    .palettes = gTilesetPalettes_Canalave,
+    .metatiles = gMetatiles_Canalave,
+    .metatileAttributes = gMetatileAttributes_Canalave,
+    .callback = NULL,
+};

@@ -656,16 +656,16 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_123_RARE_CANDY                (FLAG_HIDDEN_ITEMS_START + 0x6E) //hoenn only flag
 #define FLAG_HIDDEN_ITEM_ROUTE_105_BIG_PEARL                 (FLAG_HIDDEN_ITEMS_START + 0x6F) //hoenn only flag
 
-#define FLAG_HIDDEN_ITEM_TWINLEAF_TOWN_ODD_KEYSTONE  0x264
-#define FLAG_HIDDEN_ITEM_ROUTE_219_ZINC  0x265
-#define FLAG_HIDDEN_ITEM_ROUTE_220_BIG_PEARL  0x266
-#define FLAG_HIDDEN_ITEM_ROUTE_221_BIG_MUSHROOM  0x267 
-#define FLAG_HIDDEN_ITEM_ROUTE_221_HYPER_POTION  0x268 
-#define FLAG_HIDDEN_ITEM_ROUTE_221_MAX_REVIVE  0x269 
-#define FLAG_HIDDEN_ITEM_ROUTE_221_ULTRA_BALL  0x26A 
-#define FLAG_HIDDEN_ITEM_ROUTE_221_CARBOS  0x26B 
-#define FLAG_UNUSED_0x26C  0x26C // Unused Flag
-#define FLAG_UNUSED_0x26D  0x26D // Unused Flag
+#define FLAG_HIDDEN_ITEM_TWINLEAF_TOWN_ODD_KEYSTONE          0x264
+#define FLAG_HIDDEN_ITEM_ROUTE_219_ZINC                      0x265
+#define FLAG_HIDDEN_ITEM_ROUTE_220_BIG_PEARL                 0x266
+#define FLAG_HIDDEN_ITEM_ROUTE_221_BIG_MUSHROOM              0x267
+#define FLAG_HIDDEN_ITEM_ROUTE_221_HYPER_POTION              0x268
+#define FLAG_HIDDEN_ITEM_ROUTE_221_MAX_REVIVE                0x269
+#define FLAG_HIDDEN_ITEM_ROUTE_221_ULTRA_BALL                0x26A
+#define FLAG_HIDDEN_ITEM_ROUTE_221_CARBOS                    0x26B
+#define FLAG_HIDDEN_ITEM_JUBILIFE_CITY_STARDUST              0x26C
+#define FLAG_HIDDEN_ITEM_CANALAVE_CITY_BIG_PEARL             0x26D
 #define FLAG_UNUSED_0x26E  0x26E // Unused Flag
 #define FLAG_UNUSED_0x26F  0x26F // Unused Flag
 #define FLAG_UNUSED_0x270  0x270 // Unused Flag
@@ -1230,20 +1230,20 @@
 #define FLAG_ITEM_ROUTE_221_ULTRA_BALL                              0x498
 #define FLAG_ITEM_ROUTE_221_TM81                                    0x499
 #define FLAG_ITEM_ROUTE_202_POTION                                  0x49A
-#define FLAG_UNUSED_0x49B                                           0x49B // Unused Flag
-#define FLAG_UNUSED_0x49C                                           0x49C // Unused Flag
-#define FLAG_UNUSED_0x49D                                           0x49D // Unused Flag
-#define FLAG_UNUSED_0x49E                                           0x49E // Unused Flag
-#define FLAG_UNUSED_0x49F                                           0x49F // Unused Flag
-#define FLAG_UNUSED_0x4A0                                           0x4A0 // Unused Flag
-#define FLAG_UNUSED_0x4A1                                           0x4A1 // Unused Flag
-#define FLAG_UNUSED_0x4A2                                           0x4A2 // Unused Flag
-#define FLAG_UNUSED_0x4A3                                           0x4A3 // Unused Flag
-#define FLAG_UNUSED_0x4A4                                           0x4A4 // Unused Flag
-#define FLAG_UNUSED_0x4A5                                           0x4A5 // Unused Flag
-#define FLAG_UNUSED_0x4A6                                           0x4A6 // Unused Flag
-#define FLAG_UNUSED_0x4A7                                           0x4A7 // Unused Flag
-#define FLAG_UNUSED_0x4A8                                           0x4A8 // Unused Flag
+#define FLAG_ITEM_JUBILIFE_CITY_POTION                              0x49B
+#define FLAG_ITEM_ROUTE_218_RARE_CANDY                              0x49C
+#define FLAG_ITEM_ROUTE_218_X_ACCURACY                              0x49D
+#define FLAG_ITEM_ROUTE_218_HYPER_POTION                            0x49E
+#define FLAG_ITEM_CANALAVE_CITY_TM89                                0x49F
+#define FLAG_ITEM_ROUTE_204_SEA_INCENSE                             0x4A0
+#define FLAG_ITEM_ROUTE_204_PARALYZE_HEAL                           0x4A1
+#define FLAG_ITEM_ROUTE_204_HP_UP                                   0x4A2
+#define FLAG_ITEM_ROUTE_204_AWAKENING                               0x4A3
+#define FLAG_ITEM_ROUTE_204_TM09                                    0x4A4
+#define FLAG_ITEM_RAVAGED_PATH_POTION                               0x4A5
+#define FLAG_ITEM_RAVAGED_PATH_LUCK_INCENSE                         0x4A6
+#define FLAG_ITEM_RAVAGED_PATH_TM39                                 0x4A7
+#define FLAG_ITEM_RAVAGED_PATH_TM03                                 0x4A8
 #define FLAG_UNUSED_0x4A9                                           0x4A9 // Unused Flag
 #define FLAG_UNUSED_0x4AA                                           0x4AA // Unused Flag
 #define FLAG_UNUSED_0x4AB                                           0x4AB // Unused Flag

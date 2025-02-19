@@ -2,7 +2,7 @@
   "group_order": [
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_SinnohOverworld",
-    "gMapGroup_SinnohCaves",
+    "gMapGroup_SinnohDungeons",
     "gMapGroup_IndoorTwinleaf",
     "gMapGroup_IndoorSandgem",
     "gMapGroup_IndoorJubilife",
@@ -102,22 +102,25 @@
   ],
   "gMapGroup_SinnohOverworld": [
     "TwinleafTown",
-    "Route201",
-    "LakeVerity",
     "SandgemTown",
+    "JubilifeCity",
+    "CanalaveCity",
+    "LakeVerity",
+    "Route201",
+    "Route202",
+    "Route203",
+    "Route204_South",
+    "Route218",
     "Route219",
     "Route220",
     "Route221",
-    "Route202",
-    "JubilifeCity",
-    "Route203",
-    "Route204_South",
-    "Route218"
+    "Route204_North"
   ],
-  "gMapGroup_SinnohCaves": [
+  "gMapGroup_SinnohDungeons": [
     "VerityCavern",
     "ValorCavern",
-    "AcuityCavern"
+    "AcuityCavern",
+    "RavagedPath"
   ],
   "gMapGroup_IndoorTwinleaf": [
     "TwinleafTown_PlayersHouse_1F",
