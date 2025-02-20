@@ -1217,3 +1217,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/FloaromaTown/scripts.inc"
 
 	.include "data/maps/Route205_South/scripts.inc"
+
+	.include "data/maps/ValleyWinworks/scripts.inc"
