@@ -1218,4 +1218,60 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/Route205_South/scripts.inc"
 
-	.include "data/maps/ValleyWinworks/scripts.inc"
+	.include "data/maps/ValleyWindworks/scripts.inc"
+
+	.include "data/maps/OreburghCity/scripts.inc"
+
+	.include "data/maps/FuegoIronworks/scripts.inc"
+
+	.include "data/maps/Route205_North/scripts.inc"
+
+	.include "data/maps/EternaCity/scripts.inc"
+
+	.include "data/maps/Route211_West/scripts.inc"
+
+	.include "data/maps/Route211_East/scripts.inc"
+
+	.include "data/maps/Route206/scripts.inc"
+
+	.include "data/maps/Route207/scripts.inc"
+
+	.include "data/maps/Route208/scripts.inc"
+
+	.include "data/maps/HearthomeCity/scripts.inc"
+
+	.include "data/maps/Route209/scripts.inc"
+
+	.include "data/maps/SolaceonTown/scripts.inc"
+
+	.include "data/maps/Route210_South/scripts.inc"
+
+	.include "data/maps/Route210_North/scripts.inc"
+
+	.include "data/maps/CelesticTown/scripts.inc"
+
+	.include "data/maps/VeilstoneCity/scripts.inc"
+
+	.include "data/maps/Route215/scripts.inc"
+
+	.include "data/maps/Route214/scripts.inc"
+
+	.include "data/maps/Route213/scripts.inc"
+
+	.include "data/maps/PastoriaCity/scripts.inc"
+
+	.include "data/maps/SunyshoreCity/scripts.inc"
+
+	.include "data/maps/Route212_North/scripts.inc"
+
+	.include "data/maps/Route212_South/scripts.inc"
+
+	.include "data/maps/Route222/scripts.inc"
+
+	.include "data/maps/Route216/scripts.inc"
+
+	.include "data/maps/Route217/scripts.inc"
+
+	.include "data/maps/SnowpointCity/scripts.inc"
+
+	.include "data/maps/Route223/scripts.inc"

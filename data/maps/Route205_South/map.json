@@ -15,8 +15,23 @@
   "connections": [
     {
       "map": "MAP_FLOAROMA_TOWN",
-      "offset": 30,
+      "offset": 28,
       "direction": "left"
+    },
+    {
+      "map": "MAP_VALLEY_WINDWORKS",
+      "offset": 54,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_FUEGO_IRONWORKS",
+      "offset": 0,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE205_NORTH",
+      "offset": 16,
+      "direction": "up"
     }
   ],
   "object_events": [

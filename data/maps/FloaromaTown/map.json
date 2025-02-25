@@ -20,8 +20,13 @@
     },
     {
       "map": "MAP_ROUTE205_SOUTH",
-      "offset": -30,
+      "offset": -28,
       "direction": "right"
+    },
+    {
+      "map": "MAP_FUEGO_IRONWORKS",
+      "offset": 0,
+      "direction": "up"
     }
   ],
   "object_events": [
