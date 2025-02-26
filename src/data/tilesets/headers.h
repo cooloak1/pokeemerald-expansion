@@ -891,3 +891,14 @@ const struct Tileset gTileset_Floaroma =
     .metatileAttributes = gMetatileAttributes_Floaroma,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Eterna =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Eterna,
+    .palettes = gTilesetPalettes_Eterna,
+    .metatiles = gMetatiles_Eterna,
+    .metatileAttributes = gMetatileAttributes_Eterna,
+    .callback = NULL,
+};

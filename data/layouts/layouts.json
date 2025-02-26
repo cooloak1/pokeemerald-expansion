@@ -4777,7 +4777,7 @@
       "width": 74,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Floaroma",
+      "secondary_tileset": "gTileset_Eterna",
       "border_filepath": "data/layouts/Route205_North/border.bin",
       "blockdata_filepath": "data/layouts/Route205_North/map.bin"
     },
@@ -4794,9 +4794,9 @@
     {
       "id": "LAYOUT_ROUTE211_WEST",
       "name": "Route211_West_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
+      "width": 28,
+      "height": 28,
+      "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route211_West/border.bin",
       "blockdata_filepath": "data/layouts/Route211_West/map.bin"
@@ -5030,6 +5030,16 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route223/border.bin",
       "blockdata_filepath": "data/layouts/Route223/map.bin"
+    },
+    {
+      "id": "LAYOUT_ETERNA_FOREST",
+      "name": "EternaForest_Layout",
+      "width": 56,
+      "height": 56,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Eterna",
+      "border_filepath": "data/layouts/EternaForest/border.bin",
+      "blockdata_filepath": "data/layouts/EternaForest/map.bin"
     }
   ]
 }

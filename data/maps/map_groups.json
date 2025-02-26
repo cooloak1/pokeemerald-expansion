@@ -151,7 +151,8 @@
     "VerityCavern",
     "ValorCavern",
     "AcuityCavern",
-    "RavagedPath"
+    "RavagedPath",
+    "EternaForest"
   ],
   "gMapGroup_IndoorTwinleaf": [
     "TwinleafTown_PlayersHouse_1F",

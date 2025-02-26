@@ -1275,3 +1275,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/SnowpointCity/scripts.inc"
 
 	.include "data/maps/Route223/scripts.inc"
+
+	.include "data/maps/EternaForest/scripts.inc"

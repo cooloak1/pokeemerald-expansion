@@ -516,7 +516,7 @@
 #define FLAG_DEFEATED_HO_OH                  0x1DC
 #define FLAG_DEFEATED_LUGIA                  0x1DD
 
-#define FLAG_UNUSED_0x1DE                    0x1DE 
+#define FLAG_DEBUG_PAUSE_TIME                    0x1DE 
 #define FLAG_DEBUG_NO_ENCOUNTER              0x1DF 
 #define FLAG_DEBUG_NO_TRAINER_SEE            0x1E0 
 #define FLAG_DEBUG_NO_COLLISION              0x1E1 
