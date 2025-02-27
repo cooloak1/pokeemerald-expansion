@@ -4687,7 +4687,7 @@
       "width": 56,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Jubilife",
+      "secondary_tileset": "gTileset_Canalave",
       "border_filepath": "data/layouts/Route218/border.bin",
       "blockdata_filepath": "data/layouts/Route218/map.bin"
     },
@@ -4755,9 +4755,9 @@
       "id": "LAYOUT_OREBURGH_CITY",
       "name": "OreburghCity_Layout",
       "width": 56,
-      "height": 56,
+      "height": 49,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Oreburgh",
       "border_filepath": "data/layouts/OreburghCity/border.bin",
       "blockdata_filepath": "data/layouts/OreburghCity/map.bin"
     },
@@ -4794,10 +4794,10 @@
     {
       "id": "LAYOUT_ROUTE211_WEST",
       "name": "Route211_West_Layout",
-      "width": 28,
+      "width": 42,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Eterna",
       "border_filepath": "data/layouts/Route211_West/border.bin",
       "blockdata_filepath": "data/layouts/Route211_West/map.bin"
     },
@@ -4815,7 +4815,7 @@
       "id": "LAYOUT_ROUTE206",
       "name": "Route206_Layout",
       "width": 28,
-      "height": 87,
+      "height": 93,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route206/border.bin",

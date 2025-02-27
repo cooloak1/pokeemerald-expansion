@@ -20,7 +20,7 @@
     },
     {
       "map": "MAP_ETERNA_CITY",
-      "offset": 0,
+      "offset": -6,
       "direction": "right"
     }
   ],

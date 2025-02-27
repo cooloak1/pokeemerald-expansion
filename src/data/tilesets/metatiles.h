@@ -228,3 +228,6 @@ const u16 gMetatileAttributes_Floaroma[] = INCBIN_U16("data/tilesets/secondary/f
 
 const u16 gMetatiles_Eterna[] = INCBIN_U16("data/tilesets/secondary/eterna/metatiles.bin");
 const u16 gMetatileAttributes_Eterna[] = INCBIN_U16("data/tilesets/secondary/eterna/metatile_attributes.bin");
+
+const u16 gMetatiles_Oreburgh[] = INCBIN_U16("data/tilesets/secondary/oreburgh/metatiles.bin");
+const u16 gMetatileAttributes_Oreburgh[] = INCBIN_U16("data/tilesets/secondary/oreburgh/metatile_attributes.bin");
