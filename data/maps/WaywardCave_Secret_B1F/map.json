@@ -1,0 +1,41 @@
+{
+  "id": "MAP_WAYWARD_CAVE_SECRET_B1F",
+  "name": "WaywardCave_Secret_B1F",
+  "layout": "LAYOUT_WAYWARD_CAVE_SECRET_B1F",
+  "music": "MUS_RG_SEVII_CAVE",
+  "region_map_section": "MAPSEC_WAYWARD_CAVE",
+  "requires_flash": true,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": true,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 15,
+      "y": 37,
+      "elevation": 0,
+      "dest_map": "MAP_WAYWARD_CAVE_SECRET_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 42,
+      "y": 35,
+      "elevation": 0,
+      "dest_map": "MAP_WAYWARD_CAVE_SECRET_1F",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

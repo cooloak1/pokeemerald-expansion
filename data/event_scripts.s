@@ -1277,3 +1277,13 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route223/scripts.inc"
 
 	.include "data/maps/EternaForest/scripts.inc"
+
+	.include "data/maps/OreburghGate_1F/scripts.inc"
+
+	.include "data/maps/OreburghGate_B1F/scripts.inc"
+
+	.include "data/maps/WaywardCave_Main/scripts.inc"
+
+	.include "data/maps/WaywardCave_Secret_1F/scripts.inc"
+
+	.include "data/maps/WaywardCave_Secret_B1F/scripts.inc"

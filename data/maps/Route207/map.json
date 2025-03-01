@@ -15,12 +15,12 @@
   "connections": [
     {
       "map": "MAP_OREBURGH_CITY",
-      "offset": -32,
+      "offset": -30,
       "direction": "down"
     },
     {
       "map": "MAP_ROUTE206",
-      "offset": 6,
+      "offset": 4,
       "direction": "up"
     }
   ],

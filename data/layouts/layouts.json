@@ -4445,7 +4445,7 @@
       "id": "LAYOUT_VERITY_CAVERN",
       "name": "VerityCavern_Layout",
       "width": 23,
-      "height": 26,
+      "height": 25,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Sinnoh_Cave",
       "border_filepath": "data/layouts/VerityCavern/border.bin",
@@ -4525,7 +4525,7 @@
       "id": "LAYOUT_VALOR_CAVERN",
       "name": "ValorCavern_Layout",
       "width": 23,
-      "height": 26,
+      "height": 25,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Sinnoh_Cave",
       "border_filepath": "data/layouts/ValorCavern/border.bin",
@@ -4535,7 +4535,7 @@
       "id": "LAYOUT_ACUITY_CAVERN",
       "name": "AcuityCavern_Layout",
       "width": 23,
-      "height": 26,
+      "height": 25,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Sinnoh_Cave",
       "border_filepath": "data/layouts/AcuityCavern/border.bin",
@@ -4774,7 +4774,7 @@
     {
       "id": "LAYOUT_ROUTE205_NORTH",
       "name": "Route205_North_Layout",
-      "width": 74,
+      "width": 70,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Eterna",
@@ -4787,7 +4787,7 @@
       "width": 56,
       "height": 56,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Floaroma",
+      "secondary_tileset": "gTileset_Eterna",
       "border_filepath": "data/layouts/EternaCity/border.bin",
       "blockdata_filepath": "data/layouts/EternaCity/map.bin"
     },
@@ -4817,17 +4817,17 @@
       "width": 28,
       "height": 93,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Eterna",
       "border_filepath": "data/layouts/Route206/border.bin",
       "blockdata_filepath": "data/layouts/Route206/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE207",
       "name": "Route207_Layout",
-      "width": 56,
+      "width": 70,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Oreburgh",
       "border_filepath": "data/layouts/Route207/border.bin",
       "blockdata_filepath": "data/layouts/Route207/map.bin"
     },
@@ -5040,6 +5040,56 @@
       "secondary_tileset": "gTileset_Eterna",
       "border_filepath": "data/layouts/EternaForest/border.bin",
       "blockdata_filepath": "data/layouts/EternaForest/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_GATE_1F",
+      "name": "OreburghGate_1F_Layout",
+      "width": 28,
+      "height": 20,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Sinnoh_Cave",
+      "border_filepath": "data/layouts/OreburghGate_1F/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghGate_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_GATE_B1F",
+      "name": "OreburghGate_B1F_Layout",
+      "width": 60,
+      "height": 25,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Sinnoh_Cave",
+      "border_filepath": "data/layouts/OreburghGate_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghGate_B1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_WAYWARD_CAVE_MAIN",
+      "name": "WaywardCave_Main_Layout",
+      "width": 71,
+      "height": 39,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Sinnoh_Cave",
+      "border_filepath": "data/layouts/WaywardCave_Main/border.bin",
+      "blockdata_filepath": "data/layouts/WaywardCave_Main/map.bin"
+    },
+    {
+      "id": "LAYOUT_WAYWARD_CAVE_SECRET_1F",
+      "name": "WaywardCave_Secret_1F_Layout",
+      "width": 23,
+      "height": 6,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Sinnoh_Cave",
+      "border_filepath": "data/layouts/WaywardCave_Secret_1F/border.bin",
+      "blockdata_filepath": "data/layouts/WaywardCave_Secret_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_WAYWARD_CAVE_SECRET_B1F",
+      "name": "WaywardCave_Secret_B1F_Layout",
+      "width": 47,
+      "height": 40,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Sinnoh_Cave",
+      "border_filepath": "data/layouts/WaywardCave_Secret_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/WaywardCave_Secret_B1F/map.bin"
     }
   ]
 }

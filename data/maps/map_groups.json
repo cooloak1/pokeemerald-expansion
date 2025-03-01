@@ -152,7 +152,12 @@
     "ValorCavern",
     "AcuityCavern",
     "RavagedPath",
-    "EternaForest"
+    "EternaForest",
+    "OreburghGate_1F",
+    "OreburghGate_B1F",
+    "WaywardCave_Main",
+    "WaywardCave_Secret_1F",
+    "WaywardCave_Secret_B1F"
   ],
   "gMapGroup_IndoorTwinleaf": [
     "TwinleafTown_PlayersHouse_1F",
