@@ -4467,17 +4467,17 @@
       "width": 11,
       "height": 9,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "secondary_tileset": "gTileset_SinnohInterior",
       "border_filepath": "data/layouts/TwinleafTown_PlayersHouse_1F/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_PlayersHouse_1F/map.bin"
     },
     {
       "id": "LAYOUT_TWINLEAF_TOWN_PLAYERS_HOUSE_2F",
       "name": "TwinleafTown_PlayersHouse_2F_Layout",
-      "width": 9,
+      "width": 10,
       "height": 8,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "secondary_tileset": "gTileset_SinnohInterior",
       "border_filepath": "data/layouts/TwinleafTown_PlayersHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_PlayersHouse_2F/map.bin"
     },
@@ -4487,17 +4487,17 @@
       "width": 11,
       "height": 9,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "secondary_tileset": "gTileset_SinnohInterior",
       "border_filepath": "data/layouts/TwinleafTown_BarrysHouse_1F/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_BarrysHouse_1F/map.bin"
     },
     {
       "id": "LAYOUT_TWINLEAF_TOWN_BARRYS_HOUSE_2F",
       "name": "TwinleafTown_BarrysHouse_2F_Layout",
-      "width": 9,
+      "width": 10,
       "height": 8,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "secondary_tileset": "gTileset_SinnohInterior",
       "border_filepath": "data/layouts/TwinleafTown_BarrysHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_BarrysHouse_2F/map.bin"
     },
@@ -4507,7 +4507,7 @@
       "width": 9,
       "height": 8,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "secondary_tileset": "gTileset_SinnohInterior",
       "border_filepath": "data/layouts/TwinleafTown_House1/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_House1/map.bin"
     },
@@ -4517,7 +4517,7 @@
       "width": 9,
       "height": 8,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "secondary_tileset": "gTileset_SinnohInterior",
       "border_filepath": "data/layouts/TwinleafTown_House2/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_House2/map.bin"
     },
@@ -5090,6 +5090,36 @@
       "secondary_tileset": "gTileset_Sinnoh_Cave",
       "border_filepath": "data/layouts/WaywardCave_Secret_B1F/border.bin",
       "blockdata_filepath": "data/layouts/WaywardCave_Secret_B1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_GATE_JUBILIFE_ROUTE218",
+      "name": "Gate_Jubilife_Route218_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_SinnohInterior",
+      "border_filepath": "data/layouts/Gate_Jubilife_Route218/border.bin",
+      "blockdata_filepath": "data/layouts/Gate_Jubilife_Route218/map.bin"
+    },
+    {
+      "id": "LAYOUT_GATE_CANALAVE_ROUTE218",
+      "name": "Gate_Canalave_Route218_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_SinnohInterior",
+      "border_filepath": "data/layouts/Gate_Canalave_Route218/border.bin",
+      "blockdata_filepath": "data/layouts/Gate_Canalave_Route218/map.bin"
+    },
+    {
+      "id": "LAYOUT_GATE_ETERNA_CYCLING_ROAD",
+      "name": "Gate_Eterna_CyclingRoad_Layout",
+      "width": 9,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_SinnohInterior",
+      "border_filepath": "data/layouts/Gate_Eterna_CyclingRoad/border.bin",
+      "blockdata_filepath": "data/layouts/Gate_Eterna_CyclingRoad/map.bin"
     }
   ]
 }

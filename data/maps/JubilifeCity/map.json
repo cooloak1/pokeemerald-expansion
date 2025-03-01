@@ -50,7 +50,13 @@
     }
   ],
   "warp_events": [
-
+    {
+      "x": 2,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_GATE_JUBILIFE_ROUTE218",
+      "dest_warp_id": "1"
+    }
   ],
   "coord_events": [
 

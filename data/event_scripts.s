@@ -1287,3 +1287,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/WaywardCave_Secret_1F/scripts.inc"
 
 	.include "data/maps/WaywardCave_Secret_B1F/scripts.inc"
+
+	.include "data/maps/Gate_Jubilife_Route218/scripts.inc"
+
+	.include "data/maps/Gate_Canalave_Route218/scripts.inc"
+
+	.include "data/maps/Gate_Eterna_CyclingRoad/scripts.inc"

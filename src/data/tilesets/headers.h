@@ -913,3 +913,14 @@ const struct Tileset gTileset_Oreburgh =
     .metatileAttributes = gMetatileAttributes_Oreburgh,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_SinnohInterior =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_SinnohInterior,
+    .palettes = gTilesetPalettes_SinnohInterior,
+    .metatiles = gMetatiles_SinnohInterior,
+    .metatileAttributes = gMetatileAttributes_SinnohInterior,
+    .callback = NULL,
+};

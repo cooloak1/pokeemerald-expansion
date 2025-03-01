@@ -180,7 +180,7 @@
 #define MAPSEC_IRON_RUINS                   0xB0
 #define MAPSEC_SPEAR_PILLAR                 0xB1
 #define MAPSEC_HALL_OF_ORIGIN               0xB2
-#define MAPSEC_FLOAROMA_GARDENS             0xB3
+#define MAPSEC_FLOAROMA_MEADOW              0xB3
 #define MAPSEC_OLD_CHATEAU                  0xB4
 #define MAPSEC_MOUNT_CORONET_NORTH          0xB5
 #define MAPSEC_MOUNT_CORONET_PEAK           0xB6
