@@ -1293,3 +1293,11 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Gate_Canalave_Route218/scripts.inc"
 
 	.include "data/maps/Gate_Eterna_CyclingRoad/scripts.inc"
+
+	.include "data/maps/JubilifeCity_PokemonCenter/scripts.inc"
+
+	.include "data/maps/OreburghCity_PokemonCenter/scripts.inc"
+
+	.include "data/maps/FloaromaTown_PokemonCenter/scripts.inc"
+
+	.include "data/maps/EternaCity_PokemonCenter/scripts.inc"

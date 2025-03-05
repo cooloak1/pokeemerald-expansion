@@ -33,7 +33,13 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 13,
+      "y": 52,
+      "elevation": 0,
+      "dest_map": "MAP_FLOAROMA_TOWN_POKEMON_CENTER",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

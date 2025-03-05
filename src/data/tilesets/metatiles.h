@@ -234,3 +234,6 @@ const u16 gMetatileAttributes_Oreburgh[] = INCBIN_U16("data/tilesets/secondary/o
 
 const u16 gMetatiles_SinnohBuilding[] = INCBIN_U16("data/tilesets/primary/sinnoh_building/metatiles.bin");
 const u16 gMetatileAttributes_SinnohBuilding[] = INCBIN_U16("data/tilesets/primary/sinnoh_building/metatile_attributes.bin");
+
+const u16 gMetatiles_GenericHouse[] = INCBIN_U16("data/tilesets/secondary/generic_house/metatiles.bin");
+const u16 gMetatileAttributes_GenericHouse[] = INCBIN_U16("data/tilesets/secondary/generic_house/metatile_attributes.bin");

@@ -584,10 +584,10 @@
     {
       "id": "LAYOUT_HOUSE1",
       "name": "House1_Layout",
-      "width": 10,
+      "width": 9,
       "height": 9,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_GenericHouse",
       "border_filepath": "data/layouts/House1/border.bin",
       "blockdata_filepath": "data/layouts/House1/map.bin"
     },
@@ -602,11 +602,11 @@
       "blockdata_filepath": "data/layouts/House2/map.bin"
     },
     {
-      "id": "LAYOUT_POKEMON_CENTER_1F",
+      "id": "LAYOUT_POKEMON_CENTER",
       "name": "PokemonCenter_1F_Layout",
-      "width": 14,
-      "height": 9,
-      "primary_tileset": "gTileset_Building",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_SinnohBuilding",
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/PokemonCenter_1F/map.bin"
@@ -626,7 +626,7 @@
       "name": "Mart_Layout",
       "width": 11,
       "height": 8,
-      "primary_tileset": "gTileset_Building",
+      "primary_tileset": "gTileset_SinnohBuilding",
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/Mart/border.bin",
       "blockdata_filepath": "data/layouts/Mart/map.bin"
@@ -4467,7 +4467,7 @@
       "width": 11,
       "height": 9,
       "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "secondary_tileset": "gTileset_GenericHouse",
       "border_filepath": "data/layouts/TwinleafTown_PlayersHouse_1F/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_PlayersHouse_1F/map.bin"
     },
@@ -4507,7 +4507,7 @@
       "width": 9,
       "height": 9,
       "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "secondary_tileset": "gTileset_GenericHouse",
       "border_filepath": "data/layouts/TwinleafTown_House1/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_House1/map.bin"
     },
@@ -4517,7 +4517,7 @@
       "width": 9,
       "height": 9,
       "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "secondary_tileset": "gTileset_GenericHouse",
       "border_filepath": "data/layouts/TwinleafTown_House2/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_House2/map.bin"
     },
@@ -4615,9 +4615,9 @@
       "id": "LAYOUT_SANDGEM_TOWN_HOUSE",
       "name": "SandgemTown_House_Layout",
       "width": 9,
-      "height": 8,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "height": 9,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_GenericHouse",
       "border_filepath": "data/layouts/SandgemTown_House/border.bin",
       "blockdata_filepath": "data/layouts/SandgemTown_House/map.bin"
     },
@@ -4645,9 +4645,9 @@
       "id": "LAYOUT_ROUTE221_HOUSE",
       "name": "Route221_House_Layout",
       "width": 9,
-      "height": 8,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "height": 9,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_GenericHouse",
       "border_filepath": "data/layouts/Route221_House/border.bin",
       "blockdata_filepath": "data/layouts/Route221_House/map.bin"
     },
@@ -5120,6 +5120,46 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/Gate_Eterna_CyclingRoad/border.bin",
       "blockdata_filepath": "data/layouts/Gate_Eterna_CyclingRoad/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_POKEMON_CENTER",
+      "name": "JubilifeCity_PokemonCenter_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/JubilifeCity_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_CITY_POKEMON_CENTER",
+      "name": "OreburghCity_PokemonCenter_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/OreburghCity_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghCity_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLOAROMA_TOWN_POKEMON_CENTER",
+      "name": "FloaromaTown_PokemonCenter_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/FloaromaTown_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/FloaromaTown_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_ETERNA_CITY_POKEMON_CENTER",
+      "name": "EternaCity_PokemonCenter_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/EternaCity_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/EternaCity_PokemonCenter/map.bin"
     }
   ]
 }

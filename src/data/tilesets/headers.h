@@ -924,3 +924,14 @@ const struct Tileset gTileset_SinnohBuilding =
     .metatileAttributes = gMetatileAttributes_SinnohBuilding,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_GenericHouse =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_GenericHouse,
+    .palettes = gTilesetPalettes_GenericHouse,
+    .metatiles = gMetatiles_GenericHouse,
+    .metatileAttributes = gMetatileAttributes_GenericHouse,
+    .callback = NULL,
+};
