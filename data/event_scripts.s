@@ -1301,3 +1301,13 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/FloaromaTown_PokemonCenter/scripts.inc"
 
 	.include "data/maps/EternaCity_PokemonCenter/scripts.inc"
+
+	.include "data/maps/CanalaveCity_House1/scripts.inc"
+
+	.include "data/maps/CanalaveCity_House2/scripts.inc"
+
+	.include "data/maps/CanalaveCity_House3/scripts.inc"
+
+	.include "data/maps/CanalaveCity_EldrichsHouse/scripts.inc"
+
+	.include "data/maps/CanalaveCity_PokemonCenter/scripts.inc"

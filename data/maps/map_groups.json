@@ -162,7 +162,11 @@
 
   ],
   "gMapGroup_IndoorCanalave": [
-
+    "CanalaveCity_House1",
+    "CanalaveCity_House2",
+    "CanalaveCity_House3",
+    "CanalaveCity_EldrichsHouse",
+    "CanalaveCity_PokemonCenter"
   ],
   "gMapGroup_IndoorSnowpoint": [
 

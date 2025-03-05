@@ -594,10 +594,10 @@
     {
       "id": "LAYOUT_HOUSE2",
       "name": "House2_Layout",
-      "width": 11,
-      "height": 8,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "width": 9,
+      "height": 9,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_GenericHouse",
       "border_filepath": "data/layouts/House2/border.bin",
       "blockdata_filepath": "data/layouts/House2/map.bin"
     },
@@ -634,10 +634,10 @@
     {
       "id": "LAYOUT_HOUSE3",
       "name": "House3_Layout",
-      "width": 10,
-      "height": 8,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "width": 9,
+      "height": 9,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_GenericHouse",
       "border_filepath": "data/layouts/House3/border.bin",
       "blockdata_filepath": "data/layouts/House3/map.bin"
     },
@@ -5160,6 +5160,56 @@
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/EternaCity_PokemonCenter/border.bin",
       "blockdata_filepath": "data/layouts/EternaCity_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_CANALAVE_CITY_HOUSE1",
+      "name": "CanalaveCity_House1_Layout",
+      "width": 9,
+      "height": 9,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_GenericHouse",
+      "border_filepath": "data/layouts/CanalaveCity_House1/border.bin",
+      "blockdata_filepath": "data/layouts/CanalaveCity_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_CANALAVE_CITY_HOUSE2",
+      "name": "CanalaveCity_House2_Layout",
+      "width": 9,
+      "height": 9,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_GenericHouse",
+      "border_filepath": "data/layouts/CanalaveCity_House2/border.bin",
+      "blockdata_filepath": "data/layouts/CanalaveCity_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_CANALAVE_CITY_HOUSE3",
+      "name": "CanalaveCity_House3_Layout",
+      "width": 9,
+      "height": 9,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_GenericHouse",
+      "border_filepath": "data/layouts/CanalaveCity_House3/border.bin",
+      "blockdata_filepath": "data/layouts/CanalaveCity_House3/map.bin"
+    },
+    {
+      "id": "LAYOUT_CANALAVE_CITY_ELDRICHS_HOUSE",
+      "name": "CanalaveCity_EldrichsHouse_Layout",
+      "width": 9,
+      "height": 9,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_GenericHouse",
+      "border_filepath": "data/layouts/CanalaveCity_EldrichsHouse/border.bin",
+      "blockdata_filepath": "data/layouts/CanalaveCity_EldrichsHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_CANALAVE_CITY_POKEMON_CENTER",
+      "name": "CanalaveCity_PokemonCenter_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/CanalaveCity_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/CanalaveCity_PokemonCenter/map.bin"
     }
   ]
 }
