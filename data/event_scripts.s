@@ -1311,3 +1311,93 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/CanalaveCity_EldrichsHouse/scripts.inc"
 
 	.include "data/maps/CanalaveCity_PokemonCenter/scripts.inc"
+
+	.include "data/maps/OreburghCity_House1/scripts.inc"
+
+	.include "data/maps/OreburghCity_House2/scripts.inc"
+
+	.include "data/maps/FloaromaTown_House1/scripts.inc"
+
+	.include "data/maps/FloaromaTown_House2/scripts.inc"
+
+	.include "data/maps/FloaromaTown_House3/scripts.inc"
+
+	.include "data/maps/Route210_House/scripts.inc"
+
+	.include "data/maps/Route210_CafeCabin/scripts.inc"
+
+	.include "data/maps/SolaceonTown_House1/scripts.inc"
+
+	.include "data/maps/SolaceonTown_House2/scripts.inc"
+
+	.include "data/maps/SolaceonTown_House3/scripts.inc"
+
+	.include "data/maps/SolaceonTown_House4/scripts.inc"
+
+	.include "data/maps/PastoriaCity_House1/scripts.inc"
+
+	.include "data/maps/PastoriaCity_House2/scripts.inc"
+
+	.include "data/maps/PastoriaCity_House3/scripts.inc"
+
+	.include "data/maps/PastoriaCity_House4/scripts.inc"
+
+	.include "data/maps/PastoriaCity_House5/scripts.inc"
+
+	.include "data/maps/SnowpointCity_House1/scripts.inc"
+
+	.include "data/maps/SnowpointCity_House2/scripts.inc"
+
+	.include "data/maps/VeilstoneCity_House1/scripts.inc"
+
+	.include "data/maps/VeilstoneCity_House2/scripts.inc"
+
+	.include "data/maps/VeilstoneCity_House3/scripts.inc"
+
+	.include "data/maps/VeilstoneCity_House4/scripts.inc"
+
+	.include "data/maps/Route222_House1/scripts.inc"
+
+	.include "data/maps/Route222_House2/scripts.inc"
+
+	.include "data/maps/IronIsland_Outside/scripts.inc"
+
+	.include "data/maps/IronIsland_House/scripts.inc"
+
+	.include "data/maps/Route205_House/scripts.inc"
+
+	.include "data/maps/Route216_House/scripts.inc"
+
+	.include "data/maps/SunyshoreCity_House1/scripts.inc"
+
+	.include "data/maps/SunyshoreCity_House2/scripts.inc"
+
+	.include "data/maps/EternaCity_House1/scripts.inc"
+
+	.include "data/maps/EternaCity_House2/scripts.inc"
+
+	.include "data/maps/CelesticTown_House1/scripts.inc"
+
+	.include "data/maps/CelesticTown_House2/scripts.inc"
+
+	.include "data/maps/Route217_House1/scripts.inc"
+
+	.include "data/maps/Route217_House2/scripts.inc"
+
+	.include "data/maps/Route212_House/scripts.inc"
+
+	.include "data/maps/SunyshoreCity_House3/scripts.inc"
+
+	.include "data/maps/HearthomeCity_PokemonCenter/scripts.inc"
+
+	.include "data/maps/SolaceonTown_PokemonCenter/scripts.inc"
+
+	.include "data/maps/VeilstoneCity_PokemonCenter/scripts.inc"
+
+	.include "data/maps/PastoriaCity_PokemonCenter/scripts.inc"
+
+	.include "data/maps/CelesticTown_PokemonCenter/scripts.inc"
+
+	.include "data/maps/SnowpointCity_PokemonCenter/scripts.inc"
+
+	.include "data/maps/SunyshoreCity_PokemonCenter/scripts.inc"

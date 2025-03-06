@@ -664,10 +664,10 @@
     {
       "id": "LAYOUT_HOUSE4",
       "name": "House4_Layout",
-      "width": 10,
+      "width": 9,
       "height": 9,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_GenericHouse",
       "border_filepath": "data/layouts/House4/border.bin",
       "blockdata_filepath": "data/layouts/House4/map.bin"
     },
@@ -4465,7 +4465,7 @@
       "id": "LAYOUT_TWINLEAF_TOWN_PLAYERS_HOUSE_1F",
       "name": "TwinleafTown_PlayersHouse_1F_Layout",
       "width": 11,
-      "height": 9,
+      "height": 11,
       "primary_tileset": "gTileset_SinnohBuilding",
       "secondary_tileset": "gTileset_GenericHouse",
       "border_filepath": "data/layouts/TwinleafTown_PlayersHouse_1F/border.bin",
@@ -4477,7 +4477,7 @@
       "width": 10,
       "height": 8,
       "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "secondary_tileset": "gTileset_GenericHouse",
       "border_filepath": "data/layouts/TwinleafTown_PlayersHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_PlayersHouse_2F/map.bin"
     },
@@ -4485,9 +4485,9 @@
       "id": "LAYOUT_TWINLEAF_TOWN_BARRYS_HOUSE_1F",
       "name": "TwinleafTown_BarrysHouse_1F_Layout",
       "width": 11,
-      "height": 9,
+      "height": 11,
       "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "secondary_tileset": "gTileset_GenericHouse",
       "border_filepath": "data/layouts/TwinleafTown_BarrysHouse_1F/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_BarrysHouse_1F/map.bin"
     },
@@ -4495,31 +4495,11 @@
       "id": "LAYOUT_TWINLEAF_TOWN_BARRYS_HOUSE_2F",
       "name": "TwinleafTown_BarrysHouse_2F_Layout",
       "width": 10,
-      "height": 8,
+      "height": 10,
       "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "secondary_tileset": "gTileset_GenericHouse",
       "border_filepath": "data/layouts/TwinleafTown_BarrysHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_BarrysHouse_2F/map.bin"
-    },
-    {
-      "id": "LAYOUT_TWINLEAF_TOWN_HOUSE1",
-      "name": "TwinleafTown_House1_Layout",
-      "width": 9,
-      "height": 9,
-      "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_GenericHouse",
-      "border_filepath": "data/layouts/TwinleafTown_House1/border.bin",
-      "blockdata_filepath": "data/layouts/TwinleafTown_House1/map.bin"
-    },
-    {
-      "id": "LAYOUT_TWINLEAF_TOWN_HOUSE2",
-      "name": "TwinleafTown_House2_Layout",
-      "width": 9,
-      "height": 9,
-      "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_GenericHouse",
-      "border_filepath": "data/layouts/TwinleafTown_House2/border.bin",
-      "blockdata_filepath": "data/layouts/TwinleafTown_House2/map.bin"
     },
     {
       "id": "LAYOUT_VALOR_CAVERN",
@@ -4592,16 +4572,6 @@
       "blockdata_filepath": "data/layouts/SandgemTown_ProfessorRowansLab/map.bin"
     },
     {
-      "id": "LAYOUT_SANDGEM_TOWN_POKEMON_CENTER_1F",
-      "name": "SandgemTown_PokemonCenter_Layout",
-      "width": 14,
-      "height": 9,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_PokemonCenter",
-      "border_filepath": "data/layouts/SandgemTown_PokemonCenter/border.bin",
-      "blockdata_filepath": "data/layouts/SandgemTown_PokemonCenter/map.bin"
-    },
-    {
       "id": "LAYOUT_SANDGEM_TOWN_MART",
       "name": "SandgemTown_Mart_Layout",
       "width": 11,
@@ -4612,22 +4582,12 @@
       "blockdata_filepath": "data/layouts/SandgemTown_Mart/map.bin"
     },
     {
-      "id": "LAYOUT_SANDGEM_TOWN_HOUSE",
-      "name": "SandgemTown_House_Layout",
-      "width": 9,
-      "height": 9,
-      "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_GenericHouse",
-      "border_filepath": "data/layouts/SandgemTown_House/border.bin",
-      "blockdata_filepath": "data/layouts/SandgemTown_House/map.bin"
-    },
-    {
       "id": "LAYOUT_SANDGEM_TOWN_RIVALS_HOUSE_1F",
       "name": "SandgemTown_RivalsHouse_1F_Layout",
       "width": 11,
-      "height": 9,
+      "height": 11,
       "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "secondary_tileset": "gTileset_GenericHouse",
       "border_filepath": "data/layouts/SandgemTown_RivalsHouse_1F/border.bin",
       "blockdata_filepath": "data/layouts/SandgemTown_RivalsHouse_1F/map.bin"
     },
@@ -4640,16 +4600,6 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/SandgemTown_RivalsHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/SandgemTown_RivalsHouse_2F/map.bin"
-    },
-    {
-      "id": "LAYOUT_ROUTE221_HOUSE",
-      "name": "Route221_House_Layout",
-      "width": 9,
-      "height": 9,
-      "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_GenericHouse",
-      "border_filepath": "data/layouts/Route221_House/border.bin",
-      "blockdata_filepath": "data/layouts/Route221_House/map.bin"
     },
     {
       "id": "LAYOUT_JUBILIFE_CITY",
@@ -5122,94 +5072,104 @@
       "blockdata_filepath": "data/layouts/Gate_Eterna_CyclingRoad/map.bin"
     },
     {
-      "id": "LAYOUT_JUBILIFE_CITY_POKEMON_CENTER",
-      "name": "JubilifeCity_PokemonCenter_Layout",
-      "width": 15,
-      "height": 11,
-      "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_PokemonCenter",
-      "border_filepath": "data/layouts/JubilifeCity_PokemonCenter/border.bin",
-      "blockdata_filepath": "data/layouts/JubilifeCity_PokemonCenter/map.bin"
-    },
-    {
-      "id": "LAYOUT_OREBURGH_CITY_POKEMON_CENTER",
-      "name": "OreburghCity_PokemonCenter_Layout",
-      "width": 15,
-      "height": 11,
-      "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_PokemonCenter",
-      "border_filepath": "data/layouts/OreburghCity_PokemonCenter/border.bin",
-      "blockdata_filepath": "data/layouts/OreburghCity_PokemonCenter/map.bin"
-    },
-    {
-      "id": "LAYOUT_FLOAROMA_TOWN_POKEMON_CENTER",
-      "name": "FloaromaTown_PokemonCenter_Layout",
-      "width": 15,
-      "height": 11,
-      "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_PokemonCenter",
-      "border_filepath": "data/layouts/FloaromaTown_PokemonCenter/border.bin",
-      "blockdata_filepath": "data/layouts/FloaromaTown_PokemonCenter/map.bin"
-    },
-    {
-      "id": "LAYOUT_ETERNA_CITY_POKEMON_CENTER",
-      "name": "EternaCity_PokemonCenter_Layout",
-      "width": 15,
-      "height": 11,
-      "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_PokemonCenter",
-      "border_filepath": "data/layouts/EternaCity_PokemonCenter/border.bin",
-      "blockdata_filepath": "data/layouts/EternaCity_PokemonCenter/map.bin"
-    },
-    {
-      "id": "LAYOUT_CANALAVE_CITY_HOUSE1",
-      "name": "CanalaveCity_House1_Layout",
-      "width": 9,
-      "height": 9,
-      "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_GenericHouse",
-      "border_filepath": "data/layouts/CanalaveCity_House1/border.bin",
-      "blockdata_filepath": "data/layouts/CanalaveCity_House1/map.bin"
-    },
-    {
-      "id": "LAYOUT_CANALAVE_CITY_HOUSE2",
-      "name": "CanalaveCity_House2_Layout",
-      "width": 9,
-      "height": 9,
-      "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_GenericHouse",
-      "border_filepath": "data/layouts/CanalaveCity_House2/border.bin",
-      "blockdata_filepath": "data/layouts/CanalaveCity_House2/map.bin"
-    },
-    {
-      "id": "LAYOUT_CANALAVE_CITY_HOUSE3",
-      "name": "CanalaveCity_House3_Layout",
-      "width": 9,
-      "height": 9,
-      "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_GenericHouse",
-      "border_filepath": "data/layouts/CanalaveCity_House3/border.bin",
-      "blockdata_filepath": "data/layouts/CanalaveCity_House3/map.bin"
-    },
-    {
-      "id": "LAYOUT_CANALAVE_CITY_ELDRICHS_HOUSE",
-      "name": "CanalaveCity_EldrichsHouse_Layout",
-      "width": 9,
-      "height": 9,
-      "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_GenericHouse",
-      "border_filepath": "data/layouts/CanalaveCity_EldrichsHouse/border.bin",
-      "blockdata_filepath": "data/layouts/CanalaveCity_EldrichsHouse/map.bin"
-    },
-    {
-      "id": "LAYOUT_CANALAVE_CITY_POKEMON_CENTER",
-      "name": "CanalaveCity_PokemonCenter_Layout",
+      "id": "LAYOUT_ROUTE210_CAFE_CABIN",
+      "name": "Route210_CafeCabin_Layout",
       "width": 20,
       "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
-      "border_filepath": "data/layouts/CanalaveCity_PokemonCenter/border.bin",
-      "blockdata_filepath": "data/layouts/CanalaveCity_PokemonCenter/map.bin"
+      "border_filepath": "data/layouts/Route210_CafeCabin/border.bin",
+      "blockdata_filepath": "data/layouts/Route210_CafeCabin/map.bin"
+    },
+    {
+      "id": "LAYOUT_IRON_ISLAND_OUTSIDE",
+      "name": "IronIsland_Outside_Layout",
+      "width": 28,
+      "height": 28,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Canalave",
+      "border_filepath": "data/layouts/IronIsland_Outside/border.bin",
+      "blockdata_filepath": "data/layouts/IronIsland_Outside/map.bin"
+    },
+    {
+      "id": "LAYOUT_HOUSE5",
+      "name": "House5_Layout",
+      "width": 9,
+      "height": 9,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_GenericHouse",
+      "border_filepath": "data/layouts/House5/border.bin",
+      "blockdata_filepath": "data/layouts/House5/map.bin"
+    },
+    {
+      "id": "LAYOUT_HEARTHOME_CITY_POKEMON_CENTER",
+      "name": "HearthomeCity_PokemonCenter_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/HearthomeCity_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/HearthomeCity_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOLACEON_TOWN_POKEMON_CENTER",
+      "name": "SolaceonTown_PokemonCenter_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/SolaceonTown_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/SolaceonTown_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_VEILSTONE_CITY_POKEMON_CENTER",
+      "name": "VeilstoneCity_PokemonCenter_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/VeilstoneCity_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/VeilstoneCity_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_PASTORIA_CITY_POKEMON_CENTER",
+      "name": "PastoriaCity_PokemonCenter_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/PastoriaCity_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/PastoriaCity_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELESTIC_TOWN_POKEMON_CENTER",
+      "name": "CelesticTown_PokemonCenter_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/CelesticTown_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/CelesticTown_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_SNOWPOINT_CITY_POKEMON_CENTER",
+      "name": "SnowpointCity_PokemonCenter_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/SnowpointCity_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/SnowpointCity_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_SUNYSHORE_CITY_POKEMON_CENTER",
+      "name": "SunyshoreCity_PokemonCenter_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/SunyshoreCity_PokemonCenter/border.bin",
+      "blockdata_filepath": "data/layouts/SunyshoreCity_PokemonCenter/map.bin"
     }
   ]
 }

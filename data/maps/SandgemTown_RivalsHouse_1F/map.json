@@ -19,20 +19,13 @@
   "warp_events": [
     {
       "x": 5,
-      "y": 8,
+      "y": 9,
       "elevation": 0,
       "dest_map": "MAP_SANDGEM_TOWN",
       "dest_warp_id": "3"
     },
     {
-      "x": 6,
-      "y": 8,
-      "elevation": 0,
-      "dest_map": "MAP_SANDGEM_TOWN",
-      "dest_warp_id": "3"
-    },
-    {
-      "x": 9,
+      "x": 8,
       "y": 2,
       "elevation": 0,
       "dest_map": "MAP_SANDGEM_TOWN_RIVALS_HOUSE_2F",

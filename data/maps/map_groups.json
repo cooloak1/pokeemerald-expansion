@@ -12,13 +12,27 @@
     "gMapGroup_IndoorHearthome",
     "gMapGroup_IndoorSolaceon",
     "gMapGroup_IndoorVeilstone",
+    "gMapGroup_IndoorLakefront",
     "gMapGroup_IndoorPastoria",
     "gMapGroup_IndoorCelestic",
     "gMapGroup_IndoorCanalave",
     "gMapGroup_IndoorSnowpoint",
     "gMapGroup_IndoorSunyshore",
     "gMapGroup_IndoorPokemonLeague",
+    "gMapGroup_IndoorFightArea",
+    "gMapGroup_IndoorSurvivalArea",
+    "gMapGroup_IndoorResortArea",
+    "gMapGroup_IndoorIronIsland",
+    "gMapGroup_IndoorRoute205",
+    "gMapGroup_IndoorRoute210",
+    "gMapGroup_IndoorRoute212",
+    "gMapGroup_IndoorRoute217",
     "gMapGroup_IndoorRoute221",
+    "gMapGroup_IndoorRoute222",
+    "gMapGroup_IndoorRoute225",
+    "gMapGroup_IndoorRoute226",
+    "gMapGroup_IndoorRoute227",
+    "gMapGroup_IndoorRoute228",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_SpecialArea",
     "gMapGroup_Dungeons",
@@ -111,7 +125,8 @@
     "EternaForest",
     "WaywardCave_Main",
     "WaywardCave_Secret_1F",
-    "WaywardCave_Secret_B1F"
+    "WaywardCave_Secret_B1F",
+    "IronIsland_Outside"
   ],
   "gMapGroup_Gates": [
     "Gate_Jubilife_Route218",
@@ -138,28 +153,53 @@
     "JubilifeCity_PokemonCenter"
   ],
   "gMapGroup_IndoorOreburgh": [
-    "OreburghCity_PokemonCenter"
+    "OreburghCity_PokemonCenter",
+    "OreburghCity_House1",
+    "OreburghCity_House2"
   ],
   "gMapGroup_IndoorFloaroma": [
-    "FloaromaTown_PokemonCenter"
+    "FloaromaTown_PokemonCenter",
+    "FloaromaTown_House1",
+    "FloaromaTown_House2",
+    "FloaromaTown_House3"
   ],
   "gMapGroup_IndoorEterna": [
-    "EternaCity_PokemonCenter"
+    "EternaCity_PokemonCenter",
+    "EternaCity_House1",
+    "EternaCity_House2"
   ],
   "gMapGroup_IndoorHearthome": [
-
+    "HearthomeCity_PokemonCenter"
   ],
   "gMapGroup_IndoorSolaceon": [
-
+    "SolaceonTown_House1",
+    "SolaceonTown_House2",
+    "SolaceonTown_House3",
+    "SolaceonTown_House4",
+    "SolaceonTown_PokemonCenter"
   ],
   "gMapGroup_IndoorVeilstone": [
+    "VeilstoneCity_House1",
+    "VeilstoneCity_House2",
+    "VeilstoneCity_House3",
+    "VeilstoneCity_House4",
+    "VeilstoneCity_PokemonCenter"
+  ],
+  "gMapGroup_IndoorLakefront": [
 
   ],
   "gMapGroup_IndoorPastoria": [
-
+    "PastoriaCity_House1",
+    "PastoriaCity_House2",
+    "PastoriaCity_House3",
+    "PastoriaCity_House4",
+    "PastoriaCity_House5",
+    "PastoriaCity_PokemonCenter"
   ],
   "gMapGroup_IndoorCelestic": [
-
+    "CelesticTown_House1",
+    "CelesticTown_House2",
+    "CelesticTown_PokemonCenter"
   ],
   "gMapGroup_IndoorCanalave": [
     "CanalaveCity_House1",
@@ -169,16 +209,64 @@
     "CanalaveCity_PokemonCenter"
   ],
   "gMapGroup_IndoorSnowpoint": [
-
+    "SnowpointCity_House1",
+    "SnowpointCity_House2",
+    "SnowpointCity_PokemonCenter"
   ],
   "gMapGroup_IndoorSunyshore": [
-
+    "SunyshoreCity_House1",
+    "SunyshoreCity_House2",
+    "SunyshoreCity_House3",
+    "SunyshoreCity_PokemonCenter"
   ],
   "gMapGroup_IndoorPokemonLeague": [
 
   ],
+  "gMapGroup_IndoorFightArea": [
+
+  ],
+  "gMapGroup_IndoorSurvivalArea": [
+
+  ],
+  "gMapGroup_IndoorResortArea": [
+
+  ],
+  "gMapGroup_IndoorIronIsland": [
+    "IronIsland_House"
+  ],
+  "gMapGroup_IndoorRoute205": [
+    "Route205_House"
+  ],
+  "gMapGroup_IndoorRoute210": [
+    "Route210_House",
+    "Route210_CafeCabin"
+  ],
+  "gMapGroup_IndoorRoute212": [
+    "Route212_House"
+  ],
+  "gMapGroup_IndoorRoute217": [
+    "Route216_House",
+    "Route217_House1",
+    "Route217_House2"
+  ],
   "gMapGroup_IndoorRoute221": [
     "Route221_House"
+  ],
+  "gMapGroup_IndoorRoute222": [
+    "Route222_House1",
+    "Route222_House2"
+  ],
+  "gMapGroup_IndoorRoute225": [
+
+  ],
+  "gMapGroup_IndoorRoute226": [
+
+  ],
+  "gMapGroup_IndoorRoute227": [
+
+  ],
+  "gMapGroup_IndoorRoute228": [
+
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
