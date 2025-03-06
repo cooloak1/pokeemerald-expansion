@@ -68,7 +68,41 @@
     }
   ],
   "warp_events": [
-
+    {
+      "x": 14,
+      "y": 54,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE205_SOUTH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 15,
+      "y": 54,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE205_SOUTH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 55,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE205_NORTH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 55,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE205_NORTH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 44,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_FOREST",
+      "dest_warp_id": "4"
+    }
   ],
   "coord_events": [
 

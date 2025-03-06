@@ -60,6 +60,20 @@
       "elevation": 0,
       "dest_map": "MAP_ETERNA_CITY_POKEMON_CENTER",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 34,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_CITY_HOUSE2",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 9,
+      "y": 44,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_CITY_HOUSE1",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

@@ -87,6 +87,27 @@
       "elevation": 0,
       "dest_map": "MAP_GATE_ETERNA_CYCLING_ROAD",
       "dest_warp_id": "2"
+    },
+    {
+      "x": 11,
+      "y": 74,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE206",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 74,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE206",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 9,
+      "y": 74,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE206",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

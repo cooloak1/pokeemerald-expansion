@@ -41,6 +41,41 @@
       "elevation": 0,
       "dest_map": "MAP_GATE_CANALAVE_ROUTE218",
       "dest_warp_id": "1"
+    },
+    {
+      "x": 19,
+      "y": 31,
+      "elevation": 0,
+      "dest_map": "MAP_CANALAVE_CITY_HOUSE1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 18,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_CANALAVE_CITY_HOUSE2",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 6,
+      "y": 26,
+      "elevation": 0,
+      "dest_map": "MAP_CANALAVE_CITY_HOUSE3",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 7,
+      "y": 33,
+      "elevation": 0,
+      "dest_map": "MAP_CANALAVE_CITY_ELDRICHS_HOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 22,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_CANALAVE_CITY_POKEMON_CENTER",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

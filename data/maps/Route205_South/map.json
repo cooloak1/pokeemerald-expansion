@@ -38,7 +38,27 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 20,
+      "y": 24,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE205_HOUSE",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 16,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_FOREST",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 17,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_FOREST",
+      "dest_warp_id": "1"
+    }
   ],
   "coord_events": [
 

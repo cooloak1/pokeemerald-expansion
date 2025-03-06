@@ -39,6 +39,27 @@
       "elevation": 0,
       "dest_map": "MAP_FLOAROMA_TOWN_POKEMON_CENTER",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 8,
+      "y": 42,
+      "elevation": 0,
+      "dest_map": "MAP_FLOAROMA_TOWN_HOUSE2",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 20,
+      "y": 52,
+      "elevation": 0,
+      "dest_map": "MAP_FLOAROMA_TOWN_HOUSE1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 20,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_FLOAROMA_TOWN_HOUSE3",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [
