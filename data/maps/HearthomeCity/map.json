@@ -12,12 +12,29 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": [
+    {
+      "map": "MAP_ROUTE208",
+      "offset": 33,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE209",
+      "offset": 2,
+      "direction": "right"
+    }
+  ],
   "object_events": [
 
   ],
   "warp_events": [
-
+    {
+      "x": 28,
+      "y": 46,
+      "elevation": 0,
+      "dest_map": "MAP_HEARTHOME_CITY_POKEMON_CENTER",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 
