@@ -4814,9 +4814,9 @@
     {
       "id": "LAYOUT_SOLACEON_TOWN",
       "name": "SolaceonTown_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
+      "width": 60,
+      "height": 28,
+      "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/SolaceonTown/border.bin",
       "blockdata_filepath": "data/layouts/SolaceonTown/map.bin"

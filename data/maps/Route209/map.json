@@ -17,6 +17,11 @@
       "map": "MAP_HEARTHOME_CITY",
       "offset": -2,
       "direction": "left"
+    },
+    {
+      "map": "MAP_SOLACEON_TOWN",
+      "offset": 28,
+      "direction": "up"
     }
   ],
   "object_events": [
