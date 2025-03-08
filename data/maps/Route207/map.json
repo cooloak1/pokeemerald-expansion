@@ -34,11 +34,11 @@
   ],
   "warp_events": [
     {
-      "x": 51,
+      "x": 50,
       "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE207",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_ROUTE208",
+      "dest_warp_id": "1"
     },
     {
       "x": 58,

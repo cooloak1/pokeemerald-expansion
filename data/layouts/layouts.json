@@ -4854,9 +4854,9 @@
     {
       "id": "LAYOUT_VEILSTONE_CITY",
       "name": "VeilstoneCity_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
+      "width": 56,
+      "height": 56,
+      "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/VeilstoneCity/border.bin",
       "blockdata_filepath": "data/layouts/VeilstoneCity/map.bin"
@@ -4864,9 +4864,9 @@
     {
       "id": "LAYOUT_ROUTE215",
       "name": "Route215_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
+      "width": 84,
+      "height": 28,
+      "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route215/border.bin",
       "blockdata_filepath": "data/layouts/Route215/map.bin"
@@ -4874,9 +4874,9 @@
     {
       "id": "LAYOUT_ROUTE214",
       "name": "Route214_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
+      "width": 28,
+      "height": 84,
+      "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route214/border.bin",
       "blockdata_filepath": "data/layouts/Route214/map.bin"
@@ -4884,9 +4884,9 @@
     {
       "id": "LAYOUT_ROUTE213",
       "name": "Route213_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
+      "width": 90,
+      "height": 48,
+      "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route213/border.bin",
       "blockdata_filepath": "data/layouts/Route213/map.bin"
@@ -4894,9 +4894,9 @@
     {
       "id": "LAYOUT_PASTORIA_CITY",
       "name": "PastoriaCity_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
+      "width": 56,
+      "height": 56,
+      "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/PastoriaCity/border.bin",
       "blockdata_filepath": "data/layouts/PastoriaCity/map.bin"
@@ -4914,9 +4914,9 @@
     {
       "id": "LAYOUT_ROUTE212_NORTH",
       "name": "Route212_North_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
+      "width": 28,
+      "height": 84,
+      "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route212_North/border.bin",
       "blockdata_filepath": "data/layouts/Route212_North/map.bin"
@@ -4924,9 +4924,9 @@
     {
       "id": "LAYOUT_ROUTE212_SOUTH",
       "name": "Route212_South_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
+      "width": 112,
+      "height": 28,
+      "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route212_South/border.bin",
       "blockdata_filepath": "data/layouts/Route212_South/map.bin"
@@ -5170,6 +5170,26 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/SunyshoreCity_PokemonCenter/border.bin",
       "blockdata_filepath": "data/layouts/SunyshoreCity_PokemonCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAKE_VALOR",
+      "name": "LakeValor_Layout",
+      "width": 56,
+      "height": 28,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/LakeValor/border.bin",
+      "blockdata_filepath": "data/layouts/LakeValor/map.bin"
+    },
+    {
+      "id": "LAYOUT_VALOR_LAKEFRONT",
+      "name": "ValorLakefront_Layout",
+      "width": 46,
+      "height": 36,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/ValorLakefront/border.bin",
+      "blockdata_filepath": "data/layouts/ValorLakefront/map.bin"
     }
   ]
 }

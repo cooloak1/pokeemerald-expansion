@@ -1401,3 +1401,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/SnowpointCity_PokemonCenter/scripts.inc"
 
 	.include "data/maps/SunyshoreCity_PokemonCenter/scripts.inc"
+
+	.include "data/maps/LakeValor/scripts.inc"
+
+	.include "data/maps/ValorLakefront/scripts.inc"

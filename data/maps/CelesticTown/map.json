@@ -36,15 +36,15 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 7,
-      "y": 21,
+      "x": 22,
+      "y": 4,
       "elevation": 0,
       "dest_map": "MAP_CELESTIC_TOWN_HOUSE2",
       "dest_warp_id": "0"
     },
     {
-      "x": 3,
-      "y": 4,
+      "x": 7,
+      "y": 21,
       "elevation": 0,
       "dest_map": "MAP_CELESTIC_TOWN_HOUSE1",
       "dest_warp_id": "0"

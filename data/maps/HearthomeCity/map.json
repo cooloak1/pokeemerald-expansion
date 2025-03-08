@@ -22,6 +22,11 @@
       "map": "MAP_ROUTE209",
       "offset": 2,
       "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE212_NORTH",
+      "offset": -4,
+      "direction": "down"
     }
   ],
   "object_events": [
@@ -33,6 +38,20 @@
       "y": 46,
       "elevation": 0,
       "dest_map": "MAP_HEARTHOME_CITY_POKEMON_CENTER",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 53,
+      "y": 50,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE209",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 2,
+      "y": 50,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE208",
       "dest_warp_id": "0"
     }
   ],
