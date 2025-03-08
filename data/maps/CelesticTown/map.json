@@ -12,12 +12,43 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": [
+    {
+      "map": "MAP_ROUTE210_NORTH",
+      "offset": -5,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE211_EAST",
+      "offset": 2,
+      "direction": "left"
+    }
+  ],
   "object_events": [
 
   ],
   "warp_events": [
-
+    {
+      "x": 21,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_CELESTIC_TOWN_POKEMON_CENTER",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 7,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_CELESTIC_TOWN_HOUSE2",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_CELESTIC_TOWN_HOUSE1",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

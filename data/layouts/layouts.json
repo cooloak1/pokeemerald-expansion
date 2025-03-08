@@ -4744,7 +4744,7 @@
     {
       "id": "LAYOUT_ROUTE211_WEST",
       "name": "Route211_West_Layout",
-      "width": 42,
+      "width": 38,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Eterna",
@@ -4754,9 +4754,9 @@
     {
       "id": "LAYOUT_ROUTE211_EAST",
       "name": "Route211_East_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
+      "width": 36,
+      "height": 28,
+      "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route211_East/border.bin",
       "blockdata_filepath": "data/layouts/Route211_East/map.bin"
@@ -4774,7 +4774,7 @@
     {
       "id": "LAYOUT_ROUTE207",
       "name": "Route207_Layout",
-      "width": 70,
+      "width": 66,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Oreburgh",
@@ -4784,7 +4784,7 @@
     {
       "id": "LAYOUT_ROUTE208",
       "name": "Route208_Layout",
-      "width": 70,
+      "width": 66,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
@@ -4824,8 +4824,8 @@
     {
       "id": "LAYOUT_ROUTE210_SOUTH",
       "name": "Route210_South_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 28,
+      "height": 70,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route210_South/border.bin",
@@ -4834,8 +4834,8 @@
     {
       "id": "LAYOUT_ROUTE210_NORTH",
       "name": "Route210_North_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 84,
+      "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route210_North/border.bin",
@@ -4844,9 +4844,9 @@
     {
       "id": "LAYOUT_CELESTIC_TOWN",
       "name": "CelesticTown_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
+      "width": 28,
+      "height": 28,
+      "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/CelesticTown/border.bin",
       "blockdata_filepath": "data/layouts/CelesticTown/map.bin"
