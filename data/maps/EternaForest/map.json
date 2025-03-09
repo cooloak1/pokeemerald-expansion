@@ -108,6 +108,21 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 52,
+      "y": 47,
+      "elevation": 0,
+      "item": "ITEM_POTION",
+      "flag": "FLAG_HIDDEN_ITEM_ETERNA_FOREST_POTION"
+    },
+    {
+      "type": "hidden_item",
+      "x": 50,
+      "y": 1,
+      "elevation": 0,
+      "item": "ITEM_INSECT_PLATE",
+      "flag": "FLAG_HIDDEN_ITEM_ETERNA_FOREST_INSECT_PLATE"
+    }
   ]
 }

@@ -80,6 +80,21 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 34,
+      "y": 9,
+      "elevation": 0,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_HIDDEN_ITEM_ETERNA_CITY_DRACO_PLATE"
+    },
+    {
+      "type": "hidden_item",
+      "x": 52,
+      "y": 7,
+      "elevation": 0,
+      "item": "ITEM_NONE",
+      "flag": "FLAG_HIDDEN_ITEM_ETERNA_CITY_MOON_STONE"
+    }
   ]
 }

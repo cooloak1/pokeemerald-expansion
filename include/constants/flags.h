@@ -666,46 +666,46 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_221_CARBOS                    0x26B
 #define FLAG_HIDDEN_ITEM_JUBILIFE_CITY_STARDUST              0x26C
 #define FLAG_HIDDEN_ITEM_CANALAVE_CITY_BIG_PEARL             0x26D
-#define FLAG_UNUSED_0x26E  0x26E // Unused Flag
-#define FLAG_UNUSED_0x26F  0x26F // Unused Flag
-#define FLAG_UNUSED_0x270  0x270 // Unused Flag
-#define FLAG_UNUSED_0x271  0x271 // Unused Flag
-#define FLAG_UNUSED_0x272  0x272 // Unused Flag
-#define FLAG_UNUSED_0x273  0x273 // Unused Flag
-#define FLAG_UNUSED_0x274  0x274 // Unused Flag
-#define FLAG_UNUSED_0x275  0x275 // Unused Flag
-#define FLAG_UNUSED_0x276  0x276 // Unused Flag
-#define FLAG_UNUSED_0x277  0x277 // Unused Flag
-#define FLAG_UNUSED_0x278  0x278 // Unused Flag
-#define FLAG_UNUSED_0x279  0x279 // Unused Flag
-#define FLAG_UNUSED_0x27A  0x27A // Unused Flag
-#define FLAG_UNUSED_0x27B  0x27B // Unused Flag
-#define FLAG_UNUSED_0x27C  0x27C // Unused Flag
-#define FLAG_UNUSED_0x27D  0x27D // Unused Flag
-#define FLAG_UNUSED_0x27E  0x27E // Unused Flag
-#define FLAG_UNUSED_0x27F  0x27F // Unused Flag
-#define FLAG_UNUSED_0x280  0x280 // Unused Flag
-#define FLAG_UNUSED_0x281  0x281 // Unused Flag
-#define FLAG_UNUSED_0x282  0x282 // Unused Flag
-#define FLAG_UNUSED_0x283  0x283 // Unused Flag
-#define FLAG_UNUSED_0x284  0x284 // Unused Flag
-#define FLAG_UNUSED_0x285  0x285 // Unused Flag
-#define FLAG_UNUSED_0x286  0x286 // Unused Flag
-#define FLAG_UNUSED_0x287  0x287 // Unused Flag
-#define FLAG_UNUSED_0x288  0x288 // Unused Flag
-#define FLAG_UNUSED_0x289  0x289 // Unused Flag
-#define FLAG_UNUSED_0x28A  0x28A // Unused Flag
-#define FLAG_UNUSED_0x28B  0x28B // Unused Flag
-#define FLAG_UNUSED_0x28C  0x28C // Unused Flag
-#define FLAG_UNUSED_0x28D  0x28D // Unused Flag
-#define FLAG_UNUSED_0x28E  0x28E // Unused Flag
-#define FLAG_UNUSED_0x28F  0x28F // Unused Flag
-#define FLAG_UNUSED_0x290  0x290 // Unused Flag
-#define FLAG_UNUSED_0x291  0x291 // Unused Flag
-#define FLAG_UNUSED_0x292  0x292 // Unused Flag
-#define FLAG_UNUSED_0x293  0x293 // Unused Flag
-#define FLAG_UNUSED_0x294  0x294 // Unused Flag
-#define FLAG_UNUSED_0x295  0x295 // Unused Flag
+#define FLAG_HIDDEN_ITEM_IRON_ISLAND_OUTSIDE_STAR_PIECE      0x26E
+#define FLAG_HIDDEN_ITEM_OREBURGH_CITY_PEARL                 0x26F
+#define FLAG_HIDDEN_ITEM_OREBURGH_CITY_HEART_SCALE           0x270
+#define FLAG_HIDDEN_ITEM_VALLEY_WINDWORKS_MAX_ELIXIR         0x271
+#define FLAG_HIDDEN_ITEM_ROUTE_205_STARDUST                  0x272
+#define FLAG_HIDDEN_ITEM_FUEGO_IRONWORKS_ULTRA_BALL          0x273
+#define FLAG_HIDDEN_ITEM_FUEGO_IRONWORKS_BIG_MUSHROOM        0x274
+#define FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_REVIVE                0x275
+#define FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_PP_UP                 0x276
+#define FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_HYPER_POTION          0x277
+#define FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_MAX_REVIVE            0x278
+#define FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_FULL_HEAL             0x279
+#define FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_HONEY_1               0x27A
+#define FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_HONEY_2               0x27B
+#define FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_HONEY_3               0x27C
+#define FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_HONEY_4               0x27D
+#define FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_HONEY_5               0x27E
+#define FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_HONEY_6               0x27F
+#define FLAG_HIDDEN_ITEM_ROUTE_205_SUPER_POTION              0x280
+#define FLAG_HIDDEN_ITEM_ETERNA_FOREST_POTION                0x281
+#define FLAG_HIDDEN_ITEM_OLD_CHATEAU_HONEY                   0x282
+#define FLAG_HIDDEN_ITEM_ETERNA_CITY_MOON_STONE              0x283
+#define FLAG_HIDDEN_ITEM_ROUTE_211_GREAT_BALL                0x284
+#define FLAG_HIDDEN_ITEM_ROUTE_207_POKE_BALL                 0x285
+#define FLAG_HIDDEN_ITEM_ROUTE_207_RARE_CANDY                0x286
+#define FLAG_HIDDEN_ITEM_ROUTE_207_GREAT_BALL                0x287
+#define FLAG_HIDDEN_ITEM_ROUTE_207_REVIVE                    0x288
+#define FLAG_HIDDEN_ITEM_ROUTE_206_PP_UP                     0x289
+#define FLAG_HIDDEN_ITEM_ROUTE_206_ETHER                     0x28A
+#define FLAG_HIDDEN_ITEM_ROUTE_206_TINY_MUSHROOM             0x28B
+#define FLAG_HIDDEN_ITEM_WAYWARD_CAVE_RED_SHARD              0x28C
+#define FLAG_HIDDEN_ITEM_WAYWARD_CAVE_BLUE_SHARD             0x28D
+#define FLAG_HIDDEN_ITEM_WAYWARD_CAVE_GREEN_SHARD            0x28E
+#define FLAG_HIDDEN_ITEM_WAYWARD_CAVE_YELLOW_SHARD           0x28F
+#define FLAG_HIDDEN_ITEM_WAYWARD_CAVE_SUPER_POTION           0x290
+#define FLAG_HIDDEN_ITEM_WAYWARD_CAVE_GREAT_BALL             0x291
+#define FLAG_HIDDEN_ITEM_WAYWARD_SECRET_DUSK_STONE           0x292
+#define FLAG_HIDDEN_ITEM_WAYWARD_SECRET_STARDUST             0x293
+#define FLAG_HIDDEN_ITEM_FUEGO_IRONWORKS_STAR_PIECE          0x294
+#define FLAG_HIDDEN_ITEM_FUEGO_IRONWORKS_PROTEIN             0x295
 #define FLAG_UNUSED_0x296  0x296 // Unused Flag
 #define FLAG_UNUSED_0x297  0x297 // Unused Flag
 #define FLAG_UNUSED_0x298  0x298 // Unused Flag
@@ -740,8 +740,8 @@
 #define FLAG_UNUSED_0x2B5  0x2B5 // Unused Flag
 #define FLAG_UNUSED_0x2B6  0x2B6 // Unused Flag
 #define FLAG_UNUSED_0x2B7  0x2B7 // Unused Flag
-#define FLAG_UNUSED_0x2B8  0x2B8 // Unused Flag
-#define FLAG_UNUSED_0x2B9  0x2B9 // Unused Flag
+#define FLAG_HIDDEN_ITEM_ETERNA_FOREST_INSECT_PLATE  0x2B8 
+#define FLAG_HIDDEN_ITEM_ETERNA_CITY_DRACO_PLATE  0x2B9 
 #define FLAG_UNUSED_0x2BA  0x2BA // Unused Flag
 #define FLAG_UNUSED_0x2BB  0x2BB // Unused Flag
 
@@ -1303,7 +1303,7 @@
 #define FLAG_UNUSED_0x4E1                                           0x4E1 // toxic plate
 #define FLAG_UNUSED_0x4E2                                           0x4E2 // earth plate
 #define FLAG_UNUSED_0x4E3                                           0x4E3 // stone plate
-#define FLAG_UNUSED_0x4E4                                           0x4E4 // insect plate
+#define FLAG_UNUSED_0x4E4                                           0x4E4
 #define FLAG_UNUSED_0x4E5                                           0x4E5 // spooky plate
 #define FLAG_UNUSED_0x4E6                                           0x4E6 // iron plate
 #define FLAG_UNUSED_0x4E7                                           0x4E7 // flame plate
@@ -1312,7 +1312,7 @@
 #define FLAG_UNUSED_0x4EA                                           0x4EA // zap plate
 #define FLAG_UNUSED_0x4EB                                           0x4EB // mind plate
 #define FLAG_UNUSED_0x4EC                                           0x4EC // icicle plate
-#define FLAG_UNUSED_0x4ED                                           0x4ED // draco plate
+#define FLAG_UNUSED_0x4ED                                           0x4ED
 #define FLAG_UNUSED_0x4EE                                           0x4EE // dread plate
 #define FLAG_UNUSED_0x4EF                                           0x4EF // pixie plate
 

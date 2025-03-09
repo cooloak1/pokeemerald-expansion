@@ -34,6 +34,21 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 18,
+      "y": 18,
+      "elevation": 0,
+      "item": "ITEM_ULTRA_BALL",
+      "flag": "FLAG_HIDDEN_ITEM_FUEGO_IRONWORKS_ULTRA_BALL"
+    },
+    {
+      "type": "hidden_item",
+      "x": 13,
+      "y": 7,
+      "elevation": 0,
+      "item": "ITEM_BIG_MUSHROOM",
+      "flag": "FLAG_HIDDEN_ITEM_FUEGO_IRONWORKS_ULTRA_BALL"
+    }
   ]
 }

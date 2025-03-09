@@ -66,6 +66,93 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 19,
+      "y": 8,
+      "elevation": 0,
+      "item": "ITEM_FULL_HEAL",
+      "flag": "FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_FULL_HEAL"
+    },
+    {
+      "type": "hidden_item",
+      "x": 11,
+      "y": 12,
+      "elevation": 0,
+      "item": "ITEM_HONEY",
+      "flag": "FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_HONEY_1"
+    },
+    {
+      "type": "hidden_item",
+      "x": 17,
+      "y": 8,
+      "elevation": 0,
+      "item": "ITEM_MAX_REVIVE",
+      "flag": "FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_MAX_REVIVE"
+    },
+    {
+      "type": "hidden_item",
+      "x": 15,
+      "y": 8,
+      "elevation": 0,
+      "item": "ITEM_HYPER_POTION",
+      "flag": "FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_HYPER_POTION"
+    },
+    {
+      "type": "hidden_item",
+      "x": 13,
+      "y": 8,
+      "elevation": 0,
+      "item": "ITEM_PP_UP",
+      "flag": "FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_PP_UP"
+    },
+    {
+      "type": "hidden_item",
+      "x": 11,
+      "y": 8,
+      "elevation": 0,
+      "item": "ITEM_REVIVE",
+      "flag": "FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_REVIVE"
+    },
+    {
+      "type": "hidden_item",
+      "x": 19,
+      "y": 12,
+      "elevation": 0,
+      "item": "ITEM_HONEY",
+      "flag": "FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_HONEY_5"
+    },
+    {
+      "type": "hidden_item",
+      "x": 15,
+      "y": 12,
+      "elevation": 0,
+      "item": "ITEM_HONEY",
+      "flag": "FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_HONEY_3"
+    },
+    {
+      "type": "hidden_item",
+      "x": 13,
+      "y": 12,
+      "elevation": 0,
+      "item": "ITEM_HONEY",
+      "flag": "FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_HONEY_2"
+    },
+    {
+      "type": "hidden_item",
+      "x": 17,
+      "y": 12,
+      "elevation": 0,
+      "item": "ITEM_HONEY",
+      "flag": "FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_HONEY_4"
+    },
+    {
+      "type": "hidden_item",
+      "x": 21,
+      "y": 12,
+      "elevation": 0,
+      "item": "ITEM_HONEY",
+      "flag": "FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_HONEY_6"
+    }
   ]
 }

@@ -114,6 +114,29 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 22,
+      "y": 73,
+      "elevation": 0,
+      "item": "ITEM_PP_UP",
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_206_PP_UP"
+    },
+    {
+      "type": "hidden_item",
+      "x": 22,
+      "y": 48,
+      "elevation": 0,
+      "item": "ITEM_ETHER",
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_206_ETHER"
+    },
+    {
+      "type": "hidden_item",
+      "x": 4,
+      "y": 41,
+      "elevation": 0,
+      "item": "ITEM_TINY_MUSHROOM",
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_206_TINY_MUSHROOM"
+    }
   ]
 }

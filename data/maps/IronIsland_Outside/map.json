@@ -23,6 +23,13 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 16,
+      "y": 20,
+      "elevation": 0,
+      "item": "ITEM_STAR_PIECE",
+      "flag": "FLAG_HIDDEN_ITEM_IRON_ISLAND_OUTSIDE_STAR_PIECE"
+    }
   ]
 }

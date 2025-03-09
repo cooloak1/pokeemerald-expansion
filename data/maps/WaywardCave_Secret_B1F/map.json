@@ -36,6 +36,21 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 2,
+      "y": 8,
+      "elevation": 0,
+      "item": "ITEM_STARDUST",
+      "flag": "FLAG_HIDDEN_ITEM_WAYWARD_SECRET_STARDUST"
+    },
+    {
+      "type": "hidden_item",
+      "x": 3,
+      "y": 36,
+      "elevation": 0,
+      "item": "ITEM_DUSK_STONE",
+      "flag": "FLAG_HIDDEN_ITEM_WAYWARD_SECRET_DUSK_STONE"
+    }
   ]
 }

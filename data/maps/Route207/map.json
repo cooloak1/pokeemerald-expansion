@@ -52,6 +52,37 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 10,
+      "y": 8,
+      "elevation": 0,
+      "item": "ITEM_POKE_BALL",
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_207_POKE_BALL"
+    },
+    {
+      "type": "hidden_item",
+      "x": 23,
+      "y": 12,
+      "elevation": 0,
+      "item": "ITEM_RARE_CANDY",
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_207_RARE_CANDY"
+    },
+    {
+      "type": "hidden_item",
+      "x": 46,
+      "y": 6,
+      "elevation": 0,
+      "item": "ITEM_GREAT_BALL",
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_207_GREAT_BALL"
+    },
+    {
+      "type": "hidden_item",
+      "x": 47,
+      "y": 11,
+      "elevation": 0,
+      "item": "ITEM_REVIVE",
+      "flag": "FLAG_HIDDEN_ITEM_ROUTE_207_REVIVE"
+    }
   ]
 }
