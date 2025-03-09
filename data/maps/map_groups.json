@@ -81,6 +81,8 @@
     "SolaceonTown",
     "CelesticTown",
     "VeilstoneCity",
+    "LakeValor",
+    "ValorLakefront",
     "PastoriaCity",
     "SnowpointCity",
     "SunyshoreCity",
@@ -113,9 +115,7 @@
     "Route220",
     "Route221",
     "Route222",
-    "Route223",
-    "LakeValor",
-    "ValorLakefront"
+    "Route223"
   ],
   "gMapGroup_SinnohDungeons": [
     "VerityCavern",
