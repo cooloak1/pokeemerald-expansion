@@ -28,7 +28,13 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 68,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE210_HOUSE",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

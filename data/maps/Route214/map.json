@@ -28,7 +28,27 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 12,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_VEILSTONE_CITY",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 13,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_VEILSTONE_CITY",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 7,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_SOLACEON_TOWN",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 
