@@ -5190,6 +5190,16 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/ValorLakefront/border.bin",
       "blockdata_filepath": "data/layouts/ValorLakefront/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUIN_MANIAC_TUNNEL",
+      "name": "RuinManiacTunnel_Layout",
+      "width": 84,
+      "height": 13,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Sinnoh_Cave",
+      "border_filepath": "data/layouts/RuinManiacTunnel/border.bin",
+      "blockdata_filepath": "data/layouts/RuinManiacTunnel/map.bin"
     }
   ]
 }

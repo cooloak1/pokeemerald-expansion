@@ -128,7 +128,8 @@
     "WaywardCave_Main",
     "WaywardCave_Secret_1F",
     "WaywardCave_Secret_B1F",
-    "IronIsland_Outside"
+    "IronIsland_Outside",
+    "RuinManiacTunnel"
   ],
   "gMapGroup_Gates": [
     "Gate_Jubilife_Route218",

@@ -1407,3 +1407,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/LakeValor/scripts.inc"
 
 	.include "data/maps/ValorLakefront/scripts.inc"
+
+	.include "data/maps/RuinManiacTunnel/scripts.inc"
