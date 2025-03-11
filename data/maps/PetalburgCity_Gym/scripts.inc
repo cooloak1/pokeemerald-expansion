@@ -371,7 +371,7 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial::
 # 186 "data/maps/PetalburgCity_Gym/scripts.pory"
 	removeobject LOCALID_WALLY
 # 187 "data/maps/PetalburgCity_Gym/scripts.pory"
-	setflag FLAG_HOENN_3S_MOM
+	setflag FLAG_HOENN_3
 # 188 "data/maps/PetalburgCity_Gym/scripts.pory"
 	setvar VAR_PETALBURG_GYM_STATE, 1
 # 189 "data/maps/PetalburgCity_Gym/scripts.pory"
