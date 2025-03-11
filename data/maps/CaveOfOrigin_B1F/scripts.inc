@@ -117,7 +117,7 @@ CaveOfOrigin_B1F_EventScript_AtSkyPillar::
 # 59 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	removeobject LOCALID_WALLACE
 # 60 "data/maps/CaveOfOrigin_B1F/scripts.pory"
-	clearflag FLAG_HIDE_SKY_PILLAR_WALLACE
+	clearflag FLAG_HOENN_4
 # 61 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	fadescreen FADE_FROM_BLACK
 # 62 "data/maps/CaveOfOrigin_B1F/scripts.pory"

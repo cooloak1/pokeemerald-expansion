@@ -67,7 +67,7 @@ SkyPillar_Top_EventScript_TryShowRayquaza::
 # 34 "data/maps/SkyPillar_Top/scripts.pory"
 SkyPillar_Top_EventScript_ShowRayquaza::
 # 35 "data/maps/SkyPillar_Top/scripts.pory"
-	clearflag FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA_STILL
+	clearflag FLAG_HOENN_3
 # 36 "data/maps/SkyPillar_Top/scripts.pory"
 	return
 # 37 "data/maps/SkyPillar_Top/scripts.pory"

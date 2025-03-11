@@ -25,7 +25,7 @@ Underwater_SeafloorCavern_OnTransition:
 # 13 "data/maps/Underwater_SeafloorCavern/scripts.pory"
 Underwater_SeafloorCavern_EventScript_HideSubmarine::
 # 14 "data/maps/Underwater_SeafloorCavern/scripts.pory"
-	setflag FLAG_HIDE_UNDERWATER_SEA_FLOOR_CAVERN_STOLEN_SUBMARINE
+	setflag FLAG_HOENN_4
 # 15 "data/maps/Underwater_SeafloorCavern/scripts.pory"
 	end
 # 16 "data/maps/Underwater_SeafloorCavern/scripts.pory"

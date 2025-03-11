@@ -55,7 +55,7 @@ Route104_EventScript_ShowOrHideWhiteHerbFlorist::
 # 28 "data/maps/Route104/scripts.pory"
 	goto_if_unset FLAG_BADGE03_GET, Route104_EventScript_HideWhiteHerbFlorist
 # 29 "data/maps/Route104/scripts.pory"
-	clearflag FLAG_HIDE_ROUTE_104_WHITE_HERB_FLORIST
+	clearflag FLAG_HOENN_4
 # 30 "data/maps/Route104/scripts.pory"
 	return
 # 31 "data/maps/Route104/scripts.pory"
@@ -63,7 +63,7 @@ Route104_EventScript_ShowOrHideWhiteHerbFlorist::
 # 32 "data/maps/Route104/scripts.pory"
 Route104_EventScript_HideWhiteHerbFlorist::
 # 33 "data/maps/Route104/scripts.pory"
-	setflag FLAG_HIDE_ROUTE_104_WHITE_HERB_FLORIST
+	setflag FLAG_HOENN_4
 # 34 "data/maps/Route104/scripts.pory"
 	return
 # 35 "data/maps/Route104/scripts.pory"
@@ -107,7 +107,7 @@ Route104_EventScript_RivalTrigger::
 # 54 "data/maps/Route104/scripts.pory"
 	lockall
 # 55 "data/maps/Route104/scripts.pory"
-	setflag FLAG_HIDE_RUSTBORO_CITY_RIVAL
+	setflag FLAG_HOENN_3
 # 56 "data/maps/Route104/scripts.pory"
 	setvar VAR_RUSTBORO_CITY_STATE, 8
 # 57 "data/maps/Route104/scripts.pory"
@@ -121,7 +121,7 @@ Route104_EventScript_RivalTrigger::
 # 61 "data/maps/Route104/scripts.pory"
 	addobject LOCALID_RIVAL
 # 62 "data/maps/Route104/scripts.pory"
-	clearflag FLAG_HIDE_ROUTE_104_RIVAL
+	clearflag FLAG_HOENN_1
 # 63 "data/maps/Route104/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route104_Movement_PlayerBackUp
 # 64 "data/maps/Route104/scripts.pory"
@@ -797,7 +797,7 @@ Route104_EventScript_ArriveInDewford::
 # 399 "data/maps/Route104/scripts.pory"
 	setobjectsubpriority LOCALID_BRINEY_DEWFORD, MAP_DEWFORD_TOWN, 0
 # 400 "data/maps/Route104/scripts.pory"
-	clearflag FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN
+	clearflag FLAG_HOENN_1
 # 401 "data/maps/Route104/scripts.pory"
 	applymovement LOCALID_BRINEY_DEWFORD, Route104_Movement_BrineyExitBoat
 # 402 "data/maps/Route104/scripts.pory"
@@ -805,11 +805,11 @@ Route104_EventScript_ArriveInDewford::
 # 403 "data/maps/Route104/scripts.pory"
 	addobject LOCALID_BOAT_DEWFORD
 # 404 "data/maps/Route104/scripts.pory"
-	clearflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN
+	clearflag FLAG_HOENN_2
 # 405 "data/maps/Route104/scripts.pory"
 	call Common_EventScript_StopBrineysBoatMusic
 # 406 "data/maps/Route104/scripts.pory"
-	setflag FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT
+	setflag FLAG_HOENN_3
 # 407 "data/maps/Route104/scripts.pory"
 	hideobjectat LOCALID_BOAT_R104, MAP_ROUTE104
 # 408 "data/maps/Route104/scripts.pory"

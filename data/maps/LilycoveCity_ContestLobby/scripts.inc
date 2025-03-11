@@ -43,9 +43,9 @@ LilycoveCity_ContestLobby_EventScript_TryShowBlendMaster::
 # 22 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	goto_if_eq VAR_RESULT, TRUE, LilycoveCity_ContestLobby_EventScript_ShowBlendMaster
 # 23 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	clearflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER_REPLACEMENT
+	clearflag FLAG_HOENN_7
 # 24 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER
+	setflag FLAG_HOENN_8
 # 25 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	return
 # 26 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -53,9 +53,9 @@ LilycoveCity_ContestLobby_EventScript_TryShowBlendMaster::
 # 27 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 LilycoveCity_ContestLobby_EventScript_ShowBlendMaster::
 # 28 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER_REPLACEMENT
+	setflag FLAG_HOENN_7
 # 29 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	clearflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER
+	clearflag FLAG_HOENN_8
 # 30 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	return
 # 31 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -73,7 +73,7 @@ LilycoveCity_ContestLobby_OnFrame:
 # 37 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 LilycoveCity_ContestLobby_EventScript_TryDoContestArtist::
 # 38 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	goto_if_set FLAG_HIDE_LILYCOVE_MUSEUM_CURATOR, LilycoveCity_ContestLobby_EventScript_ContestArtist
+	goto_if_set FLAG_HOENN_1, LilycoveCity_ContestLobby_EventScript_ContestArtist
 # 39 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	setvar VAR_LILYCOVE_CONTEST_LOBBY_STATE, 0
 # 40 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -231,7 +231,7 @@ LilycoveCity_ContestLobby_EventScript_UpdateMuseumPatrons::
 # 116 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 LilycoveCity_ContestLobby_EventScript_ShowPatron1::
 # 117 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	clearflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1
+	clearflag FLAG_HOENN_1
 # 118 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	return
 # 119 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -239,7 +239,7 @@ LilycoveCity_ContestLobby_EventScript_ShowPatron1::
 # 120 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 LilycoveCity_ContestLobby_EventScript_ShowPatron2::
 # 121 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	clearflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_2
+	clearflag FLAG_HOENN_2
 # 122 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	return
 # 123 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -247,7 +247,7 @@ LilycoveCity_ContestLobby_EventScript_ShowPatron2::
 # 124 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 LilycoveCity_ContestLobby_EventScript_ShowPatron3::
 # 125 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	clearflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_3
+	clearflag FLAG_HOENN_3
 # 126 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	return
 # 127 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -255,7 +255,7 @@ LilycoveCity_ContestLobby_EventScript_ShowPatron3::
 # 128 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 LilycoveCity_ContestLobby_EventScript_ShowPatron4::
 # 129 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	clearflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_4
+	clearflag FLAG_HOENN_4
 # 130 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	return
 # 131 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -263,7 +263,7 @@ LilycoveCity_ContestLobby_EventScript_ShowPatron4::
 # 132 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 LilycoveCity_ContestLobby_EventScript_ShowTourists::
 # 133 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	clearflag FLAG_HIDE_LILYCOVE_MUSEUM_TOURISTS
+	clearflag FLAG_HOENN_1
 # 134 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	return
 # 135 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -413,7 +413,7 @@ LilycoveCity_ContestLobby_Movement_ArtistReturnToPlayer:
 # 207 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 LilycoveCity_ContestLobby_EventScript_TryDoLinkContestArtist::
 # 208 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	goto_if_set FLAG_HIDE_LILYCOVE_MUSEUM_CURATOR, LilycoveCity_ContestLobby_EventScript_LinkContestArtist
+	goto_if_set FLAG_HOENN_1, LilycoveCity_ContestLobby_EventScript_LinkContestArtist
 # 209 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	setvar VAR_LILYCOVE_CONTEST_LOBBY_STATE, 0
 # 210 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -713,7 +713,7 @@ LilycoveCity_ContestLobby_EventScript_SetMasterContestType::
 # 357 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 LilycoveCity_ContestLobby_EventScript_SetDebug::
 # 358 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	setflag FLAG_HIDE_LILYCOVE_MUSEUM_CURATOR
+	setflag FLAG_HOENN_1
 # 359 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	copyvar VAR_LILYCOVE_MUSEUM_2F_STATE, 1
 # 360 "data/maps/LilycoveCity_ContestLobby/scripts.pory"

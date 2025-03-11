@@ -55,9 +55,9 @@ Route119_OnTransition:
 # 28 "data/maps/Route119/scripts.pory"
 Route119_EventScript_MoveInstituteWorkersDownstairs::
 # 29 "data/maps/Route119/scripts.pory"
-	setflag FLAG_HIDE_WEATHER_INSTITUTE_2F_WORKERS
+	setflag FLAG_HOENN_7
 # 30 "data/maps/Route119/scripts.pory"
-	clearflag FLAG_HIDE_WEATHER_INSTITUTE_1F_WORKERS
+	clearflag FLAG_HOENN_1
 # 31 "data/maps/Route119/scripts.pory"
 	setvar VAR_WEATHER_INSTITUTE_STATE, 2
 # 32 "data/maps/Route119/scripts.pory"

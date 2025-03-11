@@ -2343,7 +2343,7 @@ static void LoadMultiPartnerCandidatesData(void)
     {
         gSaveBlock2Ptr->frontier.trainerIds[6] = spArray[Random() % r10];
         objEventTemplates[7].graphicsId = GetBattleFacilityTrainerGfxId(gSaveBlock2Ptr->frontier.trainerIds[6]);
-        FlagClear(FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_1);
+        FlagClear(FLAG_HOENN_1);
         GetApprenticeMultiPartnerParty(gSaveBlock2Ptr->frontier.trainerIds[6]);
     }
 
@@ -2386,7 +2386,7 @@ static void LoadMultiPartnerCandidatesData(void)
     {
         gSaveBlock2Ptr->frontier.trainerIds[7] = spArray[Random() % r10];
         objEventTemplates[8].graphicsId = GetBattleFacilityTrainerGfxId(gSaveBlock2Ptr->frontier.trainerIds[7]);
-        FlagClear(FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_2);
+        FlagClear(FLAG_HOENN_2);
         GetRecordMixFriendMultiPartnerParty(gSaveBlock2Ptr->frontier.trainerIds[7]);
     }
 }

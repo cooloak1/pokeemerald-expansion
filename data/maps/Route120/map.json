@@ -244,7 +244,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "GabbyAndTy_EventScript_TyBattle3",
-      "flag": "FLAG_HIDE_ROUTE_120_GABBY_AND_TY_1"
+      "flag": "FLAG_HOENN_1"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_REPORTER_F",
@@ -257,7 +257,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "GabbyAndTy_EventScript_GabbyBattle3",
-      "flag": "FLAG_HIDE_ROUTE_120_GABBY_AND_TY_1"
+      "flag": "FLAG_HOENN_1"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_REPORTER_F",
@@ -270,7 +270,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "GabbyAndTy_EventScript_GabbyBattle6",
-      "flag": "FLAG_HIDE_ROUTE_120_GABBY_AND_TY_2"
+      "flag": "FLAG_HOENN_2"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN",
@@ -283,7 +283,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "GabbyAndTy_EventScript_TyBattle6",
-      "flag": "FLAG_HIDE_ROUTE_120_GABBY_AND_TY_2"
+      "flag": "FLAG_HOENN_2"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
@@ -413,7 +413,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route120_EventScript_BridgeKecleon",
-      "flag": "FLAG_HIDE_ROUTE_120_KECLEON_BRIDGE"
+      "flag": "FLAG_HOENN_8"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_STEVEN",
@@ -426,7 +426,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route120_EventScript_Steven",
-      "flag": "FLAG_HIDE_ROUTE_120_STEVEN"
+      "flag": "FLAG_HOENN_3"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
@@ -491,7 +491,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_ROUTE_120_KECLEON_BRIDGE_SHADOW"
+      "flag": "FLAG_HOENN_8"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KECLEON",
@@ -504,7 +504,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route120_EventScript_Kecleon1",
-      "flag": "FLAG_HIDE_ROUTE_120_KECLEON_1"
+      "flag": "FLAG_HOENN_1"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KECLEON",
@@ -517,7 +517,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route120_EventScript_Kecleon2",
-      "flag": "FLAG_HIDE_ROUTE_120_KECLEON_2"
+      "flag": "FLAG_HOENN_2"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KECLEON",
@@ -530,7 +530,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route120_EventScript_Kecleon3",
-      "flag": "FLAG_HIDE_ROUTE_120_KECLEON_3"
+      "flag": "FLAG_HOENN_3"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KECLEON",
@@ -543,7 +543,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route120_EventScript_Kecleon5",
-      "flag": "FLAG_HIDE_ROUTE_120_KECLEON_5"
+      "flag": "FLAG_HOENN_5"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KECLEON",
@@ -556,7 +556,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route120_EventScript_Kecleon4",
-      "flag": "FLAG_HIDE_ROUTE_120_KECLEON_4"
+      "flag": "FLAG_HOENN_4"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GIRL_3",

@@ -173,7 +173,7 @@ SkyPillar_Outside_EventScript_WallaceScene::
 # 87 "data/maps/SkyPillar_Outside/scripts.pory"
 	removeobject LOCALID_WALLACE
 # 88 "data/maps/SkyPillar_Outside/scripts.pory"
-	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_WALLACE
+	clearflag FLAG_HOENN_4
 # 89 "data/maps/SkyPillar_Outside/scripts.pory"
 	fadescreenswapbuffers FADE_FROM_BLACK
 # 90 "data/maps/SkyPillar_Outside/scripts.pory"

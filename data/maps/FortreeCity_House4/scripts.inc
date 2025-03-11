@@ -35,7 +35,7 @@ FortreeCity_House4_EventScript_Boy::
 # 18 "data/maps/FortreeCity_House4/scripts.pory"
 	setflag FLAG_WINGULL_SENT_ON_ERRAND
 # 19 "data/maps/FortreeCity_House4/scripts.pory"
-	clearflag FLAG_HIDE_MOSSDEEP_CITY_HOUSE_2_WINGULL
+	clearflag FLAG_HOENN_2
 # 20 "data/maps/FortreeCity_House4/scripts.pory"
 	applymovement LOCALID_WINGULL, FortreeCity_House4_Movement_WingullExit
 # 21 "data/maps/FortreeCity_House4/scripts.pory"

@@ -115,9 +115,9 @@ MtPyre_Summit_EventScript_TeamAquaExits::
 # 58 "data/maps/MtPyre_Summit/scripts.pory"
 	removeobject LOCALID_GRUNT_4
 # 59 "data/maps/MtPyre_Summit/scripts.pory"
-	setflag FLAG_HIDE_MT_PYRE_SUMMIT_ARCHIE
+	setflag FLAG_HOENN_4
 # 60 "data/maps/MtPyre_Summit/scripts.pory"
-	setflag FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_AQUA
+	setflag FLAG_HOENN_4
 # 61 "data/maps/MtPyre_Summit/scripts.pory"
 	fadedefaultbgm
 # 62 "data/maps/MtPyre_Summit/scripts.pory"
@@ -139,7 +139,7 @@ MtPyre_Summit_EventScript_TeamAquaExits::
 # 70 "data/maps/MtPyre_Summit/scripts.pory"
 	setflag FLAG_RECEIVED_RED_OR_BLUE_ORB
 # 71 "data/maps/MtPyre_Summit/scripts.pory"
-	setflag FLAG_HIDE_JAGGED_PASS_MAGMA_GUARD
+	setflag FLAG_HOENN_5
 # 72 "data/maps/MtPyre_Summit/scripts.pory"
 	releaseall
 # 73 "data/maps/MtPyre_Summit/scripts.pory"

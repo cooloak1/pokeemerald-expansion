@@ -135,9 +135,9 @@ MagmaHideout_4F_EventScript_Maxie::
 # 68 "data/maps/MagmaHideout_4F/scripts.pory"
 	closemessage
 # 69 "data/maps/MagmaHideout_4F/scripts.pory"
-	clearflag FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN
+	clearflag FLAG_HOENN_1
 # 70 "data/maps/MagmaHideout_4F/scripts.pory"
-	clearflag FLAG_HIDE_SLATEPORT_CITY_GABBY_AND_TY
+	clearflag FLAG_HOENN_3
 # 71 "data/maps/MagmaHideout_4F/scripts.pory"
 	setvar VAR_SLATEPORT_CITY_STATE, 1
 # 72 "data/maps/MagmaHideout_4F/scripts.pory"
@@ -157,7 +157,7 @@ MagmaHideout_4F_EventScript_Maxie::
 # 79 "data/maps/MagmaHideout_4F/scripts.pory"
 	removeobject LOCALID_TABITHA
 # 80 "data/maps/MagmaHideout_4F/scripts.pory"
-	setflag FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS
+	setflag FLAG_HOENN_4
 # 81 "data/maps/MagmaHideout_4F/scripts.pory"
 	fadescreen FADE_FROM_BLACK
 # 82 "data/maps/MagmaHideout_4F/scripts.pory"

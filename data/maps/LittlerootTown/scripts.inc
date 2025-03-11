@@ -139,7 +139,7 @@ LittlerootTown_EventScript_MoveRivalFromOldale::
 # 70 "data/maps/LittlerootTown/scripts.pory"
 	setvar VAR_OLDALE_RIVAL_STATE, 2
 # 71 "data/maps/LittlerootTown/scripts.pory"
-	setflag FLAG_HIDE_OLDALE_TOWN_RIVAL
+	setflag FLAG_HOENN_4
 # 72 "data/maps/LittlerootTown/scripts.pory"
 	return
 # 73 "data/maps/LittlerootTown/scripts.pory"
@@ -187,7 +187,7 @@ LittlerootTown_EventScript_SetTwinGuardingRoutePos::
 # 94 "data/maps/LittlerootTown/scripts.pory"
 LittlerootTown_EventScript_SetMomStandingInFrontOfDoorPos::
 # 95 "data/maps/LittlerootTown/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE
+	clearflag FLAG_HOENN_8
 # 96 "data/maps/LittlerootTown/scripts.pory"
 	setobjectmovementtype LOCALID_MOM, MOVEMENT_TYPE_FACE_DOWN
 # 97 "data/maps/LittlerootTown/scripts.pory"
@@ -239,7 +239,7 @@ LittlerootTown_EventScript_StepOffTruckMale::
 # 120 "data/maps/LittlerootTown/scripts.pory"
 	call LittlerootTown_EventScript_GoInsideWithMom
 # 121 "data/maps/LittlerootTown/scripts.pory"
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK
+	setflag FLAG_HOENN_1
 # 122 "data/maps/LittlerootTown/scripts.pory"
 	warpsilent MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F, 8, 8
 # 123 "data/maps/LittlerootTown/scripts.pory"
@@ -261,7 +261,7 @@ LittlerootTown_EventScript_StepOffTruckFemale::
 # 131 "data/maps/LittlerootTown/scripts.pory"
 	call LittlerootTown_EventScript_GoInsideWithMom
 # 132 "data/maps/LittlerootTown/scripts.pory"
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK
+	setflag FLAG_HOENN_2
 # 133 "data/maps/LittlerootTown/scripts.pory"
 	warpsilent MAP_LITTLEROOT_TOWN_MAYS_HOUSE_1F, 2, 8
 # 134 "data/maps/LittlerootTown/scripts.pory"
@@ -323,7 +323,7 @@ LittlerootTown_EventScript_GoInsideWithMom::
 # 162 "data/maps/LittlerootTown/scripts.pory"
 	waitmovement 0
 # 163 "data/maps/LittlerootTown/scripts.pory"
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE
+	setflag FLAG_HOENN_8
 # 164 "data/maps/LittlerootTown/scripts.pory"
 	setvar VAR_LITTLEROOT_INTRO_STATE, 3
 # 165 "data/maps/LittlerootTown/scripts.pory"
@@ -333,7 +333,7 @@ LittlerootTown_EventScript_GoInsideWithMom::
 # 167 "data/maps/LittlerootTown/scripts.pory"
 	waitdooranim
 # 168 "data/maps/LittlerootTown/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_FAT_MAN
+	clearflag FLAG_HOENN_1
 # 169 "data/maps/LittlerootTown/scripts.pory"
 	clearflag FLAG_HIDE_MAP_NAME_POPUP
 # 170 "data/maps/LittlerootTown/scripts.pory"
@@ -435,9 +435,9 @@ LittlerootTown_EventScript_BeginDexUpgradeScene::
 # 218 "data/maps/LittlerootTown/scripts.pory"
 	closemessage
 # 219 "data/maps/LittlerootTown/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_RIVAL
+	clearflag FLAG_HOENN_7
 # 220 "data/maps/LittlerootTown/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
+	clearflag FLAG_HOENN_7
 # 221 "data/maps/LittlerootTown/scripts.pory"
 	delay 20
 # 222 "data/maps/LittlerootTown/scripts.pory"

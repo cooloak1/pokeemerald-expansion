@@ -197,15 +197,15 @@ SootopolisCity_Gym_1F_EventScript_JuanDefeated::
 # 99 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	setflag FLAG_BADGE08_GET
 # 100 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
-	setflag FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS
+	setflag FLAG_HOENN_4
 # 101 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
-	setflag FLAG_HIDE_SOOTOPOLIS_CITY_STEVEN
+	setflag FLAG_HOENN_8
 # 102 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
-	setflag FLAG_HIDE_SOOTOPOLIS_CITY_WALLACE
+	setflag FLAG_HOENN_4
 # 103 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	setvar VAR_SOOTOPOLIS_CITY_STATE, 6
 # 104 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
-	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1
+	clearflag FLAG_HOENN_1
 # 105 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	setvar VAR_0x8008, 8
 # 106 "data/maps/SootopolisCity_Gym_1F/scripts.pory"

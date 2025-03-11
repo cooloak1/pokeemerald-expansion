@@ -117,7 +117,7 @@ RustboroCity_DevonCorp_3F_EventScript_MeetPresident::
 # 59 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	setflag FLAG_RECEIVED_POKENAV
 # 60 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
-	setflag FLAG_HIDE_RUSTBORO_CITY_POKEMON_SCHOOL_SCOTT
+	setflag FLAG_HOENN_6
 # 61 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp, MSGBOX_DEFAULT
 # 62 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
@@ -127,19 +127,19 @@ RustboroCity_DevonCorp_3F_EventScript_MeetPresident::
 # 64 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	msgbox RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare, MSGBOX_DEFAULT
 # 65 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
-	setflag FLAG_HIDE_ROUTE_116_WANDAS_BOYFRIEND
+	setflag FLAG_HOENN_7
 # 66 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
-	clearflag FLAG_HIDE_RUSTURF_TUNNEL_WANDAS_BOYFRIEND
+	clearflag FLAG_HOENN_2
 # 67 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
-	clearflag FLAG_HIDE_RUSTURF_TUNNEL_WANDA
+	clearflag FLAG_HOENN_4
 # 68 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
-	clearflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+	clearflag FLAG_HOENN_2
 # 69 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
-	clearflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
+	clearflag FLAG_HOENN_4
 # 70 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	setvar VAR_BRINEY_LOCATION, 1
 # 71 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
-	clearflag FLAG_HIDE_RUSTBORO_CITY_RIVAL
+	clearflag FLAG_HOENN_3
 # 72 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"
 	setvar VAR_DEVON_CORP_3F_STATE, 1
 # 73 "data/maps/RustboroCity_DevonCorp_3F/scripts.pory"

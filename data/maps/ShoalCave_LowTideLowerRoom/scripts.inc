@@ -19,7 +19,7 @@ ShoalCave_LowTideLowerRoom_OnLoad:
 # 10 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
 ShoalCave_LowTideLowerRoom_EventScript_SetShoalItemMetatiles::
 # 11 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	goto_if_set FLAG_RECEIVED_SHOAL_SALT_4, ShoalCave_LowTideLowerRoom_EventScript_SetShoalItemMetatilesEnd
+	goto_if_set FLAG_HOENN_4, ShoalCave_LowTideLowerRoom_EventScript_SetShoalItemMetatilesEnd
 # 12 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
 	setmetatile 18, 2, METATILE_Cave_ShoalCave_DirtPile_Large, TRUE
 # 13 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
@@ -37,7 +37,7 @@ ShoalCave_LowTideLowerRoom_EventScript_ShoalSalt4::
 # 19 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
 	lockall
 # 20 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	goto_if_set FLAG_RECEIVED_SHOAL_SALT_4, ShoalCave_LowTideLowerRoom_EventScript_ReceivedShoalSalt
+	goto_if_set FLAG_HOENN_4, ShoalCave_LowTideLowerRoom_EventScript_ReceivedShoalSalt
 # 21 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
 	giveitem ITEM_SHOAL_SALT
 # 22 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
@@ -47,7 +47,7 @@ ShoalCave_LowTideLowerRoom_EventScript_ShoalSalt4::
 # 24 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
 	special DrawWholeMapView
 # 25 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
-	setflag FLAG_RECEIVED_SHOAL_SALT_4
+	setflag FLAG_HOENN_4
 # 26 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"
 	releaseall
 # 27 "data/maps/ShoalCave_LowTideLowerRoom/scripts.pory"

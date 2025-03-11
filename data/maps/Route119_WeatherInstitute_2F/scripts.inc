@@ -139,15 +139,15 @@ Route119_WeatherInstitute_2F_EventScript_ShellyDefeated::
 # 70 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
 	setvar VAR_WEATHER_INSTITUTE_STATE, 1
 # 71 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
-	clearflag FLAG_HIDE_WEATHER_INSTITUTE_2F_WORKERS
+	clearflag FLAG_HOENN_7
 # 72 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
 	fadedefaultbgm
 # 73 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
 	fadescreen FADE_TO_BLACK
 # 74 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
-	setflag FLAG_HIDE_ROUTE_119_TEAM_AQUA
+	setflag FLAG_HOENN_4
 # 75 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
-	setflag FLAG_HIDE_WEATHER_INSTITUTE_2F_AQUA_GRUNT_M
+	setflag FLAG_HOENN_4
 # 76 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
 	removeobject LOCALID_GRUNT_1
 # 77 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"

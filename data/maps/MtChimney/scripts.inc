@@ -123,7 +123,7 @@ MtChimney_EventScript_Maxie::
 # 62 "data/maps/MtChimney/scripts.pory"
 	removeobject LOCALID_MAGMA_GRUNT_2
 # 63 "data/maps/MtChimney/scripts.pory"
-	setflag FLAG_HIDE_MT_CHIMNEY_TEAM_MAGMA
+	setflag FLAG_HOENN_5
 # 64 "data/maps/MtChimney/scripts.pory"
 	fadescreen FADE_FROM_BLACK
 # 65 "data/maps/MtChimney/scripts.pory"
@@ -149,15 +149,15 @@ MtChimney_EventScript_Maxie::
 # 75 "data/maps/MtChimney/scripts.pory"
 	removeobject LOCALID_ARCHIE
 # 76 "data/maps/MtChimney/scripts.pory"
-	setflag FLAG_HIDE_MT_CHIMNEY_TEAM_AQUA
+	setflag FLAG_HOENN_4
 # 77 "data/maps/MtChimney/scripts.pory"
 	setflag FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY
 # 78 "data/maps/MtChimney/scripts.pory"
-	clearflag FLAG_HIDE_FALLARBOR_HOUSE_PROF_COZMO
+	clearflag FLAG_HOENN_1
 # 79 "data/maps/MtChimney/scripts.pory"
-	setflag FLAG_HIDE_METEOR_FALLS_1F_1R_COZMO
+	setflag FLAG_HOENN_5
 # 80 "data/maps/MtChimney/scripts.pory"
-	clearflag FLAG_HIDE_MT_CHIMNEY_LAVA_COOKIE_LADY
+	clearflag FLAG_HOENN_8
 # 81 "data/maps/MtChimney/scripts.pory"
 	releaseall
 # 82 "data/maps/MtChimney/scripts.pory"

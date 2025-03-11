@@ -23,7 +23,7 @@ LilycoveCity_DepartmentStoreRooftop_OnTransition:
 # 12 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
 LilycoveCity_DepartmentStoreRooftop_EventScript_ShowSaleWoman::
 # 13 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	clearflag FLAG_HIDE_LILYCOVE_DEPARTMENT_STORE_ROOFTOP_SALE_WOMAN
+	clearflag FLAG_HOENN_5
 # 14 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
 	return
 # 15 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
@@ -31,7 +31,7 @@ LilycoveCity_DepartmentStoreRooftop_EventScript_ShowSaleWoman::
 # 16 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
 LilycoveCity_DepartmentStoreRooftop_EventScript_HideSaleWoman::
 # 17 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
-	setflag FLAG_HIDE_LILYCOVE_DEPARTMENT_STORE_ROOFTOP_SALE_WOMAN
+	setflag FLAG_HOENN_5
 # 18 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"
 	return
 # 19 "data/maps/LilycoveCity_DepartmentStoreRooftop/scripts.pory"

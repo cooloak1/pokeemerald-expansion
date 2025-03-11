@@ -209,7 +209,7 @@ MossdeepCity_EventScript_TeamMagmaEnterSpaceCenter::
 # 105 "data/maps/MossdeepCity/scripts.pory"
 	setvar VAR_MOSSDEEP_CITY_STATE, 2
 # 106 "data/maps/MossdeepCity/scripts.pory"
-	setflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA
+	setflag FLAG_HOENN_1
 # 107 "data/maps/MossdeepCity/scripts.pory"
 	releaseall
 # 108 "data/maps/MossdeepCity/scripts.pory"

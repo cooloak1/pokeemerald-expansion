@@ -183,11 +183,11 @@ MeteorFalls_1F_1R_EventScript_MagmaStealsMeteoriteScene::
 # 92 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	removeobject LOCALID_AQUA_GRUNT_2
 # 93 "data/maps/MeteorFalls_1F_1R/scripts.pory"
-	setflag FLAG_HIDE_ROUTE_112_TEAM_MAGMA
+	setflag FLAG_HOENN_4
 # 94 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	setflag FLAG_MET_ARCHIE_METEOR_FALLS
 # 95 "data/maps/MeteorFalls_1F_1R/scripts.pory"
-	setflag FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT
+	setflag FLAG_HOENN_7
 # 96 "data/maps/MeteorFalls_1F_1R/scripts.pory"
 	setvar VAR_METEOR_FALLS_STATE, 1
 # 97 "data/maps/MeteorFalls_1F_1R/scripts.pory"

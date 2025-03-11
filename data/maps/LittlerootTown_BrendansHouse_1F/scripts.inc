@@ -331,11 +331,11 @@ LittlerootTown_BrendansHouse_1F_EventScript_MeetRival::
 # 166 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	removeobject LOCALID_RIVAL
 # 167 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_BRENDAN
+	setflag FLAG_HOENN_1
 # 168 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL
+	setflag FLAG_HOENN_2
 # 169 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM
+	clearflag FLAG_HOENN_2
 # 170 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	delay 30
 # 171 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"

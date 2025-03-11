@@ -147,9 +147,9 @@ LittlerootTown_MaysHouse_2F_EventScript_MeetMay::
 # 74 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	setvar VAR_LITTLEROOT_RIVAL_STATE, 3
 # 75 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
+	setflag FLAG_HOENN_1
 # 76 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
+	clearflag FLAG_HOENN_1
 # 77 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"
 	setvar VAR_LITTLEROOT_TOWN_STATE, 1
 # 78 "data/maps/LittlerootTown_MaysHouse_2F/scripts.pory"

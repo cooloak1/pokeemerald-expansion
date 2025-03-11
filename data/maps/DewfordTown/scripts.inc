@@ -287,13 +287,13 @@ DewfordTown_EventScript_SailToPetalburg::
 # 144 "data/maps/DewfordTown/scripts.pory"
 	showobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE104
 # 145 "data/maps/DewfordTown/scripts.pory"
-	clearflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+	clearflag FLAG_HOENN_2
 # 146 "data/maps/DewfordTown/scripts.pory"
-	clearflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
+	clearflag FLAG_HOENN_4
 # 147 "data/maps/DewfordTown/scripts.pory"
-	clearflag FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT
+	clearflag FLAG_HOENN_3
 # 148 "data/maps/DewfordTown/scripts.pory"
-	setflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN
+	setflag FLAG_HOENN_2
 # 149 "data/maps/DewfordTown/scripts.pory"
 	hideobjectat LOCALID_BOAT_DEWFORD, MAP_DEWFORD_TOWN
 # 150 "data/maps/DewfordTown/scripts.pory"
@@ -359,13 +359,13 @@ DewfordTown_EventScript_SailToSlateport::
 # 180 "data/maps/DewfordTown/scripts.pory"
 	waitmovement 0
 # 181 "data/maps/DewfordTown/scripts.pory"
-	clearflag FLAG_HIDE_ROUTE_109_MR_BRINEY
+	clearflag FLAG_HOENN_4
 # 182 "data/maps/DewfordTown/scripts.pory"
 	addobject LOCALID_BOAT_R109
 # 183 "data/maps/DewfordTown/scripts.pory"
-	clearflag FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT
+	clearflag FLAG_HOENN_4
 # 184 "data/maps/DewfordTown/scripts.pory"
-	setflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN
+	setflag FLAG_HOENN_2
 # 185 "data/maps/DewfordTown/scripts.pory"
 	hideobjectat LOCALID_BOAT_DEWFORD, MAP_DEWFORD_TOWN
 # 186 "data/maps/DewfordTown/scripts.pory"

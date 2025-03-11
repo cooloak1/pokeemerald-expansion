@@ -628,35 +628,35 @@ EventScript_ResetMrBriney::
 	end
 
 EventScript_MoveMrBrineyToHouse::
-	setflag FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN
-	setflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN
-	setflag FLAG_HIDE_ROUTE_109_MR_BRINEY
-	setflag FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT
-	clearflag FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT
-	clearflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
-	clearflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
+	setflag FLAG_HOENN_1
+	setflag FLAG_HOENN_2
+	setflag FLAG_HOENN_4
+	setflag FLAG_HOENN_4
+	clearflag FLAG_HOENN_3
+	clearflag FLAG_HOENN_2
+	clearflag FLAG_HOENN_4
 	end
 
 EventScript_MoveMrBrineyToDewford::
-	setflag FLAG_HIDE_ROUTE_109_MR_BRINEY
-	setflag FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT
-	setflag FLAG_HIDE_ROUTE_104_MR_BRINEY
-	setflag FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT
-	setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
-	setflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
-	clearflag FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN
-	clearflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN
+	setflag FLAG_HOENN_4
+	setflag FLAG_HOENN_4
+	setflag FLAG_HOENN_3
+	setflag FLAG_HOENN_3
+	setflag FLAG_HOENN_2
+	setflag FLAG_HOENN_4
+	clearflag FLAG_HOENN_1
+	clearflag FLAG_HOENN_2
 	end
 
 EventScript_MoveMrBrineyToRoute109::
-	setflag FLAG_HIDE_ROUTE_104_MR_BRINEY
-	setflag FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT
-	setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
-	setflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
-	setflag FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN
-	setflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN
-	clearflag FLAG_HIDE_ROUTE_109_MR_BRINEY
-	clearflag FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT
+	setflag FLAG_HOENN_3
+	setflag FLAG_HOENN_3
+	setflag FLAG_HOENN_2
+	setflag FLAG_HOENN_4
+	setflag FLAG_HOENN_1
+	setflag FLAG_HOENN_2
+	clearflag FLAG_HOENN_4
+	clearflag FLAG_HOENN_4
 	end
 
 EverGrandeCity_HallOfFame_EventScript_ResetEliteFour::
@@ -670,9 +670,9 @@ EverGrandeCity_HallOfFame_EventScript_ResetEliteFour::
 Common_EventScript_UpdateBrineyLocation::
 	goto_if_unset FLAG_RECEIVED_POKENAV, Common_EventScript_NopReturn
 	goto_if_set FLAG_DEFEATED_PETALBURG_GYM, Common_EventScript_NopReturn
-	goto_if_unset FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT, EventScript_SetBrineyLocation_House
-	goto_if_unset FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN, EventScript_SetBrineyLocation_Dewford
-	goto_if_unset FLAG_HIDE_ROUTE_109_MR_BRINEY, EventScript_SetBrineyLocation_Route109
+	goto_if_unset FLAG_HOENN_3, EventScript_SetBrineyLocation_House
+	goto_if_unset FLAG_HOENN_1, EventScript_SetBrineyLocation_Dewford
+	goto_if_unset FLAG_HOENN_4, EventScript_SetBrineyLocation_Route109
 	return
 
 EventScript_SetBrineyLocation_House::
@@ -708,7 +708,7 @@ Common_ShowEasyChatScreen::
 	return
 
 Common_EventScript_ReadyPetalburgGymForBattle::
-	clearflag FLAG_HIDE_PETALBURG_GYM_GREETER
+	clearflag FLAG_HOENN_1
 	setflag FLAG_PETALBURG_MART_EXPANDED_ITEMS
 	return
 
@@ -807,22 +807,22 @@ Movement_FerryDepart:
 	step_end
 
 EventScript_HideMrBriney::
-	setflag FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN
-	setflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN
-	setflag FLAG_HIDE_ROUTE_109_MR_BRINEY
-	setflag FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT
-	setflag FLAG_HIDE_ROUTE_104_MR_BRINEY
-	setflag FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT
-	setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
-	setflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
+	setflag FLAG_HOENN_1
+	setflag FLAG_HOENN_2
+	setflag FLAG_HOENN_4
+	setflag FLAG_HOENN_4
+	setflag FLAG_HOENN_3
+	setflag FLAG_HOENN_3
+	setflag FLAG_HOENN_2
+	setflag FLAG_HOENN_4
 	setvar VAR_BRINEY_LOCATION, 0
 	return
 
 RusturfTunnel_EventScript_SetRusturfTunnelOpen::
 	removeobject LOCALID_WANDAS_BF
 	removeobject LOCALID_WANDA
-	clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDAS_BOYFRIEND
-	clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDA
+	clearflag FLAG_HOENN_2
+	clearflag FLAG_HOENN_3
 	setvar VAR_RUSTURF_TUNNEL_STATE, 6
 	setflag FLAG_RUSTURF_TUNNEL_OPENED
 	return

@@ -19,7 +19,7 @@ EverGrandeCity_SidneysRoom_OnTransition:
 # 10 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"
 	setflag FLAG_MET_SCOTT_IN_EVERGRANDE
 # 11 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"
-	setflag FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT
+	setflag FLAG_HOENN_7
 # 12 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"
 	end
 # 13 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"

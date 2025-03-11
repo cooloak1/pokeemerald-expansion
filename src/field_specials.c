@@ -1435,12 +1435,12 @@ u8 TryUpdateRusturfTunnelState(void)
         && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(RUSTURF_TUNNEL)
         && gSaveBlock1Ptr->location.mapNum == MAP_NUM(RUSTURF_TUNNEL))
     {
-        if (FlagGet(FLAG_HIDE_RUSTURF_TUNNEL_ROCK_1))
+        if (FlagGet(FLAG_HOENN_1))
         {
             VarSet(VAR_RUSTURF_TUNNEL_STATE, 4);
             return TRUE;
         }
-        else if (FlagGet(FLAG_HIDE_RUSTURF_TUNNEL_ROCK_2))
+        else if (FlagGet(FLAG_HOENN_2))
         {
             VarSet(VAR_RUSTURF_TUNNEL_STATE, 5);
             return TRUE;
@@ -3931,11 +3931,11 @@ void UpdateTrainerFanClubGameClear(void)
         SetPlayerGotFirstFans();
         SetInitialFansOfPlayer();
         gSaveBlock1Ptr->vars[VAR_FANCLUB_LOSE_FAN_TIMER - VARS_START] = gSaveBlock2Ptr->playTimeHours;
-        FlagClear(FLAG_HIDE_FANCLUB_OLD_LADY);
-        FlagClear(FLAG_HIDE_FANCLUB_BOY);
-        FlagClear(FLAG_HIDE_FANCLUB_LITTLE_BOY);
-        FlagClear(FLAG_HIDE_FANCLUB_LADY);
-        FlagClear(FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER);
+        FlagClear(FLAG_HOENN_5);
+        FlagClear(FLAG_HOENN_5);
+        FlagClear(FLAG_HOENN_5);
+        FlagClear(FLAG_HOENN_5);
+        FlagClear(FLAG_HOENN_5);
         VarSet(VAR_LILYCOVE_FAN_CLUB_STATE, 1);
     }
 }

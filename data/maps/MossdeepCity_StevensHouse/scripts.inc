@@ -101,9 +101,9 @@ MossdeepCity_StevensHouse_EventScript_StevenGivesDive::
 # 51 "data/maps/MossdeepCity_StevensHouse/scripts.pory"
 	waitmovement 0
 # 52 "data/maps/MossdeepCity_StevensHouse/scripts.pory"
-	setflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT
+	setflag FLAG_HOENN_7
 # 53 "data/maps/MossdeepCity_StevensHouse/scripts.pory"
-	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ENTRANCE_AQUA_GRUNT
+	setflag FLAG_HOENN_5
 # 54 "data/maps/MossdeepCity_StevensHouse/scripts.pory"
 	setvar VAR_STEVENS_HOUSE_STATE, 2
 # 55 "data/maps/MossdeepCity_StevensHouse/scripts.pory"
@@ -255,7 +255,7 @@ MossdeepCity_StevensHouse_EventScript_ReceivedBeldumFanfare::
 # 128 "data/maps/MossdeepCity_StevensHouse/scripts.pory"
 MossdeepCity_StevensHouse_EventScript_ReceivedBeldum::
 # 129 "data/maps/MossdeepCity_StevensHouse/scripts.pory"
-	setflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_BELDUM_POKEBALL
+	setflag FLAG_HOENN_3
 # 130 "data/maps/MossdeepCity_StevensHouse/scripts.pory"
 	setflag FLAG_RECEIVED_BELDUM
 # 131 "data/maps/MossdeepCity_StevensHouse/scripts.pory"

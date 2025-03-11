@@ -43,7 +43,7 @@ AquaHideout_B1F_OnTransition:
 # 22 "data/maps/AquaHideout_B1F/scripts.pory"
 AquaHideout_B1F_EventScript_ShowElectrode1::
 # 23 "data/maps/AquaHideout_B1F/scripts.pory"
-	clearflag FLAG_HIDE_AQUA_HIDEOUT_B1F_ELECTRODE_1
+	clearflag FLAG_HOENN_1
 # 24 "data/maps/AquaHideout_B1F/scripts.pory"
 	return
 # 25 "data/maps/AquaHideout_B1F/scripts.pory"
@@ -51,7 +51,7 @@ AquaHideout_B1F_EventScript_ShowElectrode1::
 # 26 "data/maps/AquaHideout_B1F/scripts.pory"
 AquaHideout_B1F_EventScript_ShowElectrode2::
 # 27 "data/maps/AquaHideout_B1F/scripts.pory"
-	clearflag FLAG_HIDE_AQUA_HIDEOUT_B1F_ELECTRODE_2
+	clearflag FLAG_HOENN_2
 # 28 "data/maps/AquaHideout_B1F/scripts.pory"
 	return
 # 29 "data/maps/AquaHideout_B1F/scripts.pory"

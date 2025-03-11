@@ -135,7 +135,7 @@ Route116_EventScript_GiveRepeatBall::
 # 68 "data/maps/Route116/scripts.pory"
 	removeobject VAR_LAST_TALKED
 # 69 "data/maps/Route116/scripts.pory"
-	clearflag FLAG_HIDE_RUSTBORO_CITY_DEVON_CORP_3F_EMPLOYEE
+	clearflag FLAG_HOENN_5
 # 70 "data/maps/Route116/scripts.pory"
 	setflag FLAG_RECEIVED_REPEAT_BALL
 # 71 "data/maps/Route116/scripts.pory"

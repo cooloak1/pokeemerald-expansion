@@ -45,7 +45,7 @@ ShoalCave_LowTideInnerRoom_OnLoad:
 # 23 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles::
 # 24 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
-	goto_if_set FLAG_RECEIVED_SHOAL_SALT_1, ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles2
+	goto_if_set FLAG_HOENN_1, ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles2
 # 25 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	goto_if_set FLAG_SYS_SHOAL_TIDE, ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles2
 # 26 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
@@ -59,7 +59,7 @@ ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles::
 # 30 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles2::
 # 31 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
-	goto_if_set FLAG_RECEIVED_SHOAL_SALT_2, ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles3
+	goto_if_set FLAG_HOENN_2, ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles3
 # 32 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	goto_if_set FLAG_SYS_SHOAL_TIDE, ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles3
 # 33 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
@@ -73,7 +73,7 @@ ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles2::
 # 37 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles3::
 # 38 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
-	goto_if_set FLAG_RECEIVED_SHOAL_SHELL_1, ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles4
+	goto_if_set FLAG_HOENN_1, ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles4
 # 39 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	setmetatile 41, 20, METATILE_Cave_ShoalCave_BlueStone_Large, TRUE
 # 40 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
@@ -85,7 +85,7 @@ ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles3::
 # 43 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles4::
 # 44 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
-	goto_if_set FLAG_RECEIVED_SHOAL_SHELL_2, ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles5
+	goto_if_set FLAG_HOENN_2, ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles5
 # 45 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	setmetatile 41, 10, METATILE_Cave_ShoalCave_BlueStone_Large, TRUE
 # 46 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
@@ -97,7 +97,7 @@ ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles4::
 # 49 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles5::
 # 50 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
-	goto_if_set FLAG_RECEIVED_SHOAL_SHELL_3, ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles6
+	goto_if_set FLAG_HOENN_3, ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles6
 # 51 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	setmetatile 6, 9, METATILE_Cave_ShoalCave_BlueStone_Large, TRUE
 # 52 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
@@ -109,7 +109,7 @@ ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles5::
 # 55 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatiles6::
 # 56 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
-	goto_if_set FLAG_RECEIVED_SHOAL_SHELL_4, ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatilesEnd
+	goto_if_set FLAG_HOENN_4, ShoalCave_LowTideInnerRoom_EventScript_SetShoalItemMetatilesEnd
 # 57 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	setmetatile 16, 13, METATILE_Cave_ShoalCave_BlueStone_Large, TRUE
 # 58 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
@@ -127,7 +127,7 @@ ShoalCave_LowTideInnerRoom_EventScript_ShoalShell1::
 # 64 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	lockall
 # 65 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
-	goto_if_set FLAG_RECEIVED_SHOAL_SHELL_1, ShoalCave_LowTideInnerRoom_EventScript_ReceivedShoalShell
+	goto_if_set FLAG_HOENN_1, ShoalCave_LowTideInnerRoom_EventScript_ReceivedShoalShell
 # 66 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	giveitem ITEM_SHOAL_SHELL
 # 67 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
@@ -137,7 +137,7 @@ ShoalCave_LowTideInnerRoom_EventScript_ShoalShell1::
 # 69 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	special DrawWholeMapView
 # 70 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
-	setflag FLAG_RECEIVED_SHOAL_SHELL_1
+	setflag FLAG_HOENN_1
 # 71 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	releaseall
 # 72 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
@@ -159,7 +159,7 @@ ShoalCave_LowTideInnerRoom_EventScript_ShoalShell2::
 # 80 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	lockall
 # 81 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
-	goto_if_set FLAG_RECEIVED_SHOAL_SHELL_2, ShoalCave_LowTideInnerRoom_EventScript_ReceivedShoalShell
+	goto_if_set FLAG_HOENN_2, ShoalCave_LowTideInnerRoom_EventScript_ReceivedShoalShell
 # 82 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	giveitem ITEM_SHOAL_SHELL
 # 83 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
@@ -169,7 +169,7 @@ ShoalCave_LowTideInnerRoom_EventScript_ShoalShell2::
 # 85 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	special DrawWholeMapView
 # 86 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
-	setflag FLAG_RECEIVED_SHOAL_SHELL_2
+	setflag FLAG_HOENN_2
 # 87 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	releaseall
 # 88 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
@@ -181,7 +181,7 @@ ShoalCave_LowTideInnerRoom_EventScript_ShoalShell3::
 # 91 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	lockall
 # 92 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
-	goto_if_set FLAG_RECEIVED_SHOAL_SHELL_3, ShoalCave_LowTideInnerRoom_EventScript_ReceivedShoalShell
+	goto_if_set FLAG_HOENN_3, ShoalCave_LowTideInnerRoom_EventScript_ReceivedShoalShell
 # 93 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	giveitem ITEM_SHOAL_SHELL
 # 94 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
@@ -191,7 +191,7 @@ ShoalCave_LowTideInnerRoom_EventScript_ShoalShell3::
 # 96 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	special DrawWholeMapView
 # 97 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
-	setflag FLAG_RECEIVED_SHOAL_SHELL_3
+	setflag FLAG_HOENN_3
 # 98 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	releaseall
 # 99 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
@@ -203,7 +203,7 @@ ShoalCave_LowTideInnerRoom_EventScript_ShoalShell4::
 # 102 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	lockall
 # 103 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
-	goto_if_set FLAG_RECEIVED_SHOAL_SHELL_4, ShoalCave_LowTideInnerRoom_EventScript_ReceivedShoalShell
+	goto_if_set FLAG_HOENN_4, ShoalCave_LowTideInnerRoom_EventScript_ReceivedShoalShell
 # 104 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	giveitem ITEM_SHOAL_SHELL
 # 105 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
@@ -213,7 +213,7 @@ ShoalCave_LowTideInnerRoom_EventScript_ShoalShell4::
 # 107 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	special DrawWholeMapView
 # 108 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
-	setflag FLAG_RECEIVED_SHOAL_SHELL_4
+	setflag FLAG_HOENN_4
 # 109 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	releaseall
 # 110 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
@@ -225,7 +225,7 @@ ShoalCave_LowTideInnerRoom_EventScript_ShoalSalt1::
 # 113 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	lockall
 # 114 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
-	goto_if_set FLAG_RECEIVED_SHOAL_SALT_1, ShoalCave_LowTideInnerRoom_EventScript_ReceivedShoalSalt
+	goto_if_set FLAG_HOENN_1, ShoalCave_LowTideInnerRoom_EventScript_ReceivedShoalSalt
 # 115 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	giveitem ITEM_SHOAL_SALT
 # 116 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
@@ -235,7 +235,7 @@ ShoalCave_LowTideInnerRoom_EventScript_ShoalSalt1::
 # 118 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	special DrawWholeMapView
 # 119 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
-	setflag FLAG_RECEIVED_SHOAL_SALT_1
+	setflag FLAG_HOENN_1
 # 120 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	releaseall
 # 121 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
@@ -257,7 +257,7 @@ ShoalCave_LowTideInnerRoom_EventScript_ShoalSalt2::
 # 129 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	lockall
 # 130 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
-	goto_if_set FLAG_RECEIVED_SHOAL_SALT_2, ShoalCave_LowTideInnerRoom_EventScript_ReceivedShoalSalt
+	goto_if_set FLAG_HOENN_2, ShoalCave_LowTideInnerRoom_EventScript_ReceivedShoalSalt
 # 131 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	giveitem ITEM_SHOAL_SALT
 # 132 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
@@ -267,7 +267,7 @@ ShoalCave_LowTideInnerRoom_EventScript_ShoalSalt2::
 # 134 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	special DrawWholeMapView
 # 135 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
-	setflag FLAG_RECEIVED_SHOAL_SALT_2
+	setflag FLAG_HOENN_2
 # 136 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"
 	releaseall
 # 137 "data/maps/ShoalCave_LowTideInnerRoom/scripts.pory"

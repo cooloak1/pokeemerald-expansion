@@ -223,7 +223,7 @@ LilycoveCity_PokemonTrainerFanClub_EventScript_HideOrShowInterviewer::
 # 112 "data/maps/LilycoveCity_PokemonTrainerFanClub/scripts.pory"
 	goto_if_eq VAR_RESULT, TRUE, LilycoveCity_PokemonTrainerFanClub_EventScript_HideInterviewer
 # 113 "data/maps/LilycoveCity_PokemonTrainerFanClub/scripts.pory"
-	clearflag FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER
+	clearflag FLAG_HOENN_5
 # 114 "data/maps/LilycoveCity_PokemonTrainerFanClub/scripts.pory"
 	clearflag FLAG_FAN_CLUB_STRENGTH_SHARED
 # 115 "data/maps/LilycoveCity_PokemonTrainerFanClub/scripts.pory"
@@ -233,7 +233,7 @@ LilycoveCity_PokemonTrainerFanClub_EventScript_HideOrShowInterviewer::
 # 117 "data/maps/LilycoveCity_PokemonTrainerFanClub/scripts.pory"
 LilycoveCity_PokemonTrainerFanClub_EventScript_HideInterviewer::
 # 118 "data/maps/LilycoveCity_PokemonTrainerFanClub/scripts.pory"
-	setflag FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER
+	setflag FLAG_HOENN_5
 # 119 "data/maps/LilycoveCity_PokemonTrainerFanClub/scripts.pory"
 	return
 # 120 "data/maps/LilycoveCity_PokemonTrainerFanClub/scripts.pory"

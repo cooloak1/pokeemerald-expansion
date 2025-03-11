@@ -37,7 +37,7 @@ SlateportCity_Harbor_OnTransition:
 # 19 "data/maps/SlateportCity_Harbor/scripts.pory"
 SlateportCity_Harbor_EventScript_ShowSSTidal::
 # 20 "data/maps/SlateportCity_Harbor/scripts.pory"
-	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_SS_TIDAL
+	clearflag FLAG_HOENN_2
 # 21 "data/maps/SlateportCity_Harbor/scripts.pory"
 	return
 # 22 "data/maps/SlateportCity_Harbor/scripts.pory"
@@ -51,7 +51,7 @@ SlateportCity_Harbor_EventScript_ReadyAquaEscapeScene::
 # 26 "data/maps/SlateportCity_Harbor/scripts.pory"
 	setobjectmovementtype LOCALID_CAPT_STERN, MOVEMENT_TYPE_FACE_LEFT
 # 27 "data/maps/SlateportCity_Harbor/scripts.pory"
-	setflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_PATRONS
+	setflag FLAG_HOENN_1
 # 28 "data/maps/SlateportCity_Harbor/scripts.pory"
 	return
 # 29 "data/maps/SlateportCity_Harbor/scripts.pory"
@@ -143,7 +143,7 @@ SlateportCity_Harbor_EventScript_AquaEscapeScene::
 # 72 "data/maps/SlateportCity_Harbor/scripts.pory"
 	setflag FLAG_MET_TEAM_AQUA_HARBOR
 # 73 "data/maps/SlateportCity_Harbor/scripts.pory"
-	setflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
+	setflag FLAG_HOENN_7
 # 74 "data/maps/SlateportCity_Harbor/scripts.pory"
 	call_if_eq VAR_0x8008, 0, SlateportCity_Harbor_EventScript_SternApproachPlayer0
 # 75 "data/maps/SlateportCity_Harbor/scripts.pory"
@@ -157,9 +157,9 @@ SlateportCity_Harbor_EventScript_AquaEscapeScene::
 # 79 "data/maps/SlateportCity_Harbor/scripts.pory"
 	closemessage
 # 80 "data/maps/SlateportCity_Harbor/scripts.pory"
-	setflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE
+	setflag FLAG_HOENN_1
 # 81 "data/maps/SlateportCity_Harbor/scripts.pory"
-	setflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE
+	setflag FLAG_HOENN_1
 # 82 "data/maps/SlateportCity_Harbor/scripts.pory"
 	copyobjectxytoperm LOCALID_CAPT_STERN
 # 83 "data/maps/SlateportCity_Harbor/scripts.pory"

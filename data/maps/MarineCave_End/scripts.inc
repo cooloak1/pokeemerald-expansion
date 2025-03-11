@@ -45,7 +45,7 @@ MarineCave_End_OnTransition:
 # 23 "data/maps/MarineCave_End/scripts.pory"
 MarineCave_End_EventScript_ShowKyogre::
 # 24 "data/maps/MarineCave_End/scripts.pory"
-	clearflag FLAG_HIDE_MARINE_CAVE_KYOGRE
+	clearflag FLAG_HOENN_1
 # 25 "data/maps/MarineCave_End/scripts.pory"
 	setvar VAR_TEMP_1, 1
 # 26 "data/maps/MarineCave_End/scripts.pory"

@@ -45,7 +45,7 @@ MossdeepCity_House2_EventScript_Wingull::
 # 23 "data/maps/MossdeepCity_House2/scripts.pory"
 	setflag FLAG_WINGULL_DELIVERED_MAIL
 # 24 "data/maps/MossdeepCity_House2/scripts.pory"
-	clearflag FLAG_HIDE_FORTREE_CITY_HOUSE_4_WINGULL
+	clearflag FLAG_HOENN_1
 # 25 "data/maps/MossdeepCity_House2/scripts.pory"
 	call_if_eq VAR_FACING, DIR_NORTH, MossdeepCity_House2_EventScript_WingullExitNorth
 # 26 "data/maps/MossdeepCity_House2/scripts.pory"

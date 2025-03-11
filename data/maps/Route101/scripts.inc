@@ -473,11 +473,11 @@ Route101_EventScript_BirchsBag::
 # 237 "data/maps/Route101/scripts.pory"
 	special HealPlayerParty
 # 238 "data/maps/Route101/scripts.pory"
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE
+	setflag FLAG_HOENN_1
 # 239 "data/maps/Route101/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH
+	clearflag FLAG_HOENN_1
 # 240 "data/maps/Route101/scripts.pory"
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+	setflag FLAG_HOENN_1
 # 241 "data/maps/Route101/scripts.pory"
 	setvar VAR_BIRCH_LAB_STATE, 2
 # 242 "data/maps/Route101/scripts.pory"
@@ -503,7 +503,7 @@ Route101_EventScript_BirchsBag::
 # 252 "data/maps/Route101/scripts.pory"
 Route101_EventScript_HideMayInBedroom::
 # 253 "data/maps/Route101/scripts.pory"
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
+	setflag FLAG_HOENN_1
 # 254 "data/maps/Route101/scripts.pory"
 	return
 # 255 "data/maps/Route101/scripts.pory"
@@ -511,7 +511,7 @@ Route101_EventScript_HideMayInBedroom::
 # 256 "data/maps/Route101/scripts.pory"
 Route101_EventScript_HideBrendanInBedroom::
 # 257 "data/maps/Route101/scripts.pory"
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM
+	setflag FLAG_HOENN_2
 # 258 "data/maps/Route101/scripts.pory"
 	return
 # 259 "data/maps/Route101/scripts.pory"

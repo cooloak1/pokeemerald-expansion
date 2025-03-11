@@ -183,7 +183,7 @@ MauvilleCity_Gym_EventScript_WattsonDefeated::
 # 92 "data/maps/MauvilleCity_Gym/scripts.pory"
 	setvar VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE, 3
 # 93 "data/maps/MauvilleCity_Gym/scripts.pory"
-	clearflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
+	clearflag FLAG_HOENN_7
 # 94 "data/maps/MauvilleCity_Gym/scripts.pory"
 	setflag FLAG_DEFEATED_MAUVILLE_GYM
 # 95 "data/maps/MauvilleCity_Gym/scripts.pory"

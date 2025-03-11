@@ -171,13 +171,13 @@ Route111_EventScript_EndCheckSetSandstorm::
 # 86 "data/maps/Route111/scripts.pory"
 Route111_EventScript_SetWinstratesNotDefeated::
 # 87 "data/maps/Route111/scripts.pory"
-	clearflag FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE
+	clearflag FLAG_HOENN_8
 # 88 "data/maps/Route111/scripts.pory"
-	setflag FLAG_HIDE_ROUTE_111_VICTORIA_WINSTRATE
+	setflag FLAG_HOENN_8
 # 89 "data/maps/Route111/scripts.pory"
-	setflag FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE
+	setflag FLAG_HOENN_8
 # 90 "data/maps/Route111/scripts.pory"
-	setflag FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE
+	setflag FLAG_HOENN_8
 # 91 "data/maps/Route111/scripts.pory"
 	cleartrainerflag TRAINER_VICTOR
 # 92 "data/maps/Route111/scripts.pory"
@@ -267,7 +267,7 @@ Route111_EventScript_MirageTowerDisappear::
 # 134 "data/maps/Route111/scripts.pory"
 	setvar VAR_MIRAGE_TOWER_STATE, 2
 # 135 "data/maps/Route111/scripts.pory"
-	clearflag FLAG_HIDE_DESERT_UNDERPASS_FOSSIL
+	clearflag FLAG_HOENN_4
 # 136 "data/maps/Route111/scripts.pory"
 	goto_if_set FLAG_CHOSE_CLAW_FOSSIL, Route111_EventScript_RootFossilDisappeared
 # 137 "data/maps/Route111/scripts.pory"

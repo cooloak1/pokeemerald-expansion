@@ -91,7 +91,7 @@ VictoryRoad_1F_EventScript_WallyEntranceBattle::
 # 46 "data/maps/VictoryRoad_1F/scripts.pory"
 	msgbox VictoryRoad_1F_Text_WallyPostEntranceBattle, MSGBOX_DEFAULT
 # 47 "data/maps/VictoryRoad_1F/scripts.pory"
-	clearflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
+	clearflag FLAG_HOENN_2
 # 48 "data/maps/VictoryRoad_1F/scripts.pory"
 	copyobjectxytoperm LOCALID_WALLY_ENTRANCE
 # 49 "data/maps/VictoryRoad_1F/scripts.pory"

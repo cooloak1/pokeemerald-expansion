@@ -569,11 +569,11 @@ MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha::
 # 285 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	setvar VAR_MOSSDEEP_SPACE_CENTER_STATE, 3
 # 286 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
-	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA
+	setflag FLAG_HOENN_4
 # 287 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
-	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA
+	setflag FLAG_HOENN_5
 # 288 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
-	setflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA
+	setflag FLAG_HOENN_1
 # 289 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	removeobject LOCALID_GRUNT_6
 # 290 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
@@ -609,17 +609,17 @@ MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha::
 # 305 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	setflag FLAG_DEFEATED_MAGMA_SPACE_CENTER
 # 306 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
-	setflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN
+	setflag FLAG_HOENN_2
 # 307 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	removeobject LOCALID_STEVEN
 # 308 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
-	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
+	setflag FLAG_HOENN_3
 # 309 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
-	clearflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN
+	clearflag FLAG_HOENN_2
 # 310 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	setvar VAR_STEVENS_HOUSE_STATE, 1
 # 311 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
-	setflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT
+	setflag FLAG_HOENN_7
 # 312 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	removeobject LOCALID_SCIENTIST
 # 313 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"

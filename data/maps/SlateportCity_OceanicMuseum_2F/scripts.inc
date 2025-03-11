@@ -139,7 +139,7 @@ SlateportCity_OceanicMuseum_2F_EventScript_CaptStern::
 # 70 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
 	delay 30
 # 71 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
-	setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS
+	setflag FLAG_HOENN_4
 # 72 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 # 73 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
@@ -167,15 +167,15 @@ SlateportCity_OceanicMuseum_2F_EventScript_CaptStern::
 # 84 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
 	removeobject LOCALID_CAPT_STERN
 # 85 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
-	setflag FLAG_HIDE_ROUTE_110_TEAM_AQUA
+	setflag FLAG_HOENN_4
 # 86 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
 	call_if_eq VAR_REGISTER_BIRCH_STATE, 0, SlateportCity_OceanicMuseum_2F_EventScript_ReadyRegisterBirch
 # 87 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
 	setflag FLAG_DELIVERED_DEVON_GOODS
 # 88 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
-	clearflag FLAG_HIDE_ROUTE_116_DEVON_EMPLOYEE
+	clearflag FLAG_HOENN_5
 # 89 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
-	setflag FLAG_HIDE_RUSTBORO_CITY_DEVON_CORP_3F_EMPLOYEE
+	setflag FLAG_HOENN_5
 # 90 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
 	setvar VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE, 1
 # 91 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"

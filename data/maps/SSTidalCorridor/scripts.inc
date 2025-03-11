@@ -285,7 +285,7 @@ SSTidalCorridor_EventScript_ExitSlateport::
 # 143 "data/maps/SSTidalCorridor/scripts.pory"
 SSTidalCorridor_EventScript_HideSnatchGiver::
 # 144 "data/maps/SSTidalCorridor/scripts.pory"
-	setflag FLAG_HIDE_SS_TIDAL_ROOMS_SNATCH_GIVER
+	setflag FLAG_HOENN_5
 # 145 "data/maps/SSTidalCorridor/scripts.pory"
 	return
 # 146 "data/maps/SSTidalCorridor/scripts.pory"

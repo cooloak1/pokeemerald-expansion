@@ -273,7 +273,7 @@ EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF::
 # 137 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	waitmovement 0
 # 138 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
-	setflag FLAG_HIDE_PETALBURG_GYM_GREETER
+	setflag FLAG_HOENN_1
 # 139 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	warp MAP_EVER_GRANDE_CITY_HALL_OF_FAME, 7, 16
 # 140 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"

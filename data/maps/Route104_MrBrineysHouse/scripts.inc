@@ -29,7 +29,7 @@ Route104_MrBrineysHouse_OnTransition:
 # 15 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 Route104_MrBrineysHouse_EventScript_HideRustboroRival::
 # 16 "data/maps/Route104_MrBrineysHouse/scripts.pory"
-	setflag FLAG_HIDE_RUSTBORO_CITY_RIVAL
+	setflag FLAG_HOENN_3
 # 17 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	return
 # 18 "data/maps/Route104_MrBrineysHouse/scripts.pory"
@@ -155,19 +155,19 @@ Route104_MrBrineysHouse_EventScript_SailToDewford::
 # 78 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	setvar VAR_BOARD_BRINEY_BOAT_STATE, 1
 # 79 "data/maps/Route104_MrBrineysHouse/scripts.pory"
-	clearflag FLAG_HIDE_ROUTE_104_MR_BRINEY
+	clearflag FLAG_HOENN_3
 # 80 "data/maps/Route104_MrBrineysHouse/scripts.pory"
-	setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+	setflag FLAG_HOENN_2
 # 81 "data/maps/Route104_MrBrineysHouse/scripts.pory"
-	setflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
+	setflag FLAG_HOENN_4
 # 82 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	setvar VAR_RUSTBORO_CITY_STATE, 8
 # 83 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	setvar VAR_ROUTE104_STATE, 2
 # 84 "data/maps/Route104_MrBrineysHouse/scripts.pory"
-	setflag FLAG_HIDE_RUSTBORO_CITY_RIVAL
+	setflag FLAG_HOENN_3
 # 85 "data/maps/Route104_MrBrineysHouse/scripts.pory"
-	setflag FLAG_HIDE_ROUTE_104_RIVAL
+	setflag FLAG_HOENN_1
 # 86 "data/maps/Route104_MrBrineysHouse/scripts.pory"
 	warp MAP_ROUTE104, 13, 51
 # 87 "data/maps/Route104_MrBrineysHouse/scripts.pory"

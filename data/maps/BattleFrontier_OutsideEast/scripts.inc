@@ -39,7 +39,7 @@ BattleFrontier_OutsideEast_OnTransition:
 # 20 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	setvar VAR_BRAVO_TRAINER_BATTLE_TOWER_ON, 0
 # 21 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
-	setflag FLAG_HIDE_BATTLE_TOWER_REPORTER
+	setflag FLAG_HOENN_4
 # 22 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	call_if_unset FLAG_DEFEATED_SUDOWOODO, BattleFrontier_OutsideEast_EventScript_ShowSudowoodo
 # 23 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
@@ -49,7 +49,7 @@ BattleFrontier_OutsideEast_OnTransition:
 # 25 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 BattleFrontier_OutsideEast_EventScript_ShowSudowoodo::
 # 26 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
-	clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+	clearflag FLAG_HOENN_1
 # 27 "data/maps/BattleFrontier_OutsideEast/scripts.pory"
 	return
 # 28 "data/maps/BattleFrontier_OutsideEast/scripts.pory"

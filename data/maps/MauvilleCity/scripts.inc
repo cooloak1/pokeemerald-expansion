@@ -23,7 +23,7 @@ MauvilleCity_OnTransition:
 # 12 "data/maps/MauvilleCity/scripts.pory"
 	clearflag FLAG_FORCE_MIRAGE_TOWER_VISIBLE
 # 13 "data/maps/MauvilleCity/scripts.pory"
-	clearflag FLAG_HIDE_SLATEPORT_MUSEUM_POPULATION
+	clearflag FLAG_HOENN_1
 # 14 "data/maps/MauvilleCity/scripts.pory"
 	setflag FLAG_SYS_TV_START
 # 15 "data/maps/MauvilleCity/scripts.pory"
@@ -39,9 +39,9 @@ MauvilleCity_OnTransition:
 # 20 "data/maps/MauvilleCity/scripts.pory"
 MauvilleCity_EventScript_MoveWattsonBackToGym::
 # 21 "data/maps/MauvilleCity/scripts.pory"
-	clearflag FLAG_HIDE_MAUVILLE_GYM_WATTSON
+	clearflag FLAG_HOENN_2
 # 22 "data/maps/MauvilleCity/scripts.pory"
-	setflag FLAG_HIDE_MAUVILLE_CITY_WATTSON
+	setflag FLAG_HOENN_1
 # 23 "data/maps/MauvilleCity/scripts.pory"
 	setflag FLAG_WATTSON_REMATCH_AVAILABLE
 # 24 "data/maps/MauvilleCity/scripts.pory"
@@ -319,9 +319,9 @@ MauvilleCity_EventScript_DefeatedWally::
 # 160 "data/maps/MauvilleCity/scripts.pory"
 	removeobject LOCALID_WALLYS_UNCLE
 # 161 "data/maps/MauvilleCity/scripts.pory"
-	clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY
+	clearflag FLAG_HOENN_2
 # 162 "data/maps/MauvilleCity/scripts.pory"
-	clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE
+	clearflag FLAG_HOENN_2
 # 163 "data/maps/MauvilleCity/scripts.pory"
 	setflag FLAG_DEFEATED_WALLY_MAUVILLE
 # 164 "data/maps/MauvilleCity/scripts.pory"

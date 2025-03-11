@@ -39,7 +39,7 @@ SlateportCity_SternsShipyard_1F_EventScript_Dock::
 # 20 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	setflag FLAG_DOCK_REJECTED_DEVON_GOODS
 # 21 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
-	setflag FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA
+	setflag FLAG_HOENN_4
 # 22 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"
 	releaseall
 # 23 "data/maps/SlateportCity_SternsShipyard_1F/scripts.pory"

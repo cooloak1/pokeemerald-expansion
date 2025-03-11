@@ -163,21 +163,21 @@ ShoalCave_LowTideEntranceRoom_EventScript_DeclineShellBell::
 # 82 "data/maps/ShoalCave_LowTideEntranceRoom/scripts.pory"
 ShoalCave_LowTideEntranceRoom_EventScript_ResetShoalItems::
 # 83 "data/maps/ShoalCave_LowTideEntranceRoom/scripts.pory"
-	clearflag FLAG_RECEIVED_SHOAL_SALT_1
+	clearflag FLAG_HOENN_1
 # 84 "data/maps/ShoalCave_LowTideEntranceRoom/scripts.pory"
-	clearflag FLAG_RECEIVED_SHOAL_SALT_2
+	clearflag FLAG_HOENN_2
 # 85 "data/maps/ShoalCave_LowTideEntranceRoom/scripts.pory"
-	clearflag FLAG_RECEIVED_SHOAL_SALT_3
+	clearflag FLAG_HOENN_3
 # 86 "data/maps/ShoalCave_LowTideEntranceRoom/scripts.pory"
-	clearflag FLAG_RECEIVED_SHOAL_SALT_4
+	clearflag FLAG_HOENN_4
 # 87 "data/maps/ShoalCave_LowTideEntranceRoom/scripts.pory"
-	clearflag FLAG_RECEIVED_SHOAL_SHELL_1
+	clearflag FLAG_HOENN_1
 # 88 "data/maps/ShoalCave_LowTideEntranceRoom/scripts.pory"
-	clearflag FLAG_RECEIVED_SHOAL_SHELL_2
+	clearflag FLAG_HOENN_2
 # 89 "data/maps/ShoalCave_LowTideEntranceRoom/scripts.pory"
-	clearflag FLAG_RECEIVED_SHOAL_SHELL_3
+	clearflag FLAG_HOENN_3
 # 90 "data/maps/ShoalCave_LowTideEntranceRoom/scripts.pory"
-	clearflag FLAG_RECEIVED_SHOAL_SHELL_4
+	clearflag FLAG_HOENN_4
 # 91 "data/maps/ShoalCave_LowTideEntranceRoom/scripts.pory"
 	clearflag FLAG_SYS_SHOAL_ITEM
 # 92 "data/maps/ShoalCave_LowTideEntranceRoom/scripts.pory"

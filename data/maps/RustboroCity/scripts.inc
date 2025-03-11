@@ -209,7 +209,7 @@ RustboroCity_EventScript_MatchCallTutorial::
 # 105 "data/maps/RustboroCity/scripts.pory"
 	removeobject LOCALID_SCIENTIST
 # 106 "data/maps/RustboroCity/scripts.pory"
-	setflag FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
+	setflag FLAG_HOENN_5
 # 107 "data/maps/RustboroCity/scripts.pory"
 	setvar VAR_RUSTBORO_CITY_STATE, 7
 # 108 "data/maps/RustboroCity/scripts.pory"
@@ -617,7 +617,7 @@ RustboroCity_EventScript_StolenGoodsScene::
 # 309 "data/maps/RustboroCity/scripts.pory"
 	setobjectxyperm LOCALID_DEVON_EMPLOYEE, 30, 10
 # 310 "data/maps/RustboroCity/scripts.pory"
-	clearflag FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1
+	clearflag FLAG_HOENN_5
 # 311 "data/maps/RustboroCity/scripts.pory"
 	setflag FLAG_DEVON_GOODS_STOLEN
 # 312 "data/maps/RustboroCity/scripts.pory"
@@ -627,15 +627,15 @@ RustboroCity_EventScript_StolenGoodsScene::
 # 314 "data/maps/RustboroCity/scripts.pory"
 	setvar VAR_ROUTE116_STATE, 1
 # 315 "data/maps/RustboroCity/scripts.pory"
-	clearflag FLAG_HIDE_ROUTE_116_MR_BRINEY
+	clearflag FLAG_HOENN_6
 # 316 "data/maps/RustboroCity/scripts.pory"
-	clearflag FLAG_HIDE_RUSTURF_TUNNEL_PEEKO
+	clearflag FLAG_HOENN_6
 # 317 "data/maps/RustboroCity/scripts.pory"
-	clearflag FLAG_HIDE_RUSTURF_TUNNEL_AQUA_GRUNT
+	clearflag FLAG_HOENN_6
 # 318 "data/maps/RustboroCity/scripts.pory"
-	setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+	setflag FLAG_HOENN_2
 # 319 "data/maps/RustboroCity/scripts.pory"
-	setflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
+	setflag FLAG_HOENN_4
 # 320 "data/maps/RustboroCity/scripts.pory"
 	releaseall
 # 321 "data/maps/RustboroCity/scripts.pory"
@@ -1215,7 +1215,7 @@ RustboroCity_EventScript_ReturnGoods::
 # 608 "data/maps/RustboroCity/scripts.pory"
 	setflag FLAG_RETURNED_DEVON_GOODS
 # 609 "data/maps/RustboroCity/scripts.pory"
-	setflag FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1
+	setflag FLAG_HOENN_5
 # 610 "data/maps/RustboroCity/scripts.pory"
 	setvar VAR_RUSTBORO_CITY_STATE, 5
 # 611 "data/maps/RustboroCity/scripts.pory"

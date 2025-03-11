@@ -2773,15 +2773,15 @@ SootopolisCity_EventScript_ArchieRayquaza::
 # 1387 "data/maps/SootopolisCity/scripts.pory"
 SootopolisCity_EventScript_MaxieArchieLeave::
 # 1388 "data/maps/SootopolisCity/scripts.pory"
-	setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
+	setflag FLAG_HOENN_8
 # 1389 "data/maps/SootopolisCity/scripts.pory"
-	setflag FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE
+	setflag FLAG_HOENN_8
 # 1390 "data/maps/SootopolisCity/scripts.pory"
 	setflag FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE
 # 1391 "data/maps/SootopolisCity/scripts.pory"
-	clearflag FLAG_HIDE_MT_PYRE_SUMMIT_MAXIE
+	clearflag FLAG_HOENN_4
 # 1392 "data/maps/SootopolisCity/scripts.pory"
-	clearflag FLAG_HIDE_MT_PYRE_SUMMIT_ARCHIE
+	clearflag FLAG_HOENN_4
 # 1393 "data/maps/SootopolisCity/scripts.pory"
 	setvar VAR_MT_PYRE_STATE, 2
 # 1394 "data/maps/SootopolisCity/scripts.pory"

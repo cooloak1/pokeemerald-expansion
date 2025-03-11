@@ -179,7 +179,7 @@ PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial::
 # 90 "data/maps/PetalburgCity_Gym/scripts.pory"
 	removeobject LOCALID_WALLY
 # 91 "data/maps/PetalburgCity_Gym/scripts.pory"
-	setflag FLAG_HIDE_PETALBURG_CITY_WALLY
+	setflag FLAG_HOENN_3
 # 92 "data/maps/PetalburgCity_Gym/scripts.pory"
 	delay 30
 # 93 "data/maps/PetalburgCity_Gym/scripts.pory"
@@ -371,17 +371,17 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial::
 # 186 "data/maps/PetalburgCity_Gym/scripts.pory"
 	removeobject LOCALID_WALLY
 # 187 "data/maps/PetalburgCity_Gym/scripts.pory"
-	setflag FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM
+	setflag FLAG_HOENN_3S_MOM
 # 188 "data/maps/PetalburgCity_Gym/scripts.pory"
 	setvar VAR_PETALBURG_GYM_STATE, 1
 # 189 "data/maps/PetalburgCity_Gym/scripts.pory"
 	setvar VAR_PETALBURG_CITY_STATE, 2
 # 190 "data/maps/PetalburgCity_Gym/scripts.pory"
-	clearflag FLAG_HIDE_PETALBURG_CITY_WALLY
+	clearflag FLAG_HOENN_3
 # 191 "data/maps/PetalburgCity_Gym/scripts.pory"
-	clearflag FLAG_HIDE_PETALBURG_GYM_WALLY
+	clearflag FLAG_HOENN_1
 # 192 "data/maps/PetalburgCity_Gym/scripts.pory"
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL
+	setflag FLAG_HOENN_3
 # 193 "data/maps/PetalburgCity_Gym/scripts.pory"
 	special InitBirchState
 # 194 "data/maps/PetalburgCity_Gym/scripts.pory"
@@ -771,15 +771,15 @@ PetalburgCity_Gym_EventScript_NormanBattle::
 # 386 "data/maps/PetalburgCity_Gym/scripts.pory"
 	call EventScript_HideMrBriney
 # 387 "data/maps/PetalburgCity_Gym/scripts.pory"
-	setflag FLAG_HIDE_MAUVILLE_GYM_WATTSON
+	setflag FLAG_HOENN_2
 # 388 "data/maps/PetalburgCity_Gym/scripts.pory"
-	clearflag FLAG_HIDE_MAUVILLE_CITY_WATTSON
+	clearflag FLAG_HOENN_1
 # 389 "data/maps/PetalburgCity_Gym/scripts.pory"
 	setvar VAR_0x8008, 5
 # 390 "data/maps/PetalburgCity_Gym/scripts.pory"
 	call Common_EventScript_SetGymTrainers
 # 391 "data/maps/PetalburgCity_Gym/scripts.pory"
-	clearflag FLAG_HIDE_DEWFORD_HALL_SLUDGE_BOMB_MAN
+	clearflag FLAG_HOENN_5
 # 392 "data/maps/PetalburgCity_Gym/scripts.pory"
 	call PetalburgCity_Gym_EventScript_UnlockAllDoors
 # 393 "data/maps/PetalburgCity_Gym/scripts.pory"
@@ -905,7 +905,7 @@ PetalburgCity_Gym_EventScript_WallysDadArrives::
 # 453 "data/maps/PetalburgCity_Gym/scripts.pory"
 	setvar VAR_PETALBURG_CITY_STATE, 4
 # 454 "data/maps/PetalburgCity_Gym/scripts.pory"
-	clearflag FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD
+	clearflag FLAG_HOENN_3
 # 455 "data/maps/PetalburgCity_Gym/scripts.pory"
 	warp MAP_PETALBURG_CITY, 15, 8
 # 456 "data/maps/PetalburgCity_Gym/scripts.pory"

@@ -31,7 +31,7 @@ BattleFrontier_OutsideWest_OnTransition:
 # 16 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	setvar VAR_BRAVO_TRAINER_BATTLE_TOWER_ON, 0
 # 17 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
-	setflag FLAG_HIDE_BATTLE_TOWER_REPORTER
+	setflag FLAG_HOENN_4
 # 18 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	end
 # 19 "data/maps/BattleFrontier_OutsideWest/scripts.pory"

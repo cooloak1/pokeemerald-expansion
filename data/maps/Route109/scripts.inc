@@ -99,7 +99,7 @@ Route109_EventScript_DoSailToDewford::
 # 50 "data/maps/Route109/scripts.pory"
 	addobject LOCALID_BOAT_DEWFORD
 # 51 "data/maps/Route109/scripts.pory"
-	clearflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN
+	clearflag FLAG_HOENN_2
 # 52 "data/maps/Route109/scripts.pory"
 	setobjectxyperm LOCALID_BRINEY_DEWFORD, 12, 8
 # 53 "data/maps/Route109/scripts.pory"
@@ -111,9 +111,9 @@ Route109_EventScript_DoSailToDewford::
 # 56 "data/maps/Route109/scripts.pory"
 	waitmovement 0
 # 57 "data/maps/Route109/scripts.pory"
-	clearflag FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN
+	clearflag FLAG_HOENN_1
 # 58 "data/maps/Route109/scripts.pory"
-	setflag FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT
+	setflag FLAG_HOENN_4
 # 59 "data/maps/Route109/scripts.pory"
 	hideobjectat LOCALID_BOAT_R109, MAP_ROUTE109
 # 60 "data/maps/Route109/scripts.pory"

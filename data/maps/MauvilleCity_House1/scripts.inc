@@ -21,7 +21,7 @@ MauvilleCity_House1_EventScript_RockSmashDude::
 # 11 "data/maps/MauvilleCity_House1/scripts.pory"
 	setflag FLAG_RECEIVED_HM_ROCK_SMASH
 # 12 "data/maps/MauvilleCity_House1/scripts.pory"
-	setflag FLAG_HIDE_ROUTE_111_ROCK_SMASH_TIP_GUY
+	setflag FLAG_HOENN_1
 # 13 "data/maps/MauvilleCity_House1/scripts.pory"
 	msgbox MauvilleCity_House1_Text_ExplainRockSmash, MSGBOX_DEFAULT
 # 14 "data/maps/MauvilleCity_House1/scripts.pory"

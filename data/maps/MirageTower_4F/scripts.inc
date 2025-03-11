@@ -29,9 +29,9 @@ MirageTower_4F_EventScript_RootFossil::
 # 15 "data/maps/MirageTower_4F/scripts.pory"
 	closemessage
 # 16 "data/maps/MirageTower_4F/scripts.pory"
-	setflag FLAG_HIDE_MIRAGE_TOWER_ROOT_FOSSIL
+	setflag FLAG_HOENN_1
 # 17 "data/maps/MirageTower_4F/scripts.pory"
-	setflag FLAG_HIDE_MIRAGE_TOWER_CLAW_FOSSIL
+	setflag FLAG_HOENN_2
 # 18 "data/maps/MirageTower_4F/scripts.pory"
 	removeobject LOCALID_ROOT_FOSSIL
 # 19 "data/maps/MirageTower_4F/scripts.pory"
@@ -71,9 +71,9 @@ MirageTower_4F_EventScript_ClawFossil::
 # 36 "data/maps/MirageTower_4F/scripts.pory"
 	closemessage
 # 37 "data/maps/MirageTower_4F/scripts.pory"
-	setflag FLAG_HIDE_MIRAGE_TOWER_CLAW_FOSSIL
+	setflag FLAG_HOENN_2
 # 38 "data/maps/MirageTower_4F/scripts.pory"
-	setflag FLAG_HIDE_MIRAGE_TOWER_ROOT_FOSSIL
+	setflag FLAG_HOENN_1
 # 39 "data/maps/MirageTower_4F/scripts.pory"
 	removeobject LOCALID_CLAW_FOSSIL
 # 40 "data/maps/MirageTower_4F/scripts.pory"

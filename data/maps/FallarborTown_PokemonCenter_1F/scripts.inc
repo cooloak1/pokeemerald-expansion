@@ -109,7 +109,7 @@ FallarborTown_PokemonCenter_1F_EventScript_LanetteExited::
 # 55 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
 	removeobject LOCALID_LANETTE
 # 56 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
-	clearflag FLAG_HIDE_LANETTES_HOUSE_LANETTE
+	clearflag FLAG_HOENN_8
 # 57 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"
 	release
 # 58 "data/maps/FallarborTown_PokemonCenter_1F/scripts.pory"

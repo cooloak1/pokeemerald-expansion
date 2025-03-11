@@ -45,7 +45,7 @@ TerraCave_End_OnTransition:
 # 23 "data/maps/TerraCave_End/scripts.pory"
 TerraCave_End_EventScript_ShowGroudon::
 # 24 "data/maps/TerraCave_End/scripts.pory"
-	clearflag FLAG_HIDE_TERRA_CAVE_GROUDON
+	clearflag FLAG_HOENN_2
 # 25 "data/maps/TerraCave_End/scripts.pory"
 	setvar VAR_TEMP_1, 1
 # 26 "data/maps/TerraCave_End/scripts.pory"

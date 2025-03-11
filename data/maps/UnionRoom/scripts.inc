@@ -17,21 +17,21 @@ UnionRoom_MapScripts::
 # 9 "data/maps/UnionRoom/scripts.pory"
 UnionRoom_OnResume:
 # 10 "data/maps/UnionRoom/scripts.pory"
-	setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
+	setflag FLAG_HOENN_1
 # 11 "data/maps/UnionRoom/scripts.pory"
-	setflag FLAG_HIDE_UNION_ROOM_PLAYER_2
+	setflag FLAG_HOENN_2
 # 12 "data/maps/UnionRoom/scripts.pory"
-	setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+	setflag FLAG_HOENN_3
 # 13 "data/maps/UnionRoom/scripts.pory"
-	setflag FLAG_HIDE_UNION_ROOM_PLAYER_4
+	setflag FLAG_HOENN_4
 # 14 "data/maps/UnionRoom/scripts.pory"
-	setflag FLAG_HIDE_UNION_ROOM_PLAYER_5
+	setflag FLAG_HOENN_5
 # 15 "data/maps/UnionRoom/scripts.pory"
-	setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
+	setflag FLAG_HOENN_6
 # 16 "data/maps/UnionRoom/scripts.pory"
-	setflag FLAG_HIDE_UNION_ROOM_PLAYER_7
+	setflag FLAG_HOENN_7
 # 17 "data/maps/UnionRoom/scripts.pory"
-	setflag FLAG_HIDE_UNION_ROOM_PLAYER_8
+	setflag FLAG_HOENN_8
 # 18 "data/maps/UnionRoom/scripts.pory"
 	removeobject LOCALID_UNION_ROOM_PLAYER_1
 # 19 "data/maps/UnionRoom/scripts.pory"

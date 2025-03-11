@@ -149,9 +149,9 @@ LittlerootTown_BrendansHouse_2F_EventScript_MeetBrendan::
 # 75 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	setvar VAR_LITTLEROOT_RIVAL_STATE, 3
 # 76 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL
+	setflag FLAG_HOENN_2
 # 77 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM
+	clearflag FLAG_HOENN_2
 # 78 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	setvar VAR_LITTLEROOT_TOWN_STATE, 1
 # 79 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"

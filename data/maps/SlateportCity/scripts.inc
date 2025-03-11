@@ -77,7 +77,7 @@ SlateportCity_EventScript_EnterSlateport::
 # 39 "data/maps/SlateportCity/scripts.pory"
 	setvar VAR_CONTEST_HALL_STATE, 0
 # 40 "data/maps/SlateportCity/scripts.pory"
-	setflag FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER
+	setflag FLAG_HOENN_2
 # 41 "data/maps/SlateportCity/scripts.pory"
 	return
 # 42 "data/maps/SlateportCity/scripts.pory"
@@ -1229,13 +1229,13 @@ SlateportCity_EventScript_CaptStern::
 # 615 "data/maps/SlateportCity/scripts.pory"
 	removeobject LOCALID_CAPT_STERN
 # 616 "data/maps/SlateportCity/scripts.pory"
-	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN
+	clearflag FLAG_HOENN_1
 # 617 "data/maps/SlateportCity/scripts.pory"
-	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW
+	clearflag FLAG_HOENN_5
 # 618 "data/maps/SlateportCity/scripts.pory"
-	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT
+	clearflag FLAG_HOENN_5
 # 619 "data/maps/SlateportCity/scripts.pory"
-	clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_ARCHIE
+	clearflag FLAG_HOENN_5
 # 620 "data/maps/SlateportCity/scripts.pory"
 	setvar VAR_SLATEPORT_CITY_STATE, 2
 # 621 "data/maps/SlateportCity/scripts.pory"

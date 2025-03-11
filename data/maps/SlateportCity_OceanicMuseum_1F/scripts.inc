@@ -371,7 +371,7 @@ SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGruntExitWestEast::
 # 186 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGruntExited::
 # 187 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
-	setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_FAMILIAR_AQUA_GRUNT
+	setflag FLAG_HOENN_2
 # 188 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"
 	playse SE_EXIT
 # 189 "data/maps/SlateportCity_OceanicMuseum_1F/scripts.pory"

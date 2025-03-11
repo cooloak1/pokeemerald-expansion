@@ -55,7 +55,7 @@ NewMauville_Inside_OnTransition:
 # 28 "data/maps/NewMauville_Inside/scripts.pory"
 NewMauville_Inside_EventScript_ShowVoltorb1::
 # 29 "data/maps/NewMauville_Inside/scripts.pory"
-	clearflag FLAG_HIDE_NEW_MAUVILLE_VOLTORB_1
+	clearflag FLAG_HOENN_1
 # 30 "data/maps/NewMauville_Inside/scripts.pory"
 	return
 # 31 "data/maps/NewMauville_Inside/scripts.pory"
@@ -63,7 +63,7 @@ NewMauville_Inside_EventScript_ShowVoltorb1::
 # 32 "data/maps/NewMauville_Inside/scripts.pory"
 NewMauville_Inside_EventScript_ShowVoltorb2::
 # 33 "data/maps/NewMauville_Inside/scripts.pory"
-	clearflag FLAG_HIDE_NEW_MAUVILLE_VOLTORB_2
+	clearflag FLAG_HOENN_2
 # 34 "data/maps/NewMauville_Inside/scripts.pory"
 	return
 # 35 "data/maps/NewMauville_Inside/scripts.pory"
@@ -71,7 +71,7 @@ NewMauville_Inside_EventScript_ShowVoltorb2::
 # 36 "data/maps/NewMauville_Inside/scripts.pory"
 NewMauville_Inside_EventScript_ShowVoltorb3::
 # 37 "data/maps/NewMauville_Inside/scripts.pory"
-	clearflag FLAG_HIDE_NEW_MAUVILLE_VOLTORB_3
+	clearflag FLAG_HOENN_3
 # 38 "data/maps/NewMauville_Inside/scripts.pory"
 	return
 # 39 "data/maps/NewMauville_Inside/scripts.pory"

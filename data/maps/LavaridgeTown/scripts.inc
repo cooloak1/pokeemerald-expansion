@@ -63,7 +63,7 @@ LavaridgeTown_EventScript_SetRivalPos::
 # 32 "data/maps/LavaridgeTown/scripts.pory"
 	setobjectmovementtype LOCALID_RIVAL_ON_BIKE, MOVEMENT_TYPE_FACE_UP
 # 33 "data/maps/LavaridgeTown/scripts.pory"
-	clearflag FLAG_HIDE_LAVARIDGE_TOWN_RIVAL
+	clearflag FLAG_HOENN_3
 # 34 "data/maps/LavaridgeTown/scripts.pory"
 	return
 # 35 "data/maps/LavaridgeTown/scripts.pory"
@@ -71,7 +71,7 @@ LavaridgeTown_EventScript_SetRivalPos::
 # 36 "data/maps/LavaridgeTown/scripts.pory"
 LavaridgeTown_EventScript_ShowMtChimneyTrainers::
 # 37 "data/maps/LavaridgeTown/scripts.pory"
-	clearflag FLAG_HIDE_MT_CHIMNEY_TRAINERS
+	clearflag FLAG_HOENN_6
 # 38 "data/maps/LavaridgeTown/scripts.pory"
 	return
 # 39 "data/maps/LavaridgeTown/scripts.pory"

@@ -279,7 +279,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_AgreeToSeeRival::
 # 140 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou, MSGBOX_DEFAULT
 # 141 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
-	clearflag FLAG_HIDE_ROUTE_101_BOY
+	clearflag FLAG_HOENN_4
 # 142 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	setvar VAR_BIRCH_LAB_STATE, 3
 # 143 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
@@ -413,9 +413,9 @@ LittlerootTown_ProfessorBirchsLab_EventScript_UpgradeToNationalDex::
 # 207 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	closemessage
 # 208 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
+	setflag FLAG_HOENN_7
 # 209 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_RIVAL
+	setflag FLAG_HOENN_7
 # 210 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 2
 # 211 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
@@ -981,7 +981,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_GrassyPatchWaiting::
 # 491 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 LittlerootTown_ProfessorBirchsLab_EventScript_TryRatePokedexOrRegister::
 # 492 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
-	goto_if_unset FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_UNKNOWN_0x380, ProfBirch_EventScript_RatePokedexOrRegister
+	goto_if_unset FLAG_HOENN_3, ProfBirch_EventScript_RatePokedexOrRegister
 # 493 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	goto_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 3, ProfBirch_EventScript_RatePokedexOrRegister
 # 494 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"

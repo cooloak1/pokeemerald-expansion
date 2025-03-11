@@ -41,7 +41,7 @@ LilycoveCity_PokemonCenter_1F_EventScript_SetLilycoveLadyGfx::
 # 21 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
 LilycoveCity_PokemonCenter_1F_EventScript_HideContestLadyMon::
 # 22 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
-	setflag FLAG_HIDE_LILYCOVE_POKEMON_CENTER_CONTEST_LADY_MON
+	setflag FLAG_HOENN_4
 # 23 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
 	end
 # 24 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
@@ -49,7 +49,7 @@ LilycoveCity_PokemonCenter_1F_EventScript_HideContestLadyMon::
 # 25 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
 LilycoveCity_PokemonCenter_1F_EventScript_ShowContestLadyMon::
 # 26 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
-	clearflag FLAG_HIDE_LILYCOVE_POKEMON_CENTER_CONTEST_LADY_MON
+	clearflag FLAG_HOENN_4
 # 27 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"
 	end
 # 28 "data/maps/LilycoveCity_PokemonCenter_1F/scripts.pory"

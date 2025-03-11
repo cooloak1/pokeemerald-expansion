@@ -689,7 +689,7 @@ RusturfTunnel_EventScript_Grunt::
 # 345 "data/maps/RusturfTunnel/scripts.pory"
 	setvar VAR_BRINEY_HOUSE_STATE, 1
 # 346 "data/maps/RusturfTunnel/scripts.pory"
-	setflag FLAG_HIDE_ROUTE_116_MR_BRINEY
+	setflag FLAG_HOENN_6
 # 347 "data/maps/RusturfTunnel/scripts.pory"
 	release
 # 348 "data/maps/RusturfTunnel/scripts.pory"

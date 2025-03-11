@@ -23,7 +23,7 @@ LilycoveCity_OnTransition:
 # 12 "data/maps/LilycoveCity/scripts.pory"
 	setvar VAR_CONTEST_HALL_STATE, 0
 # 13 "data/maps/LilycoveCity/scripts.pory"
-	setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER
+	setflag FLAG_HOENN_2
 # 14 "data/maps/LilycoveCity/scripts.pory"
 	call_if_set FLAG_SYS_WEATHER_CTRL, Common_EventScript_SetAbnormalWeather
 # 15 "data/maps/LilycoveCity/scripts.pory"
@@ -663,9 +663,9 @@ LilycoveCity_EventScript_DefeatedMay::
 # 332 "data/maps/LilycoveCity/scripts.pory"
 	call_if_eq VAR_RESULT, TRUE, LilycoveCity_EventScript_MayPokemonLeague
 # 333 "data/maps/LilycoveCity/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
+	clearflag FLAG_HOENN_1
 # 334 "data/maps/LilycoveCity/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL
+	clearflag FLAG_HOENN_2
 # 335 "data/maps/LilycoveCity/scripts.pory"
 	goto LilycoveCity_EventScript_RivalFlyAway
 # 336 "data/maps/LilycoveCity/scripts.pory"
@@ -727,9 +727,9 @@ LilycoveCity_EventScript_DefeatedBrendan::
 # 364 "data/maps/LilycoveCity/scripts.pory"
 	call_if_eq VAR_RESULT, TRUE, LilycoveCity_EventScript_BrendanPokemonLeague
 # 365 "data/maps/LilycoveCity/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM
+	clearflag FLAG_HOENN_2
 # 366 "data/maps/LilycoveCity/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_SWABLU_DOLL
+	clearflag FLAG_HOENN_1
 # 367 "data/maps/LilycoveCity/scripts.pory"
 	goto LilycoveCity_EventScript_RivalFlyAway
 # 368 "data/maps/LilycoveCity/scripts.pory"

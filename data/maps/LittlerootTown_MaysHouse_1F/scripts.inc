@@ -397,11 +397,11 @@ LittlerootTown_MaysHouse_1F_EventScript_MeetRival::
 # 199 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	removeobject LOCALID_RIVAL
 # 200 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MAY
+	setflag FLAG_HOENN_2
 # 201 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
+	setflag FLAG_HOENN_1
 # 202 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
+	clearflag FLAG_HOENN_1
 # 203 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	delay 30
 # 204 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"

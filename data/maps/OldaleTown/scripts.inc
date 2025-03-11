@@ -567,7 +567,7 @@ OldaleTown_EventScript_RivalFinish::
 # 284 "data/maps/OldaleTown/scripts.pory"
 	setvar VAR_OLDALE_RIVAL_STATE, 2
 # 285 "data/maps/OldaleTown/scripts.pory"
-	setflag FLAG_HIDE_OLDALE_TOWN_RIVAL
+	setflag FLAG_HOENN_4
 # 286 "data/maps/OldaleTown/scripts.pory"
 	releaseall
 # 287 "data/maps/OldaleTown/scripts.pory"

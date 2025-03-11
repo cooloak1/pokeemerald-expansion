@@ -105,7 +105,7 @@ AquaHideout_B2F_EventScript_SubmarineEscape::
 # 53 "data/maps/AquaHideout_B2F/scripts.pory"
 	setflag FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE
 # 54 "data/maps/AquaHideout_B2F/scripts.pory"
-	setflag FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS
+	setflag FLAG_HOENN_5
 # 55 "data/maps/AquaHideout_B2F/scripts.pory"
 	release
 # 56 "data/maps/AquaHideout_B2F/scripts.pory"
