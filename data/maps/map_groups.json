@@ -131,7 +131,9 @@
     "IronIsland_Outside",
     "RuinManiacTunnel",
     "MountCoronet_South_1F",
-    "MountCoronet_South_2F"
+    "MountCoronet_South_2F",
+    "MountCoronet_South_2F_2R",
+    "MountCoronet_3F"
   ],
   "gMapGroup_Gates": [
     "Gate_Jubilife_Route218",

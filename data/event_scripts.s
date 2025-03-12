@@ -1413,3 +1413,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/MountCoronet_South_1F/scripts.inc"
 
 	.include "data/maps/MountCoronet_South_2F/scripts.inc"
+
+	.include "data/maps/MountCoronet_South_2F_2R/scripts.inc"
+
+	.include "data/maps/MountCoronet_3F/scripts.inc"

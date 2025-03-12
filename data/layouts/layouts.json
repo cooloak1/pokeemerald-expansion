@@ -5220,6 +5220,26 @@
       "secondary_tileset": "gTileset_MountCoronetCave",
       "border_filepath": "data/layouts/MountCoronet_South_2F/border.bin",
       "blockdata_filepath": "data/layouts/MountCoronet_South_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNT_CORONET_SOUTH_2F_2R",
+      "name": "MountCoronet_South_2F_2R_Layout",
+      "width": 28,
+      "height": 12,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_MountCoronetCave",
+      "border_filepath": "data/layouts/MountCoronet_South_2F_2R/border.bin",
+      "blockdata_filepath": "data/layouts/MountCoronet_South_2F_2R/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNT_CORONET_3F",
+      "name": "MountCoronet_3F_Layout",
+      "width": 20,
+      "height": 24,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_MountCoronetCave",
+      "border_filepath": "data/layouts/MountCoronet_3F/border.bin",
+      "blockdata_filepath": "data/layouts/MountCoronet_3F/map.bin"
     }
   ]
 }
