@@ -39,8 +39,8 @@
       "x": 12,
       "y": 17,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE207",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_MOUNT_CORONET_SOUTH_1F",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [

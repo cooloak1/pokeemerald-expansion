@@ -237,3 +237,6 @@ const u16 gMetatileAttributes_SinnohBuilding[] = INCBIN_U16("data/tilesets/prima
 
 const u16 gMetatiles_GenericHouse[] = INCBIN_U16("data/tilesets/secondary/generic_house/metatiles.bin");
 const u16 gMetatileAttributes_GenericHouse[] = INCBIN_U16("data/tilesets/secondary/generic_house/metatile_attributes.bin");
+
+const u16 gMetatiles_MountCoronetCave[] = INCBIN_U16("data/tilesets/secondary/mount_coronet_cave/metatiles.bin");
+const u16 gMetatileAttributes_MountCoronetCave[] = INCBIN_U16("data/tilesets/secondary/mount_coronet_cave/metatile_attributes.bin");

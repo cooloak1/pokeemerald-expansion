@@ -129,7 +129,9 @@
     "WaywardCave_Secret_1F",
     "WaywardCave_Secret_B1F",
     "IronIsland_Outside",
-    "RuinManiacTunnel"
+    "RuinManiacTunnel",
+    "MountCoronet_South_1F",
+    "MountCoronet_South_2F"
   ],
   "gMapGroup_Gates": [
     "Gate_Jubilife_Route218",

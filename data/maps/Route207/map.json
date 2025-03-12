@@ -37,15 +37,15 @@
       "x": 50,
       "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE208",
-      "dest_warp_id": "1"
+      "dest_map": "MAP_MOUNT_CORONET_SOUTH_1F",
+      "dest_warp_id": "0"
     },
     {
-      "x": 58,
+      "x": 57,
       "y": 9,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE207",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_MOUNT_CORONET_SOUTH_2F",
+      "dest_warp_id": "2"
     }
   ],
   "coord_events": [

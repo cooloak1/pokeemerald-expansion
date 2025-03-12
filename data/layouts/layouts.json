@@ -5200,6 +5200,26 @@
       "secondary_tileset": "gTileset_Sinnoh_Cave",
       "border_filepath": "data/layouts/RuinManiacTunnel/border.bin",
       "blockdata_filepath": "data/layouts/RuinManiacTunnel/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNT_CORONET_SOUTH_1F",
+      "name": "MountCoronet_South_1F_Layout",
+      "width": 28,
+      "height": 24,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_MountCoronetCave",
+      "border_filepath": "data/layouts/MountCoronet_South_1F/border.bin",
+      "blockdata_filepath": "data/layouts/MountCoronet_South_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNT_CORONET_SOUTH_2F",
+      "name": "MountCoronet_South_2F_Layout",
+      "width": 28,
+      "height": 36,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_MountCoronetCave",
+      "border_filepath": "data/layouts/MountCoronet_South_2F/border.bin",
+      "blockdata_filepath": "data/layouts/MountCoronet_South_2F/map.bin"
     }
   ]
 }

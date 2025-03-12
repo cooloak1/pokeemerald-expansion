@@ -1409,3 +1409,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/ValorLakefront/scripts.inc"
 
 	.include "data/maps/RuinManiacTunnel/scripts.inc"
+
+	.include "data/maps/MountCoronet_South_1F/scripts.inc"
+
+	.include "data/maps/MountCoronet_South_2F/scripts.inc"

@@ -935,3 +935,14 @@ const struct Tileset gTileset_GenericHouse =
     .metatileAttributes = gMetatileAttributes_GenericHouse,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_MountCoronetCave =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_MountCoronetCave,
+    .palettes = gTilesetPalettes_MountCoronetCave,
+    .metatiles = gMetatiles_MountCoronetCave,
+    .metatileAttributes = gMetatileAttributes_MountCoronetCave,
+    .callback = NULL,
+};
