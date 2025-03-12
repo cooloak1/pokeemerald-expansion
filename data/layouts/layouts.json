@@ -4924,7 +4924,7 @@
     {
       "id": "LAYOUT_ROUTE212_SOUTH",
       "name": "Route212_South_Layout",
-      "width": 112,
+      "width": 111,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
