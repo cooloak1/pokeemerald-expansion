@@ -4687,7 +4687,7 @@
       "width": 28,
       "height": 84,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Fortree",
+      "secondary_tileset": "gTileset_Floaroma",
       "border_filepath": "data/layouts/Route205_South/border.bin",
       "blockdata_filepath": "data/layouts/Route205_South/map.bin"
     },
