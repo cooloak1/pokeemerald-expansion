@@ -376,6 +376,14 @@ u16 GetCurrentMapWildMonHeaderId(void)
 
                 i += alteringCaveId;
             }
+            else if (gMapHeader.hasTimeBasedEncounters)
+            {
+                u8 currentTimeOfDay = (getTimeOfDay());
+                if (currentTimeOfDay == 3)
+                currentTimeOfDay = 2; // Makes Evening the same as Night
+
+                i += currentTimeOfDay;
+            }
 
             return i;
         }
