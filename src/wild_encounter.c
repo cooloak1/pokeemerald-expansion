@@ -23,6 +23,7 @@
 #include "constants/items.h"
 #include "constants/layouts.h"
 #include "constants/weather.h"
+#include "rtc.h"
 
 extern const u8 EventScript_SprayWoreOff[];
 
@@ -378,7 +379,7 @@ u16 GetCurrentMapWildMonHeaderId(void)
             }
             else if (gMapHeader.hasTimeBasedEncounters)
             {
-                u8 currentTimeOfDay = (getTimeOfDay());
+                u8 currentTimeOfDay = GetTimeOfDay();
                 if (currentTimeOfDay == 3)
                 currentTimeOfDay = 2; // Makes Evening the same as Night
 
