@@ -11,7 +11,6 @@
   "allow_escaping": false,
   "allow_running": true,
   "show_map_name": true,
-  "has_time_based_encounters": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
@@ -97,5 +96,6 @@
       "item": "ITEM_NONE",
       "flag": "FLAG_HIDDEN_ITEM_ETERNA_CITY_MOON_STONE"
     }
-  ]
+  ],
+  "has_time_based_encounters": false
 }

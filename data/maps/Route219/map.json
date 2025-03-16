@@ -11,7 +11,6 @@
   "allow_escaping": false,
   "allow_running": true,
   "show_map_name": true,
-  "has_time_based_encounters": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
@@ -55,5 +54,6 @@
       "item": "ITEM_ZINC",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_219_ZINC"
     }
-  ]
+  ],
+  "has_time_based_encounters": false
 }
