@@ -133,7 +133,12 @@
     "MountCoronet_South_1F",
     "MountCoronet_South_2F",
     "MountCoronet_South_2F_2R",
-    "MountCoronet_3F"
+    "MountCoronet_3F",
+    "MountCoronet_North_1F_1R",
+    "MountCoronet_North_1F_2R",
+    "MountCoronet_North_B1F",
+    "MountCoronet_North_2F",
+    "MountCoronet_IcebergRuins"
   ],
   "gMapGroup_Gates": [
     "Gate_Jubilife_Route218",

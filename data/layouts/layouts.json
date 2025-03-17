@@ -5240,6 +5240,56 @@
       "secondary_tileset": "gTileset_MountCoronetCave",
       "border_filepath": "data/layouts/MountCoronet_3F/border.bin",
       "blockdata_filepath": "data/layouts/MountCoronet_3F/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNT_CORONET_NORTH_1F_1R",
+      "name": "MountCoronet_North_1F_1R_Layout",
+      "width": 28,
+      "height": 48,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_MountCoronetCave",
+      "border_filepath": "data/layouts/MountCoronet_North_1F_1R/border.bin",
+      "blockdata_filepath": "data/layouts/MountCoronet_North_1F_1R/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNT_CORONET_NORTH_1F_2R",
+      "name": "MountCoronet_North_1F_2R_Layout",
+      "width": 20,
+      "height": 15,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_MountCoronetCave",
+      "border_filepath": "data/layouts/MountCoronet_North_1F_2R/border.bin",
+      "blockdata_filepath": "data/layouts/MountCoronet_North_1F_2R/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNT_CORONET_NORTH_B1F",
+      "name": "MountCoronet_North_B1F_Layout",
+      "width": 28,
+      "height": 53,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_MountCoronetCave",
+      "border_filepath": "data/layouts/MountCoronet_North_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/MountCoronet_North_B1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNT_CORONET_NORTH_2F",
+      "name": "MountCoronet_North_2F_Layout",
+      "width": 32,
+      "height": 44,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_MountCoronetCave",
+      "border_filepath": "data/layouts/MountCoronet_North_2F/border.bin",
+      "blockdata_filepath": "data/layouts/MountCoronet_North_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNT_CORONET_ICEBERG_RUINS",
+      "name": "MountCoronet_IcebergRuins_Layout",
+      "width": 21,
+      "height": 17,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_MountCoronetCave",
+      "border_filepath": "data/layouts/MountCoronet_IcebergRuins/border.bin",
+      "blockdata_filepath": "data/layouts/MountCoronet_IcebergRuins/map.bin"
     }
   ]
 }
