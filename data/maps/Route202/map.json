@@ -123,5 +123,5 @@
       "script": "Route202_EventScript_TrainerTipsSign"
     }
   ],
-  "has_time_based_encounters": false
+  "has_time_based_encounters": true
 }

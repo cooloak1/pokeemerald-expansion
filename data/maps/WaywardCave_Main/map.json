@@ -11,7 +11,6 @@
   "allow_escaping": true,
   "allow_running": true,
   "show_map_name": true,
-  "has_time_based_encounters": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
   "object_events": [
@@ -220,5 +219,6 @@
       "item": "ITEM_GREAT_BALL",
       "flag": "FLAG_HIDDEN_ITEM_WAYWARD_CAVE_GREAT_BALL"
     }
-  ]
+  ],
+  "has_time_based_encounters": false
 }

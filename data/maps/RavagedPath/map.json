@@ -11,7 +11,6 @@
   "allow_escaping": true,
   "allow_running": true,
   "show_map_name": true,
-  "has_time_based_encounters": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
   "object_events": [
@@ -362,5 +361,6 @@
   ],
   "bg_events": [
 
-  ]
+  ],
+  "has_time_based_encounters": false
 }
