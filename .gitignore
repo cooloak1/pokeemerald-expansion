@@ -49,3 +49,4 @@ poryscript
 Stitch_From*.png
 __pycache__
 data\maps\*.\scripts.inc
+*.xcf
