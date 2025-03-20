@@ -1427,3 +1427,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/MountCoronet_North_2F/scripts.inc"
 
 	.include "data/maps/MountCoronet_IcebergRuins/scripts.inc"
+
+	.include "data/maps/SendoffSpring/scripts.inc"

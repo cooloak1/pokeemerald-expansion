@@ -5235,7 +5235,7 @@
       "id": "LAYOUT_MOUNT_CORONET_3F",
       "name": "MountCoronet_3F_Layout",
       "width": 20,
-      "height": 24,
+      "height": 15,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_MountCoronetCave",
       "border_filepath": "data/layouts/MountCoronet_3F/border.bin",
@@ -5290,6 +5290,16 @@
       "secondary_tileset": "gTileset_MountCoronetCave",
       "border_filepath": "data/layouts/MountCoronet_IcebergRuins/border.bin",
       "blockdata_filepath": "data/layouts/MountCoronet_IcebergRuins/map.bin"
+    },
+    {
+      "id": "LAYOUT_SENDOFF_SPRING",
+      "name": "SendoffSpring_Layout",
+      "width": 46,
+      "height": 42,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/SendoffSpring/border.bin",
+      "blockdata_filepath": "data/layouts/SendoffSpring/map.bin"
     }
   ]
 }
