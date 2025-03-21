@@ -4906,7 +4906,7 @@
       "name": "SunyshoreCity_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/SunyshoreCity/border.bin",
       "blockdata_filepath": "data/layouts/SunyshoreCity/map.bin"
@@ -4934,9 +4934,9 @@
     {
       "id": "LAYOUT_ROUTE222",
       "name": "Route222_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
+      "width": 84,
+      "height": 28,
+      "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route222/border.bin",
       "blockdata_filepath": "data/layouts/Route222/map.bin"
@@ -4976,7 +4976,7 @@
       "name": "Route223_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route223/border.bin",
       "blockdata_filepath": "data/layouts/Route223/map.bin"
@@ -5184,7 +5184,7 @@
     {
       "id": "LAYOUT_VALOR_LAKEFRONT",
       "name": "ValorLakefront_Layout",
-      "width": 46,
+      "width": 47,
       "height": 36,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",

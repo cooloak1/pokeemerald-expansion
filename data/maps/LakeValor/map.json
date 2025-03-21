@@ -15,13 +15,18 @@
   "connections": [
     {
       "map": "MAP_VALOR_LAKEFRONT",
-      "offset": 2,
+      "offset": 1,
       "direction": "down"
     },
     {
       "map": "MAP_ROUTE214",
       "offset": 22,
       "direction": "up"
+    },
+    {
+      "map": "MAP_ROUTE222",
+      "offset": 48,
+      "direction": "down"
     }
   ],
   "object_events": [
