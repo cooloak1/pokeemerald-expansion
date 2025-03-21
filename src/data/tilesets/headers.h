@@ -946,3 +946,58 @@ const struct Tileset gTileset_MountCoronetCave =
     .metatileAttributes = gMetatileAttributes_MountCoronetCave,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Celestic =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Celestic,
+    .palettes = gTilesetPalettes_Celestic,
+    .metatiles = gMetatiles_Celestic,
+    .metatileAttributes = gMetatileAttributes_Celestic,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Solaceon =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Solaceon,
+    .palettes = gTilesetPalettes_Solaceon,
+    .metatiles = gMetatiles_Solaceon,
+    .metatileAttributes = gMetatileAttributes_Solaceon,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Hearthome =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Hearthome,
+    .palettes = gTilesetPalettes_Hearthome,
+    .metatiles = gMetatiles_Hearthome,
+    .metatileAttributes = gMetatileAttributes_Hearthome,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Pastoria =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Pastoria,
+    .palettes = gTilesetPalettes_Pastoria,
+    .metatiles = gMetatiles_Pastoria,
+    .metatileAttributes = gMetatileAttributes_Pastoria,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Veilstone =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Veilstone,
+    .palettes = gTilesetPalettes_Veilstone,
+    .metatiles = gMetatiles_Veilstone,
+    .metatileAttributes = gMetatileAttributes_Veilstone,
+    .callback = NULL,
+};

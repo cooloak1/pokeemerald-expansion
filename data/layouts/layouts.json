@@ -4757,7 +4757,7 @@
       "width": 36,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Celestic",
       "border_filepath": "data/layouts/Route211_East/border.bin",
       "blockdata_filepath": "data/layouts/Route211_East/map.bin"
     },
@@ -4787,7 +4787,7 @@
       "width": 66,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Hearthome",
       "border_filepath": "data/layouts/Route208/border.bin",
       "blockdata_filepath": "data/layouts/Route208/map.bin"
     },
@@ -4797,7 +4797,7 @@
       "width": 56,
       "height": 56,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Hearthome",
       "border_filepath": "data/layouts/HearthomeCity/border.bin",
       "blockdata_filepath": "data/layouts/HearthomeCity/map.bin"
     },
@@ -4807,7 +4807,7 @@
       "width": 56,
       "height": 56,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Solaceon",
       "border_filepath": "data/layouts/Route209/border.bin",
       "blockdata_filepath": "data/layouts/Route209/map.bin"
     },
@@ -4817,7 +4817,7 @@
       "width": 60,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Solaceon",
       "border_filepath": "data/layouts/SolaceonTown/border.bin",
       "blockdata_filepath": "data/layouts/SolaceonTown/map.bin"
     },
@@ -4827,7 +4827,7 @@
       "width": 28,
       "height": 70,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Solaceon",
       "border_filepath": "data/layouts/Route210_South/border.bin",
       "blockdata_filepath": "data/layouts/Route210_South/map.bin"
     },
@@ -4837,7 +4837,7 @@
       "width": 84,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Celestic",
       "border_filepath": "data/layouts/Route210_North/border.bin",
       "blockdata_filepath": "data/layouts/Route210_North/map.bin"
     },
@@ -4847,7 +4847,7 @@
       "width": 28,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Celestic",
       "border_filepath": "data/layouts/CelesticTown/border.bin",
       "blockdata_filepath": "data/layouts/CelesticTown/map.bin"
     },
@@ -4857,7 +4857,7 @@
       "width": 56,
       "height": 56,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Veilstone",
       "border_filepath": "data/layouts/VeilstoneCity/border.bin",
       "blockdata_filepath": "data/layouts/VeilstoneCity/map.bin"
     },
@@ -4867,7 +4867,7 @@
       "width": 84,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Veilstone",
       "border_filepath": "data/layouts/Route215/border.bin",
       "blockdata_filepath": "data/layouts/Route215/map.bin"
     },
@@ -4877,7 +4877,7 @@
       "width": 28,
       "height": 75,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Veilstone",
       "border_filepath": "data/layouts/Route214/border.bin",
       "blockdata_filepath": "data/layouts/Route214/map.bin"
     },
@@ -4887,7 +4887,7 @@
       "width": 90,
       "height": 38,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Pastoria",
       "border_filepath": "data/layouts/Route213/border.bin",
       "blockdata_filepath": "data/layouts/Route213/map.bin"
     },
@@ -4897,7 +4897,7 @@
       "width": 56,
       "height": 56,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Pastoria",
       "border_filepath": "data/layouts/PastoriaCity/border.bin",
       "blockdata_filepath": "data/layouts/PastoriaCity/map.bin"
     },
@@ -4917,7 +4917,7 @@
       "width": 28,
       "height": 84,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Hearthome",
       "border_filepath": "data/layouts/Route212_North/border.bin",
       "blockdata_filepath": "data/layouts/Route212_North/map.bin"
     },
@@ -4927,14 +4927,14 @@
       "width": 111,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Pastoria",
       "border_filepath": "data/layouts/Route212_South/border.bin",
       "blockdata_filepath": "data/layouts/Route212_South/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE222",
       "name": "Route222_Layout",
-      "width": 84,
+      "width": 80,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Petalburg",
@@ -5177,17 +5177,17 @@
       "width": 56,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Pastoria",
       "border_filepath": "data/layouts/LakeValor/border.bin",
       "blockdata_filepath": "data/layouts/LakeValor/map.bin"
     },
     {
       "id": "LAYOUT_VALOR_LAKEFRONT",
       "name": "ValorLakefront_Layout",
-      "width": 47,
+      "width": 51,
       "height": 36,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Pastoria",
       "border_filepath": "data/layouts/ValorLakefront/border.bin",
       "blockdata_filepath": "data/layouts/ValorLakefront/map.bin"
     },

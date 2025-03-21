@@ -240,3 +240,18 @@ const u16 gMetatileAttributes_GenericHouse[] = INCBIN_U16("data/tilesets/seconda
 
 const u16 gMetatiles_MountCoronetCave[] = INCBIN_U16("data/tilesets/secondary/mount_coronet_cave/metatiles.bin");
 const u16 gMetatileAttributes_MountCoronetCave[] = INCBIN_U16("data/tilesets/secondary/mount_coronet_cave/metatile_attributes.bin");
+
+const u16 gMetatiles_Celestic[] = INCBIN_U16("data/tilesets/secondary/celestic/metatiles.bin");
+const u16 gMetatileAttributes_Celestic[] = INCBIN_U16("data/tilesets/secondary/celestic/metatile_attributes.bin");
+
+const u16 gMetatiles_Solaceon[] = INCBIN_U16("data/tilesets/secondary/solaceon/metatiles.bin");
+const u16 gMetatileAttributes_Solaceon[] = INCBIN_U16("data/tilesets/secondary/solaceon/metatile_attributes.bin");
+
+const u16 gMetatiles_Hearthome[] = INCBIN_U16("data/tilesets/secondary/hearthome/metatiles.bin");
+const u16 gMetatileAttributes_Hearthome[] = INCBIN_U16("data/tilesets/secondary/hearthome/metatile_attributes.bin");
+
+const u16 gMetatiles_Pastoria[] = INCBIN_U16("data/tilesets/secondary/pastoria/metatiles.bin");
+const u16 gMetatileAttributes_Pastoria[] = INCBIN_U16("data/tilesets/secondary/pastoria/metatile_attributes.bin");
+
+const u16 gMetatiles_Veilstone[] = INCBIN_U16("data/tilesets/secondary/veilstone/metatiles.bin");
+const u16 gMetatileAttributes_Veilstone[] = INCBIN_U16("data/tilesets/secondary/veilstone/metatile_attributes.bin");
