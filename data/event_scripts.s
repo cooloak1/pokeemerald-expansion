@@ -1429,3 +1429,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/MountCoronet_IcebergRuins/scripts.inc"
 
 	.include "data/maps/SendoffSpring/scripts.inc"
+
+	.include "data/maps/JubilifeCity_Condo1_1F/scripts.inc"
+
+	.include "data/maps/JubilifeCity_Condo1_2F/scripts.inc"

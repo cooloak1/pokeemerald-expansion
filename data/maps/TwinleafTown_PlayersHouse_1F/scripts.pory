@@ -19,3 +19,39 @@ text text4 {
 text text5 {
 	format("Mom: What is it, dear?\nIsn't Barry waiting for you?")
 }
+
+text text6 {
+	format("Mom: Welcome home, {PLAYER}.\nAre you and your Pokemon healthy?\nTake a quick rest, dear.")
+}
+
+text text7 {
+	format("Mom: {PLATER}.\pListen. Always treat your Pokemon with kindness.\pYour Pokemon work hard, not for themselves, but for you!")
+}
+
+text text8 {
+	format("This is where Mom does all her delicious cooking.")
+}
+
+text text9 {
+	format("Mom's favorite dessert is in the refrigerator")
+}
+
+text text10 {
+	format("Mom's kitchen is spotless!\nYou can see your face on the floor!")
+}
+
+text text11 {
+	format("")
+}
+
+text text12 {
+	format("")
+}
+
+text text13 {
+	format("")
+}
+
+text text14 {
+	format("")
+}

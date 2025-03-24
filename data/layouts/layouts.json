@@ -4565,8 +4565,8 @@
       "id": "LAYOUT_SANDGEM_TOWN_PROFESSOR_ROWANS_LAB",
       "name": "SandgemTown_ProfessorRowansLab_Layout",
       "width": 20,
-      "height": 14,
-      "primary_tileset": "gTileset_Building",
+      "height": 15,
+      "primary_tileset": "gTileset_SinnohBuilding",
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/SandgemTown_ProfessorRowansLab/border.bin",
       "blockdata_filepath": "data/layouts/SandgemTown_ProfessorRowansLab/map.bin"
@@ -5300,6 +5300,26 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/SendoffSpring/border.bin",
       "blockdata_filepath": "data/layouts/SendoffSpring/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_CONDO1_1F",
+      "name": "JubilifeCity_Condo1_1F_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_GenericHouse",
+      "border_filepath": "data/layouts/JubilifeCity_Condo1_1F/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_Condo1_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_JUBILIFE_CITY_CONDO1_2F",
+      "name": "JubilifeCity_Condo1_2F_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_GenericHouse",
+      "border_filepath": "data/layouts/JubilifeCity_Condo1_2F/border.bin",
+      "blockdata_filepath": "data/layouts/JubilifeCity_Condo1_2F/map.bin"
     }
   ]
 }
