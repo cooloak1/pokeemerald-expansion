@@ -255,3 +255,6 @@ const u16 gMetatileAttributes_Pastoria[] = INCBIN_U16("data/tilesets/secondary/p
 
 const u16 gMetatiles_Veilstone[] = INCBIN_U16("data/tilesets/secondary/veilstone/metatiles.bin");
 const u16 gMetatileAttributes_Veilstone[] = INCBIN_U16("data/tilesets/secondary/veilstone/metatile_attributes.bin");
+
+const u16 gMetatiles_Gate[] = INCBIN_U16("data/tilesets/secondary/gate/metatiles.bin");
+const u16 gMetatileAttributes_Gate[] = INCBIN_U16("data/tilesets/secondary/gate/metatile_attributes.bin");

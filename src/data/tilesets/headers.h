@@ -1001,3 +1001,14 @@ const struct Tileset gTileset_Veilstone =
     .metatileAttributes = gMetatileAttributes_Veilstone,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Gate =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Gate,
+    .palettes = gTilesetPalettes_Gate,
+    .metatiles = gMetatiles_Gate,
+    .metatileAttributes = gMetatileAttributes_Gate,
+    .callback = NULL,
+};
