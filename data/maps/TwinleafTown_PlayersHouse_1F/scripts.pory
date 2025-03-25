@@ -25,7 +25,7 @@ text text6 {
 }
 
 text text7 {
-	format("Mom: {PLATER}.\pListen. Always treat your Pokemon with kindness.\pYour Pokemon work hard, not for themselves, but for you!")
+	format("Mom: {PLAYER}.\pListen. Always treat your Pokemon with kindness.\pYour Pokemon work hard, not for themselves, but for you!")
 }
 
 text text8 {

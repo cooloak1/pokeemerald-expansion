@@ -8,18 +8,42 @@ script TwinleafTown_EventScript_TownSign {
 	msgbox(TwinleafTown_Text_TownSign, MSGBOX_SIGN)
 }
 
-text text1a {
+text TwinleafTown_Text_Technology {
 	format("Technology just blows me away!\pI mean, now you can play with people around the world...wirelessly!")
 }
 
-text text2a {
+text TwinleafTown_Text_Woman_WildPokemon {
 	format("It's true that wild Pokemon do attack people sometimes...\pBut, Pokemon also open their hearts to you, so you can become friends.")
 }
 
-text text3a {
+text TwinleafTown_Text_Woman_OhAPokemon {
+	format("Oh! A Pokemon!\nYou look good together!")
+}
+
+text TwinleafTown_Text_Woman_Pokedex {
+	format("Oh, you're helping put together a Pokedex?\pThat means you're going to travel all over the place with Pokemon!\pThat sounds like a lot of fun!\nI'm a little envious, to be honest!")
+}
+
+text TwinleafTown_Text_Man_BarryLookingForYou {
 	format("Hiya, {PLAYER}.\nBarry was looking for you.\pI think he's home now.\nWhy don't you go check it out?")
+}
+
+text TwinleafTown_Text_Man_BarryRanOff1 {
+	format("Hiya, {PLAYER}.\nYou're looking for Barry?\nHe just went tearing off a little while ago.\nHe's probably not gone too far.\nWhy don't you go chase after him?")
+}
+
+text TwinleafTown_Text_Man_BarryRanOff2 {
+	format("Barry? He went tearing off in a huge rush a while ago.\p...Ouch. He ran right into me earlier. It's still hurting.\p That kid's growing up tough.")
 }
 
 text TwinleafTown_Text_TownSign {
 	format("Twinleaf Town\nFresh and Free!")
+}
+
+text TwinleafTown_Text_PlayersMailbox {
+	format("{PLAYER}'s House")
+}
+
+text TwinleafTown_Text_BarrysMailbox {
+	format("Barry's House")
 }

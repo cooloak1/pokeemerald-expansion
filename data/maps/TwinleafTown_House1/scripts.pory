@@ -5,7 +5,12 @@ TwinleafTown_House1_MapScripts::
 script TwinleafTown_House1_Man_Text {
 	lock
 	faceplayer
-	msgbox(TwinleafTown_House1_Text_Man_Adventure, MSGBOX_NPC)
+	if(flag(FLAG_MET_CYRUS_LAKE_VERITY)) {
+		msgbox(TwinleafTown_House1_Text_Man_Adventure, MSGBOX_NPC)
+	}
+	else {
+		msgbox(TwinleafTown_House1_Text_Man_Intro, MSGBOX_NPC)
+	}
 }
 
 text TwinleafTown_House1_Text_Man_Intro {
