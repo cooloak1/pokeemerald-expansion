@@ -5,18 +5,18 @@ TwinleafTown_House1_MapScripts::
 # 3 "data/maps/TwinleafTown_House1/scripts.pory"
 	.byte 0
 
-TwinleafTown_House1_Man_Text::
+TwinleafTown_House1_EventScript_Man::
 # 6 "data/maps/TwinleafTown_House1/scripts.pory"
 	lock
 # 7 "data/maps/TwinleafTown_House1/scripts.pory"
 	faceplayer
 # 8 "data/maps/TwinleafTown_House1/scripts.pory"
-	goto_if_set FLAG_MET_CYRUS_LAKE_VERITY, TwinleafTown_House1_Man_Text_1
+	goto_if_set FLAG_MET_CYRUS_LAKE_VERITY, TwinleafTown_House1_EventScript_Man_1
 # 12 "data/maps/TwinleafTown_House1/scripts.pory"
 	msgbox TwinleafTown_House1_Text_Man_Intro, MSGBOX_NPC
 	return
 
-TwinleafTown_House1_Man_Text_1:
+TwinleafTown_House1_EventScript_Man_1:
 # 9 "data/maps/TwinleafTown_House1/scripts.pory"
 	msgbox TwinleafTown_House1_Text_Man_Adventure, MSGBOX_NPC
 	return

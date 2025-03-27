@@ -1,13 +1,33 @@
 mapscripts TwinleafTown_House2_MapScripts {}
 
-script TwinleafTown_House2_EventScript_OldWoman {
-	msgbox(TwinleafTown_House2_Text_OldWoman_Intro, MSGBOX_NPC)
+script TwinleafTown_House2_EventScript_Woman {
+	if(flag(FLAG_SYS_POKEDEX_GET)) {
+		msgbox(TwinleafTown_House2_Text_Woman_Pokedex, MSGBOX_NPC)
+	}
+	else {
+		msgbox(TwinleafTown_House2_Text_Woman_ProfRowan, MSGBOX_NPC)
+	}
 }
 
-text TwinleafTown_House2_Text_OldWoman_Intro {
+script TwinleafTown_House2_EventScript_Girl {
+	if(flag(FLAG_SYS_POKEMON_GET)) {
+		msgbox(TwinleafTown_House2_Text_Girl_FriendsWithPokemon, MSGBOX_NPC)
+	}
+	else {
+		msgbox(TwinleafTown_House2_Text_Girl_WantCutePokemon, MSGBOX_NPC)
+	}
+}
+text TwinleafTown_House2_Text_Woman_ProfRowan {
 	format("Did you hear?\pThe Pokemon Professor returned to the next town over.\pThey say he was gone for four long years.\pI wonder if he found some amazing Pokemon while he was gone?")
 }
 
-text TwinleafTown_House2_Text_Girl {
-	format("Listen, listen, {PLAYER}.\nI want a cute Pokemon!")
+text TwinleafTown_House2_Text_Woman_Pokedex {
+	format("Well! Professor Rowan gave you a Pokedex, did he?")
+}
+text TwinleafTown_House2_Text_Girl_WantCutePokemon {
+	format("Listen, listen, {PLAYER}.\pI want a cute Pokemon!")
+}
+
+text TwinleafTown_House2_Text_Girl_FriendsWithPokemon {
+	format("Listen, listen, {PLAYER}.\pDo you think I can be friends with Pokemon like you are?")
 }

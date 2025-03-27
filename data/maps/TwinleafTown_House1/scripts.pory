@@ -2,7 +2,7 @@ raw `
 TwinleafTown_House1_MapScripts::
 	.byte 0
 `
-script TwinleafTown_House1_Man_Text {
+script TwinleafTown_House1_EventScript_Man {
 	lock
 	faceplayer
 	if(flag(FLAG_MET_CYRUS_LAKE_VERITY)) {

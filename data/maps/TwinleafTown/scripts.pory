@@ -8,7 +8,214 @@ script TwinleafTown_EventScript_TownSign {
 	msgbox(TwinleafTown_Text_TownSign, MSGBOX_SIGN)
 }
 
-text TwinleafTown_Text_Technology {
+script TwinleafTown_EventScript_PlayersMailbox {
+	msgbox(TwinleafTown_Text_PlayersMailbox, MSGBOX_SIGN)
+}
+
+script TwinleafTown_EventScript_BarrysMailbox {
+	msgbox(TwinleafTown_Text_BarrysMailbox, MSGBOX_SIGN)
+}
+
+script TwinleafTown_EventScript_TechnologyGuy {
+	msgbox(TwinleafTown_Text_TechnologyGuy, MSGBOX_NPC)
+}
+
+script TwinleafTown_EventScript_Woman {
+	if(flag(FLAG_SYS_POKEDEX_GET)) {
+		msgbox(TwinleafTown_Text_Woman_Pokedex, MSGBOX_NPC)
+	}
+	elif(flag(FLAG_SYS_POKEMON_GET)) {
+		msgbox(TwinleafTown_Text_Woman_OhAPokemon, MSGBOX_NPC)
+	}
+	else {
+		msgbox(TwinleafTown_Text_Woman_WildPokemon, MSGBOX_NPC)
+	}
+}
+
+script TwinleafTown_EventScript_BarryLookingForYouTrigger1 {
+	setvar(VAR_TEMP_4, 0)
+	goto(TwinleafTown_EventScript_BarryLookingForYouTrigger_Movement)
+}
+
+script TwinleafTown_EventScript_BarryLookingForYouTrigger2 {
+	setvar(VAR_TEMP_4, 1)
+	goto(TwinleafTown_EventScript_BarryLookingForYouTrigger_Movement)
+}
+
+script TwinleafTown_EventScript_BarryLookingForYouTrigger3 {
+	setvar(VAR_TEMP_4, 2)
+	goto(TwinleafTown_EventScript_BarryLookingForYouTrigger_Movement)
+}
+
+script TwinleafTown_EventScript_BarryLookingForYouTrigger4 {
+	setvar(VAR_TEMP_4, 3)
+	goto(TwinleafTown_EventScript_BarryLookingForYouTrigger_Movement)
+}
+
+script TwinleafTown_EventScript_BarryLookingForYouTrigger5 {
+	setvar(VAR_TEMP_4, 4)
+	goto(TwinleafTown_EventScript_BarryLookingForYouTrigger_Movement)
+}
+
+script TwinleafTown_EventScript_BarryLookingForYouTrigger6 {
+	setvar(VAR_TEMP_4, 5)
+	goto(TwinleafTown_EventScript_BarryLookingForYouTrigger_Movement)
+}
+
+script TwinleafTown_EventScript_BarryLookingForYouTrigger7 {
+	setvar(VAR_TEMP_4, 6)
+	goto(TwinleafTown_EventScript_BarryLookingForYouTrigger_Movement)
+}
+
+script TwinleafTown_EventScript_BarryLookingForYouTrigger8 {
+	setvar(VAR_TEMP_4, 7)
+	goto(TwinleafTown_EventScript_BarryLookingForYouTrigger_Movement)
+}
+
+script TwinleafTown_EventScript_BarryLookingForYouTrigger_Movement {
+	lockall
+	applymovement(3, Common_Movement_ExclamationMark)
+	waitmovement(0)
+	delay(48)
+	switch(var(VAR_TEMP_4)) {
+		case 0:
+			applymovement(3, TwinleafTown_Movement_MoveToPlayer_1)
+		case 1:
+			applymovement(3, TwinleafTown_Movement_MoveToPlayer_2)
+		case 2:
+			applymovement(3, TwinleafTown_Movement_MoveToPlayer_3)
+		case 3:
+			applymovement(3, TwinleafTown_Movement_MoveToPlayer_4)
+		case 4:
+			applymovement(3, TwinleafTown_Movement_MoveToPlayer_5)
+		case 5:
+			applymovement(3, TwinleafTown_Movement_MoveToPlayer_6)
+		case 6:
+			applymovement(3, TwinleafTown_Movement_MoveToPlayer_7)
+		case 7:
+			applymovement(3, TwinleafTown_Movement_MoveToPlayer_8)
+	}
+	waitmovement(3)
+	applymovement(3, TwinleafTown_Movement_PushPlayerDown)
+	applymovement(OBJ_EVENT_ID_PLAYER, TwinleafTown_Movement_PlayerStepBack)
+	waitmovement(0)
+	msgbox(TwinleafTown_Text_Man_BarryLookingForYou, MSGBOX_DEFAULT)
+	closemessage
+	switch(var(VAR_TEMP_4)) {
+		case 0:
+			applymovement(3, TwinleafTown_Movement_ReturnToPosition_1)
+		case 1:
+			applymovement(3, TwinleafTown_Movement_ReturnToPosition_2)
+		case 2:
+			applymovement(3, TwinleafTown_Movement_ReturnToPosition_3)
+		case 3:
+			applymovement(3, TwinleafTown_Movement_ReturnToPosition_4)
+		case 4:
+			applymovement(3, TwinleafTown_Movement_ReturnToPosition_5)
+		case 5:
+			applymovement(3, TwinleafTown_Movement_ReturnToPosition_6)
+		case 6:
+			applymovement(3, TwinleafTown_Movement_ReturnToPosition_7)
+		case 7:
+			applymovement(3, TwinleafTown_Movement_ReturnToPosition_8)
+	}
+	waitmovement(0)
+	releaseall
+	end
+}
+
+script TwinleafTown_EventScript_Man {
+	msgbox(TwinleafTown_Text_Man_Adventure, MSGBOX_NPC)
+}
+
+movement TwinleafTown_Movement_MoveToPlayer_1 {
+	walk_fast_up
+	walk_fast_right
+	walk_fast_up * 2
+	walk_fast_left
+}
+
+movement TwinleafTown_Movement_MoveToPlayer_2 {
+	walk_fast_up * 3
+	walk_fast_right
+}
+
+movement TwinleafTown_Movement_MoveToPlayer_3 {
+	walk_fast_up * 3
+	walk_fast_right * 2
+}
+
+movement TwinleafTown_Movement_MoveToPlayer_4 {
+	walk_fast_up * 3
+	walk_fast_right * 3
+}
+
+movement TwinleafTown_Movement_MoveToPlayer_5 {
+	walk_fast_up * 3
+	walk_fast_right * 4
+}
+
+movement TwinleafTown_Movement_MoveToPlayer_6 {
+	walk_fast_up * 3
+	walk_fast_right * 5
+}
+
+movement TwinleafTown_Movement_MoveToPlayer_7 {
+	walk_fast_up * 3
+	walk_fast_right * 6
+}
+
+movement TwinleafTown_Movement_MoveToPlayer_8 {
+	walk_fast_up * 3
+	walk_fast_right * 7
+}
+
+movement TwinleafTown_Movement_PushPlayerDown {
+	walk_fast_down
+}
+
+movement TwinleafTown_Movement_PlayerStepBack {
+		lock_facing_direction
+		walk_down
+		face_up
+		unlock_facing_direction
+}
+
+movement TwinleafTown_Movement_ReturnToPosition_1 {
+	walk_right
+	walk_down * 2
+	walk_left
+}
+movement TwinleafTown_Movement_ReturnToPosition_2 {
+	walk_left
+	walk_down * 2
+}
+movement TwinleafTown_Movement_ReturnToPosition_3 {
+	walk_left * 2
+	walk_down * 2
+}
+movement TwinleafTown_Movement_ReturnToPosition_4 {
+	walk_left * 3
+	walk_down * 2
+}
+movement TwinleafTown_Movement_ReturnToPosition_5 {
+	walk_left * 4
+	walk_down * 2
+}
+movement TwinleafTown_Movement_ReturnToPosition_6 {
+	walk_left * 5
+	walk_down * 2
+}
+movement TwinleafTown_Movement_ReturnToPosition_7 {
+	walk_left * 6
+	walk_down * 2
+}
+movement TwinleafTown_Movement_ReturnToPosition_8 {
+	walk_left * 7
+	walk_down * 2
+}
+
+text TwinleafTown_Text_TechnologyGuy {
 	format("Technology just blows me away!\pI mean, now you can play with people around the world...wirelessly!")
 }
 
@@ -36,6 +243,10 @@ text TwinleafTown_Text_Man_BarryRanOff2 {
 	format("Barry? He went tearing off in a huge rush a while ago.\p...Ouch. He ran right into me earlier. It's still hurting.\p That kid's growing up tough.")
 }
 
+text TwinleafTown_Text_Man_Adventure {
+	format("Everyone goes on adventures, and then they gradually grow up...")
+}
+
 text TwinleafTown_Text_TownSign {
 	format("Twinleaf Town\nFresh and Free!")
 }
@@ -46,4 +257,16 @@ text TwinleafTown_Text_PlayersMailbox {
 
 text TwinleafTown_Text_BarrysMailbox {
 	format("Barry's House")
+}
+
+text TwinleafTown_Text_Barry_Thud {
+	format("THUD!")
+}
+
+text TwinleafTown_Text_Barry_GoingToSeeRowan {
+	format("Barry: What was that about?!\pOh, hey, {PLAYER}! Hey, I'm going to see Prof. Rowan!\pYou should come, too! And quickly!")
+}
+
+text TwinleafTown_Text_Barry_ForgotSomething {
+	format("Oh jeez!\nForgot something!")
 }
