@@ -96,8 +96,8 @@ script TwinleafTown_EventScript_BarryLookingForYouTrigger_Movement {
 			applymovement(3, TwinleafTown_Movement_MoveToPlayer_8)
 	}
 	waitmovement(3)
-	applymovement(3, TwinleafTown_Movement_PushPlayerDown)
-	applymovement(OBJ_EVENT_ID_PLAYER, TwinleafTown_Movement_PlayerStepBack)
+	applymovement(3, TwinleafTown_Movement_PushPlayerSouth)
+	applymovement(OBJ_EVENT_ID_PLAYER, TwinleafTown_Movement_PlayerPushedSouth)
 	waitmovement(0)
 	msgbox(TwinleafTown_Text_Man_BarryLookingForYou, MSGBOX_DEFAULT)
 	closemessage
@@ -125,7 +125,60 @@ script TwinleafTown_EventScript_BarryLookingForYouTrigger_Movement {
 }
 
 script TwinleafTown_EventScript_Man {
-	msgbox(TwinleafTown_Text_Man_Adventure, MSGBOX_NPC)
+	if (var(VAR_BARRY_STATE) == 1) {
+		msgbox(TwinleafTown_Text_Man_BarryLookingForYou, MSGBOX_NPC)
+	}
+	elif (var(VAR_BARRY_STATE) == 2) {
+		msgbox(TwinleafTown_Text_Man_BarryRanOff1, MSGBOX_NPC)
+	}
+	elif (var(VAR_BARRY_STATE) == 3) {
+		msgbox(TwinleafTown_Text_Man_BarryRanOff2, MSGBOX_NPC)
+	}
+	else {
+		msgbox(TwinleafTown_Text_Man_Adventure, MSGBOX_NPC)
+	}
+}
+
+script TwinleafTown_EventScript_BarryExitHouse {
+	lockall
+	applymovement(OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp)
+	waitmovement(0)
+//	opendoor(3, 9)
+//	waitdooranim
+	addobject(4)
+	applymovement(OBJ_EVENT_ID_PLAYER, TwinleafTown_Movement_PlayerPushedSouth)
+	applymovement(4, TwinleafTown_Movement_PushPlayerSouth)
+	waitmovement(0)
+//	closedoor(3, 9)
+//	waitdooranim
+	msgbox(TwinleafTown_Text_Barry_Thud, MSGBOX_DEFAULT)
+	closemessage
+	applymovement(4, Common_Movement_ExclamationMark)
+	waitmovement(0)
+	delay(48)
+	msgbox(TwinleafTown_Text_Barry_GoingToSeeRowan)
+	closemessage
+	applymovement(4, moves(walk_fast_right*4))
+	waitmovement(0)
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_in_place_faster_right))
+	applymovement(4, Common_Movement_ExclamationMark)
+	waitmovement(0)
+	delay(48)
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_in_place_faster_up))
+	applymovement(4, moves(walk_fast_left*4, walk_in_place_faster_down))
+	waitmovement(0)
+	msgbox(TwinleafTown_Text_Barry_ForgotSomething)
+	closemessage
+//	opendoor(3, 9)
+//	waitdooranim
+	applymovement(4, moves(walk_up))
+	waitmovement(0)
+	removeobject(4)
+//	closedoor(3, 9)
+//	waitdooranim
+	releaseall
+	end
+
 }
 
 movement TwinleafTown_Movement_MoveToPlayer_1 {
@@ -170,11 +223,11 @@ movement TwinleafTown_Movement_MoveToPlayer_8 {
 	walk_fast_right * 7
 }
 
-movement TwinleafTown_Movement_PushPlayerDown {
+movement TwinleafTown_Movement_PushPlayerSouth {
 	walk_fast_down
 }
 
-movement TwinleafTown_Movement_PlayerStepBack {
+movement TwinleafTown_Movement_PlayerPushedSouth {
 		lock_facing_direction
 		walk_down
 		face_up

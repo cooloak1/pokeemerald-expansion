@@ -5,99 +5,98 @@ Route221_House_MapScripts::
 
 Route221_House_MapScripts_MAP_SCRIPT_ON_LOAD:
 # 3 "data/maps/Route221_House/scripts.pory"
-	switch VAR_ROUTE_221_HOUSE_ITEM
-# 4 "data/maps/Route221_House/scripts.pory"
-	case 0, Route221_House_MapScripts_MAP_SCRIPT_ON_LOAD_3
-# 6 "data/maps/Route221_House/scripts.pory"
-	case 1, Route221_House_MapScripts_MAP_SCRIPT_ON_LOAD_4
-# 8 "data/maps/Route221_House/scripts.pory"
-	case 2, Route221_House_MapScripts_MAP_SCRIPT_ON_LOAD_5
-Route221_House_MapScripts_MAP_SCRIPT_ON_LOAD_1:
-# 11 "data/maps/Route221_House/scripts.pory"
-	goto_if_unset FLAG_DAILY_ROUTE_221_LEVEL_SET, Route221_House_MapScripts_MAP_SCRIPT_ON_LOAD_7
-Route221_House_MapScripts_MAP_SCRIPT_ON_LOAD_6:
-# 17 "data/maps/Route221_House/scripts.pory"
-	buffernumberstring STR_VAR_1, VAR_ROUTE_221_HOUSE_LEVEL
-# 18 "data/maps/Route221_House/scripts.pory"
-	bufferitemname STR_VAR_2, VAR_ITEM_ID
+	goto_if_unset FLAG_DAILY_ROUTE_221_LEVEL_SET, Route221_House_MapScripts_MAP_SCRIPT_ON_LOAD_1
 	return
 
-Route221_House_MapScripts_MAP_SCRIPT_ON_LOAD_3:
-# 5 "data/maps/Route221_House/scripts.pory"
-	setvar VAR_ITEM_ID, ITEM_BLACK_BELT
-	goto Route221_House_MapScripts_MAP_SCRIPT_ON_LOAD_1
-
-Route221_House_MapScripts_MAP_SCRIPT_ON_LOAD_4:
-# 7 "data/maps/Route221_House/scripts.pory"
-	setvar VAR_ITEM_ID, ITEM_EXPERT_BELT
-	goto Route221_House_MapScripts_MAP_SCRIPT_ON_LOAD_1
-
-Route221_House_MapScripts_MAP_SCRIPT_ON_LOAD_5:
-# 9 "data/maps/Route221_House/scripts.pory"
-	setvar VAR_ITEM_ID, ITEM_FOCUS_SASH
-	goto Route221_House_MapScripts_MAP_SCRIPT_ON_LOAD_1
-
-Route221_House_MapScripts_MAP_SCRIPT_ON_LOAD_7:
-# 12 "data/maps/Route221_House/scripts.pory"
+Route221_House_MapScripts_MAP_SCRIPT_ON_LOAD_1:
+# 4 "data/maps/Route221_House/scripts.pory"
 	random 100
-# 13 "data/maps/Route221_House/scripts.pory"
+# 5 "data/maps/Route221_House/scripts.pory"
 	copyvar VAR_ROUTE_221_HOUSE_LEVEL, VAR_RESULT
-# 14 "data/maps/Route221_House/scripts.pory"
+# 6 "data/maps/Route221_House/scripts.pory"
 	addvar VAR_ROUTE_221_HOUSE_LEVEL, 1
-# 15 "data/maps/Route221_House/scripts.pory"
+# 7 "data/maps/Route221_House/scripts.pory"
 	setflag FLAG_DAILY_ROUTE_221_LEVEL_SET
-	goto Route221_House_MapScripts_MAP_SCRIPT_ON_LOAD_6
+	return
 
 
 Route221_House_EventScript_LevelMan::
+# 13 "data/maps/Route221_House/scripts.pory"
+	switch VAR_ROUTE_221_HOUSE_ITEM
+# 14 "data/maps/Route221_House/scripts.pory"
+	case 0, Route221_House_EventScript_LevelMan_3
+# 16 "data/maps/Route221_House/scripts.pory"
+	case 1, Route221_House_EventScript_LevelMan_4
+# 18 "data/maps/Route221_House/scripts.pory"
+	case 2, Route221_House_EventScript_LevelMan_5
+Route221_House_EventScript_LevelMan_1:
+# 21 "data/maps/Route221_House/scripts.pory"
+	buffernumberstring STR_VAR_1, VAR_ROUTE_221_HOUSE_LEVEL
+# 22 "data/maps/Route221_House/scripts.pory"
+	bufferitemname STR_VAR_2, VAR_ITEM_ID
 # 23 "data/maps/Route221_House/scripts.pory"
-	goto_if_set FLAG_DAILY_ROUTE_221_LEVEL_RECEIVED_ITEM, Route221_House_EventScript_LevelMan_2
+	goto_if_set FLAG_DAILY_ROUTE_221_LEVEL_RECEIVED_ITEM, Route221_House_EventScript_LevelMan_7
 # 27 "data/maps/Route221_House/scripts.pory"
 	msgbox Route221_House_Text_SayTodaysLevel, MSGBOX_NPC
 # 28 "data/maps/Route221_House/scripts.pory"
 	call Route221_House_CheckPartyMonsForLevel
 # 29 "data/maps/Route221_House/scripts.pory"
 	compare VAR_RESULT, 0
-	goto_if_ne Route221_House_EventScript_LevelMan_5
-Route221_House_EventScript_LevelMan_1:
+	goto_if_ne Route221_House_EventScript_LevelMan_10
+Route221_House_EventScript_LevelMan_6:
 # 44 "data/maps/Route221_House/scripts.pory"
 	release
 	end
 
-Route221_House_EventScript_LevelMan_2:
-# 24 "data/maps/Route221_House/scripts.pory"
-	msgbox Route221_House_Text_AlreadyReceivedItemToday, MSGBOX_NPC
+Route221_House_EventScript_LevelMan_3:
+# 15 "data/maps/Route221_House/scripts.pory"
+	setvar VAR_ITEM_ID, ITEM_BLACK_BELT
+	goto Route221_House_EventScript_LevelMan_1
+
+Route221_House_EventScript_LevelMan_4:
+# 17 "data/maps/Route221_House/scripts.pory"
+	setvar VAR_ITEM_ID, ITEM_EXPERT_BELT
 	goto Route221_House_EventScript_LevelMan_1
 
 Route221_House_EventScript_LevelMan_5:
+# 19 "data/maps/Route221_House/scripts.pory"
+	setvar VAR_ITEM_ID, ITEM_FOCUS_SASH
+	goto Route221_House_EventScript_LevelMan_1
+
+Route221_House_EventScript_LevelMan_7:
+# 24 "data/maps/Route221_House/scripts.pory"
+	msgbox Route221_House_Text_AlreadyReceivedItemToday, MSGBOX_NPC
+	goto Route221_House_EventScript_LevelMan_6
+
+Route221_House_EventScript_LevelMan_10:
 # 30 "data/maps/Route221_House/scripts.pory"
 	msgbox Route221_House_Text_PlayerHasTodaysLevel, MSGBOX_NPC
 # 31 "data/maps/Route221_House/scripts.pory"
 	giveitem VAR_ITEM_ID, 1
 # 32 "data/maps/Route221_House/scripts.pory"
 	compare VAR_RESULT, 0
-	goto_if_eq Route221_House_EventScript_LevelMan_8
+	goto_if_eq Route221_House_EventScript_LevelMan_13
 # 37 "data/maps/Route221_House/scripts.pory"
 	addvar VAR_ROUTE_221_HOUSE_ITEM, 1
 # 38 "data/maps/Route221_House/scripts.pory"
 	compare VAR_ROUTE_221_HOUSE_ITEM > 2, 0
-	goto_if_ne Route221_House_EventScript_LevelMan_11
-Route221_House_EventScript_LevelMan_10:
+	goto_if_ne Route221_House_EventScript_LevelMan_16
+Route221_House_EventScript_LevelMan_15:
 # 41 "data/maps/Route221_House/scripts.pory"
 	setflag FLAG_DAILY_ROUTE_221_LEVEL_RECEIVED_ITEM
-	goto Route221_House_EventScript_LevelMan_1
+	goto Route221_House_EventScript_LevelMan_6
 
-Route221_House_EventScript_LevelMan_8:
+Route221_House_EventScript_LevelMan_13:
 # 33 "data/maps/Route221_House/scripts.pory"
 	goto Common_EventScript_ShowBagIsFull
 # 34 "data/maps/Route221_House/scripts.pory"
 	release
 	end
 
-Route221_House_EventScript_LevelMan_11:
+Route221_House_EventScript_LevelMan_16:
 # 39 "data/maps/Route221_House/scripts.pory"
 	setvar VAR_ROUTE_221_HOUSE_ITEM, 0
-	goto Route221_House_EventScript_LevelMan_10
+	goto Route221_House_EventScript_LevelMan_15
 
 
 Route221_House_CheckPartyMonsForLevel::

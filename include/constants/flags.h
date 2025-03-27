@@ -746,181 +746,181 @@
 #define FLAG_UNUSED_0x2BB  0x2BB // Unused Flag
 
 // Event Flags
-#define FLAG_HOENN_1                      0x2BC
-#define FLAG_HOENN_2                                        0x2BD
-#define FLAG_HOENN_3                0x2BE
-#define FLAG_HOENN_4                               0x2BF
-#define FLAG_HOENN_5                               0x2C0
-#define FLAG_HOENN_6                               0x2C1
-#define FLAG_HOENN_7                               0x2C2
-#define FLAG_HOENN_8                               0x2C3
-#define FLAG_UNUSED_0x2C4                               0x2C4
-#define FLAG_UNUSED_0x2C5                               0x2C5
-#define FLAG_UNUSED_0x2C6                               0x2C6
-#define FLAG_UNUSED_0x2C7               0x2C7
-#define FLAG_UNUSED_0x2C8               0x2C8
-#define FLAG_UNUSED_0x2C9               0x2C9
-#define FLAG_UNUSED_0x2CA               0x2CA
-#define FLAG_UNUSED_0x2CB               0x2CB
-#define FLAG_UNUSED_0x2CC               0x2CC
-#define FLAG_UNUSED_0x2CD            0x2CD
+#define FLAG_HOENN_1                                                0x2BC
+#define FLAG_HOENN_2                                                0x2BD
+#define FLAG_HOENN_3                                                0x2BE
+#define FLAG_HOENN_4                                                0x2BF
+#define FLAG_HOENN_5                                                0x2C0
+#define FLAG_HOENN_6                                                0x2C1
+#define FLAG_HOENN_7                                                0x2C2
+#define FLAG_HOENN_8                                                0x2C3
+#define FLAG_UNUSED_0x2C4                                           0x2C4
+#define FLAG_UNUSED_0x2C5                                           0x2C5
+#define FLAG_UNUSED_0x2C6                                           0x2C6
+#define FLAG_UNUSED_0x2C7                                           0x2C7
+#define FLAG_UNUSED_0x2C8                                           0x2C8
+#define FLAG_UNUSED_0x2C9                                           0x2C9
+#define FLAG_UNUSED_0x2CA                                           0x2CA
+#define FLAG_UNUSED_0x2CB                                           0x2CB
+#define FLAG_UNUSED_0x2CC                                           0x2CC
+#define FLAG_UNUSED_0x2CD                                           0x2CD
 #define FLAG_HIDE_MEW                                               0x2CE
-#define FLAG_UNUSED_0x2CF                                   0x2CF // hoenn only flag
-#define FLAG_UNUSED_0x2D0                  0x2D0 // hoenn only flag
-#define FLAG_UNUSED_0x2D1                  0x2D1 // hoenn only flag
-#define FLAG_UNUSED_0x2D2          0x2D2 // hoenn only flag
-#define FLAG_UNUSED_0x2D3                                   0x2D3 // hoenn only flag
-#define FLAG_UNUSED_0x2D4                    0x2D4 // hoenn only flag
-#define FLAG_UNUSED_0x2D5                        0x2D5 // hoenn only flag
-#define FLAG_UNUSED_0x2D6                              0x2D6 // hoenn only flag
-#define FLAG_UNUSED_0x2D7   0x2D7 // hoenn only flag
-#define FLAG_UNUSED_0x2D8                         0x2D8 // hoenn only flag
-#define FLAG_UNUSED_0x2D9                                           0x2D9 // Unused Flag
-#define FLAG_UNUSED_0x2DA                     0x2DA // hoenn only flag
-#define FLAG_UNUSED_0x2DB                          0x2DB // hoenn only flag
-#define FLAG_UNUSED_0x2DC                    0x2DC // hoenn only flag
-#define FLAG_UNUSED_0x2DD              0x2DD // hoenn only flag
-#define FLAG_UNUSED_0x2DE                                 0x2DE // hoenn only flag
-#define FLAG_UNUSED_0x2DF      0x2DF // hoenn only flag
-#define FLAG_UNUSED_0x2E0          0x2E0 // hoenn only flag
-#define FLAG_UNUSED_0x2E1             0x2E1 // hoenn only flag
-#define FLAG_UNUSED_0x2E2                               0x2E2 // hoenn only flag
-#define FLAG_UNUSED_0x2E3                           0x2E3 // hoenn only flag
-#define FLAG_UNUSED_0x2E4                            0x2E4 // hoenn only flag
-#define FLAG_UNUSED_0x2E5                               0x2E5 // hoenn only flag
-#define FLAG_UNUSED_0x2E6                          0x2E6 // hoenn only flag
-#define FLAG_UNUSED_0x2E7                       0x2E7 // hoenn only flag
-#define FLAG_UNUSED_0x2E8                          0x2E8 // hoenn only flag
-#define FLAG_UNUSED_0x2E9            0x2E9 // hoenn only flag
-#define FLAG_UNUSED_0x2EA                    0x2EA // hoenn only flag
-#define FLAG_UNUSED_0x2EB                  0x2EB // hoenn only flag
-#define FLAG_UNUSED_0x2EC                0x2EC // hoenn only flag
-#define FLAG_UNUSED_0x2ED                              0x2ED // hoenn only flag
-#define FLAG_UNUSED_0x2EE                               0x2EE // hoenn only flag
-#define FLAG_UNUSED_0x2EF                           0x2EF // hoenn only flag
-#define FLAG_UNUSED_0x2F0                       0x2F0 // hoenn only flag
-#define FLAG_UNUSED_0x2F1              0x2F1 // hoenn only flag
-#define FLAG_UNUSED_0x2F2          0x2F2 // hoenn only flag
-#define FLAG_UNUSED_0x2F3          0x2F3 // hoenn only flag
-#define FLAG_UNUSED_0x2F4          0x2F4 // hoenn only flag
-#define FLAG_UNUSED_0x2F5               0x2F5 // hoenn only flag
-#define FLAG_UNUSED_0x2F6                0x2F6 // hoenn only flag
-#define FLAG_UNUSED_0x2F7                    0x2F7 // hoenn only flag
-#define FLAG_UNUSED_0x2F8      0x2F8 // hoenn only flag
-#define FLAG_UNUSED_0x2F9              0x2F9 // hoenn only flag
-#define FLAG_UNUSED_0x2FA                  0x2FA // hoenn only flag
+#define FLAG_UNUSED_0x2CF                                           0x2CF
+#define FLAG_HIDE_BARRY_TWINLEAF_TOWN                               0x2D0
+#define FLAG_UNUSED_0x2D1                                           0x2D1
+#define FLAG_UNUSED_0x2D2                                           0x2D2
+#define FLAG_UNUSED_0x2D3                                           0x2D3
+#define FLAG_UNUSED_0x2D4                                           0x2D4
+#define FLAG_UNUSED_0x2D5                                           0x2D5
+#define FLAG_UNUSED_0x2D6                                           0x2D6
+#define FLAG_UNUSED_0x2D7                                           0x2D7
+#define FLAG_UNUSED_0x2D8                                           0x2D8
+#define FLAG_UNUSED_0x2D9                                           0x2D9
+#define FLAG_UNUSED_0x2DA                                           0x2DA
+#define FLAG_UNUSED_0x2DB                                           0x2DB
+#define FLAG_UNUSED_0x2DC                                           0x2DC
+#define FLAG_UNUSED_0x2DD                                           0x2DD
+#define FLAG_UNUSED_0x2DE                                           0x2DE
+#define FLAG_UNUSED_0x2DF                                           0x2DF
+#define FLAG_UNUSED_0x2E0                                           0x2E0
+#define FLAG_UNUSED_0x2E1                                           0x2E1
+#define FLAG_UNUSED_0x2E2                                           0x2E2
+#define FLAG_UNUSED_0x2E3                                           0x2E3
+#define FLAG_UNUSED_0x2E4                                           0x2E4
+#define FLAG_UNUSED_0x2E5                                           0x2E5
+#define FLAG_UNUSED_0x2E6                                           0x2E6
+#define FLAG_UNUSED_0x2E7                                           0x2E7
+#define FLAG_UNUSED_0x2E8                                           0x2E8
+#define FLAG_UNUSED_0x2E9                                           0x2E9
+#define FLAG_UNUSED_0x2EA                                           0x2EA
+#define FLAG_UNUSED_0x2EB                                           0x2EB
+#define FLAG_UNUSED_0x2EC                                           0x2EC
+#define FLAG_UNUSED_0x2ED                                           0x2ED
+#define FLAG_UNUSED_0x2EE                                           0x2EE
+#define FLAG_UNUSED_0x2EF                                           0x2EF
+#define FLAG_UNUSED_0x2F0                                           0x2F0
+#define FLAG_UNUSED_0x2F1                                           0x2F1
+#define FLAG_UNUSED_0x2F2                                           0x2F2
+#define FLAG_UNUSED_0x2F3                                           0x2F3
+#define FLAG_UNUSED_0x2F4                                           0x2F4
+#define FLAG_UNUSED_0x2F5                                           0x2F5
+#define FLAG_UNUSED_0x2F6                                           0x2F6
+#define FLAG_UNUSED_0x2F7                                           0x2F7
+#define FLAG_UNUSED_0x2F8                                           0x2F8
+#define FLAG_UNUSED_0x2F9                                           0x2F9
+#define FLAG_UNUSED_0x2FA                                           0x2FA
 #define FLAG_HIDE_DEOXYS                                            0x2FB
 #define FLAG_HIDE_BIRTH_ISLAND_DEOXYS_TRIANGLE                      0x2FC
-#define FLAG_UNUSED_0x2FD                               0x2FD // hoenn only flag
-#define FLAG_UNUSED_0x2FE                             0x2FE // hoenn only flag
-#define FLAG_UNUSED_0x2FF                  0x2FF // hoenn only flag
-#define FLAG_UNUSED_0x300                        0x300 // hoenn only flag
-#define FLAG_UNUSED_0x301                      0x301 // hoenn only flag
-#define FLAG_UNUSED_0x302                          0x302 // hoenn only flag
-#define FLAG_UNUSED_0x303                         0x303 // hoenn only flag
-#define FLAG_UNUSED_0x304                              0x304 // hoenn only flag
-#define FLAG_UNUSED_0x305                           0x305 // hoenn only flag
-#define FLAG_UNUSED_0x306         0x306 // hoenn only flag
-#define FLAG_UNUSED_0x307                           0x307 // hoenn only flag
-#define FLAG_UNUSED_0x308                          0x308 // hoenn only flag
-#define FLAG_UNUSED_0x309                          0x309 // hoenn only flag
-#define FLAG_UNUSED_0x30A                          0x30A // hoenn only flag
-#define FLAG_UNUSED_0x30B                          0x30B // hoenn only flag
-#define FLAG_UNUSED_0x30C                          0x30C // hoenn only flag
-#define FLAG_UNUSED_0x30D                             0x30D // hoenn only flag
-#define FLAG_UNUSED_0x30E                                0x30E // hoenn only flag
-#define FLAG_UNUSED_0x30F                                0x30F // hoenn only flag
-#define FLAG_UNUSED_0x310          0x310 // hoenn only flag
-#define FLAG_UNUSED_0x311              0x311 // hoenn only flag
-#define FLAG_UNUSED_0x312                                   0x312 // hoenn only flag
-#define FLAG_UNUSED_0x313                              0x313 // hoenn only flag
-#define FLAG_UNUSED_0x314                               0x314 // hoenn only flag
-#define FLAG_UNUSED_0x315                                  0x315 // hoenn only flag
-#define FLAG_UNUSED_0x316                                       0x316 // hoenn only flag
-#define FLAG_UNUSED_0x317                                0x317 // hoenn only flag
-#define FLAG_UNUSED_0x318                                      0x318 // hoenn only flag
-#define FLAG_UNUSED_0x319               0x319 // hoenn only flag
-#define FLAG_UNUSED_0x31A                             0x31A // hoenn only flag
-#define FLAG_UNUSED_0x31B                             0x31B // hoenn only flag
-#define FLAG_UNUSED_0x31C                          0x31C // hoenn only flag
-#define FLAG_UNUSED_0x31D                          0x31D // hoenn only flag
-#define FLAG_UNUSED_0x31E                          0x31E // hoenn only flag
-#define FLAG_UNUSED_0x31F                          0x31F // hoenn only flag
+#define FLAG_UNUSED_0x2FD                                           0x2FD
+#define FLAG_UNUSED_0x2FE                                           0x2FE
+#define FLAG_UNUSED_0x2FF                                           0x2FF
+#define FLAG_UNUSED_0x300                                           0x300
+#define FLAG_UNUSED_0x301                                           0x301
+#define FLAG_UNUSED_0x302                                           0x302
+#define FLAG_UNUSED_0x303                                           0x303
+#define FLAG_UNUSED_0x304                                           0x304
+#define FLAG_UNUSED_0x305                                           0x305
+#define FLAG_UNUSED_0x306                                           0x306
+#define FLAG_UNUSED_0x307                                           0x307
+#define FLAG_UNUSED_0x308                                           0x308
+#define FLAG_UNUSED_0x309                                           0x309
+#define FLAG_UNUSED_0x30A                                           0x30A
+#define FLAG_UNUSED_0x30B                                           0x30B
+#define FLAG_UNUSED_0x30C                                           0x30C
+#define FLAG_UNUSED_0x30D                                           0x30D
+#define FLAG_UNUSED_0x30E                                           0x30E
+#define FLAG_UNUSED_0x30F                                           0x30F
+#define FLAG_UNUSED_0x310                                           0x310
+#define FLAG_UNUSED_0x311                                           0x311
+#define FLAG_UNUSED_0x312                                           0x312
+#define FLAG_UNUSED_0x313                                           0x313
+#define FLAG_UNUSED_0x314                                           0x314
+#define FLAG_UNUSED_0x315                                           0x315
+#define FLAG_UNUSED_0x316                                           0x316
+#define FLAG_UNUSED_0x317                                           0x317
+#define FLAG_UNUSED_0x318                                           0x318
+#define FLAG_UNUSED_0x319                                           0x319
+#define FLAG_UNUSED_0x31A                                           0x31A
+#define FLAG_UNUSED_0x31B                                           0x31B
+#define FLAG_UNUSED_0x31C                                           0x31C
+#define FLAG_UNUSED_0x31D                                           0x31D
+#define FLAG_UNUSED_0x31E                                           0x31E
+#define FLAG_UNUSED_0x31F                                           0x31F
 #define FLAG_HIDE_LUGIA                                             0x320
 #define FLAG_HIDE_HO_OH                                             0x321
-#define FLAG_UNUSED_0x322                    0x322 //hoenn only flag
-#define FLAG_UNUSED_0x323                   0x323 //hoenn only flag
-#define FLAG_UNUSED_0x324                               0x324 //hoenn only flag
-#define FLAG_UNUSED_0x325                        0x325 //hoenn only flag
-#define FLAG_UNUSED_0x326                0x326 //hoenn only flag
-#define FLAG_UNUSED_0x327                   0x327 //hoenn only flag
-#define FLAG_UNUSED_0x328     0x328 //hoenn only flag
-#define FLAG_UNUSED_0x329         0x329 //hoenn only flag
-#define FLAG_UNUSED_0x32A                           0x32A //hoenn only flag
-#define FLAG_UNUSED_0x32B     0x32B //hoenn only flag
-#define FLAG_UNUSED_0x32C      0x32C //hoenn only flag
-#define FLAG_UNUSED_0x32D                     0x32D //hoenn only flag
-#define FLAG_UNUSED_0x32E                               0x32E //hoenn only flag
-#define FLAG_UNUSED_0x32F     0x32F //hoenn only flag
-#define FLAG_UNUSED_0x330                           0x330 //hoenn only flag
-#define FLAG_UNUSED_0x331       0x331 //hoenn only flag
-#define FLAG_UNUSED_0x332           0x332 //hoenn only flag
-#define FLAG_UNUSED_0x333                              0x333 //hoenn only flag
-#define FLAG_UNUSED_0x334                        0x334 //hoenn only flag
-#define FLAG_UNUSED_0x335         0x335 //hoenn only flag
-#define FLAG_UNUSED_0x336         0x336 //hoenn only flag
-#define FLAG_UNUSED_0x337                          0x337 //hoenn only flag
-#define FLAG_UNUSED_0x338                          0x338 //hoenn only flag
-#define FLAG_UNUSED_0x339                         0x339 // Unused, leftover from R/S
-#define FLAG_UNUSED_0x33A                            0x33A //hoenn only flag
-#define FLAG_UNUSED_0x33B                             0x33B //hoenn only flag
-#define FLAG_UNUSED_0x33C                     0x33C //hoenn only flag
-#define FLAG_UNUSED_0x33D                      0x33D //hoenn only flag
-#define FLAG_UNUSED_0x33E                         0x33E //hoenn only flag
-#define FLAG_UNUSED_0x33F               0x33F //hoenn only flag
-#define FLAG_UNUSED_0x340                0x340 //hoenn only flag
-#define FLAG_UNUSED_0x341                               0x341 //hoenn only flag
-#define FLAG_UNUSED_0x342                                  0x342 //hoenn only flag
-#define FLAG_UNUSED_0x343                       0x343 //hoenn only flag
-#define FLAG_UNUSED_0x344              0x344 //hoenn only flag
-#define FLAG_UNUSED_0x345                                   0x345 //hoenn only flag
-#define FLAG_UNUSED_0x346     0x346 //hoenn only flag
-#define FLAG_UNUSED_0x347                             0x347 //hoenn only flag
-#define FLAG_UNUSED_0x348                      0x348 //hoenn only flag
-#define FLAG_UNUSED_0x349               0x349 //hoenn only flag
-#define FLAG_UNUSED_0x34A                         0x34A //hoenn only flag
-#define FLAG_UNUSED_0x34B                      0x34B //hoenn only flag
-#define FLAG_UNUSED_0x34C                           0x34C //hoenn only flag
-#define FLAG_UNUSED_0x34D                  0x34D //hoenn only flag
-#define FLAG_UNUSED_0x34E                      0x34E //hoenn only flag
-#define FLAG_UNUSED_0x34F                           0x34F //hoenn only flag
-#define FLAG_UNUSED_0x350            0x350 //hoenn only flag
-#define FLAG_UNUSED_0x351          0x351 //hoenn only flag
-#define FLAG_UNUSED_0x352                   0x352 //hoenn only flag
-#define FLAG_UNUSED_0x353                                   0x353 //hoenn only flag
-#define FLAG_UNUSED_0x354                         0x354 //hoenn only flag
-#define FLAG_UNUSED_0x355                          0x355 //hoenn only flag
-#define FLAG_UNUSED_0x356                         0x356 //hoenn only flag
-#define FLAG_UNUSED_0x357                                0x357 //hoenn only flag
-#define FLAG_UNUSED_0x358                              0x358 //hoenn only flag
-#define FLAG_UNUSED_0x359                              0x359 //hoenn only flag
-#define FLAG_UNUSED_0x35A                       0x35A //hoenn only flag
-#define FLAG_UNUSED_0x35B                     0x35B //hoenn only flag
-#define FLAG_UNUSED_0x35C                    0x35C //hoenn only flag
-#define FLAG_UNUSED_0x35D                           0x35D //hoenn only flag
-#define FLAG_UNUSED_0x35E          0x35E //hoenn only flag
-#define FLAG_UNUSED_0x35F              0x35F //hoenn only flag
-#define FLAG_UNUSED_0x360           0x360 //hoenn only flag
-#define FLAG_UNUSED_0x361           0x361 //hoenn only flag
-#define FLAG_UNUSED_0x362                               0x362 //hoenn only flag
-#define FLAG_UNUSED_0x363                                          0x363 // Set, however has no purpose.
-#define FLAG_UNUSED_0x364                           0x364 //hoenn only flag
-#define FLAG_UNUSED_0x365          0x365 //hoenn only flag
-#define FLAG_UNUSED_0x366                            0x366 //hoenn only flag
-#define FLAG_UNUSED_0x367                  0x367 //hoenn only flag
-#define FLAG_UNUSED_0x368                          0x368 //hoenn only flag
-#define FLAG_UNUSED_0x369    0x369 //hoenn only flag
-#define FLAG_UNUSED_0x36A                           0x36A //hoenn only flag
+#define FLAG_UNUSED_0x322                                           0x322
+#define FLAG_UNUSED_0x323                                           0x323
+#define FLAG_UNUSED_0x324                                           0x324
+#define FLAG_UNUSED_0x325                                           0x325
+#define FLAG_UNUSED_0x326                                           0x326
+#define FLAG_UNUSED_0x327                                           0x327
+#define FLAG_UNUSED_0x328                                           0x328
+#define FLAG_UNUSED_0x329                                           0x329
+#define FLAG_UNUSED_0x32A                                           0x32A
+#define FLAG_UNUSED_0x32B                                           0x32B
+#define FLAG_UNUSED_0x32C                                           0x32C
+#define FLAG_UNUSED_0x32D                                           0x32D
+#define FLAG_UNUSED_0x32E                                           0x32E
+#define FLAG_UNUSED_0x32F                                           0x32F
+#define FLAG_UNUSED_0x330                                           0x330
+#define FLAG_UNUSED_0x331                                           0x331
+#define FLAG_UNUSED_0x332                                           0x332
+#define FLAG_UNUSED_0x333                                           0x333
+#define FLAG_UNUSED_0x334                                           0x334
+#define FLAG_UNUSED_0x335                                           0x335
+#define FLAG_UNUSED_0x336                                           0x336
+#define FLAG_UNUSED_0x337                                           0x337
+#define FLAG_UNUSED_0x338                                           0x338
+#define FLAG_UNUSED_0x339                                           0x339
+#define FLAG_UNUSED_0x33A                                           0x33A
+#define FLAG_UNUSED_0x33B                                           0x33B
+#define FLAG_UNUSED_0x33C                                           0x33C
+#define FLAG_UNUSED_0x33D                                           0x33D
+#define FLAG_UNUSED_0x33E                                           0x33E
+#define FLAG_UNUSED_0x33F                                           0x33F
+#define FLAG_UNUSED_0x340                                           0x340
+#define FLAG_UNUSED_0x341                                           0x341
+#define FLAG_UNUSED_0x342                                           0x342
+#define FLAG_UNUSED_0x343                                           0x343
+#define FLAG_UNUSED_0x344                                           0x344
+#define FLAG_UNUSED_0x345                                           0x345
+#define FLAG_UNUSED_0x346                                           0x346
+#define FLAG_UNUSED_0x347                                           0x347
+#define FLAG_UNUSED_0x348                                           0x348
+#define FLAG_UNUSED_0x349                                           0x349
+#define FLAG_UNUSED_0x34A                                           0x34A
+#define FLAG_UNUSED_0x34B                                           0x34B
+#define FLAG_UNUSED_0x34C                                           0x34C
+#define FLAG_UNUSED_0x34D                                           0x34D
+#define FLAG_UNUSED_0x34E                                           0x34E
+#define FLAG_UNUSED_0x34F                                           0x34F
+#define FLAG_UNUSED_0x350                                           0x350
+#define FLAG_UNUSED_0x351                                           0x351
+#define FLAG_UNUSED_0x352                                           0x352
+#define FLAG_UNUSED_0x353                                           0x353
+#define FLAG_UNUSED_0x354                                           0x354
+#define FLAG_UNUSED_0x355                                           0x355
+#define FLAG_UNUSED_0x356                                           0x356
+#define FLAG_UNUSED_0x357                                           0x357
+#define FLAG_UNUSED_0x358                                           0x358
+#define FLAG_UNUSED_0x359                                           0x359
+#define FLAG_UNUSED_0x35A                                           0x35A
+#define FLAG_UNUSED_0x35B                                           0x35B
+#define FLAG_UNUSED_0x35C                                           0x35C
+#define FLAG_UNUSED_0x35D                                           0x35D
+#define FLAG_UNUSED_0x35E                                           0x35E
+#define FLAG_UNUSED_0x35F                                           0x35F
+#define FLAG_UNUSED_0x360                                           0x360
+#define FLAG_UNUSED_0x361                                           0x361
+#define FLAG_UNUSED_0x362                                           0x362
+#define FLAG_UNUSED_0x363                                           0x363
+#define FLAG_UNUSED_0x364                                           0x364
+#define FLAG_UNUSED_0x365                                           0x365
+#define FLAG_UNUSED_0x366                                           0x366
+#define FLAG_UNUSED_0x367                                           0x367
+#define FLAG_UNUSED_0x368                                           0x368
+#define FLAG_UNUSED_0x369                                           0x369
+#define FLAG_UNUSED_0x36A                                           0x36A
 #define FLAG_UNUSED_0x36B                          0x36B //hoenn only flag
 #define FLAG_UNUSED_0x36C                           0x36C //hoenn only flag
 #define FLAG_UNUSED_0x36D                               0x36D //hoenn only flag
