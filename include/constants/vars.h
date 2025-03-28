@@ -95,18 +95,7 @@
 #define VAR_POKELOT_RND1                                 0x404B
 #define VAR_POKELOT_RND2                                 0x404C
 #define VAR_POKELOT_PRIZE_PLACE                          0x404D
-#define VAR_INTRO_STATE                                  0x404E // TODO Replace with other vars/flags
-// 0 = Barry at his house
-// 1 = Barry on Route 201
-// 2 = Given Pokemon by Prof. Rowan, given Running Shoes by Mom, Barry on Route 201
-// 3 = Seen Cyrus at Lake Verity, Barry leaves for Sandgem Town
-// 4 = Given Pokedex by Prof. Rowan, Rival roadblock on Route 202
-// 5 = Talked to Mom, given Parcel, Rival catch tutorial on Route 202
-// 6 = Rival + Looker in Jubilife
-// 7 = Barry in Jubilife Trainer School, Looker roadblock to Route 203
-// 8 = Parcel delivered, Poketch event in Jubilife, Looker roadblock to 203
-// 9 = Poketch obtained, Barry fight on Route 203,
-// 10 = 
+#define VAR_UNUSED_0x404E                                0x404E
 #define VAR_LOTAD_SIZE_RECORD                            0x404F
 #define VAR_LITTLEROOT_TOWN_STATE                        0x4050
 #define VAR_OLDALE_TOWN_STATE                            0x4051
@@ -176,6 +165,22 @@
 // 5 = Jubilife Trainers' School
 // 6 = Route 203
 // 7 = Outside Oreburgh Gym
+// Eterna City
+// Hearthome City 
+// Solaceon Town
+// Pastoria City
+// Canalave City (battle)
+// Canalave Library
+// Route 217
+// Acuity Lakefront
+// Lake Acuity
+// Spear Pillar
+// Sunyshore City
+// Pokemon League
+// Fight Area
+// Survival Area
+// Route 227
+// Resort Area
 #define VAR_LITTLEROOT_HOUSES_STATE_BRENDAN              0x408C
 #define VAR_LITTLEROOT_RIVAL_STATE                       0x408D
 #define VAR_BOARD_BRINEY_BOAT_STATE                      0x408E

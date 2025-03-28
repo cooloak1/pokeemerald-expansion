@@ -145,6 +145,7 @@ script TwinleafTown_EventScript_BarryExitHouse {
 	waitmovement(0)
 //	opendoor(3, 9)
 //	waitdooranim
+	clearflag(FLAG_HIDE_BARRY_TWINLEAF_TOWN)
 	addobject(4)
 	applymovement(OBJ_EVENT_ID_PLAYER, TwinleafTown_Movement_PlayerPushedSouth)
 	applymovement(4, TwinleafTown_Movement_PushPlayerSouth)
@@ -176,6 +177,8 @@ script TwinleafTown_EventScript_BarryExitHouse {
 	removeobject(4)
 //	closedoor(3, 9)
 //	waitdooranim
+	setflag(FLAG_BARRY_FORGOT_SOMETHING)
+	setflag(FLAG_HIDE_BARRY_TWINLEAF_TOWN)
 	releaseall
 	end
 

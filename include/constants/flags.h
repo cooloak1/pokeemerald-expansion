@@ -120,7 +120,7 @@
 #define FLAG_MOSSDEEP_GYM_SWITCH_3           0x66 //
 #define FLAG_MOSSDEEP_GYM_SWITCH_4           0x67 //
 
-#define FLAG_UNUSED_0x068                    0x68  // Unused Flag
+#define FLAG_BARRY_FORGOT_SOMETHING                    0x68  // Unused Flag
 
 #define FLAG_OCEANIC_MUSEUM_MET_REPORTER     0x69 // hoenn only flag
 #define FLAG_RECEIVED_HM_STRENGTH            0x6A
@@ -765,9 +765,9 @@
 #define FLAG_UNUSED_0x2CC                                           0x2CC
 #define FLAG_UNUSED_0x2CD                                           0x2CD
 #define FLAG_HIDE_MEW                                               0x2CE
-#define FLAG_UNUSED_0x2CF                                           0x2CF
+#define FLAG_HIDE_BARRY_BARRYS_HOUSE_2F                             0x2CF
 #define FLAG_HIDE_BARRY_TWINLEAF_TOWN                               0x2D0
-#define FLAG_UNUSED_0x2D1                                           0x2D1
+#define HIDE_BARRY_ROUTE_201                                        0x2D1
 #define FLAG_UNUSED_0x2D2                                           0x2D2
 #define FLAG_UNUSED_0x2D3                                           0x2D3
 #define FLAG_UNUSED_0x2D4                                           0x2D4

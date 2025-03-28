@@ -31,11 +31,11 @@ Route221_House_EventScript_LevelMan::
 	case 2, Route221_House_EventScript_LevelMan_5
 Route221_House_EventScript_LevelMan_1:
 # 21 "data/maps/Route221_House/scripts.pory"
-	buffernumberstring STR_VAR_1, VAR_ROUTE_221_HOUSE_LEVEL
-# 22 "data/maps/Route221_House/scripts.pory"
 	bufferitemname STR_VAR_2, VAR_ITEM_ID
-# 23 "data/maps/Route221_House/scripts.pory"
+# 22 "data/maps/Route221_House/scripts.pory"
 	goto_if_set FLAG_DAILY_ROUTE_221_LEVEL_RECEIVED_ITEM, Route221_House_EventScript_LevelMan_7
+# 26 "data/maps/Route221_House/scripts.pory"
+	buffernumberstring STR_VAR_1, VAR_ROUTE_221_HOUSE_LEVEL
 # 27 "data/maps/Route221_House/scripts.pory"
 	msgbox Route221_House_Text_SayTodaysLevel, MSGBOX_NPC
 # 28 "data/maps/Route221_House/scripts.pory"
@@ -64,7 +64,7 @@ Route221_House_EventScript_LevelMan_5:
 	goto Route221_House_EventScript_LevelMan_1
 
 Route221_House_EventScript_LevelMan_7:
-# 24 "data/maps/Route221_House/scripts.pory"
+# 23 "data/maps/Route221_House/scripts.pory"
 	msgbox Route221_House_Text_AlreadyReceivedItemToday, MSGBOX_NPC
 	goto Route221_House_EventScript_LevelMan_6
 
@@ -119,7 +119,7 @@ Route221_House_Text_SayTodaysLevel::
 	.string "...I saw it!\n"
 	.string "Today's number is {STR_VAR_1}!\p"
 	.string "Show me a Pokemon that's Level\n"
-	.string "{STR_VAR_1}.\n"
+	.string "{STR_VAR_1}.\l"
 	.string "If you can, I'll reward you.$"
 
 Route221_House_Text_PlayerHasTodaysLevel::

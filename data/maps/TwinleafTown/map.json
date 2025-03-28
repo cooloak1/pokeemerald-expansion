@@ -188,8 +188,8 @@
       "x": 3,
       "y": 10,
       "elevation": 0,
-      "var": "VAR_BARRY_STATE",
-      "var_value": "1",
+      "var": "FLAG_BARRY_FORGOT_SOMETHING",
+      "var_value": "0",
       "script": "TwinleafTown_EventScript_BarryExitHouse"
     }
   ],

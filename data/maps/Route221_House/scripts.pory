@@ -18,12 +18,12 @@ script Route221_House_EventScript_LevelMan {
         case 2:
             setvar(VAR_ITEM_ID, ITEM_FOCUS_SASH)
     }
-    buffernumberstring(STR_VAR_1, VAR_ROUTE_221_HOUSE_LEVEL)
     bufferitemname(STR_VAR_2, VAR_ITEM_ID)
     if(flag(FLAG_DAILY_ROUTE_221_LEVEL_RECEIVED_ITEM)) {
         msgbox(Route221_House_Text_AlreadyReceivedItemToday, MSGBOX_NPC)
     }
     else {
+        buffernumberstring(STR_VAR_1, VAR_ROUTE_221_HOUSE_LEVEL)
         msgbox(Route221_House_Text_SayTodaysLevel, MSGBOX_NPC)
         call(Route221_House_CheckPartyMonsForLevel)
         if(var(VAR_RESULT)) {
@@ -54,7 +54,7 @@ script Route221_House_CheckPartyMonsForLevel {
 }
 
 text Route221_House_Text_SayTodaysLevel {
-    format("...I saw it!\nToday's number is {STR_VAR_1}!\pShow me a Pokemon that's Level {STR_VAR_1}.\nIf you can, I'll reward you.")
+    format("...I saw it!\nToday's number is {STR_VAR_1}!\pShow me a Pokemon that's Level {STR_VAR_1}.\NIf you can, I'll reward you.")
 }
 
 text Route221_House_Text_PlayerHasTodaysLevel {
@@ -62,5 +62,5 @@ text Route221_House_Text_PlayerHasTodaysLevel {
 }
 
 text Route221_House_Text_AlreadyReceivedItemToday {
-    format("High-level Pokemon were once of low level\pLow-level Pokemon will not remain so, for they can only grow.\pThat's how it goes, youngster.\nCome again tomorrow.")
+    format("High-level Pokemon were once of low level\pLow-level Pokemon will not remain so, for they can only grow.\pThat's how it goes, youngster.\NCome again tomorrow.")
 }
