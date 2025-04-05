@@ -126,5 +126,7 @@ EventScript_ResetAllMapFlags::
 	setflag FLAG_HOENN_7
 	setflag FLAG_HOENN_8
 	setflag FLAG_HIDE_BARRY_TWINLEAF_TOWN
+	setflag FLAG_HIDE_BARRY_PLAYERS_HOUSE_2F
+	setflag HIDE_BARRY_ROUTE_201
 	call EventScript_ResetAllBerries
 	end

@@ -119,7 +119,7 @@ TwinleafTown_EventScript_BarryLookingForYouTrigger8::
 
 TwinleafTown_EventScript_BarryLookingForYouTrigger_Movement::
 # 76 "data/maps/TwinleafTown/scripts.pory"
-	lockall
+	lock
 # 77 "data/maps/TwinleafTown/scripts.pory"
 	applymovement 3, Common_Movement_ExclamationMark
 # 78 "data/maps/TwinleafTown/scripts.pory"
@@ -179,7 +179,7 @@ TwinleafTown_EventScript_BarryLookingForYouTrigger_Movement_11:
 # 122 "data/maps/TwinleafTown/scripts.pory"
 	waitmovement 0
 # 123 "data/maps/TwinleafTown/scripts.pory"
-	releaseall
+	release
 	end
 
 TwinleafTown_EventScript_BarryLookingForYouTrigger_Movement_3:
@@ -295,7 +295,7 @@ TwinleafTown_EventScript_Man_3:
 
 TwinleafTown_EventScript_BarryExitHouse::
 # 143 "data/maps/TwinleafTown/scripts.pory"
-	lockall
+	lock
 # 144 "data/maps/TwinleafTown/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
 # 145 "data/maps/TwinleafTown/scripts.pory"
@@ -357,7 +357,7 @@ TwinleafTown_EventScript_BarryExitHouse::
 # 181 "data/maps/TwinleafTown/scripts.pory"
 	setflag FLAG_HIDE_BARRY_TWINLEAF_TOWN
 # 182 "data/maps/TwinleafTown/scripts.pory"
-	releaseall
+	release
 	end
 
 

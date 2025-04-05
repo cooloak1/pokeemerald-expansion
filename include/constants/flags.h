@@ -765,10 +765,10 @@
 #define FLAG_UNUSED_0x2CC                                           0x2CC
 #define FLAG_UNUSED_0x2CD                                           0x2CD
 #define FLAG_HIDE_MEW                                               0x2CE
-#define FLAG_HIDE_BARRY_BARRYS_HOUSE_2F                             0x2CF
-#define FLAG_HIDE_BARRY_TWINLEAF_TOWN                               0x2D0
-#define HIDE_BARRY_ROUTE_201                                        0x2D1
-#define FLAG_UNUSED_0x2D2                                           0x2D2
+#define FLAG_HIDE_BARRY_PLAYERS_HOUSE_2F                            0x2CF
+#define FLAG_HIDE_BARRY_BARRYS_HOUSE_2F                             0x2D0
+#define FLAG_HIDE_BARRY_TWINLEAF_TOWN                               0x2D1
+#define HIDE_BARRY_ROUTE_201                                        0x2D2
 #define FLAG_UNUSED_0x2D3                                           0x2D3
 #define FLAG_UNUSED_0x2D4                                           0x2D4
 #define FLAG_UNUSED_0x2D5                                           0x2D5

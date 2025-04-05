@@ -1,21 +1,150 @@
 mapscripts TwinleafTown_PlayersHouse_2F_MapScripts {}
 
-text TwinleafTown_PlayersHouse_2F_Intro_1 {
+script TwinleafTown_PlayersHouse_2F_BarryEnter_Right {
+	setvar(VAR_TEMP_4, 0)
+	goto(TwinleafTown_PlayersHouse_2F_BarryEnter_Main)
+}
+
+script TwinleafTown_PlayersHouse_2F_BarryEnter_Down {
+	setvar(VAR_TEMP_4, 1)
+	goto(TwinleafTown_PlayersHouse_2F_BarryEnter_Main)
+}
+
+script TwinleafTown_PlayersHouse_2F_BarryEnter_Left {
+	setvar(VAR_TEMP_4, 2)
+	goto(TwinleafTown_PlayersHouse_2F_BarryEnter_Main)
+}
+
+script TwinleafTown_PlayersHouse_2F_BarryEnter_Main {
+	lock
+	clearflag(FLAG_HIDE_BARRY_PLAYERS_HOUSE_2F)
+	addobject(1)
+	applymovement(1, Common_Movement_ExclamationMark)
+	waitmovement(0)
+	delay(48)
+	msgbox(TwinleafTown_PlayersHouse_2F_Barry_1)
+	closemessage
+	applymovement(1, moves(
+		walk_fast_left
+		walk_fast_down
+	))
+	waitmovement(0)
+	switch(var(VAR_TEMP_4)) {
+		case 0:
+			applymovement(1, moves(
+				walk_fast_left
+			))
+		case 1:
+			applymovement(1, moves(
+				walk_fast_down
+				walk_fast_left * 2
+			))
+		case 2:
+			applymovement(1, moves(
+				walk_fast_left * 3
+			))
+	}
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(face_right))
+	waitmovement(1)
+	msgbox(TwinleafTown_PlayersHouse_2F_Barry_2)
+	closemessage
+	applymovement(1, Common_Movement_ExclamationMark)
+	waitmovement(0)
+	delay(48)
+	switch(var(VAR_TEMP_4)) {
+		case 0:
+			applymovement(1, moves(
+				walk_fast_down
+				walk_fast_left * 5
+			))
+		case 1:
+			applymovement(1, moves(
+				walk_fast_down
+				walk_fast_left * 4
+				walk_fast_up
+			))
+		case 2:
+			applymovement(1, moves(
+				walk_fast_down
+				walk_fast_left * 3
+			))
+	}
+	waitmovement(0)
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(face_left))
+	applymovement(1, moves(walk_fast_up))
+	waitmovement(0)
+	msgbox(TwinleafTown_PlayersHouse_2F_Barry_3)
+	closemessage
+	applymovement(1, moves(face_right))
+	waitmovement(0)
+	msgbox(TwinleafTown_PlayersHouse_2F_Barry_4)
+	closemessage
+	switch(var(VAR_TEMP_4)) {
+		case 0:
+			applymovement(1, moves(
+				walk_fast_right * 3
+				))
+		case 1:
+			applymovement(1, moves(
+				walk_fast_right
+				walk_fast_down
+				walk_fast_right
+			))
+		case 2:
+			applymovement(1, moves(walk_fast_right))
+	}
+	waitmovement(0)
+	msgbox(TwinleafTown_PlayersHouse_2F_Barry_5)
+	closemessage
+	switch(var(VAR_TEMP_4)) {
+		case 0:
+			applymovement(1, moves(
+				walk_fast_down
+				walk_fast_right * 2
+				walk_fast_up
+			))
+		case 1:
+			applymovement(1, moves(
+				walk_fast_up
+				walk_fast_right * 3
+			))
+		case 2:
+			applymovement(1, moves(
+				walk_fast_down
+				walk_fast_right * 4
+				walk_fast_up
+			))
+	}
+	waitmovement(0)
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(face_right))
+	applymovement(1, moves(
+		walk_fast_up
+		walk_fast_right * 2
+	))
+	waitmovement(0)
+	removeobject(1)
+	setflag(FLAG_HIDE_BARRY_PLAYERS_HOUSE_2F)
+	setvar(VAR_BARRY_STATE, 1)
+	release
+	end
+}
+
+text TwinleafTown_PlayersHouse_2F_Barry_1 {
 	format("Barry: There you are!")
 }
 
-text TwinleafTown_PlayersHouse_2F_Intro_2 {
+text TwinleafTown_PlayersHouse_2F_Barry_2 {
 	format("Hey, {PLAYER}!\nDid you just see the TV? Sure you did!\pProf. Rowan's that really important guy who studies Pokemon, right?\pThat means he must have lots and lots of Pokemon.\pSo, if we ask him, I bet he'd give us some Pokemon!")
 }
 
-text TwinleafTown_PlayersHouse_2F_Intro_3 {
+text TwinleafTown_PlayersHouse_2F_Barry_3 {
 	format("Oh, hey!\nIs this a new PC?!")
 }
 
-text TwinleafTown_PlayersHouse_2F_Intro_4 {
+text TwinleafTown_PlayersHouse_2F_Barry_4 {
 	format("Barry: Uh...\nWhere was I?")
 }
 
-text TwinleafTown_PlayersHouse_2F_Intro_5 {
+text TwinleafTown_PlayersHouse_2F_Barry_5 {
 	format("Oh, right, right! We're going to go see Prof. Rowan and get some Pokemon.\pI'll be waiting outside.\pOK, {PLAYER}? If you're late, I'm fining you ¥10 million!")
 }

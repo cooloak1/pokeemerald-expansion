@@ -73,7 +73,7 @@ script TwinleafTown_EventScript_BarryLookingForYouTrigger8 {
 }
 
 script TwinleafTown_EventScript_BarryLookingForYouTrigger_Movement {
-	lockall
+	lock
 	applymovement(3, Common_Movement_ExclamationMark)
 	waitmovement(0)
 	delay(48)
@@ -120,7 +120,7 @@ script TwinleafTown_EventScript_BarryLookingForYouTrigger_Movement {
 			applymovement(3, TwinleafTown_Movement_ReturnToPosition_8)
 	}
 	waitmovement(0)
-	releaseall
+	release
 	end
 }
 
@@ -140,7 +140,7 @@ script TwinleafTown_EventScript_Man {
 }
 
 script TwinleafTown_EventScript_BarryExitHouse {
-	lockall
+	lock
 	applymovement(OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp)
 	waitmovement(0)
 //	opendoor(3, 9)
@@ -179,7 +179,7 @@ script TwinleafTown_EventScript_BarryExitHouse {
 //	waitdooranim
 	setflag(FLAG_BARRY_FORGOT_SOMETHING)
 	setflag(FLAG_HIDE_BARRY_TWINLEAF_TOWN)
-	releaseall
+	release
 	end
 
 }
