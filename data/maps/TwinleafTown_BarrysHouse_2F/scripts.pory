@@ -1,4 +1,42 @@
-raw `
-TwinleafTown_BarrysHouse_2F_MapScripts::
-	.byte 0
-`
+mapscripts TwinleafTown_BarrysHouse_2F_MapScripts {
+	MAP_SCRIPT_ON_FRAME_TABLE [
+		VAR_BARRY_STATE, 1: TwinleafTown_BarrysHouse_2F_EventScript_Barry
+	]
+}
+
+script TwinleafTown_BarrysHouse_2F_EventScript_Barry {
+	lock
+	msgbox(TwinleafTown_BarrysHouse_2F_Text_Barry1)
+	closemessage
+	applymovement(1, moves(walk_in_place_faster_left))
+	applymovement(1, Common_Movement_ExclamationMark)
+	waitmovement(0)
+	delay(48)
+	msgbox(TwinleafTown_BarrysHouse_2F_Text_Barry2)
+	closemessage
+	applymovement(1, moves(
+		walk_fast_left * 4
+		walk_fast_up
+	))
+	waitmovement(0)
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(
+		walk_down
+		walk_in_place_up
+	))
+	applymovement(1, moves(
+		walk_fast_left * 2
+	))
+	waitmovement(0)
+	removeobject(1)
+	setflag(FLAG_HIDE_BARRY_BARRYS_HOUSE_2F)
+	clearflag(FLAG_HIDE_BARRY_ROUTE_201)
+	setvar(VAR_BARRY_STATE, 2)
+}
+
+text TwinleafTown_BarrysHouse_2F_Text_Barry1 {
+	format("Barry: ...I'd better take my Bag and Journal, too...")
+}
+
+text TwinleafTown_BarrysHouse_2F_Text_Barry2 {
+	format("Oh, hey, {PLAYER}!\pI'll be waiting on the road!\NIt's a ¥10 million fine if you're late!")
+}

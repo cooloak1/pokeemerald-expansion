@@ -768,10 +768,10 @@
 #define FLAG_HIDE_BARRY_PLAYERS_HOUSE_2F                            0x2CF
 #define FLAG_HIDE_BARRY_BARRYS_HOUSE_2F                             0x2D0
 #define FLAG_HIDE_BARRY_TWINLEAF_TOWN                               0x2D1
-#define HIDE_BARRY_ROUTE_201                                        0x2D2
-#define FLAG_UNUSED_0x2D3                                           0x2D3
-#define FLAG_UNUSED_0x2D4                                           0x2D4
-#define FLAG_UNUSED_0x2D5                                           0x2D5
+#define FLAG_HIDE_BARRY_ROUTE_201                                   0x2D2
+#define FLAG_HIDE_PROF_ROWAN_ROUTE_201                              0x2D3
+#define FLAG_HIDE_ROWANS_BAG_ROUTE_201                              0x2D4
+#define FLAG_HIDE_RIVAL_ROUTE_201                                   0x2D5
 #define FLAG_UNUSED_0x2D6                                           0x2D6
 #define FLAG_UNUSED_0x2D7                                           0x2D7
 #define FLAG_UNUSED_0x2D8                                           0x2D8

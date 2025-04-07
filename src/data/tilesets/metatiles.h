@@ -258,3 +258,6 @@ const u16 gMetatileAttributes_Veilstone[] = INCBIN_U16("data/tilesets/secondary/
 
 const u16 gMetatiles_Gate[] = INCBIN_U16("data/tilesets/secondary/gate/metatiles.bin");
 const u16 gMetatileAttributes_Gate[] = INCBIN_U16("data/tilesets/secondary/gate/metatile_attributes.bin");
+
+const u16 gMetatiles_BarrysRoom[] = INCBIN_U16("data/tilesets/secondary/barrys_room/metatiles.bin");
+const u16 gMetatileAttributes_BarrysRoom[] = INCBIN_U16("data/tilesets/secondary/barrys_room/metatile_attributes.bin");

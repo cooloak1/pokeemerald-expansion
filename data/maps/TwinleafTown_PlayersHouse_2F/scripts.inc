@@ -138,6 +138,8 @@ TwinleafTown_PlayersHouse_2F_BarryEnter_Main_16:
 # 127 "data/maps/TwinleafTown_PlayersHouse_2F/scripts.pory"
 	setvar VAR_BARRY_STATE, 1
 # 128 "data/maps/TwinleafTown_PlayersHouse_2F/scripts.pory"
+	clearflag FLAG_HIDE_BARRY_BARRYS_HOUSE_2F
+# 129 "data/maps/TwinleafTown_PlayersHouse_2F/scripts.pory"
 	release
 	end
 
@@ -375,11 +377,11 @@ TwinleafTown_PlayersHouse_2F_BarryEnter_Main_Movement_16:
 	step_end
 
 TwinleafTown_PlayersHouse_2F_Barry_1::
-# 132 "data/maps/TwinleafTown_PlayersHouse_2F/scripts.pory"
+# 133 "data/maps/TwinleafTown_PlayersHouse_2F/scripts.pory"
 	.string "Barry: There you are!$"
 
 TwinleafTown_PlayersHouse_2F_Barry_2::
-# 136 "data/maps/TwinleafTown_PlayersHouse_2F/scripts.pory"
+# 137 "data/maps/TwinleafTown_PlayersHouse_2F/scripts.pory"
 	.string "Hey, {PLAYER}!\n"
 	.string "Did you just see the TV? Sure you did!\p"
 	.string "Prof. Rowan's that really important guy\n"
@@ -390,17 +392,17 @@ TwinleafTown_PlayersHouse_2F_Barry_2::
 	.string "Pokemon!$"
 
 TwinleafTown_PlayersHouse_2F_Barry_3::
-# 140 "data/maps/TwinleafTown_PlayersHouse_2F/scripts.pory"
+# 141 "data/maps/TwinleafTown_PlayersHouse_2F/scripts.pory"
 	.string "Oh, hey!\n"
 	.string "Is this a new PC?!$"
 
 TwinleafTown_PlayersHouse_2F_Barry_4::
-# 144 "data/maps/TwinleafTown_PlayersHouse_2F/scripts.pory"
+# 145 "data/maps/TwinleafTown_PlayersHouse_2F/scripts.pory"
 	.string "Barry: Uh...\n"
 	.string "Where was I?$"
 
 TwinleafTown_PlayersHouse_2F_Barry_5::
-# 148 "data/maps/TwinleafTown_PlayersHouse_2F/scripts.pory"
+# 149 "data/maps/TwinleafTown_PlayersHouse_2F/scripts.pory"
 	.string "Oh, right, right! We're going to go see\n"
 	.string "Prof. Rowan and get some Pokemon.\p"
 	.string "I'll be waiting outside.\p"

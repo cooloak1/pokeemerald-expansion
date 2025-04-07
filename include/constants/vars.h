@@ -159,8 +159,7 @@
 #define VAR_BARRY_STATE                                  0x408B
 // 0 = Entering player's room
 // 1 = In his house (waiting for you/forgot something)
-// 2 = Route 201 (entering tall grass)
-// 3 = Route 201 (going to lake verity)
+// 2 = Route 201 (entering tall grass/going to lake verity)
 // 4 = Sandgem Town
 // 5 = Jubilife Trainers' School
 // 6 = Route 203

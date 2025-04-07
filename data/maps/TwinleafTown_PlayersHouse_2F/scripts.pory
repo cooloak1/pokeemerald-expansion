@@ -125,6 +125,7 @@ script TwinleafTown_PlayersHouse_2F_BarryEnter_Main {
 	removeobject(1)
 	setflag(FLAG_HIDE_BARRY_PLAYERS_HOUSE_2F)
 	setvar(VAR_BARRY_STATE, 1)
+	clearflag(FLAG_HIDE_BARRY_BARRYS_HOUSE_2F)
 	release
 	end
 }

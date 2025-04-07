@@ -1,7 +1,192 @@
-raw `
-Route201_MapScripts::
-	.byte 0
-`
+const LOCALID_BARRY = 5
+const LOCALID_ROWAN = 6
+const LOCALID_ROWANS_BAG = 7
+const LOCALID_RIVAL = 8
+
+mapscripts Route201_MapScripts {
+	MAP_SCRIPT_ON_TRANSITION {
+		call(Common_EventScript_SetupRivalGfxId)
+	}
+}
+
+script Route201_EventScript_BarryTrigger_1 {
+	setvar(VAR_TEMP_4, 0)
+	goto(Route201_EventScript_ChooseBarryDialogue)
+}
+
+script Route201_EventScript_BarryTrigger_2 {
+	setvar(VAR_TEMP_4, 1)
+	goto(Route201_EventScript_ChooseBarryDialogue)
+}
+
+script Route201_EventScript_BarryTrigger_3 {
+	setvar(VAR_TEMP_4, 2)
+	goto(Route201_EventScript_ChooseBarryDialogue)
+}
+
+script Route201_EventScript_BarryTrigger_4 {
+	setvar(VAR_TEMP_4, 3)
+	goto(Route201_EventScript_ChooseBarryDialogue)
+}
+
+script Route201_EventScript_ChooseBarryDialogue {
+	if(flag(FLAG_SYS_POKEMON_GET)) {
+		goto(Route201_EventScript_BarryGoingToLakeVerity)
+	}
+	else {
+		goto(Route201_EventScript_BarryGoingToSandgem)
+	}
+}
+
+script Route201_EventScript_BarryGoingToLakeVerity {
+
+}
+
+script Route201_EventScript_BarryGoingToSandgem {
+	lock
+	applymovement(LOCALID_BARRY, Common_Movement_ExclamationMark)
+	waitmovement(0)
+	delay(48)
+	msgbox(Route201_Text_Barry_TooSlow)
+	closemessage
+	call(Route201_EventScript_BarryMoveToPlayer)
+	msgbox(Route201_Text_Barry_LetsGoToRowansLab)
+	closemessage
+	call(Route201_EventScript_BarryMovePlayerToTallGrass)
+	msgbox(Route201_Text_Barry_DontWorryTallGrass)
+	closemessage
+	applymovement(LOCALID_BARRY, moves(
+		walk_left
+		walk_in_place_down
+	))
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_in_place_up))
+	waitmovement(LOCALID_BARRY)
+	msgbox(Route201_Text_Barry_RushTallGrass)
+	closemessage
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_in_place_left))
+	applymovement(LOCALID_BARRY, moves(
+		walk_left * 3
+		walk_in_place_right
+	))
+	waitmovement(0)
+	msgbox(Route201_Text_Barry_HereGoes)
+	closemessage
+	applymovement(LOCALID_BARRY, moves(
+		delay_16
+		walk_fast_right * 2
+	))
+	waitmovement(0)
+	msgbox(Route201_Text_ProfRowan_HoldIt)
+	closemessage
+	applymovement(LOCALID_BARRY, Common_Movement_ExclamationMark)
+	applymovement(OBJ_EVENT_ID_PLAYER, Common_Movement_ExclamationMark)
+	waitmovement(0)
+	delay(48)
+	clearflag(FLAG_HIDE_PROF_ROWAN_ROUTE_201)
+	addobject(LOCALID_ROWAN)
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_in_place_left))
+	applymovement(LOCALID_BARRY, walk_in_place_left)
+	applymovement(LOCALID_ROWAN, walk_right * 7)
+	waitmovement(0)
+	msgbox(Route201_Text_ProfRowan_YouDontHavePokemon)
+	closemessage
+	
+	release
+}
+
+script Route201_EventScript_BarryMoveToPlayer {
+	switch (var(VAR_TEMP_4)) {
+		case 0:
+			applymovement(LOCALID_BARRY, moves(
+				walk_fast_down
+				walk_fast_left * 2
+				walk_in_place_faster_down
+			))
+			waitmovement(0)
+		case 1:
+			applymovement(LOCALID_BARRY, moves(
+				walk_fast_down
+				walk_fast_left
+				walk_in_place_faster_down
+			))
+			waitmovement(0)
+		case 2:
+			applymovement(LOCALID_BARRY, moves(
+				walk_fast_down
+			))
+			waitmovement(0)
+		case 3:
+			applymovement(LOCALID_BARRY, moves(
+				walk_fast_down
+				walk_fast_right
+				walk_in_place_faster_down
+			))
+	}
+	return
+}
+
+script Route201_EventScript_BarryMovePlayerToTallGrass {
+	switch(var(VAR_TEMP_4)) {
+		case 0:
+			applymovement(OBJ_EVENT_ID_PLAYER, moves(
+				walk_up * 2
+				walk_right * 4
+				walk_up
+				walk_in_place_right
+			))
+			applymovement(LOCALID_BARRY, moves(
+				walk_up
+				walk_right * 4
+				walk_up * 2
+				walk_right
+			))
+			waitmovement(0)
+		case 1:
+			applymovement(OBJ_EVENT_ID_PLAYER, moves(
+				walk_up * 2
+				walk_right * 3
+				walk_up
+				walk_in_place_right
+			))
+			applymovement(LOCALID_BARRY, moves(
+				walk_up
+				walk_right * 3
+				walk_up * 2
+				walk_right
+			))
+			waitmovement(0)
+		case 2:
+			applymovement(OBJ_EVENT_ID_PLAYER, moves(
+				walk_up * 2
+				walk_right * 2
+				walk_up
+				walk_in_place_right
+			))
+			applymovement(LOCALID_BARRY, moves(
+				walk_up
+				walk_right * 2
+				walk_up * 2
+				walk_right
+			))
+			waitmovement(0)
+		case 3:
+			applymovement(OBJ_EVENT_ID_PLAYER, moves(
+				walk_up * 2
+				walk_right
+				walk_up
+				walk_in_place_right
+			))
+			applymovement(LOCALID_BARRY, moves(
+				walk_up
+				walk_right
+				walk_up * 2
+				walk_right
+			))
+			waitmovement(0)
+	}
+	return
+}
+
 script Route201_EventScript_NPC1 {
 	lock
 	faceplayer
@@ -88,4 +273,48 @@ text Route201_Text_RouteSignTwinleaf {
 
 text Route201_Text_PokemartLady_AlreadyGaveItem {
 	format("You can find a Pokemon Mart in cities and most major towns.")
+}
+
+text Route201_Text_Barry_TooSlow {
+	"Too slow!"
+}
+
+text Route201_Text_Barry_LetsGoToRowansLab {
+	format("Barry: All right!\nLet's get moving to Prof. Rowan's lab.")
+}
+
+text Route201_Text_Barry_DontWorryTallGrass {
+	format("Barry: ...\n...\pWhat?\nDon't go into the grass, right?\lNo worries! No problem!\pIt doesn't matter that we don't have any Pokemon!\pTrust me on this one.\nI've got an idea!\pNow listen. You know how wild Pokemon jump out when you go into tall grass?")
+}
+
+text Route201_Text_Barry_RushTallGrass {
+	format("So what you do is, you scoot over to the next piece of grass before any wild Pokemon can appear!\pIf we just keep dashing, we can get to Sandgem Town without running into wild Pokemon!\pOK, stick with me!")
+}
+
+text Route201_Text_Barry_HereGoes {
+	format("OK, here goes!\pOn your marks...")
+}
+
+text Route201_Text_ProfRowan_HoldIt {
+	"HOLD IT!"
+}
+
+text Route201_Text_ProfRowan_YouDontHavePokemon {
+	format("Professor: You two don't seem to have any Pokemon between you?\pThen, what is the meaning of going into the tall grass?")
+}
+
+text Route201_Text_Barry_Silence {
+	"Barry: ...\n..."
+}
+
+text Route201_Text_ProfRowan_Silence {
+	"Professor: ...\n...\p...\n..."
+}
+
+text Route201_Text_Barry_ThisIsProfRowan {
+	format("Barry: Hey, {PLAYER}.\nThis old guy...\pIt's Prof. Rowan, isn't it?\nWhat's he doing here...?")
+}
+
+text Route201_Text_ProfRowan_TheyWantedPokemonHmm {
+	format("Professor: ...\n...\pThey tried to go into the tall grass because they wanted Pokemon...\pHmm...\nWhat to do...?\pTheir world would surely change if they were to meet Pokemon...\pIs it right for me to put them on that path...?\p...\n...")
 }

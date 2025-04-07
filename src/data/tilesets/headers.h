@@ -1012,3 +1012,14 @@ const struct Tileset gTileset_Gate =
     .metatileAttributes = gMetatileAttributes_Gate,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_BarrysRoom =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_BarrysRoom,
+    .palettes = gTilesetPalettes_BarrysRoom,
+    .metatiles = gMetatiles_BarrysRoom,
+    .metatileAttributes = gMetatileAttributes_BarrysRoom,
+    .callback = NULL,
+};

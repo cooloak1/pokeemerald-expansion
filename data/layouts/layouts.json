@@ -4495,9 +4495,9 @@
       "id": "LAYOUT_TWINLEAF_TOWN_BARRYS_HOUSE_2F",
       "name": "TwinleafTown_BarrysHouse_2F_Layout",
       "width": 10,
-      "height": 10,
+      "height": 8,
       "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_GenericHouse",
+      "secondary_tileset": "gTileset_BarrysRoom",
       "border_filepath": "data/layouts/TwinleafTown_BarrysHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/TwinleafTown_BarrysHouse_2F/map.bin"
     },

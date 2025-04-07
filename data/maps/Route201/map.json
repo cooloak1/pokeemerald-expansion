@@ -32,11 +32,11 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_GIRL_2",
-      "x": 25,
+      "x": 26,
       "y": 17,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
-      "movement_range_x": 2,
+      "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
@@ -81,13 +81,127 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route201_EventScript_NPC3",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_WALLY",
+      "x": 14,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_BARRY_ROUTE_201"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_PROF_BIRCH",
+      "x": 4,
+      "y": 17,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_PROF_ROWAN_ROUTE_201"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BIRCHS_BAG",
+      "x": 14,
+      "y": 18,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_ROWANS_BAG_ROUTE_201"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_VAR_0",
+      "x": 4,
+      "y": 17,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_RIVAL_ROUTE_201"
     }
   ],
   "warp_events": [
 
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 21,
+      "elevation": 0,
+      "var": "FLAG_HIDE_BARRY_ROUTE_201",
+      "var_value": "0",
+      "script": "Route201_EventScript_BarryTrigger_1"
+    },
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 21,
+      "elevation": 0,
+      "var": "FLAG_HIDE_BARRY_ROUTE_201",
+      "var_value": "0",
+      "script": "Route201_EventScript_BarryTrigger_2"
+    },
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 21,
+      "elevation": 0,
+      "var": "FLAG_HIDE_BARRY_ROUTE_201",
+      "var_value": "0",
+      "script": "Route201_EventScript_BarryTrigger_3"
+    },
+    {
+      "type": "trigger",
+      "x": 15,
+      "y": 21,
+      "elevation": 0,
+      "var": "FLAG_HIDE_BARRY_ROUTE_201",
+      "var_value": "0",
+      "script": "Route201_EventScript_BarryTrigger_4"
+    },
+    {
+      "type": "trigger",
+      "x": 15,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 16,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 17,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "NULL"
+    }
   ],
   "bg_events": [
     {
@@ -100,7 +214,7 @@
     },
     {
       "type": "sign",
-      "x": 10,
+      "x": 11,
       "y": 20,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
