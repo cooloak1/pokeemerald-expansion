@@ -71,9 +71,14 @@ script Route201_EventScript_BarryGoingToSandgem {
 	waitmovement(0)
 	msgbox(Route201_Text_Barry_HereGoes)
 	closemessage
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(
+		delay_16
+		delay_8
+		walk_in_place_up
+		))
 	applymovement(LOCALID_BARRY, moves(
 		delay_16
-		walk_fast_right * 2
+		walk_fast_right * 3
 	))
 	waitmovement(0)
 	msgbox(Route201_Text_ProfRowan_HoldIt)
@@ -85,13 +90,225 @@ script Route201_EventScript_BarryGoingToSandgem {
 	clearflag(FLAG_HIDE_PROF_ROWAN_ROUTE_201)
 	addobject(LOCALID_ROWAN)
 	applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_in_place_left))
-	applymovement(LOCALID_BARRY, walk_in_place_left)
-	applymovement(LOCALID_ROWAN, walk_right * 7)
+	applymovement(LOCALID_BARRY, moves(walk_in_place_left))
+	applymovement(LOCALID_ROWAN, moves(walk_right * 7))
 	waitmovement(0)
 	msgbox(Route201_Text_ProfRowan_YouDontHavePokemon)
+	msgbox(Route201_Text_Barry_Silence)
+	msgbox(Route201_Text_ProfRowan_Silence)
 	closemessage
-	
+	applymovement(LOCALID_BARRY, moves(walk_in_place_down))
+	waitmovement(0)
+	msgbox(Route201_Text_Barry_ThisIsProfRowan)
+	closemessage
+	applymovement(LOCALID_BARRY, moves(walk_in_place_left))
+	applymovement(LOCALID_ROWAN, moves(
+		walk_left * 3
+	))
+	waitmovement(0)
+	msgbox(Route201_Text_ProfRowan_TheyWantedPokemonHmm)
+	closemessage
+	delay(48)
+	applymovement(LOCALID_ROWAN, moves(
+		walk_right * 3
+	))
+	waitmovement(0)
+	msgbox(Route201_Text_ProfRowan_YouTwoLovePokemon, MSGBOX_YESNO)
+	closemessage
+	while(var(VAR_RESULT) == FALSE) {
+		applymovement(LOCALID_BARRY, moves(walk_in_place_down))
+		waitmovement(0)
+		msgbox(Route201_Text_Barry_WhoaHoldUp)
+		closemessage
+		applymovement(LOCALID_BARRY, moves(walk_in_place_left))
+		waitmovement(0)
+		msgbox(Route201_Text_ProfRowan_IWillAskAgain, MSGBOX_YESNO)
+		closemessage
+	}
+	closemessage
+	applymovement(LOCALID_BARRY, moves(walk_in_place_left))
+	waitmovement(0)
+	msgbox(Route201_Text_Barry_ILovePokemonToo)
+	msgbox(Route201_Text_ProfRowan_IWillAskAgain)
+	applymovement(LOCALID_BARRY, moves(walk_in_place_left))
+	waitmovement(0)
+	msgbox(Route201_Text_Barry_AskAHundredTimes)
+	closemessage
+	applymovement(LOCALID_BARRY, moves(walk_in_place_down))
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(
+		delay_4
+		walk_in_place_up
+	))
+	waitmovement(0)
+	msgbox(Route201_Text_Barry_RightPlayer, MSGBOX_YESNO)
+	while(var(VAR_RESULT) == FALSE)
+	{
+		msgbox(Route201_Text_Barry_ThatJokesGettingOld)
+		closemessage
+		applymovement(LOCALID_BARRY, moves(walk_in_place_left))
+		waitmovement(0)
+		msgbox(Route201_Text_Barry_AskAHundredTimes)
+		closemessage
+		applymovement(LOCALID_BARRY, moves(walk_in_place_down))
+		waitmovement(0)
+		msgbox(Route201_Text_Barry_RightPlayer, MSGBOX_YESNO)
+	}
+	msgbox(Route201_Text_ProfRowan_ItWorriesMe)
+	closemessage
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_in_place_left))
+	applymovement(LOCALID_BARRY, moves(walk_in_place_left))
+	waitmovement(0)
+	msgbox(Route201_Text_Barry_GivePlayerPokemonInstead)
+	msgbox(Route201_Text_ProfRowan_VeryWellThen)
+	closemessage
+	applymovement(LOCALID_ROWAN, moves(
+		walk_in_place_left
+		delay_16 * 3
+		walk_in_place_right
+	))
+	waitmovement(0)
+	clearflag(FLAG_HIDE_RIVAL_ROUTE_201)
+	addobject(LOCALID_RIVAL)
+	applymovement(LOCALID_RIVAL, moves(
+		delay_16
+		walk_right * 6
+	))
+	waitmovement(0)
+	if(checkplayergender == MALE) {
+		msgbox(Route201_Text_Dawn_ForgotBriefcase)
+	} else {
+		msgbox(Route201_Text_Lucas_ForgotBriefcase)
+	}
+	closemessage
+	applymovement(LOCALID_ROWAN, moves(walk_in_place_left))
+	waitmovement(0)
+	clearflag(FLAG_HIDE_ROWANS_BAG_ROUTE_201)
+	addobject(LOCALID_ROWANS_BAG)
+	if(checkplayergender == MALE) {
+		msgbox(Route201_Text_Dawn_IsSomethingWrong)
+	} else {
+		msgbox(Route201_Text_Lucas_IsSomethingWrong)
+	}
+	msgbox(Route201_Text_ProfRowan_ThereItIs_EntrustPokemon)
+	closemessage
+	applymovement(LOCALID_RIVAL, moves(walk_in_place_right))
+	waitmovement(0)
+	if(checkplayergender == MALE){
+		msgbox(Route201_Text_Dawn_AreYouSureThosePokemon)
+	} else {
+		msgbox(Route201_Text_Lucas_AreYouSureThosePokemon)
+	}
+	msgbox(Route201_Text_ProfRowan_WeExistSideBySide)
+	closemessage
+	applymovement(LOCALID_ROWAN, moves(walk_in_place_right))
+	waitmovement(0)
+	msgbox(Route201_Text_ProfRowan_GoOnChooseAPokemon)
+	closemessage
+	applymovement(LOCALID_BARRY, moves(walk_in_place_left))
+	waitmovement(0)
+	msgbox(Route201_Text_Barry_ICantBelieveIt)
+	closemessage
+	applymovement(LOCALID_BARRY, moves(walk_in_place_down))
+	waitmovement(0)
+	msgbox(Route201_Text_Barry_YouShouldPickFirst)
+	closemessage
 	release
+	end
+}
+
+script Route201_EventScript_BarryWaiting {
+	msgbox(Route201_Text_Barry_TalkedTo_YouShouldPickFirst, MSGBOX_NPC)
+}
+
+script Route201_EventScript_ProfRowanWaiting {
+	msgbox(Route201_Text_ProfRowan_TalkedTo_GoOnChooseAPokemon, MSGBOX_NPC)
+}
+
+script Route201_EventScript_ProfRowansBriefcase {
+	lock
+	setflag(FLAG_SYS_POKEMON_GET)
+	fadescreen(FADE_TO_BLACK)
+	removeobject(LOCALID_ROWANS_BAG)
+	special(ChooseStarter)
+	waitstate
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_in_place_up))
+	applymovement(LOCALID_BARRY, moves(face_left))
+	applymovement(LOCALID_ROWAN, moves(walk_in_place_down))
+	waitmovement(0)
+	switch(var(VAR_STARTER_MON)) {
+		case 0:
+			bufferspeciesname(STR_VAR_1, SPECIES_CHIMCHAR)
+		case 1:
+			bufferspeciesname(STR_VAR_1, SPECIES_PIPLUP)
+		case 2:
+			bufferspeciesname(STR_VAR_1, SPECIES_TURTWIG)
+	}
+	msgbox(Route201_Text_Barry_IChooseYou)
+	msgbox(Route201_Text_ProfRowan_ChosenGoodPokemon)
+	applymovement(LOCALID_BARRY, moves(
+		walk_up
+		walk_in_place_down
+		delay_16 * 2
+		walk_in_place_right
+	))
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(
+		delay_16 * 2
+		walk_in_place_right
+	))
+	applymovement(LOCALID_ROWAN, moves(
+		delay_16 * 2
+		walk_right * 8
+	))
+	waitmovement(0)
+	removeobject(LOCALID_ROWAN)
+	setflag(FLAG_HIDE_PROF_ROWAN_ROUTE_201)
+	if(checkplayergender == MALE) {
+		msgbox(Route201_Text_Dawn_WaitForMe)
+	} else {
+		msgbox(Route201_Text_Lucas_WaitForMe)
+	}
+	closemessage
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_in_place_up))
+	applymovement(LOCALID_RIVAL, moves(walk_right))
+	waitmovement(0)
+	if(checkplayergender == MALE) {
+		msgbox(Route201_Text_Dawn_Sorry)
+	} else {
+		msgbox(Route201_Text_Lucas_Sorry)
+	}
+	closemessage
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(
+		delay_16
+		walk_in_place_right
+	))
+	applymovement(LOCALID_RIVAL, moves(
+		walk_right * 9
+	))
+	waitmovement(0)
+	removeobject(LOCALID_RIVAL)
+	setflag(FLAG_HIDE_RIVAL_ROUTE_201)
+	delay(64)
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(
+		delay_16
+		walk_in_place_up
+	))
+	applymovement(LOCALID_BARRY, moves(
+		walk_in_place_down
+		delay_16 * 3
+		walk_in_place_fast_down * 8
+		walk_fast_left
+		walk_fast_down
+	))
+	waitmovement(0)
+	msgbox(Route201_Text_Barry_WeBothHavePokemon, MSGBOX_YESNO)
+	while(var(VAR_RESULT) == FALSE) {
+		msgbox(Route201_Text_Barry_DontBeThatWay)
+		msgbox(Route201_Text_Barry_WeBothHavePokemon, MSGBOX_YESNO)
+	}
+	msgbox(Route201_Text_Barry_Challenge)
+	closemessage
+	release
+	end
 }
 
 script Route201_EventScript_BarryMoveToPlayer {
@@ -100,14 +317,14 @@ script Route201_EventScript_BarryMoveToPlayer {
 			applymovement(LOCALID_BARRY, moves(
 				walk_fast_down
 				walk_fast_left * 2
-				walk_in_place_faster_down
+				walk_in_place_down
 			))
 			waitmovement(0)
 		case 1:
 			applymovement(LOCALID_BARRY, moves(
 				walk_fast_down
 				walk_fast_left
-				walk_in_place_faster_down
+				walk_in_place_down
 			))
 			waitmovement(0)
 		case 2:
@@ -119,8 +336,10 @@ script Route201_EventScript_BarryMoveToPlayer {
 			applymovement(LOCALID_BARRY, moves(
 				walk_fast_down
 				walk_fast_right
-				walk_in_place_faster_down
+				walk_in_place_down
+			
 			))
+			waitmovement(0)
 	}
 	return
 }
@@ -188,10 +407,7 @@ script Route201_EventScript_BarryMovePlayerToTallGrass {
 }
 
 script Route201_EventScript_NPC1 {
-	lock
-	faceplayer
 	msgbox(Route201_Text_NPC1, MSGBOX_NPC)
-	release
 	end
 }
 
@@ -237,6 +453,30 @@ script Route201_EventScript_RouteSignSandgem {
 
 script Route201_EventScript_TrainerTipsSign {
 	msgbox(Route201_Text_TrainerTipsSign, MSGBOX_SIGN)
+}
+
+script Route201_EventScript_BriefcaseTrigger_1 {
+	setvar(VAR_TEMP_4, 0)
+	goto(Route201_EventScript_BriefcasePushback)
+}
+
+script Route201_EventScript_BriefcaseTrigger_2 {
+	setvar(VAR_TEMP_4, 1)
+	goto(Route201_EventScript_BriefcasePushback)
+}
+
+script Route201_EventScript_BriefcasePushback {
+	applymovement(LOCALID_BARRY, moves(walk_in_place_down))
+	waitmovement(0)
+	msgbox(Route201_Text_Barry_OpenTheBriefcase)
+	closemessage
+	if(var(VAR_TEMP_4) == 1) {
+		applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_left))
+	}
+	else {
+		applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_up))
+	}
+	waitmovement(0)
 }
 
 text Route201_Text_NPC1 {
@@ -317,4 +557,144 @@ text Route201_Text_Barry_ThisIsProfRowan {
 
 text Route201_Text_ProfRowan_TheyWantedPokemonHmm {
 	format("Professor: ...\n...\pThey tried to go into the tall grass because they wanted Pokemon...\pHmm...\nWhat to do...?\pTheir world would surely change if they were to meet Pokemon...\pIs it right for me to put them on that path...?\p...\n...")
+}
+
+text Route201_Text_ProfRowan_YouTwoLovePokemon {
+	format("You two.\nYou truly love Pokemon, do you?")
+}
+
+text Route201_Text_Barry_WhoaHoldUp {
+	format("Barry: Whoa, hold up!\nYou're not making any sense here!")
+}
+
+text Route201_Text_ProfRown_IDidntQuiteCatchThat {
+	format("Professor: Er-hem!\pI didn't quite catch that, so I will ask you again.\pYou two.\nYou truly love Pokemon, do you?")
+}
+
+text Route201_Text_Barry_ILovePokemonToo {
+	format("Barry: Me too!\nI love Pokemon, too!")
+}
+
+text Route201_Text_ProfRowan_IWillAskAgain {
+	format("Professor: I will ask you once again.\pYou two.\nYou truly love Pokemon, do you?")
+}
+
+text Route201_Text_Barry_AskAHundredTimes {
+	format("Barry: What?!\nYou can ask a hundred times!\lThe answer will never change!\pWe'll both answer a hundred times, we love Pokemon!")
+}
+
+text Route201_Text_Barry_RightPlayer {
+	"Right, {PLAYER}?"
+}
+
+text Route201_Text_Barry_ThatJokesGettingOld {
+	format("Barry:...\nThat joke's getting old!")
+}
+
+text Route201_Text_ProfRowan_ItWorriesMe {
+	format("Professor: ...A pair of reckless kids who foolishly try to enter tall grass without Pokemon of their own...?\pIt worries me what people like that would do with Pokemon.")
+}
+
+text Route201_Text_Barry_GivePlayerPokemonInstead {
+	format("Barry: ...Uh...\nWell, I, uh...\p...\n...\pWell, then forget about me, but give a Pokemon to my friend here!\pI mean, it was me who tried to go into the tall grass and all...")
+}
+
+text Route201_Text_ProfRowan_VeryWellThen {
+	format("Professor: !\pHow big of you!\pVery well, then!\nI will entrust you two with Pokemon!\pI apologize for putting you through that exercise.\pHowever!\pYou must promise me that you will never recklessly endanger yourselves again.\pNow, then...\pHm?\nNow, where...?")
+}
+
+text Route201_Text_Dawn_ForgotBriefcase {
+	format("Dawn: Professor Rowan.\pYou left your briefcase at the lake!")
+}
+
+text Route201_Text_Dawn_IsSomethingWrong {
+	format("Oh?\nIs something wrong here?")
+}
+
+text Route201_Text_Lucas_ForgotBriefcase {
+	format("Lucas: Professor Rowan!\pYou left your briefcase behind at the lake.")
+}
+
+text Route201_Text_Lucas_IsSomethingWrong {
+	format("Is something wrong here?")
+}
+
+text Route201_Text_ProfRowan_ThereItIs_EntrustPokemon {
+	format("Rowan: Ah, there it is!\n{RIVAL}, nice work.\pWhat I was about to do was to entrust these two with their own Pokemon.")
+}
+
+text Route201_Text_Dawn_AreYouSureThosePokemon {
+	format("Dawn: Pardon?\pThose Pokemon are hard to replace. Are you sure about giving them away?")
+}
+
+text Route201_Text_Lucas_AreYouSureThosePokemon {
+	format("Lucas: Wha...?\pThose Pokemon are crucial. You're giving them away?")
+}
+
+text Route201_Text_ProfRowan_WeExistSideBySide {
+	format("Rowan: Hm!\pWe exist side by side with Pokemon.\pThere comes a time when people should meet Pokemon.\pThere is a world that should be explored together.\pFor them, today is that time.\nThe place, right here.")
+}
+
+text Route201_Text_ProfRowan_GoOnChooseAPokemon {
+	format("Go on! Open the briefcase and choose a Pokemon!")
+}
+
+text Route201_Text_Barry_ICantBelieveIt {
+	format("Barry: Really?!\nProf. Rowan!\pI can't believe it! I'm so happy now that I can't keep a straight face!")
+}
+
+text Route201_Text_Barry_YouShouldPickFirst {
+	format("Hey, {PLAYER}.\nYou can choose first.\pHey, I'm practically a grown-up.\nI have to show some class here.")
+}
+
+text Route201_Text_ProfRowan_TalkedTo_GoOnChooseAPokemon {
+	format("Rowan: Go on! Open the briefcase and choose a Pokemon!")
+}
+
+text Route201_Text_Barry_TalkedTo_YouShouldPickFirst {
+	format("Hey, {PLAYER}.\nYou can choose first. Go ahead.\pYou know, like, I'm gonna be such a man about it. Yeah, I'm slick.")
+}
+
+text Route201_Text_Barry_OpenTheBriefcase {
+	format("Barry: What's up with you?\nOpen the briefcase and pick a Pokemon!")
+}
+
+text Route201_Text_Barry_IChooseYou {
+	format("Barry: Then, I choose you!\nI'm picking this {STR_VAR_1}!")
+}
+
+text Route201_Text_ProfRowan_ChosenGoodPokemon {
+	format("Rowan: Very well! Both of you have chosen a good Pokemon, it seems.\pNow, listen well!\pThe Pokemon you have been entrusted with are unfamiliar with the world.\pIn that regard, they're much like you.\pAs fellow newcomers to the world, I hope you'll do well together.\pIf you have any trouble, come see me at my lab in Sandgem Town.\pAnd now, we'll be on our way.")
+}
+
+text Route201_Text_Dawn_WaitForMe {
+	"Dawn: Professor!\nWait for me, please!"
+}
+
+text Route201_Text_Dawn_Sorry {
+	"I'm sorry...\nPlease let me pass."
+}
+
+text Route201_Text_Lucas_WaitForMe {
+	"Lucas: Professor!\nWait for me!"
+}
+
+text Route201_Text_Lucas_Sorry {
+	"Uh, sorry, folks."
+}
+
+text Route201_Text_Barry_RowansReallyNice {
+	format("Barry: How do you like that?\nProf. Rowan's really nice\pOn TV he seems so stern and scary.")
+}
+
+text Route201_Text_Barry_WeBothHavePokemon {
+	format("Heheh, {PLAYER}!\nWe've both got Pokemon now!\pThere's only one thing  to do, right?\nAre you up for this?")
+}
+
+text Route201_Text_Barry_DontBeThatWay {
+	format("Barry: What's with that attitude? Don't be that way.")
+}
+
+text Route201_Text_Barry_Challenge {
+	format("Barry: I've always wanted to say this...\pThe time has finally come!\p{PLAYER}!\nI challenge you to a battle!")
 }

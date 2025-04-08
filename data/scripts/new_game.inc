@@ -128,5 +128,8 @@ EventScript_ResetAllMapFlags::
 	setflag FLAG_HIDE_BARRY_TWINLEAF_TOWN
 	setflag FLAG_HIDE_BARRY_PLAYERS_HOUSE_2F
 	setflag FLAG_HIDE_BARRY_ROUTE_201
+	setflag FLAG_HIDE_PROF_ROWAN_ROUTE_201
+	setflag FLAG_HIDE_ROWANS_BAG_ROUTE_201
+	setflag FLAG_HIDE_RIVAL_ROUTE_201
 	call EventScript_ResetAllBerries
 	end
