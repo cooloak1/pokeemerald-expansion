@@ -1433,3 +1433,19 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/JubilifeCity_Condo1_1F/scripts.inc"
 
 	.include "data/maps/JubilifeCity_Condo1_2F/scripts.inc"
+
+	.include "data/maps/Gate_CyclingRoad_Route206/scripts.inc"
+
+	.include "data/maps/Gate_Hearthome_Route208/scripts.inc"
+
+	.include "data/maps/Gate_Hearthome_Route209/scripts.inc"
+
+	.include "data/maps/Gate_Pastoria_Route213/scripts.inc"
+
+	.include "data/maps/Gate_Sunyshore_Route222/scripts.inc"
+
+	.include "data/maps/Gate_Veilstone_Route215/scripts.inc"
+
+	.include "data/maps/Gate_Veilstone_Route214/scripts.inc"
+
+	.include "data/maps/Gate_Hearthome_Route212/scripts.inc"

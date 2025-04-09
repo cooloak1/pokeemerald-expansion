@@ -44,15 +44,15 @@
       "x": 53,
       "y": 50,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE209",
+      "dest_map": "MAP_GATE_HEARTHOME_ROUTE209",
       "dest_warp_id": "0"
     },
     {
       "x": 2,
       "y": 50,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE208",
-      "dest_warp_id": "0"
+      "dest_map": "MAP_GATE_HEARTHOME_ROUTE208",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [

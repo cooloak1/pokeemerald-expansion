@@ -1,1 +1,16 @@
 mapscripts SandgemTown_House_MapScripts {}
+
+script SandgemTown_House_EventScript_PokemonGrowStronger {
+    msgbox(SandgemTown_House_Text_PokemonGrowStronger, MSGBOX_NPC)
+}
+
+script SandgemTown_House_EventScript_AGoodTrainerIs {
+    msgbox(SandgemTown_House_Text_AGoodTrainerIs, MSGBOX_NPC)
+}
+text SandgemTown_House_Text_PokemonGrowStronger {
+    format("Pokémon grow steadily stronger from battling against other Pokémon.\pAt first, you should take it easy, though.\rHeal your Pokémon regularly at Pokémon Centers while you’re leveling them up.")
+}
+
+text SandgemTown_House_Text_AGoodTrainerIs {
+    format("A good Trainer is one that takes care not to let their Pokémon faint from losing HP.")
+}

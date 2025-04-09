@@ -26,7 +26,7 @@
     },
     {
       "x": 4,
-      "y": 11,
+      "y": 12,
       "elevation": 0,
       "dest_map": "MAP_ROUTE206",
       "dest_warp_id": "3"
@@ -40,21 +40,21 @@
     },
     {
       "x": 3,
-      "y": 1,
+      "y": 2,
       "elevation": 0,
       "dest_map": "MAP_ETERNA_CITY",
       "dest_warp_id": "0"
     },
     {
       "x": 4,
-      "y": 1,
+      "y": 2,
       "elevation": 0,
       "dest_map": "MAP_ETERNA_CITY",
       "dest_warp_id": "0"
     },
     {
       "x": 5,
-      "y": 1,
+      "y": 2,
       "elevation": 0,
       "dest_map": "MAP_ETERNA_CITY",
       "dest_warp_id": "0"

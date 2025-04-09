@@ -32,8 +32,8 @@
       "x": 61,
       "y": 17,
       "elevation": 0,
-      "dest_map": "MAP_HEARTHOME_CITY",
-      "dest_warp_id": "2"
+      "dest_map": "MAP_GATE_HEARTHOME_ROUTE208",
+      "dest_warp_id": "0"
     },
     {
       "x": 12,

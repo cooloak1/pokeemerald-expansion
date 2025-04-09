@@ -307,6 +307,10 @@ script Route201_EventScript_ProfRowansBriefcase {
 	}
 	msgbox(Route201_Text_Barry_Challenge)
 	closemessage
+	switch(var(VAR_STARTER_MON)) {
+		case 0:
+			trainerbattle_no_intro(TRAINER_BARRY_ROUTE_201_TREECKO, Route201_Text_Barry_LetsGoHome)
+	}
 	release
 	end
 }
@@ -697,4 +701,8 @@ text Route201_Text_Barry_DontBeThatWay {
 
 text Route201_Text_Barry_Challenge {
 	format("Barry: I've always wanted to say this...\pThe time has finally come!\p{PLAYER}!\nI challenge you to a battle!")
+}
+
+text Route201_Text_Barry_LetsGoHome {
+	format("Barry: Whew!\nLet's go home.\pI'm beat after that battle.\nMy Pokemon needs rest, too.\pSee ya, {PLAYER}!")
 }

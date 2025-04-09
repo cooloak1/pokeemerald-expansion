@@ -33,7 +33,13 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 77,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_GATE_SUNYSHORE_ROUTE222",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 

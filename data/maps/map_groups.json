@@ -144,7 +144,15 @@
   "gMapGroup_Gates": [
     "Gate_Jubilife_Route218",
     "Gate_Canalave_Route218",
-    "Gate_Eterna_CyclingRoad"
+    "Gate_Eterna_CyclingRoad",
+    "Gate_CyclingRoad_Route206",
+    "Gate_Hearthome_Route208",
+    "Gate_Hearthome_Route209",
+    "Gate_Pastoria_Route213",
+    "Gate_Sunyshore_Route222",
+    "Gate_Veilstone_Route215",
+    "Gate_Veilstone_Route214",
+    "Gate_Hearthome_Route212"
   ],
   "gMapGroup_IndoorTwinleaf": [
     "TwinleafTown_PlayersHouse_1F",
