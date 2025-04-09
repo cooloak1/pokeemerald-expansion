@@ -152,7 +152,9 @@
     "Gate_Sunyshore_Route222",
     "Gate_Veilstone_Route215",
     "Gate_Veilstone_Route214",
-    "Gate_Hearthome_Route212"
+    "Gate_Hearthome_Route212",
+    "Gate_AmitySquare_East",
+    "Gate_AmitySquare_West"
   ],
   "gMapGroup_IndoorTwinleaf": [
     "TwinleafTown_PlayersHouse_1F",

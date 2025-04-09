@@ -1449,3 +1449,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Gate_Veilstone_Route214/scripts.inc"
 
 	.include "data/maps/Gate_Hearthome_Route212/scripts.inc"
+
+	.include "data/maps/Gate_AmitySquare_East/scripts.inc"
+
+	.include "data/maps/Gate_AmitySquare_West/scripts.inc"

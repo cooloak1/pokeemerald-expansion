@@ -4594,10 +4594,10 @@
     {
       "id": "LAYOUT_SANDGEM_TOWN_RIVALS_HOUSE_2F",
       "name": "SandgemTown_RivalsHouse_2F_Layout",
-      "width": 9,
+      "width": 10,
       "height": 8,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_RivalsRoom",
       "border_filepath": "data/layouts/SandgemTown_RivalsHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/SandgemTown_RivalsHouse_2F/map.bin"
     },
@@ -5245,31 +5245,11 @@
       "id": "LAYOUT_GATE_CYCLING_ROAD_ROUTE206",
       "name": "Gate_CyclingRoad_Route206_Layout",
       "width": 13,
-      "height": 13,
+      "height": 14,
       "primary_tileset": "gTileset_SinnohBuilding",
       "secondary_tileset": "gTileset_Gate",
       "border_filepath": "data/layouts/Gate_CyclingRoad_Route206/border.bin",
       "blockdata_filepath": "data/layouts/Gate_CyclingRoad_Route206/map.bin"
-    },
-    {
-      "id": "LAYOUT_GATE_VEILSTONE_ROUTE215",
-      "name": "Gate_Veilstone_Route215_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
-      "border_filepath": "data/layouts/Gate_Veilstone_Route215/border.bin",
-      "blockdata_filepath": "data/layouts/Gate_Veilstone_Route215/map.bin"
-    },
-    {
-      "id": "LAYOUT_GATE_VEILSTONE_ROUTE214",
-      "name": "Gate_Veilstone_Route214_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
-      "border_filepath": "data/layouts/Gate_Veilstone_Route214/border.bin",
-      "blockdata_filepath": "data/layouts/Gate_Veilstone_Route214/map.bin"
     },
     {
       "id": "LAYOUT_GATE_NORTH_SOUTH",
@@ -5280,6 +5260,16 @@
       "secondary_tileset": "gTileset_Gate",
       "border_filepath": "data/layouts/Gate_North_South/border.bin",
       "blockdata_filepath": "data/layouts/Gate_North_South/map.bin"
+    },
+    {
+      "id": "LAYOUT_GATE_AMITY_SQUARE",
+      "name": "Gate_AmitySquare_Layout",
+      "width": 5,
+      "height": 13,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_Gate",
+      "border_filepath": "data/layouts/Gate_AmitySquare/border.bin",
+      "blockdata_filepath": "data/layouts/Gate_AmitySquare/map.bin"
     }
   ]
 }
