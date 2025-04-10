@@ -624,8 +624,8 @@
     {
       "id": "LAYOUT_MART",
       "name": "Mart_Layout",
-      "width": 11,
-      "height": 8,
+      "width": 10,
+      "height": 10,
       "primary_tileset": "gTileset_SinnohBuilding",
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/Mart/border.bin",
