@@ -4120,7 +4120,7 @@ bool8 PokemonUseItemEffects(struct Pokemon *mon, u16 item, u8 partyIndex, u8 mov
 
                     case 7: // ITEM4_EVO_STONE
                         {
-                            u16 targetSpecies = GetEvolutionTargetSpecies(mon, EVO_MODE_ITEM_USE, item, NULL);
+                            u16 targetSpecies = GetEvolutionTargetSpecies(mon, EVO_MODE_ITEM_USE, item, NULL, DO_EVO);
 
                             if (targetSpecies != SPECIES_NONE)
                             {
@@ -4512,7 +4512,7 @@ u32 GetGMaxTargetSpecies(u32 species)
     return species;
 }
 
-u16 GetEvolutionTargetSpecies(struct Pokemon *mon, enum EvolutionMode mode, u16 evolutionItem, struct Pokemon *tradePartner)
+u16 GetEvolutionTargetSpecies(struct Pokemon *mon, enum EvolutionMode mode, u16 evolutionItem, struct Pokemon *tradePartner, enum StartEvo prepareEvo)
 {
     int i, j;
     u16 targetSpecies = SPECIES_NONE;
@@ -4833,7 +4833,8 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, enum EvolutionMode mode, u16 
                 if (CheckBagHasItem(evolutions[i].param, 999))
                 {
                     targetSpecies = evolutions[i].targetSpecies;
-                    RemoveBagItem(evolutions[i].param, 999);
+                    if (prepareEvo == DO_EVO)
+                        RemoveBagItem(evolutions[i].param, 999);
                 }
                 break;
             }
@@ -4938,6 +4939,22 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, enum EvolutionMode mode, u16 
                 if (evolutionItem == EVO_WATER_SCROLL)
                     targetSpecies = evolutions[i].targetSpecies;
                 break;
+            case EVO_ITEM_HOLD_SPIN_DAY_LESS_THAN_5_SECS_CLOCKWISE:
+            case EVO_ITEM_HOLD_SPIN_DAY_LESS_THAN_5_SECS_COUNTER_CLOCKWISE:
+            case EVO_ITEM_HOLD_SPIN_NIGHT_LESS_THAN_5_SECS_CLOCKWISE:
+            case EVO_ITEM_HOLD_SPIN_NIGHT_LESS_THAN_5_SECS_COUNTER_CLOCKWISE:
+            case EVO_ITEM_HOLD_SPIN_DAY_MORE_THAN_5_SECS_CLOCKWISE:
+            case EVO_ITEM_HOLD_SPIN_DAY_MORE_THAN_5_SECS_COUNTER_CLOCKWISE:
+            case EVO_ITEM_HOLD_SPIN_NIGHT_MORE_THAN_5_SECS_CLOCKWISE:
+            case EVO_ITEM_HOLD_SPIN_NIGHT_MORE_THAN_5_SECS_COUNTER_CLOCKWISE:
+            case EVO_ITEM_HOLD_SPIN_DUSK_MORE_THAN_10_SECS:
+                if (evolutions[i].param == heldItem && evolutionItem == evolutions[i].method)
+                {
+                    targetSpecies = evolutions[i].targetSpecies;
+                    consumeItem = TRUE;
+                }
+
+                break;
             }
         }
         break;
@@ -4953,7 +4970,7 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, enum EvolutionMode mode, u16 
         return SPECIES_NONE;
     }
 
-    if (consumeItem)
+    if (consumeItem && prepareEvo == DO_EVO)
     {
         heldItem = ITEM_NONE;
         SetMonData(mon, MON_DATA_HELD_ITEM, &heldItem);
@@ -6779,7 +6796,7 @@ void TrySpecialOverworldEvo(void)
 
     for (i = 0; i < PARTY_SIZE; i++)
     {
-        u16 targetSpecies = GetEvolutionTargetSpecies(&gPlayerParty[i], EVO_MODE_OVERWORLD_SPECIAL, evoMethod, SPECIES_NONE);
+        u16 targetSpecies = GetEvolutionTargetSpecies(&gPlayerParty[i], EVO_MODE_OVERWORLD_SPECIAL, evoMethod, SPECIES_NONE, DO_EVO);
         if (targetSpecies != SPECIES_NONE && !(sTriedEvolving & (1u << i)))
         {
             sTriedEvolving |= 1u << i;

@@ -25,6 +25,7 @@
 enum AbilityEffectOptions
 {
     ABILITY_CHECK_TRIGGER,
+    ABILITY_CHECK_TRIGGER_AI,
     ABILITY_RUN_SCRIPT,
 };
 
@@ -39,10 +40,6 @@ enum MoveAbsorbed
 enum {
     ABILITYEFFECT_ON_SWITCHIN,
     ABILITYEFFECT_ENDTURN,
-    ABILITYEFFECT_MOVES_BLOCK,
-    ABILITYEFFECT_WOULD_BLOCK,         // Checks immunity without triggering a script
-    ABILITYEFFECT_ABSORBING,
-    ABILITYEFFECT_WOULD_ABSORB,        // Checks immunity without triggering a script
     ABILITYEFFECT_MOVE_END_ATTACKER,
     ABILITYEFFECT_MOVE_END,
     ABILITYEFFECT_IMMUNITY,
@@ -218,7 +215,7 @@ u32 AtkCanceller_MoveSuccessOrder(void);
 void SetAtkCancellerForCalledMove(void);
 bool32 HasNoMonsToSwitch(u32 battler, u8 r1, u8 r2);
 bool32 TryChangeBattleWeather(u32 battler, u32 battleWeatherId, bool32 viaAbility);
-bool32 CanAbilityBlockMove(u32 battlerAtk, u32 battlerDef, u32 move, u32 abilityDef, enum AbilityEffectOptions option);
+bool32 CanAbilityBlockMove(u32 battlerAtk, u32 battlerDef, u32 abilityAtk, u32 abilityDef, u32 move, enum AbilityEffectOptions option);
 bool32 CanAbilityAbsorbMove(u32 battlerAtk, u32 battlerDef, u32 abilityDef, u32 move, u32 moveType, enum AbilityEffectOptions option);
 u32 AbilityBattleEffects(u32 caseID, u32 battler, u32 ability, u32 special, u32 moveArg);
 bool32 TryPrimalReversion(u32 battler);
@@ -231,6 +228,7 @@ u32 IsAbilityOnField(u32 ability);
 u32 IsAbilityOnFieldExcept(u32 battler, u32 ability);
 u32 IsAbilityPreventingEscape(u32 battler);
 bool32 IsBattlerProtected(u32 battlerAtk, u32 battlerDef, u32 move);
+u32 GetProtectType(enum ProtectMethod method);
 bool32 CanBattlerEscape(u32 battler); // no ability check
 void BattleScriptExecute(const u8 *BS_ptr);
 void BattleScriptPushCursorAndCallback(const u8 *BS_ptr);
@@ -277,7 +275,8 @@ struct Pokemon *GetIllusionMonPtr(u32 battler);
 void ClearIllusionMon(u32 battler);
 bool32 SetIllusionMon(struct Pokemon *mon, u32 battler);
 bool32 ShouldGetStatBadgeBoost(u16 flagId, u32 battler);
-u8 GetBattleMoveCategory(u32 moveId);
+u32 GetBattleMoveCategory(u32 move);
+void SetDynamicMoveCategory(u32 battlerAtk, u32 battlerDef, u32 move);
 bool32 CanFling(u32 battler);
 bool32 IsTelekinesisBannedSpecies(u16 species);
 bool32 IsHealBlockPreventingMove(u32 battler, u32 move);
@@ -348,13 +347,11 @@ bool32 IsSleepClauseEnabled();
 void ClearDamageCalcResults(void);
 u32 DoesDestinyBondFail(u32 battler);
 bool32 IsMoveEffectBlockedByTarget(u32 ability);
-u32 NumAffectedSpreadMoveTargets(void);
 bool32 IsPursuitTargetSet(void);
 void ClearPursuitValuesIfSet(u32 battler);
 void ClearPursuitValues(void);
 bool32 HasWeatherEffect(void);
-bool32 IsMovePowderBlocked(u32 battlerAtk, u32 battlerDef, u32 move);
-bool32 EmergencyExitCanBeTriggered(u32 battler);
 u32 RestoreWhiteHerbStats(u32 battler);
+bool32 HadMoreThanHalfHpNowDoesnt(u32 battler);
 
 #endif // GUARD_BATTLE_UTIL_H
