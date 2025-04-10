@@ -20,7 +20,7 @@ SandgemTown_PokemonCenter_EventScript_NPC1::
 # 14 "data/maps/SandgemTown_PokemonCenter/scripts.pory"
 	faceplayer
 # 15 "data/maps/SandgemTown_PokemonCenter/scripts.pory"
-	msgbox SandgemTown_PokemonCenter_Text_NPC1
+	msgbox SandgemTown_PokemonCenter_Text_NPC1, MSGBOX_NPC
 # 16 "data/maps/SandgemTown_PokemonCenter/scripts.pory"
 	release
 	end
@@ -30,7 +30,7 @@ SandgemTown_PokemonCenter_EventScript_NPC2::
 # 21 "data/maps/SandgemTown_PokemonCenter/scripts.pory"
 	faceplayer
 # 22 "data/maps/SandgemTown_PokemonCenter/scripts.pory"
-	msgbox SandgemTown_PokemonCenter_Text_NPC2
+	msgbox SandgemTown_PokemonCenter_Text_NPC2, MSGBOX_NPC
 # 23 "data/maps/SandgemTown_PokemonCenter/scripts.pory"
 	release
 	end

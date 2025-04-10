@@ -45,8 +45,7 @@ tools/trainerproc/trainerproc
 *.smol
 *.fastSmol
 *.smolTM
-poryscript
+*.poryscript
 Stitch_From*.png
 __pycache__
-data\maps\*.\scripts.inc
 *.xcf

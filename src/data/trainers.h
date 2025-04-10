@@ -23718,11 +23718,11 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_BARRY_ROUTE_201_MUDKIP] =
     {
 #line 9504
-        .trainerName = _("BRENDAN"),
+        .trainerName = _("Barry"),
 #line 9505
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9506
-        .trainerPic = TRAINER_PIC_BRENDAN,
+        .trainerPic = TRAINER_PIC_WALLY,
         .encounterMusic_gender =
 #line 9508
             TRAINER_ENCOUNTER_MUSIC_MALE,
@@ -23735,7 +23735,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 9512
-            .species = SPECIES_TREECKO,
+            .species = SPECIES_TURTWIG,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 9514
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -23858,11 +23858,11 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_BARRY_ROUTE_201_TREECKO] =
     {
 #line 9559
-        .trainerName = _("BRENDAN"),
+        .trainerName = _("Barry"),
 #line 9560
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9561
-        .trainerPic = TRAINER_PIC_BRENDAN,
+        .trainerPic = TRAINER_PIC_WALLY,
         .encounterMusic_gender =
 #line 9563
             TRAINER_ENCOUNTER_MUSIC_MALE,
@@ -23875,7 +23875,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 9567
-            .species = SPECIES_TORCHIC,
+            .species = SPECIES_CHIMCHAR,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 9569
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -23998,11 +23998,11 @@ F_TRAINER_FEMALE |
     [DIFFICULTY_NORMAL][TRAINER_BARRY_ROUTE_201_TORCHIC] =
     {
 #line 9614
-        .trainerName = _("BRENDAN"),
+        .trainerName = _("Barry"),
 #line 9615
         .trainerClass = TRAINER_CLASS_RIVAL,
 #line 9616
-        .trainerPic = TRAINER_PIC_BRENDAN,
+        .trainerPic = TRAINER_PIC_WALLY,
         .encounterMusic_gender =
 #line 9618
             TRAINER_ENCOUNTER_MUSIC_MALE,
@@ -24015,7 +24015,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 9622
-            .species = SPECIES_MUDKIP,
+            .species = SPECIES_PIPLUP,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 9624
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
