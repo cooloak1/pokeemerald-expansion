@@ -8,7 +8,7 @@ script SandgemTown_House_EventScript_AGoodTrainerIs {
     msgbox(SandgemTown_House_Text_AGoodTrainerIs, MSGBOX_NPC)
 }
 text SandgemTown_House_Text_PokemonGrowStronger {
-    format("Pokémon grow steadily stronger from battling against other Pokémon.\pAt first, you should take it easy, though.\rHeal your Pokémon regularly at Pokémon Centers while you’re leveling them up.")
+    format("Pokémon grow steadily stronger from battling against other Pokémon.\pAt first, you should take it easy, though.\pHeal your Pokémon regularly at Pokémon Centers while you’re leveling them up.")
 }
 
 text SandgemTown_House_Text_AGoodTrainerIs {
