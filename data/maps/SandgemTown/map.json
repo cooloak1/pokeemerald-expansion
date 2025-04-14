@@ -56,14 +56,14 @@
     },
     {
       "x": 15,
-      "y": 17,
+      "y": 15,
       "elevation": 0,
       "dest_map": "MAP_SANDGEM_TOWN_RIVALS_HOUSE_1F",
       "dest_warp_id": "0"
     },
     {
       "x": 7,
-      "y": 17,
+      "y": 15,
       "elevation": 0,
       "dest_map": "MAP_SANDGEM_TOWN_HOUSE",
       "dest_warp_id": "0"
@@ -76,7 +76,7 @@
     {
       "type": "sign",
       "x": 20,
-      "y": 17,
+      "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SandgemTown_EventScript_TownSign"
@@ -100,7 +100,7 @@
     {
       "type": "sign",
       "x": 13,
-      "y": 17,
+      "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SandgemTown_EventScript_RivalsHouseSign"
