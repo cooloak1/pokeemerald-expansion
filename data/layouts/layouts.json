@@ -4894,10 +4894,10 @@
     {
       "id": "LAYOUT_SUNYSHORE_CITY",
       "name": "SunyshoreCity_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 56,
+      "height": 56,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Sunyshore",
       "border_filepath": "data/layouts/SunyshoreCity/border.bin",
       "blockdata_filepath": "data/layouts/SunyshoreCity/map.bin"
     },
@@ -4927,7 +4927,7 @@
       "width": 80,
       "height": 28,
       "primary_tileset": "gTileset_Sinnoh_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Sunyshore",
       "border_filepath": "data/layouts/Route222/border.bin",
       "blockdata_filepath": "data/layouts/Route222/map.bin"
     },

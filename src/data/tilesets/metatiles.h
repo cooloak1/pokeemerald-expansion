@@ -264,3 +264,6 @@ const u16 gMetatileAttributes_BarrysRoom[] = INCBIN_U16("data/tilesets/secondary
 
 const u16 gMetatiles_RivalsRoom[] = INCBIN_U16("data/tilesets/secondary/rivals_room/metatiles.bin");
 const u16 gMetatileAttributes_RivalsRoom[] = INCBIN_U16("data/tilesets/secondary/rivals_room/metatile_attributes.bin");
+
+const u16 gMetatiles_Sunyshore[] = INCBIN_U16("data/tilesets/secondary/sunyshore/metatiles.bin");
+const u16 gMetatileAttributes_Sunyshore[] = INCBIN_U16("data/tilesets/secondary/sunyshore/metatile_attributes.bin");

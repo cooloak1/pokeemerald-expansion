@@ -82,13 +82,6 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 9,
-      "y": 75,
-      "elevation": 0,
-      "dest_map": "MAP_GATE_CYCLING_ROAD_ROUTE206",
-      "dest_warp_id": "0"
-    },
-    {
       "x": 8,
       "y": 75,
       "elevation": 0,
@@ -96,11 +89,81 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 7,
+      "x": 9,
       "y": 75,
       "elevation": 0,
       "dest_map": "MAP_GATE_CYCLING_ROAD_ROUTE206",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 75,
+      "elevation": 0,
+      "dest_map": "MAP_GATE_CYCLING_ROAD_ROUTE206",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 11,
+      "y": 75,
+      "elevation": 0,
+      "dest_map": "MAP_GATE_CYCLING_ROAD_ROUTE206",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 12,
+      "y": 75,
+      "elevation": 0,
+      "dest_map": "MAP_GATE_CYCLING_ROAD_ROUTE206",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 13,
+      "y": 75,
+      "elevation": 0,
+      "dest_map": "MAP_GATE_CYCLING_ROAD_ROUTE206",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 14,
+      "y": 75,
+      "elevation": 0,
+      "dest_map": "MAP_GATE_CYCLING_ROAD_ROUTE206",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 15,
+      "y": 75,
+      "elevation": 0,
+      "dest_map": "MAP_GATE_CYCLING_ROAD_ROUTE206",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 10,
+      "y": 81,
+      "elevation": 0,
+      "dest_map": "MAP_GATE_CYCLING_ROAD_ROUTE206",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 11,
+      "y": 81,
+      "elevation": 0,
+      "dest_map": "MAP_GATE_CYCLING_ROAD_ROUTE206",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 12,
+      "y": 81,
+      "elevation": 0,
+      "dest_map": "MAP_GATE_CYCLING_ROAD_ROUTE206",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 13,
+      "y": 81,
+      "elevation": 0,
+      "dest_map": "MAP_GATE_CYCLING_ROAD_ROUTE206",
+      "dest_warp_id": "3"
     }
   ],
   "coord_events": [
