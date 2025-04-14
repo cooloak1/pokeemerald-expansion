@@ -39,7 +39,7 @@ script Route201_EventScript_ChooseBarryDialogue {
 }
 
 script Route201_EventScript_BarryGoingToLakeVerity {
-	end
+	
 }
 
 script Route201_EventScript_BarryGoingToSandgem {
