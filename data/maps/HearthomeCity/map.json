@@ -53,6 +53,27 @@
       "elevation": 0,
       "dest_map": "MAP_GATE_HEARTHOME_ROUTE208",
       "dest_warp_id": "1"
+    },
+    {
+      "x": 16,
+      "y": 32,
+      "elevation": 0,
+      "dest_map": "MAP_HEARTHOME_CITY_MART",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 6,
+      "y": 52,
+      "elevation": 0,
+      "dest_map": "MAP_GATE_HEARTHOME_ROUTE212",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 7,
+      "y": 52,
+      "elevation": 0,
+      "dest_map": "MAP_GATE_HEARTHOME_ROUTE212",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

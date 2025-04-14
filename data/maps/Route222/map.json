@@ -39,6 +39,20 @@
       "elevation": 0,
       "dest_map": "MAP_GATE_SUNYSHORE_ROUTE222",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 52,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE222_HOUSE1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 58,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE222_HOUSE2",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

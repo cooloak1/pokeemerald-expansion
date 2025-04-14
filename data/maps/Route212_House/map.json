@@ -11,19 +11,25 @@
   "allow_escaping": false,
   "allow_running": false,
   "show_map_name": false,
-  "has_time_based_encounters": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
   "object_events": [
 
   ],
   "warp_events": [
-
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE212_SOUTH",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 
   ],
   "bg_events": [
 
-  ]
+  ],
+  "has_time_based_encounters": false
 }

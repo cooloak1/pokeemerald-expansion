@@ -28,7 +28,27 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 10,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_SUNYSHORE_CITY_MART",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_SUNYSHORE_CITY_POKEMON_CENTER",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 4,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_GATE_SUNYSHORE_ROUTE222",
+      "dest_warp_id": "1"
+    }
   ],
   "coord_events": [
 

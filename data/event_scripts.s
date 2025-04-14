@@ -1453,3 +1453,23 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Gate_AmitySquare_East/scripts.inc"
 
 	.include "data/maps/Gate_AmitySquare_West/scripts.inc"
+
+	.include "data/maps/JubilifeCity_Mart/scripts.inc"
+
+	.include "data/maps/OreburghCity_Mart/scripts.inc"
+
+	.include "data/maps/FloaromaTown_Mart/scripts.inc"
+
+	.include "data/maps/EternaCity_Mart/scripts.inc"
+
+	.include "data/maps/HearthomeCity_Mart/scripts.inc"
+
+	.include "data/maps/SolaceonTown_Mart/scripts.inc"
+
+	.include "data/maps/PastoriaCity_Mart/scripts.inc"
+
+	.include "data/maps/CanalaveCity_Mart/scripts.inc"
+
+	.include "data/maps/SnowpointCity_Mart/scripts.inc"
+
+	.include "data/maps/SunyshoreCity_Mart/scripts.inc"

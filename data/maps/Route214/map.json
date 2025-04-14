@@ -37,15 +37,15 @@
       "x": 12,
       "y": 4,
       "elevation": 0,
-      "dest_map": "MAP_VEILSTONE_CITY",
+      "dest_map": "MAP_GATE_VEILSTONE_ROUTE214",
       "dest_warp_id": "1"
     },
     {
       "x": 13,
       "y": 4,
       "elevation": 0,
-      "dest_map": "MAP_VEILSTONE_CITY",
-      "dest_warp_id": "2"
+      "dest_map": "MAP_GATE_VEILSTONE_ROUTE214",
+      "dest_warp_id": "1"
     },
     {
       "x": 7,

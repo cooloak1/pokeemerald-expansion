@@ -28,7 +28,20 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 11,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_GATE_HEARTHOME_ROUTE212",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 10,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_GATE_HEARTHOME_ROUTE212",
+      "dest_warp_id": "1"
+    }
   ],
   "coord_events": [
 

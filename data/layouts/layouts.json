@@ -4572,16 +4572,6 @@
       "blockdata_filepath": "data/layouts/SandgemTown_ProfessorRowansLab/map.bin"
     },
     {
-      "id": "LAYOUT_SANDGEM_TOWN_MART",
-      "name": "SandgemTown_Mart_Layout",
-      "width": 11,
-      "height": 8,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_Shop",
-      "border_filepath": "data/layouts/SandgemTown_Mart/border.bin",
-      "blockdata_filepath": "data/layouts/SandgemTown_Mart/map.bin"
-    },
-    {
       "id": "LAYOUT_SANDGEM_TOWN_RIVALS_HOUSE_1F",
       "name": "SandgemTown_RivalsHouse_1F_Layout",
       "width": 11,

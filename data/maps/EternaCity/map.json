@@ -38,21 +38,14 @@
       "y": 49,
       "elevation": 0,
       "dest_map": "MAP_GATE_ETERNA_CYCLING_ROAD",
-      "dest_warp_id": "3"
-    },
-    {
-      "x": 15,
-      "y": 49,
-      "elevation": 0,
-      "dest_map": "MAP_GATE_ETERNA_CYCLING_ROAD",
-      "dest_warp_id": "5"
+      "dest_warp_id": "1"
     },
     {
       "x": 14,
       "y": 49,
       "elevation": 0,
       "dest_map": "MAP_GATE_ETERNA_CYCLING_ROAD",
-      "dest_warp_id": "4"
+      "dest_warp_id": "1"
     },
     {
       "x": 15,
@@ -73,6 +66,13 @@
       "y": 44,
       "elevation": 0,
       "dest_map": "MAP_ETERNA_CITY_HOUSE1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 18,
+      "y": 33,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_CITY_MART",
       "dest_warp_id": "0"
     }
   ],
