@@ -5264,8 +5264,8 @@
     {
       "id": "LAYOUT_SOLACEON_RUINS_2F",
       "name": "SolaceonRuins_2F_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 11,
+      "height": 13,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Ruins",
       "border_filepath": "data/layouts/SolaceonRuins_2F/border.bin",
@@ -5275,11 +5275,41 @@
       "id": "LAYOUT_CELESTIC_RUINS",
       "name": "CelesticRuins_Layout",
       "width": 17,
-      "height": 21,
+      "height": 20,
       "primary_tileset": "gTileset_Sinnoh_General",
       "secondary_tileset": "gTileset_Ruins",
       "border_filepath": "data/layouts/CelesticRuins/border.bin",
       "blockdata_filepath": "data/layouts/CelesticRuins/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUIN_MANIAC_CAVE_1",
+      "name": "RuinManiacCave1_Layout",
+      "width": 84,
+      "height": 13,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Sinnoh_Cave",
+      "border_filepath": "data/layouts/RuinManiacCave1/border.bin",
+      "blockdata_filepath": "data/layouts/RuinManiacCave1/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUIN_MANIAC_CAVE_2",
+      "name": "RuinManiacCave2_Layout",
+      "width": 84,
+      "height": 13,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Sinnoh_Cave",
+      "border_filepath": "data/layouts/RuinManiacCave2/border.bin",
+      "blockdata_filepath": "data/layouts/RuinManiacCave2/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAKE_VERITY_LOW_WATER",
+      "name": "LakeVerityLowWater_Layout",
+      "width": 46,
+      "height": 34,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Sandgem",
+      "border_filepath": "data/layouts/LakeVerityLowWater/border.bin",
+      "blockdata_filepath": "data/layouts/LakeVerityLowWater/map.bin"
     }
   ]
 }

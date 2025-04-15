@@ -91,7 +91,7 @@
 #define FLAG_UNUSED_0x04D    0x4D // Unused Flag
 #define FLAG_UNUSED_0x04E    0x4E // Unused Flag
 #define FLAG_UNUSED_0x04F    0x4F // Unused Flag
-#define FLAG_UNUSED_0x050    0x50 // hoenn only flag
+#define FLAG_LAKE_VALOR_BOMBED    0x50 // hoenn only flag
 
 // Scripts
 #define FLAG_SET_WALL_CLOCK                      0x51

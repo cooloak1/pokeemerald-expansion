@@ -1,7 +1,18 @@
-raw `
-LakeVerity_MapScripts::
-	.byte 0
-`
+mapscripts LakeVerity_MapScripts {
+	MAP_SCRIPT_ON_TRANSITION {
+		call(Common_EventScript_SetupRivalGfxId)
+		call(LakeVerity_EventScript_SetMapLayout)
+	}
+}
+
+script LakeVerity_EventScript_SetMapLayout {
+	if(flag(FLAG_LAKE_VALOR_BOMBED)) {
+		setmaplayoutindex(LAYOUT_LAKE_VERITY)
+	}
+	else {
+		setmaplayoutindex(LAYOUT_LAKE_VERITY_LOW_WATER)
+	}
+}
 
 script LakeVerity_EventScript_Sign{
 	msgbox(LakeVerity_Text_Sign, MSGBOX_SIGN)
