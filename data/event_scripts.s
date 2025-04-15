@@ -1473,3 +1473,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/SnowpointCity_Mart/scripts.inc"
 
 	.include "data/maps/SunyshoreCity_Mart/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_2F/scripts.inc"

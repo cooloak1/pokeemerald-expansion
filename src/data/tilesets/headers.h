@@ -1050,3 +1050,14 @@ const struct Tileset gTileset_Sunyshore =
     .metatileAttributes = gMetatileAttributes_Sunyshore,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Ruins =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Ruins,
+    .palettes = gTilesetPalettes_Ruins,
+    .metatiles = gMetatiles_Ruins,
+    .metatileAttributes = gMetatileAttributes_Ruins,
+    .callback = NULL,
+};

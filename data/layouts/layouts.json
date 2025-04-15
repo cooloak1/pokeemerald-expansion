@@ -5260,6 +5260,16 @@
       "secondary_tileset": "gTileset_Gate",
       "border_filepath": "data/layouts/Gate_AmitySquare/border.bin",
       "blockdata_filepath": "data/layouts/Gate_AmitySquare/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOLACEON_RUINS_2F",
+      "name": "SolaceonRuins_2F_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Ruins",
+      "border_filepath": "data/layouts/SolaceonRuins_2F/border.bin",
+      "blockdata_filepath": "data/layouts/SolaceonRuins_2F/map.bin"
     }
   ]
 }
