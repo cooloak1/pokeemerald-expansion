@@ -161,6 +161,5 @@
       "item": "ITEM_HONEY",
       "flag": "FLAG_HIDDEN_ITEM_FLOAROMA_TOWN_HONEY_6"
     }
-  ],
-  "has_time_based_encounters": false
+  ]
 }

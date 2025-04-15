@@ -49,6 +49,5 @@
       "item": "ITEM_MAX_ELIXIR",
       "flag": "FLAG_HIDDEN_ITEM_VALLEY_WINDWORKS_MAX_ELIXIR"
     }
-  ],
-  "has_time_based_encounters": false
+  ]
 }

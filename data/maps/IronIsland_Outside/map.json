@@ -37,6 +37,5 @@
       "item": "ITEM_STAR_PIECE",
       "flag": "FLAG_HIDDEN_ITEM_IRON_ISLAND_OUTSIDE_STAR_PIECE"
     }
-  ],
-  "has_time_based_encounters": false
+  ]
 }

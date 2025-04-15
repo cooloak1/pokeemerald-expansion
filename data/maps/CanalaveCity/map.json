@@ -97,6 +97,5 @@
       "item": "ITEM_BIG_PEARL",
       "flag": "FLAG_HIDDEN_ITEM_CANALAVE_CITY_BIG_PEARL"
     }
-  ],
-  "has_time_based_encounters": false
+  ]
 }

@@ -113,6 +113,5 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SandgemTown_EventScript_MartSign"
     }
-  ],
-  "has_time_based_encounters": false
+  ]
 }

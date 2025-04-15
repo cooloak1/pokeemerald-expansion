@@ -106,6 +106,5 @@
       "item": "ITEM_SUPER_POTION",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_205_SUPER_POTION"
     }
-  ],
-  "has_time_based_encounters": true
+  ]
 }

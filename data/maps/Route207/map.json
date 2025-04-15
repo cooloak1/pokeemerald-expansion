@@ -84,6 +84,5 @@
       "item": "ITEM_REVIVE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_207_REVIVE"
     }
-  ],
-  "has_time_based_encounters": true
+  ]
 }

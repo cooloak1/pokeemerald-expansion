@@ -219,6 +219,5 @@
       "item": "ITEM_GREAT_BALL",
       "flag": "FLAG_HIDDEN_ITEM_WAYWARD_CAVE_GREAT_BALL"
     }
-  ],
-  "has_time_based_encounters": false
+  ]
 }

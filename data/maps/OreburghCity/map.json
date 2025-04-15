@@ -84,6 +84,5 @@
       "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_OREBURGH_CITY_HEART_SCALE"
     }
-  ],
-  "has_time_based_encounters": false
+  ]
 }

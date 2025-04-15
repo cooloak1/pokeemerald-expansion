@@ -228,6 +228,5 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route201_EventScript_RouteSignSandgem"
     }
-  ],
-  "has_time_based_encounters": true
+  ]
 }

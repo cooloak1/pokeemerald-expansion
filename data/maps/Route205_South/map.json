@@ -72,6 +72,5 @@
       "item": "ITEM_STARDUST",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_205_STARDUST"
     }
-  ],
-  "has_time_based_encounters": false
+  ]
 }

@@ -135,6 +135,5 @@
       "item": "ITEM_BIG_MUSHROOM",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_221_BIG_MUSHROOM"
     }
-  ],
-  "has_time_based_encounters": true
+  ]
 }

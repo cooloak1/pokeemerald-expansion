@@ -221,6 +221,5 @@
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_YELLOW_CAVE1_3"
     }
-  ],
-  "has_time_based_encounters": false
+  ]
 }

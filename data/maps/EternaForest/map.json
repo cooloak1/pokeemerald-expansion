@@ -124,6 +124,5 @@
       "item": "ITEM_INSECT_PLATE",
       "flag": "FLAG_HIDDEN_ITEM_ETERNA_FOREST_INSECT_PLATE"
     }
-  ],
-  "has_time_based_encounters": true
+  ]
 }
