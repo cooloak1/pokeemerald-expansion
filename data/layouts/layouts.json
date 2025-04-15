@@ -5270,6 +5270,16 @@
       "secondary_tileset": "gTileset_Ruins",
       "border_filepath": "data/layouts/SolaceonRuins_2F/border.bin",
       "blockdata_filepath": "data/layouts/SolaceonRuins_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELESTIC_RUINS",
+      "name": "CelesticRuins_Layout",
+      "width": 17,
+      "height": 21,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Ruins",
+      "border_filepath": "data/layouts/CelesticRuins/border.bin",
+      "blockdata_filepath": "data/layouts/CelesticRuins/map.bin"
     }
   ]
 }

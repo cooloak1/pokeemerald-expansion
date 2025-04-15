@@ -1475,3 +1475,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/SunyshoreCity_Mart/scripts.inc"
 
 	.include "data/maps/SolaceonRuins_2F/scripts.inc"
+
+	.include "data/maps/CelesticRuins/scripts.inc"
