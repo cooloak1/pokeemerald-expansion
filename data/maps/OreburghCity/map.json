@@ -25,7 +25,32 @@
     }
   ],
   "object_events": [
-
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 33,
+      "y": 31,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_OREBURGH_CITY_YELLOW_SHARD"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 36,
+      "y": 31,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_OREBURGH_CITY_DIRE_HIT"
+    }
   ],
   "warp_events": [
     {
@@ -71,7 +96,7 @@
     {
       "type": "hidden_item",
       "x": 33,
-      "y": 30,
+      "y": 29,
       "elevation": 0,
       "item": "ITEM_PEARL",
       "flag": "FLAG_HIDDEN_ITEM_OREBURGH_CITY_PEARL"
