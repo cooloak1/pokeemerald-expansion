@@ -1048,40 +1048,40 @@
 #define FLAG_UNUSED_0x3E7                                           0x3E7 //hoenn only flag
 
 // Item Ball Flags
-#define FLAG_ITEM_LAKE_VERITY_TM38                                  0x3E8 // "FLAG_ITEM_ROUTE_102_POTION"
-#define FLAG_ITEM_ROUTE_116_X_SPECIAL                               0x3E9 //hoenn only flag
-#define FLAG_ITEM_ROUTE_104_PP_UP                                   0x3EA //hoenn only flag
-#define FLAG_ITEM_ROUTE_105_IRON                                    0x3EB //hoenn only flag
-#define FLAG_ITEM_ROUTE_106_PROTEIN                                 0x3EC //hoenn only flag
-#define FLAG_ITEM_ROUTE_109_PP_UP                                   0x3ED //hoenn only flag
-#define FLAG_ITEM_ROUTE_110_RARE_CANDY                              0x3EE //hoenn only flag
-#define FLAG_ITEM_ROUTE_110_DIRE_HIT                                0x3EF //hoenn only flag
-#define FLAG_ITEM_ROUTE_111_TM_SANDSTORM                            0x3F0 //hoenn only flag
-#define FLAG_ITEM_ROUTE_111_STARDUST                                0x3F1 //hoenn only flag
-#define FLAG_ITEM_ROUTE_111_HP_UP                                   0x3F2 //hoenn only flag
-#define FLAG_ITEM_ROUTE_112_NUGGET                                  0x3F3 //hoenn only flag
-#define FLAG_ITEM_ROUTE_113_MAX_ETHER                               0x3F4 //hoenn only flag
-#define FLAG_ITEM_ROUTE_113_SUPER_REPEL                             0x3F5 //hoenn only flag
-#define FLAG_ITEM_ROUTE_114_RARE_CANDY                              0x3F6 //hoenn only flag
-#define FLAG_ITEM_ROUTE_114_PROTEIN                                 0x3F7 //hoenn only flag
-#define FLAG_ITEM_ROUTE_115_SUPER_POTION                            0x3F8 //hoenn only flag
-#define FLAG_ITEM_ROUTE_115_TM_FOCUS_PUNCH                          0x3F9 //hoenn only flag
-#define FLAG_ITEM_ROUTE_115_IRON                                    0x3FA //hoenn only flag
-#define FLAG_ITEM_ROUTE_116_ETHER                                   0x3FB //hoenn only flag
-#define FLAG_ITEM_ROUTE_116_REPEL                                   0x3FC //hoenn only flag
-#define FLAG_ITEM_ROUTE_116_HP_UP                                   0x3FD //hoenn only flag
-#define FLAG_ITEM_ROUTE_117_GREAT_BALL                              0x3FE //hoenn only flag
-#define FLAG_ITEM_ROUTE_117_REVIVE                                  0x3FF //hoenn only flag
-#define FLAG_ITEM_ROUTE_119_SUPER_REPEL                             0x400 //hoenn only flag
-#define FLAG_ITEM_ROUTE_119_ZINC                                    0x401 //hoenn only flag
-#define FLAG_ITEM_ROUTE_119_ELIXIR_1                                0x402 //hoenn only flag
-#define FLAG_ITEM_ROUTE_119_LEAF_STONE                              0x403 //hoenn only flag
-#define FLAG_ITEM_ROUTE_119_RARE_CANDY                              0x404 //hoenn only flag
-#define FLAG_ITEM_ROUTE_119_HYPER_POTION_1                          0x405 //hoenn only flag
-#define FLAG_ITEM_ROUTE_120_NUGGET                                  0x406 //hoenn only flag
-#define FLAG_ITEM_ROUTE_120_FULL_HEAL                               0x407 //hoenn only flag
-#define FLAG_ITEM_ROUTE_123_CALCIUM                                 0x408 //hoenn only flag
-#define FLAG_ITEM_ROUTE_123_RARE_CANDY                              0x409 // Unused Flag, leftover from R/S. In Emerald this is a hidden item and uses a different flag
+#define FLAG_ITEM_HOENN                                             0x3E8
+#define FLAG_ITEM_LAKE_VERITY_TM38                                  0x3E9
+#define FLAG_ITEM_0x3EA                                             0x3EA
+#define FLAG_ITEM_0x3EB                                             0x3EB
+#define FLAG_ITEM_0x3EC                                             0x3EC
+#define FLAG_ITEM_0x3ED                                             0x3ED
+#define FLAG_ITEM_0x3EE                                             0x3EE
+#define FLAG_ITEM_0x3EF                                             0x3EF
+#define FLAG_ITEM_0x3F0                                             0x3F0
+#define FLAG_ITEM_0x3F1                                             0x3F1
+#define FLAG_ITEM_0x3F2                                             0x3F2
+#define FLAG_ITEM_0x3F3                                             0x3F3
+#define FLAG_ITEM_0x3F4                                             0x3F4
+#define FLAG_ITEM_0x3F5                                             0x3F5
+#define FLAG_ITEM_0x3F6                                             0x3F6
+#define FLAG_ITEM_0x3F7                                             0x3F7
+#define FLAG_ITEM_0x3F8                                             0x3F8
+#define FLAG_ITEM_0x3F9                                             0x3F9
+#define FLAG_ITEM_0x3FA                                             0x3FA
+#define FLAG_ITEM_0x3FB                                             0x3FB
+#define FLAG_ITEM_0x3FC                                             0x3FC
+#define FLAG_ITEM_0x3FD                                             0x3FD
+#define FLAG_ITEM_0x3FE                                             0x3FE
+#define FLAG_ITEM_0x3FF                                             0x3FF
+#define FLAG_ITEM_0x400                                             0x400
+#define FLAG_ITEM_0x401                                             0x401
+#define FLAG_ITEM_0x402                                             0x402
+#define FLAG_ITEM_0x403                                             0x403
+#define FLAG_ITEM_0x404                                             0x404
+#define FLAG_ITEM_0x405                                             0x405
+#define FLAG_ITEM_0x406                                             0x406
+#define FLAG_ITEM_0x407                                             0x407
+#define FLAG_ITEM_0x408                                             0x408
+#define FLAG_ITEM_0x409                                             0x409
 #define FLAG_ITEM_ROUTE_127_ZINC                                    0x40A //hoenn only flag
 #define FLAG_ITEM_ROUTE_127_CARBOS                                  0x40B //hoenn only flag
 #define FLAG_ITEM_ROUTE_132_RARE_CANDY                              0x40C //hoenn only flag
