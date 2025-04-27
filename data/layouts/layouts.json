@@ -5310,6 +5310,116 @@
       "secondary_tileset": "gTileset_Sandgem",
       "border_filepath": "data/layouts/LakeVerityLowWater/border.bin",
       "blockdata_filepath": "data/layouts/LakeVerityLowWater/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOLACEON_RUINS_1F",
+      "name": "SolaceonRuins_1F_Layout",
+      "width": 11,
+      "height": 12,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Ruins",
+      "border_filepath": "data/layouts/SolaceonRuins_1F/border.bin",
+      "blockdata_filepath": "data/layouts/SolaceonRuins_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOLACEON_RUINS_B1F",
+      "name": "SolaceonRuins_B1F_Layout",
+      "width": 11,
+      "height": 12,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Ruins",
+      "border_filepath": "data/layouts/SolaceonRuins_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/SolaceonRuins_B1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOLACEON_RUINS_DEAD_END_ROOM_LEFT_DOWN",
+      "name": "SolaceonRuins_DeadEndRoomLeftDown",
+      "width": 8,
+      "height": 6,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Ruins",
+      "border_filepath": "data/layouts/SolaceonRuins_DeadEndRoomLeftDown/border.bin",
+      "blockdata_filepath": "data/layouts/SolaceonRuins_DeadEndRoomLeftDown/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOLACEON_RUINS_DEAD_END_ROOM_RIGHT_DOWN",
+      "name": "SolaceonRuins_DeadEndRoomRightDown_Layout",
+      "width": 8,
+      "height": 6,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Ruins",
+      "border_filepath": "data/layouts/SolaceonRuins_DeadEndRoomRightDown/border.bin",
+      "blockdata_filepath": "data/layouts/SolaceonRuins_DeadEndRoomRightDown/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOLACEON_RUINS_DEAD_END_ROOM_RIGHT_UP",
+      "name": "SolaceonRuins_DeadEndRoomRightUp_Layout",
+      "width": 10,
+      "height": 6,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Ruins",
+      "border_filepath": "data/layouts/SolaceonRuins_DeadEndRoomRightUp/border.bin",
+      "blockdata_filepath": "data/layouts/SolaceonRuins_DeadEndRoomRightUp/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOLACEON_RUINS_DEAD_END_ROOM_LEFT_UP",
+      "name": "SolaceonRuins_DeadEndRoomLeftUp_Layout",
+      "width": 11,
+      "height": 6,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Ruins",
+      "border_filepath": "data/layouts/SolaceonRuins_DeadEndRoomLeftUp/border.bin",
+      "blockdata_filepath": "data/layouts/SolaceonRuins_DeadEndRoomLeftUp/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOLACEON_RUINS_B2F",
+      "name": "SolaceonRuins_B2F_Layout",
+      "width": 11,
+      "height": 12,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Ruins",
+      "border_filepath": "data/layouts/SolaceonRuins_B2F/border.bin",
+      "blockdata_filepath": "data/layouts/SolaceonRuins_B2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOLACEON_RUINS_B3F1",
+      "name": "SolaceonRuins_B3F1_Layout",
+      "width": 11,
+      "height": 12,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Ruins",
+      "border_filepath": "data/layouts/SolaceonRuins_B3F1/border.bin",
+      "blockdata_filepath": "data/layouts/SolaceonRuins_B3F1/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOLACEON_RUINS_B4F1",
+      "name": "SolaceonRuins_B4F1_Layout",
+      "width": 11,
+      "height": 12,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Ruins",
+      "border_filepath": "data/layouts/SolaceonRuins_B4F1/border.bin",
+      "blockdata_filepath": "data/layouts/SolaceonRuins_B4F1/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOLACEON_RUINS_B3F2",
+      "name": "SolaceonRuins_B3F2_Layout",
+      "width": 11,
+      "height": 12,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Ruins",
+      "border_filepath": "data/layouts/SolaceonRuins_B3F2/border.bin",
+      "blockdata_filepath": "data/layouts/SolaceonRuins_B3F2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOLACEON_RUINS_B4F2",
+      "name": "SolaceonRuins_B4F2_Layout",
+      "width": 11,
+      "height": 12,
+      "primary_tileset": "gTileset_Sinnoh_General",
+      "secondary_tileset": "gTileset_Ruins",
+      "border_filepath": "data/layouts/SolaceonRuins_B4F2/border.bin",
+      "blockdata_filepath": "data/layouts/SolaceonRuins_B4F2/map.bin"
     }
   ]
 }

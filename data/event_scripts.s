@@ -1477,3 +1477,39 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/SolaceonRuins_2F/scripts.inc"
 
 	.include "data/maps/CelesticRuins/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_1F/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_B1F/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_1F_TopLeft/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_1F_BottomRight/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_B1F_TopRight/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_B1F_BottomRight/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_B2F_TopLeft/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_B2F_BottomLeft/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_B2F/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_B3F1/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_B4F1/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_B3F2/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_B4F1_BottomLeft/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_B4F1_BottomRight/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_B3F2_BottomRight/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_B3F2_TopLeft/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_B4F2/scripts.inc"
+
+	.include "data/maps/SolaceonRuins_B3F1_BottomRight/scripts.inc"

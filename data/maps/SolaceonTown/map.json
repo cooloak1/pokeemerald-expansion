@@ -67,14 +67,21 @@
       "x": 51,
       "y": 11,
       "elevation": 0,
-      "dest_map": "MAP_RUIN_MANIAC_TUNNEL",
-      "dest_warp_id": "1"
+      "dest_map": "MAP_SOLACEON_RUINS_2F",
+      "dest_warp_id": "0"
     },
     {
       "x": 25,
       "y": 22,
       "elevation": 0,
       "dest_map": "MAP_SOLACEON_TOWN_MART",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 50,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_SOLACEON_RUINS_1F",
       "dest_warp_id": "0"
     }
   ],
