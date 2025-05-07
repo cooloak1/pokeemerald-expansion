@@ -921,83 +921,83 @@
 #define FLAG_UNUSED_0x368                                           0x368
 #define FLAG_UNUSED_0x369                                           0x369
 #define FLAG_UNUSED_0x36A                                           0x36A
-#define FLAG_UNUSED_0x36B                                           0x36B //hoenn only flag
-#define FLAG_UNUSED_0x36C                                           0x36C //hoenn only flag
-#define FLAG_UNUSED_0x36D                                           0x36D //hoenn only flag
-#define FLAG_UNUSED_0x36E                                           0x36E //hoenn only flag
-#define FLAG_UNUSED_0x36F                                           0x36F //hoenn only flag
-#define FLAG_UNUSED_0x370                                           0x370 //hoenn only flag
-#define FLAG_UNUSED_0x371                                           0x371 //hoenn only flag
-#define FLAG_UNUSED_0x372                                           0x372 //hoenn only flag
-#define FLAG_UNUSED_0x373                                           0x373 //hoenn only flag
-#define FLAG_UNUSED_0x374                                           0x374 //hoenn only flag
-#define FLAG_UNUSED_0x375                                           0x375 //hoenn only flag
-#define FLAG_UNUSED_0x376                                           0x376 //hoenn only flag
-#define FLAG_UNUSED_0x377                                           0x377 //hoenn only flag
-#define FLAG_UNUSED_0x378                                           0x378 //hoenn only flag
-#define FLAG_UNUSED_0x379                                           0x379 //hoenn only flag
-#define FLAG_UNUSED_0x37A                                           0x37A //hoenn only flag
-#define FLAG_UNUSED_0x37B                                           0x37B //hoenn only flag
-#define FLAG_UNUSED_0x37C                                           0x37C //hoenn only flag
-#define FLAG_UNUSED_0x37D                                           0x37D //hoenn only flag
-#define FLAG_UNUSED_0x37E                                           0x37E //hoenn only flag
-#define FLAG_UNUSED_0x37F                                           0x37F //hoenn only flag
-#define FLAG_UNUSED_0x380                                           0x380 //hoenn only flag
-#define FLAG_UNUSED_0x381                                           0x381 //hoenn only flag
-#define FLAG_UNUSED_0x382                                           0x382 //hoenn only flag
-#define FLAG_UNUSED_0x383                                           0x383 //hoenn only flag
-#define FLAG_UNUSED_0x384                                           0x384 //hoenn only flag
-#define FLAG_UNUSED_0x385                                           0x385 //hoenn only flag
-#define FLAG_UNUSED_0x386                                           0x386 //hoenn only flag
-#define FLAG_UNUSED_0x387                                           0x387 //hoenn only flag
-#define FLAG_UNUSED_0x388                                           0x388 //hoenn only flag
-#define FLAG_UNUSED_0x389                                           0x389 //hoenn only flag
-#define FLAG_UNUSED_0x38A                                           0x38A //hoenn only flag
-#define FLAG_UNUSED_0x38B                                           0x38B //hoenn only flag
-#define FLAG_UNUSED_0x38C                                           0x38C //hoenn only flag
-#define FLAG_UNUSED_0x38D                                           0x38D //hoenn only flag
+#define FLAG_UNUSED_0x36B                                           0x36B
+#define FLAG_UNUSED_0x36C                                           0x36C
+#define FLAG_UNUSED_0x36D                                           0x36D
+#define FLAG_UNUSED_0x36E                                           0x36E
+#define FLAG_UNUSED_0x36F                                           0x36F
+#define FLAG_UNUSED_0x370                                           0x370
+#define FLAG_UNUSED_0x371                                           0x371
+#define FLAG_UNUSED_0x372                                           0x372
+#define FLAG_UNUSED_0x373                                           0x373
+#define FLAG_UNUSED_0x374                                           0x374
+#define FLAG_UNUSED_0x375                                           0x375
+#define FLAG_UNUSED_0x376                                           0x376
+#define FLAG_UNUSED_0x377                                           0x377
+#define FLAG_UNUSED_0x378                                           0x378
+#define FLAG_UNUSED_0x379                                           0x379
+#define FLAG_UNUSED_0x37A                                           0x37A
+#define FLAG_UNUSED_0x37B                                           0x37B
+#define FLAG_UNUSED_0x37C                                           0x37C
+#define FLAG_UNUSED_0x37D                                           0x37D
+#define FLAG_UNUSED_0x37E                                           0x37E
+#define FLAG_UNUSED_0x37F                                           0x37F
+#define FLAG_UNUSED_0x380                                           0x380
+#define FLAG_UNUSED_0x381                                           0x381
+#define FLAG_UNUSED_0x382                                           0x382
+#define FLAG_UNUSED_0x383                                           0x383
+#define FLAG_UNUSED_0x384                                           0x384
+#define FLAG_UNUSED_0x385                                           0x385
+#define FLAG_UNUSED_0x386                                           0x386
+#define FLAG_UNUSED_0x387                                           0x387
+#define FLAG_UNUSED_0x388                                           0x388
+#define FLAG_UNUSED_0x389                                           0x389
+#define FLAG_UNUSED_0x38A                                           0x38A
+#define FLAG_UNUSED_0x38B                                           0x38B
+#define FLAG_UNUSED_0x38C                                           0x38C
+#define FLAG_UNUSED_0x38D                                           0x38D
 #define FLAG_HIDE_SOUTHERN_ISLAND_EON_STONE                         0x38E 
 #define FLAG_HIDE_SOUTHERN_ISLAND_UNCHOSEN_EON_DUO_MON              0x38F 
-#define FLAG_UNUSED_0x390                                           0x390 //hoenn only flag
-#define FLAG_UNUSED_0x391                                           0x391 //hoenn only flag
-#define FLAG_UNUSED_0x392                                           0x392 //hoenn only flag
-#define FLAG_UNUSED_0x393                                           0x393 // Set, however has no purpose.
-#define FLAG_UNUSED_0x394                                           0x394 //hoenn only flag
-#define FLAG_UNUSED_0x395                                           0x395 //hoenn only flag
-#define FLAG_UNUSED_0x396                                           0x396 //hoenn only flag
-#define FLAG_UNUSED_0x397                                           0x397 //hoenn only flag
+#define FLAG_UNUSED_0x390                                           0x390
+#define FLAG_UNUSED_0x391                                           0x391
+#define FLAG_UNUSED_0x392                                           0x392
+#define FLAG_UNUSED_0x393                                           0x393
+#define FLAG_UNUSED_0x394                                           0x394
+#define FLAG_UNUSED_0x395                                           0x395
+#define FLAG_UNUSED_0x396                                           0x396
+#define FLAG_UNUSED_0x397                                           0x397
 #define FLAG_UNUSED_0x398                                           0x398
 #define FLAG_UNUSED_0x399                                           0x399
-#define FLAG_UNUSED_0x39A                                           0x39A //hoenn only flag
-#define FLAG_UNUSED_0x39B                                           0x39B //hoenn only flag
-#define FLAG_UNUSED_0x39C                                           0x39C //hoenn only flag
-#define FLAG_UNUSED_0x39D                                           0x39D //hoenn only flag
-#define FLAG_UNUSED_0x39E                                           0x39E //hoenn only flag
-#define FLAG_UNUSED_0x39F                                           0x39F //hoenn only flag
-#define FLAG_UNUSED_0x3A0                                           0x3A0 //hoenn only flag
-#define FLAG_UNUSED_0x3A1                                           0x3A1 //hoenn only flag
-#define FLAG_UNUSED_0x3A2                                           0x3A2 //hoenn only flag
-#define FLAG_UNUSED_0x3A3                                           0x3A3 //hoenn only flag
-#define FLAG_UNUSED_0x3A4                                           0x3A4 //hoenn only flag
-#define FLAG_UNUSED_0x3A5                                           0x3A5 //hoenn only flag
-#define FLAG_UNUSED_0x3A6                                           0x3A6 //hoenn only flag
+#define FLAG_UNUSED_0x39A                                           0x39A
+#define FLAG_UNUSED_0x39B                                           0x39B
+#define FLAG_UNUSED_0x39C                                           0x39C
+#define FLAG_UNUSED_0x39D                                           0x39D
+#define FLAG_UNUSED_0x39E                                           0x39E
+#define FLAG_UNUSED_0x39F                                           0x39F
+#define FLAG_UNUSED_0x3A0                                           0x3A0
+#define FLAG_UNUSED_0x3A1                                           0x3A1
+#define FLAG_UNUSED_0x3A2                                           0x3A2
+#define FLAG_UNUSED_0x3A3                                           0x3A3
+#define FLAG_UNUSED_0x3A4                                           0x3A4
+#define FLAG_UNUSED_0x3A5                                           0x3A5
+#define FLAG_UNUSED_0x3A6                                           0x3A6
 #define FLAG_HIDE_REGIROCK                                          0x3A7
 #define FLAG_HIDE_REGICE                                            0x3A8
 #define FLAG_HIDE_REGISTEEL                                         0x3A9
-#define FLAG_UNUSED_0x3AA                                           0x3AA //hoenn only flag
-#define FLAG_UNUSED_0x3AB                                           0x3AB //hoenn only flag
-#define FLAG_UNUSED_0x3AC                                           0x3AC //hoenn only flag
-#define FLAG_UNUSED_0x3AD                                           0x3AD //hoenn only flag
-#define FLAG_UNUSED_0x3AE                                           0x3AE //hoenn only flag
-#define FLAG_UNUSED_0x3AF                                           0x3AF //hoenn only flag
-#define FLAG_UNUSED_0x3B0                                           0x3B0 //hoenn only flag
-#define FLAG_UNUSED_0x3B1                                           0x3B1 //hoenn only flag
-#define FLAG_UNUSED_0x3B2                                           0x3B2 //hoenn only flag
-#define FLAG_UNUSED_0x3B3                                           0x3B3 //hoenn only flag
-#define FLAG_UNUSED_0x3B4                                           0x3B4 //hoenn only flag
-#define FLAG_UNUSED_0x3B5                                           0x3B5 //hoenn only flag
-#define FLAG_UNUSED_0x3B6                                           0x3B6 //hoenn only flag
-#define FLAG_UNUSED_0x3B7                                           0x3B7 //hoenn only flag
+#define FLAG_UNUSED_0x3AA                                           0x3AA
+#define FLAG_UNUSED_0x3AB                                           0x3AB
+#define FLAG_UNUSED_0x3AC                                           0x3AC
+#define FLAG_UNUSED_0x3AD                                           0x3AD
+#define FLAG_UNUSED_0x3AE                                           0x3AE
+#define FLAG_UNUSED_0x3AF                                           0x3AF
+#define FLAG_UNUSED_0x3B0                                           0x3B0
+#define FLAG_UNUSED_0x3B1                                           0x3B1
+#define FLAG_UNUSED_0x3B2                                           0x3B2
+#define FLAG_UNUSED_0x3B3                                           0x3B3
+#define FLAG_UNUSED_0x3B4                                           0x3B4
+#define FLAG_UNUSED_0x3B5                                           0x3B5
+#define FLAG_UNUSED_0x3B6                                           0x3B6
+#define FLAG_UNUSED_0x3B7                                           0x3B7
 #define FLAG_UNUSED_0x3B8                                           0x3B8
 #define FLAG_UNUSED_0x3B9                                           0x3B9
 #define FLAG_UNUSED_0x3BA                                           0x3BA
@@ -1006,46 +1006,46 @@
 #define FLAG_UNUSED_0x3BD                                           0x3BD
 #define FLAG_UNUSED_0x3BE                                           0x3BE
 #define FLAG_UNUSED_0x3BF                                           0x3BF
-#define FLAG_UNUSED_0x3C0                                           0x3C0 //hoenn only flag
-#define FLAG_UNUSED_0x3C1                                           0x3C1 //hoenn only flag
-#define FLAG_UNUSED_0x3C2                                           0x3C2 //hoenn only flag
-#define FLAG_UNUSED_0x3C3                                           0x3C3 //hoenn only flag
-#define FLAG_UNUSED_0x3C4                                           0x3C4 //hoenn only flag
-#define FLAG_UNUSED_0x3C5                                           0x3C5 //hoenn only flag
-#define FLAG_UNUSED_0x3C6                                           0x3C6 //hoenn only flag
-#define FLAG_UNUSED_0x3C7                                           0x3C7 //hoenn only flag
-#define FLAG_UNUSED_0x3C8                                           0x3C8 //hoenn only flag
-#define FLAG_UNUSED_0x3C9                                           0x3C9 //hoenn only flag
+#define FLAG_UNUSED_0x3C0                                           0x3C0
+#define FLAG_UNUSED_0x3C1                                           0x3C1
+#define FLAG_UNUSED_0x3C2                                           0x3C2
+#define FLAG_UNUSED_0x3C3                                           0x3C3
+#define FLAG_UNUSED_0x3C4                                           0x3C4
+#define FLAG_UNUSED_0x3C5                                           0x3C5
+#define FLAG_UNUSED_0x3C6                                           0x3C6
+#define FLAG_UNUSED_0x3C7                                           0x3C7
+#define FLAG_UNUSED_0x3C8                                           0x3C8
+#define FLAG_UNUSED_0x3C9                                           0x3C9
 #define FLAG_UNUSED_0x3CA                                           0x3CA
-#define FLAG_UNUSED_0x3CB                                           0x3CB //hoenn only flag
-#define FLAG_UNUSED_0x3CC                                           0x3CC //hoenn only flag
-#define FLAG_UNUSED_0x3CD                                           0x3CD //hoenn only flag
-#define FLAG_UNUSED_0x3CE                                           0x3CE //hoenn only flag
-#define FLAG_UNUSED_0x3CF                                           0x3CF //hoenn only flag
-#define FLAG_UNUSED_0x3D0                                           0x3D0 //hoenn only flag
-#define FLAG_UNUSED_0x3D1                                           0x3D1 //hoenn only flag
-#define FLAG_UNUSED_0x3D2                                           0x3D2 //hoenn only flag
-#define FLAG_UNUSED_0x3D3                                           0x3D3 //hoenn only flag
-#define FLAG_UNUSED_0x3D4                                           0x3D4 //hoenn only flag
-#define FLAG_UNUSED_0x3D5                                           0x3D5 //hoenn only flag
-#define FLAG_UNUSED_0x3D6                                           0x3D6 //hoenn only flag
-#define FLAG_UNUSED_0x3D7                                           0x3D7 //hoenn only flag
-#define FLAG_UNUSED_0x3D8                                           0x3D8 //hoenn only flag
-#define FLAG_UNUSED_0x3D9                                           0x3D9 //hoenn only flag
-#define FLAG_UNUSED_0x3DA                                           0x3DA //hoenn only flag
-#define FLAG_UNUSED_0x3DB                                           0x3DB //hoenn only flag
-#define FLAG_UNUSED_0x3DC                                           0x3DC //hoenn only flag
-#define FLAG_UNUSED_0x3DD                                           0x3DD //hoenn only flag
-#define FLAG_UNUSED_0x3DE                                           0x3DE //hoenn only flag
-#define FLAG_UNUSED_0x3DF                                           0x3DF //hoenn only flag
-#define FLAG_UNUSED_0x3E0                                           0x3E0 //hoenn only flag
-#define FLAG_UNUSED_0x3E1                                           0x3E1 //hoenn only flag
-#define FLAG_UNUSED_0x3E2                                           0x3E2 //hoenn only flag
-#define FLAG_UNUSED_0x3E3                                           0x3E3 //hoenn only flag
-#define FLAG_UNUSED_0x3E4                                           0x3E4 //hoenn only flag
-#define FLAG_UNUSED_0x3E5                                           0x3E5 //hoenn only flag
-#define FLAG_UNUSED_0x3E6                                           0x3E6 //hoenn only flag
-#define FLAG_UNUSED_0x3E7                                           0x3E7 //hoenn only flag
+#define FLAG_UNUSED_0x3CB                                           0x3CB
+#define FLAG_UNUSED_0x3CC                                           0x3CC
+#define FLAG_UNUSED_0x3CD                                           0x3CD
+#define FLAG_UNUSED_0x3CE                                           0x3CE
+#define FLAG_UNUSED_0x3CF                                           0x3CF
+#define FLAG_UNUSED_0x3D0                                           0x3D0
+#define FLAG_UNUSED_0x3D1                                           0x3D1
+#define FLAG_UNUSED_0x3D2                                           0x3D2
+#define FLAG_UNUSED_0x3D3                                           0x3D3
+#define FLAG_UNUSED_0x3D4                                           0x3D4
+#define FLAG_UNUSED_0x3D5                                           0x3D5
+#define FLAG_UNUSED_0x3D6                                           0x3D6
+#define FLAG_UNUSED_0x3D7                                           0x3D7
+#define FLAG_UNUSED_0x3D8                                           0x3D8
+#define FLAG_UNUSED_0x3D9                                           0x3D9
+#define FLAG_UNUSED_0x3DA                                           0x3DA
+#define FLAG_UNUSED_0x3DB                                           0x3DB
+#define FLAG_UNUSED_0x3DC                                           0x3DC
+#define FLAG_UNUSED_0x3DD                                           0x3DD
+#define FLAG_UNUSED_0x3DE                                           0x3DE
+#define FLAG_UNUSED_0x3DF                                           0x3DF
+#define FLAG_UNUSED_0x3E0                                           0x3E0
+#define FLAG_UNUSED_0x3E1                                           0x3E1
+#define FLAG_UNUSED_0x3E2                                           0x3E2
+#define FLAG_UNUSED_0x3E3                                           0x3E3
+#define FLAG_UNUSED_0x3E4                                           0x3E4
+#define FLAG_UNUSED_0x3E5                                           0x3E5
+#define FLAG_UNUSED_0x3E6                                           0x3E6
+#define FLAG_UNUSED_0x3E7                                           0x3E7
 
 // Item Ball Flags
 #define FLAG_ITEM_HOENN                                             0x3E8
@@ -1099,68 +1099,68 @@
 #define FLAG_ITEM_ROUTE_212N_ROSE_INCENSE                           0x418
 #define FLAG_ITEM_ROUTE_212N_GREEN_SHARD                            0x419
 #define FLAG_ITEM_ROUTE_212N_ELIXIR                                 0x41A
-#define FLAG_ITEM_0x41B                                             0x41B
-#define FLAG_ITEM_0x41C                                             0x41C
-#define FLAG_ITEM_0x41D                                             0x41D
-#define FLAG_ITEM_0x41E                                             0x41E
-#define FLAG_ITEM_0x41F                                             0x41F
-#define FLAG_ITEM_0x420                                             0x420
-#define FLAG_ITEM_0x421                                             0x421
-#define FLAG_ITEM_0x422                                             0x422
-#define FLAG_ITEM_MAGMA_HIDEOUT_3F_3R_ECAPE_ROPE                    0x423 //hoenn only flag
-#define FLAG_ITEM_TRICK_HOUSE_PUZZLE_1_ORANGE_MAIL                  0x424 //hoenn only flag
-#define FLAG_ITEM_TRICK_HOUSE_PUZZLE_2_HARBOR_MAIL                  0x425 //hoenn only flag
-#define FLAG_ITEM_TRICK_HOUSE_PUZZLE_2_WAVE_MAIL                    0x426 //hoenn only flag
-#define FLAG_ITEM_TRICK_HOUSE_PUZZLE_3_SHADOW_MAIL                  0x427 //hoenn only flag
-#define FLAG_ITEM_TRICK_HOUSE_PUZZLE_3_WOOD_MAIL                    0x428 //hoenn only flag
-#define FLAG_ITEM_TRICK_HOUSE_PUZZLE_4_MECH_MAIL                    0x429 //hoenn only flag
-#define FLAG_ITEM_ROUTE_124_YELLOW_SHARD                            0x42A //hoenn only flag
-#define FLAG_ITEM_TRICK_HOUSE_PUZZLE_6_GLITTER_MAIL                 0x42B //hoenn only flag
-#define FLAG_ITEM_TRICK_HOUSE_PUZZLE_7_TROPIC_MAIL                  0x42C //hoenn only flag
-#define FLAG_ITEM_TRICK_HOUSE_PUZZLE_8_BEAD_MAIL                    0x42D //hoenn only flag
-#define FLAG_ITEM_JAGGED_PASS_BURN_HEAL                             0x42E //hoenn only flag
-#define FLAG_ITEM_AQUA_HIDEOUT_B1F_MAX_ELIXIR                       0x42F //hoenn only flag
-#define FLAG_ITEM_AQUA_HIDEOUT_B2F_NEST_BALL                        0x430 //hoenn only flag
-#define FLAG_ITEM_MT_PYRE_EXTERIOR_MAX_POTION                       0x431 //hoenn only flag
-#define FLAG_ITEM_MT_PYRE_EXTERIOR_TM_SKILL_SWAP                    0x432 //hoenn only flag
-#define FLAG_ITEM_NEW_MAUVILLE_ULTRA_BALL                           0x433 //hoenn only flag
-#define FLAG_ITEM_NEW_MAUVILLE_ESCAPE_ROPE                          0x434 //hoenn only flag
-#define FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_6_LUXURY_BALL    0x435 //hoenn only flag
-#define FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_2_SCANNER        0x436 //hoenn only flag
-#define FLAG_ITEM_SCORCHED_SLAB_TM_SUNNY_DAY                        0x437 //hoenn only flag
-#define FLAG_ITEM_METEOR_FALLS_B1F_2R_TM_DRAGON_CLAW                0x438 //hoenn only flag
-#define FLAG_ITEM_SHOAL_CAVE_ENTRANCE_BIG_PEARL                     0x439 //hoenn only flag
-#define FLAG_ITEM_SHOAL_CAVE_INNER_ROOM_RARE_CANDY                  0x43A //hoenn only flag
-#define FLAG_ITEM_SHOAL_CAVE_STAIRS_ROOM_ICE_HEAL                   0x43B //hoenn only flag
-#define FLAG_ITEM_VICTORY_ROAD_1F_MAX_ELIXIR                        0x43C //hoenn only flag
-#define FLAG_ITEM_VICTORY_ROAD_1F_PP_UP                             0x43D //hoenn only flag
-#define FLAG_ITEM_VICTORY_ROAD_B1F_TM_PSYCHIC                       0x43E //hoenn only flag
-#define FLAG_ITEM_VICTORY_ROAD_B1F_FULL_RESTORE                     0x43F //hoenn only flag
-#define FLAG_ITEM_VICTORY_ROAD_B2F_FULL_HEAL                        0x440 //hoenn only flag
-#define FLAG_ITEM_MT_PYRE_6F_TM_SHADOW_BALL                         0x441 //hoenn only flag
-#define FLAG_ITEM_SEAFLOOR_CAVERN_ROOM_9_TM_EARTHQUAKE              0x442 //hoenn only flag
-#define FLAG_ITEM_FIERY_PATH_TM_TOXIC                               0x443 //hoenn only flag
-#define FLAG_ITEM_ROUTE_124_RED_SHARD                               0x444 //hoenn only flag
-#define FLAG_ITEM_ROUTE_124_BLUE_SHARD                              0x445 //hoenn only flag
-#define FLAG_ITEM_SAFARI_ZONE_NORTH_WEST_TM_SOLAR_BEAM              0x446 //hoenn only flag
-#define FLAG_ITEM_ABANDONED_SHIP_ROOMS_1F_HARBOR_MAIL               0x447 //hoenn only flag
-#define FLAG_ITEM_ABANDONED_SHIP_ROOMS_B1F_ESCAPE_ROPE              0x448 //hoenn only flag
-#define FLAG_ITEM_ABANDONED_SHIP_ROOMS_2_B1F_DIVE_BALL              0x449 //hoenn only flag
-#define FLAG_ITEM_ABANDONED_SHIP_ROOMS_B1F_TM_ICE_BEAM              0x44A //hoenn only flag
-#define FLAG_ITEM_ABANDONED_SHIP_ROOMS_2_1F_REVIVE                  0x44B //hoenn only flag
-#define FLAG_ITEM_ABANDONED_SHIP_CAPTAINS_OFFICE_STORAGE_KEY        0x44C //hoenn only flag
-#define FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_3_WATER_STONE    0x44D //hoenn only flag
-#define FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_1_TM_RAIN_DANCE  0x44E //hoenn only flag
-#define FLAG_ITEM_ROUTE_121_CARBOS                                  0x44F //hoenn only flag
-#define FLAG_ITEM_ROUTE_123_ULTRA_BALL                              0x450 //hoenn only flag
-#define FLAG_ITEM_ROUTE_126_GREEN_SHARD                             0x451 //hoenn only flag
-#define FLAG_ITEM_ROUTE_119_HYPER_POTION_2                          0x452 //hoenn only flag
-#define FLAG_ITEM_ROUTE_120_HYPER_POTION                            0x453 //hoenn only flag
-#define FLAG_ITEM_ROUTE_120_NEST_BALL                               0x454 //hoenn only flag
-#define FLAG_ITEM_ROUTE_123_ELIXIR                                  0x455 //hoenn only flag
-#define FLAG_ITEM_NEW_MAUVILLE_THUNDER_STONE                        0x456 //hoenn only flag
-#define FLAG_ITEM_FIERY_PATH_FIRE_STONE                             0x457 //hoenn only flag
-#define FLAG_ITEM_SHOAL_CAVE_ICE_ROOM_TM_HAIL                       0x458 //hoenn only flag
+#define FLAG_ITEM_ROUTE_212S_BLUE_SHARD                             0x41B
+#define FLAG_ITEM_ROUTE_212S_FULL_HEAL                              0x41C
+#define FLAG_ITEM_ROUTE_212S_TM84                                   0x41D
+#define FLAG_ITEM_ROUTE_212S_TM62                                   0x41E
+#define FLAG_ITEM_ROUTE_212S_ZINC                                   0x41F
+#define FLAG_ITEM_ROUTE_212S_ELIXIR                                 0x420
+#define FLAG_ITEM_ROUTE_212S_HYPER_POTION                           0x421
+#define FLAG_ITEM_ROUTE_212S_TM06                                   0x422
+#define FLAG_ITEM_ROUTE_212S_REVIVE                                 0x423
+#define FLAG_ITEM_ROUTE_213_TM40                                    0x424
+#define FLAG_ITEM_ROUTE_213_MAX_REVIVE                              0x425
+#define FLAG_ITEM_ROUTE_213_WATER_STONE                             0x426
+#define FLAG_ITEM_ROUTE_214_RED_SHARD                               0x427
+#define FLAG_ITEM_ROUTE_214_BIG_ROOT                                0x428
+#define FLAG_ITEM_ROUTE_214_MAGMARIZER                              0x429
+#define FLAG_ITEM_ROUTE_214_MAX_REPEL                               0x42A
+#define FLAG_ITEM_ROUTE_214_RARE_CANDY                              0x42B
+#define FLAG_ITEM_ROUTE_215_FULL_HEAL                               0x42C
+#define FLAG_ITEM_ROUTE_215_TM34                                    0x42D
+#define FLAG_ITEM_ROUTE_215_HP_UP                                   0x42E
+#define FLAG_ITEM_ROUTE_215_HYPER_POTION                            0x42F
+#define FLAG_ITEM_ROUTE_215_FIST_PLATE                              0x430
+#define FLAG_ITEM_ROUTE_215_MAX_ETHER                               0x431
+#define FLAG_ITEM_ROUTE_216_REVIVE                                  0x432
+#define FLAG_ITEM_ROUTE_216_FULL_HEAL                               0x433
+#define FLAG_ITEM_ROUTE_216_MENTAL_HERB                             0x434
+#define FLAG_ITEM_ROUTE_216_HP_UP                                   0x435
+#define FLAG_ITEM_ROUTE_216_MAX_POTION                              0x436
+#define FLAG_ITEM_ROUTE_216_TM13                                    0x437
+#define FLAG_ITEM_ROUTE_217_BLUE_SHARD                              0x438
+#define FLAG_ITEM_ROUTE_217_ULTRA_BALL                              0x439
+#define FLAG_ITEM_ROUTE_217_IRON                                    0x43A
+#define FLAG_ITEM_ROUTE_217_TM07                                    0x43B
+#define FLAG_ITEM_ROUTE_217_RARE_CANDY                              0x43C
+#define FLAG_ITEM_ROUTE_218_RARE_CANDY                              0x43D
+#define FLAG_ITEM_ROUTE_218_X_ACCURACY                              0x43E
+#define FLAG_ITEM_ROUTE_218_HYPER_POTION                            0x43F
+#define FLAG_ITEM_ROUTE_219_ANTIDOTE                                0x440
+#define FLAG_ITEM_ROUTE_220_SPLASH_PLATE                            0x441
+#define FLAG_ITEM_ROUTE_220_MAX_REPEL                               0x442
+#define FLAG_ITEM_ROUTE_220_CARBOS                                  0x443
+#define FLAG_ITEM_ROUTE_220_PROTEIN                                 0x444
+#define FLAG_ITEM_ROUTE_221_PURE_INCENSE                            0x445
+#define FLAG_ITEM_ROUTE_221_ULTRA_BALL                              0x446
+#define FLAG_ITEM_ROUTE_221_TM81                                    0x447
+#define FLAG_ITEM_0x448                                             0x448
+#define FLAG_ITEM_0x449                                             0x449
+#define FLAG_ITEM_0x44A                                             0x44A
+#define FLAG_ITEM_0x44B                                             0x44B
+#define FLAG_ITEM_0x44C                                             0x44C
+#define FLAG_ITEM_0x44D                                             0x44D
+#define FLAG_ITEM_0x44E                                             0x44E
+#define FLAG_ITEM_0x44F                                             0x44F
+#define FLAG_ITEM_0x450                                             0x450
+#define FLAG_ITEM_0x451                                             0x451
+#define FLAG_ITEM_0x452                                             0x452
+#define FLAG_ITEM_0x453                                             0x453
+#define FLAG_ITEM_0x454                                             0x454
+#define FLAG_ITEM_0x455                                             0x455
+#define FLAG_ITEM_0x456                                             0x456
+#define FLAG_ITEM_0x457                                             0x457
+#define FLAG_ITEM_0x458                                             0x458
 #define FLAG_ITEM_SHOAL_CAVE_ICE_ROOM_NEVER_MELT_ICE                0x459 //hoenn only flag
 #define FLAG_ITEM_ROUTE_103_GUARD_SPEC                              0x45A //hoenn only flag
 #define FLAG_ITEM_ROUTE_104_X_ACCURACY                              0x45B //hoenn only flag
@@ -1220,24 +1220,24 @@
 #define FLAG_ITEM_SAFARI_ZONE_NORTH_EAST_NUGGET                     0x491 //hoenn only flag
 #define FLAG_ITEM_SAFARI_ZONE_SOUTH_EAST_BIG_PEARL                  0x492 //hoenn only flag
 
-#define FLAG_ITEM_ROUTE_219_ANTIDOTE                                0x493
-#define FLAG_ITEM_ROUTE_220_MAX_REPEL                               0x494
-#define FLAG_ITEM_ROUTE_220_CARBOS                                  0x495
-#define FLAG_ITEM_ROUTE_220_PROTEIN                                 0x496
-#define FLAG_ITEM_ROUTE_221_PURE_INCENSE                            0x497
-#define FLAG_ITEM_ROUTE_221_ULTRA_BALL                              0x498
-#define FLAG_ITEM_ROUTE_221_TM81                                    0x499
-#define FLAG_ITEM_LAKE_VERITY_TM38                                             0x49A
+#define FLAG_ITEM_0x493                                             0x493
+#define FLAG_ITEM_0x494                                             0x494
+#define FLAG_ITEM_0x495                                             0x495
+#define FLAG_ITEM_0x496                                             0x496
+#define FLAG_ITEM_0x497                                             0x497
+#define FLAG_ITEM_0x498                                             0x498
+#define FLAG_ITEM_0x499                                             0x499
+#define FLAG_ITEM_LAKE_VERITY_TM38                                  0x49A
 #define FLAG_ITEM_JUBILIFE_CITY_POTION                              0x49B
-#define FLAG_ITEM_ROUTE_218_RARE_CANDY                              0x49C
-#define FLAG_ITEM_ROUTE_218_X_ACCURACY                              0x49D
-#define FLAG_ITEM_ROUTE_218_HYPER_POTION                            0x49E
+#define FLAG_ITEM_0x49C                                             0x49C
+#define FLAG_ITEM_0x49D                                             0x49D
+#define FLAG_ITEM_0x49E                                             0x49E
 #define FLAG_ITEM_CANALAVE_CITY_TM89                                0x49F
-#define FLAG_ITEM_0x4A0                             0x4A0
-#define FLAG_ITEM_0x4A1                           0x4A1
-#define FLAG_ITEM_0x4A2                                   0x4A2
-#define FLAG_ITEM_0x4A3                               0x4A3
-#define FLAG_ITEM_0x4A4                                    0x4A4
+#define FLAG_ITEM_0x4A0                                             0x4A0
+#define FLAG_ITEM_0x4A1                                             0x4A1
+#define FLAG_ITEM_0x4A2                                             0x4A2
+#define FLAG_ITEM_0x4A3                                             0x4A3
+#define FLAG_ITEM_0x4A4                                             0x4A4
 #define FLAG_ITEM_RAVAGED_PATH_POTION                               0x4A5
 #define FLAG_ITEM_RAVAGED_PATH_LUCK_INCENSE                         0x4A6
 #define FLAG_ITEM_RAVAGED_PATH_TM39                                 0x4A7
@@ -1248,17 +1248,17 @@
 #define FLAG_ITEM_VALLEY_WINDWORKS_POTION                           0x4AC
 #define FLAG_ITEM_VALLEY_WINDWORKS_ELECTIRIZER                      0x4AD
 #define FLAG_ITEM_VALLEY_WINDWORKS_TM24                             0x4AE
-#define FLAG_ITEM_0x4AF                                0x4AF
-#define FLAG_ITEM_0x4B0                               0x4B0
-#define FLAG_ITEM_0x4B1                            0x4B1
-#define FLAG_ITEM_0x4B2                                   0x4B2
+#define FLAG_ITEM_0x4AF                                             0x4AF
+#define FLAG_ITEM_0x4B0                                             0x4B0
+#define FLAG_ITEM_0x4B1                                             0x4B1
+#define FLAG_ITEM_0x4B2                                             0x4B2
 #define FLAG_ITEM_FLOAROMA_TOWN_LEAF_STONE                          0x4B3
 #define FLAG_ITEM_FLOAROMA_TOWN_RARE_CANDY                          0x4B4
 #define FLAG_ITEM_FLOAROMA_TOWN_ULTRA_BALL                          0x4B5
 #define FLAG_ITEM_FLOAROMA_TOWN_MIRACLE_SEED                        0x4B6
-#define FLAG_ITEM_0x4B7                           0x4B7
-#define FLAG_ITEM_0x4B8                                    0x4B8
-#define FLAG_ITEM_0x4B9                              0x4B9
+#define FLAG_ITEM_0x4B7                                             0x4B7
+#define FLAG_ITEM_0x4B8                                             0x4B8
+#define FLAG_ITEM_0x4B9                                             0x4B9
 #define FLAG_ITEM_ETERNA_FOREST_ANTIDOTE                            0x4BA
 #define FLAG_ITEM_ETERNA_FOREST_PARALYZE_HEAL                       0x4BB
 #define FLAG_ITEM_ETERNA_FOREST_NET_BALL                            0x4BC
@@ -1270,15 +1270,15 @@
 #define FLAG_ITEM_OLD_CHATEAU_BIG_PEARL                             0x4C2
 #define FLAG_ITEM_OLD_CHATEAU_RARE_CANDY                            0x4C3
 #define FLAG_ITEM_OLD_CHATEAU_TM90                                  0x4C4
-#define FLAG_ITEM_ROUTE_211_TM12                                    0x4C5
-#define                                0x4C6
-#define                              0x4C7
-#define                              0x4C8
-#define                                0x4C9
-#define                            0x4CA
-#define                            0x4CB
-#define                            0x4CC
-#define                            0x4CD
+#define FLAG_ITEM_0x4C5                                             0x4C5
+#define FLAG_ITEM_0x4C6                                             0x4C6
+#define FLAG_ITEM_0x4C7                                             0x4C7
+#define FLAG_ITEM_0x4C8                                             0x4C8
+#define FLAG_ITEM_0x4C9                                             0x4C9
+#define FLAG_ITEM_0x4CA                                             0x4CA
+#define FLAG_ITEM_0x4CB                                             0x4CB
+#define FLAG_ITEM_0x4CC                                             0x4CC
+#define FLAG_ITEM_0x4CD                                             0x4CD
 #define FLAG_ITEM_WAYWARD_CAVE_TM32                                 0x4CE
 #define FLAG_ITEM_WAYWARD_CAVE_REVIVE                               0x4CF
 #define FLAG_ITEM_WAYWARD_CAVE_ESCAPE_ROPE                          0x4D0
@@ -1295,24 +1295,24 @@
 #define FLAG_ITEM_OREBURGH_GATE_BIG_PEARL                           0x4DB
 #define FLAG_ITEM_OREBURGH_GATE_TM31                                0x4DC
 #define FLAG_ITEM_OREBURGH_GATE_TM01                                0x4DD
-#define FLAG_UNUSED_0x4DE                                           0x4DE // blank plate
-#define FLAG_UNUSED_0x4DF                                           0x4DF // fist plate
-#define FLAG_UNUSED_0x4E0                                           0x4E0 // sky plate
-#define FLAG_UNUSED_0x4E1                                           0x4E1 // toxic plate
-#define FLAG_ITEM_OREBURGH_GATE_EARTH_PLATE                         0x4E2 // earth plate
-#define FLAG_UNUSED_0x4E3                                           0x4E3 // stone plate
+#define FLAG_UNUSED_0x4DE                                           0x4DE
+#define FLAG_UNUSED_0x4DF                                           0x4DF
+#define FLAG_UNUSED_0x4E0                                           0x4E0
+#define FLAG_UNUSED_0x4E1                                           0x4E1
+#define FLAG_ITEM_OREBURGH_GATE_EARTH_PLATE                         0x4E2
+#define FLAG_UNUSED_0x4E3                                           0x4E3
 #define FLAG_UNUSED_0x4E4                                           0x4E4
-#define FLAG_UNUSED_0x4E5                                           0x4E5 // spooky plate
-#define FLAG_UNUSED_0x4E6                                           0x4E6 // iron plate
-#define FLAG_UNUSED_0x4E7                                           0x4E7 // flame plate
-#define FLAG_ITEM_ROUTE_220_SPLASH_PLATE                            0x4E8 // splash plate
-#define FLAG_UNUSED_0x4E9                                           0x4E9 // meadow plate
-#define FLAG_UNUSED_0x4EA                                           0x4EA // zap plate
-#define FLAG_UNUSED_0x4EB                                           0x4EB // mind plate
-#define FLAG_UNUSED_0x4EC                                           0x4EC // icicle plate
+#define FLAG_UNUSED_0x4E5                                           0x4E5
+#define FLAG_UNUSED_0x4E6                                           0x4E6
+#define FLAG_UNUSED_0x4E7                                           0x4E7
+#define FLAG_UNUSED_0x4E8                                           0x4E8
+#define FLAG_UNUSED_0x4E9                                           0x4E9
+#define FLAG_UNUSED_0x4EA                                           0x4EA
+#define FLAG_UNUSED_0x4EB                                           0x4EB
+#define FLAG_UNUSED_0x4EC                                           0x4EC
 #define FLAG_UNUSED_0x4ED                                           0x4ED
-#define FLAG_UNUSED_0x4EE                                           0x4EE // dread plate (move to hallowed tower)
-#define FLAG_UNUSED_0x4EF                                           0x4EF // pixie plate
+#define FLAG_UNUSED_0x4EE                                           0x4EE
+#define FLAG_UNUSED_0x4EF                                           0x4EF
 
 #define FLAG_DEFEATED_RUSTBORO_GYM                                  0x4F0 // hoenn only flag
 #define FLAG_DEFEATED_DEWFORD_GYM                                   0x4F1 // hoenn only flag

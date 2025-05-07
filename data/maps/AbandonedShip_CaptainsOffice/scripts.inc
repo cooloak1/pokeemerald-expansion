@@ -19,7 +19,7 @@ AbandonedShip_CaptainsOffice_EventScript_CaptSternAide::
 # 10 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	goto_if_eq VAR_RESULT, TRUE, AbandonedShip_CaptainsOffice_EventScript_CanYouDeliverScanner
 # 11 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
-	goto_if_set FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_2_SCANNER, AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus
+	goto_if_set FLAG_ITEM_HOENN, AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus
 # 12 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"
 	msgbox AbandonedShip_CaptainsOffice_Text_NoSuccessFindingScanner, MSGBOX_DEFAULT
 # 13 "data/maps/AbandonedShip_CaptainsOffice/scripts.pory"

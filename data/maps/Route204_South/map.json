@@ -36,7 +36,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_HP_UP",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_ROUTE_204_HP_UP"
+      "flag": "FLAG_ITEM_ROUTE_204S_HP_UP"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -49,7 +49,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_PARALYZE_HEAL",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_ROUTE_204_PARALYZE_HEAL"
+      "flag": "FLAG_ITEM_ROUTE_204S_PARALYZE_HEAL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -62,7 +62,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_SEA_INCENSE",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_ROUTE_204_SEA_INCENSE"
+      "flag": "FLAG_ITEM_ROUTE_204S_SEA_INCENSE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ANABEL",

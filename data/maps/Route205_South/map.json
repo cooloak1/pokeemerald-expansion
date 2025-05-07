@@ -46,7 +46,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_X_SP_DEF",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_ROUTE_205_X_SP_DEF"
+      "flag": "FLAG_ITEM_ROUTE_205S_X_SP_DEF"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -59,7 +59,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_HEAL_BALL",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_ROUTE_205_HEAL_BALL"
+      "flag": "FLAG_ITEM_ROUTE_205S_HEAL_BALL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -72,7 +72,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_SUPER_POTION",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_ROUTE_205_SUPER_POTION"
+      "flag": "FLAG_ITEM_ROUTE_205S_SUPER_POTION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -85,7 +85,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_REPEL",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_ROUTE_205_REPEL"
+      "flag": "FLAG_ITEM_ROUTE_205S_REPEL"
     }
   ],
   "warp_events": [

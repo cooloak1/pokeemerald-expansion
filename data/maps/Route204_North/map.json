@@ -36,7 +36,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_TM09",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_ROUTE_204_TM09"
+      "flag": "FLAG_ITEM_ROUTE_204N_TM09"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -49,7 +49,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_AWAKENING",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_ROUTE_204_AWAKENING"
+      "flag": "FLAG_ITEM_ROUTE_204N_AWAKENING"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ANABEL",
