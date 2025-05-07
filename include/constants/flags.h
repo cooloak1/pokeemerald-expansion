@@ -1049,64 +1049,64 @@
 
 // Item Ball Flags
 #define FLAG_ITEM_HOENN                                             0x3E8
-#define FLAG_ITEM_LAKE_VERITY_TM38                                  0x3E9
-#define FLAG_ITEM_0x3EA                                             0x3EA
-#define FLAG_ITEM_0x3EB                                             0x3EB
-#define FLAG_ITEM_0x3EC                                             0x3EC
-#define FLAG_ITEM_0x3ED                                             0x3ED
-#define FLAG_ITEM_0x3EE                                             0x3EE
-#define FLAG_ITEM_0x3EF                                             0x3EF
-#define FLAG_ITEM_0x3F0                                             0x3F0
-#define FLAG_ITEM_0x3F1                                             0x3F1
-#define FLAG_ITEM_0x3F2                                             0x3F2
-#define FLAG_ITEM_0x3F3                                             0x3F3
-#define FLAG_ITEM_0x3F4                                             0x3F4
-#define FLAG_ITEM_0x3F5                                             0x3F5
-#define FLAG_ITEM_0x3F6                                             0x3F6
-#define FLAG_ITEM_0x3F7                                             0x3F7
-#define FLAG_ITEM_0x3F8                                             0x3F8
-#define FLAG_ITEM_0x3F9                                             0x3F9
-#define FLAG_ITEM_0x3FA                                             0x3FA
-#define FLAG_ITEM_0x3FB                                             0x3FB
-#define FLAG_ITEM_0x3FC                                             0x3FC
-#define FLAG_ITEM_0x3FD                                             0x3FD
-#define FLAG_ITEM_0x3FE                                             0x3FE
-#define FLAG_ITEM_0x3FF                                             0x3FF
-#define FLAG_ITEM_0x400                                             0x400
-#define FLAG_ITEM_0x401                                             0x401
-#define FLAG_ITEM_0x402                                             0x402
-#define FLAG_ITEM_0x403                                             0x403
-#define FLAG_ITEM_0x404                                             0x404
-#define FLAG_ITEM_0x405                                             0x405
-#define FLAG_ITEM_0x406                                             0x406
-#define FLAG_ITEM_0x407                                             0x407
-#define FLAG_ITEM_0x408                                             0x408
-#define FLAG_ITEM_0x409                                             0x409
-#define FLAG_ITEM_ROUTE_127_ZINC                                    0x40A //hoenn only flag
-#define FLAG_ITEM_ROUTE_127_CARBOS                                  0x40B //hoenn only flag
-#define FLAG_ITEM_ROUTE_132_RARE_CANDY                              0x40C //hoenn only flag
-#define FLAG_ITEM_ROUTE_133_BIG_PEARL                               0x40D //hoenn only flag
-#define FLAG_ITEM_ROUTE_133_STAR_PIECE                              0x40E //hoenn only flag
-#define FLAG_ITEM_PETALBURG_CITY_MAX_REVIVE                         0x40F //hoenn only flag
-#define FLAG_ITEM_PETALBURG_CITY_ETHER                              0x410 //hoenn only flag
-#define FLAG_ITEM_RUSTBORO_CITY_X_DEFEND                            0x411 //hoenn only flag
-#define FLAG_ITEM_LILYCOVE_CITY_MAX_REPEL                           0x412 //hoenn only flag
-#define FLAG_ITEM_MOSSDEEP_CITY_NET_BALL                            0x413 //hoenn only flag
-#define FLAG_ITEM_METEOR_FALLS_1F_1R_TM_IRON_TAIL                   0x414 //hoenn only flag
-#define FLAG_ITEM_METEOR_FALLS_1F_1R_FULL_HEAL                      0x415 //hoenn only flag
-#define FLAG_ITEM_METEOR_FALLS_1F_1R_MOON_STONE                     0x416 //hoenn only flag
-#define FLAG_ITEM_METEOR_FALLS_1F_1R_PP_UP                          0x417 //hoenn only flag
-#define FLAG_ITEM_RUSTURF_TUNNEL_POKE_BALL                          0x418 //hoenn only flag
-#define FLAG_ITEM_RUSTURF_TUNNEL_MAX_ETHER                          0x419 //hoenn only flag
-#define FLAG_ITEM_GRANITE_CAVE_1F_ESCAPE_ROPE                       0x41A //hoenn only flag
-#define FLAG_ITEM_GRANITE_CAVE_B1F_POKE_BALL                        0x41B //hoenn only flag
-#define FLAG_ITEM_MT_PYRE_5F_LAX_INCENSE                            0x41C //hoenn only flag
-#define FLAG_ITEM_GRANITE_CAVE_B2F_REPEL                            0x41D //hoenn only flag
-#define FLAG_ITEM_GRANITE_CAVE_B2F_RARE_CANDY                       0x41E //hoenn only flag
-#define FLAG_ITEM_PETALBURG_WOODS_X_ATTACK                          0x41F //hoenn only flag
-#define FLAG_ITEM_PETALBURG_WOODS_GREAT_BALL                        0x420 //hoenn only flag
-#define FLAG_ITEM_ROUTE_104_POKE_BALL                               0x421 //hoenn only flag
-#define FLAG_ITEM_PETALBURG_WOODS_ETHER                             0x422 //hoenn only flag
+#define FLAG_ITEM_ROUTE_202_POTION                                  0x3E9
+#define FLAG_ITEM_ROUTE_203_POKE_BALL                               0x3EA
+#define FLAG_ITEM_ROUTE_203_REPEL                                   0x3EB
+#define FLAG_ITEM_ROUTE_203_X_DEFENSE                               0x3EC
+#define FLAG_ITEM_ROUTE_204S_SEA_INCENSE                             0x3ED
+#define FLAG_ITEM_ROUTE_204S_PARALYZE_HEAL                           0x3EE
+#define FLAG_ITEM_ROUTE_204S_HP_UP                                   0x3EF
+#define FLAG_ITEM_ROUTE_204N_AWAKENING                               0x3F0
+#define FLAG_ITEM_ROUTE_204N_TM09                                    0x3F1
+#define FLAG_ITEM_ROUTE_205S_X_SP_DEF                                0x3F2
+#define FLAG_ITEM_ROUTE_205S_HEAL_BALL                               0x3F3
+#define FLAG_ITEM_ROUTE_205S_SUPER_POTION                            0x3F4
+#define FLAG_ITEM_ROUTE_205S_REPEL                                   0x3F5
+#define FLAG_ITEM_ROUTE_205N_SILVER_POWDER                           0x3F6
+#define FLAG_ITEM_ROUTE_205N_TM82                                    0x3F7
+#define FLAG_ITEM_ROUTE_205N_GUARD_SPEC                              0x3F8
+#define FLAG_ITEM_ROUTE_206_BURN_HEAL                               0x3F9
+#define FLAG_ITEM_ROUTE_206_SUPER_REPEL                             0x3FA
+#define FLAG_ITEM_ROUTE_206_POISON_BARB                             0x3FB
+#define FLAG_ITEM_ROUTE_207_POKE_BALL                               0x3FC
+#define FLAG_ITEM_ROUTE_207_REVIVE                                  0x3FD
+#define FLAG_ITEM_ROUTE_207_SUPER_POTION                            0x3FE
+#define FLAG_ITEM_ROUTE_207_IRON                                    0x3FF
+#define FLAG_ITEM_ROUTE_207_TIMER_BALL                              0x400
+#define FLAG_ITEM_ROUTE_208_CARBOS                                  0x401
+#define FLAG_ITEM_ROUTE_208_GREAT_BALL                              0x402
+#define FLAG_ITEM_ROUTE_208_ETHER                                   0x403
+#define FLAG_ITEM_ROUTE_209_GREAT_BALL                              0x404
+#define FLAG_ITEM_ROUTE_209_HYPER_POTION                            0x405
+#define FLAG_ITEM_ROUTE_209_ETHER                                   0x406
+#define FLAG_ITEM_ROUTE_209_TM19                                    0x407
+#define FLAG_ITEM_ROUTE_209_TM47                                    0x408
+#define FLAG_ITEM_ROUTE_209_CALCIUM                                 0x409
+#define FLAG_ITEM_ROUTE_210S_SUPER_REPEL                            0x40A
+#define FLAG_ITEM_ROUTE_210S_MAX_REPEL                              0x40B
+#define FLAG_ITEM_ROUTE_210S_HYPER_POTION                           0x40C
+#define FLAG_ITEM_ROUTE_210S_NEST_BALL                              0x40D
+#define FLAG_ITEM_ROUTE_210N_RED_SHARD                              0x40E
+#define FLAG_ITEM_ROUTE_210N_SMOKE_BALL                             0x40F
+#define FLAG_ITEM_ROUTE_210N_WAVE_INCENSE                           0x410
+#define FLAG_ITEM_ROUTE_210N_TM30                                   0x411
+#define FLAG_ITEM_ROUTE_210N_ZINC                                   0x412
+#define FLAG_ITEM_ROUTE_211E_CARBOS                                 0x413
+#define FLAG_ITEM_ROUTE_211E_TM29                                   0x414
+#define FLAG_ITEM_ROUTE_211W_TM12                                   0x415
+#define FLAG_ITEM_ROUTE_212N_IRON                                   0x416
+#define FLAG_ITEM_ROUTE_212N_TM11                                   0x417
+#define FLAG_ITEM_ROUTE_212N_ROSE_INCENSE                           0x418
+#define FLAG_ITEM_ROUTE_212N_GREEN_SHARD                            0x419
+#define FLAG_ITEM_ROUTE_212N_ELIXIR                                 0x41A
+#define FLAG_ITEM_0x41B                                             0x41B
+#define FLAG_ITEM_0x41C                                             0x41C
+#define FLAG_ITEM_0x41D                                             0x41D
+#define FLAG_ITEM_0x41E                                             0x41E
+#define FLAG_ITEM_0x41F                                             0x41F
+#define FLAG_ITEM_0x420                                             0x420
+#define FLAG_ITEM_0x421                                             0x421
+#define FLAG_ITEM_0x422                                             0x422
 #define FLAG_ITEM_MAGMA_HIDEOUT_3F_3R_ECAPE_ROPE                    0x423 //hoenn only flag
 #define FLAG_ITEM_TRICK_HOUSE_PUZZLE_1_ORANGE_MAIL                  0x424 //hoenn only flag
 #define FLAG_ITEM_TRICK_HOUSE_PUZZLE_2_HARBOR_MAIL                  0x425 //hoenn only flag
@@ -1227,38 +1227,38 @@
 #define FLAG_ITEM_ROUTE_221_PURE_INCENSE                            0x497
 #define FLAG_ITEM_ROUTE_221_ULTRA_BALL                              0x498
 #define FLAG_ITEM_ROUTE_221_TM81                                    0x499
-#define FLAG_ITEM_ROUTE_202_POTION                                  0x49A
+#define FLAG_ITEM_LAKE_VERITY_TM38                                             0x49A
 #define FLAG_ITEM_JUBILIFE_CITY_POTION                              0x49B
 #define FLAG_ITEM_ROUTE_218_RARE_CANDY                              0x49C
 #define FLAG_ITEM_ROUTE_218_X_ACCURACY                              0x49D
 #define FLAG_ITEM_ROUTE_218_HYPER_POTION                            0x49E
 #define FLAG_ITEM_CANALAVE_CITY_TM89                                0x49F
-#define FLAG_ITEM_ROUTE_204_SEA_INCENSE                             0x4A0
-#define FLAG_ITEM_ROUTE_204_PARALYZE_HEAL                           0x4A1
-#define FLAG_ITEM_ROUTE_204_HP_UP                                   0x4A2
-#define FLAG_ITEM_ROUTE_204_AWAKENING                               0x4A3
-#define FLAG_ITEM_ROUTE_204_TM09                                    0x4A4
+#define FLAG_ITEM_0x4A0                             0x4A0
+#define FLAG_ITEM_0x4A1                           0x4A1
+#define FLAG_ITEM_0x4A2                                   0x4A2
+#define FLAG_ITEM_0x4A3                               0x4A3
+#define FLAG_ITEM_0x4A4                                    0x4A4
 #define FLAG_ITEM_RAVAGED_PATH_POTION                               0x4A5
 #define FLAG_ITEM_RAVAGED_PATH_LUCK_INCENSE                         0x4A6
 #define FLAG_ITEM_RAVAGED_PATH_TM39                                 0x4A7
 #define FLAG_ITEM_RAVAGED_PATH_TM03                                 0x4A8
-#define FLAG_ITEM_ROUTE_203_POKE_BALL                               0x4A9
-#define FLAG_ITEM_ROUTE_203_REPEL                                   0x4AA
-#define FLAG_ITEM_ROUTE_203_X_DEFENSE                               0x4AB
+#define FLAG_ITEM_0x4A9                                             0x4A9
+#define FLAG_ITEM_0x4AA                                             0x4AA
+#define FLAG_ITEM_0x4AB                                             0x4AB
 #define FLAG_ITEM_VALLEY_WINDWORKS_POTION                           0x4AC
 #define FLAG_ITEM_VALLEY_WINDWORKS_ELECTIRIZER                      0x4AD
 #define FLAG_ITEM_VALLEY_WINDWORKS_TM24                             0x4AE
-#define FLAG_ITEM_ROUTE_205_X_SP_DEF                                0x4AF
-#define FLAG_ITEM_ROUTE_205_HEAL_BALL                               0x4B0
-#define FLAG_ITEM_ROUTE_205_SUPER_POTION                            0x4B1
-#define FLAG_ITEM_ROUTE_205_REPEL                                   0x4B2
+#define FLAG_ITEM_0x4AF                                0x4AF
+#define FLAG_ITEM_0x4B0                               0x4B0
+#define FLAG_ITEM_0x4B1                            0x4B1
+#define FLAG_ITEM_0x4B2                                   0x4B2
 #define FLAG_ITEM_FLOAROMA_TOWN_LEAF_STONE                          0x4B3
 #define FLAG_ITEM_FLOAROMA_TOWN_RARE_CANDY                          0x4B4
 #define FLAG_ITEM_FLOAROMA_TOWN_ULTRA_BALL                          0x4B5
 #define FLAG_ITEM_FLOAROMA_TOWN_MIRACLE_SEED                        0x4B6
-#define FLAG_ITEM_ROUTE_205_SILVER_POWDER                           0x4B7
-#define FLAG_ITEM_ROUTE_205_TM82                                    0x4B8
-#define FLAG_ITEM_ROUTE_205_GUARD_SPEC                              0x4B9
+#define FLAG_ITEM_0x4B7                           0x4B7
+#define FLAG_ITEM_0x4B8                                    0x4B8
+#define FLAG_ITEM_0x4B9                              0x4B9
 #define FLAG_ITEM_ETERNA_FOREST_ANTIDOTE                            0x4BA
 #define FLAG_ITEM_ETERNA_FOREST_PARALYZE_HEAL                       0x4BB
 #define FLAG_ITEM_ETERNA_FOREST_NET_BALL                            0x4BC
@@ -1271,14 +1271,14 @@
 #define FLAG_ITEM_OLD_CHATEAU_RARE_CANDY                            0x4C3
 #define FLAG_ITEM_OLD_CHATEAU_TM90                                  0x4C4
 #define FLAG_ITEM_ROUTE_211_TM12                                    0x4C5
-#define FLAG_ITEM_ROUTE_206_BURN_HEAL                               0x4C6
-#define FLAG_ITEM_ROUTE_206_SUPER_REPEL                             0x4C7
-#define FLAG_ITEM_ROUTE_206_POISON_BARB                             0x4C8
-#define FLAG_ITEM_ROUTE_207_POKE_BALL                               0x4C9
-#define FLAG_ITEM_ROUTE_207_REVIVE                                  0x4CA
-#define FLAG_ITEM_ROUTE_207_SUPER_POTION                            0x4CB
-#define FLAG_ITEM_ROUTE_207_IRON                                    0x4CC
-#define FLAG_ITEM_ROUTE_207_TIMER_BALL                              0x4CD
+#define                                0x4C6
+#define                              0x4C7
+#define                              0x4C8
+#define                                0x4C9
+#define                            0x4CA
+#define                            0x4CB
+#define                            0x4CC
+#define                            0x4CD
 #define FLAG_ITEM_WAYWARD_CAVE_TM32                                 0x4CE
 #define FLAG_ITEM_WAYWARD_CAVE_REVIVE                               0x4CF
 #define FLAG_ITEM_WAYWARD_CAVE_ESCAPE_ROPE                          0x4D0
