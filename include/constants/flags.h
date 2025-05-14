@@ -1144,14 +1144,14 @@
 #define FLAG_ITEM_ROUTE_221_PURE_INCENSE                            0x445
 #define FLAG_ITEM_ROUTE_221_ULTRA_BALL                              0x446
 #define FLAG_ITEM_ROUTE_221_TM81                                    0x447
-#define FLAG_ITEM_0x448                                             0x448
-#define FLAG_ITEM_0x449                                             0x449
-#define FLAG_ITEM_0x44A                                             0x44A
-#define FLAG_ITEM_0x44B                                             0x44B
-#define FLAG_ITEM_0x44C                                             0x44C
-#define FLAG_ITEM_0x44D                                             0x44D
-#define FLAG_ITEM_0x44E                                             0x44E
-#define FLAG_ITEM_0x44F                                             0x44F
+#define FLAG_ITEM_ROUTE_222_FULL_RESTORE                            0x448
+#define FLAG_ITEM_ROUTE_222_PP_UP                                   0x449
+#define FLAG_ITEM_ROUTE_222_QUICK_BALL                              0x44A
+#define FLAG_ITEM_ROUTE_222_CARBOS                                  0x44B
+#define FLAG_ITEM_ROUTE_223_TM18                                    0x44C
+#define FLAG_ITEM_ROUTE_223_ULTRA_BALL                              0x44D
+#define FLAG_ITEM_ROUTE_223_DIVE_BALL                               0x44E
+#define FLAG_ITEM_ROUTE_223_RARE_CANDY                              0x44F
 #define FLAG_ITEM_0x450                                             0x450
 #define FLAG_ITEM_0x451                                             0x451
 #define FLAG_ITEM_0x452                                             0x452
@@ -1161,27 +1161,27 @@
 #define FLAG_ITEM_0x456                                             0x456
 #define FLAG_ITEM_0x457                                             0x457
 #define FLAG_ITEM_0x458                                             0x458
-#define FLAG_ITEM_SHOAL_CAVE_ICE_ROOM_NEVER_MELT_ICE                0x459 //hoenn only flag
-#define FLAG_ITEM_ROUTE_103_GUARD_SPEC                              0x45A //hoenn only flag
-#define FLAG_ITEM_ROUTE_104_X_ACCURACY                              0x45B //hoenn only flag
-#define FLAG_ITEM_MAUVILLE_CITY_X_SPEED                             0x45C //hoenn only flag
-#define FLAG_ITEM_PETALBURG_WOODS_PARALYZE_HEAL                     0x45D //hoenn only flag
-#define FLAG_ITEM_ROUTE_115_GREAT_BALL                              0x45E //hoenn only flag
-#define FLAG_ITEM_SAFARI_ZONE_NORTH_CALCIUM                         0x45F //hoenn only flag
-#define FLAG_ITEM_MT_PYRE_3F_SUPER_REPEL                            0x460 //hoenn only flag
-#define FLAG_ITEM_ROUTE_118_HYPER_POTION                            0x461 //hoenn only flag
-#define FLAG_ITEM_NEW_MAUVILLE_FULL_HEAL                            0x462 //hoenn only flag
-#define FLAG_ITEM_NEW_MAUVILLE_PARALYZE_HEAL                        0x463 //hoenn only flag
-#define FLAG_ITEM_AQUA_HIDEOUT_B1F_MASTER_BALL                      0x464 //hoenn only flag
-#define FLAG_ITEM_OLD_MAGMA_HIDEOUT_B1F_MASTER_BALL                 0x465 // Unused Flag, leftover from the Ruby Magma hideout
-#define FLAG_ITEM_OLD_MAGMA_HIDEOUT_B1F_MAX_ELIXIR                  0x466 // Unused Flag, leftover from the Ruby Magma hideout
-#define FLAG_ITEM_OLD_MAGMA_HIDEOUT_B2F_NEST_BALL                   0x467 // Unused Flag, leftover from the Ruby Magma hideout
-#define FLAG_UNUSED_0x468                                           0x468 // Unused Flag
-#define FLAG_ITEM_MT_PYRE_2F_ULTRA_BALL                             0x469 //hoenn only flag
-#define FLAG_ITEM_MT_PYRE_4F_SEA_INCENSE                            0x46A //hoenn only flag
-#define FLAG_ITEM_SAFARI_ZONE_SOUTH_WEST_MAX_REVIVE                 0x46B //hoenn only flag
-#define FLAG_ITEM_AQUA_HIDEOUT_B1F_NUGGET                           0x46C //hoenn only flag
-#define FLAG_ITEM_MOSSDEEP_STEVENS_HOUSE_HM08                       0x46D // Unused Flag, leftover from R/S. HM08 is given to the player directly in Emerald
+#define FLAG_ITEM_0x459                                             0x459
+#define FLAG_ITEM_0x45A                                             0x45A
+#define FLAG_ITEM_0x45B                                             0x45B
+#define FLAG_ITEM_0x45C                                             0x45C
+#define FLAG_ITEM_0x45D                                             0x45D
+#define FLAG_ITEM_0x45E                                             0x45E
+#define FLAG_ITEM_0x45F                                             0x45F
+#define FLAG_ITEM_0x460                                             0x460
+#define FLAG_ITEM_0x461                                             0x461
+#define FLAG_ITEM_0x462                                             0x462
+#define FLAG_ITEM_0x463                                             0x463
+#define FLAG_ITEM_0x464                                             0x464
+#define FLAG_ITEM_0x465                                             0x465
+#define FLAG_ITEM_0x466                                             0x466
+#define FLAG_ITEM_0x467                                             0x467
+#define FLAG_ITEM_0x468                                             0x468
+#define FLAG_ITEM_0x469                                             0x469
+#define FLAG_ITEM_0x46A                                             0x46A
+#define FLAG_ITEM_0x46B                                             0x46B
+#define FLAG_ITEM_0x46C                                             0x46C
+#define FLAG_ITEM_0x46D                                             0x46D
 #define FLAG_ITEM_ROUTE_119_NUGGET                                  0x46E //hoenn only flag
 #define FLAG_ITEM_ROUTE_104_POTION                                  0x46F //hoenn only flag
 #define FLAG_UNUSED_0x470                                           0x470 // Unused Flag
