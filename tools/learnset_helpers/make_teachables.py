@@ -31,7 +31,6 @@ import re
 import sys
 import typing
 
-
 CONFIG_ENABLED_PAT = re.compile(r"#define P_LEARNSET_HELPER_TEACHABLE\s+(?P<cfg_val>[^ ]*)")
 INCFILE_HAS_TUTOR_PAT = re.compile(r"special ChooseMonForMoveTutor")
 INCFILE_MOVE_PAT = re.compile(r"setvar VAR_0x8005, (MOVE_.*)")
@@ -39,7 +38,6 @@ TMHM_MACRO_PAT = re.compile(r"F\((\w+)\)")
 UNIVERSAL_MOVES_PAT = re.compile(r"static const u16 sUniversalMoves\[\]\s*=\s*{((.|\n)*?)\n};")
 TEACHABLE_ARRAY_DECL_PAT = re.compile(r"(?P<decl>static const u16 s(?P<name>\w+)TeachableLearnset\[\]) = {[\s\S]*?};")
 SNAKIFY_PAT = re.compile(r"(?!^)([A-Z]+)")
-
 
 def enabled() -> bool:
     """
@@ -49,7 +47,6 @@ def enabled() -> bool:
         cfg_pokemon = cfg_pokemon_fp.read()
         cfg_defined = CONFIG_ENABLED_PAT.search(cfg_pokemon)
         return cfg_defined is not None and cfg_defined.group("cfg_val") in ("TRUE", "1")
-
 
 def extract_repo_tutors() -> typing.Generator[str, None, None]:
     """
@@ -65,7 +62,6 @@ def extract_repo_tutors() -> typing.Generator[str, None, None]:
             for move in INCFILE_MOVE_PAT.finditer(incfile):
                 yield move.group(1)
 
-
 def extract_repo_tms() -> typing.Generator[str, None, None]:
     """
     Yield MOVE constants assigned to a TM or HM in the user's repo.
@@ -79,7 +75,6 @@ def extract_repo_tms() -> typing.Generator[str, None, None]:
         for match in match_it:
             yield f"MOVE_{match.group(1)}"
 
-
 def extract_repo_universals() -> list[str]:
     """
     Return a list of MOVE constants which are deemed to be universal and can
@@ -89,7 +84,6 @@ def extract_repo_universals() -> list[str]:
         if match := UNIVERSAL_MOVES_PAT.search(pokemon_fp.read()):
             return list(filter(lambda s: s, map(lambda s: s.strip(), match.group(1).split(','))))
         return list()
-
 
 def prepare_output(all_learnables: dict[str, set[str]], repo_teachables: set[str], header: str) -> str:
     """
@@ -133,7 +127,6 @@ def prepare_output(all_learnables: dict[str, set[str]], repo_teachables: set[str
 
     return new
 
-
 def prepare_header(h_align: int, tmshms: list[str], tutors: list[str], universals: list[str]) -> str:
     universals_title = "Near-universal moves found from sUniversalMoves:"
     tmhm_title = "TM/HM moves found in \"include/constants/tms_hms.h\":"
@@ -166,7 +159,6 @@ def prepare_header(h_align: int, tmshms: list[str], tutors: list[str], universal
 
     return "\n".join(lines)
 
-
 def main():
     if not enabled():
         quit()
@@ -198,7 +190,6 @@ def main():
     content = prepare_output(all_learnables, repo_teachables, header)
     with open("./src/data/pokemon/teachable_learnsets.h", "w") as teachables_fp:
         teachables_fp.write(content)
-
 
 if __name__ == "__main__":
     main()
