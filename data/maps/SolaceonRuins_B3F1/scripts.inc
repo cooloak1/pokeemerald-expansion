@@ -1,3 +1,3 @@
-SolaceonRuins_B3F_MapScripts::
+SolaceonRuins_B3F1_MapScripts::
 	.byte 0
 
