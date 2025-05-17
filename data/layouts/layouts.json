@@ -587,7 +587,7 @@
       "width": 9,
       "height": 9,
       "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_GenericHouse",
+      "secondary_tileset": "gTileset_House1",
       "border_filepath": "data/layouts/House1/border.bin",
       "blockdata_filepath": "data/layouts/House1/map.bin"
     },
@@ -597,7 +597,7 @@
       "width": 9,
       "height": 9,
       "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_GenericHouse",
+      "secondary_tileset": "gTileset_House1",
       "border_filepath": "data/layouts/House2/border.bin",
       "blockdata_filepath": "data/layouts/House2/map.bin"
     },
@@ -667,7 +667,7 @@
       "width": 9,
       "height": 9,
       "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_GenericHouse",
+      "secondary_tileset": "gTileset_House1",
       "border_filepath": "data/layouts/House4/border.bin",
       "blockdata_filepath": "data/layouts/House4/map.bin"
     },
@@ -5077,7 +5077,7 @@
       "width": 9,
       "height": 9,
       "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_GenericHouse",
+      "secondary_tileset": "gTileset_House1",
       "border_filepath": "data/layouts/House5/border.bin",
       "blockdata_filepath": "data/layouts/House5/map.bin"
     },
@@ -5224,10 +5224,10 @@
     {
       "id": "LAYOUT_JUBILIFE_CITY_CONDO1_2F",
       "name": "JubilifeCity_Condo1_2F_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 16,
+      "height": 12,
       "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_GenericHouse",
+      "secondary_tileset": "gTileset_Condo",
       "border_filepath": "data/layouts/JubilifeCity_Condo1_2F/border.bin",
       "blockdata_filepath": "data/layouts/JubilifeCity_Condo1_2F/map.bin"
     },
