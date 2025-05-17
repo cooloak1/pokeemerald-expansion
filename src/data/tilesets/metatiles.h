@@ -270,3 +270,6 @@ const u16 gMetatileAttributes_Sunyshore[] = INCBIN_U16("data/tilesets/secondary/
 
 const u16 gMetatiles_Ruins[] = INCBIN_U16("data/tilesets/secondary/ruins/metatiles.bin");
 const u16 gMetatileAttributes_Ruins[] = INCBIN_U16("data/tilesets/secondary/ruins/metatile_attributes.bin");
+
+const u16 gMetatiles_Condo[] = INCBIN_U16("data/tilesets/secondary/condo/metatiles.bin");
+const u16 gMetatileAttributes_Condo[] = INCBIN_U16("data/tilesets/secondary/condo/metatile_attributes.bin");

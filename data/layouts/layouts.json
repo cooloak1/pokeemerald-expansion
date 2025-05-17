@@ -5214,10 +5214,10 @@
     {
       "id": "LAYOUT_JUBILIFE_CITY_CONDO1_1F",
       "name": "JubilifeCity_Condo1_1F_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 16,
+      "height": 13,
       "primary_tileset": "gTileset_SinnohBuilding",
-      "secondary_tileset": "gTileset_GenericHouse",
+      "secondary_tileset": "gTileset_Condo",
       "border_filepath": "data/layouts/JubilifeCity_Condo1_1F/border.bin",
       "blockdata_filepath": "data/layouts/JubilifeCity_Condo1_1F/map.bin"
     },
