@@ -1514,3 +1514,29 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/SolaceonRuins_B4F2/scripts.inc"
 
 	.include "data/maps/SolaceonRuins_B3F1_BottomRight/scripts.inc"
+
+	.include "data/maps/JubilifeCity_Condo2_1F/scripts.inc"
+
+	.include "data/maps/JubilifeCity_Condo2_2F/scripts.inc"
+
+	.include "data/maps/JubilifeCity_Condo3_1F/scripts.inc"
+
+	.include "data/maps/JubilifeCity_Condo3_2F/scripts.inc"
+
+	.include "data/maps/OreburghCity_Condo1_1F/scripts.inc"
+
+	.include "data/maps/OreburghCity_Condo1_2F/scripts.inc"
+
+	.include "data/maps/OreburghCity_Condo2_1F/scripts.inc"
+
+	.include "data/maps/OreburghCity_Condo2_2F/scripts.inc"
+
+	.include "data/maps/OreburghCity_Condo3_1F/scripts.inc"
+
+	.include "data/maps/OreburghCity_Condo3_2F/scripts.inc"
+
+	.include "data/maps/EternaCity_Condo_1F/scripts.inc"
+
+	.include "data/maps/EternaCity_Condo_2F/scripts.inc"
+
+	.include "data/maps/EternaCity_Condo_3F/scripts.inc"

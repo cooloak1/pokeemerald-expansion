@@ -1,7 +1,7 @@
 {
   "id": "MAP_JUBILIFE_CITY_CONDO1_2F",
   "name": "JubilifeCity_Condo1_2F",
-  "layout": "LAYOUT_JUBILIFE_CITY_CONDO1_2F",
+  "layout": "LAYOUT_CONDO_TOP_FLOOR",
   "music": "MUS_DEWFORD",
   "region_map_section": "MAPSEC_JUBILIFE_CITY",
   "requires_flash": false,
@@ -17,7 +17,13 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 5,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_JUBILIFE_CITY_CONDO1_1F",
+      "dest_warp_id": "1"
+    }
   ],
   "coord_events": [
 
