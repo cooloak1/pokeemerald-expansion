@@ -1311,7 +1311,7 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/CanalaveCity_House3/scripts.inc"
 
-	.include "data/maps/CanalaveCity_EldrichsHouse/scripts.inc"
+	.include "data/maps/CanalaveCity_House4/scripts.inc"
 
 	.include "data/maps/CanalaveCity_PokemonCenter/scripts.inc"
 
@@ -1540,3 +1540,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/EternaCity_Condo_2F/scripts.inc"
 
 	.include "data/maps/EternaCity_Condo_3F/scripts.inc"
+
+	.include "data/maps/JubilifeCity_TrainerSchool/scripts.inc"
