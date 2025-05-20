@@ -956,7 +956,7 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_SetUpObjects::
 	setobjectxyperm LOCALID_OPPONENT, 13, 9
 # 479 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	removeobject LOCALID_OPPONENT
-	delay 1
+# 480 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	addobject LOCALID_OPPONENT
 # 481 "data/maps/BattleFrontier_BattleDomeBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT, BattleFrontier_BattleDomeBattleRoom_Movement_SetInvisibleFacingUp

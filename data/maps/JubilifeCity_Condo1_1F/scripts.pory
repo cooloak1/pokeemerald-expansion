@@ -1,1 +1,33 @@
 mapscripts JubilifeCity_Condo1_1F_MapScripts {}
+
+script JubilifeCity_Condo1_1F_EventScript_TalkToEveryone {
+    msgbox(JubilifeCity_Condo1_1F_Text_TalkToEveryone, MSGBOX_NPC)
+    end
+}
+
+script JubilifeCity_Condo1_1F_EventScript_PokemonAreMysterious {
+    msgbox(JubilifeCity_Condo1_1F_Text_PokemonAreMysterious, MSGBOX_NPC)
+    end
+}
+
+script JubilifeCity_Condo1_1F_EventScript_Pachirisu {
+    lock
+    faceplayer
+    playmoncry(SPECIES_PACHIRISU, CRY_MODE_NORMAL)
+    msgbox(JubilifeCity_Condo1_1F_Text_Pachirisu, MSGBOX_DEFAULT)
+    waitmoncry
+    release
+    end
+}
+
+text JubilifeCity_Condo1_1F_Text_TalkToEveryone {
+    format("Hello there, Trainer!\pIf you get stumped and don't know what to do...\pTalk to people!\nTalk to everyone you see!\pGo places!\nGo wherever you can!\pYou'll find many new places by doing just that.")
+}
+
+text JubilifeCity_Condo1_1F_Text_PokemonAreMysterious {
+    format("Pokemon are wonderful, deeply mysterious creatures.\pBut to Trainers, the key thing is to do battle with their Pokemon.\pThat's what it boils down to.")
+}
+
+text JubilifeCity_Condo1_1F_Text_Pachirisu {
+    "PACHIRISU: Kukkuuh!"
+}
