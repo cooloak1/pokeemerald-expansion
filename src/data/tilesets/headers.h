@@ -831,14 +831,14 @@ const struct Tileset gTileset_UnionRoom =
     .callback = NULL,
 };
 
-const struct Tileset gTileset_sinnoh_west =
+const struct Tileset gTileset_SinnohWest =
 {
     .isCompressed = TRUE,
     .isSecondary = FALSE,
-    .tiles = gTilesetTiles_sinnoh_west,
-    .palettes = gTilesetPalettes_sinnoh_west,
-    .metatiles = gMetatiles_sinnoh_west,
-    .metatileAttributes = gMetatileAttributes_sinnoh_west,
+    .tiles = gTilesetTiles_SinnohWest,
+    .palettes = gTilesetPalettes_SinnohWest,
+    .metatiles = gMetatiles_SinnohWest,
+    .metatileAttributes = gMetatileAttributes_SinnohWest,
     .callback = NULL,
 };
 

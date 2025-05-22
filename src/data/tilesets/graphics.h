@@ -1635,7 +1635,7 @@ const u16 gTilesetPalettes_UnionRoom[][16] =
 
 const u32 gTilesetTiles_UnionRoom[] = INCBIN_U32("data/tilesets/secondary/union_room/tiles.4bpp.lz");
 
-const u16 gTilesetPalettes_sinnoh_west[][16] =
+const u16 gTilesetPalettes_SinnohWest[][16] =
 {
     INCBIN_U16("data/tilesets/primary/sinnoh_west/palettes/00.gbapal"),
     INCBIN_U16("data/tilesets/primary/sinnoh_west/palettes/01.gbapal"),
@@ -1652,7 +1652,7 @@ const u16 gTilesetPalettes_sinnoh_west[][16] =
     INCBIN_U16("data/tilesets/primary/sinnoh_west/palettes/12.gbapal"),
 };
 
-const u32 gTilesetTiles_sinnoh_west[] = INCBIN_U32("data/tilesets/primary/sinnoh_west/tiles.4bpp.lz");
+const u32 gTilesetTiles_SinnohWest[] = INCBIN_U32("data/tilesets/primary/sinnoh_west/tiles.4bpp.lz");
 
 const u16 gTilesetPalettes_Sandgem[][16] =
 {
