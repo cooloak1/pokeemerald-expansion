@@ -1635,24 +1635,24 @@ const u16 gTilesetPalettes_UnionRoom[][16] =
 
 const u32 gTilesetTiles_UnionRoom[] = INCBIN_U32("data/tilesets/secondary/union_room/tiles.4bpp.lz");
 
-const u16 gTilesetPalettes_Sinnoh_General[][16] =
+const u16 gTilesetPalettes_sinnoh_west[][16] =
 {
-    INCBIN_U16("data/tilesets/primary/sinnoh_general/palettes/00.gbapal"),
-    INCBIN_U16("data/tilesets/primary/sinnoh_general/palettes/01.gbapal"),
-    INCBIN_U16("data/tilesets/primary/sinnoh_general/palettes/02.gbapal"),
-    INCBIN_U16("data/tilesets/primary/sinnoh_general/palettes/03.gbapal"),
-    INCBIN_U16("data/tilesets/primary/sinnoh_general/palettes/04.gbapal"),
-    INCBIN_U16("data/tilesets/primary/sinnoh_general/palettes/05.gbapal"),
-    INCBIN_U16("data/tilesets/primary/sinnoh_general/palettes/06.gbapal"),
-    INCBIN_U16("data/tilesets/primary/sinnoh_general/palettes/07.gbapal"),
-    INCBIN_U16("data/tilesets/primary/sinnoh_general/palettes/08.gbapal"),
-    INCBIN_U16("data/tilesets/primary/sinnoh_general/palettes/09.gbapal"),
-    INCBIN_U16("data/tilesets/primary/sinnoh_general/palettes/10.gbapal"),
-    INCBIN_U16("data/tilesets/primary/sinnoh_general/palettes/11.gbapal"),
-    INCBIN_U16("data/tilesets/primary/sinnoh_general/palettes/12.gbapal"),
+    INCBIN_U16("data/tilesets/primary/sinnoh_west/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/sinnoh_west/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/sinnoh_west/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/sinnoh_west/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/sinnoh_west/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/sinnoh_west/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/sinnoh_west/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/sinnoh_west/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/sinnoh_west/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/sinnoh_west/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/sinnoh_west/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/sinnoh_west/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/sinnoh_west/palettes/12.gbapal"),
 };
 
-const u32 gTilesetTiles_Sinnoh_General[] = INCBIN_U32("data/tilesets/primary/sinnoh_general/tiles.4bpp.lz");
+const u32 gTilesetTiles_sinnoh_west[] = INCBIN_U32("data/tilesets/primary/sinnoh_west/tiles.4bpp.lz");
 
 const u16 gTilesetPalettes_Sandgem[][16] =
 {
