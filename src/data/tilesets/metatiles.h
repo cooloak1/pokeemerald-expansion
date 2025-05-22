@@ -279,3 +279,6 @@ const u16 gMetatileAttributes_House1[] = INCBIN_U16("data/tilesets/secondary/hou
 
 const u16 gMetatiles_House2[] = INCBIN_U16("data/tilesets/secondary/house_2/metatiles.bin");
 const u16 gMetatileAttributes_House2[] = INCBIN_U16("data/tilesets/secondary/house_2/metatile_attributes.bin");
+
+const u16 gMetatiles_SinnohEast[] = INCBIN_U16("data/tilesets/primary/sinnoh_east/metatiles.bin");
+const u16 gMetatileAttributes_SinnohEast[] = INCBIN_U16("data/tilesets/primary/sinnoh_east/metatile_attributes.bin");

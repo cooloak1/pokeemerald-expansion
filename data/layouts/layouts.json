@@ -4506,7 +4506,7 @@
       "name": "ValorCavern_Layout",
       "width": 23,
       "height": 25,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Sinnoh_Cave",
       "border_filepath": "data/layouts/ValorCavern/border.bin",
       "blockdata_filepath": "data/layouts/ValorCavern/map.bin"
@@ -4746,7 +4746,7 @@
       "name": "Route211_East_Layout",
       "width": 36,
       "height": 28,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Celestic",
       "border_filepath": "data/layouts/Route211_East/border.bin",
       "blockdata_filepath": "data/layouts/Route211_East/map.bin"
@@ -4776,7 +4776,7 @@
       "name": "Route208_Layout",
       "width": 66,
       "height": 28,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Hearthome",
       "border_filepath": "data/layouts/Route208/border.bin",
       "blockdata_filepath": "data/layouts/Route208/map.bin"
@@ -4786,7 +4786,7 @@
       "name": "HearthomeCity_Layout",
       "width": 56,
       "height": 56,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Hearthome",
       "border_filepath": "data/layouts/HearthomeCity/border.bin",
       "blockdata_filepath": "data/layouts/HearthomeCity/map.bin"
@@ -4796,7 +4796,7 @@
       "name": "Route209_Layout",
       "width": 56,
       "height": 56,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Solaceon",
       "border_filepath": "data/layouts/Route209/border.bin",
       "blockdata_filepath": "data/layouts/Route209/map.bin"
@@ -4806,7 +4806,7 @@
       "name": "SolaceonTown_Layout",
       "width": 60,
       "height": 28,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Solaceon",
       "border_filepath": "data/layouts/SolaceonTown/border.bin",
       "blockdata_filepath": "data/layouts/SolaceonTown/map.bin"
@@ -4816,7 +4816,7 @@
       "name": "Route210_South_Layout",
       "width": 28,
       "height": 70,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Solaceon",
       "border_filepath": "data/layouts/Route210_South/border.bin",
       "blockdata_filepath": "data/layouts/Route210_South/map.bin"
@@ -4826,7 +4826,7 @@
       "name": "Route210_North_Layout",
       "width": 84,
       "height": 28,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Celestic",
       "border_filepath": "data/layouts/Route210_North/border.bin",
       "blockdata_filepath": "data/layouts/Route210_North/map.bin"
@@ -4836,7 +4836,7 @@
       "name": "CelesticTown_Layout",
       "width": 28,
       "height": 28,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Celestic",
       "border_filepath": "data/layouts/CelesticTown/border.bin",
       "blockdata_filepath": "data/layouts/CelesticTown/map.bin"
@@ -4846,7 +4846,7 @@
       "name": "VeilstoneCity_Layout",
       "width": 56,
       "height": 56,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Veilstone",
       "border_filepath": "data/layouts/VeilstoneCity/border.bin",
       "blockdata_filepath": "data/layouts/VeilstoneCity/map.bin"
@@ -4856,7 +4856,7 @@
       "name": "Route215_Layout",
       "width": 84,
       "height": 28,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Veilstone",
       "border_filepath": "data/layouts/Route215/border.bin",
       "blockdata_filepath": "data/layouts/Route215/map.bin"
@@ -4866,7 +4866,7 @@
       "name": "Route214_Layout",
       "width": 28,
       "height": 75,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Veilstone",
       "border_filepath": "data/layouts/Route214/border.bin",
       "blockdata_filepath": "data/layouts/Route214/map.bin"
@@ -4876,7 +4876,7 @@
       "name": "Route213_Layout",
       "width": 90,
       "height": 38,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Pastoria",
       "border_filepath": "data/layouts/Route213/border.bin",
       "blockdata_filepath": "data/layouts/Route213/map.bin"
@@ -4886,7 +4886,7 @@
       "name": "PastoriaCity_Layout",
       "width": 56,
       "height": 56,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Pastoria",
       "border_filepath": "data/layouts/PastoriaCity/border.bin",
       "blockdata_filepath": "data/layouts/PastoriaCity/map.bin"
@@ -4896,7 +4896,7 @@
       "name": "SunyshoreCity_Layout",
       "width": 56,
       "height": 56,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Sunyshore",
       "border_filepath": "data/layouts/SunyshoreCity/border.bin",
       "blockdata_filepath": "data/layouts/SunyshoreCity/map.bin"
@@ -4906,7 +4906,7 @@
       "name": "Route212_North_Layout",
       "width": 28,
       "height": 84,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Hearthome",
       "border_filepath": "data/layouts/Route212_North/border.bin",
       "blockdata_filepath": "data/layouts/Route212_North/map.bin"
@@ -4916,7 +4916,7 @@
       "name": "Route212_South_Layout",
       "width": 111,
       "height": 28,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Pastoria",
       "border_filepath": "data/layouts/Route212_South/border.bin",
       "blockdata_filepath": "data/layouts/Route212_South/map.bin"
@@ -4926,7 +4926,7 @@
       "name": "Route222_Layout",
       "width": 80,
       "height": 28,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Sunyshore",
       "border_filepath": "data/layouts/Route222/border.bin",
       "blockdata_filepath": "data/layouts/Route222/map.bin"
@@ -4966,7 +4966,7 @@
       "name": "Route223_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route223/border.bin",
       "blockdata_filepath": "data/layouts/Route223/map.bin"
@@ -5086,7 +5086,7 @@
       "name": "LakeValor_Layout",
       "width": 56,
       "height": 28,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Pastoria",
       "border_filepath": "data/layouts/LakeValor/border.bin",
       "blockdata_filepath": "data/layouts/LakeValor/map.bin"
@@ -5096,7 +5096,7 @@
       "name": "ValorLakefront_Layout",
       "width": 51,
       "height": 36,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Pastoria",
       "border_filepath": "data/layouts/ValorLakefront/border.bin",
       "blockdata_filepath": "data/layouts/ValorLakefront/map.bin"
@@ -5106,7 +5106,7 @@
       "name": "RuinManiacTunnel_Layout",
       "width": 84,
       "height": 13,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Sinnoh_Cave",
       "border_filepath": "data/layouts/RuinManiacTunnel/border.bin",
       "blockdata_filepath": "data/layouts/RuinManiacTunnel/map.bin"
@@ -5206,7 +5206,7 @@
       "name": "SendoffSpring_Layout",
       "width": 46,
       "height": 42,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/SendoffSpring/border.bin",
       "blockdata_filepath": "data/layouts/SendoffSpring/map.bin"
@@ -5266,7 +5266,7 @@
       "name": "SolaceonRuins_2F_Layout",
       "width": 11,
       "height": 13,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Ruins",
       "border_filepath": "data/layouts/SolaceonRuins_2F/border.bin",
       "blockdata_filepath": "data/layouts/SolaceonRuins_2F/map.bin"
@@ -5276,7 +5276,7 @@
       "name": "CelesticRuins_Layout",
       "width": 17,
       "height": 20,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Ruins",
       "border_filepath": "data/layouts/CelesticRuins/border.bin",
       "blockdata_filepath": "data/layouts/CelesticRuins/map.bin"
@@ -5286,7 +5286,7 @@
       "name": "RuinManiacCave1_Layout",
       "width": 84,
       "height": 13,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Sinnoh_Cave",
       "border_filepath": "data/layouts/RuinManiacCave1/border.bin",
       "blockdata_filepath": "data/layouts/RuinManiacCave1/map.bin"
@@ -5296,7 +5296,7 @@
       "name": "RuinManiacCave2_Layout",
       "width": 84,
       "height": 13,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Sinnoh_Cave",
       "border_filepath": "data/layouts/RuinManiacCave2/border.bin",
       "blockdata_filepath": "data/layouts/RuinManiacCave2/map.bin"
@@ -5316,7 +5316,7 @@
       "name": "SolaceonRuins_1F_Layout",
       "width": 11,
       "height": 12,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Ruins",
       "border_filepath": "data/layouts/SolaceonRuins_1F/border.bin",
       "blockdata_filepath": "data/layouts/SolaceonRuins_1F/map.bin"
@@ -5326,7 +5326,7 @@
       "name": "SolaceonRuins_B1F_Layout",
       "width": 11,
       "height": 12,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Ruins",
       "border_filepath": "data/layouts/SolaceonRuins_B1F/border.bin",
       "blockdata_filepath": "data/layouts/SolaceonRuins_B1F/map.bin"
@@ -5336,7 +5336,7 @@
       "name": "SolaceonRuins_DeadEndRoomLeftDown",
       "width": 8,
       "height": 6,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Ruins",
       "border_filepath": "data/layouts/SolaceonRuins_DeadEndRoomLeftDown/border.bin",
       "blockdata_filepath": "data/layouts/SolaceonRuins_DeadEndRoomLeftDown/map.bin"
@@ -5346,7 +5346,7 @@
       "name": "SolaceonRuins_DeadEndRoomRightDown_Layout",
       "width": 8,
       "height": 6,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Ruins",
       "border_filepath": "data/layouts/SolaceonRuins_DeadEndRoomRightDown/border.bin",
       "blockdata_filepath": "data/layouts/SolaceonRuins_DeadEndRoomRightDown/map.bin"
@@ -5356,7 +5356,7 @@
       "name": "SolaceonRuins_DeadEndRoomRightUp_Layout",
       "width": 10,
       "height": 6,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Ruins",
       "border_filepath": "data/layouts/SolaceonRuins_DeadEndRoomRightUp/border.bin",
       "blockdata_filepath": "data/layouts/SolaceonRuins_DeadEndRoomRightUp/map.bin"
@@ -5366,7 +5366,7 @@
       "name": "SolaceonRuins_DeadEndRoomLeftUp_Layout",
       "width": 11,
       "height": 6,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Ruins",
       "border_filepath": "data/layouts/SolaceonRuins_DeadEndRoomLeftUp/border.bin",
       "blockdata_filepath": "data/layouts/SolaceonRuins_DeadEndRoomLeftUp/map.bin"
@@ -5376,7 +5376,7 @@
       "name": "SolaceonRuins_B2F_Layout",
       "width": 11,
       "height": 12,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Ruins",
       "border_filepath": "data/layouts/SolaceonRuins_B2F/border.bin",
       "blockdata_filepath": "data/layouts/SolaceonRuins_B2F/map.bin"
@@ -5386,7 +5386,7 @@
       "name": "SolaceonRuins_B3F1_Layout",
       "width": 11,
       "height": 12,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Ruins",
       "border_filepath": "data/layouts/SolaceonRuins_B3F1/border.bin",
       "blockdata_filepath": "data/layouts/SolaceonRuins_B3F1/map.bin"
@@ -5396,7 +5396,7 @@
       "name": "SolaceonRuins_B4F1_Layout",
       "width": 11,
       "height": 12,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Ruins",
       "border_filepath": "data/layouts/SolaceonRuins_B4F1/border.bin",
       "blockdata_filepath": "data/layouts/SolaceonRuins_B4F1/map.bin"
@@ -5406,7 +5406,7 @@
       "name": "SolaceonRuins_B3F2_Layout",
       "width": 11,
       "height": 12,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Ruins",
       "border_filepath": "data/layouts/SolaceonRuins_B3F2/border.bin",
       "blockdata_filepath": "data/layouts/SolaceonRuins_B3F2/map.bin"
@@ -5416,7 +5416,7 @@
       "name": "SolaceonRuins_B4F2_Layout",
       "width": 11,
       "height": 12,
-      "primary_tileset": "gTileset_SinnohWest",
+      "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Ruins",
       "border_filepath": "data/layouts/SolaceonRuins_B4F2/border.bin",
       "blockdata_filepath": "data/layouts/SolaceonRuins_B4F2/map.bin"
