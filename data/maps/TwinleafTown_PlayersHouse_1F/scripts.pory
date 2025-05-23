@@ -1,4 +1,34 @@
-mapscripts TwinleafTown_PlayersHouse_1F_MapScripts {}
+mapscripts TwinleafTown_PlayersHouse_1F_MapScripts {
+	MAP_SCRIPT_ON_TRANSITION: TwinleafTown_PlayersHouse_1F_MapScript_OnTransition
+
+	
+	MAP_SCRIPT_ON_FRAME_TABLE [
+		VAR_TEMP_1, 1: TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft
+	]
+}
+
+script TwinleafTown_PlayersHouse_1F_MapScript_OnTransition {
+	if(!flag(FLAG_MOM_BARRY_LEFT)) {
+		setvar(VAR_TEMP_1, 1)
+		setobjectmovementtype(1, MOVEMENT_TYPE_FACE_UP)
+	}
+}
+
+
+script TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft {
+	lock
+	applymovement(1, walk_in_place_fast_up)
+	applymovement(1, Common_Movement_ExclamationMark)
+	waitmovement(0)
+	delay(48)
+	applymovement(1, moves(
+		walk_up * 2
+		walk_right * 3
+		walk_up * 2
+	))
+	waitmovement(0)
+	release
+}
 
 text text1 {
 	format("Mom: {PLAYER}!\pBarry already left.\pI don't know what it was about, but he sure was in a hurry!")
