@@ -22,7 +22,7 @@
 #include "constants/moves.h"
 
 // this file's functions
-static bool32 HasSuperEffectiveMoveAgainstOpponents(u32 battler, bool32 noRng);
+static bool32 CanUseSuperEffectiveMoveAgainstOpponents(u32 battler);
 static bool32 FindMonWithFlagsAndSuperEffective(u32 battler, u16 flags, u32 moduloPercent);
 static bool32 ShouldUseItem(u32 battler);
 static bool32 AiExpectsToFaintPlayer(u32 battler);
@@ -204,11 +204,16 @@ static bool32 ShouldSwitchIfHasBadOdds(u32 battler)
         aiMoveEffect = GetMoveEffect(aiMove);
         if (aiMove != MOVE_NONE)
         {
+            u32 nonVolatileStatus = GetMoveNonVolatileStatus(aiMove);
             // Check if mon has an "important" status move
             if (aiMoveEffect == EFFECT_REFLECT || aiMoveEffect == EFFECT_LIGHT_SCREEN
             || aiMoveEffect == EFFECT_SPIKES || aiMoveEffect == EFFECT_TOXIC_SPIKES || aiMoveEffect == EFFECT_STEALTH_ROCK || aiMoveEffect == EFFECT_STICKY_WEB || aiMoveEffect == EFFECT_LEECH_SEED
             || aiMoveEffect == EFFECT_EXPLOSION
-            || aiMoveEffect == EFFECT_SLEEP || aiMoveEffect == EFFECT_YAWN || aiMoveEffect == EFFECT_TOXIC || aiMoveEffect == EFFECT_WILL_O_WISP || aiMoveEffect == EFFECT_PARALYZE
+            || nonVolatileStatus == MOVE_EFFECT_SLEEP
+            || nonVolatileStatus == MOVE_EFFECT_TOXIC
+            || nonVolatileStatus == MOVE_EFFECT_PARALYSIS
+            || nonVolatileStatus == MOVE_EFFECT_BURN
+            || aiMoveEffect == EFFECT_YAWN
             || aiMoveEffect == EFFECT_TRICK || aiMoveEffect == EFFECT_TRICK_ROOM || aiMoveEffect== EFFECT_WONDER_ROOM || aiMoveEffect ==  EFFECT_PSYCHO_SHIFT || aiMoveEffect == EFFECT_FIRST_TURN_ONLY
             )
             {
@@ -449,7 +454,7 @@ static bool32 FindMonThatAbsorbsOpponentsMove(u32 battler)
     struct Pokemon *party;
     u16 monAbility, aiMove;
     u32 opposingBattler = GetOppositeBattler(battler);
-    u32 incomingMove = ((gAiThinkingStruct->aiFlags[battler] & AI_FLAG_PREDICT_MOVE) && gAiLogicData->predictingMove) ? gAiLogicData->predictedMove[opposingBattler] : gAiLogicData->lastUsedMove[opposingBattler];
+    u32 incomingMove = GetIncomingMove(battler, opposingBattler, gAiLogicData);
     u32 incomingType = GetMoveType(incomingMove);
     bool32 isOpposingBattlerChargingOrInvulnerable = (IsSemiInvulnerable(opposingBattler, incomingMove) || IsTwoTurnNotSemiInvulnerableMove(opposingBattler, incomingMove));
     s32 i, j;
@@ -458,9 +463,11 @@ static bool32 FindMonThatAbsorbsOpponentsMove(u32 battler)
         return FALSE;
     if (gBattleStruct->prevTurnSpecies[battler] != gBattleMons[battler].species && !(gAiThinkingStruct->aiFlags[battler] & AI_FLAG_PREDICT_MOVE)) // AI mon has changed, player's behaviour no longer reliable; override this if using AI_FLAG_PREDICT_MOVE
         return FALSE;
-    if (HasSuperEffectiveMoveAgainstOpponents(battler, TRUE) && (RandomPercentage(RNG_AI_SWITCH_ABSORBING_STAY_IN, STAY_IN_ABSORBING_PERCENTAGE) || gAiLogicData->aiPredictionInProgress))
+    if (CanUseSuperEffectiveMoveAgainstOpponents(battler) && (RandomPercentage(RNG_AI_SWITCH_ABSORBING_STAY_IN, STAY_IN_ABSORBING_PERCENTAGE) || gAiLogicData->aiPredictionInProgress))
         return FALSE;
     if (AreStatsRaised(battler))
+        return FALSE;
+    if (IsMoldBreakerTypeAbility(opposingBattler, gAiLogicData->abilities[opposingBattler]))
         return FALSE;
 
     // Don't switch if mon could OHKO
@@ -472,7 +479,7 @@ static bool32 FindMonThatAbsorbsOpponentsMove(u32 battler)
             // Only check damage if it's a damaging move
             if (!IsBattleMoveStatus(aiMove))
             {
-                if (AI_GetDamage(battler, opposingBattler, i, AI_ATTACKING, gAiLogicData) > gBattleMons[opposingBattler].hp)
+                if (!AI_DoesChoiceItemBlockMove(battler, aiMove) && AI_GetDamage(battler, opposingBattler, i, AI_ATTACKING, gAiLogicData) > gBattleMons[opposingBattler].hp)
                     return FALSE;
             }
         }
@@ -524,6 +531,10 @@ static bool32 FindMonThatAbsorbsOpponentsMove(u32 battler)
     {
         absorbingTypeAbilities[numAbsorbingAbilities++] = ABILITY_SOUNDPROOF;
     }
+    else if (IsBallisticMove(incomingMove) || (isOpposingBattlerChargingOrInvulnerable && IsBallisticMove(incomingMove)))
+    {
+        absorbingTypeAbilities[numAbsorbingAbilities++] = ABILITY_BULLETPROOF;
+    }
     else if (IsWindMove(incomingMove) || (isOpposingBattlerChargingOrInvulnerable && IsWindMove(incomingMove)))
     {
         absorbingTypeAbilities[numAbsorbingAbilities++] = ABILITY_WIND_RIDER;
@@ -574,7 +585,8 @@ static bool32 FindMonThatAbsorbsOpponentsMove(u32 battler)
 static bool32 ShouldSwitchIfOpponentChargingOrInvulnerable(u32 battler)
 {
     u32 opposingBattler = GetOppositeBattler(battler);
-    u32 incomingMove = ((gAiThinkingStruct->aiFlags[battler] & AI_FLAG_PREDICT_MOVE) && gAiLogicData->predictingMove) ? gAiLogicData->predictedMove[opposingBattler] : gAiLogicData->lastUsedMove[opposingBattler];
+    u32 incomingMove = GetIncomingMove(battler, opposingBattler, gAiLogicData);
+
     bool32 isOpposingBattlerChargingOrInvulnerable = (IsSemiInvulnerable(opposingBattler, incomingMove) || IsTwoTurnNotSemiInvulnerableMove(opposingBattler, incomingMove));
 
     if (IsDoubleBattle() || !(gAiThinkingStruct->aiFlags[GetThinkingBattler(battler)] & AI_FLAG_SMART_SWITCHING))
@@ -665,7 +677,7 @@ static bool32 ShouldSwitchIfBadlyStatused(u32 battler)
                 || monAbility == ABILITY_EARLY_BIRD)
                 || holdEffect == (HOLD_EFFECT_CURE_SLP | HOLD_EFFECT_CURE_STATUS)
                 || HasMove(battler, MOVE_SLEEP_TALK)
-                || (HasMoveEffect(battler, MOVE_SNORE) && AI_GetMoveEffectiveness(MOVE_SNORE, battler, opposingBattler) >= UQ_4_12(2.0))
+                || (HasMoveWithEffect(battler, MOVE_SNORE) && AI_GetMoveEffectiveness(MOVE_SNORE, battler, opposingBattler) >= UQ_4_12(2.0))
                 || (IsBattlerGrounded(battler)
                     && (HasMove(battler, MOVE_MISTY_TERRAIN) || HasMove(battler, MOVE_ELECTRIC_TERRAIN)))
                 )
@@ -773,7 +785,7 @@ static bool32 ShouldSwitchIfAbilityBenefit(u32 battler)
     return SetSwitchinAndSwitch(battler, PARTY_SIZE);
 }
 
-static bool32 HasSuperEffectiveMoveAgainstOpponents(u32 battler, bool32 noRng)
+static bool32 CanUseSuperEffectiveMoveAgainstOpponents(u32 battler)
 {
     s32 i;
     u16 move;
@@ -786,15 +798,12 @@ static bool32 HasSuperEffectiveMoveAgainstOpponents(u32 battler, bool32 noRng)
         for (i = 0; i < MAX_MON_MOVES; i++)
         {
             move = gBattleMons[battler].moves[i];
-            if (move == MOVE_NONE)
+            if (move == MOVE_NONE || AI_DoesChoiceItemBlockMove(battler, move))
                 continue;
 
             if (AI_GetMoveEffectiveness(move, battler, opposingBattler) >= UQ_4_12(2.0))
             {
-                if (noRng)
-                    return TRUE;
-                if (Random() % 10 != 0)
-                    return TRUE;
+                return TRUE;
             }
         }
     }
@@ -808,15 +817,12 @@ static bool32 HasSuperEffectiveMoveAgainstOpponents(u32 battler, bool32 noRng)
         for (i = 0; i < MAX_MON_MOVES; i++)
         {
             move = gBattleMons[battler].moves[i];
-            if (move == MOVE_NONE)
+            if (move == MOVE_NONE || AI_DoesChoiceItemBlockMove(battler, move))
                 continue;
 
             if (AI_GetMoveEffectiveness(move, battler, opposingBattler) >= UQ_4_12(2.0))
             {
-                if (noRng)
-                    return TRUE;
-                if (Random() % 10 != 0)
-                    return TRUE;
+                return TRUE;
             }
         }
     }
@@ -1162,7 +1168,7 @@ bool32 ShouldSwitch(u32 battler)
     // We don't use FindMonWithFlagsAndSuperEffective with AI_FLAG_SMART_SWITCHING, so we can bail early.
     if (gAiThinkingStruct->aiFlags[GetThinkingBattler(battler)] & AI_FLAG_SMART_SWITCHING)
         return FALSE;
-    if (HasSuperEffectiveMoveAgainstOpponents(battler, FALSE))
+    if (CanUseSuperEffectiveMoveAgainstOpponents(battler))
         return FALSE;
     if (AreStatsRaised(battler))
         return FALSE;
@@ -1367,7 +1373,7 @@ void AI_TrySwitchOrUseItem(u32 battler)
         }
     }
 
-    BtlController_EmitTwoReturnValues(battler, BUFFER_B, B_ACTION_USE_MOVE, BATTLE_OPPOSITE(battler) << 8);
+    BtlController_EmitTwoReturnValues(battler, B_COMM_TO_ENGINE, B_ACTION_USE_MOVE, BATTLE_OPPOSITE(battler) << 8);
 }
 
 // If there are two(or more) mons to choose from, always choose one that has baton pass
@@ -2433,7 +2439,7 @@ static bool32 ShouldUseItem(u32 battler)
             // Set selected party ID to current battler if none chosen.
             if (gBattleStruct->itemPartyIndex[battler] == PARTY_SIZE)
                 gBattleStruct->itemPartyIndex[battler] = gBattlerPartyIndexes[battler];
-            BtlController_EmitTwoReturnValues(battler, BUFFER_B, B_ACTION_USE_ITEM, 0);
+            BtlController_EmitTwoReturnValues(battler, B_COMM_TO_ENGINE, B_ACTION_USE_ITEM, 0);
             gBattleStruct->chosenItem[battler] = item;
             gBattleHistory->trainerItems[i] = 0;
             return shouldUse;
