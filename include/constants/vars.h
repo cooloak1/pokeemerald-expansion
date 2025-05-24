@@ -148,7 +148,11 @@
 #define VAR_ROUTE133_STATE                               0x4080 // Unused Var
 #define VAR_ROUTE134_STATE                               0x4081 // Unused Var
 #define VAR_LITTLEROOT_HOUSES_STATE_MAY                  0x4082
-#define VAR_UNUSED_0x4083                                0x4083 // Unused Var
+#define VAR_PLAYERS_MOM_STATE                            0x4083
+// 0: going downstairs for the first time ("Barry already left.")
+// 1: before leaving for the first time ("You know how impatient Barry is")
+// 2: After triggering leaving speech (Bye-bye! You take care now!)
+// 3: Leave and reenter house (What is it, dear? Isn't Barry waiting for you?)
 #define VAR_BIRCH_LAB_STATE                              0x4084
 #define VAR_PETALBURG_GYM_STATE                          0x4085 // 0-1: Wally tutorial, 2-6: 0-4 badges, 7: Defeated Norman, 8: Rematch Norman
 #define VAR_CONTEST_HALL_STATE                           0x4086

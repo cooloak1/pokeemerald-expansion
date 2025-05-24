@@ -7,76 +7,155 @@ TwinleafTown_PlayersHouse_1F_MapScripts::
 
 TwinleafTown_PlayersHouse_1F_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE:
 # 6 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
-	map_script_2 VAR_TEMP_1, 1, TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft
+	map_script_2 VAR_PLAYERS_MOM_STATE, 0, TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft
 	.2byte 0
 
 
 TwinleafTown_PlayersHouse_1F_MapScript_OnTransition::
-# 11 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
-	goto_if_unset FLAG_MOM_BARRY_LEFT, TwinleafTown_PlayersHouse_1F_MapScript_OnTransition_1
-	return
-
-TwinleafTown_PlayersHouse_1F_MapScript_OnTransition_1:
-# 12 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
-	setvar VAR_TEMP_1, 1
-# 13 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
-	setobjectmovementtype 1, MOVEMENT_TYPE_FACE_UP
 	return
 
 
 TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft::
-# 19 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 14 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	lock
-# 20 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
-	applymovement 1, walk_in_place_fast_up
-# 21 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 15 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	applymovement 1, Common_Movement_ExclamationMark
-# 22 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 16 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft_Movement_0
+# 17 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	applymovement 1, TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft_Movement_1
+# 18 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	waitmovement 0
-# 23 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 19 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	delay 48
-# 24 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
-	applymovement 1, TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft_Movement_0
-# 29 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 20 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	applymovement 1, TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft_Movement_2
+# 25 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	waitmovement 0
-# 30 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 26 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	msgbox TwinleafTown_PlayersHouse_1F_Text_BarryAlreadyLeft
+# 27 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	waitmessage
+# 28 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	applymovement 1, TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft_Movement_3
+# 34 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	waitmovement 0
+# 35 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	setvar VAR_PLAYERS_MOM_STATE, 1
+# 36 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	release
+	end
+
+
+TwinleafTown_PlayersHouse_1F_EventScript_ExitTrigger::
+# 41 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	lock
+# 42 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	applymovement 1, TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft_Movement_0
+# 43 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	waitmovement 0
+# 44 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	delay 48
+# 45 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft_Movement_1
+# 46 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	waitmovement 0
+# 47 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	msgbox TwinleafTown_PlayersHouse_1F_Text_DontGoInTallGrass
+# 48 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	closemessage
+# 49 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	setvar VAR_PLAYERS_MOM_STATE, 2
 	return
 
 
-# 24 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+TwinleafTown_PlayersHouse_1F_Mom_TalkedTo::
+# 53 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	switch VAR_PLAYERS_MOM_STATE
+# 54 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	case 0, TwinleafTown_PlayersHouse_1F_Mom_TalkedTo_2
+# 55 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	case 1, TwinleafTown_PlayersHouse_1F_Mom_TalkedTo_2
+# 57 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	case 2, TwinleafTown_PlayersHouse_1F_Mom_TalkedTo_3
+	return
+
+TwinleafTown_PlayersHouse_1F_Mom_TalkedTo_2:
+# 56 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	msgbox TwinleafTown_PlayersHouse_1F_Text_YouKnowBarry, MSGBOX_NPC
+	return
+
+TwinleafTown_PlayersHouse_1F_Mom_TalkedTo_3:
+# 58 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	msgbox TwinleafTown_PlayersHouse_1F_Text_TakeCare, MSGBOX_NPC
+	return
+
+
+# 16 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft_Movement_0:
-# 25 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 16 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	walk_in_place_down
+	step_end
+
+# 17 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft_Movement_1:
+# 17 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	walk_in_place_up
+	step_end
+
+# 20 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft_Movement_2:
+# 21 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	walk_up
-# 25 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 22 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	walk_right
+# 22 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	walk_right
+# 22 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	walk_right
+# 23 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	walk_up
-# 26 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
-	walk_right
-# 26 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
-	walk_right
-# 26 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
-	walk_right
-# 27 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 23 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	walk_up
-# 27 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 23 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	walk_up
 	step_end
 
-text1::
-# 33 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 28 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft_Movement_3:
+# 29 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	walk_down
+# 29 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	walk_down
+# 29 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	walk_down
+# 30 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	walk_left
+# 30 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	walk_left
+# 30 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	walk_left
+# 31 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	walk_down
+# 32 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	walk_in_place_up
+	step_end
+
+TwinleafTown_PlayersHouse_1F_Text_BarryAlreadyLeft::
+# 62 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom: {PLAYER}!\p"
 	.string "Barry already left.\p"
 	.string "I don't know what it was about, but he\n"
 	.string "sure was in a hurry!$"
 
-text2::
-# 37 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+TwinleafTown_PlayersHouse_1F_Text_YouKnowBarry::
+# 66 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom: You know how impatient Barry is.\p"
 	.string "He took off before I could even ask\n"
 	.string "what it was about.$"
 
-text3::
-# 41 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+TwinleafTown_PlayersHouse_1F_Text_DontGoInTallGrass::
+# 70 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom: Oh, yes!\n"
 	.string "{PLAYER}!\p"
 	.string "Don't go into the tall grass. Wild\n"
@@ -85,57 +164,57 @@ text3::
 	.string "Pokemon, but you don't, so...\p"
 	.string "Well, take care, sweetie!$"
 
-text4::
-# 45 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+TwinleafTown_PlayersHouse_1F_Text_TakeCare::
+# 74 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom: Bye-bye {PLAYER}!\n"
 	.string "You take care now!$"
 
-text5::
-# 49 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+TwinleafTown_PlayersHouse_1F_Text_IsntBarryWaitingForYou::
+# 78 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom: What is it, dear?\n"
 	.string "Isn't Barry waiting for you?$"
 
-text6::
-# 53 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+TwinleafTown_PlayersHouse_1F_Text_QuickRest::
+# 82 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom: Welcome home, {PLAYER}.\n"
 	.string "Are you and your Pokemon healthy?\n"
 	.string "Take a quick rest, dear.$"
 
-text7::
-# 57 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+TwinleafTown_PlayersHouse_1F_Text_TreatPokemonWithKindness::
+# 86 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom: {PLAYER}.\p"
 	.string "Listen. Always treat your Pokemon with\n"
 	.string "kindness.\p"
 	.string "Your Pokemon work hard, not for\n"
 	.string "themselves, but for you!$"
 
-text8::
-# 61 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+TwinleafTown_PlayersHouse_1F_Text_Counter::
+# 90 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "This is where Mom does all her delicious\n"
 	.string "cooking.$"
 
-text9::
-# 65 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+TwinleafTown_PlayersHouse_1F_Text_Fridge::
+# 94 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom's favorite dessert is in the\n"
 	.string "refrigerator$"
 
-text10::
-# 69 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+TwinleafTown_PlayersHouse_1F_Text_Kitchen::
+# 98 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom's kitchen is spotless!\n"
 	.string "You can see your face on the floor!$"
 
 text11::
-# 73 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 102 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "$"
 
 text12::
-# 77 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 106 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "$"
 
 text13::
-# 81 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 110 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "$"
 
 text14::
-# 85 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 114 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "$"

@@ -3,70 +3,99 @@ mapscripts TwinleafTown_PlayersHouse_1F_MapScripts {
 
 	
 	MAP_SCRIPT_ON_FRAME_TABLE [
-		VAR_TEMP_1, 1: TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft
+		VAR_PLAYERS_MOM_STATE, 0: TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft
 	]
 }
 
 script TwinleafTown_PlayersHouse_1F_MapScript_OnTransition {
-	if(!flag(FLAG_MOM_BARRY_LEFT)) {
-		setvar(VAR_TEMP_1, 1)
-		setobjectmovementtype(1, MOVEMENT_TYPE_FACE_UP)
-	}
 }
-
 
 script TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft {
 	lock
-	applymovement(1, walk_in_place_fast_up)
 	applymovement(1, Common_Movement_ExclamationMark)
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_in_place_down))
+	applymovement(1, moves(walk_in_place_up))
 	waitmovement(0)
 	delay(48)
 	applymovement(1, moves(
-		walk_up * 2
+		walk_up * 1
 		walk_right * 3
-		walk_up * 2
+		walk_up * 3
 	))
 	waitmovement(0)
+	msgbox(TwinleafTown_PlayersHouse_1F_Text_BarryAlreadyLeft)
+	closemessage
+	applymovement(1, moves(
+		walk_down * 3
+		walk_left * 3
+		walk_down * 1
+		walk_in_place_up
+	))
+	waitmovement(0)
+	setvar(VAR_PLAYERS_MOM_STATE, 1)
 	release
+	end
 }
 
-text text1 {
+script TwinleafTown_PlayersHouse_1F_EventScript_ExitTrigger {
+	lock
+	applymovement(1, moves(walk_in_place_down))
+	waitmovement(0)
+	delay(48)
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_in_place_up))
+	waitmovement(0)
+	msgbox(TwinleafTown_PlayersHouse_1F_Text_DontGoInTallGrass)
+	closemessage
+	setvar(VAR_PLAYERS_MOM_STATE, 2)
+}
+
+script TwinleafTown_PlayersHouse_1F_Mom_TalkedTo {
+	switch (var(VAR_PLAYERS_MOM_STATE)) {
+		case 0:
+		case 1:
+			msgbox(TwinleafTown_PlayersHouse_1F_Text_YouKnowBarry, MSGBOX_NPC)
+		case 2:
+			msgbox(TwinleafTown_PlayersHouse_1F_Text_TakeCare, MSGBOX_NPC)
+	}
+}
+
+text TwinleafTown_PlayersHouse_1F_Text_BarryAlreadyLeft {
 	format("Mom: {PLAYER}!\pBarry already left.\pI don't know what it was about, but he sure was in a hurry!")
 }
 
-text text2 {
+text TwinleafTown_PlayersHouse_1F_Text_YouKnowBarry {
 	format("Mom: You know how impatient Barry is.\pHe took off before I could even ask what it was about.")
 }
 
-text text3 {
+text TwinleafTown_PlayersHouse_1F_Text_DontGoInTallGrass {
 	format("Mom: Oh, yes!\n{PLAYER}!\pDon't go into the tall grass. Wild Pokemon might attack you.\pIt would be OK if you had your own Pokemon, but you don't, so...\pWell, take care, sweetie!")
 }
 
-text text4 {
+text TwinleafTown_PlayersHouse_1F_Text_TakeCare {
 	format("Mom: Bye-bye {PLAYER}!\nYou take care now!")
 }
 
-text text5 {
+text TwinleafTown_PlayersHouse_1F_Text_IsntBarryWaitingForYou {
 	format("Mom: What is it, dear?\nIsn't Barry waiting for you?")
 }
 
-text text6 {
+text TwinleafTown_PlayersHouse_1F_Text_QuickRest {
 	format("Mom: Welcome home, {PLAYER}.\nAre you and your Pokemon healthy?\nTake a quick rest, dear.")
 }
 
-text text7 {
+text TwinleafTown_PlayersHouse_1F_Text_TreatPokemonWithKindness {
 	format("Mom: {PLAYER}.\pListen. Always treat your Pokemon with kindness.\pYour Pokemon work hard, not for themselves, but for you!")
 }
 
-text text8 {
+text TwinleafTown_PlayersHouse_1F_Text_Counter {
 	format("This is where Mom does all her delicious cooking.")
 }
 
-text text9 {
+text TwinleafTown_PlayersHouse_1F_Text_Fridge {
 	format("Mom's favorite dessert is in the refrigerator")
 }
 
-text text10 {
+text TwinleafTown_PlayersHouse_1F_Text_Kitchen {
 	format("Mom's kitchen is spotless!\nYou can see your face on the floor!")
 }
 
