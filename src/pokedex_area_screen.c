@@ -36,9 +36,9 @@
 //   determined by the data for the corresponding MAPSEC in gRegionMapEntries.
 
 // Only maps in the following map groups have their encounters considered for the area screen
-#define MAP_GROUP_TOWNS_AND_ROUTES MAP_GROUP(TWINLEAF_TOWN)
-#define MAP_GROUP_DUNGEONS MAP_GROUP(RAVAGED_PATH)
-#define MAP_GROUP_SPECIAL_AREA MAP_GROUP(SAFARI_ZONE_NORTHWEST)
+#define MAP_GROUP_TOWNS_AND_ROUTES MAP_GROUP(MAP_TWINLEAF_TOWN)
+#define MAP_GROUP_DUNGEONS MAP_GROUP(MAP_RAVAGED_PATH)
+#define MAP_GROUP_SPECIAL_AREA MAP_GROUP(MAP_SAFARI_ZONE_NORTHWEST)
 
 #define AREA_SCREEN_WIDTH 32
 #define AREA_SCREEN_HEIGHT 20
