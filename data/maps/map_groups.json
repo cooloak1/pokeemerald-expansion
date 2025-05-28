@@ -92,8 +92,6 @@
     "Route204_South",
     "Route204_North",
     "Route205_South",
-    "ValleyWindworks",
-    "FuegoIronworks",
     "Route205_North",
     "Route206",
     "Route207",
@@ -116,6 +114,8 @@
     "Route221",
     "Route222",
     "Route223",
+    "ValleyWindworks",
+    "FuegoIronworks",
     "SendoffSpring"
   ],
   "gMapGroup_SinnohDungeons": [
