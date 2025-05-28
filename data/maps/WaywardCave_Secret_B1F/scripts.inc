@@ -1,0 +1,3 @@
+WaywardCave_Secret_B1F_MapScripts::
+	.byte 0
+

@@ -1,0 +1,3 @@
+SolaceonRuins_B3F2_TopLeft_MapScripts::
+	.byte 0
+
