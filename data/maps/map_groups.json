@@ -250,9 +250,7 @@
     "VeilstoneCity_House3",
     "VeilstoneCity_House4"
   ],
-  "gMapGroup_IndoorLakefront": [
-
-  ],
+  "gMapGroup_IndoorLakefront": [],
   "gMapGroup_IndoorPastoria": [
     "PastoriaCity_PokemonCenter",
     "PastoriaCity_Mart",
@@ -288,18 +286,10 @@
     "SunyshoreCity_House2",
     "SunyshoreCity_House3"
   ],
-  "gMapGroup_IndoorPokemonLeague": [
-
-  ],
-  "gMapGroup_IndoorFightArea": [
-
-  ],
-  "gMapGroup_IndoorSurvivalArea": [
-
-  ],
-  "gMapGroup_IndoorResortArea": [
-
-  ],
+  "gMapGroup_IndoorPokemonLeague": [],
+  "gMapGroup_IndoorFightArea": [],
+  "gMapGroup_IndoorSurvivalArea": [],
+  "gMapGroup_IndoorResortArea": [],
   "gMapGroup_IndoorIronIsland": [
     "IronIsland_House"
   ],
@@ -325,18 +315,10 @@
     "Route222_House1",
     "Route222_House2"
   ],
-  "gMapGroup_IndoorRoute225": [
-
-  ],
-  "gMapGroup_IndoorRoute226": [
-
-  ],
-  "gMapGroup_IndoorRoute227": [
-
-  ],
-  "gMapGroup_IndoorRoute228": [
-
-  ],
+  "gMapGroup_IndoorRoute225": [],
+  "gMapGroup_IndoorRoute226": [],
+  "gMapGroup_IndoorRoute227": [],
+  "gMapGroup_IndoorRoute228": [],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
     "SlateportCity",

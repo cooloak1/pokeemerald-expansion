@@ -73,12 +73,8 @@
       "flag": "FLAG_ITEM_VALLEY_WINDWORKS_ELECTIRIZER"
     }
   ],
-  "warp_events": [
-
-  ],
-  "coord_events": [
-
-  ],
+  "warp_events": [],
+  "coord_events": [],
   "bg_events": [
     {
       "type": "hidden_item",

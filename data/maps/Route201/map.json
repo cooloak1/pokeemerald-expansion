@@ -135,9 +135,7 @@
       "flag": "FLAG_HIDE_RIVAL_ROUTE_201"
     }
   ],
-  "warp_events": [
-
-  ],
+  "warp_events": [],
   "coord_events": [
     {
       "type": "trigger",

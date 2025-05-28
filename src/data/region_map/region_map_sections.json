@@ -473,7 +473,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_SINNOH_BATTLE_FRONTIER",
+      "id": "MAPSEC_SINNOH_BATTLE_FRONTIER",
       "name": "BATTLE FRONTIER",
       "x": 17,
       "y": 4,
@@ -481,7 +481,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_PETALBURG_WOODS",
+      "id": "MAPSEC_PETALBURG_WOODS",
       "name": "PETALBURG WOODS",
       "x": 0,
       "y": 8,
@@ -681,7 +681,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_MYSTERY_ZONE",
+      "id": "MAPSEC_MYSTERY_ZONE",
       "name": "MYSTERY ZONE",
       "x": 12,
       "y": 0,
@@ -706,7 +706,6 @@
     },
     {
       "id": "MAPSEC_DYNAMIC",
-      "name": "",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -1457,7 +1456,7 @@
       "height": 5
     },
     {
-      "map_section": "MAPSEC_MOUNT_CORONET_PEAK",
+      "id": "MAPSEC_MOUNT_CORONET_PEAK",
       "name": "MOUNT CORONET",
       "x": 9,
       "y": 6,
@@ -1465,7 +1464,7 @@
       "height": 1
     },
     {
-      "map_section": "MAPSEC_ALTERING_CAVE_FRLG",
+      "id": "MAPSEC_ALTERING_CAVE_FRLG",
       "name": "ALTERING CAVE",
       "x": 0,
       "y": 0,
