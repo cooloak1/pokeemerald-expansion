@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 
 # 2 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
@@ -9,6 +10,8 @@
 # 5 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 
 # 6 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 LittlerootTown_BrendansHouse_1F_MapScripts::
 # 7 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	map_script MAP_SCRIPT_ON_LOAD, LittlerootTown_BrendansHouse_1F_OnLoad
@@ -72,31 +75,46 @@ LittlerootTown_BrendansHouse_1F_OnTransition:
 
 # 37 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 LittlerootTown_BrendansHouse_1F_EventScript_MoveMomToStairs::
+<<<<<<< HEAD
 # 38 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	setobjectxyperm LOCALID_MOM, 8, 4
 # 39 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	setobjectmovementtype LOCALID_MOM, MOVEMENT_TYPE_FACE_UP
 # 40 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+=======
+	setobjectxyperm LOCALID_PLAYERS_HOUSE_1F_MOM, 8, 4
+	setobjectmovementtype LOCALID_PLAYERS_HOUSE_1F_MOM, MOVEMENT_TYPE_FACE_UP
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 41 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 
 # 42 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 LittlerootTown_BrendansHouse_1F_EventScript_MoveMomToTV::
+<<<<<<< HEAD
 # 43 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	setobjectxyperm LOCALID_MOM, 4, 5
 # 44 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	setobjectmovementtype LOCALID_MOM, MOVEMENT_TYPE_FACE_UP
 # 45 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+=======
+	setobjectxyperm LOCALID_PLAYERS_HOUSE_1F_MOM, 4, 5
+	setobjectmovementtype LOCALID_PLAYERS_HOUSE_1F_MOM, MOVEMENT_TYPE_FACE_UP
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 46 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 
 # 47 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 LittlerootTown_BrendansHouse_1F_EventScript_MoveMomToDoor::
+<<<<<<< HEAD
 # 48 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	setobjectxyperm LOCALID_MOM, 9, 8
 # 49 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	setobjectmovementtype LOCALID_MOM, MOVEMENT_TYPE_FACE_UP
 # 50 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+=======
+	setobjectxyperm LOCALID_PLAYERS_HOUSE_1F_MOM, 9, 8
+	setobjectmovementtype LOCALID_PLAYERS_HOUSE_1F_MOM, MOVEMENT_TYPE_FACE_UP
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 51 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 
@@ -128,11 +146,16 @@ LittlerootTown_BrendansHouse_1F_EventScript_GoUpstairsToSetClock::
 	msgbox PlayersHouse_1F_Text_GoSetTheClock, MSGBOX_DEFAULT
 # 65 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 66 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_BrendansHouse_1F_Movement_PushTowardStairs
 # 67 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	applymovement LOCALID_MOM, LittlerootTown_BrendansHouse_1F_Movement_PushTowardStairs
 # 68 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, LittlerootTown_BrendansHouse_1F_Movement_PushTowardStairs
+	applymovement LOCALID_PLAYERS_HOUSE_1F_MOM, LittlerootTown_BrendansHouse_1F_Movement_PushTowardStairs
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 69 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	warp MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F, 7, 1
@@ -156,9 +179,13 @@ LittlerootTown_BrendansHouse_1F_Movement_PushTowardStairs:
 LittlerootTown_BrendansHouse_1F_EventScript_EnterHouseMovingIn::
 # 79 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 80 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	setvar VAR_0x8004, LOCALID_MOM
 # 81 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+=======
+	setvar VAR_0x8004, LOCALID_PLAYERS_HOUSE_1F_MOM
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	setvar VAR_0x8005, MALE
 # 82 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	goto PlayersHouse_1F_EventScript_EnterHouseMovingIn
@@ -172,9 +199,13 @@ LittlerootTown_BrendansHouse_1F_EventScript_PetalburgGymReport::
 	lockall
 # 87 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	setvar VAR_0x8004, MALE
+<<<<<<< HEAD
 # 88 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	setvar VAR_0x8005, LOCALID_MOM
 # 89 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+=======
+	setvar VAR_0x8005, LOCALID_PLAYERS_HOUSE_1F_MOM
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	goto PlayersHouse_1F_EventScript_PetalburgGymReportMale
 # 90 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	end
@@ -186,6 +217,7 @@ LittlerootTown_BrendansHouse_1F_EventScript_YoureNewNeighbor::
 	lockall
 # 94 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	playse SE_PIN
+<<<<<<< HEAD
 # 95 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	applymovement LOCALID_RIVAL_MOM, Common_Movement_ExclamationMark
 # 96 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
@@ -199,6 +231,14 @@ LittlerootTown_BrendansHouse_1F_EventScript_YoureNewNeighbor::
 # 100 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	applymovement LOCALID_RIVAL_MOM, LittlerootTown_BrendansHouse_1F_Movement_RivalMomApproach
 # 101 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+=======
+	applymovement LOCALID_RIVALS_HOUSE_1F_MOM, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_RIVALS_HOUSE_1F_MOM, Common_Movement_Delay48
+	waitmovement 0
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_RIVALS_HOUSE_1F_MOM, LittlerootTown_BrendansHouse_1F_Movement_RivalMomApproach
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 102 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	special GetRivalSonDaughterString
@@ -236,9 +276,13 @@ LittlerootTown_BrendansHouse_1F_Movement_RivalMomApproach:
 LittlerootTown_BrendansHouse_1F_EventScript_GoSeeRoom::
 # 119 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 120 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	setvar VAR_0x8004, LOCALID_MOM
 # 121 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+=======
+	setvar VAR_0x8004, LOCALID_PLAYERS_HOUSE_1F_MOM
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	setvar VAR_0x8005, MALE
 # 122 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	applymovement VAR_0x8004, Common_Movement_WalkInPlaceFasterLeft
@@ -292,12 +336,17 @@ LittlerootTown_BrendansHouse_1F_EventScript_MeetRival::
 	playse SE_EXIT
 # 147 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	delay 10
+<<<<<<< HEAD
 # 148 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	addobject LOCALID_RIVAL
 # 149 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+=======
+	addobject LOCALID_RIVALS_HOUSE_1F_RIVAL
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	delay 30
 # 150 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	playse SE_PIN
+<<<<<<< HEAD
 # 151 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
 # 152 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
@@ -305,6 +354,11 @@ LittlerootTown_BrendansHouse_1F_EventScript_MeetRival::
 # 153 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	applymovement LOCALID_RIVAL, Common_Movement_Delay48
 # 154 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+=======
+	applymovement LOCALID_RIVALS_HOUSE_1F_RIVAL, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_RIVALS_HOUSE_1F_RIVAL, Common_Movement_Delay48
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 155 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	call_if_ne VAR_0x8008, 1, LittlerootTown_BrendansHouse_1F_EventScript_PlayerFaceBrendan
@@ -328,6 +382,7 @@ LittlerootTown_BrendansHouse_1F_EventScript_MeetRival::
 	call_if_eq VAR_0x8008, 2, LittlerootTown_BrendansHouse_1F_EventScript_BrendanGoUpstairs2
 # 165 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	playse SE_EXIT
+<<<<<<< HEAD
 # 166 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	removeobject LOCALID_RIVAL
 # 167 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
@@ -337,6 +392,12 @@ LittlerootTown_BrendansHouse_1F_EventScript_MeetRival::
 # 169 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	clearflag FLAG_HOENN_2
 # 170 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+=======
+	removeobject LOCALID_RIVALS_HOUSE_1F_RIVAL
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_BRENDAN
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL
+	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	delay 30
 # 171 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	setvar VAR_LITTLEROOT_RIVAL_STATE, 3
@@ -354,9 +415,13 @@ LittlerootTown_BrendansHouse_1F_EventScript_MeetRival::
 
 # 178 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 LittlerootTown_BrendansHouse_1F_EventScript_PlayerFaceBrendan::
+<<<<<<< HEAD
 # 179 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 # 180 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 181 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	return
@@ -364,9 +429,13 @@ LittlerootTown_BrendansHouse_1F_EventScript_PlayerFaceBrendan::
 
 # 183 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 LittlerootTown_BrendansHouse_1F_EventScript_BrendanApproachPlayer0::
+<<<<<<< HEAD
 # 184 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	applymovement LOCALID_RIVAL, LittlerootTown_BrendansHouse_1F_Movement_BrendanApproachPlayer0
 # 185 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+=======
+	applymovement LOCALID_RIVALS_HOUSE_1F_RIVAL, LittlerootTown_BrendansHouse_1F_Movement_BrendanApproachPlayer0
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 186 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	return
@@ -374,9 +443,13 @@ LittlerootTown_BrendansHouse_1F_EventScript_BrendanApproachPlayer0::
 
 # 188 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 LittlerootTown_BrendansHouse_1F_EventScript_BrendanApproachPlayer1::
+<<<<<<< HEAD
 # 189 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	applymovement LOCALID_RIVAL, LittlerootTown_BrendansHouse_1F_Movement_BrendanApproachPlayer1
 # 190 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+=======
+	applymovement LOCALID_RIVALS_HOUSE_1F_RIVAL, LittlerootTown_BrendansHouse_1F_Movement_BrendanApproachPlayer1
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 191 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	return
@@ -384,9 +457,13 @@ LittlerootTown_BrendansHouse_1F_EventScript_BrendanApproachPlayer1::
 
 # 193 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 LittlerootTown_BrendansHouse_1F_EventScript_BrendanApproachPlayer2::
+<<<<<<< HEAD
 # 194 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	applymovement LOCALID_RIVAL, LittlerootTown_BrendansHouse_1F_Movement_BrendanApproachPlayer2
 # 195 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+=======
+	applymovement LOCALID_RIVALS_HOUSE_1F_RIVAL, LittlerootTown_BrendansHouse_1F_Movement_BrendanApproachPlayer2
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 196 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	return
@@ -446,11 +523,16 @@ LittlerootTown_BrendansHouse_1F_Movement_BrendanApproachPlayer2:
 
 # 224 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 LittlerootTown_BrendansHouse_1F_EventScript_BrendanGoUpstairs0::
+<<<<<<< HEAD
 # 225 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_BrendansHouse_1F_Movement_PlayerWatchBrendanExit0
 # 226 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	applymovement LOCALID_RIVAL, LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs0
 # 227 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, LittlerootTown_BrendansHouse_1F_Movement_PlayerWatchBrendanExit0
+	applymovement LOCALID_RIVALS_HOUSE_1F_RIVAL, LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs0
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 228 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	return
@@ -458,11 +540,16 @@ LittlerootTown_BrendansHouse_1F_EventScript_BrendanGoUpstairs0::
 
 # 230 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 LittlerootTown_BrendansHouse_1F_EventScript_BrendanGoUpstairs1::
+<<<<<<< HEAD
 # 231 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_BrendansHouse_1F_Movement_PlayerWatchBrendanExit1
 # 232 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	applymovement LOCALID_RIVAL, LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs1
 # 233 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, LittlerootTown_BrendansHouse_1F_Movement_PlayerWatchBrendanExit1
+	applymovement LOCALID_RIVALS_HOUSE_1F_RIVAL, LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs1
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 234 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	return
@@ -470,11 +557,16 @@ LittlerootTown_BrendansHouse_1F_EventScript_BrendanGoUpstairs1::
 
 # 236 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 LittlerootTown_BrendansHouse_1F_EventScript_BrendanGoUpstairs2::
+<<<<<<< HEAD
 # 237 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_BrendansHouse_1F_Movement_PlayerWatchBrendanExit2
 # 238 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	applymovement LOCALID_RIVAL, LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs2
 # 239 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, LittlerootTown_BrendansHouse_1F_Movement_PlayerWatchBrendanExit2
+	applymovement LOCALID_RIVALS_HOUSE_1F_RIVAL, LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs2
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 240 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	return

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 
 # 2 "data/maps/CaveOfOrigin_B1F/scripts.pory"
@@ -5,6 +6,8 @@
 # 3 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 
 # 4 "data/maps/CaveOfOrigin_B1F/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 CaveOfOrigin_B1F_MapScripts::
 # 5 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	.byte 0
@@ -20,14 +23,19 @@ CaveOfOrigin_B1F_EventScript_Wallace::
 	msgbox CaveOfOrigin_B1F_Text_WallaceStory, MSGBOX_DEFAULT
 # 11 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 12 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	applymovement LOCALID_WALLACE, Common_Movement_WalkInPlaceFasterUp
 # 13 "data/maps/CaveOfOrigin_B1F/scripts.pory"
+=======
+	applymovement LOCALID_CAVE_OF_ORIGIN_WALLACE, Common_Movement_WalkInPlaceFasterUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 14 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	delay 60
 # 15 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	playse SE_PIN
+<<<<<<< HEAD
 # 16 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	applymovement LOCALID_WALLACE, Common_Movement_ExclamationMark
 # 17 "data/maps/CaveOfOrigin_B1F/scripts.pory"
@@ -35,12 +43,21 @@ CaveOfOrigin_B1F_EventScript_Wallace::
 # 18 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	applymovement LOCALID_WALLACE, Common_Movement_Delay48
 # 19 "data/maps/CaveOfOrigin_B1F/scripts.pory"
+=======
+	applymovement LOCALID_CAVE_OF_ORIGIN_WALLACE, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_CAVE_OF_ORIGIN_WALLACE, Common_Movement_Delay48
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 20 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	delay 30
+<<<<<<< HEAD
 # 21 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	applymovement LOCALID_WALLACE, Common_Movement_FacePlayer
 # 22 "data/maps/CaveOfOrigin_B1F/scripts.pory"
+=======
+	applymovement LOCALID_CAVE_OF_ORIGIN_WALLACE, Common_Movement_FacePlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 23 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	message CaveOfOrigin_B1F_Text_WhereIsRayquaza
@@ -114,11 +131,16 @@ CaveOfOrigin_B1F_EventScript_AtSkyPillar::
 	setflag FLAG_WALLACE_GOES_TO_SKY_PILLAR
 # 58 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	setvar VAR_SOOTOPOLIS_CITY_STATE, 3
+<<<<<<< HEAD
 # 59 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	removeobject LOCALID_WALLACE
 # 60 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	clearflag FLAG_HOENN_4
 # 61 "data/maps/CaveOfOrigin_B1F/scripts.pory"
+=======
+	removeobject LOCALID_CAVE_OF_ORIGIN_WALLACE
+	clearflag FLAG_HIDE_SKY_PILLAR_WALLACE
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	fadescreen FADE_FROM_BLACK
 # 62 "data/maps/CaveOfOrigin_B1F/scripts.pory"
 	release

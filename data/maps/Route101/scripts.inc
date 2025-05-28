@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/Route101/scripts.pory"
 
 # 2 "data/maps/Route101/scripts.pory"
@@ -7,6 +8,8 @@
 # 4 "data/maps/Route101/scripts.pory"
 
 # 5 "data/maps/Route101/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 Route101_MapScripts::
 # 6 "data/maps/Route101/scripts.pory"
 	map_script MAP_SCRIPT_ON_TRANSITION, Route101_OnTransition
@@ -52,6 +55,7 @@ Route101_EventScript_StartBirchRescue::
 	msgbox Route101_Text_HelpMe, MSGBOX_DEFAULT
 # 27 "data/maps/Route101/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 28 "data/maps/Route101/scripts.pory"
 	setobjectxy LOCALID_BIRCH, 0, 15
 # 29 "data/maps/Route101/scripts.pory"
@@ -79,6 +83,21 @@ Route101_EventScript_StartBirchRescue::
 # 40 "data/maps/Route101/scripts.pory"
 	applymovement LOCALID_BIRCH, Route101_Movement_BirchFaceZigzagoon
 # 41 "data/maps/Route101/scripts.pory"
+=======
+	setobjectxy LOCALID_ROUTE101_BIRCH, 0, 15
+	setobjectxy LOCALID_ROUTE101_ZIGZAGOON, 0, 16
+	applymovement LOCALID_PLAYER, Route101_Movement_EnterScene
+	applymovement LOCALID_ROUTE101_BIRCH, Route101_Movement_BirchRunAway1
+	applymovement LOCALID_ROUTE101_ZIGZAGOON, Route101_Movement_ZigzagoonChase1
+	waitmovement 0
+	applymovement LOCALID_ROUTE101_ZIGZAGOON, Route101_Movement_ZigzagoonChaseInCircles
+	applymovement LOCALID_ROUTE101_BIRCH, Route101_Movement_BirchRunInCircles
+	waitmovement 0
+	applymovement LOCALID_ROUTE101_BIRCH, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	applymovement LOCALID_ROUTE101_ZIGZAGOON, Route101_Movement_ZigzagoonFaceBirch
+	applymovement LOCALID_ROUTE101_BIRCH, Route101_Movement_BirchFaceZigzagoon
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 42 "data/maps/Route101/scripts.pory"
 	msgbox Route101_Text_PleaseHelp, MSGBOX_DEFAULT
@@ -100,9 +119,13 @@ Route101_EventScript_PreventExitSouth::
 	msgbox Route101_Text_DontLeaveMe, MSGBOX_DEFAULT
 # 51 "data/maps/Route101/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 52 "data/maps/Route101/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route101_Movement_PreventExitSouth
 # 53 "data/maps/Route101/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route101_Movement_PreventExitSouth
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 54 "data/maps/Route101/scripts.pory"
 	releaseall
@@ -118,9 +141,13 @@ Route101_EventScript_PreventExitWest::
 	msgbox Route101_Text_DontLeaveMe, MSGBOX_DEFAULT
 # 60 "data/maps/Route101/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 61 "data/maps/Route101/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route101_Movement_PreventExitWest
 # 62 "data/maps/Route101/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route101_Movement_PreventExitWest
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 63 "data/maps/Route101/scripts.pory"
 	releaseall
@@ -136,9 +163,13 @@ Route101_EventScript_PreventExitNorth::
 	msgbox Route101_Text_DontLeaveMe, MSGBOX_DEFAULT
 # 69 "data/maps/Route101/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 70 "data/maps/Route101/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route101_Movement_PreventExitNorth
 # 71 "data/maps/Route101/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route101_Movement_PreventExitNorth
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 72 "data/maps/Route101/scripts.pory"
 	releaseall
@@ -452,6 +483,7 @@ Route101_EventScript_BirchsBag::
 	setflag FLAG_RESCUED_BIRCH
 # 227 "data/maps/Route101/scripts.pory"
 	fadescreen FADE_TO_BLACK
+<<<<<<< HEAD
 # 228 "data/maps/Route101/scripts.pory"
 	removeobject LOCALID_ZIGZAGOON
 # 229 "data/maps/Route101/scripts.pory"
@@ -459,14 +491,23 @@ Route101_EventScript_BirchsBag::
 # 230 "data/maps/Route101/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 # 231 "data/maps/Route101/scripts.pory"
+=======
+	removeobject LOCALID_ROUTE101_ZIGZAGOON
+	setobjectxy LOCALID_PLAYER, 6, 13
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 232 "data/maps/Route101/scripts.pory"
 	special ChooseStarter
 # 233 "data/maps/Route101/scripts.pory"
 	waitstate
+<<<<<<< HEAD
 # 234 "data/maps/Route101/scripts.pory"
 	applymovement LOCALID_BIRCH, Route101_Movement_BirchApproachPlayer
 # 235 "data/maps/Route101/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE101_BIRCH, Route101_Movement_BirchApproachPlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 236 "data/maps/Route101/scripts.pory"
 	msgbox Route101_Text_YouSavedMe, MSGBOX_DEFAULT

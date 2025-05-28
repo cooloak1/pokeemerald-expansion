@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/Route111/scripts.pory"
 
 # 2 "data/maps/Route111/scripts.pory"
@@ -17,6 +18,8 @@
 # 9 "data/maps/Route111/scripts.pory"
 
 # 10 "data/maps/Route111/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 Route111_MapScripts::
 # 11 "data/maps/Route111/scripts.pory"
 	map_script MAP_SCRIPT_ON_LOAD, Route111_OnLoad
@@ -214,9 +217,13 @@ Route111_OnWarp:
 
 # 108 "data/maps/Route111/scripts.pory"
 Route111_EventScript_HidePlayerForMirageTower::
+<<<<<<< HEAD
 # 109 "data/maps/Route111/scripts.pory"
 	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_LITTLEROOT_TOWN
 # 110 "data/maps/Route111/scripts.pory"
+=======
+	hideobjectat LOCALID_PLAYER, MAP_LITTLEROOT_TOWN
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 111 "data/maps/Route111/scripts.pory"
 
@@ -246,15 +253,23 @@ Route111_EventScript_MirageTowerDisappear::
 	special StartPlayerDescendMirageTower
 # 124 "data/maps/Route111/scripts.pory"
 	waitstate
+<<<<<<< HEAD
 # 125 "data/maps/Route111/scripts.pory"
 	showobjectat OBJ_EVENT_ID_PLAYER, MAP_LITTLEROOT_TOWN
 # 126 "data/maps/Route111/scripts.pory"
+=======
+	showobjectat LOCALID_PLAYER, MAP_LITTLEROOT_TOWN
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	removeobject LOCALID_ROUTE111_PLAYER_FALLING
 # 127 "data/maps/Route111/scripts.pory"
 	delay 16
+<<<<<<< HEAD
 # 128 "data/maps/Route111/scripts.pory"
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 # 129 "data/maps/Route111/scripts.pory"
+=======
+	turnobject LOCALID_PLAYER, DIR_NORTH
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	delay 16
 # 130 "data/maps/Route111/scripts.pory"
 	special StartMirageTowerDisintegration
@@ -436,9 +451,13 @@ Route111_EventScript_PreventRouteAccess::
 
 # 219 "data/maps/Route111/scripts.pory"
 Route111_EventScript_PushUpFromRoute::
+<<<<<<< HEAD
 # 220 "data/maps/Route111/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_PushUpFromRoute
 # 221 "data/maps/Route111/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route111_Movement_PushUpFromRoute
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 222 "data/maps/Route111/scripts.pory"
 	return
@@ -446,9 +465,13 @@ Route111_EventScript_PushUpFromRoute::
 
 # 224 "data/maps/Route111/scripts.pory"
 Route111_EventScript_PushDownFromRoute::
+<<<<<<< HEAD
 # 225 "data/maps/Route111/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_PushDownFromRoute
 # 226 "data/maps/Route111/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route111_Movement_PushDownFromRoute
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 227 "data/maps/Route111/scripts.pory"
 	return
@@ -456,9 +479,13 @@ Route111_EventScript_PushDownFromRoute::
 
 # 229 "data/maps/Route111/scripts.pory"
 Route111_EventScript_PushLeftFromRoute::
+<<<<<<< HEAD
 # 230 "data/maps/Route111/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_PushLeftFromRoute
 # 231 "data/maps/Route111/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route111_Movement_PushLeftFromRoute
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 232 "data/maps/Route111/scripts.pory"
 	return
@@ -466,9 +493,13 @@ Route111_EventScript_PushLeftFromRoute::
 
 # 234 "data/maps/Route111/scripts.pory"
 Route111_EventScript_PushRightFromRoute::
+<<<<<<< HEAD
 # 235 "data/maps/Route111/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_PushRightFromRoute
 # 236 "data/maps/Route111/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route111_Movement_PushRightFromRoute
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 237 "data/maps/Route111/scripts.pory"
 	return
@@ -558,9 +589,13 @@ Route111_EventScript_BattleWinstrates::
 	msgbox Route111_Text_VictorIntro, MSGBOX_DEFAULT
 # 280 "data/maps/Route111/scripts.pory"
 	trainerbattle_no_intro TRAINER_VICTOR, Route111_Text_VictorDefeat
+<<<<<<< HEAD
 # 281 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_VICTOR, Common_Movement_WalkInPlaceFasterUp
 # 282 "data/maps/Route111/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE111_VICTOR, Common_Movement_WalkInPlaceFasterUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 283 "data/maps/Route111/scripts.pory"
 	call Route111_EventScript_OpenWinstrateDoor
@@ -568,6 +603,7 @@ Route111_EventScript_BattleWinstrates::
 	msgbox Route111_Text_VictorPostBattle, MSGBOX_DEFAULT
 # 285 "data/maps/Route111/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 286 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_VICTOR, Route111_Movement_WinstrateEnterHouse
 # 287 "data/maps/Route111/scripts.pory"
@@ -579,14 +615,26 @@ Route111_EventScript_BattleWinstrates::
 # 290 "data/maps/Route111/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_WaitForNextWinstrate
 # 291 "data/maps/Route111/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE111_VICTOR, Route111_Movement_WinstrateEnterHouse
+	waitmovement 0
+	removeobject LOCALID_ROUTE111_VICTOR
+	call Route111_EventScript_CloseWinstrateDoor
+	applymovement LOCALID_PLAYER, Route111_Movement_WaitForNextWinstrate
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 292 "data/maps/Route111/scripts.pory"
 	call Route111_EventScript_OpenWinstrateDoor
+<<<<<<< HEAD
 # 293 "data/maps/Route111/scripts.pory"
 	addobject LOCALID_VICTORIA
 # 294 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_VICTORIA, Route111_Movement_WinstrateExitHouse
 # 295 "data/maps/Route111/scripts.pory"
+=======
+	addobject LOCALID_ROUTE111_VICTORIA
+	applymovement LOCALID_ROUTE111_VICTORIA, Route111_Movement_WinstrateExitHouse
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 296 "data/maps/Route111/scripts.pory"
 	call Route111_EventScript_CloseWinstrateDoor
@@ -594,9 +642,13 @@ Route111_EventScript_BattleWinstrates::
 	msgbox Route111_Text_VictoriaIntro, MSGBOX_DEFAULT
 # 298 "data/maps/Route111/scripts.pory"
 	trainerbattle_no_intro TRAINER_VICTORIA, Route111_Text_VictoriaDefeat
+<<<<<<< HEAD
 # 299 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_VICTORIA, Common_Movement_WalkInPlaceFasterUp
 # 300 "data/maps/Route111/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE111_VICTORIA, Common_Movement_WalkInPlaceFasterUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 301 "data/maps/Route111/scripts.pory"
 	call Route111_EventScript_OpenWinstrateDoor
@@ -604,6 +656,7 @@ Route111_EventScript_BattleWinstrates::
 	msgbox Route111_Text_VictoriaPostBattle, MSGBOX_DEFAULT
 # 303 "data/maps/Route111/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 304 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_VICTORIA, Route111_Movement_WinstrateEnterHouse
 # 305 "data/maps/Route111/scripts.pory"
@@ -615,14 +668,26 @@ Route111_EventScript_BattleWinstrates::
 # 308 "data/maps/Route111/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_WaitForNextWinstrate
 # 309 "data/maps/Route111/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE111_VICTORIA, Route111_Movement_WinstrateEnterHouse
+	waitmovement 0
+	removeobject LOCALID_ROUTE111_VICTORIA
+	call Route111_EventScript_CloseWinstrateDoor
+	applymovement LOCALID_PLAYER, Route111_Movement_WaitForNextWinstrate
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 310 "data/maps/Route111/scripts.pory"
 	call Route111_EventScript_OpenWinstrateDoor
+<<<<<<< HEAD
 # 311 "data/maps/Route111/scripts.pory"
 	addobject LOCALID_VIVI
 # 312 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_VIVI, Route111_Movement_WinstrateExitHouse
 # 313 "data/maps/Route111/scripts.pory"
+=======
+	addobject LOCALID_ROUTE111_VIVI
+	applymovement LOCALID_ROUTE111_VIVI, Route111_Movement_WinstrateExitHouse
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 314 "data/maps/Route111/scripts.pory"
 	call Route111_EventScript_CloseWinstrateDoor
@@ -630,9 +695,13 @@ Route111_EventScript_BattleWinstrates::
 	msgbox Route111_Text_ViviIntro, MSGBOX_DEFAULT
 # 316 "data/maps/Route111/scripts.pory"
 	trainerbattle_no_intro TRAINER_VIVI, Route111_Text_ViviDefeat
+<<<<<<< HEAD
 # 317 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_VIVI, Common_Movement_WalkInPlaceFasterUp
 # 318 "data/maps/Route111/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE111_VIVI, Common_Movement_WalkInPlaceFasterUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 319 "data/maps/Route111/scripts.pory"
 	call Route111_EventScript_OpenWinstrateDoor
@@ -640,6 +709,7 @@ Route111_EventScript_BattleWinstrates::
 	msgbox Route111_Text_ViviPostBattle, MSGBOX_DEFAULT
 # 321 "data/maps/Route111/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 322 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_VIVI, Route111_Movement_WinstrateEnterHouse
 # 323 "data/maps/Route111/scripts.pory"
@@ -651,14 +721,26 @@ Route111_EventScript_BattleWinstrates::
 # 326 "data/maps/Route111/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route111_Movement_WaitForNextWinstrate
 # 327 "data/maps/Route111/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE111_VIVI, Route111_Movement_WinstrateEnterHouse
+	waitmovement 0
+	removeobject LOCALID_ROUTE111_VIVI
+	call Route111_EventScript_CloseWinstrateDoor
+	applymovement LOCALID_PLAYER, Route111_Movement_WaitForNextWinstrate
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 328 "data/maps/Route111/scripts.pory"
 	call Route111_EventScript_OpenWinstrateDoor
+<<<<<<< HEAD
 # 329 "data/maps/Route111/scripts.pory"
 	addobject LOCALID_VICKY
 # 330 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_VICKY, Route111_Movement_WinstrateExitHouse
 # 331 "data/maps/Route111/scripts.pory"
+=======
+	addobject LOCALID_ROUTE111_VICKY
+	applymovement LOCALID_ROUTE111_VICKY, Route111_Movement_WinstrateExitHouse
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 332 "data/maps/Route111/scripts.pory"
 	call Route111_EventScript_CloseWinstrateDoor
@@ -670,12 +752,17 @@ Route111_EventScript_BattleWinstrates::
 	msgbox Route111_Text_VickyPostBattle, MSGBOX_DEFAULT
 # 336 "data/maps/Route111/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 337 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_VICKY, Common_Movement_WalkInPlaceFasterUp
 # 338 "data/maps/Route111/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE111_VICKY, Common_Movement_WalkInPlaceFasterUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 339 "data/maps/Route111/scripts.pory"
 	call Route111_EventScript_OpenWinstrateDoor
+<<<<<<< HEAD
 # 340 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_VICKY, Route111_Movement_WinstrateEnterHouse
 # 341 "data/maps/Route111/scripts.pory"
@@ -683,6 +770,11 @@ Route111_EventScript_BattleWinstrates::
 # 342 "data/maps/Route111/scripts.pory"
 	removeobject LOCALID_VICKY
 # 343 "data/maps/Route111/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE111_VICKY, Route111_Movement_WinstrateEnterHouse
+	waitmovement 0
+	removeobject LOCALID_ROUTE111_VICKY
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	call Route111_EventScript_CloseWinstrateDoor
 # 344 "data/maps/Route111/scripts.pory"
 	release
@@ -858,17 +950,25 @@ Route111_EventScript_HikerMirageTowerVisible::
 Route111_EventScript_RockSmashTipFatMan::
 # 430 "data/maps/Route111/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 431 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_ROCK_SMASH_MAN, Common_Movement_FacePlayer
 # 432 "data/maps/Route111/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE111_ROCK_SMASH_MAN, Common_Movement_FacePlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 433 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_MauvilleUncleToldMeToTakeRockSmash, MSGBOX_DEFAULT
 # 434 "data/maps/Route111/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 435 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_ROCK_SMASH_MAN, Common_Movement_FaceOriginalDirection
 # 436 "data/maps/Route111/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE111_ROCK_SMASH_MAN, Common_Movement_FaceOriginalDirection
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 437 "data/maps/Route111/scripts.pory"
 	releaseall

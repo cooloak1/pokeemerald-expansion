@@ -48,9 +48,13 @@ NewMauville_Entrance_OnTransition:
 NewMauville_Entrance_EventScript_Door::
 # 25 "data/maps/NewMauville_Entrance/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 26 "data/maps/NewMauville_Entrance/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 # 27 "data/maps/NewMauville_Entrance/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 28 "data/maps/NewMauville_Entrance/scripts.pory"
 	msgbox NewMauville_Entrance_Text_DoorIsLocked, MSGBOX_DEFAULT

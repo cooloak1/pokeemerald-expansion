@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/SootopolisCity/scripts.pory"
 
 # 2 "data/maps/SootopolisCity/scripts.pory"
@@ -37,6 +38,8 @@
 # 19 "data/maps/SootopolisCity/scripts.pory"
 
 # 20 "data/maps/SootopolisCity/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 SootopolisCity_MapScripts::
 # 21 "data/maps/SootopolisCity/scripts.pory"
 	map_script MAP_SCRIPT_ON_LOAD, SootopolisCity_OnLoad
@@ -150,6 +153,7 @@ SootopolisCity_EventScript_HideMapNamePopup::
 SootopolisCity_EventScript_SetBattleSpectators::
 # 76 "data/maps/SootopolisCity/scripts.pory"
 	setobjectxyperm LOCALID_KIRI, 13, 48
+<<<<<<< HEAD
 # 77 "data/maps/SootopolisCity/scripts.pory"
 	setobjectxyperm LOCALID_BOY_1, 46, 32
 # 78 "data/maps/SootopolisCity/scripts.pory"
@@ -165,6 +169,15 @@ SootopolisCity_EventScript_SetBattleSpectators::
 # 83 "data/maps/SootopolisCity/scripts.pory"
 	setobjectmovementtype LOCALID_WOMAN_1, MOVEMENT_TYPE_FACE_LEFT
 # 84 "data/maps/SootopolisCity/scripts.pory"
+=======
+	setobjectxyperm LOCALID_SOOTOPOLIS_BOY_1, 46, 32
+	setobjectxyperm LOCALID_SOOTOPOLIS_NINJA_BOY, 48, 41
+	setobjectxyperm LOCALID_SOOTOPOLIS_WOMAN_1, 45, 43
+	setobjectmovementtype LOCALID_KIRI, MOVEMENT_TYPE_FACE_UP
+	setobjectmovementtype LOCALID_SOOTOPOLIS_BOY_1, MOVEMENT_TYPE_FACE_LEFT
+	setobjectmovementtype LOCALID_SOOTOPOLIS_NINJA_BOY, MOVEMENT_TYPE_FACE_LEFT
+	setobjectmovementtype LOCALID_SOOTOPOLIS_WOMAN_1, MOVEMENT_TYPE_FACE_LEFT
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 85 "data/maps/SootopolisCity/scripts.pory"
 
@@ -242,16 +255,22 @@ SootopolisCity_EventScript_CheckSetEnterCaveOfOriginObjPos::
 
 # 122 "data/maps/SootopolisCity/scripts.pory"
 SootopolisCity_EventScript_SetEnterCaveOfOriginObjPos::
+<<<<<<< HEAD
 # 123 "data/maps/SootopolisCity/scripts.pory"
 	setobjectxyperm LOCALID_EXPERT, 30, 18
 # 124 "data/maps/SootopolisCity/scripts.pory"
 	setobjectxyperm LOCALID_STEVEN, 32, 18
 # 125 "data/maps/SootopolisCity/scripts.pory"
+=======
+	setobjectxyperm LOCALID_SOOTOPOLIS_EXPERT, 30, 18
+	setobjectxyperm LOCALID_SOOTOPOLIS_STEVEN, 32, 18
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 126 "data/maps/SootopolisCity/scripts.pory"
 
 # 127 "data/maps/SootopolisCity/scripts.pory"
 SootopolisCity_EventScript_SetExitCaveOfOriginObjPos::
+<<<<<<< HEAD
 # 128 "data/maps/SootopolisCity/scripts.pory"
 	setobjectxyperm LOCALID_EXPERT, 30, 18
 # 129 "data/maps/SootopolisCity/scripts.pory"
@@ -259,11 +278,17 @@ SootopolisCity_EventScript_SetExitCaveOfOriginObjPos::
 # 130 "data/maps/SootopolisCity/scripts.pory"
 	setobjectxyperm LOCALID_STEVEN, 32, 18
 # 131 "data/maps/SootopolisCity/scripts.pory"
+=======
+	setobjectxyperm LOCALID_SOOTOPOLIS_EXPERT, 30, 18
+	setobjectxyperm LOCALID_SOOTOPOLIS_WALLACE, 31, 18
+	setobjectxyperm LOCALID_SOOTOPOLIS_STEVEN, 32, 18
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 132 "data/maps/SootopolisCity/scripts.pory"
 
 # 133 "data/maps/SootopolisCity/scripts.pory"
 SootopolisCity_EventScript_SetOutsideGymObjPos::
+<<<<<<< HEAD
 # 134 "data/maps/SootopolisCity/scripts.pory"
 	setobjectxyperm LOCALID_EXPERT, 31, 18
 # 135 "data/maps/SootopolisCity/scripts.pory"
@@ -273,6 +298,12 @@ SootopolisCity_EventScript_SetOutsideGymObjPos::
 # 137 "data/maps/SootopolisCity/scripts.pory"
 	setobjectxyperm LOCALID_ARCHIE, 34, 35
 # 138 "data/maps/SootopolisCity/scripts.pory"
+=======
+	setobjectxyperm LOCALID_SOOTOPOLIS_EXPERT, 31, 18
+	setobjectxyperm LOCALID_SOOTOPOLIS_STEVEN, 29, 33
+	setobjectxyperm LOCALID_SOOTOPOLIS_MAXIE, 33, 35
+	setobjectxyperm LOCALID_SOOTOPOLIS_ARCHIE, 34, 35
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	call_if_eq VAR_SOOTOPOLIS_WALLACE_STATE, 0, SootopolisCity_EventScript_SetWallaceMiddle
 # 139 "data/maps/SootopolisCity/scripts.pory"
 	call_if_eq VAR_SOOTOPOLIS_WALLACE_STATE, 1, SootopolisCity_EventScript_SetWallaceRight
@@ -284,39 +315,58 @@ SootopolisCity_EventScript_SetOutsideGymObjPos::
 
 # 143 "data/maps/SootopolisCity/scripts.pory"
 SootopolisCity_EventScript_SetWallaceMiddle::
+<<<<<<< HEAD
 # 144 "data/maps/SootopolisCity/scripts.pory"
 	setobjectxyperm LOCALID_WALLACE, 31, 33
 # 145 "data/maps/SootopolisCity/scripts.pory"
 	setobjectmovementtype LOCALID_WALLACE, MOVEMENT_TYPE_FACE_DOWN
 # 146 "data/maps/SootopolisCity/scripts.pory"
+=======
+	setobjectxyperm LOCALID_SOOTOPOLIS_WALLACE, 31, 33
+	setobjectmovementtype LOCALID_SOOTOPOLIS_WALLACE, MOVEMENT_TYPE_FACE_DOWN
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 147 "data/maps/SootopolisCity/scripts.pory"
 
 # 148 "data/maps/SootopolisCity/scripts.pory"
 SootopolisCity_EventScript_SetWallaceRight::
+<<<<<<< HEAD
 # 149 "data/maps/SootopolisCity/scripts.pory"
 	setobjectxyperm LOCALID_WALLACE, 32, 33
 # 150 "data/maps/SootopolisCity/scripts.pory"
 	setobjectmovementtype LOCALID_WALLACE, MOVEMENT_TYPE_FACE_DOWN
 # 151 "data/maps/SootopolisCity/scripts.pory"
+=======
+	setobjectxyperm LOCALID_SOOTOPOLIS_WALLACE, 32, 33
+	setobjectmovementtype LOCALID_SOOTOPOLIS_WALLACE, MOVEMENT_TYPE_FACE_DOWN
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 152 "data/maps/SootopolisCity/scripts.pory"
 
 # 153 "data/maps/SootopolisCity/scripts.pory"
 SootopolisCity_EventScript_SetWallaceLeft::
+<<<<<<< HEAD
 # 154 "data/maps/SootopolisCity/scripts.pory"
 	setobjectxyperm LOCALID_WALLACE, 30, 33
 # 155 "data/maps/SootopolisCity/scripts.pory"
 	setobjectmovementtype LOCALID_WALLACE, MOVEMENT_TYPE_FACE_DOWN
 # 156 "data/maps/SootopolisCity/scripts.pory"
+=======
+	setobjectxyperm LOCALID_SOOTOPOLIS_WALLACE, 30, 33
+	setobjectmovementtype LOCALID_SOOTOPOLIS_WALLACE, MOVEMENT_TYPE_FACE_DOWN
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 157 "data/maps/SootopolisCity/scripts.pory"
 
 # 158 "data/maps/SootopolisCity/scripts.pory"
 SootopolisCity_EventScript_SetExpertBlockCaveEntrance::
+<<<<<<< HEAD
 # 159 "data/maps/SootopolisCity/scripts.pory"
 	setobjectxyperm LOCALID_EXPERT, 31, 18
 # 160 "data/maps/SootopolisCity/scripts.pory"
+=======
+	setobjectxyperm LOCALID_SOOTOPOLIS_EXPERT, 31, 18
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 161 "data/maps/SootopolisCity/scripts.pory"
 
@@ -340,17 +390,25 @@ SootopolisCity_EventScript_PlayerFaceLegendaries::
 
 # 171 "data/maps/SootopolisCity/scripts.pory"
 SootopolisCity_EventScript_PlayerFaceLegendaries1::
+<<<<<<< HEAD
 # 172 "data/maps/SootopolisCity/scripts.pory"
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 # 173 "data/maps/SootopolisCity/scripts.pory"
+=======
+	turnobject LOCALID_PLAYER, DIR_NORTH
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 174 "data/maps/SootopolisCity/scripts.pory"
 
 # 175 "data/maps/SootopolisCity/scripts.pory"
 SootopolisCity_EventScript_PlayerFaceLegendaries2::
+<<<<<<< HEAD
 # 176 "data/maps/SootopolisCity/scripts.pory"
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 # 177 "data/maps/SootopolisCity/scripts.pory"
+=======
+	turnobject LOCALID_PLAYER, DIR_NORTH
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	setvar VAR_SKY_PILLAR_STATE, 3
 # 178 "data/maps/SootopolisCity/scripts.pory"
 	return
@@ -398,9 +456,13 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter::
 	delay 60
 # 200 "data/maps/SootopolisCity/scripts.pory"
 	special SpawnCameraObject
+<<<<<<< HEAD
 # 201 "data/maps/SootopolisCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanToActionFromPokeCenter
 # 202 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_CAMERA, SootopolisCity_Movement_PanToActionFromPokeCenter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 203 "data/maps/SootopolisCity/scripts.pory"
 	special RemoveCameraObject
@@ -418,11 +480,16 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter::
 	special Script_DoRayquazaScene
 # 210 "data/maps/SootopolisCity/scripts.pory"
 	waitstate
+<<<<<<< HEAD
 # 211 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_KYOGRE, Common_Movement_WalkInPlaceFasterLeft
 # 212 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_GROUDON, Common_Movement_WalkInPlaceFasterRight
 # 213 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_KYOGRE, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_SOOTOPOLIS_GROUDON, Common_Movement_WalkInPlaceFasterRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 214 "data/maps/SootopolisCity/scripts.pory"
 	delay 60
@@ -430,11 +497,16 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter::
 	waitse
 # 216 "data/maps/SootopolisCity/scripts.pory"
 	playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+<<<<<<< HEAD
 # 217 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreAttack
 # 218 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
 # 219 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_KYOGRE, SootopolisCity_Movement_KyogreAttack
+	applymovement LOCALID_SOOTOPOLIS_GROUDON, SootopolisCity_Movement_GroudonDefend
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 220 "data/maps/SootopolisCity/scripts.pory"
 	setvar VAR_0x8004, 1  @ vertical pan
@@ -448,21 +520,31 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter::
 	special ShakeCamera
 # 225 "data/maps/SootopolisCity/scripts.pory"
 	waitstate
+<<<<<<< HEAD
 # 226 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
 # 227 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 # 228 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
+	applymovement LOCALID_SOOTOPOLIS_GROUDON, SootopolisCity_Movement_GroudonMoveBack
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 229 "data/maps/SootopolisCity/scripts.pory"
 	waitse
 # 230 "data/maps/SootopolisCity/scripts.pory"
 	playmoncry SPECIES_GROUDON, CRY_MODE_ENCOUNTER
+<<<<<<< HEAD
 # 231 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreDefend
 # 232 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonAttack
 # 233 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_KYOGRE, SootopolisCity_Movement_KyogreDefend
+	applymovement LOCALID_SOOTOPOLIS_GROUDON, SootopolisCity_Movement_GroudonAttack
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 234 "data/maps/SootopolisCity/scripts.pory"
 	setvar VAR_0x8004, 1  @ vertical pan
@@ -476,21 +558,31 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter::
 	special ShakeCamera
 # 239 "data/maps/SootopolisCity/scripts.pory"
 	waitstate
+<<<<<<< HEAD
 # 240 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
 # 241 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 # 242 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
+	applymovement LOCALID_SOOTOPOLIS_GROUDON, SootopolisCity_Movement_GroudonMoveBack
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 243 "data/maps/SootopolisCity/scripts.pory"
 	waitse
 # 244 "data/maps/SootopolisCity/scripts.pory"
 	playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+<<<<<<< HEAD
 # 245 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreAttack
 # 246 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
 # 247 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_KYOGRE, SootopolisCity_Movement_KyogreAttack
+	applymovement LOCALID_SOOTOPOLIS_GROUDON, SootopolisCity_Movement_GroudonDefend
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 248 "data/maps/SootopolisCity/scripts.pory"
 	setvar VAR_0x8004, 1  @ vertical pan
@@ -504,14 +596,20 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter::
 	special ShakeCamera
 # 253 "data/maps/SootopolisCity/scripts.pory"
 	waitstate
+<<<<<<< HEAD
 # 254 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
 # 255 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 # 256 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
+	applymovement LOCALID_SOOTOPOLIS_GROUDON, SootopolisCity_Movement_GroudonMoveBack
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 257 "data/maps/SootopolisCity/scripts.pory"
 	special SpawnCameraObject
+<<<<<<< HEAD
 # 258 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreIdle
 # 259 "data/maps/SootopolisCity/scripts.pory"
@@ -519,6 +617,11 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter::
 # 260 "data/maps/SootopolisCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanBackToPokeCenter
 # 261 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_KYOGRE, SootopolisCity_Movement_KyogreIdle
+	applymovement LOCALID_SOOTOPOLIS_GROUDON, SootopolisCity_Movement_GroudonIdle
+	applymovement LOCALID_CAMERA, SootopolisCity_Movement_PanBackToPokeCenter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 262 "data/maps/SootopolisCity/scripts.pory"
 	special RemoveCameraObject
@@ -598,9 +701,13 @@ SootopolisCity_EventScript_LegendariesSceneFromDive::
 	delay 60
 # 300 "data/maps/SootopolisCity/scripts.pory"
 	special SpawnCameraObject
+<<<<<<< HEAD
 # 301 "data/maps/SootopolisCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanToActionFromDive
 # 302 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_CAMERA, SootopolisCity_Movement_PanToActionFromDive
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 303 "data/maps/SootopolisCity/scripts.pory"
 	special RemoveCameraObject
@@ -618,11 +725,16 @@ SootopolisCity_EventScript_LegendariesSceneFromDive::
 	special Script_DoRayquazaScene
 # 310 "data/maps/SootopolisCity/scripts.pory"
 	waitstate
+<<<<<<< HEAD
 # 311 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_KYOGRE, Common_Movement_WalkInPlaceFasterLeft
 # 312 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_GROUDON, Common_Movement_WalkInPlaceFasterRight
 # 313 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_KYOGRE, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_SOOTOPOLIS_GROUDON, Common_Movement_WalkInPlaceFasterRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 314 "data/maps/SootopolisCity/scripts.pory"
 	delay 60
@@ -630,11 +742,16 @@ SootopolisCity_EventScript_LegendariesSceneFromDive::
 	waitse
 # 316 "data/maps/SootopolisCity/scripts.pory"
 	playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+<<<<<<< HEAD
 # 317 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreAttack
 # 318 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
 # 319 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_KYOGRE, SootopolisCity_Movement_KyogreAttack
+	applymovement LOCALID_SOOTOPOLIS_GROUDON, SootopolisCity_Movement_GroudonDefend
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 320 "data/maps/SootopolisCity/scripts.pory"
 	setvar VAR_0x8004, 1  @ vertical pan
@@ -648,21 +765,31 @@ SootopolisCity_EventScript_LegendariesSceneFromDive::
 	special ShakeCamera
 # 325 "data/maps/SootopolisCity/scripts.pory"
 	waitstate
+<<<<<<< HEAD
 # 326 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
 # 327 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 # 328 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
+	applymovement LOCALID_SOOTOPOLIS_GROUDON, SootopolisCity_Movement_GroudonMoveBack
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 329 "data/maps/SootopolisCity/scripts.pory"
 	waitse
 # 330 "data/maps/SootopolisCity/scripts.pory"
 	playmoncry SPECIES_GROUDON, CRY_MODE_ENCOUNTER
+<<<<<<< HEAD
 # 331 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreDefend
 # 332 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonAttack
 # 333 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_KYOGRE, SootopolisCity_Movement_KyogreDefend
+	applymovement LOCALID_SOOTOPOLIS_GROUDON, SootopolisCity_Movement_GroudonAttack
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 334 "data/maps/SootopolisCity/scripts.pory"
 	setvar VAR_0x8004, 1  @ vertical pan
@@ -676,21 +803,31 @@ SootopolisCity_EventScript_LegendariesSceneFromDive::
 	special ShakeCamera
 # 339 "data/maps/SootopolisCity/scripts.pory"
 	waitstate
+<<<<<<< HEAD
 # 340 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
 # 341 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 # 342 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
+	applymovement LOCALID_SOOTOPOLIS_GROUDON, SootopolisCity_Movement_GroudonMoveBack
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 343 "data/maps/SootopolisCity/scripts.pory"
 	waitse
 # 344 "data/maps/SootopolisCity/scripts.pory"
 	playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+<<<<<<< HEAD
 # 345 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreAttack
 # 346 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
 # 347 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_KYOGRE, SootopolisCity_Movement_KyogreAttack
+	applymovement LOCALID_SOOTOPOLIS_GROUDON, SootopolisCity_Movement_GroudonDefend
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 348 "data/maps/SootopolisCity/scripts.pory"
 	setvar VAR_0x8004, 1  @ vertical pan
@@ -704,14 +841,20 @@ SootopolisCity_EventScript_LegendariesSceneFromDive::
 	special ShakeCamera
 # 353 "data/maps/SootopolisCity/scripts.pory"
 	waitstate
+<<<<<<< HEAD
 # 354 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
 # 355 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 # 356 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
+	applymovement LOCALID_SOOTOPOLIS_GROUDON, SootopolisCity_Movement_GroudonMoveBack
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 357 "data/maps/SootopolisCity/scripts.pory"
 	special SpawnCameraObject
+<<<<<<< HEAD
 # 358 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreIdle
 # 359 "data/maps/SootopolisCity/scripts.pory"
@@ -719,6 +862,11 @@ SootopolisCity_EventScript_LegendariesSceneFromDive::
 # 360 "data/maps/SootopolisCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanBackToDive
 # 361 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_KYOGRE, SootopolisCity_Movement_KyogreIdle
+	applymovement LOCALID_SOOTOPOLIS_GROUDON, SootopolisCity_Movement_GroudonIdle
+	applymovement LOCALID_CAMERA, SootopolisCity_Movement_PanBackToDive
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 362 "data/maps/SootopolisCity/scripts.pory"
 	special RemoveCameraObject
@@ -976,9 +1124,13 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter::
 	delay 60
 # 489 "data/maps/SootopolisCity/scripts.pory"
 	special SpawnCameraObject
+<<<<<<< HEAD
 # 490 "data/maps/SootopolisCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanToActionFromPokeCenter
 # 491 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_CAMERA, SootopolisCity_Movement_PanToActionFromPokeCenter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 492 "data/maps/SootopolisCity/scripts.pory"
 	special RemoveCameraObject
@@ -988,6 +1140,7 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter::
 	fadescreenspeed FADE_TO_BLACK, 8
 # 495 "data/maps/SootopolisCity/scripts.pory"
 	call SootopolisCity_EventScript_SetRoughWater
+<<<<<<< HEAD
 # 496 "data/maps/SootopolisCity/scripts.pory"
 	removeobject LOCALID_GROUDON
 # 497 "data/maps/SootopolisCity/scripts.pory"
@@ -997,6 +1150,12 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter::
 # 499 "data/maps/SootopolisCity/scripts.pory"
 	hideobjectat LOCALID_RAYQUAZA, MAP_SOOTOPOLIS_CITY
 # 500 "data/maps/SootopolisCity/scripts.pory"
+=======
+	removeobject LOCALID_SOOTOPOLIS_GROUDON
+	removeobject LOCALID_SOOTOPOLIS_KYOGRE
+	addobject LOCALID_SOOTOPOLIS_RAYQUAZA
+	hideobjectat LOCALID_SOOTOPOLIS_RAYQUAZA, MAP_SOOTOPOLIS_CITY
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	setvar VAR_0x8004, TRUE
 # 501 "data/maps/SootopolisCity/scripts.pory"
 	special Script_DoRayquazaScene
@@ -1006,9 +1165,13 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter::
 	playse SE_THUNDER
 # 504 "data/maps/SootopolisCity/scripts.pory"
 	special SpawnCameraObject
+<<<<<<< HEAD
 # 505 "data/maps/SootopolisCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanUp
 # 506 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_CAMERA, SootopolisCity_Movement_PanUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 507 "data/maps/SootopolisCity/scripts.pory"
 	waitse
@@ -1048,6 +1211,7 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter::
 	setweather WEATHER_NONE
 # 525 "data/maps/SootopolisCity/scripts.pory"
 	doweather
+<<<<<<< HEAD
 # 526 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_RAYQUAZA, SootopolisCity_Movement_RayquazaFlyOff
 # 527 "data/maps/SootopolisCity/scripts.pory"
@@ -1055,6 +1219,11 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter::
 # 528 "data/maps/SootopolisCity/scripts.pory"
 	removeobject LOCALID_RAYQUAZA
 # 529 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_RAYQUAZA, SootopolisCity_Movement_RayquazaFlyOff
+	waitmovement 0
+	removeobject LOCALID_SOOTOPOLIS_RAYQUAZA
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	special WaitWeather
 # 530 "data/maps/SootopolisCity/scripts.pory"
 	waitstate
@@ -1084,9 +1253,13 @@ SootopolisCity_EventScript_RayquazaSceneFromDive::
 	delay 60
 # 543 "data/maps/SootopolisCity/scripts.pory"
 	special SpawnCameraObject
+<<<<<<< HEAD
 # 544 "data/maps/SootopolisCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanToActionFromDive
 # 545 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_CAMERA, SootopolisCity_Movement_PanToActionFromDive
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 546 "data/maps/SootopolisCity/scripts.pory"
 	special RemoveCameraObject
@@ -1096,6 +1269,7 @@ SootopolisCity_EventScript_RayquazaSceneFromDive::
 	fadescreenspeed FADE_TO_BLACK, 8
 # 549 "data/maps/SootopolisCity/scripts.pory"
 	call SootopolisCity_EventScript_SetRoughWater
+<<<<<<< HEAD
 # 550 "data/maps/SootopolisCity/scripts.pory"
 	removeobject LOCALID_GROUDON
 # 551 "data/maps/SootopolisCity/scripts.pory"
@@ -1103,6 +1277,11 @@ SootopolisCity_EventScript_RayquazaSceneFromDive::
 # 552 "data/maps/SootopolisCity/scripts.pory"
 	addobject LOCALID_RAYQUAZA
 # 553 "data/maps/SootopolisCity/scripts.pory"
+=======
+	removeobject LOCALID_SOOTOPOLIS_GROUDON
+	removeobject LOCALID_SOOTOPOLIS_KYOGRE
+	addobject LOCALID_SOOTOPOLIS_RAYQUAZA
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	setvar VAR_0x8004, TRUE
 # 554 "data/maps/SootopolisCity/scripts.pory"
 	special Script_DoRayquazaScene
@@ -1110,11 +1289,16 @@ SootopolisCity_EventScript_RayquazaSceneFromDive::
 	waitstate
 # 556 "data/maps/SootopolisCity/scripts.pory"
 	special SpawnCameraObject
+<<<<<<< HEAD
 # 557 "data/maps/SootopolisCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanUp
 # 558 "data/maps/SootopolisCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_Movement_PlayerApproachLegendaries
 # 559 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_CAMERA, SootopolisCity_Movement_PanUp
+	applymovement LOCALID_PLAYER, SootopolisCity_Movement_PlayerApproachLegendaries
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 560 "data/maps/SootopolisCity/scripts.pory"
 	waitse
@@ -1154,6 +1338,7 @@ SootopolisCity_EventScript_RayquazaSceneFromDive::
 	setweather WEATHER_NONE
 # 578 "data/maps/SootopolisCity/scripts.pory"
 	doweather
+<<<<<<< HEAD
 # 579 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_RAYQUAZA, SootopolisCity_Movement_RayquazaFlyOff
 # 580 "data/maps/SootopolisCity/scripts.pory"
@@ -1161,6 +1346,11 @@ SootopolisCity_EventScript_RayquazaSceneFromDive::
 # 581 "data/maps/SootopolisCity/scripts.pory"
 	removeobject LOCALID_RAYQUAZA
 # 582 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_RAYQUAZA, SootopolisCity_Movement_RayquazaFlyOff
+	waitmovement 0
+	removeobject LOCALID_SOOTOPOLIS_RAYQUAZA
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	special WaitWeather
 # 583 "data/maps/SootopolisCity/scripts.pory"
 	waitstate
@@ -1548,9 +1738,13 @@ SootopolisCity_EventScript_KiriLikeSeasonBornIn::
 SootopolisCity_EventScript_Woman2::
 # 775 "data/maps/SootopolisCity/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 776 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_WOMAN_2, Common_Movement_FacePlayer
 # 777 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_WOMAN_2, Common_Movement_FacePlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 778 "data/maps/SootopolisCity/scripts.pory"
 	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_Woman2Rayquaza
@@ -1558,9 +1752,13 @@ SootopolisCity_EventScript_Woman2::
 	msgbox SootopolisCity_Text_WeatherWentWild, MSGBOX_DEFAULT
 # 780 "data/maps/SootopolisCity/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 781 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_WOMAN_2, Common_Movement_FaceOriginalDirection
 # 782 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_WOMAN_2, Common_Movement_FaceOriginalDirection
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 783 "data/maps/SootopolisCity/scripts.pory"
 	releaseall
@@ -1630,9 +1828,13 @@ SootopolisCity_EventScript_Woman1Legendaries::
 	msgbox SootopolisCity_Text_GiganticPokemonFight, MSGBOX_DEFAULT
 # 816 "data/maps/SootopolisCity/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 817 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_WOMAN_1, Common_Movement_FaceOriginalDirection
 # 818 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_WOMAN_1, Common_Movement_FaceOriginalDirection
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 819 "data/maps/SootopolisCity/scripts.pory"
 	release
@@ -1664,9 +1866,13 @@ SootopolisCity_EventScript_Woman1Rayquaza::
 SootopolisCity_EventScript_NinjaBoy::
 # 833 "data/maps/SootopolisCity/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 834 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_NINJA_BOY, Common_Movement_FacePlayer
 # 835 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_NINJA_BOY, Common_Movement_FacePlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 836 "data/maps/SootopolisCity/scripts.pory"
 	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_NinjaBoyRayquaza
@@ -1678,9 +1884,13 @@ SootopolisCity_EventScript_NinjaBoy::
 	msgbox SootopolisCity_Text_ThisIsWicked, MSGBOX_DEFAULT
 # 840 "data/maps/SootopolisCity/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 841 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_NINJA_BOY, Common_Movement_FaceOriginalDirection
 # 842 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_NINJA_BOY, Common_Movement_FaceOriginalDirection
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 843 "data/maps/SootopolisCity/scripts.pory"
 	release
@@ -1712,9 +1922,13 @@ SootopolisCity_EventScript_NinjaBoyRayquaza::
 SootopolisCity_EventScript_Boy1::
 # 857 "data/maps/SootopolisCity/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 858 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_BOY_1, Common_Movement_FacePlayer
 # 859 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_BOY_1, Common_Movement_FacePlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 860 "data/maps/SootopolisCity/scripts.pory"
 	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_Boy1Rayquaza
@@ -1728,9 +1942,13 @@ SootopolisCity_EventScript_Boy1::
 	msgbox SootopolisCity_Text_GiantPokemonSuddenlyAppeared, MSGBOX_DEFAULT
 # 865 "data/maps/SootopolisCity/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 866 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_BOY_1, Common_Movement_FaceOriginalDirection
 # 867 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_BOY_1, Common_Movement_FaceOriginalDirection
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 868 "data/maps/SootopolisCity/scripts.pory"
 	release
@@ -1796,9 +2014,13 @@ EventScript_ClosedSootopolisDoor::
 SootopolisCity_EventScript_Steven::
 # 899 "data/maps/SootopolisCity/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 900 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_STEVEN, Common_Movement_FacePlayer
 # 901 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_STEVEN, Common_Movement_FacePlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 902 "data/maps/SootopolisCity/scripts.pory"
 	call_if_unset FLAG_STEVEN_GUIDES_TO_CAVE_OF_ORIGIN, SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin
@@ -1862,14 +2084,20 @@ SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin::
 	msgbox SootopolisCity_Text_DoesThisMakeYourFearPokemon, MSGBOX_DEFAULT
 # 932 "data/maps/SootopolisCity/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 933 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_STEVEN, SootopolisCity_Movement_StevenWalkToCaveOfOrigin
 # 934 "data/maps/SootopolisCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_Movement_PlayerWalkToCaveOfOrigin
 # 935 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_STEVEN, SootopolisCity_Movement_StevenWalkToCaveOfOrigin
+	applymovement LOCALID_PLAYER, SootopolisCity_Movement_PlayerWalkToCaveOfOrigin
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 936 "data/maps/SootopolisCity/scripts.pory"
 	delay 120
+<<<<<<< HEAD
 # 937 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_EXPERT, SootopolisCity_Movement_ExpertMoveAside
 # 938 "data/maps/SootopolisCity/scripts.pory"
@@ -1879,6 +2107,12 @@ SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin::
 # 940 "data/maps/SootopolisCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_Movement_PlayerArriveCaveEntrance
 # 941 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_EXPERT, SootopolisCity_Movement_ExpertMoveAside
+	waitmovement 0
+	applymovement LOCALID_SOOTOPOLIS_STEVEN, SootopolisCity_Movement_StevenArriveCaveEntrance
+	applymovement LOCALID_PLAYER, SootopolisCity_Movement_PlayerArriveCaveEntrance
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 942 "data/maps/SootopolisCity/scripts.pory"
 	msgbox SootopolisCity_Text_HereWereAreHelpWallace, MSGBOX_DEFAULT
@@ -1886,9 +2120,13 @@ SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin::
 	closemessage
 # 944 "data/maps/SootopolisCity/scripts.pory"
 	setflag FLAG_STEVEN_GUIDES_TO_CAVE_OF_ORIGIN
+<<<<<<< HEAD
 # 945 "data/maps/SootopolisCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_Movement_PlayerEnterCaveOfOrigin
 # 946 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, SootopolisCity_Movement_PlayerEnterCaveOfOrigin
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 947 "data/maps/SootopolisCity/scripts.pory"
 	warp MAP_CAVE_OF_ORIGIN_ENTRANCE, 9, 20
@@ -1900,11 +2138,16 @@ SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin::
 
 # 951 "data/maps/SootopolisCity/scripts.pory"
 SootopolisCity_EventScript_StartWalkToCaveOfOriginWest::
+<<<<<<< HEAD
 # 952 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_STEVEN, SootopolisCity_Movement_StevenStartWalkToCaveOfOrigin
 # 953 "data/maps/SootopolisCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_Movement_PlayerStartWalkToCaveOfOriginWest
 # 954 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_STEVEN, SootopolisCity_Movement_StevenStartWalkToCaveOfOrigin
+	applymovement LOCALID_PLAYER, SootopolisCity_Movement_PlayerStartWalkToCaveOfOriginWest
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 955 "data/maps/SootopolisCity/scripts.pory"
 	return
@@ -1912,11 +2155,16 @@ SootopolisCity_EventScript_StartWalkToCaveOfOriginWest::
 
 # 957 "data/maps/SootopolisCity/scripts.pory"
 SootopolisCity_EventScript_StartWalkToCaveOfOriginNorth::
+<<<<<<< HEAD
 # 958 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_STEVEN, SootopolisCity_Movement_StevenStartWalkToCaveOfOrigin
 # 959 "data/maps/SootopolisCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_Movement_PlayerStartWalkToCaveOfOriginNorth
 # 960 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_STEVEN, SootopolisCity_Movement_StevenStartWalkToCaveOfOrigin
+	applymovement LOCALID_PLAYER, SootopolisCity_Movement_PlayerStartWalkToCaveOfOriginNorth
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 961 "data/maps/SootopolisCity/scripts.pory"
 	return
@@ -2454,9 +2702,13 @@ SootopolisCity_Movement_PlayerEnterCaveOfOrigin:
 SootopolisCity_EventScript_Boy2::
 # 1228 "data/maps/SootopolisCity/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 1229 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_BOY_2, Common_Movement_FacePlayer
 # 1230 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_BOY_2, Common_Movement_FacePlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 1231 "data/maps/SootopolisCity/scripts.pory"
 	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_Boy2Rayquaza
@@ -2464,9 +2716,13 @@ SootopolisCity_EventScript_Boy2::
 	msgbox SootopolisCity_Text_TwoPokemonArentAngry, MSGBOX_DEFAULT
 # 1233 "data/maps/SootopolisCity/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 1234 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_BOY_2, Common_Movement_FaceOriginalDirection
 # 1235 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_BOY_2, Common_Movement_FaceOriginalDirection
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 1236 "data/maps/SootopolisCity/scripts.pory"
 	releaseall
@@ -2496,17 +2752,25 @@ SootopolisCity_EventScript_BlackBelt::
 	msgbox SootopolisCity_Text_GoRedAndBlueMon, MSGBOX_DEFAULT
 # 1249 "data/maps/SootopolisCity/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 1250 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_BLACK_BELT, Common_Movement_FacePlayer
 # 1251 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_BLACK_BELT, Common_Movement_FacePlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 1252 "data/maps/SootopolisCity/scripts.pory"
 	msgbox SootopolisCity_Text_DoYouKnowMonNames, MSGBOX_DEFAULT
 # 1253 "data/maps/SootopolisCity/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 1254 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_BLACK_BELT, Common_Movement_FaceOriginalDirection
 # 1255 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_BLACK_BELT, Common_Movement_FaceOriginalDirection
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 1256 "data/maps/SootopolisCity/scripts.pory"
 	releaseall
@@ -2516,9 +2780,13 @@ SootopolisCity_EventScript_BlackBelt::
 
 # 1259 "data/maps/SootopolisCity/scripts.pory"
 SootopolisCity_EventScript_BlackBeltRayquaza::
+<<<<<<< HEAD
 # 1260 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_BLACK_BELT, Common_Movement_FacePlayer
 # 1261 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_BLACK_BELT, Common_Movement_FacePlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 1262 "data/maps/SootopolisCity/scripts.pory"
 	msgbox SootopolisCity_Text_GreenOneSettlesThings, MSGBOX_DEFAULT
@@ -2532,9 +2800,13 @@ SootopolisCity_EventScript_BlackBeltRayquaza::
 SootopolisCity_EventScript_Girl::
 # 1267 "data/maps/SootopolisCity/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 1268 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_GIRL, Common_Movement_FacePlayer
 # 1269 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_GIRL, Common_Movement_FacePlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 1270 "data/maps/SootopolisCity/scripts.pory"
 	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_GirlRayquaza
@@ -2542,9 +2814,13 @@ SootopolisCity_EventScript_Girl::
 	msgbox SootopolisCity_Text_SootopolisWillBeWrecked, MSGBOX_DEFAULT
 # 1272 "data/maps/SootopolisCity/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 1273 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_GIRL, Common_Movement_FaceOriginalDirection
 # 1274 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_GIRL, Common_Movement_FaceOriginalDirection
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 1275 "data/maps/SootopolisCity/scripts.pory"
 	releaseall
@@ -2568,9 +2844,13 @@ SootopolisCity_EventScript_GirlRayquaza::
 SootopolisCity_EventScript_Maniac::
 # 1285 "data/maps/SootopolisCity/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 1286 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_MANIAC, Common_Movement_FacePlayer
 # 1287 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_MANIAC, Common_Movement_FacePlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 1288 "data/maps/SootopolisCity/scripts.pory"
 	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 5, SootopolisCity_EventScript_ManiacRayquaza
@@ -2578,9 +2858,13 @@ SootopolisCity_EventScript_Maniac::
 	msgbox SootopolisCity_Text_SeeingLegendWithOwnEyes, MSGBOX_DEFAULT
 # 1290 "data/maps/SootopolisCity/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 1291 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_MANIAC, Common_Movement_FaceOriginalDirection
 # 1292 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_MANIAC, Common_Movement_FaceOriginalDirection
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 1293 "data/maps/SootopolisCity/scripts.pory"
 	releaseall
@@ -2644,6 +2928,7 @@ SootopolisCity_EventScript_GiveWaterfall::
 
 # 1323 "data/maps/SootopolisCity/scripts.pory"
 SootopolisCity_EventScript_WallaceMoveFromGym::
+<<<<<<< HEAD
 # 1324 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_WALLACE, SootopolisCity_Movement_WallaceMoveFromGym
 # 1325 "data/maps/SootopolisCity/scripts.pory"
@@ -2651,6 +2936,11 @@ SootopolisCity_EventScript_WallaceMoveFromGym::
 # 1326 "data/maps/SootopolisCity/scripts.pory"
 	copyobjectxytoperm LOCALID_WALLACE
 # 1327 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_WALLACE, SootopolisCity_Movement_WallaceMoveFromGym
+	waitmovement 0
+	copyobjectxytoperm LOCALID_SOOTOPOLIS_WALLACE
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	setvar VAR_SOOTOPOLIS_WALLACE_STATE, 1
 # 1328 "data/maps/SootopolisCity/scripts.pory"
 	return
@@ -2658,6 +2948,7 @@ SootopolisCity_EventScript_WallaceMoveFromGym::
 
 # 1330 "data/maps/SootopolisCity/scripts.pory"
 SootopolisCity_EventScript_WallaceMoveFromGymWest::
+<<<<<<< HEAD
 # 1331 "data/maps/SootopolisCity/scripts.pory"
 	applymovement LOCALID_WALLACE, SootopolisCity_Movement_WallaceMoveFromGymWest
 # 1332 "data/maps/SootopolisCity/scripts.pory"
@@ -2665,6 +2956,11 @@ SootopolisCity_EventScript_WallaceMoveFromGymWest::
 # 1333 "data/maps/SootopolisCity/scripts.pory"
 	copyobjectxytoperm LOCALID_WALLACE
 # 1334 "data/maps/SootopolisCity/scripts.pory"
+=======
+	applymovement LOCALID_SOOTOPOLIS_WALLACE, SootopolisCity_Movement_WallaceMoveFromGymWest
+	waitmovement 0
+	copyobjectxytoperm LOCALID_SOOTOPOLIS_WALLACE
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	setvar VAR_SOOTOPOLIS_WALLACE_STATE, 2
 # 1335 "data/maps/SootopolisCity/scripts.pory"
 	return

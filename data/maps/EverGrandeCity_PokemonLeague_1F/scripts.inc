@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 
 # 2 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
@@ -9,6 +10,8 @@
 # 5 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 
 # 6 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 EverGrandeCity_PokemonLeague_1F_MapScripts::
 # 7 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	map_script MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_PokemonLeague_1F_OnTransition
@@ -32,19 +35,28 @@ EverGrandeCity_PokemonLeague_1F_OnTransition:
 
 # 17 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 EverGrandeCity_PokemonLeague_1F_EventScript_GuardsBlockDoor::
+<<<<<<< HEAD
 # 18 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	setobjectxyperm LOCALID_GUARD_1, 9, 2
 # 19 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	setobjectxyperm LOCALID_GUARD_2, 10, 2
 # 20 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+=======
+	setobjectxyperm LOCALID_LEAGUE_GUARD_1, 9, 2
+	setobjectxyperm LOCALID_LEAGUE_GUARD_2, 10, 2
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 21 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 
 # 22 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 EverGrandeCity_PokemonLeague_1F_EventScript_Nurse::
+<<<<<<< HEAD
 # 23 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	setvar VAR_0x800B, LOCALID_NURSE
 # 24 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+=======
+	setvar VAR_0x800B, LOCALID_LEAGUE_NURSE
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	call Common_EventScript_PkmnCenterNurse
 # 25 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	waitmessage
@@ -124,11 +136,16 @@ EverGrandeCity_PokemonLeague_1F_EventScript_DoorGuard::
 	goto_if_unset FLAG_BADGE06_GET, EverGrandeCity_PokemonLeague_1F_EventScript_NotAllBadges
 # 63 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 64 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	applymovement LOCALID_GUARD_1, EverGrandeCity_PokemonLeague_1F_Movement_LeftGuardOutOfWay
 # 65 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	applymovement LOCALID_GUARD_2, EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay
 # 66 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+=======
+	applymovement LOCALID_LEAGUE_GUARD_1, EverGrandeCity_PokemonLeague_1F_Movement_LeftGuardOutOfWay
+	applymovement LOCALID_LEAGUE_GUARD_2, EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 67 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	delay 10
@@ -142,11 +159,16 @@ EverGrandeCity_PokemonLeague_1F_EventScript_DoorGuard::
 	waitfanfare
 # 72 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 73 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	copyobjectxytoperm LOCALID_GUARD_1
 # 74 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	copyobjectxytoperm LOCALID_GUARD_2
 # 75 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+=======
+	copyobjectxytoperm LOCALID_LEAGUE_GUARD_1
+	copyobjectxytoperm LOCALID_LEAGUE_GUARD_2
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	setflag FLAG_ENTERED_ELITE_FOUR
 # 76 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	releaseall
@@ -156,9 +178,13 @@ EverGrandeCity_PokemonLeague_1F_EventScript_DoorGuard::
 
 # 79 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 EverGrandeCity_PokemonLeague_1F_EventScript_PlayerMoveToFrontFromRight::
+<<<<<<< HEAD
 # 80 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromRight
 # 81 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 82 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	return
@@ -166,9 +192,13 @@ EverGrandeCity_PokemonLeague_1F_EventScript_PlayerMoveToFrontFromRight::
 
 # 84 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 EverGrandeCity_PokemonLeague_1F_EventScript_PlayerMoveToFrontFromLeft::
+<<<<<<< HEAD
 # 85 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromLeft
 # 86 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, EverGrandeCity_PokemonLeague_1F_Movement_MoveToFrontFromLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 87 "data/maps/EverGrandeCity_PokemonLeague_1F/scripts.pory"
 	return

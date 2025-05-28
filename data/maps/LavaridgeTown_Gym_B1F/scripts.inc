@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/LavaridgeTown_Gym_B1F/scripts.pory"
 
 # 2 "data/maps/LavaridgeTown_Gym_B1F/scripts.pory"
@@ -11,6 +12,8 @@
 # 6 "data/maps/LavaridgeTown_Gym_B1F/scripts.pory"
 
 # 7 "data/maps/LavaridgeTown_Gym_B1F/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 LavaridgeTown_Gym_B1F_MapScripts::
 # 8 "data/maps/LavaridgeTown_Gym_B1F/scripts.pory"
 	map_script MAP_SCRIPT_ON_TRANSITION, LavaridgeTown_Gym_B1F_OnTransition

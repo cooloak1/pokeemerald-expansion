@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
 # 2 "data/maps/LilycoveCity_ContestHall/scripts.pory"
@@ -59,6 +60,12 @@
 # 30 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 
 # 31 "data/maps/LilycoveCity_ContestHall/scripts.pory"
+=======
+@ All the LOCALID constants used in this file are essentially redundant.
+@ They're all used to have the NPC the player talked to turn back so they're facing
+@ their original direction (because they're watching/participating in the contests).
+@ They could all be substituted for VAR_LAST_TALKED.
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 LilycoveCity_ContestHall_MapScripts::
 # 32 "data/maps/LilycoveCity_ContestHall/scripts.pory"
 	.byte 0

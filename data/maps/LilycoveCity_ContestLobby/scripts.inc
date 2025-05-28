@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 
 # 2 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -13,6 +14,8 @@
 # 7 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 
 # 8 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 LilycoveCity_ContestLobby_MapScripts::
 # 9 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	map_script MAP_SCRIPT_ON_TRANSITION, LilycoveCity_ContestLobby_OnTransition
@@ -84,6 +87,7 @@ LilycoveCity_ContestLobby_EventScript_TryDoContestArtist::
 LilycoveCity_ContestLobby_EventScript_ContestArtist::
 # 43 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 44 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	addobject LOCALID_ARTIST
 # 45 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -93,6 +97,12 @@ LilycoveCity_ContestLobby_EventScript_ContestArtist::
 # 47 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, LilycoveCity_ContestLobby_Movement_PlayerFaceArtist
 # 48 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	addobject LOCALID_CONTEST_LOBBY_ARTIST
+	applymovement LOCALID_CONTEST_LOBBY_ARTIST, LilycoveCity_ContestLobby_Movement_ArtistApproachPlayer
+	waitmovement LOCALID_CONTEST_LOBBY_ARTIST
+	applymovement LOCALID_PLAYER, LilycoveCity_ContestLobby_Movement_PlayerFaceArtist
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 49 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	msgbox LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint, MSGBOX_DEFAULT
@@ -130,6 +140,7 @@ LilycoveCity_ContestLobby_EventScript_TakePaintingToMuseum::
 	specialvar VAR_RESULT, GiveMonArtistRibbon
 # 66 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	call_if_eq VAR_RESULT, TRUE, LilycoveCity_ContestLobby_EventScript_ReceivedArtistRibbon
+<<<<<<< HEAD
 # 67 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement LOCALID_ARTIST, LilycoveCity_ContestLobby_Movement_ArtistExit
 # 68 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -137,6 +148,11 @@ LilycoveCity_ContestLobby_EventScript_TakePaintingToMuseum::
 # 69 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	removeobject LOCALID_ARTIST
 # 70 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	applymovement LOCALID_CONTEST_LOBBY_ARTIST, LilycoveCity_ContestLobby_Movement_ArtistExit
+	waitmovement 0
+	removeobject LOCALID_CONTEST_LOBBY_ARTIST
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	call LilycoveCity_ContestLobby_EventScript_UpdateMuseumPatrons
 # 71 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	call LilycoveCity_ContestLobby_EventScript_SetPaintingFlag
@@ -156,15 +172,23 @@ LilycoveCity_ContestLobby_EventScript_ConfirmDontTakePainting::
 	msgbox LilycoveCity_ContestLobby_Text_FineThatsTheWayItIs, MSGBOX_DEFAULT
 # 79 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 80 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement LOCALID_ARTIST, LilycoveCity_ContestLobby_Movement_ArtistExit
 # 81 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	applymovement LOCALID_CONTEST_LOBBY_ARTIST, LilycoveCity_ContestLobby_Movement_ArtistExit
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 82 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	setvar VAR_LILYCOVE_CONTEST_LOBBY_STATE, 0
+<<<<<<< HEAD
 # 83 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	removeobject LOCALID_ARTIST
 # 84 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	removeobject LOCALID_CONTEST_LOBBY_ARTIST
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	releaseall
 # 85 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	end
@@ -176,12 +200,17 @@ LilycoveCity_ContestLobby_EventScript_ReceivedArtistRibbon::
 	incrementgamestat GAME_STAT_RECEIVED_RIBBONS
 # 89 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	special BufferContestWinnerMonName
+<<<<<<< HEAD
 # 90 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement LOCALID_ARTIST, LilycoveCity_ContestLobby_Movement_ArtistBeginToExit
 # 91 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	applymovement LOCALID_CONTEST_LOBBY_ARTIST, LilycoveCity_ContestLobby_Movement_ArtistBeginToExit
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 92 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	playse SE_PIN
+<<<<<<< HEAD
 # 93 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement LOCALID_ARTIST, Common_Movement_ExclamationMark
 # 94 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -189,6 +218,11 @@ LilycoveCity_ContestLobby_EventScript_ReceivedArtistRibbon::
 # 95 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement LOCALID_ARTIST, LilycoveCity_ContestLobby_Movement_ArtistReturnToPlayer
 # 96 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	applymovement LOCALID_CONTEST_LOBBY_ARTIST, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_CONTEST_LOBBY_ARTIST, LilycoveCity_ContestLobby_Movement_ArtistReturnToPlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 97 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	msgbox LilycoveCity_ContestLobby_Text_TakeMementoOfPainting, MSGBOX_DEFAULT
@@ -424,6 +458,7 @@ LilycoveCity_ContestLobby_EventScript_TryDoLinkContestArtist::
 LilycoveCity_ContestLobby_EventScript_LinkContestArtist::
 # 213 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 214 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	addobject LOCALID_ARTIST_LINK
 # 215 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -433,6 +468,12 @@ LilycoveCity_ContestLobby_EventScript_LinkContestArtist::
 # 217 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, LilycoveCity_ContestLobby_Movement_PlayerFaceLinkArtist
 # 218 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	addobject LOCALID_CONTEST_LOBBY_LINK_ARTIST
+	applymovement LOCALID_CONTEST_LOBBY_LINK_ARTIST, LilycoveCity_ContestLobby_Movement_LinkArtistApproachPlayer
+	waitmovement LOCALID_CONTEST_LOBBY_LINK_ARTIST
+	applymovement LOCALID_PLAYER, LilycoveCity_ContestLobby_Movement_PlayerFaceLinkArtist
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 219 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	msgbox LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint, MSGBOX_DEFAULT
@@ -466,6 +507,7 @@ LilycoveCity_ContestLobby_EventScript_TakePaintingToMuseumLink::
 	specialvar VAR_RESULT, GiveMonArtistRibbon
 # 234 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	call_if_eq VAR_RESULT, TRUE, LilycoveCity_ContestLobby_EventScript_ReceivedLinkArtistRibbon
+<<<<<<< HEAD
 # 235 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement LOCALID_ARTIST_LINK, LilycoveCity_ContestLobby_Movement_LinkArtistExit
 # 236 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -473,6 +515,11 @@ LilycoveCity_ContestLobby_EventScript_TakePaintingToMuseumLink::
 # 237 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	removeobject LOCALID_ARTIST_LINK
 # 238 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	applymovement LOCALID_CONTEST_LOBBY_LINK_ARTIST, LilycoveCity_ContestLobby_Movement_LinkArtistExit
+	waitmovement 0
+	removeobject LOCALID_CONTEST_LOBBY_LINK_ARTIST
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	call LilycoveCity_ContestLobby_EventScript_UpdateMuseumPatrons
 # 239 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	call LilycoveCity_ContestLobby_EventScript_SetPaintingFlag
@@ -492,15 +539,23 @@ LilycoveCity_ContestLobby_EventScript_ConfirmDontTakePaintingLink::
 	msgbox LilycoveCity_ContestLobby_Text_FineThatsTheWayItIs, MSGBOX_DEFAULT
 # 247 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 248 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement LOCALID_ARTIST_LINK, LilycoveCity_ContestLobby_Movement_LinkArtistExit
 # 249 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	applymovement LOCALID_CONTEST_LOBBY_LINK_ARTIST, LilycoveCity_ContestLobby_Movement_LinkArtistExit
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 250 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	setvar VAR_LILYCOVE_CONTEST_LOBBY_STATE, 0
+<<<<<<< HEAD
 # 251 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	removeobject LOCALID_ARTIST_LINK
 # 252 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	removeobject LOCALID_CONTEST_LOBBY_LINK_ARTIST
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	releaseall
 # 253 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	end
@@ -514,12 +569,17 @@ LilycoveCity_ContestLobby_EventScript_ReceivedLinkArtistRibbon::
 	setflag FLAG_SYS_RIBBON_GET
 # 258 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	special BufferContestWinnerMonName
+<<<<<<< HEAD
 # 259 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement LOCALID_ARTIST_LINK, LilycoveCity_ContestLobby_Movement_LinkArtistBeginExit
 # 260 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	applymovement LOCALID_CONTEST_LOBBY_LINK_ARTIST, LilycoveCity_ContestLobby_Movement_LinkArtistBeginExit
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 261 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	playse SE_PIN
+<<<<<<< HEAD
 # 262 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement LOCALID_ARTIST_LINK, Common_Movement_ExclamationMark
 # 263 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -527,6 +587,11 @@ LilycoveCity_ContestLobby_EventScript_ReceivedLinkArtistRibbon::
 # 264 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement LOCALID_ARTIST_LINK, LilycoveCity_ContestLobby_Movement_LinkArtistReturnToPlayer
 # 265 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	applymovement LOCALID_CONTEST_LOBBY_LINK_ARTIST, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_CONTEST_LOBBY_LINK_ARTIST, LilycoveCity_ContestLobby_Movement_LinkArtistReturnToPlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 266 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	msgbox LilycoveCity_ContestLobby_Text_TakeMementoOfPainting, MSGBOX_DEFAULT
@@ -814,9 +879,13 @@ LilycoveCity_ContestLobby_EventScript_WarpToToughContestHall::
 LilycoveCity_ContestLobby_EventScript_LeadToContestHall::
 # 408 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 409 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement LOCALID_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_ReceptionistApproachCounter
 # 410 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	applymovement LOCALID_CONTEST_LOBBY_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_ReceptionistApproachCounter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 411 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	playse SE_BRIDGE_WALK
@@ -826,9 +895,13 @@ LilycoveCity_ContestLobby_EventScript_LeadToContestHall::
 	setmetatile 12, 3, METATILE_Contest_FloorShadow, TRUE
 # 414 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	special DrawWholeMapView
+<<<<<<< HEAD
 # 415 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement LOCALID_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_ReceptionistExitCounter
 # 416 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	applymovement LOCALID_CONTEST_LOBBY_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_ReceptionistExitCounter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 417 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	playse SE_BRIDGE_WALK
@@ -840,6 +913,7 @@ LilycoveCity_ContestLobby_EventScript_LeadToContestHall::
 	special DrawWholeMapView
 # 421 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	delay 20
+<<<<<<< HEAD
 # 422 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement LOCALID_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_ReceptionistFacePlayer
 # 423 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -847,16 +921,26 @@ LilycoveCity_ContestLobby_EventScript_LeadToContestHall::
 # 424 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, LilycoveCity_ContestLobby_Movement_PlayerApproachReceptionist
 # 425 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	applymovement LOCALID_CONTEST_LOBBY_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_ReceptionistFacePlayer
+	waitmovement 0
+	applymovement LOCALID_PLAYER, LilycoveCity_ContestLobby_Movement_PlayerApproachReceptionist
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 426 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	msgbox LilycoveCity_ContestLobby_Text_ComeThroughHere, MSGBOX_DEFAULT
 # 427 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 428 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement LOCALID_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_ReceptionistWalkToContestHall
 # 429 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, LilycoveCity_ContestLobby_Movement_PlayerWalkToContestHall
 # 430 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	applymovement LOCALID_CONTEST_LOBBY_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_ReceptionistWalkToContestHall
+	applymovement LOCALID_PLAYER, LilycoveCity_ContestLobby_Movement_PlayerWalkToContestHall
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 431 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	releaseall
@@ -1796,9 +1880,13 @@ LilycoveCity_ContestLobby_EventScript_LeadToLinkContestHall::
 	delay 20
 # 899 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 900 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement LOCALID_LINK_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_LinkReceptionistApproachCounter
 # 901 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	applymovement LOCALID_CONTEST_LOBBY_LINK_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_LinkReceptionistApproachCounter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 902 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	playse SE_BRIDGE_WALK
@@ -1808,9 +1896,13 @@ LilycoveCity_ContestLobby_EventScript_LeadToLinkContestHall::
 	setmetatile 17, 3, METATILE_Contest_FloorShadow, TRUE
 # 905 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	special DrawWholeMapView
+<<<<<<< HEAD
 # 906 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement LOCALID_LINK_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_LinkReceptionistExitCounter
 # 907 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	applymovement LOCALID_CONTEST_LOBBY_LINK_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_LinkReceptionistExitCounter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 908 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	playse SE_BRIDGE_WALK
@@ -1822,6 +1914,7 @@ LilycoveCity_ContestLobby_EventScript_LeadToLinkContestHall::
 	special DrawWholeMapView
 # 912 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	delay 20
+<<<<<<< HEAD
 # 913 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement LOCALID_LINK_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_LinkReceptionistFacePlayer
 # 914 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
@@ -1829,6 +1922,11 @@ LilycoveCity_ContestLobby_EventScript_LeadToLinkContestHall::
 # 915 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, LilycoveCity_ContestLobby_Movement_PlayerApproachLinkReceptionist
 # 916 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	applymovement LOCALID_CONTEST_LOBBY_LINK_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_LinkReceptionistFacePlayer
+	waitmovement 0
+	applymovement LOCALID_PLAYER, LilycoveCity_ContestLobby_Movement_PlayerApproachLinkReceptionist
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 917 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	messageautoscroll LilycoveCity_ContestLobby_Text_ComeThroughHere
@@ -1840,11 +1938,16 @@ LilycoveCity_ContestLobby_EventScript_LeadToLinkContestHall::
 	closemessage
 # 921 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	call LilycoveCity_ContestLobby_EventScript_DelayIfContestWithRSPlayer
+<<<<<<< HEAD
 # 922 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement LOCALID_LINK_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_LinkReceptionistWalkToContestHall
 # 923 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, LilycoveCity_ContestLobby_Movement_PlayerWalkToLinkContestHall
 # 924 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+=======
+	applymovement LOCALID_CONTEST_LOBBY_LINK_RECEPTIONIST, LilycoveCity_ContestLobby_Movement_LinkReceptionistWalkToContestHall
+	applymovement LOCALID_PLAYER, LilycoveCity_ContestLobby_Movement_PlayerWalkToLinkContestHall
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 925 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	release

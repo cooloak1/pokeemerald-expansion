@@ -1,17 +1,1 @@
 mapscripts JubilifeCity_Condo2_1F_MapScripts {}
-
-script JubilifeCity_Condo2_1F_EventScript_Pikachu {
-
-}
-
-script JubilifeCity_Condo2_1F_EventScript_Pachirisu {
-
-}
-
-script JubilifeCity_Condo2_1F_EventScript_Poketch {
-
-}
-
-script JubilifeCity_Condo2_1F_EventScript_QuickClaw {
-    
-}

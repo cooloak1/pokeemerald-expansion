@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/FallarborTown_MoveRelearnersHouse/scripts.pory"
 
 # 2 "data/maps/FallarborTown_MoveRelearnersHouse/scripts.pory"
@@ -5,6 +6,8 @@
 # 3 "data/maps/FallarborTown_MoveRelearnersHouse/scripts.pory"
 
 # 4 "data/maps/FallarborTown_MoveRelearnersHouse/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 FallarborTown_MoveRelearnersHouse_MapScripts::
 # 5 "data/maps/FallarborTown_MoveRelearnersHouse/scripts.pory"
 	.byte 0

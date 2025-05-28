@@ -138,9 +138,13 @@ SootopolisCity_Gym_1F_EventScript_FallThroughIce::
 	lockall
 # 70 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	delay 20
+<<<<<<< HEAD
 # 71 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_Gym_1F_Movement_FallThroughIce
 # 72 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, SootopolisCity_Gym_1F_Movement_FallThroughIce
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 73 "data/maps/SootopolisCity_Gym_1F/scripts.pory"
 	playse SE_FALL

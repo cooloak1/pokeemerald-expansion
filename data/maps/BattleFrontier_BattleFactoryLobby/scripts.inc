@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 
 # 2 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
@@ -7,6 +8,8 @@
 # 4 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 
 # 5 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 BattleFrontier_BattleFactoryLobby_MapScripts::
 # 6 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleFactoryLobby_OnFrame
@@ -28,9 +31,13 @@ BattleFrontier_BattleFactoryLobby_OnWarp:
 BattleFrontier_BattleFactoryLobby_EventScript_TurnPlayerNorth::
 # 15 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	setvar VAR_TEMP_1, 1
+<<<<<<< HEAD
 # 16 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 # 17 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	turnobject LOCALID_PLAYER, DIR_NORTH
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 18 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 
@@ -348,9 +355,13 @@ BattleFrontier_BattleFactoryLobby_EventScript_EnterChallenge::
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_DOUBLES, BattleFrontier_BattleFactoryLobby_EventScript_TalkedToDoublesAttendant
 # 175 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	applymovement VAR_LAST_TALKED, BattleFrontier_BattleFactoryLobby_Movement_AttendantEnterDoor
+<<<<<<< HEAD
 # 176 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattleFactoryLobby_Movement_PlayerEnterDoor
 # 177 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleFactoryLobby_Movement_PlayerEnterDoor
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 178 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	warp MAP_BATTLE_FRONTIER_BATTLE_FACTORY_PRE_BATTLE_ROOM, 8, 13
@@ -364,17 +375,25 @@ BattleFrontier_BattleFactoryLobby_EventScript_EnterChallenge::
 
 # 183 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 BattleFrontier_BattleFactoryLobby_EventScript_TalkedToSinglesAttendant::
+<<<<<<< HEAD
 # 184 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	setvar VAR_LAST_TALKED, LOCALID_ATTENDANT_SINGLES
 # 185 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	setvar VAR_LAST_TALKED, LOCALID_FACTORY_ATTENDANT_SINGLES
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 186 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 
 # 187 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 BattleFrontier_BattleFactoryLobby_EventScript_TalkedToDoublesAttendant::
+<<<<<<< HEAD
 # 188 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 	setvar VAR_LAST_TALKED, LOCALID_ATTENDANT_DOUBLES
 # 189 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
+=======
+	setvar VAR_LAST_TALKED, LOCALID_FACTORY_ATTENDANT_DOUBLES
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 190 "data/maps/BattleFrontier_BattleFactoryLobby/scripts.pory"
 

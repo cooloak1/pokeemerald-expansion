@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 
 # 2 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
@@ -7,6 +8,8 @@
 # 4 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 
 # 5 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 BattleFrontier_BattlePalaceLobby_MapScripts::
 # 6 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePalaceLobby_OnFrame
@@ -28,9 +31,13 @@ BattleFrontier_BattlePalaceLobby_OnWarp:
 BattleFrontier_BattlePalaceLobby_EventScript_TurnPlayerNorth::
 # 15 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	setvar VAR_TEMP_1, 1
+<<<<<<< HEAD
 # 16 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 # 17 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	turnobject LOCALID_PLAYER, DIR_NORTH
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 18 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 
@@ -492,9 +499,13 @@ BattleFrontier_BattlePalaceLobby_EventScript_WalkToDoor::
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_DOUBLES, BattleFrontier_BattlePalaceLobby_EventScript_TalkedToDoublesAttendant
 # 247 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	applymovement VAR_LAST_TALKED, BattleFrontier_BattlePalaceLobby_Movement_WalkToDoor
+<<<<<<< HEAD
 # 248 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattlePalaceLobby_Movement_WalkToDoor
 # 249 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, BattleFrontier_BattlePalaceLobby_Movement_WalkToDoor
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 250 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_SINGLES, BattleFrontier_BattlePalaceLobby_EventScript_OpenSinglesHallDoor
@@ -504,9 +515,13 @@ BattleFrontier_BattlePalaceLobby_EventScript_WalkToDoor::
 	waitdooranim
 # 253 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	applymovement VAR_LAST_TALKED, BattleFrontier_BattlePalaceLobby_Movement_AttendantEnterDoor
+<<<<<<< HEAD
 # 254 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattlePalaceLobby_Movement_PlayerEnterDoor
 # 255 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, BattleFrontier_BattlePalaceLobby_Movement_PlayerEnterDoor
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 256 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_SINGLES, BattleFrontier_BattlePalaceLobby_EventScript_CloseSinglesHallDoor
@@ -520,17 +535,25 @@ BattleFrontier_BattlePalaceLobby_EventScript_WalkToDoor::
 
 # 261 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_EventScript_TalkedToSinglesAttendant::
+<<<<<<< HEAD
 # 262 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	setvar VAR_LAST_TALKED, LOCALID_ATTENDANT_SINGLES
 # 263 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	setvar VAR_LAST_TALKED, LOCALID_PALACE_ATTENDANT_SINGLES
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 264 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 
 # 265 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_EventScript_TalkedToDoublesAttendant::
+<<<<<<< HEAD
 # 266 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	setvar VAR_LAST_TALKED, LOCALID_ATTENDANT_DOUBLES
 # 267 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+=======
+	setvar VAR_LAST_TALKED, LOCALID_PALACE_ATTENDANT_DOUBLES
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 268 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 

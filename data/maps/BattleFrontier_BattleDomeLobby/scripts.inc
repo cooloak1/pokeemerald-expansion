@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 
 # 2 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
@@ -7,6 +8,8 @@
 # 4 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 
 # 5 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 BattleFrontier_BattleDomeLobby_MapScripts::
 # 6 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_BattleDomeLobby_OnResume
@@ -38,9 +41,13 @@ BattleFrontier_BattleDomeLobby_OnWarp:
 BattleFrontier_BattleDomeLobby_EventScript_TurnPlayerNorth::
 # 20 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 	setvar VAR_TEMP_1, 1
+<<<<<<< HEAD
 # 21 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 # 22 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
+=======
+	turnobject LOCALID_PLAYER, DIR_NORTH
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 23 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 
@@ -474,9 +481,13 @@ BattleFrontier_BattleDomeLobby_EventScript_WalkToDoor::
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_SINGLES, BattleFrontier_BattleDomeLobby_EventScript_SinglesAttendantWalkToDoor
 # 238 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_DOUBLES, BattleFrontier_BattleDomeLobby_EventScript_DoublesAttendantWalkToDoor
+<<<<<<< HEAD
 # 239 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattleDomeLobby_Movement_WalkToDoor
 # 240 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomeLobby_Movement_WalkToDoor
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 241 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_SINGLES, BattleFrontier_BattleDomeLobby_EventScript_OpenSinglesDoor
@@ -488,9 +499,13 @@ BattleFrontier_BattleDomeLobby_EventScript_WalkToDoor::
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_SINGLES, BattleFrontier_BattleDomeLobby_EventScript_SinglesAttendantEnterDoor
 # 245 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_DOUBLES, BattleFrontier_BattleDomeLobby_EventScript_DoublesAttendantEnterDoor
+<<<<<<< HEAD
 # 246 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattleDomeLobby_Movement_PlayerEnterDoor
 # 247 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomeLobby_Movement_PlayerEnterDoor
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 248 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_SINGLES, BattleFrontier_BattleDomeLobby_EventScript_CloseSinglesDoor
@@ -504,33 +519,49 @@ BattleFrontier_BattleDomeLobby_EventScript_WalkToDoor::
 
 # 253 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 BattleFrontier_BattleDomeLobby_EventScript_SinglesAttendantWalkToDoor::
+<<<<<<< HEAD
 # 254 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 	applymovement LOCALID_ATTENDANT_SINGLES, BattleFrontier_BattleDomeLobby_Movement_WalkToDoor
 # 255 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
+=======
+	applymovement LOCALID_DOME_ATTENDANT_SINGLES, BattleFrontier_BattleDomeLobby_Movement_WalkToDoor
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 256 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 
 # 257 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 BattleFrontier_BattleDomeLobby_EventScript_DoublesAttendantWalkToDoor::
+<<<<<<< HEAD
 # 258 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 	applymovement LOCALID_ATTENDANT_DOUBLES, BattleFrontier_BattleDomeLobby_Movement_WalkToDoor
 # 259 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
+=======
+	applymovement LOCALID_DOME_ATTENDANT_DOUBLES, BattleFrontier_BattleDomeLobby_Movement_WalkToDoor
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 260 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 
 # 261 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 BattleFrontier_BattleDomeLobby_EventScript_SinglesAttendantEnterDoor::
+<<<<<<< HEAD
 # 262 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 	applymovement LOCALID_ATTENDANT_SINGLES, BattleFrontier_BattleDomeLobby_Movement_AttendantEnterDoor
 # 263 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
+=======
+	applymovement LOCALID_DOME_ATTENDANT_SINGLES, BattleFrontier_BattleDomeLobby_Movement_AttendantEnterDoor
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 264 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 
 # 265 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 BattleFrontier_BattleDomeLobby_EventScript_DoublesAttendantEnterDoor::
+<<<<<<< HEAD
 # 266 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 	applymovement LOCALID_ATTENDANT_DOUBLES, BattleFrontier_BattleDomeLobby_Movement_AttendantEnterDoor
 # 267 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
+=======
+	applymovement LOCALID_DOME_ATTENDANT_DOUBLES, BattleFrontier_BattleDomeLobby_Movement_AttendantEnterDoor
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 268 "data/maps/BattleFrontier_BattleDomeLobby/scripts.pory"
 

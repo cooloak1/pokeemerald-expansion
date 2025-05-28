@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/SSTidalCorridor/scripts.pory"
 
 # 2 "data/maps/SSTidalCorridor/scripts.pory"
@@ -7,6 +8,8 @@
 # 4 "data/maps/SSTidalCorridor/scripts.pory"
 
 # 5 "data/maps/SSTidalCorridor/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 SSTidalCorridor_MapScripts::
 # 6 "data/maps/SSTidalCorridor/scripts.pory"
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, SSTidalCorridor_OnFrame
@@ -380,6 +383,7 @@ SSTidalCorridor_EventScript_TrainerNotDefeated::
 SSTidalCorridor_EventScript_ScottScene::
 # 191 "data/maps/SSTidalCorridor/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 192 "data/maps/SSTidalCorridor/scripts.pory"
 	applymovement LOCALID_SCOTT, SSTidalCorridor_Movement_ScottApproachPlayer
 # 193 "data/maps/SSTidalCorridor/scripts.pory"
@@ -387,11 +391,17 @@ SSTidalCorridor_EventScript_ScottScene::
 # 194 "data/maps/SSTidalCorridor/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 # 195 "data/maps/SSTidalCorridor/scripts.pory"
+=======
+	applymovement LOCALID_SS_TIDAL_SCOTT, SSTidalCorridor_Movement_ScottApproachPlayer
+	waitmovement 0
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 196 "data/maps/SSTidalCorridor/scripts.pory"
 	msgbox SSTidalCorridor_Text_ScottBattleFrontierInvite, MSGBOX_DEFAULT
 # 197 "data/maps/SSTidalCorridor/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 198 "data/maps/SSTidalCorridor/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, SSTidalCorridor_Movement_PlayerWatchScottExit
 # 199 "data/maps/SSTidalCorridor/scripts.pory"
@@ -399,16 +409,26 @@ SSTidalCorridor_EventScript_ScottScene::
 # 200 "data/maps/SSTidalCorridor/scripts.pory"
 	applymovement LOCALID_SCOTT, SSTidalCorridor_Movement_ScottExit
 # 201 "data/maps/SSTidalCorridor/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, SSTidalCorridor_Movement_PlayerWatchScottExit
+	applymovement LOCALID_SS_TIDAL_EXIT_SAILOR, SSTidalCorridor_Movement_SailorMoveForScott
+	applymovement LOCALID_SS_TIDAL_SCOTT, SSTidalCorridor_Movement_ScottExit
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 202 "data/maps/SSTidalCorridor/scripts.pory"
 	playse SE_EXIT
 # 203 "data/maps/SSTidalCorridor/scripts.pory"
 	waitse
+<<<<<<< HEAD
 # 204 "data/maps/SSTidalCorridor/scripts.pory"
 	removeobject LOCALID_SCOTT
 # 205 "data/maps/SSTidalCorridor/scripts.pory"
 	applymovement LOCALID_SAILOR, SSTidalCorridor_Movement_SailorReturn
 # 206 "data/maps/SSTidalCorridor/scripts.pory"
+=======
+	removeobject LOCALID_SS_TIDAL_SCOTT
+	applymovement LOCALID_SS_TIDAL_EXIT_SAILOR, SSTidalCorridor_Movement_SailorReturn
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 207 "data/maps/SSTidalCorridor/scripts.pory"
 	delay 30

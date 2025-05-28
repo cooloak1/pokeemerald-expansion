@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 
 # 2 "data/maps/Route110_TrickHouseEnd/scripts.pory"
@@ -5,6 +6,8 @@
 # 3 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 
 # 4 "data/maps/Route110_TrickHouseEnd/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 Route110_TrickHouseEnd_MapScripts::
 # 5 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	map_script MAP_SCRIPT_ON_RESUME, Route110_TrickHouseEnd_OnResume
@@ -48,6 +51,7 @@ Route110_TrickHouseEnd_OnWarp:
 
 # 25 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 Route110_TrickHouseEnd_EventScript_SetTrickMasterPos::
+<<<<<<< HEAD
 # 26 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	addobject LOCALID_TRICK_MASTER
 # 27 "data/maps/Route110_TrickHouseEnd/scripts.pory"
@@ -55,6 +59,11 @@ Route110_TrickHouseEnd_EventScript_SetTrickMasterPos::
 # 28 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	turnobject LOCALID_TRICK_MASTER, DIR_EAST
 # 29 "data/maps/Route110_TrickHouseEnd/scripts.pory"
+=======
+	addobject LOCALID_TRICK_MASTER_END
+	showobjectat LOCALID_TRICK_MASTER_END, MAP_ROUTE110_TRICK_HOUSE_END
+	turnobject LOCALID_TRICK_MASTER_END, DIR_EAST
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 30 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 
@@ -306,9 +315,13 @@ Route110_TrickHouseEnd_EventScript_CompletedPuzzle8::
 	msgbox Route110_TrickHouseEnd_Text_FountainOfIdeasRunDry, MSGBOX_DEFAULT
 # 154 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 155 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	applymovement LOCALID_TRICK_MASTER, Common_Movement_FacePlayer
 # 156 "data/maps/Route110_TrickHouseEnd/scripts.pory"
+=======
+	applymovement LOCALID_TRICK_MASTER_END, Common_Movement_FacePlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 157 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	delay 30
@@ -362,12 +375,17 @@ Route110_TrickHouseEnd_EventScript_GiveBlueTent::
 
 # 182 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 Route110_TrickHouseEnd_EventScript_TrickMasterExit::
+<<<<<<< HEAD
 # 183 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	applymovement LOCALID_TRICK_MASTER, Route110_TrickHouse_Movement_TrickMasterSpin
 # 184 "data/maps/Route110_TrickHouseEnd/scripts.pory"
+=======
+	applymovement LOCALID_TRICK_MASTER_END, Route110_TrickHouse_Movement_TrickMasterSpin
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 185 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	playse SE_M_EXPLOSION
+<<<<<<< HEAD
 # 186 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	applymovement LOCALID_TRICK_MASTER, Route110_TrickHouse_Movement_TrickMasterJumpAway
 # 187 "data/maps/Route110_TrickHouseEnd/scripts.pory"
@@ -375,6 +393,11 @@ Route110_TrickHouseEnd_EventScript_TrickMasterExit::
 # 188 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	removeobject LOCALID_TRICK_MASTER
 # 189 "data/maps/Route110_TrickHouseEnd/scripts.pory"
+=======
+	applymovement LOCALID_TRICK_MASTER_END, Route110_TrickHouse_Movement_TrickMasterJumpAway
+	waitmovement 0
+	removeobject LOCALID_TRICK_MASTER_END
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	addvar VAR_TRICK_HOUSE_LEVEL, 1
 # 190 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	return
@@ -406,9 +429,13 @@ Route110_TrickHouseEnd_EventScript_NoRoomForTent::
 
 # 204 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 Route110_TrickHouseEnd_EventScript_TrickMasterFaceAwaySouth::
+<<<<<<< HEAD
 # 205 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	applymovement LOCALID_TRICK_MASTER, Common_Movement_WalkInPlaceFasterDown
 # 206 "data/maps/Route110_TrickHouseEnd/scripts.pory"
+=======
+	applymovement LOCALID_TRICK_MASTER_END, Common_Movement_WalkInPlaceFasterDown
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 207 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	return
@@ -416,9 +443,13 @@ Route110_TrickHouseEnd_EventScript_TrickMasterFaceAwaySouth::
 
 # 209 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 Route110_TrickHouseEnd_EventScript_TrickMasterFaceAwayNorth::
+<<<<<<< HEAD
 # 210 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	applymovement LOCALID_TRICK_MASTER, Common_Movement_WalkInPlaceFasterUp
 # 211 "data/maps/Route110_TrickHouseEnd/scripts.pory"
+=======
+	applymovement LOCALID_TRICK_MASTER_END, Common_Movement_WalkInPlaceFasterUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 212 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	return
@@ -426,9 +457,13 @@ Route110_TrickHouseEnd_EventScript_TrickMasterFaceAwayNorth::
 
 # 214 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 Route110_TrickHouseEnd_EventScript_TrickMasterFaceAwayWest::
+<<<<<<< HEAD
 # 215 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	applymovement LOCALID_TRICK_MASTER, Common_Movement_WalkInPlaceFasterLeft
 # 216 "data/maps/Route110_TrickHouseEnd/scripts.pory"
+=======
+	applymovement LOCALID_TRICK_MASTER_END, Common_Movement_WalkInPlaceFasterLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 217 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	return
@@ -436,9 +471,13 @@ Route110_TrickHouseEnd_EventScript_TrickMasterFaceAwayWest::
 
 # 219 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 Route110_TrickHouseEnd_EventScript_TrickMasterFaceAwayEast::
+<<<<<<< HEAD
 # 220 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	applymovement LOCALID_TRICK_MASTER, Common_Movement_WalkInPlaceFasterRight
 # 221 "data/maps/Route110_TrickHouseEnd/scripts.pory"
+=======
+	applymovement LOCALID_TRICK_MASTER_END, Common_Movement_WalkInPlaceFasterRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 222 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	return
@@ -448,6 +487,7 @@ Route110_TrickHouseEnd_EventScript_TrickMasterFaceAwayEast::
 Route110_TrickHouseEnd_EventScript_TrickMasterExitTrigger::
 # 225 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 226 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	turnobject LOCALID_TRICK_MASTER, DIR_WEST
 # 227 "data/maps/Route110_TrickHouseEnd/scripts.pory"
@@ -455,32 +495,53 @@ Route110_TrickHouseEnd_EventScript_TrickMasterExitTrigger::
 # 228 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	applymovement LOCALID_TRICK_MASTER, Common_Movement_ExclamationMark
 # 229 "data/maps/Route110_TrickHouseEnd/scripts.pory"
+=======
+	turnobject LOCALID_TRICK_MASTER_END, DIR_WEST
+	playse SE_PIN
+	applymovement LOCALID_TRICK_MASTER_END, Common_Movement_ExclamationMark
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 230 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	delay 20
+<<<<<<< HEAD
 # 231 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	applymovement LOCALID_TRICK_MASTER, Route110_TrickHouseEnd_Movement_TrickMasterSurprise
 # 232 "data/maps/Route110_TrickHouseEnd/scripts.pory"
+=======
+	applymovement LOCALID_TRICK_MASTER_END, Route110_TrickHouseEnd_Movement_TrickMasterSurprise
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 233 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	playse SE_M_EXPLOSION
+<<<<<<< HEAD
 # 234 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 # 235 "data/maps/Route110_TrickHouseEnd/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 236 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	msgbox Route110_TrickHouseEnd_Text_YoureIgnoringMe, MSGBOX_DEFAULT
 # 237 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 238 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route110_TrickHouseEnd_Movement_KeepPlayerInRoom
 # 239 "data/maps/Route110_TrickHouseEnd/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route110_TrickHouseEnd_Movement_KeepPlayerInRoom
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 240 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	delay 4
+<<<<<<< HEAD
 # 241 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	turnobject LOCALID_TRICK_MASTER, DIR_EAST
 # 242 "data/maps/Route110_TrickHouseEnd/scripts.pory"
+=======
+	turnobject LOCALID_TRICK_MASTER_END, DIR_EAST
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	releaseall
 # 243 "data/maps/Route110_TrickHouseEnd/scripts.pory"
 	end

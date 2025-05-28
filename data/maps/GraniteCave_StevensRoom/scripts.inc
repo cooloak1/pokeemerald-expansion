@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 
 # 2 "data/maps/GraniteCave_StevensRoom/scripts.pory"
@@ -5,6 +6,8 @@
 # 3 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 
 # 4 "data/maps/GraniteCave_StevensRoom/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 GraniteCave_StevensRoom_MapScripts::
 # 5 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	.byte 0
@@ -62,9 +65,13 @@ GraniteCave_StevensRoom_EventScript_Steven::
 	call_if_eq VAR_FACING, DIR_EAST, GraniteCave_StevensRoom_EventScript_StevenExitWestEast
 # 32 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	playse SE_EXIT
+<<<<<<< HEAD
 # 33 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	removeobject LOCALID_STEVEN
 # 34 "data/maps/GraniteCave_StevensRoom/scripts.pory"
+=======
+	removeobject LOCALID_GRANITE_CAVE_STEVEN
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	release
 # 35 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	end
@@ -72,9 +79,13 @@ GraniteCave_StevensRoom_EventScript_Steven::
 
 # 37 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 GraniteCave_StevensRoom_EventScript_StevenExitNorth::
+<<<<<<< HEAD
 # 38 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	applymovement LOCALID_STEVEN, GraniteCave_StevensRoom_Movement_StevenExit
 # 39 "data/maps/GraniteCave_StevensRoom/scripts.pory"
+=======
+	applymovement LOCALID_GRANITE_CAVE_STEVEN, GraniteCave_StevensRoom_Movement_StevenExit
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 40 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	return
@@ -82,11 +93,16 @@ GraniteCave_StevensRoom_EventScript_StevenExitNorth::
 
 # 42 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 GraniteCave_StevensRoom_EventScript_StevenExitWestEast::
+<<<<<<< HEAD
 # 43 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, GraniteCave_StevensRoom_Movement_PlayerTurnTowardExit
 # 44 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	applymovement LOCALID_STEVEN, GraniteCave_StevensRoom_Movement_StevenExit
 # 45 "data/maps/GraniteCave_StevensRoom/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, GraniteCave_StevensRoom_Movement_PlayerTurnTowardExit
+	applymovement LOCALID_GRANITE_CAVE_STEVEN, GraniteCave_StevensRoom_Movement_StevenExit
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 46 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	return
@@ -94,11 +110,16 @@ GraniteCave_StevensRoom_EventScript_StevenExitWestEast::
 
 # 48 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 GraniteCave_StevensRoom_EventScript_StevenExitSouth::
+<<<<<<< HEAD
 # 49 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, GraniteCave_StevensRoom_Movement_PlayerTurnTowardExit
 # 50 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	applymovement LOCALID_STEVEN, GraniteCave_StevensRoom_Movement_StevenExitSouth
 # 51 "data/maps/GraniteCave_StevensRoom/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, GraniteCave_StevensRoom_Movement_PlayerTurnTowardExit
+	applymovement LOCALID_GRANITE_CAVE_STEVEN, GraniteCave_StevensRoom_Movement_StevenExitSouth
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 52 "data/maps/GraniteCave_StevensRoom/scripts.pory"
 	return

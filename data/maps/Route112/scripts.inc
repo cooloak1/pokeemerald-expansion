@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/Route112/scripts.pory"
 
 # 2 "data/maps/Route112/scripts.pory"
@@ -7,6 +8,8 @@
 # 4 "data/maps/Route112/scripts.pory"
 
 # 5 "data/maps/Route112/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 Route112_MapScripts::
 # 6 "data/maps/Route112/scripts.pory"
 	map_script MAP_SCRIPT_ON_TRANSITION, Route112_OnTransition
@@ -30,9 +33,13 @@ Route112_EventScript_MagmaGrunts::
 	lockall
 # 16 "data/maps/Route112/scripts.pory"
 	delay 40
+<<<<<<< HEAD
 # 17 "data/maps/Route112/scripts.pory"
 	applymovement LOCALID_GRUNT_1, Common_Movement_WalkInPlaceFasterRight
 # 18 "data/maps/Route112/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE112_GRUNT_1, Common_Movement_WalkInPlaceFasterRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 19 "data/maps/Route112/scripts.pory"
 	delay 20
@@ -40,15 +47,23 @@ Route112_EventScript_MagmaGrunts::
 	msgbox Route112_Text_LeaderGoingToAwakenThing, MSGBOX_DEFAULT
 # 21 "data/maps/Route112/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 22 "data/maps/Route112/scripts.pory"
 	applymovement LOCALID_GRUNT_1, Common_Movement_FaceOriginalDirection
 # 23 "data/maps/Route112/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE112_GRUNT_1, Common_Movement_FaceOriginalDirection
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 24 "data/maps/Route112/scripts.pory"
 	delay 40
+<<<<<<< HEAD
 # 25 "data/maps/Route112/scripts.pory"
 	applymovement LOCALID_GRUNT_2, Common_Movement_WalkInPlaceFasterLeft
 # 26 "data/maps/Route112/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE112_GRUNT_2, Common_Movement_WalkInPlaceFasterLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 27 "data/maps/Route112/scripts.pory"
 	delay 20
@@ -56,15 +71,23 @@ Route112_EventScript_MagmaGrunts::
 	msgbox Route112_Text_YeahWeNeedMeteorite, MSGBOX_DEFAULT
 # 29 "data/maps/Route112/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 30 "data/maps/Route112/scripts.pory"
 	applymovement LOCALID_GRUNT_2, Common_Movement_FaceOriginalDirection
 # 31 "data/maps/Route112/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE112_GRUNT_2, Common_Movement_FaceOriginalDirection
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 32 "data/maps/Route112/scripts.pory"
 	delay 40
+<<<<<<< HEAD
 # 33 "data/maps/Route112/scripts.pory"
 	applymovement LOCALID_GRUNT_1, Common_Movement_WalkInPlaceFasterRight
 # 34 "data/maps/Route112/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE112_GRUNT_1, Common_Movement_WalkInPlaceFasterRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 35 "data/maps/Route112/scripts.pory"
 	delay 20
@@ -72,15 +95,23 @@ Route112_EventScript_MagmaGrunts::
 	msgbox Route112_Text_OhThatsWhyCrewWentToFallarbor, MSGBOX_DEFAULT
 # 37 "data/maps/Route112/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 38 "data/maps/Route112/scripts.pory"
 	applymovement LOCALID_GRUNT_1, Common_Movement_FaceOriginalDirection
 # 39 "data/maps/Route112/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE112_GRUNT_1, Common_Movement_FaceOriginalDirection
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 40 "data/maps/Route112/scripts.pory"
 	delay 40
+<<<<<<< HEAD
 # 41 "data/maps/Route112/scripts.pory"
 	applymovement LOCALID_GRUNT_2, Common_Movement_WalkInPlaceFasterLeft
 # 42 "data/maps/Route112/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE112_GRUNT_2, Common_Movement_WalkInPlaceFasterLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 43 "data/maps/Route112/scripts.pory"
 	delay 20
@@ -88,9 +119,13 @@ Route112_EventScript_MagmaGrunts::
 	msgbox Route112_Text_CantLetAnyonePassUntilTheyreBack, MSGBOX_DEFAULT
 # 45 "data/maps/Route112/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 46 "data/maps/Route112/scripts.pory"
 	applymovement LOCALID_GRUNT_2, Common_Movement_FaceOriginalDirection
 # 47 "data/maps/Route112/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE112_GRUNT_2, Common_Movement_FaceOriginalDirection
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 48 "data/maps/Route112/scripts.pory"
 	releaseall

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 
 # 2 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
@@ -9,6 +10,12 @@
 # 5 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 .set LOCALID_PARTNER, 4
 # 6 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
+=======
+@ On this map the player will automatically walk into the room, but the camera is supposed to remain still.
+@ To do this GF sets the player (LOCALID_PLAYER) invisible and creates a fake player object (LOCALID_TOWER_MULTI_CORRIDOR_PLAYER).
+@ The graphics of this fake player object are represented with VAR_OBJ_GFX_ID_F.
+@ The graphics of the partner are represented with VAR_OBJ_GFX_ID_E, which will ultimately be set by tower_setpartnergfx.
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 
 # 7 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 BattleFrontier_BattleTowerMultiCorridor_MapScripts::
@@ -22,6 +29,7 @@ BattleFrontier_BattleTowerMultiCorridor_MapScripts::
 	.byte 0
 # 12 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 
+<<<<<<< HEAD
 # 13 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	@ On this map the player (OBJ_EVENT_ID_PLAYER) is hidden
 # 14 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
@@ -31,6 +39,8 @@ BattleFrontier_BattleTowerMultiCorridor_MapScripts::
 # 16 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 
 # 17 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 BattleFrontier_BattleTowerMultiCorridor_OnTransition:
 # 18 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_MULTIS, BattleFrontier_BattleTowerMultiCorridor_EventScript_SetObjGfx
@@ -80,6 +90,7 @@ BattleFrontier_BattleTowerMultiCorridor_OnWarp:
 
 # 41 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 BattleFrontier_BattleTowerMultiCorridor_EventScript_SetUpObjects::
+<<<<<<< HEAD
 # 42 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_CORRIDOR
 # 43 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
@@ -87,6 +98,11 @@ BattleFrontier_BattleTowerMultiCorridor_EventScript_SetUpObjects::
 # 44 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	hideobjectat LOCALID_PARTNER, MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_CORRIDOR
 # 45 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
+=======
+	hideobjectat LOCALID_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_CORRIDOR
+	hideobjectat LOCALID_TOWER_MULTI_CORRIDOR_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_CORRIDOR
+	hideobjectat LOCALID_TOWER_MULTI_CORRIDOR_PARTNER, MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_CORRIDOR
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	special OffsetCameraForBattle
 # 46 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	end
@@ -116,6 +132,7 @@ BattleFrontier_BattleTowerMultiCorridor_EventScript_EnterCorridor::
 	waitdooranim
 # 59 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	clearflag FLAG_ENABLE_MULTI_CORRIDOR_DOOR
+<<<<<<< HEAD
 # 60 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	showobjectat LOCALID_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_CORRIDOR
 # 61 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
@@ -125,6 +142,12 @@ BattleFrontier_BattleTowerMultiCorridor_EventScript_EnterCorridor::
 # 63 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	applymovement LOCALID_PARTNER, BattleFrontier_BattleTowerMultiCorridor_Movement_ExitElevator
 # 64 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
+=======
+	showobjectat LOCALID_TOWER_MULTI_CORRIDOR_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_CORRIDOR
+	showobjectat LOCALID_TOWER_MULTI_CORRIDOR_PARTNER, MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_CORRIDOR
+	applymovement LOCALID_TOWER_MULTI_CORRIDOR_PLAYER, BattleFrontier_BattleTowerMultiCorridor_Movement_ExitElevator
+	applymovement LOCALID_TOWER_MULTI_CORRIDOR_PARTNER, BattleFrontier_BattleTowerMultiCorridor_Movement_ExitElevator
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 65 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	setflag FLAG_ENABLE_MULTI_CORRIDOR_DOOR
@@ -138,6 +161,7 @@ BattleFrontier_BattleTowerMultiCorridor_EventScript_EnterCorridor::
 	waitdooranim
 # 70 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	clearflag FLAG_ENABLE_MULTI_CORRIDOR_DOOR
+<<<<<<< HEAD
 # 71 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	applymovement LOCALID_PLAYER, BattleFrontier_BattleTowerMultiCorridor_Movement_PlayerWalkToDoor
 # 72 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
@@ -147,19 +171,31 @@ BattleFrontier_BattleTowerMultiCorridor_EventScript_EnterCorridor::
 # 74 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	applymovement LOCALID_ATTENDANT_1, BattleFrontier_BattleTowerMultiCorridor_Movement_PartnerAttendantWalkToDoor
 # 75 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
+=======
+	applymovement LOCALID_TOWER_MULTI_CORRIDOR_PLAYER, BattleFrontier_BattleTowerMultiCorridor_Movement_PlayerWalkToDoor
+	applymovement LOCALID_TOWER_MULTI_CORRIDOR_PARTNER, BattleFrontier_BattleTowerMultiCorridor_Movement_PartnerWalkToDoor
+	applymovement LOCALID_TOWER_MULTI_CORRIDOR_ATTENDANT_2, BattleFrontier_BattleTowerMultiCorridor_Movement_PlayerAttendantWalkToDoor
+	applymovement LOCALID_TOWER_MULTI_CORRIDOR_ATTENDANT_1, BattleFrontier_BattleTowerMultiCorridor_Movement_PartnerAttendantWalkToDoor
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 76 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	delay 40
+<<<<<<< HEAD
 # 77 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	applymovement LOCALID_ATTENDANT_2, Common_Movement_WalkInPlaceFasterUp
 # 78 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	applymovement LOCALID_ATTENDANT_1, Common_Movement_WalkInPlaceFasterUp
 # 79 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
+=======
+	applymovement LOCALID_TOWER_MULTI_CORRIDOR_ATTENDANT_2, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_TOWER_MULTI_CORRIDOR_ATTENDANT_1, Common_Movement_WalkInPlaceFasterUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 80 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	opendoor 7, 1
 # 81 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	waitdooranim
+<<<<<<< HEAD
 # 82 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	applymovement LOCALID_ATTENDANT_2, BattleFrontier_BattleTowerMultiCorridor_Movement_AttendantEnterDoor
 # 83 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
@@ -169,6 +205,12 @@ BattleFrontier_BattleTowerMultiCorridor_EventScript_EnterCorridor::
 # 85 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	applymovement LOCALID_PARTNER, BattleFrontier_BattleTowerMultiCorridor_Movement_TrainerEnterDoor
 # 86 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
+=======
+	applymovement LOCALID_TOWER_MULTI_CORRIDOR_ATTENDANT_2, BattleFrontier_BattleTowerMultiCorridor_Movement_AttendantEnterDoor
+	applymovement LOCALID_TOWER_MULTI_CORRIDOR_ATTENDANT_1, BattleFrontier_BattleTowerMultiCorridor_Movement_AttendantEnterDoor
+	applymovement LOCALID_TOWER_MULTI_CORRIDOR_PLAYER, BattleFrontier_BattleTowerMultiCorridor_Movement_TrainerEnterDoor
+	applymovement LOCALID_TOWER_MULTI_CORRIDOR_PARTNER, BattleFrontier_BattleTowerMultiCorridor_Movement_TrainerEnterDoor
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 87 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	closedoor 7, 1

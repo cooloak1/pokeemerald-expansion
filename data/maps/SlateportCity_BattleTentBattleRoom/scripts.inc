@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
 
 # 2 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
@@ -5,6 +6,12 @@
 # 3 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
 .set LOCALID_PLAYER, 3
 # 4 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
+=======
+@ On this map the player will automatically walk into the room, but the camera is supposed to remain still.
+@ To do this GF sets the player (LOCALID_PLAYER) invisible and creates a fake player object (LOCALID_SLATEPORT_TENT_BATTLE_PLAYER).
+@ The graphics of this fake player object are represented with VAR_OBJ_GFX_ID_1.
+@ The graphics of the opponent are represented with VAR_OBJ_GFX_ID_0, which will ultimately be set by factory_setopponentgfx.
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 
 # 5 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
 SlateportCity_BattleTentBattleRoom_MapScripts::
@@ -18,6 +25,7 @@ SlateportCity_BattleTentBattleRoom_MapScripts::
 	.byte 0
 # 10 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
 
+<<<<<<< HEAD
 # 11 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
 	@ On this map the player (OBJ_EVENT_ID_PLAYER) is hidden
 # 12 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
@@ -25,6 +33,8 @@ SlateportCity_BattleTentBattleRoom_MapScripts::
 # 13 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
 
 # 14 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 SlateportCity_BattleTentBattleRoom_OnTransition:
 # 15 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
 	call SlateportCity_BattleTentBattleRoom_EventScript_SetPlayerGfx
@@ -72,11 +82,16 @@ SlateportCity_BattleTentBattleRoom_OnWarp:
 SlateportCity_BattleTentBattleRoom_EventScript_SetUpObjects::
 # 37 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
 	setvar VAR_TEMP_1, 1
+<<<<<<< HEAD
 # 38 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
 	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_FALLARBOR_TOWN_BATTLE_TENT_BATTLE_ROOM
 # 39 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
 	hideobjectat LOCALID_OPPONENT, MAP_SLATEPORT_CITY_BATTLE_TENT_BATTLE_ROOM
 # 40 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
+=======
+	hideobjectat LOCALID_PLAYER, MAP_FALLARBOR_TOWN_BATTLE_TENT_BATTLE_ROOM
+	hideobjectat LOCALID_SLATEPORT_TENT_BATTLE_OPPONENT, MAP_SLATEPORT_CITY_BATTLE_TENT_BATTLE_ROOM
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 41 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
 
@@ -90,12 +105,17 @@ SlateportCity_BattleTentBattleRoom_OnFrame:
 
 # 46 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
 SlateportCity_BattleTentBattleRoom_EventScript_EnterRoom::
+<<<<<<< HEAD
 # 47 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
 	applymovement LOCALID_PLAYER, SlateportCity_BattleTentBattleRoom_Movement_PlayerEnter
 # 48 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_SLATEPORT_TENT_BATTLE_PLAYER, SlateportCity_BattleTentBattleRoom_Movement_PlayerEnter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 49 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
 	factory_setopponentgfx
+<<<<<<< HEAD
 # 50 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
 	setobjectxyperm LOCALID_OPPONENT, 5, 1
 # 51 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
@@ -105,6 +125,13 @@ SlateportCity_BattleTentBattleRoom_EventScript_EnterRoom::
 # 53 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT, SlateportCity_BattleTentBattleRoom_Movement_OpponentEnter
 # 54 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
+=======
+	setobjectxyperm LOCALID_SLATEPORT_TENT_BATTLE_OPPONENT, 5, 1
+	removeobject LOCALID_SLATEPORT_TENT_BATTLE_OPPONENT
+	delay 1
+	addobject LOCALID_SLATEPORT_TENT_BATTLE_OPPONENT
+	applymovement LOCALID_SLATEPORT_TENT_BATTLE_OPPONENT, SlateportCity_BattleTentBattleRoom_Movement_OpponentEnter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 55 "data/maps/SlateportCity_BattleTentBattleRoom/scripts.pory"
 	battletent_getopponentintro

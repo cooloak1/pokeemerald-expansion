@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/PetalburgWoods/scripts.pory"
 
 # 2 "data/maps/PetalburgWoods/scripts.pory"
@@ -7,6 +8,8 @@
 # 4 "data/maps/PetalburgWoods/scripts.pory"
 
 # 5 "data/maps/PetalburgWoods/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 PetalburgWoods_MapScripts::
 # 6 "data/maps/PetalburgWoods/scripts.pory"
 	.byte 0
@@ -18,9 +21,13 @@ PetalburgWoods_EventScript_DevonResearcherLeft::
 	lockall
 # 10 "data/maps/PetalburgWoods/scripts.pory"
 	call PetalburgWoods_EventScript_DevonResearcherIntro
+<<<<<<< HEAD
 # 11 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement LOCALID_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherApproachPlayerLeft
 # 12 "data/maps/PetalburgWoods/scripts.pory"
+=======
+	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherApproachPlayerLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 13 "data/maps/PetalburgWoods/scripts.pory"
 	msgbox PetalburgWoods_Text_HaveYouSeenShroomish, MSGBOX_DEFAULT
@@ -28,14 +35,19 @@ PetalburgWoods_EventScript_DevonResearcherLeft::
 	closemessage
 # 15 "data/maps/PetalburgWoods/scripts.pory"
 	playbgm MUS_ENCOUNTER_AQUA, FALSE
+<<<<<<< HEAD
 # 16 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement LOCALID_GRUNT, PetalburgWoods_Movement_AquaEntrance
 # 17 "data/maps/PetalburgWoods/scripts.pory"
+=======
+	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaEntrance
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 18 "data/maps/PetalburgWoods/scripts.pory"
 	msgbox PetalburgWoods_Text_IWasGoingToAmbushYou, MSGBOX_DEFAULT
 # 19 "data/maps/PetalburgWoods/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 20 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement LOCALID_GRUNT, PetalburgWoods_Movement_AquaApproachResearcherLeft
 # 21 "data/maps/PetalburgWoods/scripts.pory"
@@ -43,38 +55,60 @@ PetalburgWoods_EventScript_DevonResearcherLeft::
 # 22 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterUp
 # 23 "data/maps/PetalburgWoods/scripts.pory"
+=======
+	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaApproachResearcherLeft
+	waitmovement 0
+	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 24 "data/maps/PetalburgWoods/scripts.pory"
 	msgbox PetalburgWoods_Text_HandOverThosePapers, MSGBOX_DEFAULT
 # 25 "data/maps/PetalburgWoods/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 26 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement LOCALID_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherFleeToPlayerLeft
 # 27 "data/maps/PetalburgWoods/scripts.pory"
+=======
+	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherFleeToPlayerLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 28 "data/maps/PetalburgWoods/scripts.pory"
 	msgbox PetalburgWoods_Text_YouHaveToHelpMe, MSGBOX_DEFAULT
 # 29 "data/maps/PetalburgWoods/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 30 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement LOCALID_GRUNT, PetalburgWoods_Movement_AquaApproachPlayer
 # 31 "data/maps/PetalburgWoods/scripts.pory"
+=======
+	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaApproachPlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 32 "data/maps/PetalburgWoods/scripts.pory"
 	msgbox PetalburgWoods_Text_NoOneCrossesTeamAqua, MSGBOX_DEFAULT
 # 33 "data/maps/PetalburgWoods/scripts.pory"
 	trainerbattle_no_intro TRAINER_GRUNT_PETALBURG_WOODS, PetalburgWoods_Text_YoureKiddingMe
+<<<<<<< HEAD
 # 34 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement LOCALID_GRUNT, PetalburgWoods_Movement_AquaBackOff
 # 35 "data/maps/PetalburgWoods/scripts.pory"
+=======
+	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaBackOff
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 36 "data/maps/PetalburgWoods/scripts.pory"
 	call PetalburgWoods_EventScript_DevonResearcherPostBattle
+<<<<<<< HEAD
 # 37 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, PetalburgWoods_Movement_WatchResearcherLeave
 # 38 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement LOCALID_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherExitLeft
 # 39 "data/maps/PetalburgWoods/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, PetalburgWoods_Movement_WatchResearcherLeave
+	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherExitLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 40 "data/maps/PetalburgWoods/scripts.pory"
 	goto PetalburgWoods_EventScript_RemoveDevonResearcher
@@ -88,6 +122,7 @@ PetalburgWoods_EventScript_DevonResearcherRight::
 	lockall
 # 45 "data/maps/PetalburgWoods/scripts.pory"
 	call PetalburgWoods_EventScript_DevonResearcherIntro
+<<<<<<< HEAD
 # 46 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement LOCALID_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherApproachPlayerRight
 # 47 "data/maps/PetalburgWoods/scripts.pory"
@@ -95,6 +130,11 @@ PetalburgWoods_EventScript_DevonResearcherRight::
 # 48 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 # 49 "data/maps/PetalburgWoods/scripts.pory"
+=======
+	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherApproachPlayerRight
+	waitmovement 0
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 50 "data/maps/PetalburgWoods/scripts.pory"
 	msgbox PetalburgWoods_Text_HaveYouSeenShroomish, MSGBOX_DEFAULT
@@ -102,14 +142,19 @@ PetalburgWoods_EventScript_DevonResearcherRight::
 	closemessage
 # 52 "data/maps/PetalburgWoods/scripts.pory"
 	playbgm MUS_ENCOUNTER_AQUA, FALSE
+<<<<<<< HEAD
 # 53 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement LOCALID_GRUNT, PetalburgWoods_Movement_AquaEntrance
 # 54 "data/maps/PetalburgWoods/scripts.pory"
+=======
+	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaEntrance
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 55 "data/maps/PetalburgWoods/scripts.pory"
 	msgbox PetalburgWoods_Text_IWasGoingToAmbushYou, MSGBOX_DEFAULT
 # 56 "data/maps/PetalburgWoods/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 57 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement LOCALID_GRUNT, PetalburgWoods_Movement_AquaApproachResearcherRight
 # 58 "data/maps/PetalburgWoods/scripts.pory"
@@ -117,36 +162,58 @@ PetalburgWoods_EventScript_DevonResearcherRight::
 # 59 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement LOCALID_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterUp
 # 60 "data/maps/PetalburgWoods/scripts.pory"
+=======
+	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaApproachResearcherRight
+	waitmovement 0
+	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 61 "data/maps/PetalburgWoods/scripts.pory"
 	msgbox PetalburgWoods_Text_HandOverThosePapers, MSGBOX_DEFAULT
 # 62 "data/maps/PetalburgWoods/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 63 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement LOCALID_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherFleeToPlayerRight
 # 64 "data/maps/PetalburgWoods/scripts.pory"
+=======
+	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherFleeToPlayerRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 65 "data/maps/PetalburgWoods/scripts.pory"
 	msgbox PetalburgWoods_Text_YouHaveToHelpMe, MSGBOX_DEFAULT
+<<<<<<< HEAD
 # 66 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 # 67 "data/maps/PetalburgWoods/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 68 "data/maps/PetalburgWoods/scripts.pory"
 	msgbox PetalburgWoods_Text_NoOneCrossesTeamAqua, MSGBOX_DEFAULT
 # 69 "data/maps/PetalburgWoods/scripts.pory"
 	trainerbattle_no_intro TRAINER_GRUNT_PETALBURG_WOODS, PetalburgWoods_Text_YoureKiddingMe
+<<<<<<< HEAD
 # 70 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement LOCALID_GRUNT, PetalburgWoods_Movement_AquaBackOff
 # 71 "data/maps/PetalburgWoods/scripts.pory"
+=======
+	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaBackOff
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 72 "data/maps/PetalburgWoods/scripts.pory"
 	call PetalburgWoods_EventScript_DevonResearcherPostBattle
+<<<<<<< HEAD
 # 73 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, PetalburgWoods_Movement_WatchResearcherLeave
 # 74 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement LOCALID_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherExitRight
 # 75 "data/maps/PetalburgWoods/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, PetalburgWoods_Movement_WatchResearcherLeave
+	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherExitRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 76 "data/maps/PetalburgWoods/scripts.pory"
 	goto PetalburgWoods_EventScript_RemoveDevonResearcher
@@ -156,9 +223,13 @@ PetalburgWoods_EventScript_DevonResearcherRight::
 
 # 79 "data/maps/PetalburgWoods/scripts.pory"
 PetalburgWoods_EventScript_DevonResearcherIntro::
+<<<<<<< HEAD
 # 80 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement LOCALID_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherLookAround
 # 81 "data/maps/PetalburgWoods/scripts.pory"
+=======
+	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherLookAround
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 82 "data/maps/PetalburgWoods/scripts.pory"
 	msgbox PetalburgWoods_Text_NotAOneToBeFound, MSGBOX_DEFAULT
@@ -174,6 +245,7 @@ PetalburgWoods_EventScript_DevonResearcherPostBattle::
 	msgbox PetalburgWoods_Text_YouveGotSomeNerve, MSGBOX_DEFAULT
 # 88 "data/maps/PetalburgWoods/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 89 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement LOCALID_GRUNT, PetalburgWoods_Movement_AquaRunAway
 # 90 "data/maps/PetalburgWoods/scripts.pory"
@@ -183,6 +255,12 @@ PetalburgWoods_EventScript_DevonResearcherPostBattle::
 # 92 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 # 93 "data/maps/PetalburgWoods/scripts.pory"
+=======
+	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaRunAway
+	waitmovement 0
+	removeobject LOCALID_PETALBURG_WOODS_GRUNT
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 94 "data/maps/PetalburgWoods/scripts.pory"
 	msgbox PetalburgWoods_Text_ThatWasAwfullyClose, MSGBOX_DEFAULT
@@ -210,9 +288,13 @@ PetalburgWoods_EventScript_BagFull::
 PetalburgWoods_EventScript_DevonResearcherFinish::
 # 106 "data/maps/PetalburgWoods/scripts.pory"
 	msgbox PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro, MSGBOX_DEFAULT
+<<<<<<< HEAD
 # 107 "data/maps/PetalburgWoods/scripts.pory"
 	applymovement LOCALID_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherStartExit
 # 108 "data/maps/PetalburgWoods/scripts.pory"
+=======
+	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherStartExit
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 109 "data/maps/PetalburgWoods/scripts.pory"
 	msgbox PetalburgWoods_Text_ICantBeWastingTime, MSGBOX_DEFAULT
@@ -224,9 +306,13 @@ PetalburgWoods_EventScript_DevonResearcherFinish::
 
 # 113 "data/maps/PetalburgWoods/scripts.pory"
 PetalburgWoods_EventScript_RemoveDevonResearcher::
+<<<<<<< HEAD
 # 114 "data/maps/PetalburgWoods/scripts.pory"
 	removeobject LOCALID_DEVON_EMPLOYEE
 # 115 "data/maps/PetalburgWoods/scripts.pory"
+=======
+	removeobject LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	setvar VAR_PETALBURG_WOODS_STATE, 1
 # 116 "data/maps/PetalburgWoods/scripts.pory"
 	releaseall

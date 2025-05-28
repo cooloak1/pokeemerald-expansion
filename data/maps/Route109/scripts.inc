@@ -16,6 +16,7 @@ Route109_MapScripts::
 Route109_EventScript_StartDepartForDewford::
 # 9 "data/maps/Route109/scripts.pory"
 	call EventScript_BackupMrBrineyLocation
+<<<<<<< HEAD
 # 10 "data/maps/Route109/scripts.pory"
 	setobjectsubpriority LOCALID_BRINEY_R109, MAP_ROUTE109, 0
 # 11 "data/maps/Route109/scripts.pory"
@@ -27,6 +28,13 @@ Route109_EventScript_StartDepartForDewford::
 # 14 "data/maps/Route109/scripts.pory"
 	removeobject LOCALID_BRINEY_R109
 # 15 "data/maps/Route109/scripts.pory"
+=======
+	setobjectsubpriority LOCALID_ROUTE109_BRINEY, MAP_ROUTE109, 0
+	setobjectsubpriority LOCALID_PLAYER, MAP_ROUTE109, 0
+	applymovement LOCALID_ROUTE109_BRINEY, Route109_Movement_BrineyEnterBoat
+	waitmovement 0
+	removeobject LOCALID_ROUTE109_BRINEY
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	switch VAR_FACING
 # 16 "data/maps/Route109/scripts.pory"
 	case DIR_SOUTH, Route109_EventScript_EnterBoatSouth
@@ -40,9 +48,13 @@ Route109_EventScript_StartDepartForDewford::
 
 # 21 "data/maps/Route109/scripts.pory"
 Route109_EventScript_EnterBoatSouth::
+<<<<<<< HEAD
 # 22 "data/maps/Route109/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route109_Movement_PlayerEnterBoatSouth
 # 23 "data/maps/Route109/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route109_Movement_PlayerEnterBoatSouth
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 24 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_DoSailToDewford
@@ -52,9 +64,13 @@ Route109_EventScript_EnterBoatSouth::
 
 # 27 "data/maps/Route109/scripts.pory"
 Route109_EventScript_EnterBoatEast::
+<<<<<<< HEAD
 # 28 "data/maps/Route109/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route109_Movement_PlayerEnterBoatEast
 # 29 "data/maps/Route109/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route109_Movement_PlayerEnterBoatEast
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 30 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_DoSailToDewford
@@ -64,9 +80,13 @@ Route109_EventScript_EnterBoatEast::
 
 # 33 "data/maps/Route109/scripts.pory"
 Route109_EventScript_EnterBoatWest::
+<<<<<<< HEAD
 # 34 "data/maps/Route109/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route109_Movement_PlayerEnterBoatWest
 # 35 "data/maps/Route109/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route109_Movement_PlayerEnterBoatWest
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 36 "data/maps/Route109/scripts.pory"
 	goto Route109_EventScript_DoSailToDewford
@@ -76,6 +96,7 @@ Route109_EventScript_EnterBoatWest::
 
 # 39 "data/maps/Route109/scripts.pory"
 Route109_EventScript_DoSailToDewford::
+<<<<<<< HEAD
 # 40 "data/maps/Route109/scripts.pory"
 	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE109
 # 41 "data/maps/Route109/scripts.pory"
@@ -85,11 +106,18 @@ Route109_EventScript_DoSailToDewford::
 # 43 "data/maps/Route109/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route109_Movement_SailToDewford
 # 44 "data/maps/Route109/scripts.pory"
+=======
+	hideobjectat LOCALID_PLAYER, MAP_ROUTE109
+	call Common_EventScript_PlayBrineysBoatMusic
+	applymovement LOCALID_ROUTE109_BOAT, Route109_Movement_SailToDewford
+	applymovement LOCALID_PLAYER, Route109_Movement_SailToDewford
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 45 "data/maps/Route109/scripts.pory"
 	delay 50
 # 46 "data/maps/Route109/scripts.pory"
 	call Common_EventScript_StopBrineysBoatMusic
+<<<<<<< HEAD
 # 47 "data/maps/Route109/scripts.pory"
 	showobjectat OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN
 # 48 "data/maps/Route109/scripts.pory"
@@ -117,11 +145,27 @@ Route109_EventScript_DoSailToDewford::
 # 59 "data/maps/Route109/scripts.pory"
 	hideobjectat LOCALID_BOAT_R109, MAP_ROUTE109
 # 60 "data/maps/Route109/scripts.pory"
+=======
+	showobjectat LOCALID_PLAYER, MAP_DEWFORD_TOWN
+	applymovement LOCALID_PLAYER, Route109_Movement_PlayerExitBoat
+	waitmovement 0
+	addobject LOCALID_DEWFORD_BOAT
+	clearflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN
+	setobjectxyperm LOCALID_DEWFORD_BRINEY, 12, 8
+	addobject LOCALID_DEWFORD_BRINEY
+	setobjectsubpriority LOCALID_DEWFORD_BRINEY, MAP_DEWFORD_TOWN, 0
+	applymovement LOCALID_DEWFORD_BRINEY, Route109_Movement_BrineyExitBoat
+	waitmovement 0
+	clearflag FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN
+	setflag FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT
+	hideobjectat LOCALID_ROUTE109_BOAT, MAP_ROUTE109
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	msgbox DewfordTown_Text_BrineyLandedInDewford, MSGBOX_DEFAULT
 # 61 "data/maps/Route109/scripts.pory"
 	closemessage
 # 62 "data/maps/Route109/scripts.pory"
 	copyvar VAR_BRINEY_LOCATION, VAR_0x8008
+<<<<<<< HEAD
 # 63 "data/maps/Route109/scripts.pory"
 	resetobjectsubpriority OBJ_EVENT_ID_PLAYER, MAP_ROUTE109
 # 64 "data/maps/Route109/scripts.pory"
@@ -129,6 +173,11 @@ Route109_EventScript_DoSailToDewford::
 # 65 "data/maps/Route109/scripts.pory"
 	copyobjectxytoperm LOCALID_BRINEY_DEWFORD
 # 66 "data/maps/Route109/scripts.pory"
+=======
+	resetobjectsubpriority LOCALID_PLAYER, MAP_ROUTE109
+	resetobjectsubpriority LOCALID_DEWFORD_BRINEY, MAP_DEWFORD_TOWN
+	copyobjectxytoperm LOCALID_DEWFORD_BRINEY
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	release
 # 67 "data/maps/Route109/scripts.pory"
 	end

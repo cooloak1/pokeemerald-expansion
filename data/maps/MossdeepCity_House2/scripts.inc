@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/MossdeepCity_House2/scripts.pory"
 
 # 2 "data/maps/MossdeepCity_House2/scripts.pory"
@@ -5,6 +6,8 @@
 # 3 "data/maps/MossdeepCity_House2/scripts.pory"
 
 # 4 "data/maps/MossdeepCity_House2/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 MossdeepCity_House2_MapScripts::
 # 5 "data/maps/MossdeepCity_House2/scripts.pory"
 	.byte 0
@@ -50,9 +53,13 @@ MossdeepCity_House2_EventScript_Wingull::
 	call_if_eq VAR_FACING, DIR_NORTH, MossdeepCity_House2_EventScript_WingullExitNorth
 # 26 "data/maps/MossdeepCity_House2/scripts.pory"
 	call_if_eq VAR_FACING, DIR_WEST, MossdeepCity_House2_EventScript_WingullExitWest
+<<<<<<< HEAD
 # 27 "data/maps/MossdeepCity_House2/scripts.pory"
 	removeobject LOCALID_WINGULL
 # 28 "data/maps/MossdeepCity_House2/scripts.pory"
+=======
+	removeobject LOCALID_MOSSDEEP_HOUSE_WINGULL
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	release
 # 29 "data/maps/MossdeepCity_House2/scripts.pory"
 	end
@@ -60,9 +67,13 @@ MossdeepCity_House2_EventScript_Wingull::
 
 # 31 "data/maps/MossdeepCity_House2/scripts.pory"
 MossdeepCity_House2_EventScript_WingullExitNorth::
+<<<<<<< HEAD
 # 32 "data/maps/MossdeepCity_House2/scripts.pory"
 	applymovement LOCALID_WINGULL, MossdeepCity_House2_Movement_WingullExitNorth
 # 33 "data/maps/MossdeepCity_House2/scripts.pory"
+=======
+	applymovement LOCALID_MOSSDEEP_HOUSE_WINGULL, MossdeepCity_House2_Movement_WingullExitNorth
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 34 "data/maps/MossdeepCity_House2/scripts.pory"
 	return
@@ -70,9 +81,13 @@ MossdeepCity_House2_EventScript_WingullExitNorth::
 
 # 36 "data/maps/MossdeepCity_House2/scripts.pory"
 MossdeepCity_House2_EventScript_WingullExitWest::
+<<<<<<< HEAD
 # 37 "data/maps/MossdeepCity_House2/scripts.pory"
 	applymovement LOCALID_WINGULL, MossdeepCity_House2_Movement_WingullExitEast
 # 38 "data/maps/MossdeepCity_House2/scripts.pory"
+=======
+	applymovement LOCALID_MOSSDEEP_HOUSE_WINGULL, MossdeepCity_House2_Movement_WingullExitEast
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 39 "data/maps/MossdeepCity_House2/scripts.pory"
 	return

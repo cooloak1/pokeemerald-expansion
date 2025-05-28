@@ -56,9 +56,13 @@ BattleFrontier_BattlePikeRoomWildMons_OnWarp:
 BattleFrontier_BattlePikeRoomWildMons_EventScript_TurnPlayerNorth::
 # 29 "data/maps/BattleFrontier_BattlePikeRoomWildMons/scripts.pory"
 	setvar VAR_TEMP_4, 1
+<<<<<<< HEAD
 # 30 "data/maps/BattleFrontier_BattlePikeRoomWildMons/scripts.pory"
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 # 31 "data/maps/BattleFrontier_BattlePikeRoomWildMons/scripts.pory"
+=======
+	turnobject LOCALID_PLAYER, DIR_NORTH
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 32 "data/maps/BattleFrontier_BattlePikeRoomWildMons/scripts.pory"
 

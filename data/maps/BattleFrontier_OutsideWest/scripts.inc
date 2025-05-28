@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 
 # 2 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
@@ -19,6 +20,8 @@
 # 10 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 
 # 11 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 BattleFrontier_OutsideWest_MapScripts::
 # 12 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_OutsideWest_OnTransition
@@ -148,11 +151,16 @@ BattleFrontier_OutsideWest_EventScript_BoardFerry::
 	waitmovement 0
 # 75 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	delay 30
+<<<<<<< HEAD
 # 76 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	hideobjectat LOCALID_FERRY_ATTENDANT, MAP_BATTLE_FRONTIER_OUTSIDE_WEST
 # 77 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	setvar VAR_0x8004, LOCALID_SS_TIDAL
 # 78 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	hideobjectat LOCALID_FRONTIER_FERRY_ATTENDANT, MAP_BATTLE_FRONTIER_OUTSIDE_WEST
+	setvar VAR_0x8004, LOCALID_FRONTIER_SS_TIDAL
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	call Common_EventScript_FerryDepartIsland
 # 79 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	return
@@ -230,9 +238,13 @@ BattleFrontier_OutsideWest_EventScript_Fisherman2::
 	message BattleFrontier_OutsideWest_Text_GotSeasickOnWayHere
 # 116 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	waitmessage
+<<<<<<< HEAD
 # 117 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	applymovement LOCALID_FISHERMAN_2, Common_Movement_FaceAwayPlayer
 # 118 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	applymovement LOCALID_FRONTIER_FISHERMAN_2, Common_Movement_FaceAwayPlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 119 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	waitbuttonpress
@@ -272,15 +284,23 @@ BattleFrontier_OutsideWest_EventScript_Maniac2::
 
 # 137 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_EventScript_FactoryChallengersTalk::
+<<<<<<< HEAD
 # 138 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	applymovement LOCALID_MANIAC_1, Common_Movement_WalkInPlaceFasterRight
 # 139 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	applymovement LOCALID_FRONTIER_MANIAC_1, Common_Movement_WalkInPlaceFasterRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 140 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	msgbox BattleFrontier_OutsideWest_Text_SureWeCanChallengeWithNoMons, MSGBOX_DEFAULT
+<<<<<<< HEAD
 # 141 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	applymovement LOCALID_MANIAC_2, Common_Movement_WalkInPlaceFasterLeft
 # 142 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	applymovement LOCALID_FRONTIER_MANIAC_2, Common_Movement_WalkInPlaceFasterLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 143 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	msgbox BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons, MSGBOX_DEFAULT
@@ -288,11 +308,16 @@ BattleFrontier_OutsideWest_EventScript_FactoryChallengersTalk::
 	closemessage
 # 145 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	delay 25
+<<<<<<< HEAD
 # 146 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	applymovement LOCALID_MANIAC_1, Common_Movement_WalkInPlaceFasterUp
 # 147 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	applymovement LOCALID_MANIAC_2, Common_Movement_WalkInPlaceFasterUp
 # 148 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	applymovement LOCALID_FRONTIER_MANIAC_1, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_FRONTIER_MANIAC_2, Common_Movement_WalkInPlaceFasterUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 149 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	release
@@ -326,9 +351,13 @@ BattleFrontier_OutsideWest_EventScript_Camper::
 
 # 164 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_EventScript_CamperFaceFactory::
+<<<<<<< HEAD
 # 165 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	applymovement LOCALID_CAMPER, Common_Movement_WalkInPlaceFasterUp
 # 166 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	applymovement LOCALID_FRONTIER_CAMPER, Common_Movement_WalkInPlaceFasterUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 167 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	return
@@ -368,9 +397,13 @@ BattleFrontier_OutsideWest_EventScript_Girl::
 
 # 185 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_EventScript_GirlShudderNorth::
+<<<<<<< HEAD
 # 186 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	applymovement LOCALID_GIRL, BattleFrontier_OutsideWest_Movement_GirlShudderNorth
 # 187 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	applymovement LOCALID_FRONTIER_GIRL, BattleFrontier_OutsideWest_Movement_GirlShudderNorth
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 188 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	return
@@ -378,9 +411,13 @@ BattleFrontier_OutsideWest_EventScript_GirlShudderNorth::
 
 # 190 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_EventScript_GirlShudderSouth::
+<<<<<<< HEAD
 # 191 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	applymovement LOCALID_GIRL, BattleFrontier_OutsideWest_Movement_GirlShudderSouth
 # 192 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	applymovement LOCALID_FRONTIER_GIRL, BattleFrontier_OutsideWest_Movement_GirlShudderSouth
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 193 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	return
@@ -388,9 +425,13 @@ BattleFrontier_OutsideWest_EventScript_GirlShudderSouth::
 
 # 195 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_EventScript_GirlShudderWest::
+<<<<<<< HEAD
 # 196 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	applymovement LOCALID_GIRL, BattleFrontier_OutsideWest_Movement_GirlShudderWest
 # 197 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	applymovement LOCALID_FRONTIER_GIRL, BattleFrontier_OutsideWest_Movement_GirlShudderWest
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 198 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	return
@@ -398,9 +439,13 @@ BattleFrontier_OutsideWest_EventScript_GirlShudderWest::
 
 # 200 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 BattleFrontier_OutsideWest_EventScript_GirlShudderEast::
+<<<<<<< HEAD
 # 201 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	applymovement LOCALID_GIRL, BattleFrontier_OutsideWest_Movement_GirlShudderEast
 # 202 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	applymovement LOCALID_FRONTIER_GIRL, BattleFrontier_OutsideWest_Movement_GirlShudderEast
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 203 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	return
@@ -600,9 +645,13 @@ BattleFrontier_OutsideWest_EventScript_Man4::
 	msgbox BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers, MSGBOX_DEFAULT
 # 301 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 302 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	applymovement LOCALID_MAN_4, Common_Movement_FaceOriginalDirection
 # 303 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
+=======
+	applymovement LOCALID_FRONTIER_MAN_4, Common_Movement_FaceOriginalDirection
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 304 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	release

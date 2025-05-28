@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/LilycoveCity/scripts.pory"
 
 # 2 "data/maps/LilycoveCity/scripts.pory"
@@ -7,6 +8,8 @@
 # 4 "data/maps/LilycoveCity/scripts.pory"
 
 # 5 "data/maps/LilycoveCity/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 LilycoveCity_MapScripts::
 # 6 "data/maps/LilycoveCity/scripts.pory"
 	map_script MAP_SCRIPT_ON_TRANSITION, LilycoveCity_OnTransition
@@ -276,9 +279,13 @@ LilycoveCity_EventScript_Man1::
 	lockall
 # 139 "data/maps/LilycoveCity/scripts.pory"
 	msgbox LilycoveCity_Text_JustArrivedAndSawRarePokemon, MSGBOX_NPC
+<<<<<<< HEAD
 # 140 "data/maps/LilycoveCity/scripts.pory"
 	applymovement LOCALID_MAN_1, Common_Movement_FaceOriginalDirection
 # 141 "data/maps/LilycoveCity/scripts.pory"
+=======
+	applymovement LOCALID_LILYCOVE_MAN_1, Common_Movement_FaceOriginalDirection
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 142 "data/maps/LilycoveCity/scripts.pory"
 
@@ -288,9 +295,13 @@ LilycoveCity_EventScript_Woman1::
 	lockall
 # 145 "data/maps/LilycoveCity/scripts.pory"
 	msgbox LilycoveCity_Text_HoneymoonVowToSeeRarePokemon, MSGBOX_NPC
+<<<<<<< HEAD
 # 146 "data/maps/LilycoveCity/scripts.pory"
 	applymovement LOCALID_WOMAN_1, Common_Movement_FaceOriginalDirection
 # 147 "data/maps/LilycoveCity/scripts.pory"
+=======
+	applymovement LOCALID_LILYCOVE_WOMAN_1, Common_Movement_FaceOriginalDirection
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 148 "data/maps/LilycoveCity/scripts.pory"
 

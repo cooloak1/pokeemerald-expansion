@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 
 # 2 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
@@ -13,6 +14,13 @@
 # 7 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 .set LOCALID_PARTNER, 6
 # 8 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
+=======
+@ On this map the player will automatically walk into the room, but the camera is supposed to remain still.
+@ To do this GF sets the player (LOCALID_PLAYER) invisible and creates a fake player object (LOCALID_TOWER_MULTI_BATTLE_PLAYER).
+@ The graphics of this fake player object are represented with VAR_OBJ_GFX_ID_F.
+@ The graphics of the partner are represented with VAR_OBJ_GFX_ID_E, which will ultimately be set by tower_setpartnergfx.
+@ The graphics of the opponents are represented with VAR_OBJ_GFX_ID_0 and OBJ_EVENT_GFX_VAR_1, which will ultimately be set by tower_setopponent.
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 
 # 9 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiBattleRoom_MapScripts::
@@ -26,6 +34,7 @@ BattleFrontier_BattleTowerMultiBattleRoom_MapScripts::
 	.byte 0
 # 14 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 
+<<<<<<< HEAD
 # 15 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	@ On this map the player (OBJ_EVENT_ID_PLAYER) is hidden
 # 16 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
@@ -35,6 +44,8 @@ BattleFrontier_BattleTowerMultiBattleRoom_MapScripts::
 # 18 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 
 # 19 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 BattleFrontier_BattleTowerMultiBattleRoom_OnTransition:
 # 20 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_MULTIS, BattleFrontier_BattleTowerMultiBattleRoom_EventScript_SetObjGfx
@@ -84,9 +95,13 @@ BattleFrontier_BattleTowerMultiBattleRoom_OnWarp:
 
 # 43 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiBattleRoom_EventScript_HidePlayerObj::
+<<<<<<< HEAD
 # 44 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_BATTLE_ROOM
 # 45 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
+=======
+	hideobjectat LOCALID_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_BATTLE_ROOM
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 46 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 
@@ -102,16 +117,22 @@ BattleFrontier_BattleTowerMultiBattleRoom_OnFrame:
 BattleFrontier_BattleTowerMultiBattleRoom_EventScript_EnterRoom::
 # 52 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	setvar VAR_TEMP_0, 1
+<<<<<<< HEAD
 # 53 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	applymovement LOCALID_PLAYER, BattleFrontier_BattleTowerMultiBattleRoom_Movement_PlayerEnterRoom
 # 54 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	applymovement LOCALID_PARTNER, BattleFrontier_BattleTowerMultiBattleRoom_Movement_PartnerEnterRoom
 # 55 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_TOWER_MULTI_BATTLE_PLAYER, BattleFrontier_BattleTowerMultiBattleRoom_Movement_PlayerEnterRoom
+	applymovement LOCALID_TOWER_MULTI_BATTLE_PARTNER, BattleFrontier_BattleTowerMultiBattleRoom_Movement_PartnerEnterRoom
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 56 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	frontier_get FRONTIER_DATA_BATTLE_NUM
 # 57 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleTowerMultiBattleRoom_EventScript_OpponentsEnter
+<<<<<<< HEAD
 # 58 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	applymovement LOCALID_ATTENDANT_1, BattleFrontier_BattleTowerMultiBattleRoom_Movement_AttendantApproachPlayer
 # 59 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
@@ -123,6 +144,13 @@ BattleFrontier_BattleTowerMultiBattleRoom_EventScript_EnterRoom::
 # 62 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	applymovement LOCALID_PARTNER, BattleFrontier_BattleTowerMultiBattleRoom_Movement_FaceAttendant
 # 63 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_TOWER_MULTI_BATTLE_ATTENDANT_1, BattleFrontier_BattleTowerMultiBattleRoom_Movement_AttendantApproachPlayer
+	applymovement LOCALID_TOWER_MULTI_BATTLE_ATTENDANT_2, BattleFrontier_BattleTowerMultiBattleRoom_Movement_AttendantApproachPlayer
+	waitmovement 0
+	applymovement LOCALID_TOWER_MULTI_BATTLE_PLAYER, BattleFrontier_BattleTowerMultiBattleRoom_Movement_FaceAttendant
+	applymovement LOCALID_TOWER_MULTI_BATTLE_PARTNER, BattleFrontier_BattleTowerMultiBattleRoom_Movement_FaceAttendant
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 64 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	frontier_set FRONTIER_DATA_RECORD_DISABLED, TRUE
@@ -134,6 +162,7 @@ BattleFrontier_BattleTowerMultiBattleRoom_EventScript_EnterRoom::
 BattleFrontier_BattleTowerMultiBattleRoom_EventScript_OpponentsEnter::
 # 68 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	tower_setopponent
+<<<<<<< HEAD
 # 69 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	addobject LOCALID_OPPONENT_1
 # 70 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
@@ -143,6 +172,12 @@ BattleFrontier_BattleTowerMultiBattleRoom_EventScript_OpponentsEnter::
 # 72 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT_2, BattleFrontier_BattleTowerMultiBattleRoom_Movement_Opponent2Enter
 # 73 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
+=======
+	addobject LOCALID_TOWER_MULTI_BATTLE_OPPONENT_1
+	addobject LOCALID_TOWER_MULTI_BATTLE_OPPONENT_2
+	applymovement LOCALID_TOWER_MULTI_BATTLE_OPPONENT_1, BattleFrontier_BattleTowerMultiBattleRoom_Movement_Opponent1Enter
+	applymovement LOCALID_TOWER_MULTI_BATTLE_OPPONENT_2, BattleFrontier_BattleTowerMultiBattleRoom_Movement_Opponent2Enter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 74 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	goto_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_LINK_MULTIS, BattleFrontier_BattleTowerMultiBattleRoom_EventScript_DoOpponentIntrosLink
@@ -150,9 +185,13 @@ BattleFrontier_BattleTowerMultiBattleRoom_EventScript_OpponentsEnter::
 	tower_getopponentintro 0
 # 76 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	delay 15
+<<<<<<< HEAD
 # 77 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT_1, BattleFrontier_BattleTowerMultiBattleRoom_Movement_WalkInPlaceLeft
 # 78 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_TOWER_MULTI_BATTLE_OPPONENT_1, BattleFrontier_BattleTowerMultiBattleRoom_Movement_WalkInPlaceLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 79 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	msgbox gStringVar4, MSGBOX_DEFAULT
@@ -160,9 +199,13 @@ BattleFrontier_BattleTowerMultiBattleRoom_EventScript_OpponentsEnter::
 	waitmessage
 # 81 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	tower_getopponentintro 1
+<<<<<<< HEAD
 # 82 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT_2, BattleFrontier_BattleTowerMultiBattleRoom_Movement_WalkInPlaceLeft
 # 83 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_TOWER_MULTI_BATTLE_OPPONENT_2, BattleFrontier_BattleTowerMultiBattleRoom_Movement_WalkInPlaceLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 84 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	msgbox gStringVar4, MSGBOX_DEFAULT
@@ -178,9 +221,13 @@ BattleFrontier_BattleTowerMultiBattleRoom_EventScript_DoOpponentIntrosLink::
 	tower_getopponentintro 0
 # 90 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	delay 15
+<<<<<<< HEAD
 # 91 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT_1, BattleFrontier_BattleTowerMultiBattleRoom_Movement_WalkInPlaceLeft
 # 92 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_TOWER_MULTI_BATTLE_OPPONENT_1, BattleFrontier_BattleTowerMultiBattleRoom_Movement_WalkInPlaceLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 93 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	messageautoscroll gStringVar4
@@ -190,9 +237,13 @@ BattleFrontier_BattleTowerMultiBattleRoom_EventScript_DoOpponentIntrosLink::
 	delay 48
 # 96 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	tower_getopponentintro 1
+<<<<<<< HEAD
 # 97 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT_2, BattleFrontier_BattleTowerMultiBattleRoom_Movement_WalkInPlaceLeft
 # 98 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_TOWER_MULTI_BATTLE_OPPONENT_2, BattleFrontier_BattleTowerMultiBattleRoom_Movement_WalkInPlaceLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 99 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	messageautoscroll gStringVar4
@@ -232,6 +283,7 @@ BattleFrontier_BattleTowerMultiBattleRoom_EventScript_DefeatedOpponents::
 	switch VAR_RESULT
 # 117 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	case 7, BattleFrontier_BattleTowerMultiBattleRoom_EventScript_WarpToLobbyWon
+<<<<<<< HEAD
 # 118 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT_2, BattleFrontier_BattleTowerMultiBattleRoom_Movement_Opponent2Exit
 # 119 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
@@ -253,6 +305,18 @@ BattleFrontier_BattleTowerMultiBattleRoom_EventScript_DefeatedOpponents::
 # 127 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	applymovement LOCALID_PARTNER, BattleFrontier_BattleTowerMultiBattleRoom_Movement_FaceAttendant
 # 128 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_TOWER_MULTI_BATTLE_OPPONENT_2, BattleFrontier_BattleTowerMultiBattleRoom_Movement_Opponent2Exit
+	applymovement LOCALID_TOWER_MULTI_BATTLE_OPPONENT_1, BattleFrontier_BattleTowerMultiBattleRoom_Movement_Opponent1Exit
+	waitmovement 0
+	removeobject LOCALID_TOWER_MULTI_BATTLE_OPPONENT_1
+	removeobject LOCALID_TOWER_MULTI_BATTLE_OPPONENT_2
+	applymovement LOCALID_TOWER_MULTI_BATTLE_ATTENDANT_1, BattleFrontier_BattleTowerMultiBattleRoom_Movement_AttendantApproachPlayer
+	applymovement LOCALID_TOWER_MULTI_BATTLE_ATTENDANT_2, BattleFrontier_BattleTowerMultiBattleRoom_Movement_AttendantApproachPlayer
+	waitmovement 0
+	applymovement LOCALID_TOWER_MULTI_BATTLE_PLAYER, BattleFrontier_BattleTowerMultiBattleRoom_Movement_FaceAttendant
+	applymovement LOCALID_TOWER_MULTI_BATTLE_PARTNER, BattleFrontier_BattleTowerMultiBattleRoom_Movement_FaceAttendant
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 129 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	goto_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_LINK_MULTIS, BattleFrontier_BattleTowerMultiBattleRoom_EventScript_RetorePartyMsgLink
@@ -392,6 +456,7 @@ BattleFrontier_BattleTowerMultiBattleRoom_EventScript_ContinueChallenge::
 	closemessage
 # 197 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	clearflag FLAG_TEMP_2
+<<<<<<< HEAD
 # 198 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	applymovement LOCALID_PLAYER, BattleFrontier_BattleTowerMultiBattleRoom_Movement_FaceBattle
 # 199 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
@@ -403,6 +468,13 @@ BattleFrontier_BattleTowerMultiBattleRoom_EventScript_ContinueChallenge::
 # 202 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	applymovement LOCALID_ATTENDANT_2, BattleFrontier_BattleTowerMultiBattleRoom_Movement_AttendantReturnToPos
 # 203 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_TOWER_MULTI_BATTLE_PLAYER, BattleFrontier_BattleTowerMultiBattleRoom_Movement_FaceBattle
+	applymovement LOCALID_TOWER_MULTI_BATTLE_PARTNER, BattleFrontier_BattleTowerMultiBattleRoom_Movement_FaceBattle
+	waitmovement 0
+	applymovement LOCALID_TOWER_MULTI_BATTLE_ATTENDANT_1, BattleFrontier_BattleTowerMultiBattleRoom_Movement_AttendantReturnToPos
+	applymovement LOCALID_TOWER_MULTI_BATTLE_ATTENDANT_2, BattleFrontier_BattleTowerMultiBattleRoom_Movement_AttendantReturnToPos
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 204 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	goto BattleFrontier_BattleTowerMultiBattleRoom_EventScript_OpponentsEnter

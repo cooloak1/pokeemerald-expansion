@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 
 # 2 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
@@ -7,6 +8,8 @@
 # 4 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 
 # 5 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 BattleFrontier_BattlePyramidTop_MapScripts::
 # 6 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_BattlePyramidTop_OnResume
@@ -42,9 +45,13 @@ BattleFrontier_BattlePyramidTop_OnWarp:
 BattleFrontier_BattlePyramidTop_EventScript_SetUpObjects::
 # 22 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	setvar VAR_TEMP_1, 1
+<<<<<<< HEAD
 # 23 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 # 24 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
+=======
+	turnobject LOCALID_PLAYER, DIR_NORTH
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	goto_if_ne VAR_TEMP_C, 0, BattleFrontier_BattlePyramidTop_EventScript_EndSetUpObjects
 # 25 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	setobjectxyperm LOCALID_BRANDON, 0, 0
@@ -150,6 +157,7 @@ BattleFrontier_BattlePyramidTop_EventScript_Attendant::
 	msgbox BattleFrontier_BattlePyramidTop_Text_ReachedSummitUpYouGo, MSGBOX_DEFAULT
 # 76 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 77 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	applymovement LOCALID_ATTENDANT, BattleFrontier_BattlePyramidTop_Movement_AttendantMoveAside
 # 78 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
@@ -161,6 +169,13 @@ BattleFrontier_BattlePyramidTop_EventScript_Attendant::
 # 81 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	applymovement LOCALID_ATTENDANT, BattleFrontier_BattlePyramidTop_Movement_AttendantBlockPath
 # 82 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
+=======
+	applymovement LOCALID_PYRAMID_TOP_ATTENDANT, BattleFrontier_BattlePyramidTop_Movement_AttendantMoveAside
+	waitmovement 0
+	applymovement LOCALID_PLAYER, BattleFrontier_BattlePyramidTop_Movement_PlayerClimbToTop
+	waitmovement 0
+	applymovement LOCALID_PYRAMID_TOP_ATTENDANT, BattleFrontier_BattlePyramidTop_Movement_AttendantBlockPath
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 83 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	message BattleFrontier_BattlePyramidTop_Text_PlayerConqueredPyramid
@@ -198,9 +213,13 @@ BattleFrontier_BattlePyramidTop_EventScript_StepForwardWhenReady::
 BattleFrontier_BattlePyramidTop_EventScript_BrandonHereMoveAside::
 # 100 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	msgbox BattleFrontier_BattlePyramidTop_Text_ChiefBeatYouHere, MSGBOX_DEFAULT
+<<<<<<< HEAD
 # 101 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	applymovement LOCALID_ATTENDANT, BattleFrontier_BattlePyramidTop_Movement_AttendantMoveAside
 # 102 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
+=======
+	applymovement LOCALID_PYRAMID_TOP_ATTENDANT, BattleFrontier_BattlePyramidTop_Movement_AttendantMoveAside
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	setvar VAR_TEMP_D, 1
 # 103 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	closemessage
@@ -226,9 +245,13 @@ BattleFrontier_BattlePyramidTop_EventScript_BattleBrandon::
 	goto_if_ne VAR_RESULT, FALSE, BattleFrontier_BattlePyramidTop_EventScript_BrandonHeardSilverSpeech
 # 114 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	special SpawnCameraObject
+<<<<<<< HEAD
 # 115 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	applymovement OBJ_EVENT_ID_CAMERA, BattleFrontier_BattlePyramidTop_Movement_CameraPanUp
 # 116 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
+=======
+	applymovement LOCALID_CAMERA, BattleFrontier_BattlePyramidTop_Movement_CameraPanUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 117 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	msgbox BattleFrontier_BattlePyramidTop_Text_ExplorationsAreGrandestAdventure, MSGBOX_DEFAULT
@@ -300,9 +323,13 @@ BattleFrontier_BattlePyramidTop_EventScript_BrandonIntroGold::
 	goto_if_ne VAR_RESULT, FALSE, BattleFrontier_BattlePyramidTop_EventScript_BrandonHeardGoldSpeech
 # 151 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	special SpawnCameraObject
+<<<<<<< HEAD
 # 152 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	applymovement OBJ_EVENT_ID_CAMERA, BattleFrontier_BattlePyramidTop_Movement_CameraPanUp
 # 153 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
+=======
+	applymovement LOCALID_CAMERA, BattleFrontier_BattlePyramidTop_Movement_CameraPanUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 154 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	msgbox BattleFrontier_BattlePyramidTop_Text_BrandonYouveReturned, MSGBOX_DEFAULT

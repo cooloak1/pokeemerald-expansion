@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/NavelRock_Harbor/scripts.pory"
 
 # 2 "data/maps/NavelRock_Harbor/scripts.pory"
@@ -7,6 +8,8 @@
 # 4 "data/maps/NavelRock_Harbor/scripts.pory"
 
 # 5 "data/maps/NavelRock_Harbor/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 NavelRock_Harbor_MapScripts::
 # 6 "data/maps/NavelRock_Harbor/scripts.pory"
 	.byte 0
@@ -32,11 +35,16 @@ NavelRock_Harbor_EventScript_Sailor::
 	waitmovement 0
 # 17 "data/maps/NavelRock_Harbor/scripts.pory"
 	delay 30
+<<<<<<< HEAD
 # 18 "data/maps/NavelRock_Harbor/scripts.pory"
 	hideobjectat LOCALID_SAILOR, MAP_NAVEL_ROCK_HARBOR
 # 19 "data/maps/NavelRock_Harbor/scripts.pory"
 	setvar VAR_0x8004, LOCALID_SS_TIDAL
 # 20 "data/maps/NavelRock_Harbor/scripts.pory"
+=======
+	hideobjectat LOCALID_NAVEL_ROCK_SAILOR, MAP_NAVEL_ROCK_HARBOR
+	setvar VAR_0x8004, LOCALID_NAVEL_ROCK_SS_TIDAL
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	call Common_EventScript_FerryDepartIsland
 # 21 "data/maps/NavelRock_Harbor/scripts.pory"
 	warp MAP_LILYCOVE_CITY_HARBOR, 8, 11

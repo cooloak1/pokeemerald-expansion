@@ -103,7 +103,7 @@ struct
     /*0x6E8*/ u8 *screenSwitchState;
     /*0x6EC*/ struct RegionMap regionMap;
     /*0xF70*/ u8 charBuffer[64];
-    /*0xFB0*/ struct Sprite * areaUnknownSprites[3];
+    /*0xFB0*/ struct Sprite *areaUnknownSprites[3];
     /*0xFBC*/ u8 areaUnknownGraphicsBuffer[0x600];
     /*0xFC0*/ u8 areaScreenLabelIds[NUM_LABEL_WINDOWS];
     /*0xFC8*/ u8 areaState;
@@ -152,7 +152,7 @@ static const u16 sMovingRegionMapSections[3] =
 
 static const u16 sFeebasData[][3] =
 {
-    {SPECIES_FEEBAS, MAP_GROUP(ROUTE119), MAP_NUM(ROUTE119)},
+    {SPECIES_FEEBAS, MAP_GROUP(MAP_ROUTE119), MAP_NUM(MAP_ROUTE119)},
     {NUM_SPECIES}
 };
 
@@ -339,7 +339,7 @@ static void FindMapsWithMon(u16 species)
     }
 
     // Add regular species to the area map
-    for (i = 0; gWildMonHeaders[i].mapGroup != MAP_GROUP(UNDEFINED); i++)
+    for (i = 0; gWildMonHeaders[i].mapGroup != MAP_GROUP(MAP_UNDEFINED); i++)
     {
         if (MapHasSpecies(&gWildMonHeaders[i].encounterTypes[gAreaTimeOfDay], species))
         {

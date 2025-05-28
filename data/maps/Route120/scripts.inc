@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/Route120/scripts.pory"
 
 # 2 "data/maps/Route120/scripts.pory"
@@ -9,6 +10,9 @@
 # 5 "data/maps/Route120/scripts.pory"
 
 # 6 "data/maps/Route120/scripts.pory"
+=======
+@ LOCALID_BRIDGE_KECLEON_SHADOW is a second object which is identical to LOCALID_BRIDGE_KECLEON but has a reflection palette tag for the bridge shadow
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 Route120_MapScripts::
 # 7 "data/maps/Route120/scripts.pory"
 	map_script MAP_SCRIPT_ON_RESUME, Route120_OnResume
@@ -364,9 +368,13 @@ Route120_EventScript_StevenBattleKecleon::
 	call_if_eq VAR_FACING, DIR_NORTH, Route120_EventScript_PlayerApproachKecleonNorth
 # 183 "data/maps/Route120/scripts.pory"
 	call_if_eq VAR_FACING, DIR_WEST, Route120_EventScript_PlayerApproachKecleonWest
+<<<<<<< HEAD
 # 184 "data/maps/Route120/scripts.pory"
 	applymovement LOCALID_STEVEN, Common_Movement_WalkInPlaceFasterLeft
 # 185 "data/maps/Route120/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE120_STEVEN, Common_Movement_WalkInPlaceFasterLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 186 "data/maps/Route120/scripts.pory"
 	delay 20
@@ -432,11 +440,16 @@ Route120_EventScript_RemoveBridgeKecleonPostBattle::
 
 # 217 "data/maps/Route120/scripts.pory"
 Route120_EventScript_StevenGiveDeconScope::
+<<<<<<< HEAD
 # 218 "data/maps/Route120/scripts.pory"
 	applymovement LOCALID_STEVEN, Common_Movement_WalkInPlaceFasterDown
 # 219 "data/maps/Route120/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 # 220 "data/maps/Route120/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE120_STEVEN, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 221 "data/maps/Route120/scripts.pory"
 	msgbox Route120_Text_StevenGiveDevonScope, MSGBOX_DEFAULT
@@ -448,9 +461,13 @@ Route120_EventScript_StevenGiveDeconScope::
 	msgbox Route120_Text_StevenGoodbye, MSGBOX_DEFAULT
 # 225 "data/maps/Route120/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 226 "data/maps/Route120/scripts.pory"
 	applymovement LOCALID_STEVEN, Common_Movement_WalkInPlaceFasterDown
 # 227 "data/maps/Route120/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE120_STEVEN, Common_Movement_WalkInPlaceFasterDown
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 228 "data/maps/Route120/scripts.pory"
 	delay 50
@@ -460,9 +477,13 @@ Route120_EventScript_StevenGiveDeconScope::
 	dofieldeffect FLDEFF_NPCFLY_OUT
 # 231 "data/maps/Route120/scripts.pory"
 	delay 15
+<<<<<<< HEAD
 # 232 "data/maps/Route120/scripts.pory"
 	removeobject LOCALID_STEVEN
 # 233 "data/maps/Route120/scripts.pory"
+=======
+	removeobject LOCALID_ROUTE120_STEVEN
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitfieldeffect FLDEFF_NPCFLY_OUT
 # 234 "data/maps/Route120/scripts.pory"
 	setmetatile 13, 15, METATILE_Fortree_WoodBridge1_Top, FALSE
@@ -482,9 +503,13 @@ Route120_EventScript_StevenGiveDeconScope::
 
 # 242 "data/maps/Route120/scripts.pory"
 Route120_EventScript_PlayerApproachKecleonNorth::
+<<<<<<< HEAD
 # 243 "data/maps/Route120/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 # 244 "data/maps/Route120/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 245 "data/maps/Route120/scripts.pory"
 	return
@@ -492,9 +517,13 @@ Route120_EventScript_PlayerApproachKecleonNorth::
 
 # 247 "data/maps/Route120/scripts.pory"
 Route120_EventScript_PlayerApproachKecleonWest::
+<<<<<<< HEAD
 # 248 "data/maps/Route120/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route120_Movement_ApproachKecleonWest
 # 249 "data/maps/Route120/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route120_Movement_ApproachKecleonWest
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 250 "data/maps/Route120/scripts.pory"
 	return

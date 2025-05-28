@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
 # 2 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -7,6 +8,8 @@
 # 4 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
 # 5 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 BattleFrontier_BattlePyramidLobby_MapScripts::
 # 6 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattlePyramidLobby_OnFrame
@@ -30,9 +33,13 @@ BattleFrontier_BattlePyramidLobby_OnWarp:
 BattleFrontier_BattlePyramidLobby_EventScript_TurnPlayerNorth:
 # 16 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	setvar VAR_TEMP_1, 1
+<<<<<<< HEAD
 # 17 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 # 18 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	turnobject LOCALID_PLAYER, DIR_NORTH
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 19 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 
@@ -420,9 +427,13 @@ BattleFrontier_BattlePyramidLobby_EventScript_EndCancelChallenge::
 BattleFrontier_BattlePyramidLobby_EventScript_HintGiver::
 # 211 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 212 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	applymovement LOCALID_HINT_GIVER, Common_Movement_FacePlayer
 # 213 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	applymovement LOCALID_PYRAMID_LOBBY_HINT_GIVER, Common_Movement_FacePlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 214 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	msgbox BattleFrontier_BattlePyramidLobby_Text_TellYouWhatMisfortunesAwait, MSGBOX_DEFAULT
@@ -744,11 +755,16 @@ BattleFrontier_BattlePyramidLobby_EventScript_ShowResults::
 
 # 373 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 BattleFrontier_BattlePyramidLobby_EventScript_WalkToPanelAndReceiveBag::
+<<<<<<< HEAD
 # 374 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	applymovement LOCALID_ATTENDANT, BattleFrontier_BattlePyramidLobby_Movement_AttendantWalkToPanel
 # 375 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattlePyramidLobby_Movement_PlayerWalkToPanel
 # 376 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	applymovement LOCALID_PYRAMID_LOBBY_ATTENDANT, BattleFrontier_BattlePyramidLobby_Movement_AttendantWalkToPanel
+	applymovement LOCALID_PLAYER, BattleFrontier_BattlePyramidLobby_Movement_PlayerWalkToPanel
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 377 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	msgbox BattleFrontier_BattlePyramidLobby_Text_WeWillHoldBagForSafekeeping, MSGBOX_DEFAULT
@@ -780,6 +796,7 @@ BattleFrontier_BattlePyramidLobby_EventScript_ReceiveBattleBag::
 	msgbox BattleFrontier_BattlePyramidLobby_Text_StepOnFloorPanel, MSGBOX_DEFAULT
 # 391 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 392 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	applymovement LOCALID_ATTENDANT, BattleFrontier_BattlePyramidLobby_Movement_AttendantMoveAside
 # 393 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
@@ -787,6 +804,11 @@ BattleFrontier_BattlePyramidLobby_EventScript_ReceiveBattleBag::
 # 394 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattlePyramidLobby_Movement_PlayerStepOnPanel
 # 395 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
+=======
+	applymovement LOCALID_PYRAMID_LOBBY_ATTENDANT, BattleFrontier_BattlePyramidLobby_Movement_AttendantMoveAside
+	waitmovement 0
+	applymovement LOCALID_PLAYER, BattleFrontier_BattlePyramidLobby_Movement_PlayerStepOnPanel
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 396 "data/maps/BattleFrontier_BattlePyramidLobby/scripts.pory"
 	return

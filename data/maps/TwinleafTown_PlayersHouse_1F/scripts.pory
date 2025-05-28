@@ -59,18 +59,6 @@ script TwinleafTown_PlayersHouse_1F_Mom_TalkedTo {
 	}
 }
 
-script TwinleafTown_PlayersHouse_1F_EventScript_Counter {
-	msgbox(TwinleafTown_PlayersHouse_1F_Text_Counter, MSGBOX_SIGN)
-}
-
-script TwinleafTown_PlayersHouse_1F_EventScript_Fridge {
-	msgbox(TwinleafTown_PlayersHouse_1F_Text_Fridge, MSGBOX_SIGN)
-}
-
-script TwinleafTown_PlayersHouse_1F_EventScript_Sink {
-	msgbox(TwinleafTown_PlayersHouse_1F_Text_Sink, MSGBOX_SIGN)
-}
-
 text TwinleafTown_PlayersHouse_1F_Text_BarryAlreadyLeft {
 	format("Mom: {PLAYER}!\pBarry already left.\pI don't know what it was about, but he sure was in a hurry!")
 }
@@ -107,7 +95,7 @@ text TwinleafTown_PlayersHouse_1F_Text_Fridge {
 	format("Mom's favorite dessert is in the refrigerator")
 }
 
-text TwinleafTown_PlayersHouse_1F_Text_Sink {
+text TwinleafTown_PlayersHouse_1F_Text_Kitchen {
 	format("Mom's kitchen is spotless!\nYou can see your face on the floor!")
 }
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/TrainerHill_Elevator/scripts.pory"
 
 # 2 "data/maps/TrainerHill_Elevator/scripts.pory"
@@ -5,6 +6,8 @@
 # 3 "data/maps/TrainerHill_Elevator/scripts.pory"
 
 # 4 "data/maps/TrainerHill_Elevator/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 TrainerHill_Elevator_MapScripts::
 # 5 "data/maps/TrainerHill_Elevator/scripts.pory"
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, TrainerHill_Elevator_OnFrame
@@ -28,9 +31,13 @@ TrainerHill_Elevator_EventScript_Attendant::
 
 # 15 "data/maps/TrainerHill_Elevator/scripts.pory"
 TrainerHill_Elevator_EventScript_ExitToRoof::
+<<<<<<< HEAD
 # 16 "data/maps/TrainerHill_Elevator/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, TrainerHill_Elevator_Movement_PlayerExitElevatorToRoof
 # 17 "data/maps/TrainerHill_Elevator/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, TrainerHill_Elevator_Movement_PlayerExitElevatorToRoof
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 18 "data/maps/TrainerHill_Elevator/scripts.pory"
 	releaseall
@@ -44,6 +51,7 @@ TrainerHill_Elevator_EventScript_ExitToRoof::
 
 # 23 "data/maps/TrainerHill_Elevator/scripts.pory"
 TrainerHill_Elevator_EventScript_EnterElevator::
+<<<<<<< HEAD
 # 24 "data/maps/TrainerHill_Elevator/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, TrainerHill_Elevator_Movement_PlayerApproachAttendant
 # 25 "data/maps/TrainerHill_Elevator/scripts.pory"
@@ -51,6 +59,11 @@ TrainerHill_Elevator_EventScript_EnterElevator::
 # 26 "data/maps/TrainerHill_Elevator/scripts.pory"
 	applymovement LOCALID_ATTENDANT, TrainerHill_Elevator_Movement_AttendantFacePlayer
 # 27 "data/maps/TrainerHill_Elevator/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, TrainerHill_Elevator_Movement_PlayerApproachAttendant
+	waitmovement 0
+	applymovement LOCALID_TRAINER_HILL_ELEVATOR_ATTENDANT, TrainerHill_Elevator_Movement_AttendantFacePlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 28 "data/maps/TrainerHill_Elevator/scripts.pory"
 	lockall
@@ -60,6 +73,7 @@ TrainerHill_Elevator_EventScript_EnterElevator::
 	goto_if_eq VAR_RESULT, NO, TrainerHill_Elevator_EventScript_ExitToRoof
 # 31 "data/maps/TrainerHill_Elevator/scripts.pory"
 	releaseall
+<<<<<<< HEAD
 # 32 "data/maps/TrainerHill_Elevator/scripts.pory"
 	applymovement LOCALID_ATTENDANT, TrainerHill_Elevator_Movement_AttendantFaceDown
 # 33 "data/maps/TrainerHill_Elevator/scripts.pory"
@@ -67,14 +81,23 @@ TrainerHill_Elevator_EventScript_EnterElevator::
 # 34 "data/maps/TrainerHill_Elevator/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, TrainerHill_Elevator_Movement_PlayerMoveToCenterOfElevator
 # 35 "data/maps/TrainerHill_Elevator/scripts.pory"
+=======
+	applymovement LOCALID_TRAINER_HILL_ELEVATOR_ATTENDANT, TrainerHill_Elevator_Movement_AttendantFaceDown
+	waitmovement 0
+	applymovement LOCALID_PLAYER, TrainerHill_Elevator_Movement_PlayerMoveToCenterOfElevator
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 36 "data/maps/TrainerHill_Elevator/scripts.pory"
 	call TrainerHill_Elevator_EventScript_MoveElevator
 # 37 "data/maps/TrainerHill_Elevator/scripts.pory"
 	delay 25
+<<<<<<< HEAD
 # 38 "data/maps/TrainerHill_Elevator/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, TrainerHill_Elevator_Movement_PlayerExitElevator
 # 39 "data/maps/TrainerHill_Elevator/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, TrainerHill_Elevator_Movement_PlayerExitElevator
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 40 "data/maps/TrainerHill_Elevator/scripts.pory"
 	warp MAP_TRAINER_HILL_ENTRANCE, 17, 8

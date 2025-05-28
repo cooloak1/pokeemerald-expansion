@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/NavelRock_Bottom/scripts.pory"
 
 # 2 "data/maps/NavelRock_Bottom/scripts.pory"
@@ -5,6 +6,8 @@
 # 3 "data/maps/NavelRock_Bottom/scripts.pory"
 
 # 4 "data/maps/NavelRock_Bottom/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 NavelRock_Bottom_MapScripts::
 # 5 "data/maps/NavelRock_Bottom/scripts.pory"
 	map_script MAP_SCRIPT_ON_TRANSITION, NavelRock_Bottom_OnTransition
@@ -56,9 +59,13 @@ NavelRock_Bottom_EventScript_TryRemoveLugia::
 	specialvar VAR_RESULT, GetBattleOutcome
 # 29 "data/maps/NavelRock_Bottom/scripts.pory"
 	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, Common_EventScript_NopReturn
+<<<<<<< HEAD
 # 30 "data/maps/NavelRock_Bottom/scripts.pory"
 	removeobject LOCALID_LUGIA
 # 31 "data/maps/NavelRock_Bottom/scripts.pory"
+=======
+	removeobject LOCALID_NAVEL_ROCK_LUGIA
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 32 "data/maps/NavelRock_Bottom/scripts.pory"
 

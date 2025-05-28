@@ -20,9 +20,13 @@ Route121_SafariZoneEntrance_OnFrame:
 Route121_SafariZoneEntrance_EventScript_ExitSafariZone::
 # 11 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 12 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route121_SafariZoneEntrance_Movement_ExitSafariZone
 # 13 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route121_SafariZoneEntrance_Movement_ExitSafariZone
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 14 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	setvar VAR_SAFARI_ZONE_STATE, 0
@@ -94,9 +98,13 @@ Route121_SafariZoneEntrance_EventScript_FirstTimeInfo::
 Route121_SafariZoneEntrance_EventScript_EntranceCounterTrigger::
 # 48 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 49 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 # 50 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 51 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	showmoneybox 0, 0
@@ -146,9 +154,13 @@ Route121_SafariZoneEntrance_EventScript_TryEnterSafariZone::
 	closemessage
 # 74 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	hidemoneybox
+<<<<<<< HEAD
 # 75 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route121_SafariZoneEntrance_Movement_EnterSafariZone
 # 76 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route121_SafariZoneEntrance_Movement_EnterSafariZone
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 77 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	special EnterSafariMode
@@ -214,9 +226,13 @@ Route121_SafariZoneEntrance_EventScript_MovePlayerBackFromCounter::
 	closemessage
 # 108 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	hidemoneybox
+<<<<<<< HEAD
 # 109 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route121_SafariZoneEntrance_Movement_BackAwayFromCounter
 # 110 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route121_SafariZoneEntrance_Movement_BackAwayFromCounter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 111 "data/maps/Route121_SafariZoneEntrance/scripts.pory"
 	releaseall

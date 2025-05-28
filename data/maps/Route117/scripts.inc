@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 # 1 "data/maps/Route117/scripts.pory"
 
 # 2 "data/maps/Route117/scripts.pory"
 .set LOCALID_DAYCARE_MAN, 3
 # 3 "data/maps/Route117/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 .set LOCALID_DAYCARE_MON_0, 25
 # 4 "data/maps/Route117/scripts.pory"
 .set LOCALID_DAYCARE_MON_1, 26

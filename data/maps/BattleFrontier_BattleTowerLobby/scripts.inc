@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 
 # 2 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
@@ -15,6 +16,8 @@
 # 8 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 
 # 9 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 BattleFrontier_BattleTowerLobby_MapScripts::
 # 10 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_BattleTowerLobby_OnResume
@@ -78,9 +81,13 @@ BattleFrontier_BattleTowerLobby_OnWarp:
 BattleFrontier_BattleTowerLobby_EventScript_PlayerFaceNorth::
 # 40 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 	setvar VAR_TEMP_1, 1
+<<<<<<< HEAD
 # 41 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 # 42 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
+=======
+	turnobject LOCALID_PLAYER, DIR_NORTH
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 43 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 
@@ -1260,9 +1267,13 @@ BattleFrontier_BattleTowerLobby_EventScript_WalkToElevator::
 	call BattleFrontier_BattleTowerLobby_EventScript_GetDoorXCoord
 # 631 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 	applymovement VAR_LAST_TALKED, BattleFrontier_BattleTowerLobby_Movement_WalkToElevator
+<<<<<<< HEAD
 # 632 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattleTowerLobby_Movement_WalkToElevator
 # 633 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleTowerLobby_Movement_WalkToElevator
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 634 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 	opendoor VAR_0x8004, 1
@@ -1270,9 +1281,13 @@ BattleFrontier_BattleTowerLobby_EventScript_WalkToElevator::
 	waitdooranim
 # 636 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 	applymovement VAR_LAST_TALKED, BattleFrontier_BattleTowerLobby_Movement_AttendantEnterElevator
+<<<<<<< HEAD
 # 637 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattleTowerLobby_Movement_PlayerEnterElevator
 # 638 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleTowerLobby_Movement_PlayerEnterElevator
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 639 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 	closedoor VAR_0x8004, 1
@@ -1398,33 +1413,49 @@ BattleFrontier_BattleTowerLobby_EventScript_SetAttendantTalkedTo::
 
 # 700 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 BattleFrontier_BattleTowerLobby_EventScript_TalkedToSinglesAttendant::
+<<<<<<< HEAD
 # 701 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 	setvar VAR_LAST_TALKED, LOCALID_ATTENDANT_SINGLES
 # 702 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
+=======
+	setvar VAR_LAST_TALKED, LOCALID_TOWER_ATTENDANT_SINGLES
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 703 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 
 # 704 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 BattleFrontier_BattleTowerLobby_EventScript_TalkedToDoublesAttendant::
+<<<<<<< HEAD
 # 705 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 	setvar VAR_LAST_TALKED, LOCALID_ATTENDANT_DOUBLES
 # 706 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
+=======
+	setvar VAR_LAST_TALKED, LOCALID_TOWER_ATTENDANT_DOUBLES
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 707 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 
 # 708 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 BattleFrontier_BattleTowerLobby_EventScript_TalkedToMultisAttendant::
+<<<<<<< HEAD
 # 709 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 	setvar VAR_LAST_TALKED, LOCALID_ATTENDANT_MULTIS
 # 710 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
+=======
+	setvar VAR_LAST_TALKED, LOCALID_TOWER_ATTENDANT_MULTIS
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 711 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 
 # 712 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 BattleFrontier_BattleTowerLobby_EventScript_TalkedToLinkMultisAttendant::
+<<<<<<< HEAD
 # 713 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 	setvar VAR_LAST_TALKED, LOCALID_ATTENDANT_LINK_MULTIS
 # 714 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
+=======
+	setvar VAR_LAST_TALKED, LOCALID_TOWER_ATTENDANT_LINK_MULTIS
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 715 "data/maps/BattleFrontier_BattleTowerLobby/scripts.pory"
 

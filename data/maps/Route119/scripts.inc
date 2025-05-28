@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/Route119/scripts.pory"
 
 # 2 "data/maps/Route119/scripts.pory"
@@ -9,6 +10,8 @@
 # 5 "data/maps/Route119/scripts.pory"
 
 # 6 "data/maps/Route119/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 Route119_MapScripts::
 # 7 "data/maps/Route119/scripts.pory"
 	map_script MAP_SCRIPT_ON_RESUME, Route119_OnResume
@@ -88,9 +91,13 @@ Route119_EventScript_RivalTrigger2::
 Route119_EventScript_RivalEncounter::
 # 45 "data/maps/Route119/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 46 "data/maps/Route119/scripts.pory"
 	addobject LOCALID_RIVAL_ON_BIKE
 # 47 "data/maps/Route119/scripts.pory"
+=======
+	addobject LOCALID_ROUTE119_RIVAL_ON_BIKE
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	checkplayergender
 # 48 "data/maps/Route119/scripts.pory"
 	call_if_eq VAR_RESULT, MALE, Route119_EventScript_PlayMayMusic
@@ -102,9 +109,13 @@ Route119_EventScript_RivalEncounter::
 	call_if_eq VAR_TEMP_1, 1, Route119_EventScript_RivalEnter1
 # 52 "data/maps/Route119/scripts.pory"
 	call_if_eq VAR_TEMP_1, 2, Route119_EventScript_RivalEnter2
+<<<<<<< HEAD
 # 53 "data/maps/Route119/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 # 54 "data/maps/Route119/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 55 "data/maps/Route119/scripts.pory"
 	delay 30
@@ -112,11 +123,16 @@ Route119_EventScript_RivalEncounter::
 	call_if_eq VAR_TEMP_1, 1, Route119_EventScript_SetRivalPos1
 # 57 "data/maps/Route119/scripts.pory"
 	call_if_eq VAR_TEMP_1, 2, Route119_EventScript_SetRivalPos2
+<<<<<<< HEAD
 # 58 "data/maps/Route119/scripts.pory"
 	removeobject LOCALID_RIVAL_ON_BIKE
 # 59 "data/maps/Route119/scripts.pory"
 	addobject LOCALID_RIVAL
 # 60 "data/maps/Route119/scripts.pory"
+=======
+	removeobject LOCALID_ROUTE119_RIVAL_ON_BIKE
+	addobject LOCALID_ROUTE119_RIVAL
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	delay 30
 # 61 "data/maps/Route119/scripts.pory"
 	checkplayergender
@@ -284,19 +300,28 @@ Route119_EventScript_RivalExitScottArrive::
 	call_if_eq VAR_TEMP_1, 1, Route119_EventScript_SetRivalPos1
 # 143 "data/maps/Route119/scripts.pory"
 	call_if_eq VAR_TEMP_1, 2, Route119_EventScript_SetRivalPos2
+<<<<<<< HEAD
 # 144 "data/maps/Route119/scripts.pory"
 	removeobject LOCALID_RIVAL
 # 145 "data/maps/Route119/scripts.pory"
 	addobject LOCALID_RIVAL_ON_BIKE
 # 146 "data/maps/Route119/scripts.pory"
+=======
+	removeobject LOCALID_ROUTE119_RIVAL
+	addobject LOCALID_ROUTE119_RIVAL_ON_BIKE
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	delay 30
 # 147 "data/maps/Route119/scripts.pory"
 	call_if_eq VAR_TEMP_1, 1, Route119_EventScript_RivalExit1
 # 148 "data/maps/Route119/scripts.pory"
 	call_if_eq VAR_TEMP_1, 2, Route119_EventScript_RivalExit2
+<<<<<<< HEAD
 # 149 "data/maps/Route119/scripts.pory"
 	removeobject LOCALID_RIVAL_ON_BIKE
 # 150 "data/maps/Route119/scripts.pory"
+=======
+	removeobject LOCALID_ROUTE119_RIVAL_ON_BIKE
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	setvar VAR_ROUTE119_STATE, 1
 # 151 "data/maps/Route119/scripts.pory"
 	savebgm MUS_DUMMY
@@ -308,11 +333,16 @@ Route119_EventScript_RivalExitScottArrive::
 	call_if_eq VAR_TEMP_1, 1, Route119_EventScript_SetScottPos1
 # 155 "data/maps/Route119/scripts.pory"
 	call_if_eq VAR_TEMP_1, 2, Route119_EventScript_SetScottPos2
+<<<<<<< HEAD
 # 156 "data/maps/Route119/scripts.pory"
 	addobject LOCALID_SCOTT
 # 157 "data/maps/Route119/scripts.pory"
 	applymovement LOCALID_SCOTT, Route119_Movement_ScottEnter
 # 158 "data/maps/Route119/scripts.pory"
+=======
+	addobject LOCALID_ROUTE119_SCOTT
+	applymovement LOCALID_ROUTE119_SCOTT, Route119_Movement_ScottEnter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 159 "data/maps/Route119/scripts.pory"
 	addvar VAR_SCOTT_STATE, 1
@@ -324,9 +354,13 @@ Route119_EventScript_RivalExitScottArrive::
 	call_if_eq VAR_TEMP_1, 1, Route119_EventScript_ScottExit1
 # 163 "data/maps/Route119/scripts.pory"
 	call_if_eq VAR_TEMP_1, 2, Route119_EventScript_ScottExit2
+<<<<<<< HEAD
 # 164 "data/maps/Route119/scripts.pory"
 	removeobject LOCALID_SCOTT
 # 165 "data/maps/Route119/scripts.pory"
+=======
+	removeobject LOCALID_ROUTE119_SCOTT
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	releaseall
 # 166 "data/maps/Route119/scripts.pory"
 	end
@@ -334,25 +368,37 @@ Route119_EventScript_RivalExitScottArrive::
 
 # 168 "data/maps/Route119/scripts.pory"
 Route119_EventScript_SetScottPos1::
+<<<<<<< HEAD
 # 169 "data/maps/Route119/scripts.pory"
 	setobjectxyperm LOCALID_SCOTT, 27, 25
 # 170 "data/maps/Route119/scripts.pory"
+=======
+	setobjectxyperm LOCALID_ROUTE119_SCOTT, 27, 25
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 171 "data/maps/Route119/scripts.pory"
 
 # 172 "data/maps/Route119/scripts.pory"
 Route119_EventScript_SetScottPos2::
+<<<<<<< HEAD
 # 173 "data/maps/Route119/scripts.pory"
 	setobjectxyperm LOCALID_SCOTT, 28, 25
 # 174 "data/maps/Route119/scripts.pory"
+=======
+	setobjectxyperm LOCALID_ROUTE119_SCOTT, 28, 25
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 175 "data/maps/Route119/scripts.pory"
 
 # 176 "data/maps/Route119/scripts.pory"
 Route119_EventScript_ScottExit1::
+<<<<<<< HEAD
 # 177 "data/maps/Route119/scripts.pory"
 	applymovement LOCALID_SCOTT, Route119_Movement_ScottExit1
 # 178 "data/maps/Route119/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE119_SCOTT, Route119_Movement_ScottExit1
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 179 "data/maps/Route119/scripts.pory"
 	return
@@ -360,9 +406,13 @@ Route119_EventScript_ScottExit1::
 
 # 181 "data/maps/Route119/scripts.pory"
 Route119_EventScript_ScottExit2::
+<<<<<<< HEAD
 # 182 "data/maps/Route119/scripts.pory"
 	applymovement LOCALID_SCOTT, Route119_Movement_ScottExit2
 # 183 "data/maps/Route119/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE119_SCOTT, Route119_Movement_ScottExit2
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 184 "data/maps/Route119/scripts.pory"
 	return
@@ -370,9 +420,13 @@ Route119_EventScript_ScottExit2::
 
 # 186 "data/maps/Route119/scripts.pory"
 Route119_EventScript_RivalEnter1::
+<<<<<<< HEAD
 # 187 "data/maps/Route119/scripts.pory"
 	applymovement LOCALID_RIVAL_ON_BIKE, Route119_Movement_RivalEnter1
 # 188 "data/maps/Route119/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE119_RIVAL_ON_BIKE, Route119_Movement_RivalEnter1
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 189 "data/maps/Route119/scripts.pory"
 	return
@@ -380,9 +434,13 @@ Route119_EventScript_RivalEnter1::
 
 # 191 "data/maps/Route119/scripts.pory"
 Route119_EventScript_RivalEnter2::
+<<<<<<< HEAD
 # 192 "data/maps/Route119/scripts.pory"
 	applymovement LOCALID_RIVAL_ON_BIKE, Route119_Movement_RivalEnter2
 # 193 "data/maps/Route119/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE119_RIVAL_ON_BIKE, Route119_Movement_RivalEnter2
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 194 "data/maps/Route119/scripts.pory"
 	return
@@ -390,11 +448,16 @@ Route119_EventScript_RivalEnter2::
 
 # 196 "data/maps/Route119/scripts.pory"
 Route119_EventScript_RivalExit1::
+<<<<<<< HEAD
 # 197 "data/maps/Route119/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route119_Movement_PlayerWatchRivalExit1
 # 198 "data/maps/Route119/scripts.pory"
 	applymovement LOCALID_RIVAL_ON_BIKE, Route119_Movement_RivalExit1
 # 199 "data/maps/Route119/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route119_Movement_PlayerWatchRivalExit1
+	applymovement LOCALID_ROUTE119_RIVAL_ON_BIKE, Route119_Movement_RivalExit1
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 200 "data/maps/Route119/scripts.pory"
 	return
@@ -402,11 +465,16 @@ Route119_EventScript_RivalExit1::
 
 # 202 "data/maps/Route119/scripts.pory"
 Route119_EventScript_RivalExit2::
+<<<<<<< HEAD
 # 203 "data/maps/Route119/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route119_Movement_PlayerWatchRivalExit2
 # 204 "data/maps/Route119/scripts.pory"
 	applymovement LOCALID_RIVAL_ON_BIKE, Route119_Movement_RivalExit2
 # 205 "data/maps/Route119/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route119_Movement_PlayerWatchRivalExit2
+	applymovement LOCALID_ROUTE119_RIVAL_ON_BIKE, Route119_Movement_RivalExit2
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 206 "data/maps/Route119/scripts.pory"
 	return
@@ -414,21 +482,31 @@ Route119_EventScript_RivalExit2::
 
 # 208 "data/maps/Route119/scripts.pory"
 Route119_EventScript_SetRivalPos1::
+<<<<<<< HEAD
 # 209 "data/maps/Route119/scripts.pory"
 	setobjectxyperm LOCALID_RIVAL, 25, 32
 # 210 "data/maps/Route119/scripts.pory"
 	setobjectxyperm LOCALID_RIVAL_ON_BIKE, 25, 32
 # 211 "data/maps/Route119/scripts.pory"
+=======
+	setobjectxyperm LOCALID_ROUTE119_RIVAL, 25, 32
+	setobjectxyperm LOCALID_ROUTE119_RIVAL_ON_BIKE, 25, 32
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 212 "data/maps/Route119/scripts.pory"
 
 # 213 "data/maps/Route119/scripts.pory"
 Route119_EventScript_SetRivalPos2::
+<<<<<<< HEAD
 # 214 "data/maps/Route119/scripts.pory"
 	setobjectxyperm LOCALID_RIVAL, 26, 32
 # 215 "data/maps/Route119/scripts.pory"
 	setobjectxyperm LOCALID_RIVAL_ON_BIKE, 26, 32
 # 216 "data/maps/Route119/scripts.pory"
+=======
+	setobjectxyperm LOCALID_ROUTE119_RIVAL, 26, 32
+	setobjectxyperm LOCALID_ROUTE119_RIVAL_ON_BIKE, 26, 32
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 217 "data/maps/Route119/scripts.pory"
 

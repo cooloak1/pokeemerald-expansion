@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
 
 # 2 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
@@ -5,6 +6,8 @@
 # 3 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
 
 # 4 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 DewfordTown_PokemonCenter_1F_MapScripts::
 # 5 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
 	map_script MAP_SCRIPT_ON_TRANSITION, DewfordTown_PokemonCenter_1F_OnTransition
@@ -26,9 +29,13 @@ DewfordTown_PokemonCenter_1F_OnTransition:
 
 # 14 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
 DewfordTown_PokemonCenter_1F_EventScript_Nurse::
+<<<<<<< HEAD
 # 15 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
 	setvar VAR_0x800B, LOCALID_NURSE
 # 16 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
+=======
+	setvar VAR_0x800B, LOCALID_DEWFORD_NURSE
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	call Common_EventScript_PkmnCenterNurse
 # 17 "data/maps/DewfordTown_PokemonCenter_1F/scripts.pory"
 	waitmessage

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
 # 2 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
@@ -5,6 +6,8 @@
 # 3 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
 # 4 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 BattleFrontier_BattleDomePreBattleRoom_MapScripts::
 # 5 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleDomePreBattleRoom_OnFrame
@@ -26,9 +29,13 @@ BattleFrontier_BattleDomePreBattleRoom_OnWarp:
 BattleFrontier_BattleDomePreBattleRoom_EventScript_TurnPlayerNorth::
 # 14 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	setvar VAR_TEMP_1, 1
+<<<<<<< HEAD
 # 15 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 # 16 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+	turnobject LOCALID_PLAYER, DIR_NORTH
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 17 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 
@@ -48,9 +55,13 @@ BattleFrontier_BattleDomePreBattleRoom_EventScript_EnterRoom::
 	frontier_set FRONTIER_DATA_RECORD_DISABLED, TRUE
 # 25 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	setvar VAR_TEMP_0, 1
+<<<<<<< HEAD
 # 26 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerEnter
 # 27 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerEnter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 28 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	lockall
@@ -304,6 +315,7 @@ BattleFrontier_BattleDomePreBattleRoom_EventScript_ContinueChallenge::
 	msgbox BattleFrontier_BattleDomePreBattleRoom_Text_RightThisWay, MSGBOX_DEFAULT
 # 153 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 154 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	applymovement LOCALID_ATTENDANT, BattleFrontier_BattleDomePreBattleRoom_Movement_AttendantMoveAside
 # 155 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
@@ -311,14 +323,23 @@ BattleFrontier_BattleDomePreBattleRoom_EventScript_ContinueChallenge::
 # 156 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerWalkToDoor
 # 157 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_DOME_PRE_BATTLE_ATTENDANT, BattleFrontier_BattleDomePreBattleRoom_Movement_AttendantMoveAside
+	waitmovement 0
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerWalkToDoor
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 158 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	opendoor 5, 1
 # 159 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	waitdooranim
+<<<<<<< HEAD
 # 160 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerEnterDoor
 # 161 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerEnterDoor
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 162 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	closedoor 5, 1

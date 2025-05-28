@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 
 # 2 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
@@ -7,6 +8,8 @@
 # 4 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 
 # 5 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 EverGrandeCity_PokemonCenter_1F_MapScripts::
 # 6 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	map_script MAP_SCRIPT_ON_TRANSITION, EverGrandeCity_PokemonCenter_1F_OnTransition
@@ -38,9 +41,13 @@ EverGrandeCity_PokemonCenter_1F_EventScript_TryShowScott::
 
 # 20 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 EverGrandeCity_PokemonCenter_1F_EventScript_Nurse::
+<<<<<<< HEAD
 # 21 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	setvar VAR_0x800B, LOCALID_NURSE
 # 22 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+=======
+	setvar VAR_0x800B, LOCALID_EVER_GRANDE_NURSE
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	call Common_EventScript_PkmnCenterNurse
 # 23 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	waitmessage
@@ -92,9 +99,13 @@ EverGrandeCity_PokemonCenter_1F_EventScript_Scott::
 	playse SE_EXIT
 # 47 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	waitse
+<<<<<<< HEAD
 # 48 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	removeobject LOCALID_SCOTT
 # 49 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+=======
+	removeobject LOCALID_EVER_GRANDE_SCOTT
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	release
 # 50 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	end
@@ -102,9 +113,13 @@ EverGrandeCity_PokemonCenter_1F_EventScript_Scott::
 
 # 52 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 EverGrandeCity_PokemonCenter_1F_EventScript_ScottExitNorth::
+<<<<<<< HEAD
 # 53 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	applymovement LOCALID_SCOTT, EverGrandeCity_PokemonCenter_1F_Movement_ScottExitNorth
 # 54 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+=======
+	applymovement LOCALID_EVER_GRANDE_SCOTT, EverGrandeCity_PokemonCenter_1F_Movement_ScottExitNorth
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 55 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	return
@@ -112,9 +127,13 @@ EverGrandeCity_PokemonCenter_1F_EventScript_ScottExitNorth::
 
 # 57 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 EverGrandeCity_PokemonCenter_1F_EventScript_ScottExit::
+<<<<<<< HEAD
 # 58 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	applymovement LOCALID_SCOTT, EverGrandeCity_PokemonCenter_1F_Movement_ScottExit
 # 59 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
+=======
+	applymovement LOCALID_EVER_GRANDE_SCOTT, EverGrandeCity_PokemonCenter_1F_Movement_ScottExit
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 60 "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.pory"
 	return

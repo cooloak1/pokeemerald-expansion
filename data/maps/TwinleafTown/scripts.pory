@@ -1,9 +1,6 @@
 mapscripts TwinleafTown_MapScripts {
 	MAP_SCRIPT_ON_TRANSITION {
 		setflag(FLAG_VISITED_TWINLEAF_TOWN)
-		if (var(VAR_PLAYERS_MOM_STATE) < 3) {
-			setvar(VAR_PLAYERS_MOM_STATE, 3)
-		}
 	}
 }
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 
 # 2 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
@@ -5,6 +6,8 @@
 # 3 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 
 # 4 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 EverGrandeCity_HallOfFame_MapScripts::
 # 5 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, EverGrandeCity_HallOfFame_OnFrame
@@ -24,9 +27,13 @@ EverGrandeCity_HallOfFame_OnWarp:
 
 # 13 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 EverGrandeCity_HallOfFame_EventScript_TurnPlayerNorth::
+<<<<<<< HEAD
 # 14 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 # 15 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
+=======
+	turnobject LOCALID_PLAYER, DIR_NORTH
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 16 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 
@@ -42,6 +49,7 @@ EverGrandeCity_HallOfFame_OnFrame:
 EverGrandeCity_HallOfFame_EventScript_EnterHallOfFame::
 # 22 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 23 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	applymovement LOCALID_WALLACE, EverGrandeCity_HallOfFame_Movement_WalkIntoHallOfFame1
 # 24 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
@@ -53,34 +61,56 @@ EverGrandeCity_HallOfFame_EventScript_EnterHallOfFame::
 # 27 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 # 28 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
+=======
+	applymovement LOCALID_HALL_OF_FAME_WALLACE, EverGrandeCity_HallOfFame_Movement_WalkIntoHallOfFame1
+	applymovement LOCALID_PLAYER, EverGrandeCity_HallOfFame_Movement_WalkIntoHallOfFame1
+	waitmovement 0
+	applymovement LOCALID_HALL_OF_FAME_WALLACE, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 29 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	msgbox EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions, MSGBOX_DEFAULT
 # 30 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 31 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	applymovement LOCALID_WALLACE, EverGrandeCity_HallOfFame_Movement_WalkIntoHallOfFame2
 # 32 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, EverGrandeCity_HallOfFame_Movement_WalkIntoHallOfFame2
 # 33 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
+=======
+	applymovement LOCALID_HALL_OF_FAME_WALLACE, EverGrandeCity_HallOfFame_Movement_WalkIntoHallOfFame2
+	applymovement LOCALID_PLAYER, EverGrandeCity_HallOfFame_Movement_WalkIntoHallOfFame2
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 34 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	delay 20
+<<<<<<< HEAD
 # 35 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	applymovement LOCALID_WALLACE, Common_Movement_WalkInPlaceFasterRight
 # 36 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 # 37 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
+=======
+	applymovement LOCALID_HALL_OF_FAME_WALLACE, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 38 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	msgbox EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames, MSGBOX_DEFAULT
 # 39 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 40 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	applymovement LOCALID_WALLACE, Common_Movement_WalkInPlaceFasterUp
 # 41 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 # 42 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
+=======
+	applymovement LOCALID_HALL_OF_FAME_WALLACE, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 43 "data/maps/EverGrandeCity_HallOfFame/scripts.pory"
 	delay 20

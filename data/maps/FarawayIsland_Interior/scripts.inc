@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/FarawayIsland_Interior/scripts.pory"
 
 # 2 "data/maps/FarawayIsland_Interior/scripts.pory"
@@ -5,6 +6,8 @@
 # 3 "data/maps/FarawayIsland_Interior/scripts.pory"
 
 # 4 "data/maps/FarawayIsland_Interior/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 FarawayIsland_Interior_MapScripts::
 # 5 "data/maps/FarawayIsland_Interior/scripts.pory"
 	map_script MAP_SCRIPT_ON_RESUME, FarawayIsland_Interior_OnResume

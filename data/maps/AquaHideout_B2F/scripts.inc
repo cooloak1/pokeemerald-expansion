@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/AquaHideout_B2F/scripts.pory"
 
 # 2 "data/maps/AquaHideout_B2F/scripts.pory"
@@ -7,6 +8,8 @@
 # 4 "data/maps/AquaHideout_B2F/scripts.pory"
 
 # 5 "data/maps/AquaHideout_B2F/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 AquaHideout_B2F_MapScripts::
 # 6 "data/maps/AquaHideout_B2F/scripts.pory"
 	map_script MAP_SCRIPT_ON_TRANSITION, AquaHideout_B2F_OnTransition
@@ -34,9 +37,13 @@ AquaHideout_B2F_EventScript_PreventMattNoticing::
 AquaHideout_B2F_EventScript_MattNoticePlayer::
 # 18 "data/maps/AquaHideout_B2F/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 19 "data/maps/AquaHideout_B2F/scripts.pory"
 	setvar VAR_0x8008, LOCALID_MATT
 # 20 "data/maps/AquaHideout_B2F/scripts.pory"
+=======
+	setvar VAR_0x8008, LOCALID_AQUA_HIDEOUT_MATT
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	playse SE_PIN
 # 21 "data/maps/AquaHideout_B2F/scripts.pory"
 	applymovement VAR_0x8008, Common_Movement_ExclamationMark
@@ -68,11 +75,16 @@ AquaHideout_B2F_EventScript_Matt::
 
 # 35 "data/maps/AquaHideout_B2F/scripts.pory"
 AquaHideout_B2F_EventScript_SubmarineEscape::
+<<<<<<< HEAD
 # 36 "data/maps/AquaHideout_B2F/scripts.pory"
 	setvar VAR_0x8008, LOCALID_MATT
 # 37 "data/maps/AquaHideout_B2F/scripts.pory"
 	setvar VAR_0x8009, LOCALID_SUBMARINE
 # 38 "data/maps/AquaHideout_B2F/scripts.pory"
+=======
+	setvar VAR_0x8008, LOCALID_AQUA_HIDEOUT_MATT
+	setvar VAR_0x8009, LOCALID_AQUA_HIDEOUT_SUBMARINE
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	applymovement VAR_0x8008, Common_Movement_WalkInPlaceFasterLeft
 # 39 "data/maps/AquaHideout_B2F/scripts.pory"
 	waitmovement 0

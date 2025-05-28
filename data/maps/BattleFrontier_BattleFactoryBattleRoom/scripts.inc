@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 
 # 2 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
@@ -17,6 +18,12 @@
 # 9 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 .set LOCALID_PLAYER, 8
 # 10 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
+=======
+@ On this map the player will automatically walk into the room, but the camera is supposed to remain still.
+@ To do this GF sets the player (LOCALID_PLAYER) invisible and creates a fake player object (LOCALID_FACTORY_BATTLE_PLAYER).
+@ The graphics of this fake player object are represented with VAR_OBJ_GFX_ID_F.
+@ The graphics of the opponent are represented with VAR_OBJ_GFX_ID_0, which will ultimately be set by factory_setopponentgfx.
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 
 # 11 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryBattleRoom_MapScripts::
@@ -30,6 +37,7 @@ BattleFrontier_BattleFactoryBattleRoom_MapScripts::
 	.byte 0
 # 16 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 
+<<<<<<< HEAD
 # 17 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	@ On this map the player (OBJ_EVENT_ID_PLAYER) is hidden
 # 18 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
@@ -37,6 +45,8 @@ BattleFrontier_BattleFactoryBattleRoom_MapScripts::
 # 19 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 
 # 20 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 BattleFrontier_BattleFactoryBattleRoom_OnTransition:
 # 21 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	frontier_settrainers
@@ -60,9 +70,13 @@ BattleFrontier_BattleFactoryBattleRoom_OnTransition:
 BattleFrontier_BattleFactoryBattleRoom_EventScript_SetUpFactoryHeadObj::
 # 31 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	call BattleFrontier_EventScript_SetBrainObjectGfx
+<<<<<<< HEAD
 # 32 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	setobjectxyperm LOCALID_OPPONENT, 7, 9
 # 33 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
+=======
+	setobjectxyperm LOCALID_FACTORY_BATTLE_OPPONENT, 7, 9
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 34 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 
@@ -78,6 +92,7 @@ BattleFrontier_BattleFactoryBattleRoom_OnWarp:
 BattleFrontier_BattleFactoryBattleRoom_EventScript_HideObjects::
 # 40 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	setvar VAR_TEMP_1, 1
+<<<<<<< HEAD
 # 41 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_FACTORY_BATTLE_ROOM
 # 42 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
@@ -85,6 +100,11 @@ BattleFrontier_BattleFactoryBattleRoom_EventScript_HideObjects::
 # 43 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	hideobjectat LOCALID_OPPONENT, MAP_BATTLE_FRONTIER_BATTLE_FACTORY_BATTLE_ROOM
 # 44 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
+=======
+	hideobjectat LOCALID_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_FACTORY_BATTLE_ROOM
+	goto_if_ne VAR_TEMP_F, FRONTIER_BRAIN_NOT_READY, BattleFrontier_BattleFactoryBattleRoom_EventScript_EndHideObjects
+	hideobjectat LOCALID_FACTORY_BATTLE_OPPONENT, MAP_BATTLE_FRONTIER_BATTLE_FACTORY_BATTLE_ROOM
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 BattleFrontier_BattleFactoryBattleRoom_EventScript_EndHideObjects::
 # 45 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	end
@@ -120,6 +140,7 @@ BattleFrontier_BattleFactoryBattleRoom_EventScript_EnterRoomFactoryHeadBattle::
 	msgbox BattleFrontier_BattleFactoryBattleRoom_Text_GetAMoveOn, MSGBOX_DEFAULT
 # 61 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 62 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT, BattleFrontier_BattleFactoryBattleRoom_Movement_NolandMoveToBattle
 # 63 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
@@ -127,6 +148,11 @@ BattleFrontier_BattleFactoryBattleRoom_EventScript_EnterRoomFactoryHeadBattle::
 # 64 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattleFactoryBattleRoom_Movement_PlayerEnterRoom
 # 65 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_FACTORY_BATTLE_OPPONENT, BattleFrontier_BattleFactoryBattleRoom_Movement_NolandMoveToBattle
+	applymovement LOCALID_FACTORY_BATTLE_PLAYER, BattleFrontier_BattleFactoryBattleRoom_Movement_PlayerEnterRoom
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleFactoryBattleRoom_Movement_PlayerEnterRoom
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 66 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	call BattleFrontier_BattleFactoryBattleRoom_EventScript_ScientistsFaceBattle
@@ -140,16 +166,22 @@ BattleFrontier_BattleFactoryBattleRoom_EventScript_EnterRoomFactoryHeadBattle::
 BattleFrontier_BattleFactoryBattleRoom_EventScript_EnterRoom::
 # 71 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	goto_if_ne VAR_TEMP_F, FRONTIER_BRAIN_NOT_READY, BattleFrontier_BattleFactoryBattleRoom_EventScript_EnterRoomFactoryHeadBattle
+<<<<<<< HEAD
 # 72 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	applymovement LOCALID_PLAYER, BattleFrontier_BattleFactoryBattleRoom_Movement_PlayerEnterRoom
 # 73 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattleFactoryBattleRoom_Movement_PlayerEnterRoom
 # 74 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_FACTORY_BATTLE_PLAYER, BattleFrontier_BattleFactoryBattleRoom_Movement_PlayerEnterRoom
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleFactoryBattleRoom_Movement_PlayerEnterRoom
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 75 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	call BattleFrontier_BattleFactoryBattleRoom_EventScript_ScientistsFaceBattle
 # 76 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	factory_setopponentgfx
+<<<<<<< HEAD
 # 77 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	removeobject LOCALID_OPPONENT
 # 78 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
@@ -159,6 +191,12 @@ BattleFrontier_BattleFactoryBattleRoom_EventScript_EnterRoom::
 # 80 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT, BattleFrontier_BattleFactoryBattleRoom_Movement_OpponentEnter
 # 81 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
+=======
+	removeobject LOCALID_FACTORY_BATTLE_OPPONENT
+	setobjectxyperm LOCALID_FACTORY_BATTLE_OPPONENT, 7, 1
+	addobject LOCALID_FACTORY_BATTLE_OPPONENT
+	applymovement LOCALID_FACTORY_BATTLE_OPPONENT, BattleFrontier_BattleFactoryBattleRoom_Movement_OpponentEnter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 82 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryBattleRoom_EventScript_BattleOpponent::
@@ -280,9 +318,13 @@ BattleFrontier_BattleFactoryBattleRoom_EventScript_DefeatedNolandSilver::
 	msgbox BattleFrontier_BattleFactoryBattleRoom_Text_NolandLetsSeeFrontierPass, MSGBOX_DEFAULT
 # 141 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 142 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	applymovement LOCALID_PLAYER, BattleFrontier_BattleFactoryBattleRoom_Movement_PlayerApproachNoland
 # 143 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_FACTORY_BATTLE_PLAYER, BattleFrontier_BattleFactoryBattleRoom_Movement_PlayerApproachNoland
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 144 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	playfanfare MUS_OBTAIN_SYMBOL
@@ -332,9 +374,13 @@ BattleFrontier_BattleFactoryBattleRoom_EventScript_DefeatedNolandGold::
 	msgbox BattleFrontier_BattleFactoryBattleRoom_Text_OutOfMyLeagueLetsSeePass, MSGBOX_DEFAULT
 # 167 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	waitmessage
+<<<<<<< HEAD
 # 168 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	applymovement LOCALID_PLAYER, BattleFrontier_BattleFactoryBattleRoom_Movement_PlayerApproachNoland
 # 169 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_FACTORY_BATTLE_PLAYER, BattleFrontier_BattleFactoryBattleRoom_Movement_PlayerApproachNoland
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 170 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	playfanfare MUS_OBTAIN_SYMBOL
@@ -486,6 +532,7 @@ BattleFrontier_BattleFactoryBattleRoom_EventScript_WarpToLobbyDoubles::
 
 # 244 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 BattleFrontier_BattleFactoryBattleRoom_EventScript_ScientistsFaceBattle::
+<<<<<<< HEAD
 # 245 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	applymovement LOCALID_SCIENTIST_1, Common_Movement_WalkInPlaceFasterRight
 # 246 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
@@ -499,6 +546,14 @@ BattleFrontier_BattleFactoryBattleRoom_EventScript_ScientistsFaceBattle::
 # 250 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	applymovement LOCALID_SCIENTIST_6, Common_Movement_WalkInPlaceFasterLeft
 # 251 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_FACTORY_BATTLE_SCIENTIST_1, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_FACTORY_BATTLE_SCIENTIST_2, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_FACTORY_BATTLE_SCIENTIST_3, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_FACTORY_BATTLE_SCIENTIST_4, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_FACTORY_BATTLE_SCIENTIST_5, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_FACTORY_BATTLE_SCIENTIST_6, Common_Movement_WalkInPlaceFasterLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 252 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	return

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 
 # 2 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
@@ -11,6 +12,8 @@
 # 6 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 
 # 7 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 Route111_WinstrateFamilysHouse_MapScripts::
 # 8 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	.byte 0
@@ -22,9 +25,13 @@ Route111_WinstrateFamilysHouse_EventScript_Victor::
 	lock
 # 12 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	faceplayer
+<<<<<<< HEAD
 # 13 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	setvar VAR_0x8008, LOCALID_VICTOR
 # 14 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
+=======
+	setvar VAR_0x8008, LOCALID_WINSTRATE_HOUSE_VICTOR
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	msgbox Route111_WinstrateFamilysHouse_Text_MySonIsStrongerThanYou, MSGBOX_DEFAULT
 # 15 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	goto Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection
@@ -38,9 +45,13 @@ Route111_WinstrateFamilysHouse_EventScript_Victoria::
 	lock
 # 20 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	faceplayer
+<<<<<<< HEAD
 # 21 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	setvar VAR_0x8008, LOCALID_VICTORIA
 # 22 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
+=======
+	setvar VAR_0x8008, LOCALID_WINSTRATE_HOUSE_VICTORIA
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	goto_if_set FLAG_RECEIVED_MACHO_BRACE, Route111_WinstrateFamilysHouse_EventScript_ReceivedMachoBrace
 # 23 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	msgbox Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace, MSGBOX_DEFAULT
@@ -72,9 +83,13 @@ Route111_WinstrateFamilysHouse_EventScript_Vivi::
 	lock
 # 37 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	faceplayer
+<<<<<<< HEAD
 # 38 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	setvar VAR_0x8008, LOCALID_VIVI
 # 39 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
+=======
+	setvar VAR_0x8008, LOCALID_WINSTRATE_HOUSE_VIVI
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	msgbox Route111_WinstrateFamilysHouse_Text_StrongerFamilyMembers, MSGBOX_DEFAULT
 # 40 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	goto Route111_WinstrateFamilysHouse_EventScript_FaceOriginalDirection
@@ -88,9 +103,13 @@ Route111_WinstrateFamilysHouse_EventScript_Vicky::
 	lock
 # 45 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	faceplayer
+<<<<<<< HEAD
 # 46 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	setvar VAR_0x8008, LOCALID_VICKY
 # 47 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
+=======
+	setvar VAR_0x8008, LOCALID_WINSTRATE_HOUSE_VICKY
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	goto_if_set FLAG_TEMP_4, Route111_WinstrateFamilysHouse_EventScript_AlreadySpokenTo
 # 48 "data/maps/Route111_WinstrateFamilysHouse/scripts.pory"
 	msgbox Route111_WinstrateFamilysHouse_Text_GrandsonStrong, MSGBOX_DEFAULT

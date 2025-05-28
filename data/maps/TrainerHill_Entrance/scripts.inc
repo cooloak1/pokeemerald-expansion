@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/TrainerHill_Entrance/scripts.pory"
 
 # 2 "data/maps/TrainerHill_Entrance/scripts.pory"
@@ -11,6 +12,8 @@
 # 6 "data/maps/TrainerHill_Entrance/scripts.pory"
 
 # 7 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 TrainerHill_Entrance_MapScripts::
 # 8 "data/maps/TrainerHill_Entrance/scripts.pory"
 	map_script MAP_SCRIPT_ON_RESUME, TrainerHill_Entrance_OnResume
@@ -54,11 +57,16 @@ TrainerHill_Entrance_OnResume:
 	trainerhill_getusingereader
 # 28 "data/maps/TrainerHill_Entrance/scripts.pory"
 	goto_if_eq VAR_RESULT, FALSE, TrainerHill_Entrance_EventScript_TryFaceAttendant  @ VAR_RESULT always FALSE here
+<<<<<<< HEAD
 # 29 "data/maps/TrainerHill_Entrance/scripts.pory"
 	setobjectxy OBJ_EVENT_ID_PLAYER, 9, 6
 # 30 "data/maps/TrainerHill_Entrance/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, TrainerHill_Entrance_Movement_PlayerFaceAttendant
 # 31 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	setobjectxy LOCALID_PLAYER, 9, 6
+	applymovement LOCALID_PLAYER, TrainerHill_Entrance_Movement_PlayerFaceAttendant
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 32 "data/maps/TrainerHill_Entrance/scripts.pory"
 
@@ -68,9 +76,13 @@ TrainerHill_Entrance_EventScript_TryFaceAttendant::
 	trainerhill_getwon
 # 35 "data/maps/TrainerHill_Entrance/scripts.pory"
 	goto_if_eq VAR_RESULT, TRUE, TrainerHill_Entrance_EventScript_PlayerDontFaceAttendant
+<<<<<<< HEAD
 # 36 "data/maps/TrainerHill_Entrance/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, TrainerHill_Entrance_Movement_PlayerFaceAttendant
 # 37 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, TrainerHill_Entrance_Movement_PlayerFaceAttendant
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 38 "data/maps/TrainerHill_Entrance/scripts.pory"
 
@@ -82,6 +94,7 @@ TrainerHill_Entrance_EventScript_PlayerDontFaceAttendant::
 
 # 42 "data/maps/TrainerHill_Entrance/scripts.pory"
 TrainerHill_Entrance_OnReturn:
+<<<<<<< HEAD
 # 43 "data/maps/TrainerHill_Entrance/scripts.pory"
 	addobject LOCALID_NURSE
 # 44 "data/maps/TrainerHill_Entrance/scripts.pory"
@@ -91,6 +104,12 @@ TrainerHill_Entrance_OnReturn:
 # 46 "data/maps/TrainerHill_Entrance/scripts.pory"
 	addobject LOCALID_GIRL
 # 47 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	addobject LOCALID_TRAINER_HILL_NURSE
+	addobject LOCALID_TRAINER_HILL_ATTENDANT
+	addobject LOCALID_TRAINER_HILL_MAN
+	addobject LOCALID_TRAINER_HILL_GIRL
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 48 "data/maps/TrainerHill_Entrance/scripts.pory"
 
@@ -128,9 +147,13 @@ TrainerHill_Entrance_OnFrame:
 TrainerHill_Entrance_EventScript_ExitElevator::
 # 65 "data/maps/TrainerHill_Entrance/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 66 "data/maps/TrainerHill_Entrance/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, TrainerHill_Entrance_Movement_PlayerExitElevator
 # 67 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, TrainerHill_Entrance_Movement_PlayerExitElevator
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 68 "data/maps/TrainerHill_Entrance/scripts.pory"
 	setmetatile 17, 10, METATILE_TrainerHill_CounterDoor, TRUE
@@ -168,9 +191,13 @@ TrainerHill_Entrance_EventScript_ExitChallenge::
 TrainerHill_Entrance_EventScript_ExitChallengeLost::
 # 85 "data/maps/TrainerHill_Entrance/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 86 "data/maps/TrainerHill_Entrance/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, TrainerHill_Entrance_Movement_PlayerFaceAttendant
 # 87 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, TrainerHill_Entrance_Movement_PlayerFaceAttendant
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	msgbox TrainerHill_Entrance_Text_TooBadTremendousEffort, MSGBOX_DEFAULT
 # 88 "data/maps/TrainerHill_Entrance/scripts.pory"
 	goto TrainerHill_Entrance_EventScript_PlayerExitChallenge
@@ -180,17 +207,25 @@ TrainerHill_Entrance_EventScript_ExitChallengeLost::
 TrainerHill_Entrance_EventScript_ExitChallengeECard::
 # 91 "data/maps/TrainerHill_Entrance/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 92 "data/maps/TrainerHill_Entrance/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, TrainerHill_Entrance_Movement_PlayerFaceAttendant
 # 93 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, TrainerHill_Entrance_Movement_PlayerFaceAttendant
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	msgbox TrainerHill_Entrance_Text_MovedReceptionHereForSwitch, MSGBOX_DEFAULT
 # 94 "data/maps/TrainerHill_Entrance/scripts.pory"
 TrainerHill_Entrance_EventScript_PlayerExitChallenge::
 # 95 "data/maps/TrainerHill_Entrance/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 96 "data/maps/TrainerHill_Entrance/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, TrainerHill_Entrance_Movement_PushPlayerBackFromCounter
 # 97 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, TrainerHill_Entrance_Movement_PushPlayerBackFromCounter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 98 "data/maps/TrainerHill_Entrance/scripts.pory"
 	setvar VAR_TRAINER_HILL_IS_ACTIVE, 0
@@ -208,9 +243,13 @@ TrainerHill_Entrance_EventScript_EndExitChallenge::
 
 # 105 "data/maps/TrainerHill_Entrance/scripts.pory"
 TrainerHill_Entrance_EventScript_Nurse::
+<<<<<<< HEAD
 # 106 "data/maps/TrainerHill_Entrance/scripts.pory"
 	setvar VAR_0x800B, LOCALID_NURSE
 # 107 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	setvar VAR_0x800B, LOCALID_TRAINER_HILL_NURSE
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	call Common_EventScript_PkmnCenterNurse
 # 108 "data/maps/TrainerHill_Entrance/scripts.pory"
 	waitmessage
@@ -254,9 +293,13 @@ TrainerHill_Entrance_EventScript_AttendantEnd::
 TrainerHill_Entrance_EventScript_EntryTrigger::
 # 128 "data/maps/TrainerHill_Entrance/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 129 "data/maps/TrainerHill_Entrance/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, TrainerHill_Entrance_Movement_PlayerFaceAttendant
 # 130 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, TrainerHill_Entrance_Movement_PlayerFaceAttendant
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	goto_if_unset FLAG_SYS_GAME_CLEAR, TrainerHill_Entrance_EventScript_Closed
 # 131 "data/maps/TrainerHill_Entrance/scripts.pory"
 	msgbox TrainerHill_Entrance_Text_WelcomeToTrainerHill, MSGBOX_DEFAULT
@@ -348,9 +391,13 @@ TrainerHill_Entrance_EventScript_CancelEntry::
 	msgbox TrainerHill_Entrance_Text_PleaseVisitUsAgain, MSGBOX_DEFAULT
 # 175 "data/maps/TrainerHill_Entrance/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 176 "data/maps/TrainerHill_Entrance/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, TrainerHill_Entrance_Movement_PushPlayerBackFromCounter
 # 177 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, TrainerHill_Entrance_Movement_PushPlayerBackFromCounter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 178 "data/maps/TrainerHill_Entrance/scripts.pory"
 	releaseall
@@ -392,9 +439,13 @@ TrainerHill_Entrance_EventScript_Closed::
 	msgbox TrainerHill_Entrance_Text_StillGettingReady, MSGBOX_DEFAULT
 # 197 "data/maps/TrainerHill_Entrance/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 198 "data/maps/TrainerHill_Entrance/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, TrainerHill_Entrance_Movement_PushPlayerBackFromCounter
 # 199 "data/maps/TrainerHill_Entrance/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, TrainerHill_Entrance_Movement_PushPlayerBackFromCounter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 200 "data/maps/TrainerHill_Entrance/scripts.pory"
 	releaseall

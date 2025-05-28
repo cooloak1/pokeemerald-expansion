@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 
 # 2 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
@@ -13,6 +14,8 @@
 # 7 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 
 # 8 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 Route110_TrickHousePuzzle5_MapScripts::
 # 9 "data/maps/Route110_TrickHousePuzzle5/scripts.pory"
 	map_script MAP_SCRIPT_ON_TRANSITION, Route110_TrickHousePuzzle5_OnTransition

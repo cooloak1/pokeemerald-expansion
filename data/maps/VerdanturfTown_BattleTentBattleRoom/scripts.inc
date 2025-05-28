@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 
 # 2 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
@@ -9,6 +10,12 @@
 # 5 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 
 # 6 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
+=======
+@ On this map the player will automatically walk into the room, but the camera is supposed to remain still.
+@ To do this GF sets the player (LOCALID_PLAYER) invisible and creates a fake player object (LOCALID_VERDANTURF_TENT_BATTLE_PLAYER).
+@ The graphics of this fake player object are represented with VAR_OBJ_GFX_ID_1.
+@ The graphics of the opponent are represented with VAR_OBJ_GFX_ID_0, which will ultimately be set by tower_setopponent.
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 VerdanturfTown_BattleTentBattleRoom_MapScripts::
 # 7 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	map_script MAP_SCRIPT_ON_TRANSITION, VerdanturfTown_BattleTentBattleRoom_OnTransition
@@ -20,6 +27,7 @@ VerdanturfTown_BattleTentBattleRoom_MapScripts::
 	.byte 0
 # 11 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 
+<<<<<<< HEAD
 # 12 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	@ On this map the player (OBJ_EVENT_ID_PLAYER) is hidden
 # 13 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
@@ -29,6 +37,8 @@ VerdanturfTown_BattleTentBattleRoom_MapScripts::
 # 15 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 
 # 16 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 VerdanturfTown_BattleTentBattleRoom_OnTransition:
 # 17 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	call VerdanturfTown_BattleTentBattleRoom_EventScript_SetPlayerGfx
@@ -78,11 +88,16 @@ VerdanturfTown_BattleTentBattleRoom_OnFrame:
 
 # 40 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 VerdanturfTown_BattleTentBattleRoom_EventScript_EnterRoom::
+<<<<<<< HEAD
 # 41 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	showobjectat LOCALID_PLAYER, MAP_VERDANTURF_TOWN_BATTLE_TENT_BATTLE_ROOM
 # 42 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	applymovement LOCALID_PLAYER, VerdanturfTown_BattleTentBattleRoom_Movement_PlayerEnter
 # 43 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
+=======
+	showobjectat LOCALID_VERDANTURF_TENT_BATTLE_PLAYER, MAP_VERDANTURF_TOWN_BATTLE_TENT_BATTLE_ROOM
+	applymovement LOCALID_VERDANTURF_TENT_BATTLE_PLAYER, VerdanturfTown_BattleTentBattleRoom_Movement_PlayerEnter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 44 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	frontier_get FRONTIER_DATA_BATTLE_NUM
@@ -92,11 +107,16 @@ VerdanturfTown_BattleTentBattleRoom_EventScript_EnterRoom::
 VerdanturfTown_BattleTentBattleRoom_EventScript_NextOpponentEnter::
 # 47 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	tower_setopponent
+<<<<<<< HEAD
 # 48 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	addobject LOCALID_OPPONENT
 # 49 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT, VerdanturfTown_BattleTentBattleRoom_Movement_OpponentEnter
 # 50 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
+=======
+	addobject LOCALID_VERDANTURF_TENT_BATTLE_OPPONENT
+	applymovement LOCALID_VERDANTURF_TENT_BATTLE_OPPONENT, VerdanturfTown_BattleTentBattleRoom_Movement_OpponentEnter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 51 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	battletent_getopponentintro
@@ -134,6 +154,7 @@ VerdanturfTown_BattleTentBattleRoom_EventScript_DefeatedOpponent::
 	switch VAR_RESULT
 # 68 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	case 3, VerdanturfTown_BattleTentBattleRoom_EventScript_WarpToLobbyWon
+<<<<<<< HEAD
 # 69 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT, VerdanturfTown_BattleTentBattleRoom_Movement_OpponentExit
 # 70 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
@@ -145,6 +166,13 @@ VerdanturfTown_BattleTentBattleRoom_EventScript_DefeatedOpponent::
 # 73 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 # 74 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_VERDANTURF_TENT_BATTLE_OPPONENT, VerdanturfTown_BattleTentBattleRoom_Movement_OpponentExit
+	waitmovement 0
+	removeobject LOCALID_VERDANTURF_TENT_BATTLE_OPPONENT
+	applymovement LOCALID_VERDANTURF_TENT_BATTLE_ATTENDANT, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_VERDANTURF_TENT_BATTLE_PLAYER, Common_Movement_WalkInPlaceFasterUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 75 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	msgbox BattleFrontier_BattlePalaceBattleRoom_Text_LetMeRestoreYourMons, MSGBOX_DEFAULT
@@ -216,11 +244,16 @@ VerdanturfTown_BattleTentBattleRoom_EventScript_AskRetireChallenge::
 
 # 109 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 VerdanturfTown_BattleTentBattleRoom_EventScript_ContinueChallenge::
+<<<<<<< HEAD
 # 110 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	applymovement LOCALID_ATTENDANT, Common_Movement_WalkInPlaceFasterRight
 # 111 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 # 112 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_VERDANTURF_TENT_BATTLE_ATTENDANT, Common_Movement_WalkInPlaceFasterRight
+	applymovement LOCALID_VERDANTURF_TENT_BATTLE_PLAYER, Common_Movement_WalkInPlaceFasterRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 113 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	closemessage
@@ -270,17 +303,26 @@ VerdanturfTown_BattleTentBattleRoom_OnWarp:
 
 # 136 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 VerdanturfTown_BattleTentBattleRoom_EventScript_SetUpObjects::
+<<<<<<< HEAD
 # 137 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	hideobjectat LOCALID_PLAYER, MAP_VERDANTURF_TOWN_BATTLE_TENT_BATTLE_ROOM
 # 138 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
+=======
+	hideobjectat LOCALID_VERDANTURF_TENT_BATTLE_PLAYER, MAP_VERDANTURF_TOWN_BATTLE_TENT_BATTLE_ROOM
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	call VerdanturfTown_BattleTentBattleRoom_EventScript_SetPlayerGfx
 # 139 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	setvar VAR_TEMP_1, 1
+<<<<<<< HEAD
 # 140 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, VerdanturfTown_BattleTentBattleRoom_Movement_SetInvisible
 # 141 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	removeobject LOCALID_OPPONENT
 # 142 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, VerdanturfTown_BattleTentBattleRoom_Movement_SetInvisible
+	removeobject LOCALID_VERDANTURF_TENT_BATTLE_OPPONENT
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 143 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 

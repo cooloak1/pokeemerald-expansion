@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 
 # 2 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
@@ -5,6 +6,8 @@
 # 3 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 
 # 4 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 BattleFrontier_BattlePikeThreePathRoom_MapScripts::
 # 5 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_BattlePikeRoom_OnResume
@@ -44,9 +47,13 @@ BattleFrontier_BattlePikeThreePathRoom_OnWarp:
 BattleFrontier_BattlePikeThreePathRoom_EventScript_TurnPlayerNorth::
 # 23 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 	setvar VAR_TEMP_4, 1
+<<<<<<< HEAD
 # 24 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 # 25 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+=======
+	turnobject LOCALID_PLAYER, DIR_NORTH
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 26 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 
@@ -324,9 +331,13 @@ BattleFrontier_BattlePikeThreePathRoom_EventScript_SetPikeQueenHint::
 
 # 163 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 BattleFrontier_BattlePikeThreePathRoom_EventScript_GivePikeQueenHint::
+<<<<<<< HEAD
 # 164 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 	applymovement LOCALID_HINT_GIVER, BattleFrontier_BattlePikeThreePathRoom_Movement_HintGiverApproachPlayer
 # 165 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+=======
+	applymovement LOCALID_PIKE_HINT_GIVER, BattleFrontier_BattlePikeThreePathRoom_Movement_HintGiverApproachPlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 166 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 	lockall
@@ -334,9 +345,13 @@ BattleFrontier_BattlePikeThreePathRoom_EventScript_GivePikeQueenHint::
 	msgbox BattleFrontier_BattlePikeThreePathRoom_Text_TerrifyingEvent, MSGBOX_DEFAULT
 # 168 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 	releaseall
+<<<<<<< HEAD
 # 169 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 	applymovement LOCALID_HINT_GIVER, BattleFrontier_BattlePikeThreePathRoom_Movement_HintGiverReturnToPos
 # 170 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
+=======
+	applymovement LOCALID_PIKE_HINT_GIVER, BattleFrontier_BattlePikeThreePathRoom_Movement_HintGiverReturnToPos
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 171 "data/maps/BattleFrontier_BattlePikeThreePathRoom/scripts.pory"
 	setvar VAR_TEMP_5, 255

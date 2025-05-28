@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 
 # 2 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
@@ -23,6 +24,8 @@
 # 12 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 
 # 13 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 MossdeepCity_SpaceCenter_2F_MapScripts::
 # 14 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	map_script MAP_SCRIPT_ON_TRANSITION, MossdeepCity_SpaceCenter_2F_OnTransition
@@ -46,6 +49,7 @@ MossdeepCity_SpaceCenter_2F_OnTransition:
 MossdeepCity_SpaceCenter_2F_EventScript_MoveCivilians::
 # 24 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	clearflag FLAG_INTERACTED_WITH_STEVEN_SPACE_CENTER
+<<<<<<< HEAD
 # 25 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	setobjectxyperm LOCALID_SCIENTIST, 5, 3
 # 26 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
@@ -59,11 +63,20 @@ MossdeepCity_SpaceCenter_2F_EventScript_MoveCivilians::
 # 30 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	setobjectmovementtype LOCALID_GENTLEMAN, MOVEMENT_TYPE_FACE_RIGHT
 # 31 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
+=======
+	setobjectxyperm LOCALID_SPACE_CENTER_2F_SCIENTIST, 5, 3
+	setobjectmovementtype LOCALID_SPACE_CENTER_2F_SCIENTIST, MOVEMENT_TYPE_FACE_RIGHT
+	setobjectxyperm LOCALID_SPACE_CENTER_2F_RICH_BOY, 3, 2
+	setobjectmovementtype LOCALID_SPACE_CENTER_2F_RICH_BOY, MOVEMENT_TYPE_FACE_RIGHT
+	setobjectxyperm LOCALID_SPACE_CENTER_2F_GENTLEMAN, 1, 3
+	setobjectmovementtype LOCALID_SPACE_CENTER_2F_GENTLEMAN, MOVEMENT_TYPE_FACE_RIGHT
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 32 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 
 # 33 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 MossdeepCity_SpaceCenter_2F_EventScript_MoveDefeatedGrunts::
+<<<<<<< HEAD
 # 34 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	setobjectxyperm LOCALID_GRUNT_6, 11, 2
 # 35 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
@@ -71,6 +84,11 @@ MossdeepCity_SpaceCenter_2F_EventScript_MoveDefeatedGrunts::
 # 36 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	setobjectxyperm LOCALID_GRUNT_5, 13, 4
 # 37 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
+=======
+	setobjectxyperm LOCALID_SPACE_CENTER_GRUNT_6, 11, 2
+	setobjectxyperm LOCALID_SPACE_CENTER_GRUNT_7, 15, 2
+	setobjectxyperm LOCALID_SPACE_CENTER_GRUNT_5, 13, 4
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 38 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 
@@ -86,6 +104,7 @@ MossdeepCity_SpaceCenter_2F_OnFrame:
 MossdeepCity_SpaceCenter_2F_EventScript_ThreeMagmaGrunts::
 # 44 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	playse SE_PIN
+<<<<<<< HEAD
 # 45 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_ExclamationMark
 # 46 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
@@ -93,6 +112,11 @@ MossdeepCity_SpaceCenter_2F_EventScript_ThreeMagmaGrunts::
 # 47 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_Delay48
 # 48 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_PLAYER, Common_Movement_Delay48
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 49 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	msgbox MossdeepCity_SpaceCenter_2F_Text_YoureOutnumberedTakeUsOn, MSGBOX_YESNO
@@ -102,9 +126,13 @@ MossdeepCity_SpaceCenter_2F_EventScript_ThreeMagmaGrunts::
 	msgbox MossdeepCity_SpaceCenter_2F_Text_GoodAnswer, MSGBOX_DEFAULT
 # 52 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 53 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, MossdeepCity_SpaceCenter_2F_Movement_PlayerExit
 # 54 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, MossdeepCity_SpaceCenter_2F_Movement_PlayerExit
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 55 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	warp MAP_MOSSDEEP_CITY_SPACE_CENTER_1F, 13, 1
@@ -130,6 +158,7 @@ MossdeepCity_SpaceCenter_2F_EventScript_BattleThreeMagmaGrunts::
 	msgbox MossdeepCity_SpaceCenter_2F_Text_Grunt5Intro, MSGBOX_DEFAULT
 # 66 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	trainerbattle_no_intro TRAINER_GRUNT_SPACE_CENTER_5, MossdeepCity_SpaceCenter_2F_Text_Grunt5Defeat
+<<<<<<< HEAD
 # 67 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	applymovement LOCALID_GRUNT_5, MossdeepCity_SpaceCenter_2F_Movement_Grunt5Defeated
 # 68 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
@@ -137,11 +166,17 @@ MossdeepCity_SpaceCenter_2F_EventScript_BattleThreeMagmaGrunts::
 # 69 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 # 70 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
+=======
+	applymovement LOCALID_SPACE_CENTER_GRUNT_5, MossdeepCity_SpaceCenter_2F_Movement_Grunt5Defeated
+	waitmovement 0
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 71 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	msgbox MossdeepCity_SpaceCenter_2F_Text_Grunt6Intro, MSGBOX_DEFAULT
 # 72 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	trainerbattle_no_intro TRAINER_GRUNT_SPACE_CENTER_6, MossdeepCity_SpaceCenter_2F_Text_Grunt6Defeat
+<<<<<<< HEAD
 # 73 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	applymovement LOCALID_GRUNT_6, MossdeepCity_SpaceCenter_2F_Movement_Grunt6Defeated
 # 74 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
@@ -149,17 +184,27 @@ MossdeepCity_SpaceCenter_2F_EventScript_BattleThreeMagmaGrunts::
 # 75 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 # 76 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
+=======
+	applymovement LOCALID_SPACE_CENTER_GRUNT_6, MossdeepCity_SpaceCenter_2F_Movement_Grunt6Defeated
+	waitmovement 0
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 77 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	msgbox MossdeepCity_SpaceCenter_2F_Text_Grunt7Intro, MSGBOX_DEFAULT
 # 78 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	trainerbattle_no_intro TRAINER_GRUNT_SPACE_CENTER_7, MossdeepCity_SpaceCenter_2F_Text_Grunt7Defeat
+<<<<<<< HEAD
 # 79 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	applymovement LOCALID_GRUNT_7, MossdeepCity_SpaceCenter_2F_Movement_Grunt7Defeated
 # 80 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
+=======
+	applymovement LOCALID_SPACE_CENTER_GRUNT_7, MossdeepCity_SpaceCenter_2F_Movement_Grunt7Defeated
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 81 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	setvar VAR_MOSSDEEP_SPACE_CENTER_STATE, 2
+<<<<<<< HEAD
 # 82 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	copyobjectxytoperm LOCALID_GRUNT_6
 # 83 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
@@ -167,6 +212,11 @@ MossdeepCity_SpaceCenter_2F_EventScript_BattleThreeMagmaGrunts::
 # 84 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	copyobjectxytoperm LOCALID_GRUNT_5
 # 85 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
+=======
+	copyobjectxytoperm LOCALID_SPACE_CENTER_GRUNT_6
+	copyobjectxytoperm LOCALID_SPACE_CENTER_GRUNT_7
+	copyobjectxytoperm LOCALID_SPACE_CENTER_GRUNT_5
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	releaseall
 # 86 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	end
@@ -400,9 +450,13 @@ MossdeepCity_SpaceCenter_2F_EventScript_Steven::
 	switch VAR_FACING
 # 201 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	case DIR_SOUTH, MossdeepCity_SpaceCenter_2F_EventScript_StevenFightMovementSouth
+<<<<<<< HEAD
 # 202 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	applymovement LOCALID_STEVEN, MossdeepCity_SpaceCenter_2F_Movement_StevenFight
 # 203 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
+=======
+	applymovement LOCALID_SPACE_CENTER_2F_STEVEN, MossdeepCity_SpaceCenter_2F_Movement_StevenFight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 204 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	releaseall
@@ -412,9 +466,13 @@ MossdeepCity_SpaceCenter_2F_EventScript_Steven::
 
 # 207 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 MossdeepCity_SpaceCenter_2F_EventScript_StevenFightMovementSouth::
+<<<<<<< HEAD
 # 208 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	applymovement LOCALID_STEVEN, MossdeepCity_SpaceCenter_2F_Movement_StevenFightSouth
 # 209 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
+=======
+	applymovement LOCALID_SPACE_CENTER_2F_STEVEN, MossdeepCity_SpaceCenter_2F_Movement_StevenFightSouth
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 210 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	releaseall
@@ -540,19 +598,29 @@ MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha::
 	closemessage
 # 271 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	delay 20
+<<<<<<< HEAD
 # 272 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	applymovement LOCALID_MAXIE, Common_Movement_WalkInPlaceFasterLeft
 # 273 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	applymovement LOCALID_TABITHA, Common_Movement_WalkInPlaceFasterDown
 # 274 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
+=======
+	applymovement LOCALID_SPACE_CENTER_MAXIE, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_SPACE_CENTER_TABITHA, Common_Movement_WalkInPlaceFasterDown
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 275 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	delay 60
+<<<<<<< HEAD
 # 276 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	applymovement LOCALID_MAXIE, Common_Movement_WalkInPlaceFasterUp
 # 277 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	applymovement LOCALID_TABITHA, Common_Movement_WalkInPlaceFasterRight
 # 278 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
+=======
+	applymovement LOCALID_SPACE_CENTER_MAXIE, Common_Movement_WalkInPlaceFasterUp
+	applymovement LOCALID_SPACE_CENTER_TABITHA, Common_Movement_WalkInPlaceFasterRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 279 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	delay 20
@@ -568,6 +636,7 @@ MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha::
 	fadescreen FADE_TO_BLACK
 # 285 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	setvar VAR_MOSSDEEP_SPACE_CENTER_STATE, 3
+<<<<<<< HEAD
 # 286 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	setflag FLAG_HOENN_4
 # 287 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
@@ -597,6 +666,22 @@ MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha::
 # 299 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	turnobject LOCALID_RICH_BOY, DIR_NORTH
 # 300 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
+=======
+	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA
+	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA
+	setflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA
+	removeobject LOCALID_SPACE_CENTER_GRUNT_6
+	removeobject LOCALID_SPACE_CENTER_GRUNT_7
+	removeobject LOCALID_SPACE_CENTER_GRUNT_5
+	removeobject LOCALID_SPACE_CENTER_TABITHA
+	removeobject LOCALID_SPACE_CENTER_MAXIE
+	setobjectxy LOCALID_SPACE_CENTER_2F_SCIENTIST, 5, 6
+	turnobject LOCALID_SPACE_CENTER_2F_SCIENTIST, DIR_SOUTH
+	setobjectxy LOCALID_SPACE_CENTER_2F_GENTLEMAN, 11, 8
+	turnobject LOCALID_SPACE_CENTER_2F_GENTLEMAN, DIR_NORTH
+	setobjectxy LOCALID_SPACE_CENTER_2F_RICH_BOY, 6, 2
+	turnobject LOCALID_SPACE_CENTER_2F_RICH_BOY, DIR_NORTH
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	call MossdeepCity_SpaceCenter_2F_EventScript_StevenFacePlayer
 # 301 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	fadescreen FADE_FROM_BLACK
@@ -608,6 +693,7 @@ MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha::
 	fadescreen FADE_TO_BLACK
 # 305 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	setflag FLAG_DEFEATED_MAGMA_SPACE_CENTER
+<<<<<<< HEAD
 # 306 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	setflag FLAG_HOENN_2
 # 307 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
@@ -629,6 +715,18 @@ MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha::
 # 315 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	addobject LOCALID_SCIENTIST
 # 316 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
+=======
+	setflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN
+	removeobject LOCALID_SPACE_CENTER_2F_STEVEN
+	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
+	clearflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN
+	setvar VAR_STEVENS_HOUSE_STATE, 1
+	setflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT
+	removeobject LOCALID_SPACE_CENTER_2F_SCIENTIST
+	setobjectxyperm LOCALID_SPACE_CENTER_2F_SCIENTIST, 5, 6
+	setobjectmovementtype LOCALID_SPACE_CENTER_2F_SCIENTIST, MOVEMENT_TYPE_WANDER_AROUND
+	addobject LOCALID_SPACE_CENTER_2F_SCIENTIST
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	fadescreen FADE_FROM_BLACK
 # 317 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 #ifdef BUGFIX
@@ -654,17 +752,25 @@ MossdeepCity_SpaceCenter_2F_EventScript_StevenFacePlayer::
 
 # 328 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 MossdeepCity_SpaceCenter_2F_EventScript_StevenFacePlayerSouth::
+<<<<<<< HEAD
 # 329 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	turnobject LOCALID_STEVEN, DIR_NORTH
 # 330 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
+=======
+	turnobject LOCALID_SPACE_CENTER_2F_STEVEN, DIR_NORTH
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 331 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 
 # 332 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 MossdeepCity_SpaceCenter_2F_EventScript_StevenFacePlayerWest::
+<<<<<<< HEAD
 # 333 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	turnobject LOCALID_STEVEN, DIR_EAST
 # 334 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
+=======
+	turnobject LOCALID_SPACE_CENTER_2F_STEVEN, DIR_EAST
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 335 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 

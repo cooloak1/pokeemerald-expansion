@@ -60,9 +60,13 @@ EverGrandeCity_SidneysRoom_OnWarp:
 
 # 31 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"
 EverGrandeCity_SidneysRoom_EventScript_PlayerTurnNorth::
+<<<<<<< HEAD
 # 32 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 # 33 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"
+=======
+	turnobject LOCALID_PLAYER, DIR_NORTH
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 34 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"
 

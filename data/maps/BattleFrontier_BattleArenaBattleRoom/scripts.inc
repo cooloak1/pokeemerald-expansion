@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 
 # 2 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
@@ -19,6 +20,12 @@
 # 10 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 
 # 11 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+@ On this map the player will automatically walk into the room, but the camera is supposed to remain still.
+@ To do this GF sets the player (LOCALID_PLAYER) invisible and creates a fake player object (LOCALID_ARENA_BATTLE_PLAYER).
+@ The graphics of this fake player object are represented with VAR_OBJ_GFX_ID_1.
+@ The graphics of the opponent are represented with VAR_OBJ_GFX_ID_0, which will ultimately be set by tower_setopponent.
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 BattleFrontier_BattleArenaBattleRoom_MapScripts::
 # 12 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	map_script MAP_SCRIPT_ON_TRANSITION, BattleFrontier_BattleArenaBattleRoom_OnTransition
@@ -32,6 +39,7 @@ BattleFrontier_BattleArenaBattleRoom_MapScripts::
 	.byte 0
 # 17 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 
+<<<<<<< HEAD
 # 18 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	@ On this map the player (OBJ_EVENT_ID_PLAYER) is hidden
 # 19 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
@@ -39,6 +47,8 @@ BattleFrontier_BattleArenaBattleRoom_MapScripts::
 # 20 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 
 # 21 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 BattleFrontier_BattleArenaBattleRoom_OnResume:
 # 22 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	special OffsetCameraForBattle
@@ -96,21 +106,31 @@ BattleFrontier_BattleArenaBattleRoom_OnFrame:
 BattleFrontier_BattleArenaBattleRoom_EventScript_EnterRoom::
 # 49 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 50 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	showobjectat LOCALID_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_ARENA_BATTLE_ROOM
 # 51 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_PLAYER, BattleFrontier_BattleArenaBattleRoom_Movement_PlayerEnter
 # 52 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	showobjectat LOCALID_ARENA_BATTLE_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_ARENA_BATTLE_ROOM
+	applymovement LOCALID_ARENA_BATTLE_PLAYER, BattleFrontier_BattleArenaBattleRoom_Movement_PlayerEnter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 53 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	frontier_get FRONTIER_DATA_BATTLE_NUM
 # 54 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleArenaBattleRoom_EventScript_AnnounceTrainers
+<<<<<<< HEAD
 # 55 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_ATTENDANT, BattleFrontier_BattleArenaBattleRoom_Movement_WalkInPlaceDown
 # 56 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_PLAYER, BattleFrontier_BattleArenaBattleRoom_Movement_WalkInPlaceLeft
 # 57 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_BATTLE_ATTENDANT, BattleFrontier_BattleArenaBattleRoom_Movement_WalkInPlaceDown
+	applymovement LOCALID_ARENA_BATTLE_PLAYER, BattleFrontier_BattleArenaBattleRoom_Movement_WalkInPlaceLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	setvar VAR_TEMP_2, 1
 # 58 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	frontier_set FRONTIER_DATA_RECORD_DISABLED, TRUE
@@ -122,6 +142,7 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_EnterRoom::
 BattleFrontier_BattleArenaBattleRoom_EventScript_AnnounceTrainers::
 # 62 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	tower_setopponent
+<<<<<<< HEAD
 # 63 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	addobject LOCALID_OPPONENT
 # 64 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
@@ -131,6 +152,12 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_AnnounceTrainers::
 # 66 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_ANNOUNCER, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceDown
 # 67 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	addobject LOCALID_ARENA_BATTLE_OPPONENT
+	applymovement LOCALID_ARENA_BATTLE_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_OpponentEnter
+	waitmovement 0
+	applymovement LOCALID_ARENA_BATTLE_ANNOUNCER, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceDown
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	playse SE_M_BELLY_DRUM
 # 68 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	waitse
@@ -140,6 +167,7 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_AnnounceTrainers::
 	msgbox BattleFrontier_BattleArenaBattleRoom_Text_PlayerStepForward, MSGBOX_DEFAULT
 # 71 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 72 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_PLAYER, BattleFrontier_BattleArenaBattleRoom_Movement_PlayerStepForward
 # 73 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
@@ -147,6 +175,11 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_AnnounceTrainers::
 # 74 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_ANNOUNCER, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceDown
 # 75 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_BATTLE_PLAYER, BattleFrontier_BattleArenaBattleRoom_Movement_PlayerStepForward
+	waitmovement 0
+	applymovement LOCALID_ARENA_BATTLE_ANNOUNCER, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceDown
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	playse SE_M_BELLY_DRUM
 # 76 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	waitse
@@ -158,6 +191,7 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_AnnounceTrainers::
 	msgbox BattleFrontier_BattleArenaBattleRoom_Text_OpponentStepForward, MSGBOX_DEFAULT
 # 80 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 81 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_OpponentStepForward
 # 82 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
@@ -165,6 +199,11 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_AnnounceTrainers::
 # 83 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_ANNOUNCER, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceDown
 # 84 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_BATTLE_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_OpponentStepForward
+	waitmovement 0
+	applymovement LOCALID_ARENA_BATTLE_ANNOUNCER, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceDown
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	playse SE_M_BELLY_DRUM
 # 85 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	waitse
@@ -174,11 +213,16 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_AnnounceTrainers::
 	msgbox BattleFrontier_BattleArenaBattleRoom_Text_SetKOTourneyBegin, MSGBOX_DEFAULT
 # 88 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 89 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_PLAYER, BattleFrontier_BattleArenaBattleRoom_Movement_PlayerStepForward
 # 90 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_OpponentStepForward
 # 91 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_BATTLE_PLAYER, BattleFrontier_BattleArenaBattleRoom_Movement_PlayerStepForward
+	applymovement LOCALID_ARENA_BATTLE_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_OpponentStepForward
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 92 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	palace_getopponentintro
@@ -194,6 +238,7 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_AnnounceTrainers::
 	case 1, BattleFrontier_BattleArenaBattleRoom_EventScript_DefeatedOpponent
 # 98 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_EventScript_DeclareOpponentWinner::
+<<<<<<< HEAD
 # 99 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_ANNOUNCER, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceDown
 # 100 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
@@ -205,6 +250,13 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_DeclareOpponentWinner::
 # 103 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_BLACK_BELT_4, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceUp
 # 104 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_BATTLE_ANNOUNCER, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceDown
+	applymovement LOCALID_ARENA_BATTLE_BLACK_BELT_1, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceDown
+	applymovement LOCALID_ARENA_BATTLE_BLACK_BELT_2, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceDown
+	applymovement LOCALID_ARENA_BATTLE_BLACK_BELT_3, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceUp
+	applymovement LOCALID_ARENA_BATTLE_BLACK_BELT_4, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	playse SE_M_SNORE
 # 105 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	waitse
@@ -238,6 +290,7 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_DefeatedOpponent::
 	switch VAR_RESULT
 # 120 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	case 7, BattleFrontier_BattleArenaBattleRoom_EventScript_ReturnToLobbyWon
+<<<<<<< HEAD
 # 121 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_PLAYER, BattleFrontier_BattleArenaBattleRoom_Movement_PlayerWalkBackToLine
 # 122 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
@@ -251,6 +304,14 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_DefeatedOpponent::
 # 126 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_PLAYER, BattleFrontier_BattleArenaBattleRoom_Movement_WalkInPlaceLeft
 # 127 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_BATTLE_PLAYER, BattleFrontier_BattleArenaBattleRoom_Movement_PlayerWalkBackToLine
+	applymovement LOCALID_ARENA_BATTLE_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_OpponentExit
+	waitmovement 0
+	removeobject LOCALID_ARENA_BATTLE_OPPONENT
+	applymovement LOCALID_ARENA_BATTLE_ATTENDANT, BattleFrontier_BattleArenaBattleRoom_Movement_WalkInPlaceDown
+	applymovement LOCALID_ARENA_BATTLE_PLAYER, BattleFrontier_BattleArenaBattleRoom_Movement_WalkInPlaceLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 128 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	msgbox BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored, MSGBOX_DEFAULT
@@ -386,11 +447,16 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_AskRetireChallenge::
 BattleFrontier_BattleArenaBattleRoom_EventScript_ContinueChallenge::
 # 194 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 195 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_PLAYER, BattleFrontier_BattleArenaBattleRoom_Movement_WalkInPlaceRight
 # 196 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_ATTENDANT, BattleFrontier_BattleArenaBattleRoom_Movement_WalkInPlaceRight
 # 197 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_BATTLE_PLAYER, BattleFrontier_BattleArenaBattleRoom_Movement_WalkInPlaceRight
+	applymovement LOCALID_ARENA_BATTLE_ATTENDANT, BattleFrontier_BattleArenaBattleRoom_Movement_WalkInPlaceRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 198 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	goto BattleFrontier_BattleArenaBattleRoom_EventScript_AnnounceTrainers
@@ -542,6 +608,7 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_AskReadyForTycoonNoRecord::
 BattleFrontier_BattleArenaBattleRoom_EventScript_BattleGreta::
 # 272 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	call BattleFrontier_EventScript_SetBrainObjectGfx
+<<<<<<< HEAD
 # 273 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_PLAYER, BattleFrontier_BattleArenaBattleRoom_Movement_WalkInPlaceRight
 # 274 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
@@ -551,6 +618,12 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_BattleGreta::
 # 276 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_ANNOUNCER, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceDown
 # 277 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_BATTLE_PLAYER, BattleFrontier_BattleArenaBattleRoom_Movement_WalkInPlaceRight
+	applymovement LOCALID_ARENA_BATTLE_ATTENDANT, BattleFrontier_BattleArenaBattleRoom_Movement_WalkInPlaceRight
+	waitmovement 0
+	applymovement LOCALID_ARENA_BATTLE_ANNOUNCER, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceDown
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	playse SE_M_BELLY_DRUM
 # 278 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	waitse
@@ -560,6 +633,7 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_BattleGreta::
 	msgbox BattleFrontier_BattleArenaBattleRoom_Text_PlayerStepForward, MSGBOX_DEFAULT
 # 281 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 282 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_PLAYER, BattleFrontier_BattleArenaBattleRoom_Movement_PlayerStepForwardLong
 # 283 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
@@ -567,6 +641,11 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_BattleGreta::
 # 284 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_ANNOUNCER, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceDown
 # 285 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_BATTLE_PLAYER, BattleFrontier_BattleArenaBattleRoom_Movement_PlayerStepForwardLong
+	waitmovement 0
+	applymovement LOCALID_ARENA_BATTLE_ANNOUNCER, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceDown
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	playse SE_M_BELLY_DRUM
 # 286 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	waitse
@@ -576,6 +655,7 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_BattleGreta::
 	msgbox BattleFrontier_BattleArenaBattleRoom_Text_MakeWayForGreta, MSGBOX_DEFAULT
 # 289 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 290 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	addobject LOCALID_OPPONENT
 # 291 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
@@ -585,6 +665,12 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_BattleGreta::
 # 293 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_OpponentStepForward
 # 294 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	addobject LOCALID_ARENA_BATTLE_OPPONENT
+	applymovement LOCALID_ARENA_BATTLE_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_GretaEnter
+	waitmovement 0
+	applymovement LOCALID_ARENA_BATTLE_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_OpponentStepForward
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 295 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	switch VAR_TEMP_F
@@ -604,17 +690,25 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_BattleGreta::
 	closemessage
 # 303 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	frontier_set FRONTIER_DATA_HEARD_BRAIN_SPEECH
+<<<<<<< HEAD
 # 304 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_GretaLookAroundPlayer
 # 305 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_BATTLE_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_GretaLookAroundPlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 306 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	msgbox BattleFrontier_BattleArenaBattleRoom_Text_IsThatRight, MSGBOX_DEFAULT
 # 307 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 308 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_GretaWalkBackToCenter
 # 309 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_BATTLE_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_GretaWalkBackToCenter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 310 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	msgbox BattleFrontier_BattleArenaBattleRoom_Text_YouLookWeakTakeThingsEasy, MSGBOX_DEFAULT
@@ -638,9 +732,13 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_DefeatedGretaSilver::
 	frontier_getsymbols
 # 320 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	goto_if_ne VAR_RESULT, 0, BattleFrontier_BattleArenaBattleRoom_EventScript_ReturnToLobbyWon
+<<<<<<< HEAD
 # 321 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_OpponentStepForwardLong
 # 322 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_BATTLE_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_OpponentStepForwardLong
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 323 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	msgbox BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureToughAfterAll, MSGBOX_DEFAULT
@@ -672,17 +770,25 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_IntroGretaGold::
 	closemessage
 # 337 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	frontier_set FRONTIER_DATA_HEARD_BRAIN_SPEECH
+<<<<<<< HEAD
 # 338 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_GretaLookAroundPlayer
 # 339 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_BATTLE_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_GretaLookAroundPlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 340 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	msgbox BattleFrontier_BattleArenaBattleRoom_Text_SoAreYouReady, MSGBOX_DEFAULT
 # 341 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 342 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_GretaWalkBackToCenter
 # 343 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_BATTLE_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_GretaWalkBackToCenter
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 344 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	msgbox BattleFrontier_BattleArenaBattleRoom_Text_WontAllowHalfheartedEffort, MSGBOX_DEFAULT
@@ -706,9 +812,13 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_DefeatedGretaGold::
 	frontier_getsymbols
 # 354 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	goto_if_eq VAR_RESULT, 2, BattleFrontier_BattleArenaBattleRoom_EventScript_ReturnToLobbyWon
+<<<<<<< HEAD
 # 355 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_OpponentStepForwardLong
 # 356 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_BATTLE_OPPONENT, BattleFrontier_BattleArenaBattleRoom_Movement_OpponentStepForwardLong
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 357 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	msgbox BattleFrontier_BattleArenaBattleRoom_Text_GretaBlownAway, MSGBOX_DEFAULT
@@ -768,6 +878,7 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_DoArenaBattle::
 
 # 385 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_EventScript_DeclarePlayerWinner::
+<<<<<<< HEAD
 # 386 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_ANNOUNCER, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceDown
 # 387 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
@@ -779,6 +890,13 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_DeclarePlayerWinner::
 # 390 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement LOCALID_BLACK_BELT_4, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceUp
 # 391 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_BATTLE_ANNOUNCER, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceDown
+	applymovement LOCALID_ARENA_BATTLE_BLACK_BELT_1, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceDown
+	applymovement LOCALID_ARENA_BATTLE_BLACK_BELT_2, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceDown
+	applymovement LOCALID_ARENA_BATTLE_BLACK_BELT_3, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceUp
+	applymovement LOCALID_ARENA_BATTLE_BLACK_BELT_4, BattleFrontier_BattleArenaBattleRoom_Movement_JumpInPlaceUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	playse SE_BANG
 # 392 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	waitse
@@ -942,6 +1060,7 @@ BattleFrontier_BattleArenaBattleRoom_OnWarp:
 
 # 472 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 BattleFrontier_BattleArenaBattleRoom_EventScript_SetUpRoomObjects::
+<<<<<<< HEAD
 # 473 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	hideobjectat LOCALID_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_ARENA_BATTLE_ROOM
 # 474 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
@@ -951,6 +1070,12 @@ BattleFrontier_BattleArenaBattleRoom_EventScript_SetUpRoomObjects::
 # 476 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattleDomeBattleRoom_Movement_SetInvisible
 # 477 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
+=======
+	hideobjectat LOCALID_ARENA_BATTLE_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_ARENA_BATTLE_ROOM
+	removeobject LOCALID_ARENA_BATTLE_OPPONENT
+	call BattleFrontier_BattleDomeBattleRoom_EventScript_SetPlayerGfx
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleDomeBattleRoom_Movement_SetInvisible
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	setvar VAR_TEMP_1, 1
 # 478 "data/maps/BattleFrontier_BattleArenaBattleRoom/scripts.pory"
 	end

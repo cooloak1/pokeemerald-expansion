@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/MauvilleCity/scripts.pory"
 
 # 2 "data/maps/MauvilleCity/scripts.pory"
@@ -9,6 +10,8 @@
 # 5 "data/maps/MauvilleCity/scripts.pory"
 
 # 6 "data/maps/MauvilleCity/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 MauvilleCity_MapScripts::
 # 7 "data/maps/MauvilleCity/scripts.pory"
 	map_script MAP_SCRIPT_ON_TRANSITION, MauvilleCity_OnTransition
@@ -152,9 +155,13 @@ MauvilleCity_EventScript_WallysUncle::
 	msgbox MauvilleCity_Text_UncleHesTooPeppy, MSGBOX_DEFAULT
 # 77 "data/maps/MauvilleCity/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 78 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_WALLYS_UNCLE, Common_Movement_FaceOriginalDirection
 # 79 "data/maps/MauvilleCity/scripts.pory"
+=======
+	applymovement LOCALID_MAUVILLE_WALLYS_UNCLE, Common_Movement_FaceOriginalDirection
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 80 "data/maps/MauvilleCity/scripts.pory"
 	release
@@ -168,9 +175,13 @@ MauvilleCity_EventScript_UncleAskPlayerToBattleWally::
 	msgbox MauvilleCity_Text_UncleCanYouBattleWally, MSGBOX_DEFAULT
 # 85 "data/maps/MauvilleCity/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 86 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_WALLYS_UNCLE, Common_Movement_FaceOriginalDirection
 # 87 "data/maps/MauvilleCity/scripts.pory"
+=======
+	applymovement LOCALID_MAUVILLE_WALLYS_UNCLE, Common_Movement_FaceOriginalDirection
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 88 "data/maps/MauvilleCity/scripts.pory"
 	release
@@ -184,9 +195,13 @@ MauvilleCity_EventScript_Wally::
 	lockall
 # 93 "data/maps/MauvilleCity/scripts.pory"
 	goto_if_set FLAG_DECLINED_WALLY_BATTLE_MAUVILLE, MauvilleCity_EventScript_WallyRequestBattleAgain
+<<<<<<< HEAD
 # 94 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_WALLY, Common_Movement_WalkInPlaceFasterRight
 # 95 "data/maps/MauvilleCity/scripts.pory"
+=======
+	applymovement LOCALID_MAUVILLE_WALLY, Common_Movement_WalkInPlaceFasterRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 96 "data/maps/MauvilleCity/scripts.pory"
 	msgbox MauvilleCity_Text_WallyWantToChallengeGym, MSGBOX_DEFAULT
@@ -194,12 +209,17 @@ MauvilleCity_EventScript_Wally::
 	msgbox MauvilleCity_Text_UncleYourePushingIt, MSGBOX_DEFAULT
 # 98 "data/maps/MauvilleCity/scripts.pory"
 	msgbox MauvilleCity_Text_WallyWeCanBeatAnyone, MSGBOX_DEFAULT
+<<<<<<< HEAD
 # 99 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_WALLY, Common_Movement_FacePlayer
 # 100 "data/maps/MauvilleCity/scripts.pory"
+=======
+	applymovement LOCALID_MAUVILLE_WALLY, Common_Movement_FacePlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 101 "data/maps/MauvilleCity/scripts.pory"
 	playse SE_PIN
+<<<<<<< HEAD
 # 102 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_WALLY, Common_Movement_ExclamationMark
 # 103 "data/maps/MauvilleCity/scripts.pory"
@@ -207,6 +227,11 @@ MauvilleCity_EventScript_Wally::
 # 104 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_WALLY, Common_Movement_Delay48
 # 105 "data/maps/MauvilleCity/scripts.pory"
+=======
+	applymovement LOCALID_MAUVILLE_WALLY, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_MAUVILLE_WALLY, Common_Movement_Delay48
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 106 "data/maps/MauvilleCity/scripts.pory"
 	msgbox MauvilleCity_Text_WallyWillYouBattleMe, MSGBOX_YESNO
@@ -236,6 +261,7 @@ MauvilleCity_EventScript_BattleWallyPrompt::
 
 # 119 "data/maps/MauvilleCity/scripts.pory"
 MauvilleCity_EventScript_WallyAndUncleExitNorth::
+<<<<<<< HEAD
 # 120 "data/maps/MauvilleCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Movement_PlayerWatchWallyExitNorth1
 # 121 "data/maps/MauvilleCity/scripts.pory"
@@ -247,19 +273,32 @@ MauvilleCity_EventScript_WallyAndUncleExitNorth::
 # 124 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_WALLY, Common_Movement_WalkInPlaceFasterRight
 # 125 "data/maps/MauvilleCity/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, MauvilleCity_Movement_PlayerWatchWallyExitNorth1
+	applymovement LOCALID_MAUVILLE_WALLY, MauvilleCity_Movement_WallyExitNorth1
+	applymovement LOCALID_MAUVILLE_WALLYS_UNCLE, MauvilleCity_Movement_WallysUncleExitNorth1
+	waitmovement 0
+	applymovement LOCALID_MAUVILLE_WALLY, Common_Movement_WalkInPlaceFasterRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 126 "data/maps/MauvilleCity/scripts.pory"
 	delay 30
+<<<<<<< HEAD
 # 127 "data/maps/MauvilleCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Movement_PlayerFaceUncleNorth
 # 128 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_WALLYS_UNCLE, MauvilleCity_Movement_WallysUncleApproachPlayerNorth
 # 129 "data/maps/MauvilleCity/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, MauvilleCity_Movement_PlayerFaceUncleNorth
+	applymovement LOCALID_MAUVILLE_WALLYS_UNCLE, MauvilleCity_Movement_WallysUncleApproachPlayerNorth
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 130 "data/maps/MauvilleCity/scripts.pory"
 	msgbox MauvilleCity_Text_UncleVisitUsSometime, MSGBOX_DEFAULT
 # 131 "data/maps/MauvilleCity/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 132 "data/maps/MauvilleCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Movement_PlayerWatchWallyExitNorth2
 # 133 "data/maps/MauvilleCity/scripts.pory"
@@ -267,6 +306,11 @@ MauvilleCity_EventScript_WallyAndUncleExitNorth::
 # 134 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_WALLY, MauvilleCity_Movement_WallyExitNorth2
 # 135 "data/maps/MauvilleCity/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, MauvilleCity_Movement_PlayerWatchWallyExitNorth2
+	applymovement LOCALID_MAUVILLE_WALLYS_UNCLE, MauvilleCity_Movement_WallysUncleExitNorth2
+	applymovement LOCALID_MAUVILLE_WALLY, MauvilleCity_Movement_WallyExitNorth2
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 136 "data/maps/MauvilleCity/scripts.pory"
 	goto MauvilleCity_EventScript_DefeatedWally
@@ -276,6 +320,7 @@ MauvilleCity_EventScript_WallyAndUncleExitNorth::
 
 # 139 "data/maps/MauvilleCity/scripts.pory"
 MauvilleCity_EventScript_WallyAndUncleExitEast::
+<<<<<<< HEAD
 # 140 "data/maps/MauvilleCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Movement_PlayerWatchWallyExitEast1
 # 141 "data/maps/MauvilleCity/scripts.pory"
@@ -287,17 +332,29 @@ MauvilleCity_EventScript_WallyAndUncleExitEast::
 # 144 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_WALLY, Common_Movement_WalkInPlaceFasterRight
 # 145 "data/maps/MauvilleCity/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, MauvilleCity_Movement_PlayerWatchWallyExitEast1
+	applymovement LOCALID_MAUVILLE_WALLY, MauvilleCity_Movement_WallyExitEast1
+	applymovement LOCALID_MAUVILLE_WALLYS_UNCLE, MauvilleCity_Movement_WallysUncleExitEast1
+	waitmovement 0
+	applymovement LOCALID_MAUVILLE_WALLY, Common_Movement_WalkInPlaceFasterRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 146 "data/maps/MauvilleCity/scripts.pory"
 	delay 30
+<<<<<<< HEAD
 # 147 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_WALLYS_UNCLE, MauvilleCity_Movement_WallysUncleApproachPlayerEast
 # 148 "data/maps/MauvilleCity/scripts.pory"
+=======
+	applymovement LOCALID_MAUVILLE_WALLYS_UNCLE, MauvilleCity_Movement_WallysUncleApproachPlayerEast
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 149 "data/maps/MauvilleCity/scripts.pory"
 	msgbox MauvilleCity_Text_UncleVisitUsSometime, MSGBOX_DEFAULT
 # 150 "data/maps/MauvilleCity/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 151 "data/maps/MauvilleCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Movement_PlayerWatchWallyExitEast2
 # 152 "data/maps/MauvilleCity/scripts.pory"
@@ -305,6 +362,11 @@ MauvilleCity_EventScript_WallyAndUncleExitEast::
 # 153 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_WALLY, MauvilleCity_Movement_WallyExitEast2
 # 154 "data/maps/MauvilleCity/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, MauvilleCity_Movement_PlayerWatchWallyExitEast2
+	applymovement LOCALID_MAUVILLE_WALLYS_UNCLE, MauvilleCity_Movement_WallysUncleExitEast2
+	applymovement LOCALID_MAUVILLE_WALLY, MauvilleCity_Movement_WallyExitEast2
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 155 "data/maps/MauvilleCity/scripts.pory"
 	goto MauvilleCity_EventScript_DefeatedWally
@@ -314,6 +376,7 @@ MauvilleCity_EventScript_WallyAndUncleExitEast::
 
 # 158 "data/maps/MauvilleCity/scripts.pory"
 MauvilleCity_EventScript_DefeatedWally::
+<<<<<<< HEAD
 # 159 "data/maps/MauvilleCity/scripts.pory"
 	removeobject LOCALID_WALLY
 # 160 "data/maps/MauvilleCity/scripts.pory"
@@ -323,6 +386,12 @@ MauvilleCity_EventScript_DefeatedWally::
 # 162 "data/maps/MauvilleCity/scripts.pory"
 	clearflag FLAG_HOENN_2
 # 163 "data/maps/MauvilleCity/scripts.pory"
+=======
+	removeobject LOCALID_MAUVILLE_WALLY
+	removeobject LOCALID_MAUVILLE_WALLYS_UNCLE
+	clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY
+	clearflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	setflag FLAG_DEFEATED_WALLY_MAUVILLE
 # 164 "data/maps/MauvilleCity/scripts.pory"
 	setvar VAR_WALLY_CALL_STEP_COUNTER, 0
@@ -332,9 +401,13 @@ MauvilleCity_EventScript_DefeatedWally::
 	call_if_eq VAR_FACING, DIR_NORTH, MauvilleCity_EventScript_ScottApproachPlayerNorth
 # 167 "data/maps/MauvilleCity/scripts.pory"
 	call_if_eq VAR_FACING, DIR_EAST, MauvilleCity_EventScript_ScottApproachPlayerEast
+<<<<<<< HEAD
 # 168 "data/maps/MauvilleCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
 # 169 "data/maps/MauvilleCity/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 170 "data/maps/MauvilleCity/scripts.pory"
 	msgbox MauvilleCity_Text_ScottYouDidntHoldBack, MSGBOX_DEFAULT
@@ -346,9 +419,13 @@ MauvilleCity_EventScript_DefeatedWally::
 	call_if_eq VAR_FACING, DIR_NORTH, MauvilleCity_EventScript_ScottExitNorth
 # 174 "data/maps/MauvilleCity/scripts.pory"
 	call_if_eq VAR_FACING, DIR_EAST, MauvilleCity_EventScript_ScottExitEast
+<<<<<<< HEAD
 # 175 "data/maps/MauvilleCity/scripts.pory"
 	removeobject LOCALID_SCOTT
 # 176 "data/maps/MauvilleCity/scripts.pory"
+=======
+	removeobject LOCALID_MAUVILLE_SCOTT
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	releaseall
 # 177 "data/maps/MauvilleCity/scripts.pory"
 	end
@@ -356,11 +433,16 @@ MauvilleCity_EventScript_DefeatedWally::
 
 # 179 "data/maps/MauvilleCity/scripts.pory"
 MauvilleCity_EventScript_ScottApproachPlayerNorth::
+<<<<<<< HEAD
 # 180 "data/maps/MauvilleCity/scripts.pory"
 	addobject LOCALID_SCOTT
 # 181 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_SCOTT, MauvilleCity_Movement_ScottApproachPlayerNorth
 # 182 "data/maps/MauvilleCity/scripts.pory"
+=======
+	addobject LOCALID_MAUVILLE_SCOTT
+	applymovement LOCALID_MAUVILLE_SCOTT, MauvilleCity_Movement_ScottApproachPlayerNorth
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 183 "data/maps/MauvilleCity/scripts.pory"
 	return
@@ -368,6 +450,7 @@ MauvilleCity_EventScript_ScottApproachPlayerNorth::
 
 # 185 "data/maps/MauvilleCity/scripts.pory"
 MauvilleCity_EventScript_ScottApproachPlayerEast::
+<<<<<<< HEAD
 # 186 "data/maps/MauvilleCity/scripts.pory"
 	setobjectxyperm LOCALID_SCOTT, 12, 13
 # 187 "data/maps/MauvilleCity/scripts.pory"
@@ -375,6 +458,11 @@ MauvilleCity_EventScript_ScottApproachPlayerEast::
 # 188 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_SCOTT, MauvilleCity_Movement_ScottApproachPlayerEast
 # 189 "data/maps/MauvilleCity/scripts.pory"
+=======
+	setobjectxyperm LOCALID_MAUVILLE_SCOTT, 12, 13
+	addobject LOCALID_MAUVILLE_SCOTT
+	applymovement LOCALID_MAUVILLE_SCOTT, MauvilleCity_Movement_ScottApproachPlayerEast
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 190 "data/maps/MauvilleCity/scripts.pory"
 	return
@@ -382,11 +470,16 @@ MauvilleCity_EventScript_ScottApproachPlayerEast::
 
 # 192 "data/maps/MauvilleCity/scripts.pory"
 MauvilleCity_EventScript_ScottExitNorth::
+<<<<<<< HEAD
 # 193 "data/maps/MauvilleCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Movement_PlayerWatchScottExitNorth
 # 194 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_SCOTT, MauvilleCity_Movement_ScottExitNorth
 # 195 "data/maps/MauvilleCity/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, MauvilleCity_Movement_PlayerWatchScottExitNorth
+	applymovement LOCALID_MAUVILLE_SCOTT, MauvilleCity_Movement_ScottExitNorth
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 196 "data/maps/MauvilleCity/scripts.pory"
 	return
@@ -394,11 +487,16 @@ MauvilleCity_EventScript_ScottExitNorth::
 
 # 198 "data/maps/MauvilleCity/scripts.pory"
 MauvilleCity_EventScript_ScottExitEast::
+<<<<<<< HEAD
 # 199 "data/maps/MauvilleCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, MauvilleCity_Movement_PlayerWatchScottExitEast
 # 200 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_SCOTT, MauvilleCity_Movement_ScottExitEast
 # 201 "data/maps/MauvilleCity/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, MauvilleCity_Movement_PlayerWatchScottExitEast
+	applymovement LOCALID_MAUVILLE_SCOTT, MauvilleCity_Movement_ScottExitEast
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 202 "data/maps/MauvilleCity/scripts.pory"
 	return
@@ -410,21 +508,33 @@ MauvilleCity_EventScript_BattleWally::
 	msgbox MauvilleCity_Text_WallyHereICome, MSGBOX_DEFAULT
 # 206 "data/maps/MauvilleCity/scripts.pory"
 	trainerbattle_no_intro TRAINER_WALLY_MAUVILLE, MauvilleCity_Text_WallyDefeat
+<<<<<<< HEAD
 # 207 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_WALLY, Common_Movement_WalkInPlaceFasterRight
 # 208 "data/maps/MauvilleCity/scripts.pory"
+=======
+	applymovement LOCALID_MAUVILLE_WALLY, Common_Movement_WalkInPlaceFasterRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 209 "data/maps/MauvilleCity/scripts.pory"
 	msgbox MauvilleCity_Text_WallyIllGoBackToVerdanturf, MSGBOX_DEFAULT
+<<<<<<< HEAD
 # 210 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_WALLY, Common_Movement_FacePlayer
 # 211 "data/maps/MauvilleCity/scripts.pory"
+=======
+	applymovement LOCALID_MAUVILLE_WALLY, Common_Movement_FacePlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 212 "data/maps/MauvilleCity/scripts.pory"
 	msgbox MauvilleCity_Text_ThankYouNotEnoughToBattle, MSGBOX_DEFAULT
+<<<<<<< HEAD
 # 213 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_WALLY, Common_Movement_WalkInPlaceFasterRight
 # 214 "data/maps/MauvilleCity/scripts.pory"
+=======
+	applymovement LOCALID_MAUVILLE_WALLY, Common_Movement_WalkInPlaceFasterRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 215 "data/maps/MauvilleCity/scripts.pory"
 	msgbox MauvilleCity_Text_UncleNoNeedToBeDown, MSGBOX_DEFAULT
@@ -446,9 +556,13 @@ MauvilleCity_EventScript_DeclineWallyBattle::
 
 # 224 "data/maps/MauvilleCity/scripts.pory"
 MauvilleCity_EventScript_WallyRequestBattleAgain::
+<<<<<<< HEAD
 # 225 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_WALLY, Common_Movement_FacePlayer
 # 226 "data/maps/MauvilleCity/scripts.pory"
+=======
+	applymovement LOCALID_MAUVILLE_WALLY, Common_Movement_FacePlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 227 "data/maps/MauvilleCity/scripts.pory"
 	msgbox MauvilleCity_Text_WallyPleaseBattleMe, MSGBOX_YESNO

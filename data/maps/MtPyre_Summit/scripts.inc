@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/MtPyre_Summit/scripts.pory"
 
 # 2 "data/maps/MtPyre_Summit/scripts.pory"
@@ -17,6 +18,8 @@
 # 9 "data/maps/MtPyre_Summit/scripts.pory"
 
 # 10 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 MtPyre_Summit_MapScripts::
 # 11 "data/maps/MtPyre_Summit/scripts.pory"
 	map_script MAP_SCRIPT_ON_TRANSITION, MtPyre_Summit_OnTransition
@@ -34,11 +37,16 @@ MtPyre_Summit_OnTransition:
 
 # 18 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_SetArchieMaxiePositions::
+<<<<<<< HEAD
 # 19 "data/maps/MtPyre_Summit/scripts.pory"
 	setobjectxyperm LOCALID_MAXIE, 23, 6
 # 20 "data/maps/MtPyre_Summit/scripts.pory"
 	setobjectxyperm LOCALID_ARCHIE, 22, 6
 # 21 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	setobjectxyperm LOCALID_MT_PYRE_SUMMIT_MAXIE, 23, 6
+	setobjectxyperm LOCALID_MT_PYRE_SUMMIT_ARCHIE, 22, 6
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 22 "data/maps/MtPyre_Summit/scripts.pory"
 
@@ -82,6 +90,7 @@ MtPyre_Summit_EventScript_TeamAquaTrigger2::
 MtPyre_Summit_EventScript_TeamAquaExits::
 # 42 "data/maps/MtPyre_Summit/scripts.pory"
 	playbgm MUS_ENCOUNTER_AQUA, FALSE
+<<<<<<< HEAD
 # 43 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
 # 44 "data/maps/MtPyre_Summit/scripts.pory"
@@ -89,6 +98,11 @@ MtPyre_Summit_EventScript_TeamAquaExits::
 # 45 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement LOCALID_ARCHIE, Common_Movement_WalkInPlaceFasterDown
 # 46 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Common_Movement_FaceUp
+	waitmovement 0
+	applymovement LOCALID_MT_PYRE_SUMMIT_ARCHIE, Common_Movement_WalkInPlaceFasterDown
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 47 "data/maps/MtPyre_Summit/scripts.pory"
 	delay 50
@@ -102,6 +116,7 @@ MtPyre_Summit_EventScript_TeamAquaExits::
 	msgbox MtPyre_Summit_Text_ArchieWeGotTheOrbLetsGo, MSGBOX_DEFAULT
 # 52 "data/maps/MtPyre_Summit/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 53 "data/maps/MtPyre_Summit/scripts.pory"
 	fadescreen FADE_TO_BLACK
 # 54 "data/maps/MtPyre_Summit/scripts.pory"
@@ -119,6 +134,16 @@ MtPyre_Summit_EventScript_TeamAquaExits::
 # 60 "data/maps/MtPyre_Summit/scripts.pory"
 	setflag FLAG_HOENN_4
 # 61 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	fadescreenswapbuffers FADE_TO_BLACK
+	removeobject LOCALID_MT_PYRE_SUMMIT_ARCHIE
+	removeobject LOCALID_MT_PYRE_SUMMIT_GRUNT_1
+	removeobject LOCALID_MT_PYRE_SUMMIT_GRUNT_2
+	removeobject LOCALID_MT_PYRE_SUMMIT_GRUNT_3
+	removeobject LOCALID_MT_PYRE_SUMMIT_GRUNT_4
+	setflag FLAG_HIDE_MT_PYRE_SUMMIT_ARCHIE
+	setflag FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_AQUA
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	fadedefaultbgm
 # 62 "data/maps/MtPyre_Summit/scripts.pory"
 	fadescreen FADE_FROM_BLACK
@@ -148,9 +173,13 @@ MtPyre_Summit_EventScript_TeamAquaExits::
 
 # 75 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_ArchieFacePlayer0::
+<<<<<<< HEAD
 # 76 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement LOCALID_ARCHIE, MtPyre_Summit_Movement_ArchieFacePlayer0
 # 77 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	applymovement LOCALID_MT_PYRE_SUMMIT_ARCHIE, MtPyre_Summit_Movement_ArchieFacePlayer0
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 78 "data/maps/MtPyre_Summit/scripts.pory"
 	return
@@ -166,9 +195,13 @@ MtPyre_Summit_EventScript_ArchieFacePlayer1::
 
 # 84 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_ArchieFacePlayer2::
+<<<<<<< HEAD
 # 85 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement LOCALID_ARCHIE, MtPyre_Summit_Movement_ArchieFacePlayer2
 # 86 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	applymovement LOCALID_MT_PYRE_SUMMIT_ARCHIE, MtPyre_Summit_Movement_ArchieFacePlayer2
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 87 "data/maps/MtPyre_Summit/scripts.pory"
 	return
@@ -176,6 +209,7 @@ MtPyre_Summit_EventScript_ArchieFacePlayer2::
 
 # 89 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_OldLadyApproachPlayer0::
+<<<<<<< HEAD
 # 90 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement LOCALID_OLD_LADY, MtPyre_Summit_Movement_OldLadyApproachPlayer0
 # 91 "data/maps/MtPyre_Summit/scripts.pory"
@@ -183,6 +217,11 @@ MtPyre_Summit_EventScript_OldLadyApproachPlayer0::
 # 92 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 # 93 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	applymovement LOCALID_MT_PYRE_SUMMIT_OLD_LADY, MtPyre_Summit_Movement_OldLadyApproachPlayer0
+	waitmovement 0
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 94 "data/maps/MtPyre_Summit/scripts.pory"
 	return
@@ -190,9 +229,13 @@ MtPyre_Summit_EventScript_OldLadyApproachPlayer0::
 
 # 96 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_OldLadyApproachPlayer1::
+<<<<<<< HEAD
 # 97 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement LOCALID_OLD_LADY, MtPyre_Summit_Movement_OldLadyApproachPlayer1
 # 98 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	applymovement LOCALID_MT_PYRE_SUMMIT_OLD_LADY, MtPyre_Summit_Movement_OldLadyApproachPlayer1
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 99 "data/maps/MtPyre_Summit/scripts.pory"
 	return
@@ -200,6 +243,7 @@ MtPyre_Summit_EventScript_OldLadyApproachPlayer1::
 
 # 101 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_OldLadyApproachPlayer2::
+<<<<<<< HEAD
 # 102 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement LOCALID_OLD_LADY, MtPyre_Summit_Movement_OldLadyApproachPlayer2
 # 103 "data/maps/MtPyre_Summit/scripts.pory"
@@ -207,6 +251,11 @@ MtPyre_Summit_EventScript_OldLadyApproachPlayer2::
 # 104 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 # 105 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	applymovement LOCALID_MT_PYRE_SUMMIT_OLD_LADY, MtPyre_Summit_Movement_OldLadyApproachPlayer2
+	waitmovement 0
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 106 "data/maps/MtPyre_Summit/scripts.pory"
 	return
@@ -412,9 +461,13 @@ MtPyre_Summit_EventScript_ArchieMaxieTrigger2::
 
 # 207 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_ArchieMaxieReturnOrbs::
+<<<<<<< HEAD
 # 208 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 # 209 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 210 "data/maps/MtPyre_Summit/scripts.pory"
 	delay 60
@@ -426,6 +479,7 @@ MtPyre_Summit_EventScript_ArchieMaxieReturnOrbs::
 	call_if_eq VAR_0x8008, 2, MtPyre_Summit_EventScript_ArchieMaxieBeginExit2
 # 214 "data/maps/MtPyre_Summit/scripts.pory"
 	playse SE_PIN
+<<<<<<< HEAD
 # 215 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement LOCALID_MAXIE, Common_Movement_ExclamationMark
 # 216 "data/maps/MtPyre_Summit/scripts.pory"
@@ -433,6 +487,11 @@ MtPyre_Summit_EventScript_ArchieMaxieReturnOrbs::
 # 217 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement LOCALID_MAXIE, Common_Movement_Delay48
 # 218 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	applymovement LOCALID_MT_PYRE_SUMMIT_MAXIE, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_MT_PYRE_SUMMIT_MAXIE, Common_Movement_Delay48
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 219 "data/maps/MtPyre_Summit/scripts.pory"
 	delay 30
@@ -454,6 +513,7 @@ MtPyre_Summit_EventScript_ArchieMaxieReturnOrbs::
 	call_if_eq VAR_0x8008, 2, MtPyre_Summit_EventScript_MaxieApproachArchie2
 # 228 "data/maps/MtPyre_Summit/scripts.pory"
 	delay 30
+<<<<<<< HEAD
 # 229 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement LOCALID_ARCHIE, MtPyre_Summit_Movement_ArchieExit
 # 230 "data/maps/MtPyre_Summit/scripts.pory"
@@ -465,6 +525,13 @@ MtPyre_Summit_EventScript_ArchieMaxieReturnOrbs::
 # 233 "data/maps/MtPyre_Summit/scripts.pory"
 	removeobject LOCALID_MAXIE
 # 234 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	applymovement LOCALID_MT_PYRE_SUMMIT_ARCHIE, MtPyre_Summit_Movement_ArchieExit
+	applymovement LOCALID_MT_PYRE_SUMMIT_MAXIE, MtPyre_Summit_Movement_MaxieExit
+	waitmovement 0
+	removeobject LOCALID_MT_PYRE_SUMMIT_ARCHIE
+	removeobject LOCALID_MT_PYRE_SUMMIT_MAXIE
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	setvar VAR_MT_PYRE_STATE, 3
 # 235 "data/maps/MtPyre_Summit/scripts.pory"
 	releaseall
@@ -474,6 +541,7 @@ MtPyre_Summit_EventScript_ArchieMaxieReturnOrbs::
 
 # 238 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_ArchieMaxieBeginExit0::
+<<<<<<< HEAD
 # 239 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Movement_PlayerWatchArchieMaxieExit0
 # 240 "data/maps/MtPyre_Summit/scripts.pory"
@@ -481,6 +549,11 @@ MtPyre_Summit_EventScript_ArchieMaxieBeginExit0::
 # 241 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement LOCALID_MAXIE, MtPyre_Summit_Movement_MaxieExit
 # 242 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, MtPyre_Summit_Movement_PlayerWatchArchieMaxieExit0
+	applymovement LOCALID_MT_PYRE_SUMMIT_ARCHIE, MtPyre_Summit_Movement_ArchieExit
+	applymovement LOCALID_MT_PYRE_SUMMIT_MAXIE, MtPyre_Summit_Movement_MaxieExit
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 243 "data/maps/MtPyre_Summit/scripts.pory"
 	return
@@ -488,6 +561,7 @@ MtPyre_Summit_EventScript_ArchieMaxieBeginExit0::
 
 # 245 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_ArchieMaxieBeginExit1::
+<<<<<<< HEAD
 # 246 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Movement_PlayerWatchArchieMaxieExit1
 # 247 "data/maps/MtPyre_Summit/scripts.pory"
@@ -495,6 +569,11 @@ MtPyre_Summit_EventScript_ArchieMaxieBeginExit1::
 # 248 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement LOCALID_MAXIE, MtPyre_Summit_Movement_MaxieExit
 # 249 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, MtPyre_Summit_Movement_PlayerWatchArchieMaxieExit1
+	applymovement LOCALID_MT_PYRE_SUMMIT_ARCHIE, MtPyre_Summit_Movement_ArchieExit
+	applymovement LOCALID_MT_PYRE_SUMMIT_MAXIE, MtPyre_Summit_Movement_MaxieExit
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 250 "data/maps/MtPyre_Summit/scripts.pory"
 	return
@@ -502,6 +581,7 @@ MtPyre_Summit_EventScript_ArchieMaxieBeginExit1::
 
 # 252 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_ArchieMaxieBeginExit2::
+<<<<<<< HEAD
 # 253 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Movement_PlayerWatchArchieMaxieExit2
 # 254 "data/maps/MtPyre_Summit/scripts.pory"
@@ -509,6 +589,11 @@ MtPyre_Summit_EventScript_ArchieMaxieBeginExit2::
 # 255 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement LOCALID_MAXIE, MtPyre_Summit_Movement_MaxieExit
 # 256 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, MtPyre_Summit_Movement_PlayerWatchArchieMaxieExit2
+	applymovement LOCALID_MT_PYRE_SUMMIT_ARCHIE, MtPyre_Summit_Movement_ArchieExit
+	applymovement LOCALID_MT_PYRE_SUMMIT_MAXIE, MtPyre_Summit_Movement_MaxieExit
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 257 "data/maps/MtPyre_Summit/scripts.pory"
 	return
@@ -516,6 +601,7 @@ MtPyre_Summit_EventScript_ArchieMaxieBeginExit2::
 
 # 259 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_MaxieApproachPlayer0::
+<<<<<<< HEAD
 # 260 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Movement_PlayerFaceMaxie0
 # 261 "data/maps/MtPyre_Summit/scripts.pory"
@@ -523,6 +609,11 @@ MtPyre_Summit_EventScript_MaxieApproachPlayer0::
 # 262 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement LOCALID_MAXIE, MtPyre_Summit_Movement_MaxieApproachPlayer0
 # 263 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, MtPyre_Summit_Movement_PlayerFaceMaxie0
+	applymovement LOCALID_MT_PYRE_SUMMIT_ARCHIE, MtPyre_Summit_Movement_ArchieWatchMaxie
+	applymovement LOCALID_MT_PYRE_SUMMIT_MAXIE, MtPyre_Summit_Movement_MaxieApproachPlayer0
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 264 "data/maps/MtPyre_Summit/scripts.pory"
 	return
@@ -530,6 +621,7 @@ MtPyre_Summit_EventScript_MaxieApproachPlayer0::
 
 # 266 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_MaxieApproachPlayer1::
+<<<<<<< HEAD
 # 267 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Movement_PlayerFaceMaxie
 # 268 "data/maps/MtPyre_Summit/scripts.pory"
@@ -537,6 +629,11 @@ MtPyre_Summit_EventScript_MaxieApproachPlayer1::
 # 269 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement LOCALID_MAXIE, MtPyre_Summit_Movement_MaxieApproachPlayer1
 # 270 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, MtPyre_Summit_Movement_PlayerFaceMaxie
+	applymovement LOCALID_MT_PYRE_SUMMIT_ARCHIE, MtPyre_Summit_Movement_ArchieWatchMaxie
+	applymovement LOCALID_MT_PYRE_SUMMIT_MAXIE, MtPyre_Summit_Movement_MaxieApproachPlayer1
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 271 "data/maps/MtPyre_Summit/scripts.pory"
 	return
@@ -544,6 +641,7 @@ MtPyre_Summit_EventScript_MaxieApproachPlayer1::
 
 # 273 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_MaxieApproachPlayer2::
+<<<<<<< HEAD
 # 274 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Movement_PlayerFaceMaxie
 # 275 "data/maps/MtPyre_Summit/scripts.pory"
@@ -551,6 +649,11 @@ MtPyre_Summit_EventScript_MaxieApproachPlayer2::
 # 276 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement LOCALID_MAXIE, MtPyre_Summit_Movement_MaxieApproachPlayer2
 # 277 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, MtPyre_Summit_Movement_PlayerFaceMaxie
+	applymovement LOCALID_MT_PYRE_SUMMIT_ARCHIE, MtPyre_Summit_Movement_ArchieWatchMaxie
+	applymovement LOCALID_MT_PYRE_SUMMIT_MAXIE, MtPyre_Summit_Movement_MaxieApproachPlayer2
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 278 "data/maps/MtPyre_Summit/scripts.pory"
 	return
@@ -558,6 +661,7 @@ MtPyre_Summit_EventScript_MaxieApproachPlayer2::
 
 # 280 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_MaxieApproachArchie0::
+<<<<<<< HEAD
 # 281 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Movement_PlayerWatchMaxie
 # 282 "data/maps/MtPyre_Summit/scripts.pory"
@@ -567,6 +671,12 @@ MtPyre_Summit_EventScript_MaxieApproachArchie0::
 # 284 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement LOCALID_ARCHIE, Common_Movement_WalkInPlaceFasterRight
 # 285 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, MtPyre_Summit_Movement_PlayerWatchMaxie
+	applymovement LOCALID_MT_PYRE_SUMMIT_MAXIE, MtPyre_Summit_Movement_MaxieApproachArchie0
+	waitmovement 0
+	applymovement LOCALID_MT_PYRE_SUMMIT_ARCHIE, Common_Movement_WalkInPlaceFasterRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 286 "data/maps/MtPyre_Summit/scripts.pory"
 	return
@@ -574,6 +684,7 @@ MtPyre_Summit_EventScript_MaxieApproachArchie0::
 
 # 288 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_MaxieApproachArchie1::
+<<<<<<< HEAD
 # 289 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Movement_PlayerWatchMaxie
 # 290 "data/maps/MtPyre_Summit/scripts.pory"
@@ -583,6 +694,12 @@ MtPyre_Summit_EventScript_MaxieApproachArchie1::
 # 292 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement LOCALID_ARCHIE, Common_Movement_WalkInPlaceFasterRight
 # 293 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, MtPyre_Summit_Movement_PlayerWatchMaxie
+	applymovement LOCALID_MT_PYRE_SUMMIT_MAXIE, MtPyre_Summit_Movement_MaxieApproachArchie1
+	waitmovement 0
+	applymovement LOCALID_MT_PYRE_SUMMIT_ARCHIE, Common_Movement_WalkInPlaceFasterRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 294 "data/maps/MtPyre_Summit/scripts.pory"
 	return
@@ -590,6 +707,7 @@ MtPyre_Summit_EventScript_MaxieApproachArchie1::
 
 # 296 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_MaxieApproachArchie2::
+<<<<<<< HEAD
 # 297 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, MtPyre_Summit_Movement_PlayerWatchMaxie
 # 298 "data/maps/MtPyre_Summit/scripts.pory"
@@ -599,6 +717,12 @@ MtPyre_Summit_EventScript_MaxieApproachArchie2::
 # 300 "data/maps/MtPyre_Summit/scripts.pory"
 	applymovement LOCALID_ARCHIE, Common_Movement_WalkInPlaceFasterRight
 # 301 "data/maps/MtPyre_Summit/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, MtPyre_Summit_Movement_PlayerWatchMaxie
+	applymovement LOCALID_MT_PYRE_SUMMIT_MAXIE, MtPyre_Summit_Movement_MaxieApproachArchie2
+	waitmovement 0
+	applymovement LOCALID_MT_PYRE_SUMMIT_ARCHIE, Common_Movement_WalkInPlaceFasterRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 302 "data/maps/MtPyre_Summit/scripts.pory"
 	return

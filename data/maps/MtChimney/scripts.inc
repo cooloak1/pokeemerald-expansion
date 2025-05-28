@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/MtChimney/scripts.pory"
 
 # 2 "data/maps/MtChimney/scripts.pory"
@@ -15,6 +16,8 @@
 # 8 "data/maps/MtChimney/scripts.pory"
 
 # 9 "data/maps/MtChimney/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 MtChimney_MapScripts::
 # 10 "data/maps/MtChimney/scripts.pory"
 	map_script MAP_SCRIPT_ON_RESUME, MtChimney_OnResume
@@ -52,9 +55,13 @@ MtChimney_EventScript_Archie::
 	call_if_set FLAG_EVIL_LEADER_PLEASE_STOP, MtChimney_EventScript_ArchieBusyFighting
 # 27 "data/maps/MtChimney/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 28 "data/maps/MtChimney/scripts.pory"
 	applymovement LOCALID_ARCHIE, Common_Movement_FaceOriginalDirection
 # 29 "data/maps/MtChimney/scripts.pory"
+=======
+	applymovement LOCALID_MT_CHIMNEY_ARCHIE, Common_Movement_FaceOriginalDirection
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 30 "data/maps/MtChimney/scripts.pory"
 	setflag FLAG_EVIL_LEADER_PLEASE_STOP
@@ -88,12 +95,17 @@ MtChimney_EventScript_Maxie::
 	playbgm MUS_ENCOUNTER_MAGMA, FALSE
 # 45 "data/maps/MtChimney/scripts.pory"
 	msgbox MtChimney_Text_MeteoriteWillActivateVolcano, MSGBOX_DEFAULT
+<<<<<<< HEAD
 # 46 "data/maps/MtChimney/scripts.pory"
 	applymovement LOCALID_MAXIE, Common_Movement_FacePlayer
 # 47 "data/maps/MtChimney/scripts.pory"
+=======
+	applymovement LOCALID_MT_CHIMNEY_MAXIE, Common_Movement_FacePlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 48 "data/maps/MtChimney/scripts.pory"
 	playse SE_PIN
+<<<<<<< HEAD
 # 49 "data/maps/MtChimney/scripts.pory"
 	applymovement LOCALID_MAXIE, Common_Movement_ExclamationMark
 # 50 "data/maps/MtChimney/scripts.pory"
@@ -101,6 +113,11 @@ MtChimney_EventScript_Maxie::
 # 51 "data/maps/MtChimney/scripts.pory"
 	applymovement LOCALID_MAXIE, Common_Movement_Delay48
 # 52 "data/maps/MtChimney/scripts.pory"
+=======
+	applymovement LOCALID_MT_CHIMNEY_MAXIE, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_MT_CHIMNEY_MAXIE, Common_Movement_Delay48
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 53 "data/maps/MtChimney/scripts.pory"
 	msgbox MtChimney_Text_MaxieIntro, MSGBOX_DEFAULT
@@ -112,6 +129,7 @@ MtChimney_EventScript_Maxie::
 	closemessage
 # 57 "data/maps/MtChimney/scripts.pory"
 	delay 30
+<<<<<<< HEAD
 # 58 "data/maps/MtChimney/scripts.pory"
 	fadescreen FADE_TO_BLACK
 # 59 "data/maps/MtChimney/scripts.pory"
@@ -131,12 +149,27 @@ MtChimney_EventScript_Maxie::
 # 66 "data/maps/MtChimney/scripts.pory"
 	addobject LOCALID_ARCHIE
 # 67 "data/maps/MtChimney/scripts.pory"
+=======
+	fadescreenswapbuffers FADE_TO_BLACK
+	removeobject LOCALID_MT_CHIMNEY_MAXIE
+	removeobject LOCALID_MT_CHIMNEY_MAGMA_GRUNT_1
+	removeobject LOCALID_MT_CHIMNEY_TABITHA
+	removeobject LOCALID_MT_CHIMNEY_MAGMA_GRUNT_2
+	setflag FLAG_HIDE_MT_CHIMNEY_TEAM_MAGMA
+	fadescreenswapbuffers FADE_FROM_BLACK
+	setobjectxyperm LOCALID_MT_CHIMNEY_ARCHIE, 10, 12
+	addobject LOCALID_MT_CHIMNEY_ARCHIE
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	call_if_eq VAR_FACING, DIR_EAST, MtChimney_EventScript_ArchieApproachPlayerEast
 # 68 "data/maps/MtChimney/scripts.pory"
 	call_if_eq VAR_FACING, DIR_NORTH, MtChimney_EventScript_ArchieApproachPlayerNorth
+<<<<<<< HEAD
 # 69 "data/maps/MtChimney/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 # 70 "data/maps/MtChimney/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 71 "data/maps/MtChimney/scripts.pory"
 	msgbox MtChimney_Text_ArchieThankYou, MSGBOX_DEFAULT
@@ -146,11 +179,16 @@ MtChimney_EventScript_Maxie::
 	call_if_eq VAR_FACING, DIR_EAST, MtChimney_EventScript_ArchieExitEast
 # 74 "data/maps/MtChimney/scripts.pory"
 	call_if_eq VAR_FACING, DIR_NORTH, MtChimney_EventScript_ArchieExitNorth
+<<<<<<< HEAD
 # 75 "data/maps/MtChimney/scripts.pory"
 	removeobject LOCALID_ARCHIE
 # 76 "data/maps/MtChimney/scripts.pory"
 	setflag FLAG_HOENN_4
 # 77 "data/maps/MtChimney/scripts.pory"
+=======
+	removeobject LOCALID_MT_CHIMNEY_ARCHIE
+	setflag FLAG_HIDE_MT_CHIMNEY_TEAM_AQUA
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	setflag FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY
 # 78 "data/maps/MtChimney/scripts.pory"
 	clearflag FLAG_HOENN_1
@@ -166,9 +204,13 @@ MtChimney_EventScript_Maxie::
 
 # 84 "data/maps/MtChimney/scripts.pory"
 MtChimney_EventScript_ArchieApproachPlayerEast::
+<<<<<<< HEAD
 # 85 "data/maps/MtChimney/scripts.pory"
 	applymovement LOCALID_ARCHIE, MtChimney_Movement_ArchieApproachPlayerEast
 # 86 "data/maps/MtChimney/scripts.pory"
+=======
+	applymovement LOCALID_MT_CHIMNEY_ARCHIE, MtChimney_Movement_ArchieApproachPlayerEast
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 87 "data/maps/MtChimney/scripts.pory"
 	return
@@ -176,9 +218,13 @@ MtChimney_EventScript_ArchieApproachPlayerEast::
 
 # 89 "data/maps/MtChimney/scripts.pory"
 MtChimney_EventScript_ArchieApproachPlayerNorth::
+<<<<<<< HEAD
 # 90 "data/maps/MtChimney/scripts.pory"
 	applymovement LOCALID_ARCHIE, MtChimney_Movement_ArchieApproachPlayerNorth
 # 91 "data/maps/MtChimney/scripts.pory"
+=======
+	applymovement LOCALID_MT_CHIMNEY_ARCHIE, MtChimney_Movement_ArchieApproachPlayerNorth
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 92 "data/maps/MtChimney/scripts.pory"
 	return
@@ -186,9 +232,13 @@ MtChimney_EventScript_ArchieApproachPlayerNorth::
 
 # 94 "data/maps/MtChimney/scripts.pory"
 MtChimney_EventScript_ArchieExitEast::
+<<<<<<< HEAD
 # 95 "data/maps/MtChimney/scripts.pory"
 	applymovement LOCALID_ARCHIE, MtChimney_Movement_ArchieExitEast
 # 96 "data/maps/MtChimney/scripts.pory"
+=======
+	applymovement LOCALID_MT_CHIMNEY_ARCHIE, MtChimney_Movement_ArchieExitEast
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 97 "data/maps/MtChimney/scripts.pory"
 	return
@@ -196,9 +246,13 @@ MtChimney_EventScript_ArchieExitEast::
 
 # 99 "data/maps/MtChimney/scripts.pory"
 MtChimney_EventScript_ArchieExitNorth::
+<<<<<<< HEAD
 # 100 "data/maps/MtChimney/scripts.pory"
 	applymovement LOCALID_ARCHIE, MtChimney_Movement_ArchieExitNorth
 # 101 "data/maps/MtChimney/scripts.pory"
+=======
+	applymovement LOCALID_MT_CHIMNEY_ARCHIE, MtChimney_Movement_ArchieExitNorth
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 102 "data/maps/MtChimney/scripts.pory"
 	return

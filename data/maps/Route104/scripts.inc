@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/Route104/scripts.pory"
 
 # 2 "data/maps/Route104/scripts.pory"
@@ -9,6 +10,8 @@
 # 5 "data/maps/Route104/scripts.pory"
 
 # 6 "data/maps/Route104/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 Route104_MapScripts::
 # 7 "data/maps/Route104/scripts.pory"
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route104_OnFrame
@@ -76,9 +79,13 @@ Route104_EventScript_TrySetRivalPos::
 	goto_if_set FLAG_MET_RIVAL_RUSTBORO, Route104_EventScript_DontSetRivalPos
 # 39 "data/maps/Route104/scripts.pory"
 	goto_if_unset FLAG_REGISTER_RIVAL_POKENAV, Route104_EventScript_DontSetRivalPos
+<<<<<<< HEAD
 # 40 "data/maps/Route104/scripts.pory"
 	setobjectxyperm LOCALID_RIVAL, 17, 52
 # 41 "data/maps/Route104/scripts.pory"
+=======
+	setobjectxyperm LOCALID_ROUTE104_RIVAL, 17, 52
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 42 "data/maps/Route104/scripts.pory"
 
@@ -94,9 +101,13 @@ Route104_EventScript_Rival::
 	lockall
 # 48 "data/maps/Route104/scripts.pory"
 	setvar VAR_0x8008, 1
+<<<<<<< HEAD
 # 49 "data/maps/Route104/scripts.pory"
 	applymovement LOCALID_RIVAL, Common_Movement_FacePlayer
 # 50 "data/maps/Route104/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE104_RIVAL, Common_Movement_FacePlayer
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 51 "data/maps/Route104/scripts.pory"
 	goto Route104_EventScript_RivalEncounter
@@ -112,12 +123,17 @@ Route104_EventScript_RivalTrigger::
 	setvar VAR_RUSTBORO_CITY_STATE, 8
 # 57 "data/maps/Route104/scripts.pory"
 	setvar VAR_ROUTE104_STATE, 2
+<<<<<<< HEAD
 # 58 "data/maps/Route104/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 # 59 "data/maps/Route104/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterUp
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 60 "data/maps/Route104/scripts.pory"
 	delay 10
+<<<<<<< HEAD
 # 61 "data/maps/Route104/scripts.pory"
 	addobject LOCALID_RIVAL
 # 62 "data/maps/Route104/scripts.pory"
@@ -129,6 +145,13 @@ Route104_EventScript_RivalTrigger::
 # 65 "data/maps/Route104/scripts.pory"
 	applymovement LOCALID_RIVAL, Route104_Movement_RivalExitBrineysCottage
 # 66 "data/maps/Route104/scripts.pory"
+=======
+	addobject LOCALID_ROUTE104_RIVAL
+	clearflag FLAG_HIDE_ROUTE_104_RIVAL
+	applymovement LOCALID_PLAYER, Route104_Movement_PlayerBackUp
+	waitmovement 0
+	applymovement LOCALID_ROUTE104_RIVAL, Route104_Movement_RivalExitBrineysCottage
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 67 "data/maps/Route104/scripts.pory"
 	delay 20
@@ -138,6 +161,7 @@ Route104_EventScript_RivalTrigger::
 	call RustboroCity_EventScript_PlayRivalMusic
 # 70 "data/maps/Route104/scripts.pory"
 	playse SE_PIN
+<<<<<<< HEAD
 # 71 "data/maps/Route104/scripts.pory"
 	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark
 # 72 "data/maps/Route104/scripts.pory"
@@ -145,6 +169,11 @@ Route104_EventScript_RivalTrigger::
 # 73 "data/maps/Route104/scripts.pory"
 	applymovement LOCALID_RIVAL, Common_Movement_Delay48
 # 74 "data/maps/Route104/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE104_RIVAL, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement LOCALID_ROUTE104_RIVAL, Common_Movement_Delay48
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 75 "data/maps/Route104/scripts.pory"
 	goto Route104_EventScript_RivalEncounter
@@ -218,16 +247,22 @@ Route104_EventScript_MayEncounter::
 	delay 30
 # 110 "data/maps/Route104/scripts.pory"
 	setflag FLAG_ENABLE_RIVAL_MATCH_CALL
+<<<<<<< HEAD
 # 111 "data/maps/Route104/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route104_Movement_PlayerFaceRival
 # 112 "data/maps/Route104/scripts.pory"
 	applymovement LOCALID_RIVAL, Route104_Movement_RivalWalkSlowLeft
 # 113 "data/maps/Route104/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route104_Movement_PlayerFaceRival
+	applymovement LOCALID_ROUTE104_RIVAL, Route104_Movement_RivalWalkSlowLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	msgbox Route104_Text_MayHowsYourPokedex, MSGBOX_DEFAULT
 # 114 "data/maps/Route104/scripts.pory"
 	closemessage
 # 115 "data/maps/Route104/scripts.pory"
 	waitmovement 0
+<<<<<<< HEAD
 # 116 "data/maps/Route104/scripts.pory"
 	applymovement LOCALID_RIVAL, Route104_Movement_RivalApproachPlayer
 # 117 "data/maps/Route104/scripts.pory"
@@ -235,6 +270,11 @@ Route104_EventScript_MayEncounter::
 # 118 "data/maps/Route104/scripts.pory"
 	copyobjectxytoperm LOCALID_RIVAL
 # 119 "data/maps/Route104/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE104_RIVAL, Route104_Movement_RivalApproachPlayer
+	waitmovement 0
+	copyobjectxytoperm LOCALID_ROUTE104_RIVAL
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	msgbox Route104_Text_MayMinesDecentLetsBattle, MSGBOX_YESNO
 # 120 "data/maps/Route104/scripts.pory"
 	goto_if_eq VAR_RESULT, YES, Route104_EventScript_BattleMay
@@ -390,16 +430,22 @@ Route104_EventScript_BrendanEncounter::
 	delay 30
 # 196 "data/maps/Route104/scripts.pory"
 	setflag FLAG_ENABLE_RIVAL_MATCH_CALL
+<<<<<<< HEAD
 # 197 "data/maps/Route104/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route104_Movement_PlayerFaceRival
 # 198 "data/maps/Route104/scripts.pory"
 	applymovement LOCALID_RIVAL, Route104_Movement_RivalWalkSlowLeft
 # 199 "data/maps/Route104/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route104_Movement_PlayerFaceRival
+	applymovement LOCALID_ROUTE104_RIVAL, Route104_Movement_RivalWalkSlowLeft
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	msgbox Route104_Text_BrendanHowsYourPokedex, MSGBOX_DEFAULT
 # 200 "data/maps/Route104/scripts.pory"
 	closemessage
 # 201 "data/maps/Route104/scripts.pory"
 	waitmovement 0
+<<<<<<< HEAD
 # 202 "data/maps/Route104/scripts.pory"
 	applymovement LOCALID_RIVAL, Route104_Movement_RivalApproachPlayer
 # 203 "data/maps/Route104/scripts.pory"
@@ -407,6 +453,11 @@ Route104_EventScript_BrendanEncounter::
 # 204 "data/maps/Route104/scripts.pory"
 	copyobjectxytoperm LOCALID_RIVAL
 # 205 "data/maps/Route104/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE104_RIVAL, Route104_Movement_RivalApproachPlayer
+	waitmovement 0
+	copyobjectxytoperm LOCALID_ROUTE104_RIVAL
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	msgbox Route104_Text_BrendanDoingGreatLetsBattle, MSGBOX_YESNO
 # 206 "data/maps/Route104/scripts.pory"
 	goto_if_eq VAR_RESULT, YES, Route104_EventScript_BattleBrendan
@@ -698,6 +749,7 @@ Route104_EventScript_Girl2::
 
 # 350 "data/maps/Route104/scripts.pory"
 Route104_EventScript_SailToDewford::
+<<<<<<< HEAD
 # 351 "data/maps/Route104/scripts.pory"
 	setobjectsubpriority LOCALID_BRINEY_R104, MAP_ROUTE104, 0
 # 352 "data/maps/Route104/scripts.pory"
@@ -715,6 +767,16 @@ Route104_EventScript_SailToDewford::
 # 358 "data/maps/Route104/scripts.pory"
 	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE104
 # 359 "data/maps/Route104/scripts.pory"
+=======
+	setobjectsubpriority LOCALID_ROUTE104_BRINEY, MAP_ROUTE104, 0
+	setobjectsubpriority LOCALID_PLAYER, MAP_ROUTE104, 0
+	applymovement LOCALID_ROUTE104_BRINEY, Route104_Movement_BrineyBoardBoat
+	waitmovement 0
+	removeobject LOCALID_ROUTE104_BRINEY
+	applymovement LOCALID_PLAYER, Route104_Movement_PlayerBoardBoat
+	waitmovement 0
+	hideobjectat LOCALID_PLAYER, MAP_ROUTE104
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	call Common_EventScript_PlayBrineysBoatMusic
 # 360 "data/maps/Route104/scripts.pory"
 	goto_if_set FLAG_ENABLE_NORMAN_MATCH_CALL, Route104_EventScript_SailToDewfordNoCall
@@ -726,11 +788,16 @@ Route104_EventScript_SailToDewford::
 
 # 364 "data/maps/Route104/scripts.pory"
 Route104_EventScript_SailToDewfordNoCall::
+<<<<<<< HEAD
 # 365 "data/maps/Route104/scripts.pory"
 	applymovement LOCALID_BOAT_R104, Route104_Movement_SailToDewford
 # 366 "data/maps/Route104/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route104_Movement_SailToDewford
 # 367 "data/maps/Route104/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE104_BOAT, Route104_Movement_SailToDewford
+	applymovement LOCALID_PLAYER, Route104_Movement_SailToDewford
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 368 "data/maps/Route104/scripts.pory"
 	goto Route104_EventScript_ArriveInDewford
@@ -738,11 +805,16 @@ Route104_EventScript_SailToDewfordNoCall::
 
 # 370 "data/maps/Route104/scripts.pory"
 Route104_EventScript_SailToDewfordDadCalls::
+<<<<<<< HEAD
 # 371 "data/maps/Route104/scripts.pory"
 	applymovement LOCALID_BOAT_R104, Route104_Movement_SailToDewfordBeforeDadCalls
 # 372 "data/maps/Route104/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route104_Movement_SailToDewfordBeforeDadCalls
 # 373 "data/maps/Route104/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE104_BOAT, Route104_Movement_SailToDewfordBeforeDadCalls
+	applymovement LOCALID_PLAYER, Route104_Movement_SailToDewfordBeforeDadCalls
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 374 "data/maps/Route104/scripts.pory"
 	pokenavcall Route104_Text_DadPokenavCall
@@ -762,6 +834,7 @@ Route104_EventScript_SailToDewfordDadCalls::
 	delay 30
 # 382 "data/maps/Route104/scripts.pory"
 	setflag FLAG_ENABLE_NORMAN_MATCH_CALL
+<<<<<<< HEAD
 # 383 "data/maps/Route104/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route104_Movement_SailToDewfordAfterDadCalls
 # 384 "data/maps/Route104/scripts.pory"
@@ -769,6 +842,11 @@ Route104_EventScript_SailToDewfordDadCalls::
 # 385 "data/maps/Route104/scripts.pory"
 	waitmovement LOCALID_BOAT_R104, MAP_ROUTE104
 # 386 "data/maps/Route104/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route104_Movement_SailToDewfordAfterDadCalls
+	applymovement LOCALID_ROUTE104_BOAT, Route104_Movement_SailToDewfordAfterDadCalls, MAP_ROUTE104
+	waitmovement LOCALID_ROUTE104_BOAT, MAP_ROUTE104
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 387 "data/maps/Route104/scripts.pory"
 	goto Route104_EventScript_ArriveInDewford
@@ -778,12 +856,17 @@ Route104_EventScript_SailToDewfordDadCalls::
 Route104_EventScript_ArriveInDewford::
 # 390 "data/maps/Route104/scripts.pory"
 	delay 50
+<<<<<<< HEAD
 # 391 "data/maps/Route104/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route104_Movement_PlayerExitBoat
 # 392 "data/maps/Route104/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route104_Movement_PlayerExitBoat
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 393 "data/maps/Route104/scripts.pory"
 	call Common_EventScript_StopBrineysBoatMusic
+<<<<<<< HEAD
 # 394 "data/maps/Route104/scripts.pory"
 	showobjectat OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN
 # 395 "data/maps/Route104/scripts.pory"
@@ -821,6 +904,26 @@ Route104_EventScript_ArriveInDewford::
 # 411 "data/maps/Route104/scripts.pory"
 	copyobjectxytoperm LOCALID_BRINEY_DEWFORD
 # 412 "data/maps/Route104/scripts.pory"
+=======
+	showobjectat LOCALID_PLAYER, MAP_DEWFORD_TOWN
+	applymovement LOCALID_PLAYER, Route104_Movement_PlayerMoveForBriney
+	waitmovement 0
+	setobjectxyperm LOCALID_DEWFORD_BRINEY, 12, 8
+	addobject LOCALID_DEWFORD_BRINEY
+	setobjectsubpriority LOCALID_DEWFORD_BRINEY, MAP_DEWFORD_TOWN, 0
+	clearflag FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN
+	applymovement LOCALID_DEWFORD_BRINEY, Route104_Movement_BrineyExitBoat
+	waitmovement 0
+	addobject LOCALID_DEWFORD_BOAT
+	clearflag FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN
+	call Common_EventScript_StopBrineysBoatMusic
+	setflag FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT
+	hideobjectat LOCALID_ROUTE104_BOAT, MAP_ROUTE104
+	copyvar VAR_BRINEY_LOCATION, VAR_0x8008
+	resetobjectsubpriority LOCALID_PLAYER, MAP_ROUTE104
+	resetobjectsubpriority LOCALID_DEWFORD_BRINEY, MAP_DEWFORD_TOWN
+	copyobjectxytoperm LOCALID_DEWFORD_BRINEY
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	setvar VAR_BOARD_BRINEY_BOAT_STATE, 0
 # 413 "data/maps/Route104/scripts.pory"
 	goto_if_unset FLAG_DELIVERED_STEVEN_LETTER, Route104_EventScript_DeliverLetterReminder

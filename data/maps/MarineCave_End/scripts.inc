@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/MarineCave_End/scripts.pory"
 
 # 2 "data/maps/MarineCave_End/scripts.pory"
@@ -5,6 +6,8 @@
 # 3 "data/maps/MarineCave_End/scripts.pory"
 
 # 4 "data/maps/MarineCave_End/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 MarineCave_End_MapScripts::
 # 5 "data/maps/MarineCave_End/scripts.pory"
 	map_script MAP_SCRIPT_ON_RESUME, MarineCave_End_OnResume
@@ -28,9 +31,13 @@ MarineCave_End_EventScript_TryRemoveKyogre::
 	specialvar VAR_RESULT, GetBattleOutcome
 # 15 "data/maps/MarineCave_End/scripts.pory"
 	goto_if_ne VAR_RESULT, B_OUTCOME_CAUGHT, Common_EventScript_NopReturn
+<<<<<<< HEAD
 # 16 "data/maps/MarineCave_End/scripts.pory"
 	removeobject LOCALID_KYOGRE
 # 17 "data/maps/MarineCave_End/scripts.pory"
+=======
+	removeobject LOCALID_MARINE_CAVE_KYOGRE
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 18 "data/maps/MarineCave_End/scripts.pory"
 
@@ -56,6 +63,7 @@ MarineCave_End_EventScript_ShowKyogre::
 MarineCave_End_EventScript_Kyogre::
 # 29 "data/maps/MarineCave_End/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 30 "data/maps/MarineCave_End/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
 # 31 "data/maps/MarineCave_End/scripts.pory"
@@ -63,6 +71,11 @@ MarineCave_End_EventScript_Kyogre::
 # 32 "data/maps/MarineCave_End/scripts.pory"
 	applymovement LOCALID_KYOGRE, MarineCave_End_Movement_KyogreApproach
 # 33 "data/maps/MarineCave_End/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Common_Movement_FaceUp
+	waitmovement 0
+	applymovement LOCALID_MARINE_CAVE_KYOGRE, MarineCave_End_Movement_KyogreApproach
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 34 "data/maps/MarineCave_End/scripts.pory"
 	waitse
@@ -72,9 +85,13 @@ MarineCave_End_EventScript_Kyogre::
 	delay 40
 # 37 "data/maps/MarineCave_End/scripts.pory"
 	waitmoncry
+<<<<<<< HEAD
 # 38 "data/maps/MarineCave_End/scripts.pory"
 	setvar VAR_LAST_TALKED, LOCALID_KYOGRE
 # 39 "data/maps/MarineCave_End/scripts.pory"
+=======
+	setvar VAR_LAST_TALKED, LOCALID_MARINE_CAVE_KYOGRE
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	setwildbattle SPECIES_KYOGRE, 70
 # 40 "data/maps/MarineCave_End/scripts.pory"
 	setflag FLAG_SYS_CTRL_OBJ_DELETE

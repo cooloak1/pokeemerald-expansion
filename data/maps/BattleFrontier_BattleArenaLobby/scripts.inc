@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 
 # 2 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
@@ -5,6 +6,8 @@
 # 3 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 
 # 4 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 BattleFrontier_BattleArenaLobby_MapScripts::
 # 5 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleArenaLobby_OnFrame
@@ -26,9 +29,13 @@ BattleFrontier_BattleArenaLobby_OnWarp:
 BattleFrontier_BattleArenaLobby_EventScript_TurnPlayerNorth::
 # 14 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	setvar VAR_TEMP_1, 1
+<<<<<<< HEAD
 # 15 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 # 16 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	turnobject LOCALID_PLAYER, DIR_NORTH
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	end
 # 17 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 
@@ -412,21 +419,31 @@ BattleFrontier_BattleArenaLobby_EventScript_EndCancelChallenge::
 
 # 207 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 BattleFrontier_BattleArenaLobby_EventScript_WalkToDoorLv50::
+<<<<<<< HEAD
 # 208 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	applymovement LOCALID_ATTENDANT, BattleFrontier_BattleArenaLobby_Movement_AttendantWalkToLeftDoor
 # 209 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattleArenaLobby_Movement_PlayerWalkToLeftDoor
 # 210 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_ATTENDANT, BattleFrontier_BattleArenaLobby_Movement_AttendantWalkToLeftDoor
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleArenaLobby_Movement_PlayerWalkToLeftDoor
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 211 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	opendoor 2, 2
 # 212 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	waitdooranim
+<<<<<<< HEAD
 # 213 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	applymovement LOCALID_ATTENDANT, BattleFrontier_BattleArenaLobby_Movement_AttendantEnterDoor
 # 214 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattleArenaLobby_Movement_PlayerEnterDoor
 # 215 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_ATTENDANT, BattleFrontier_BattleArenaLobby_Movement_AttendantEnterDoor
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleArenaLobby_Movement_PlayerEnterDoor
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 216 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	closedoor 2, 2
@@ -510,21 +527,31 @@ BattleFrontier_BattleArenaLobby_Movement_PlayerEnterDoor:
 
 # 256 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 BattleFrontier_BattleArenaLobby_EventScript_WalkToDoorLvOpen::
+<<<<<<< HEAD
 # 257 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	applymovement LOCALID_ATTENDANT, BattleFrontier_BattleArenaLobby_Movement_AttendantWalkToRightDoor
 # 258 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattleArenaLobby_Movement_PlayerWalkToRightDoor
 # 259 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_ATTENDANT, BattleFrontier_BattleArenaLobby_Movement_AttendantWalkToRightDoor
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleArenaLobby_Movement_PlayerWalkToRightDoor
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 260 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	opendoor 11, 2
 # 261 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	waitdooranim
+<<<<<<< HEAD
 # 262 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	applymovement LOCALID_ATTENDANT, BattleFrontier_BattleArenaLobby_Movement_AttendantEnterDoor
 # 263 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattleArenaLobby_Movement_PlayerEnterDoor
 # 264 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
+=======
+	applymovement LOCALID_ARENA_ATTENDANT, BattleFrontier_BattleArenaLobby_Movement_AttendantEnterDoor
+	applymovement LOCALID_PLAYER, BattleFrontier_BattleArenaLobby_Movement_PlayerEnterDoor
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 265 "data/maps/BattleFrontier_BattleArenaLobby/scripts.pory"
 	closedoor 11, 2

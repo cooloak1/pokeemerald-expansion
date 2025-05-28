@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/UnionRoom/scripts.pory"
 
 # 2 "data/maps/UnionRoom/scripts.pory"
@@ -5,6 +6,8 @@
 # 3 "data/maps/UnionRoom/scripts.pory"
 
 # 4 "data/maps/UnionRoom/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 UnionRoom_MapScripts::
 # 5 "data/maps/UnionRoom/scripts.pory"
 	map_script MAP_SCRIPT_ON_RESUME, UnionRoom_OnResume

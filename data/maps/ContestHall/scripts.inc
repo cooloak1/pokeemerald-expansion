@@ -142,9 +142,13 @@ ContestHall_EventScript_Contest::
 ContestHall_EventScript_SetContestObjects::
 # 72 "data/maps/ContestHall/scripts.pory"
 	special LoadLinkContestPlayerPalettes
+<<<<<<< HEAD
 # 73 "data/maps/ContestHall/scripts.pory"
 	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_LITTLEROOT_TOWN
 # 74 "data/maps/ContestHall/scripts.pory"
+=======
+	hideobjectat LOCALID_PLAYER, MAP_LITTLEROOT_TOWN
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	call ContestHall_EventScript_CreateAudience
 # 75 "data/maps/ContestHall/scripts.pory"
 	end

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/Route121/scripts.pory"
 
 # 2 "data/maps/Route121/scripts.pory"
@@ -9,6 +10,8 @@
 # 5 "data/maps/Route121/scripts.pory"
 
 # 6 "data/maps/Route121/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 Route121_MapScripts::
 # 7 "data/maps/Route121/scripts.pory"
 	.byte 0
@@ -44,14 +47,19 @@ Route121_EventScript_AquaGruntsMoveOut::
 	lockall
 # 23 "data/maps/Route121/scripts.pory"
 	playbgm MUS_ENCOUNTER_AQUA, FALSE
+<<<<<<< HEAD
 # 24 "data/maps/Route121/scripts.pory"
 	applymovement LOCALID_GRUNT_2, Common_Movement_WalkInPlaceRight
 # 25 "data/maps/Route121/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE121_GRUNT_2, Common_Movement_WalkInPlaceRight
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 26 "data/maps/Route121/scripts.pory"
 	msgbox Route121_Text_OkayMoveOutToMtPyre, MSGBOX_DEFAULT
 # 27 "data/maps/Route121/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 28 "data/maps/Route121/scripts.pory"
 	applymovement LOCALID_GRUNT_1, Route121_Movement_Grunt1Exit
 # 29 "data/maps/Route121/scripts.pory"
@@ -59,9 +67,15 @@ Route121_EventScript_AquaGruntsMoveOut::
 # 30 "data/maps/Route121/scripts.pory"
 	applymovement LOCALID_GRUNT_3, Route121_Movement_Grunt3Exit
 # 31 "data/maps/Route121/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE121_GRUNT_1, Route121_Movement_Grunt1Exit
+	applymovement LOCALID_ROUTE121_GRUNT_2, Route121_Movement_Grunt2Exit
+	applymovement LOCALID_ROUTE121_GRUNT_3, Route121_Movement_Grunt3Exit
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 32 "data/maps/Route121/scripts.pory"
 	fadedefaultbgm
+<<<<<<< HEAD
 # 33 "data/maps/Route121/scripts.pory"
 	removeobject LOCALID_GRUNT_1
 # 34 "data/maps/Route121/scripts.pory"
@@ -69,6 +83,11 @@ Route121_EventScript_AquaGruntsMoveOut::
 # 35 "data/maps/Route121/scripts.pory"
 	removeobject LOCALID_GRUNT_3
 # 36 "data/maps/Route121/scripts.pory"
+=======
+	removeobject LOCALID_ROUTE121_GRUNT_1
+	removeobject LOCALID_ROUTE121_GRUNT_2
+	removeobject LOCALID_ROUTE121_GRUNT_3
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	setvar VAR_ROUTE121_STATE, 1
 # 37 "data/maps/Route121/scripts.pory"
 	releaseall

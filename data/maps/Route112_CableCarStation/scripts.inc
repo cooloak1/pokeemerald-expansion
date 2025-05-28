@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1 "data/maps/Route112_CableCarStation/scripts.pory"
 
 # 2 "data/maps/Route112_CableCarStation/scripts.pory"
@@ -5,6 +6,8 @@
 # 3 "data/maps/Route112_CableCarStation/scripts.pory"
 
 # 4 "data/maps/Route112_CableCarStation/scripts.pory"
+=======
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 Route112_CableCarStation_MapScripts::
 # 5 "data/maps/Route112_CableCarStation/scripts.pory"
 	map_script MAP_SCRIPT_ON_TRANSITION, Route112_CableCarStation_OnTransition
@@ -26,11 +29,16 @@ Route112_CableCarStation_OnTransition:
 
 # 14 "data/maps/Route112_CableCarStation/scripts.pory"
 Route112_CableCarStation_EventScript_MoveAttendantAside::
+<<<<<<< HEAD
 # 15 "data/maps/Route112_CableCarStation/scripts.pory"
 	setobjectxyperm LOCALID_ATTENDANT, 7, 4
 # 16 "data/maps/Route112_CableCarStation/scripts.pory"
 	setobjectmovementtype LOCALID_ATTENDANT, MOVEMENT_TYPE_FACE_LEFT
 # 17 "data/maps/Route112_CableCarStation/scripts.pory"
+=======
+	setobjectxyperm LOCALID_ROUTE112_CABLE_CAR_ATTENDANT, 7, 4
+	setobjectmovementtype LOCALID_ROUTE112_CABLE_CAR_ATTENDANT, MOVEMENT_TYPE_FACE_LEFT
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	return
 # 18 "data/maps/Route112_CableCarStation/scripts.pory"
 
@@ -46,19 +54,29 @@ Route112_CableCarStation_OnFrame:
 Route112_CableCarStation_EventScript_ExitCableCar::
 # 24 "data/maps/Route112_CableCarStation/scripts.pory"
 	lockall
+<<<<<<< HEAD
 # 25 "data/maps/Route112_CableCarStation/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route112_CableCarStation_Movement_ExitCableCar
 # 26 "data/maps/Route112_CableCarStation/scripts.pory"
 	applymovement LOCALID_ATTENDANT, Route112_CableCarStation_Movement_FollowPlayerOutFromCableCar
 # 27 "data/maps/Route112_CableCarStation/scripts.pory"
+=======
+	applymovement LOCALID_PLAYER, Route112_CableCarStation_Movement_ExitCableCar
+	applymovement LOCALID_ROUTE112_CABLE_CAR_ATTENDANT, Route112_CableCarStation_Movement_FollowPlayerOutFromCableCar
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 28 "data/maps/Route112_CableCarStation/scripts.pory"
 	setvar VAR_CABLE_CAR_STATION_STATE, 0
+<<<<<<< HEAD
 # 29 "data/maps/Route112_CableCarStation/scripts.pory"
 	setobjectxyperm LOCALID_ATTENDANT, 6, 7
 # 30 "data/maps/Route112_CableCarStation/scripts.pory"
 	setobjectmovementtype LOCALID_ATTENDANT, MOVEMENT_TYPE_FACE_DOWN
 # 31 "data/maps/Route112_CableCarStation/scripts.pory"
+=======
+	setobjectxyperm LOCALID_ROUTE112_CABLE_CAR_ATTENDANT, 6, 7
+	setobjectmovementtype LOCALID_ROUTE112_CABLE_CAR_ATTENDANT, MOVEMENT_TYPE_FACE_DOWN
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	releaseall
 # 32 "data/maps/Route112_CableCarStation/scripts.pory"
 	end
@@ -86,11 +104,16 @@ Route112_CableCarStation_EventScript_RideCableCar::
 	msgbox Route112_CableCarStation_Text_StepThisWay, MSGBOX_DEFAULT
 # 44 "data/maps/Route112_CableCarStation/scripts.pory"
 	closemessage
+<<<<<<< HEAD
 # 45 "data/maps/Route112_CableCarStation/scripts.pory"
 	applymovement LOCALID_ATTENDANT, Route112_CableCarStation_Movement_LeadPlayerToCableCar
 # 46 "data/maps/Route112_CableCarStation/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route112_CableCarStation_Movement_BoardCableCar
 # 47 "data/maps/Route112_CableCarStation/scripts.pory"
+=======
+	applymovement LOCALID_ROUTE112_CABLE_CAR_ATTENDANT, Route112_CableCarStation_Movement_LeadPlayerToCableCar
+	applymovement LOCALID_PLAYER, Route112_CableCarStation_Movement_BoardCableCar
+>>>>>>> cc8694d26d89e3e85bc81e90f6f3cfc5fb1d03ca
 	waitmovement 0
 # 48 "data/maps/Route112_CableCarStation/scripts.pory"
 	setvar VAR_0x8004, FALSE  @ Going up
