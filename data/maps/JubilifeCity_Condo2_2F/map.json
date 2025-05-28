@@ -17,7 +17,13 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 5,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_JUBILIFE_CITY_CONDO2_1F",
+      "dest_warp_id": "1"
+    }
   ],
   "coord_events": [
 
