@@ -159,7 +159,10 @@
     "SolaceonRuins_B3F2_BottomRight",
     "SolaceonRuins_B3F2_TopLeft",
     "SolaceonRuins_B4F2",
-    "SolaceonRuins_2F"
+    "SolaceonRuins_2F",
+    "MountCoronet_4F_1R",
+    "MountCoronet_4F_2R",
+    "MountCoronet_Path_4F_3R"
   ],
   "gMapGroup_Gates": [
     "Gate_Jubilife_Route218",

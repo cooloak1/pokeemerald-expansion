@@ -1542,3 +1542,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/EternaCity_Condo_3F/scripts.inc"
 
 	.include "data/maps/JubilifeCity_TrainerSchool/scripts.inc"
+
+	.include "data/maps/MountCoronet_4F_1R/scripts.inc"
+
+	.include "data/maps/MountCoronet_4F_2R/scripts.inc"
+
+	.include "data/maps/MountCoronet_Path_4F_3R/scripts.inc"

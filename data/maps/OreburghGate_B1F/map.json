@@ -16,7 +16,7 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
-      "x": 51,
+      "x": 52,
       "y": 7,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -29,7 +29,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
-      "x": 43,
+      "x": 44,
       "y": 12,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -42,7 +42,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
-      "x": 40,
+      "x": 41,
       "y": 12,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -55,7 +55,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
-      "x": 36,
+      "x": 37,
       "y": 12,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -68,7 +68,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
-      "x": 49,
+      "x": 50,
       "y": 9,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -81,7 +81,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
-      "x": 35,
+      "x": 36,
       "y": 17,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -94,7 +94,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
-      "x": 26,
+      "x": 27,
       "y": 16,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -146,7 +146,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 54,
+      "x": 55,
       "y": 10,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -159,7 +159,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 38,
+      "x": 39,
       "y": 10,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -172,7 +172,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 22,
+      "x": 23,
       "y": 9,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -212,7 +212,7 @@
   ],
   "warp_events": [
     {
-      "x": 46,
+      "x": 45,
       "y": 4,
       "elevation": 0,
       "dest_map": "MAP_OREBURGH_GATE_1F",
