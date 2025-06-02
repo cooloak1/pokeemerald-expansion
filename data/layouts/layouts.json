@@ -4936,7 +4936,7 @@
       "name": "Route216_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Snow",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route216/border.bin",
       "blockdata_filepath": "data/layouts/Route216/map.bin"
@@ -4946,8 +4946,8 @@
       "name": "Route217_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "primary_tileset": "gTileset_Snow",
+      "secondary_tileset": "gTileset_Snowpoint",
       "border_filepath": "data/layouts/Route217/border.bin",
       "blockdata_filepath": "data/layouts/Route217/map.bin"
     },

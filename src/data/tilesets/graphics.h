@@ -2109,3 +2109,41 @@ const u16 gTilesetPalettes_SinnohEast[][16] =
 };
 
 const u32 gTilesetTiles_SinnohEast[] = INCBIN_U32("data/tilesets/primary/sinnoh_east/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Snow[][16] =
+{
+    INCBIN_U16("data/tilesets/primary/snow/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/snow/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/snow/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/snow/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/snow/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/snow/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/snow/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/snow/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/snow/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/snow/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/snow/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/snow/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/snow/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Snow[] = INCBIN_U32("data/tilesets/primary/snow/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Snowpoint[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/snowpoint/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/snowpoint/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/snowpoint/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/snowpoint/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/snowpoint/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/snowpoint/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/snowpoint/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/snowpoint/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/snowpoint/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/snowpoint/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/snowpoint/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/snowpoint/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/snowpoint/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Snowpoint[] = INCBIN_U32("data/tilesets/secondary/snowpoint/tiles.4bpp.lz");

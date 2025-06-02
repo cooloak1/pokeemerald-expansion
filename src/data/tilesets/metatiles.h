@@ -282,3 +282,9 @@ const u16 gMetatileAttributes_House2[] = INCBIN_U16("data/tilesets/secondary/hou
 
 const u16 gMetatiles_SinnohEast[] = INCBIN_U16("data/tilesets/primary/sinnoh_east/metatiles.bin");
 const u16 gMetatileAttributes_SinnohEast[] = INCBIN_U16("data/tilesets/primary/sinnoh_east/metatile_attributes.bin");
+
+const u16 gMetatiles_Snow[] = INCBIN_U16("data/tilesets/primary/snow/metatiles.bin");
+const u16 gMetatileAttributes_Snow[] = INCBIN_U16("data/tilesets/primary/snow/metatile_attributes.bin");
+
+const u16 gMetatiles_Snowpoint[] = INCBIN_U16("data/tilesets/secondary/snowpoint/metatiles.bin");
+const u16 gMetatileAttributes_Snowpoint[] = INCBIN_U16("data/tilesets/secondary/snowpoint/metatile_attributes.bin");
