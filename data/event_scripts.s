@@ -1548,3 +1548,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/MountCoronet_4F_2R/scripts.inc"
 
 	.include "data/maps/MountCoronet_Path_4F_3R/scripts.inc"
+
+	.include "data/maps/FullmoonIsland_Exterior/scripts.inc"
+
+	.include "data/maps/NewmoonIsland_Exterior/scripts.inc"

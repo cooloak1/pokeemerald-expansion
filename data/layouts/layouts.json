@@ -5470,6 +5470,26 @@
       "secondary_tileset": "gTileset_Sinnoh_Cave",
       "border_filepath": "data/layouts/MountCoronet_Path_4F_3R/border.bin",
       "blockdata_filepath": "data/layouts/MountCoronet_Path_4F_3R/map.bin"
+    },
+    {
+      "id": "LAYOUT_FULLMOON_ISLAND_EXTERIOR",
+      "name": "FullmoonIsland_Exterior_Layout",
+      "width": 32,
+      "height": 32,
+      "primary_tileset": "gTileset_SinnohWest",
+      "secondary_tileset": "gTileset_Canalave",
+      "border_filepath": "data/layouts/FullmoonIsland_Exterior/border.bin",
+      "blockdata_filepath": "data/layouts/FullmoonIsland_Exterior/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEWMOON_ISLAND_EXTERIOR",
+      "name": "NewmoonIsland_Exterior_Layout",
+      "width": 32,
+      "height": 32,
+      "primary_tileset": "gTileset_SinnohWest",
+      "secondary_tileset": "gTileset_Canalave",
+      "border_filepath": "data/layouts/NewmoonIsland_Exterior/border.bin",
+      "blockdata_filepath": "data/layouts/NewmoonIsland_Exterior/map.bin"
     }
   ]
 }
