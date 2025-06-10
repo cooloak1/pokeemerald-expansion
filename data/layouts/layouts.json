@@ -4506,7 +4506,7 @@
       "name": "ValorCavern_Layout",
       "width": 23,
       "height": 25,
-      "primary_tileset": "gTileset_SinnohEast",
+      "primary_tileset": "gTileset_SinnohWest",
       "secondary_tileset": "gTileset_Sinnoh_Cave",
       "border_filepath": "data/layouts/ValorCavern/border.bin",
       "blockdata_filepath": "data/layouts/ValorCavern/map.bin"
@@ -4867,7 +4867,7 @@
       "width": 28,
       "height": 75,
       "primary_tileset": "gTileset_SinnohEast",
-      "secondary_tileset": "gTileset_Veilstone",
+      "secondary_tileset": "gTileset_Valor",
       "border_filepath": "data/layouts/Route214/border.bin",
       "blockdata_filepath": "data/layouts/Route214/map.bin"
     },
@@ -4877,7 +4877,7 @@
       "width": 90,
       "height": 38,
       "primary_tileset": "gTileset_SinnohEast",
-      "secondary_tileset": "gTileset_Pastoria",
+      "secondary_tileset": "gTileset_Valor",
       "border_filepath": "data/layouts/Route213/border.bin",
       "blockdata_filepath": "data/layouts/Route213/map.bin"
     },
@@ -4937,7 +4937,7 @@
       "width": 20,
       "height": 20,
       "primary_tileset": "gTileset_Snow",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Snowpoint",
       "border_filepath": "data/layouts/Route216/border.bin",
       "blockdata_filepath": "data/layouts/Route216/map.bin"
     },
@@ -4956,8 +4956,8 @@
       "name": "SnowpointCity_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "primary_tileset": "gTileset_Snow",
+      "secondary_tileset": "gTileset_Snowpoint",
       "border_filepath": "data/layouts/SnowpointCity/border.bin",
       "blockdata_filepath": "data/layouts/SnowpointCity/map.bin"
     },
@@ -5087,7 +5087,7 @@
       "width": 56,
       "height": 28,
       "primary_tileset": "gTileset_SinnohEast",
-      "secondary_tileset": "gTileset_Pastoria",
+      "secondary_tileset": "gTileset_Valor",
       "border_filepath": "data/layouts/LakeValor/border.bin",
       "blockdata_filepath": "data/layouts/LakeValor/map.bin"
     },
@@ -5097,7 +5097,7 @@
       "width": 51,
       "height": 36,
       "primary_tileset": "gTileset_SinnohEast",
-      "secondary_tileset": "gTileset_Pastoria",
+      "secondary_tileset": "gTileset_Valor",
       "border_filepath": "data/layouts/ValorLakefront/border.bin",
       "blockdata_filepath": "data/layouts/ValorLakefront/map.bin"
     },
@@ -5207,7 +5207,7 @@
       "width": 46,
       "height": 42,
       "primary_tileset": "gTileset_SinnohEast",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Valor",
       "border_filepath": "data/layouts/SendoffSpring/border.bin",
       "blockdata_filepath": "data/layouts/SendoffSpring/map.bin"
     },

@@ -20,7 +20,7 @@
     },
     {
       "map": "MAP_ROUTE213",
-      "offset": 10,
+      "offset": 8,
       "direction": "right"
     }
   ],
@@ -28,7 +28,7 @@
   "warp_events": [
     {
       "x": 17,
-      "y": 42,
+      "y": 41,
       "elevation": 0,
       "dest_map": "MAP_PASTORIA_CITY_MART",
       "dest_warp_id": "0"
@@ -70,14 +70,14 @@
     },
     {
       "x": 8,
-      "y": 39,
+      "y": 37,
       "elevation": 0,
       "dest_map": "MAP_PASTORIA_CITY_HOUSE5",
       "dest_warp_id": "0"
     },
     {
       "x": 52,
-      "y": 16,
+      "y": 14,
       "elevation": 0,
       "dest_map": "MAP_GATE_PASTORIA_ROUTE213",
       "dest_warp_id": "0"

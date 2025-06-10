@@ -2147,3 +2147,22 @@ const u16 gTilesetPalettes_Snowpoint[][16] =
 };
 
 const u32 gTilesetTiles_Snowpoint[] = INCBIN_U32("data/tilesets/secondary/snowpoint/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Valor[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/valor/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/valor/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/valor/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/valor/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/valor/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/valor/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/valor/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/valor/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/valor/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/valor/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/valor/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/valor/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/valor/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Valor[] = INCBIN_U32("data/tilesets/secondary/valor/tiles.4bpp.lz");

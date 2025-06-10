@@ -1127,3 +1127,14 @@ const struct Tileset gTileset_Snowpoint =
     .metatileAttributes = gMetatileAttributes_Snowpoint,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Valor =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Valor,
+    .palettes = gTilesetPalettes_Valor,
+    .metatiles = gMetatiles_Valor,
+    .metatileAttributes = gMetatileAttributes_Valor,
+    .callback = NULL,
+};
