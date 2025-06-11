@@ -85,6 +85,8 @@
     "ValorLakefront",
     "PastoriaCity",
     "SnowpointCity",
+    "AcuityLakefront",
+    "LakeAcuity",
     "SunyshoreCity",
     "Route201",
     "Route202",
@@ -107,7 +109,7 @@
     "Route214",
     "Route215",
     "Route216",
-    "Route217",
+    "Route217_North",
     "Route218",
     "Route219",
     "Route220",
@@ -116,7 +118,8 @@
     "Route223",
     "ValleyWindworks",
     "FuegoIronworks",
-    "SendoffSpring"
+    "SendoffSpring",
+    "Route217_South"
   ],
   "gMapGroup_SinnohDungeons": [
     "VerityCavern",
@@ -142,6 +145,11 @@
     "MountCoronet_North_B1F",
     "MountCoronet_North_2F",
     "MountCoronet_IcebergRuins",
+    "MountCoronet_4F_1R",
+    "MountCoronet_4F_2R",
+    "MountCoronet_Path_4F_3R",
+    "MountCoronet_Path_5F",
+    "MountCoronet_Path_6F",
     "CelesticRuins",
     "SolaceonRuins_1F",
     "SolaceonRuins_1F_TopLeft",
@@ -161,10 +169,7 @@
     "SolaceonRuins_B3F2_BottomRight",
     "SolaceonRuins_B3F2_TopLeft",
     "SolaceonRuins_B4F2",
-    "SolaceonRuins_2F",
-    "MountCoronet_4F_1R",
-    "MountCoronet_4F_2R",
-    "MountCoronet_Path_4F_3R"
+    "SolaceonRuins_2F"
   ],
   "gMapGroup_Gates": [
     "Gate_Jubilife_Route218",

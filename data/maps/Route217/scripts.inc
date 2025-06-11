@@ -1,3 +1,3 @@
-Route217_MapScripts::
+Route217_North_MapScripts::
 	.byte 0
 

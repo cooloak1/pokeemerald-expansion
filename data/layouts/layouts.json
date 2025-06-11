@@ -4934,22 +4934,22 @@
     {
       "id": "LAYOUT_ROUTE216",
       "name": "Route216_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 84,
+      "height": 28,
       "primary_tileset": "gTileset_Snow",
       "secondary_tileset": "gTileset_Snowpoint",
       "border_filepath": "data/layouts/Route216/border.bin",
       "blockdata_filepath": "data/layouts/Route216/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE217",
-      "name": "Route217_Layout",
+      "id": "LAYOUT_ROUTE217_NORTH",
+      "name": "Route217_North_Layout",
       "width": 20,
       "height": 20,
       "primary_tileset": "gTileset_Snow",
       "secondary_tileset": "gTileset_Snowpoint",
-      "border_filepath": "data/layouts/Route217/border.bin",
-      "blockdata_filepath": "data/layouts/Route217/map.bin"
+      "border_filepath": "data/layouts/Route217_North/border.bin",
+      "blockdata_filepath": "data/layouts/Route217_North/map.bin"
     },
     {
       "id": "LAYOUT_SNOWPOINT_CITY",
@@ -5490,6 +5490,56 @@
       "secondary_tileset": "gTileset_Canalave",
       "border_filepath": "data/layouts/NewmoonIsland_Exterior/border.bin",
       "blockdata_filepath": "data/layouts/NewmoonIsland_Exterior/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNT_CORONET_PATH_5F",
+      "name": "MountCoronet_Path_5F_Layout",
+      "width": 20,
+      "height": 22,
+      "primary_tileset": "gTileset_SinnohEast",
+      "secondary_tileset": "gTileset_Sinnoh_Cave",
+      "border_filepath": "data/layouts/MountCoronet_Path_5F/border.bin",
+      "blockdata_filepath": "data/layouts/MountCoronet_Path_5F/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNT_CORONET_PATH_6F",
+      "name": "MountCoronet_Path_6F_Layout",
+      "width": 19,
+      "height": 20,
+      "primary_tileset": "gTileset_SinnohEast",
+      "secondary_tileset": "gTileset_Sinnoh_Cave",
+      "border_filepath": "data/layouts/MountCoronet_Path_6F/border.bin",
+      "blockdata_filepath": "data/layouts/MountCoronet_Path_6F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ACUITY_LAKEFRONT",
+      "name": "AcuityLakefront_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Snow",
+      "secondary_tileset": "gTileset_Snowpoint",
+      "border_filepath": "data/layouts/AcuityLakefront/border.bin",
+      "blockdata_filepath": "data/layouts/AcuityLakefront/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAKE_ACUITY",
+      "name": "LakeAcuity_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Snow",
+      "secondary_tileset": "gTileset_Snowpoint",
+      "border_filepath": "data/layouts/LakeAcuity/border.bin",
+      "blockdata_filepath": "data/layouts/LakeAcuity/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE217_SOUTH",
+      "name": "Route217_South_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Snow",
+      "secondary_tileset": "gTileset_Snowpoint",
+      "border_filepath": "data/layouts/Route217_South/border.bin",
+      "blockdata_filepath": "data/layouts/Route217_South/map.bin"
     }
   ]
 }

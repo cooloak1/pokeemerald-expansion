@@ -1273,7 +1273,7 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/Route216/scripts.inc"
 
-	.include "data/maps/Route217/scripts.inc"
+	.include "data/maps/Route217_North/scripts.inc"
 
 	.include "data/maps/SnowpointCity/scripts.inc"
 
@@ -1552,3 +1552,13 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/FullmoonIsland_Exterior/scripts.inc"
 
 	.include "data/maps/NewmoonIsland_Exterior/scripts.inc"
+
+	.include "data/maps/MountCoronet_Path_5F/scripts.inc"
+
+	.include "data/maps/MountCoronet_Path_6F/scripts.inc"
+
+	.include "data/maps/AcuityLakefront/scripts.inc"
+
+	.include "data/maps/LakeAcuity/scripts.inc"
+
+	.include "data/maps/Route217_South/scripts.inc"

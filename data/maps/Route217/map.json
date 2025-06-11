@@ -1,7 +1,7 @@
 {
-  "id": "MAP_ROUTE217",
-  "name": "Route217",
-  "layout": "LAYOUT_ROUTE217",
+  "id": "MAP_ROUTE217_NORTH",
+  "name": "Route217_North",
+  "layout": "LAYOUT_ROUTE217_NORTH",
   "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_ROUTE_217",
   "requires_flash": false,
