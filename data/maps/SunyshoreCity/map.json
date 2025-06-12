@@ -15,12 +15,12 @@
   "connections": [
     {
       "map": "MAP_ROUTE222",
-      "offset": 28,
+      "offset": 24,
       "direction": "left"
     },
     {
       "map": "MAP_ROUTE223",
-      "offset": 0,
+      "offset": 5,
       "direction": "up"
     }
   ],
@@ -28,21 +28,21 @@
   "warp_events": [
     {
       "x": 10,
-      "y": 13,
+      "y": 9,
       "elevation": 0,
       "dest_map": "MAP_SUNYSHORE_CITY_MART",
       "dest_warp_id": "0"
     },
     {
       "x": 10,
-      "y": 9,
+      "y": 5,
       "elevation": 0,
       "dest_map": "MAP_SUNYSHORE_CITY_POKEMON_CENTER",
       "dest_warp_id": "0"
     },
     {
       "x": 4,
-      "y": 46,
+      "y": 42,
       "elevation": 0,
       "dest_map": "MAP_GATE_SUNYSHORE_ROUTE222",
       "dest_warp_id": "1"

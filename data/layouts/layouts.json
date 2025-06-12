@@ -4894,8 +4894,8 @@
     {
       "id": "LAYOUT_SUNYSHORE_CITY",
       "name": "SunyshoreCity_Layout",
-      "width": 56,
-      "height": 56,
+      "width": 68,
+      "height": 52,
       "primary_tileset": "gTileset_SinnohEast",
       "secondary_tileset": "gTileset_Sunyshore",
       "border_filepath": "data/layouts/SunyshoreCity/border.bin",
@@ -4934,8 +4934,8 @@
     {
       "id": "LAYOUT_ROUTE216",
       "name": "Route216_Layout",
-      "width": 84,
-      "height": 28,
+      "width": 66,
+      "height": 30,
       "primary_tileset": "gTileset_Snow",
       "secondary_tileset": "gTileset_Snowpoint",
       "border_filepath": "data/layouts/Route216/border.bin",
@@ -4944,8 +4944,8 @@
     {
       "id": "LAYOUT_ROUTE217_NORTH",
       "name": "Route217_North_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 28,
+      "height": 84,
       "primary_tileset": "gTileset_Snow",
       "secondary_tileset": "gTileset_Snowpoint",
       "border_filepath": "data/layouts/Route217_North/border.bin",
@@ -4964,10 +4964,10 @@
     {
       "id": "LAYOUT_ROUTE223",
       "name": "Route223_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 28,
+      "height": 28,
       "primary_tileset": "gTileset_SinnohEast",
-      "secondary_tileset": "gTileset_Petalburg",
+      "secondary_tileset": "gTileset_Sunyshore",
       "border_filepath": "data/layouts/Route223/border.bin",
       "blockdata_filepath": "data/layouts/Route223/map.bin"
     },
@@ -5534,8 +5534,8 @@
     {
       "id": "LAYOUT_ROUTE217_SOUTH",
       "name": "Route217_South_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 18,
+      "height": 29,
       "primary_tileset": "gTileset_Snow",
       "secondary_tileset": "gTileset_Snowpoint",
       "border_filepath": "data/layouts/Route217_South/border.bin",

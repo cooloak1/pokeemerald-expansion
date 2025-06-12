@@ -109,6 +109,7 @@
     "Route214",
     "Route215",
     "Route216",
+    "Route217_South",
     "Route217_North",
     "Route218",
     "Route219",
@@ -118,8 +119,7 @@
     "Route223",
     "ValleyWindworks",
     "FuegoIronworks",
-    "SendoffSpring",
-    "Route217_South"
+    "SendoffSpring"
   ],
   "gMapGroup_SinnohDungeons": [
     "VerityCavern",
