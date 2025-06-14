@@ -4974,10 +4974,10 @@
     {
       "id": "LAYOUT_ETERNA_FOREST",
       "name": "EternaForest_Layout",
-      "width": 56,
-      "height": 56,
+      "width": 63,
+      "height": 62,
       "primary_tileset": "gTileset_SinnohWest",
-      "secondary_tileset": "gTileset_Eterna",
+      "secondary_tileset": "gTileset_Forest",
       "border_filepath": "data/layouts/EternaForest/border.bin",
       "blockdata_filepath": "data/layouts/EternaForest/map.bin"
     },
@@ -5540,6 +5540,16 @@
       "secondary_tileset": "gTileset_Snowpoint",
       "border_filepath": "data/layouts/Route217_South/border.bin",
       "blockdata_filepath": "data/layouts/Route217_South/map.bin"
+    },
+    {
+      "id": "LAYOUT_CANALAVE_CITY_HOUSE5",
+      "name": "CanalaveCity_House5_Layout",
+      "width": 9,
+      "height": 9,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_House1",
+      "border_filepath": "data/layouts/CanalaveCity_House5/border.bin",
+      "blockdata_filepath": "data/layouts/CanalaveCity_House5/map.bin"
     }
   ]
 }

@@ -2166,3 +2166,22 @@ const u16 gTilesetPalettes_Valor[][16] =
 };
 
 const u32 gTilesetTiles_Valor[] = INCBIN_U32("data/tilesets/secondary/valor/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Forest[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/forest/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/forest/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/forest/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/forest/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/forest/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/forest/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/forest/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/forest/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/forest/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/forest/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/forest/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/forest/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/forest/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Forest[] = INCBIN_U32("data/tilesets/secondary/forest/tiles.4bpp.lz");

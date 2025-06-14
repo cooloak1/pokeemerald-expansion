@@ -16,8 +16,8 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
-      "x": 44,
-      "y": 14,
+      "x": 46,
+      "y": 16,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -29,8 +29,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
-      "x": 45,
-      "y": 14,
+      "x": 47,
+      "y": 16,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -42,8 +42,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
-      "x": 21,
-      "y": 37,
+      "x": 23,
+      "y": 39,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -55,8 +55,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
-      "x": 21,
-      "y": 36,
+      "x": 23,
+      "y": 38,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -68,8 +68,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 1,
-      "y": 51,
+      "x": 3,
+      "y": 53,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -81,8 +81,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 23,
-      "y": 33,
+      "x": 25,
+      "y": 35,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -94,8 +94,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 30,
-      "y": 49,
+      "x": 32,
+      "y": 51,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -107,8 +107,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 38,
-      "y": 22,
+      "x": 40,
+      "y": 24,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -120,8 +120,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 51,
-      "y": 3,
+      "x": 53,
+      "y": 5,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -134,36 +134,36 @@
   ],
   "warp_events": [
     {
-      "x": 14,
-      "y": 54,
+      "x": 16,
+      "y": 56,
       "elevation": 0,
       "dest_map": "MAP_ROUTE205_SOUTH",
       "dest_warp_id": "1"
     },
     {
-      "x": 15,
-      "y": 54,
+      "x": 17,
+      "y": 56,
       "elevation": 0,
       "dest_map": "MAP_ROUTE205_SOUTH",
       "dest_warp_id": "2"
     },
     {
-      "x": 55,
-      "y": 16,
+      "x": 57,
+      "y": 18,
       "elevation": 0,
       "dest_map": "MAP_ROUTE205_NORTH",
       "dest_warp_id": "0"
     },
     {
-      "x": 55,
-      "y": 17,
+      "x": 57,
+      "y": 19,
       "elevation": 0,
       "dest_map": "MAP_ROUTE205_NORTH",
       "dest_warp_id": "1"
     },
     {
-      "x": 44,
-      "y": 6,
+      "x": 46,
+      "y": 8,
       "elevation": 0,
       "dest_map": "MAP_ETERNA_FOREST",
       "dest_warp_id": "4"
@@ -173,16 +173,16 @@
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 52,
-      "y": 47,
+      "x": 54,
+      "y": 49,
       "elevation": 0,
       "item": "ITEM_POTION",
       "flag": "FLAG_HIDDEN_ITEM_ETERNA_FOREST_POTION"
     },
     {
       "type": "hidden_item",
-      "x": 50,
-      "y": 1,
+      "x": 52,
+      "y": 3,
       "elevation": 0,
       "item": "ITEM_INSECT_PLATE",
       "flag": "FLAG_HIDDEN_ITEM_ETERNA_FOREST_INSECT_PLATE"

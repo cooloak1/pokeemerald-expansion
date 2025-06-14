@@ -1562,3 +1562,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/LakeAcuity/scripts.inc"
 
 	.include "data/maps/Route217_South/scripts.inc"
+
+	.include "data/maps/OreburghCity_House3/scripts.inc"
+
+	.include "data/maps/CanalaveCity_House5/scripts.inc"

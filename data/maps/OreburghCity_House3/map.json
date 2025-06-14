@@ -1,8 +1,8 @@
 {
-  "id": "MAP_OREBURGH_CITY_CONDO3_1F",
-  "name": "OreburghCity_Condo3_1F",
-  "layout": "LAYOUT_CONDO_1F_1",
-  "music": "MUS_DEWFORD",
+  "id": "MAP_OREBURGH_CITY_HOUSE3",
+  "name": "OreburghCity_House3",
+  "layout": "LAYOUT_HOUSE1",
+  "music": "MUS_DUMMY",
   "region_map_section": "MAPSEC_OREBURGH_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -16,18 +16,11 @@
   "object_events": [],
   "warp_events": [
     {
-      "x": 8,
-      "y": 11,
+      "x": 3,
+      "y": 7,
       "elevation": 0,
       "dest_map": "MAP_OREBURGH_CITY",
-      "dest_warp_id": "7"
-    },
-    {
-      "x": 12,
-      "y": 2,
-      "elevation": 0,
-      "dest_map": "MAP_OREBURGH_CITY_CONDO3_2F",
-      "dest_warp_id": "0"
+      "dest_warp_id": "8"
     }
   ],
   "coord_events": [],
