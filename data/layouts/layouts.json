@@ -5550,6 +5550,26 @@
       "secondary_tileset": "gTileset_House1",
       "border_filepath": "data/layouts/CanalaveCity_House5/border.bin",
       "blockdata_filepath": "data/layouts/CanalaveCity_House5/map.bin"
+    },
+    {
+      "id": "LAYOUT_FULLMOON_ISLAND_INTERIOR",
+      "name": "FullmoonIsland_Interior_Layout",
+      "width": 12,
+      "height": 19,
+      "primary_tileset": "gTileset_SinnohWest",
+      "secondary_tileset": "gTileset_Forest",
+      "border_filepath": "data/layouts/FullmoonIsland_Interior/border.bin",
+      "blockdata_filepath": "data/layouts/FullmoonIsland_Interior/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEWMOON_ISLAND_INTERIOR",
+      "name": "NewmoonIsland_Interior_Layout",
+      "width": 22,
+      "height": 22,
+      "primary_tileset": "gTileset_SinnohWest",
+      "secondary_tileset": "gTileset_Forest",
+      "border_filepath": "data/layouts/NewmoonIsland_Interior/border.bin",
+      "blockdata_filepath": "data/layouts/NewmoonIsland_Interior/map.bin"
     }
   ]
 }

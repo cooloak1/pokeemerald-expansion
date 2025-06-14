@@ -1566,3 +1566,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/OreburghCity_House3/scripts.inc"
 
 	.include "data/maps/CanalaveCity_House5/scripts.inc"
+
+	.include "data/maps/FullmoonIsland_Interior/scripts.inc"
+
+	.include "data/maps/NewmoonIsland_Interior/scripts.inc"

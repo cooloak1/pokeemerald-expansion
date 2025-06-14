@@ -133,8 +133,6 @@
     "WaywardCave_Secret_1F",
     "WaywardCave_Secret_B1F",
     "IronIsland_Outside",
-    "FullmoonIsland_Exterior",
-    "NewmoonIsland_Exterior",
     "RuinManiacTunnel",
     "MountCoronet_South_1F",
     "MountCoronet_South_2F",
@@ -169,7 +167,11 @@
     "SolaceonRuins_B3F2_BottomRight",
     "SolaceonRuins_B3F2_TopLeft",
     "SolaceonRuins_B4F2",
-    "SolaceonRuins_2F"
+    "SolaceonRuins_2F",
+    "FullmoonIsland_Exterior",
+    "FullmoonIsland_Interior",
+    "NewmoonIsland_Exterior",
+    "NewmoonIsland_Interior"
   ],
   "gMapGroup_Gates": [
     "Gate_Jubilife_Route218",
