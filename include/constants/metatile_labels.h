@@ -220,10 +220,10 @@
 #define METATILE_General_Grass_TreeRight       0x1CF
 #define METATILE_General_Grass_TreeUp          0x00E
 #define METATILE_General_LongGrass             0x015
-#define METATILE_General_MuddySlope_Frame0     0x200
-#define METATILE_General_MuddySlope_Frame1     0x201
-#define METATILE_General_MuddySlope_Frame2     0x202
-#define METATILE_General_MuddySlope_Frame3     0x203
+#define METATILE_General_MuddySlope_Frame0     0x250
+#define METATILE_General_MuddySlope_Frame1     0x251
+#define METATILE_General_MuddySlope_Frame2     0x252
+#define METATILE_General_MuddySlope_Frame3     0x253
 #define METATILE_General_RedCaveIndent         0x1A0
 #define METATILE_General_RedCaveOpen           0x1A1
 #define METATILE_General_ReflectiveWater       0x0A1

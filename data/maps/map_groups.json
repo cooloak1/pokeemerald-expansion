@@ -76,11 +76,14 @@
     "CanalaveCity",
     "OreburghCity",
     "FloaromaTown",
+    "ValleyWindworks",
+    "FuegoIronworks",
     "EternaCity",
     "HearthomeCity",
     "SolaceonTown",
     "CelesticTown",
     "VeilstoneCity",
+    "SendoffSpring",
     "LakeValor",
     "ValorLakefront",
     "PastoriaCity",
@@ -116,10 +119,7 @@
     "Route220",
     "Route221",
     "Route222",
-    "Route223",
-    "ValleyWindworks",
-    "FuegoIronworks",
-    "SendoffSpring"
+    "Route223"
   ],
   "gMapGroup_SinnohDungeons": [
     "VerityCavern",
