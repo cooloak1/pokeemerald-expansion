@@ -4625,7 +4625,7 @@
       "id": "LAYOUT_ROUTE218",
       "name": "Route218_Layout",
       "width": 58,
-      "height": 28,
+      "height": 29,
       "primary_tileset": "gTileset_SinnohWest",
       "secondary_tileset": "gTileset_Canalave",
       "border_filepath": "data/layouts/Route218/border.bin",
@@ -5570,6 +5570,16 @@
       "secondary_tileset": "gTileset_Forest",
       "border_filepath": "data/layouts/NewmoonIsland_Interior/border.bin",
       "blockdata_filepath": "data/layouts/NewmoonIsland_Interior/map.bin"
+    },
+    {
+      "id": "LAYOUT_OREBURGH_CITY_MINING_MUSEUM",
+      "name": "OreburghCity_MiningMuseum_Layout",
+      "width": 20,
+      "height": 17,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_OreburghMuseum",
+      "border_filepath": "data/layouts/OreburghCity_MiningMuseum/border.bin",
+      "blockdata_filepath": "data/layouts/OreburghCity_MiningMuseum/map.bin"
     }
   ]
 }

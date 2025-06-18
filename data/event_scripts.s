@@ -1570,3 +1570,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/FullmoonIsland_Interior/scripts.inc"
 
 	.include "data/maps/NewmoonIsland_Interior/scripts.inc"
+
+	.include "data/maps/OreburghCity_MiningMuseum/scripts.inc"

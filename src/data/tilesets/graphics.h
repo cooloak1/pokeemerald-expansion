@@ -2185,3 +2185,22 @@ const u16 gTilesetPalettes_Forest[][16] =
 };
 
 const u32 gTilesetTiles_Forest[] = INCBIN_U32("data/tilesets/secondary/forest/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_OreburghMuseum[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/oreburgh_museum/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oreburgh_museum/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oreburgh_museum/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oreburgh_museum/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oreburgh_museum/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oreburgh_museum/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oreburgh_museum/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oreburgh_museum/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oreburgh_museum/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oreburgh_museum/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oreburgh_museum/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oreburgh_museum/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/oreburgh_museum/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_OreburghMuseum[] = INCBIN_U32("data/tilesets/secondary/oreburgh_museum/tiles.4bpp.lz");
