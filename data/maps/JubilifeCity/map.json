@@ -72,8 +72,8 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 31,
-      "y": 47,
+      "x": 32,
+      "y": 46,
       "elevation": 0,
       "dest_map": "MAP_JUBILIFE_CITY_CONDO1_1F",
       "dest_warp_id": "0"
@@ -87,7 +87,7 @@
     },
     {
       "x": 44,
-      "y": 17,
+      "y": 18,
       "elevation": 0,
       "dest_map": "MAP_JUBILIFE_CITY_CONDO2_1F",
       "dest_warp_id": "0"
