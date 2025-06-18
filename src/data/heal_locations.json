@@ -131,6 +131,90 @@
       "map": "MAP_BATTLE_FRONTIER_OUTSIDE_EAST",
       "x": 3,
       "y": 52
+    },
+    {
+      "id": "HEAL_LOCATION_CANALAVE_CITY",
+      "map": "MAP_CANALAVE_CITY",
+      "x": 24,
+      "y": 11
+    },
+    {
+      "id": "HEAL_LOCATION_CELESTIC_TOWN",
+      "map": "MAP_CELESTIC_TOWN",
+      "x": 21,
+      "y": 22
+    },
+    {
+      "id": "HEAL_LOCATION_ETERNA_CITY",
+      "map": "MAP_ETERNA_CITY",
+      "x": 15,
+      "y": 19
+    },
+    {
+      "id": "HEAL_LOCATION_FLOAROMA_TOWN",
+      "map": "MAP_FLOAROMA_TOWN",
+      "x": 13,
+      "y": 53
+    },
+    {
+      "id": "HEAL_LOCATION_HEARTHOME_CITY",
+      "map": "MAP_HEARTHOME_CITY",
+      "x": 28,
+      "y": 47
+    },
+    {
+      "id": "HEAL_LOCATION_JUBILIFE_CITY",
+      "map": "MAP_JUBILIFE_CITY",
+      "x": 44,
+      "y": 37
+    },
+    {
+      "id": "HEAL_LOCATION_OREBURGH_CITY",
+      "map": "MAP_OREBURGH_CITY",
+      "x": 44,
+      "y": 17
+    },
+    {
+      "id": "HEAL_LOCATION_PASTORIA_CITY",
+      "map": "MAP_PASTORIA_CITY",
+      "x": 11,
+      "y": 17
+    },
+    {
+      "id": "HEAL_LOCATION_SANDGEM_TOWN",
+      "map": "MAP_SANDGEM_TOWN",
+      "x": 15,
+      "y": 6
+    },
+    {
+      "id": "HEAL_LOCATION_SNOWPOINT_CITY",
+      "map": "MAP_SNOWPOINT_CITY",
+      "x": 10,
+      "y": 10
+    },
+    {
+      "id": "HEAL_LOCATION_SOLACEON_TOWN",
+      "map": "MAP_SOLACEON_TOWN",
+      "x": 22,
+      "y": 15
+    },
+    {
+      "id": "HEAL_LOCATION_SUNYSHORE_CITY",
+      "map": "MAP_SUNYSHORE_CITY",
+      "x": 29,
+      "y": 38
+    },
+    {
+      "id": "HEAL_LOCATION_TWINLEAF_TOWN",
+      "map": "MAP_TWINLEAF_TOWN",
+      "x": 14,
+      "y": 18
+    },
+    {
+      "id": "HEAL_LOCATION_VEILSTONE_CITY",
+      "map": "MAP_VEILSTONE_CITY",
+      "x": 28,
+      "y": 33
     }
   ]
 }
