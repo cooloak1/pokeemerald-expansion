@@ -2204,3 +2204,23 @@ const u16 gTilesetPalettes_OreburghMuseum[][16] =
 };
 
 const u32 gTilesetTiles_OreburghMuseum[] = INCBIN_U32("data/tilesets/secondary/oreburgh_museum/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Galactic[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/galactic/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/galactic/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/galactic/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/galactic/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/galactic/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/galactic/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/galactic/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/galactic/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/galactic/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/galactic/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/galactic/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/galactic/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/galactic/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Galactic[] = INCBIN_U32("data/tilesets/secondary/galactic/tiles.4bpp.lz");
+

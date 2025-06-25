@@ -1160,3 +1160,15 @@ const struct Tileset gTileset_OreburghMuseum =
     .metatileAttributes = gMetatileAttributes_OreburghMuseum,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Galactic =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Galactic,
+    .palettes = gTilesetPalettes_Galactic,
+    .metatiles = gMetatiles_Galactic,
+    .metatileAttributes = gMetatileAttributes_Galactic,
+    .callback = NULL,
+};
+

@@ -2,10 +2,10 @@
   "group_order": [
     "gMapGroup_SinnohOverworld",
     "gMapGroup_SinnohDungeons",
-    "gMapGroup_Gates",
     "gMapGroup_IndoorTwinleaf",
     "gMapGroup_IndoorSandgem",
     "gMapGroup_IndoorJubilife",
+    "gMapGroup_IndoorCanalave",
     "gMapGroup_IndoorOreburgh",
     "gMapGroup_IndoorFloaroma",
     "gMapGroup_IndoorEterna",
@@ -15,7 +15,6 @@
     "gMapGroup_IndoorLakefront",
     "gMapGroup_IndoorPastoria",
     "gMapGroup_IndoorCelestic",
-    "gMapGroup_IndoorCanalave",
     "gMapGroup_IndoorSnowpoint",
     "gMapGroup_IndoorSunyshore",
     "gMapGroup_IndoorPokemonLeague",
@@ -173,21 +172,6 @@
     "NewmoonIsland_Exterior",
     "NewmoonIsland_Interior"
   ],
-  "gMapGroup_Gates": [
-    "Gate_Jubilife_Route218",
-    "Gate_Canalave_Route218",
-    "Gate_Eterna_CyclingRoad",
-    "Gate_CyclingRoad_Route206",
-    "Gate_Hearthome_Route208",
-    "Gate_Hearthome_Route209",
-    "Gate_Pastoria_Route213",
-    "Gate_Sunyshore_Route222",
-    "Gate_Veilstone_Route215",
-    "Gate_Veilstone_Route214",
-    "Gate_Hearthome_Route212",
-    "Gate_AmitySquare_East",
-    "Gate_AmitySquare_West"
-  ],
   "gMapGroup_IndoorTwinleaf": [
     "TwinleafTown_PlayersHouse_1F",
     "TwinleafTown_PlayersHouse_2F",
@@ -205,6 +189,7 @@
     "SandgemTown_RivalsHouse_2F"
   ],
   "gMapGroup_IndoorJubilife": [
+    "Gate_Jubilife_Route218",
     "JubilifeCity_PokemonCenter",
     "JubilifeCity_Mart",
     "JubilifeCity_Condo1_1F",
@@ -214,6 +199,16 @@
     "JubilifeCity_Condo3_1F",
     "JubilifeCity_Condo3_2F",
     "JubilifeCity_TrainerSchool"
+  ],
+  "gMapGroup_IndoorCanalave": [
+    "Gate_Canalave_Route218",
+    "CanalaveCity_PokemonCenter",
+    "CanalaveCity_Mart",
+    "CanalaveCity_House1",
+    "CanalaveCity_House2",
+    "CanalaveCity_House3",
+    "CanalaveCity_House4",
+    "CanalaveCity_House5"
   ],
   "gMapGroup_IndoorOreburgh": [
     "OreburghCity_PokemonCenter",
@@ -237,15 +232,24 @@
     "FloaromaTown_House3"
   ],
   "gMapGroup_IndoorEterna": [
+    "Gate_Eterna_CyclingRoad",
+    "Gate_CyclingRoad_Route206",
     "EternaCity_PokemonCenter",
     "EternaCity_Mart",
     "EternaCity_House1",
     "EternaCity_House2",
     "EternaCity_Condo_1F",
     "EternaCity_Condo_2F",
-    "EternaCity_Condo_3F"
+    "EternaCity_Condo_3F",
+    "EternaCity_GalacticBuilding_1F",
+    "EternaCity_GalacticBuilding_1F_1R"
   ],
   "gMapGroup_IndoorHearthome": [
+    "Gate_Hearthome_Route209",
+    "Gate_Hearthome_Route208",
+    "Gate_Hearthome_Route212",
+    "Gate_AmitySquare_East",
+    "Gate_AmitySquare_West",
     "HearthomeCity_PokemonCenter",
     "HearthomeCity_Mart"
   ],
@@ -258,11 +262,15 @@
     "SolaceonTown_House4"
   ],
   "gMapGroup_IndoorVeilstone": [
+    "Gate_Veilstone_Route215",
+    "Gate_Veilstone_Route214",
     "VeilstoneCity_PokemonCenter",
     "VeilstoneCity_House1",
     "VeilstoneCity_House2",
     "VeilstoneCity_House3",
-    "VeilstoneCity_House4"
+    "VeilstoneCity_House4",
+    "VeilstoneCity_GalacticHQ_1F",
+    "VeilstoneCity_GalacticHQ_B1F"
   ],
   "gMapGroup_IndoorLakefront": [],
   "gMapGroup_IndoorPastoria": [
@@ -272,21 +280,13 @@
     "PastoriaCity_House2",
     "PastoriaCity_House3",
     "PastoriaCity_House4",
-    "PastoriaCity_House5"
+    "PastoriaCity_House5",
+    "Gate_Pastoria_Route213"
   ],
   "gMapGroup_IndoorCelestic": [
     "CelesticTown_PokemonCenter",
     "CelesticTown_House1",
     "CelesticTown_House2"
-  ],
-  "gMapGroup_IndoorCanalave": [
-    "CanalaveCity_PokemonCenter",
-    "CanalaveCity_Mart",
-    "CanalaveCity_House1",
-    "CanalaveCity_House2",
-    "CanalaveCity_House3",
-    "CanalaveCity_House4",
-    "CanalaveCity_House5"
   ],
   "gMapGroup_IndoorSnowpoint": [
     "SnowpointCity_PokemonCenter",
@@ -299,7 +299,8 @@
     "SunyshoreCity_Mart",
     "SunyshoreCity_House1",
     "SunyshoreCity_House2",
-    "SunyshoreCity_House3"
+    "SunyshoreCity_House3",
+    "Gate_Sunyshore_Route222"
   ],
   "gMapGroup_IndoorPokemonLeague": [],
   "gMapGroup_IndoorFightArea": [],

@@ -297,3 +297,6 @@ const u16 gMetatileAttributes_Forest[] = INCBIN_U16("data/tilesets/secondary/for
 
 const u16 gMetatiles_OreburghMuseum[] = INCBIN_U16("data/tilesets/secondary/oreburgh_museum/metatiles.bin");
 const u16 gMetatileAttributes_OreburghMuseum[] = INCBIN_U16("data/tilesets/secondary/oreburgh_museum/metatile_attributes.bin");
+
+const u16 gMetatiles_Galactic[] = INCBIN_U16("data/tilesets/secondary/galactic/metatiles.bin");
+const u16 gMetatileAttributes_Galactic[] = INCBIN_U16("data/tilesets/secondary/galactic/metatile_attributes.bin");

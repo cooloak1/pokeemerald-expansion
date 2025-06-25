@@ -5575,11 +5575,51 @@
       "id": "LAYOUT_OREBURGH_CITY_MINING_MUSEUM",
       "name": "OreburghCity_MiningMuseum_Layout",
       "width": 20,
-      "height": 17,
+      "height": 16,
       "primary_tileset": "gTileset_SinnohBuilding",
       "secondary_tileset": "gTileset_OreburghMuseum",
       "border_filepath": "data/layouts/OreburghCity_MiningMuseum/border.bin",
       "blockdata_filepath": "data/layouts/OreburghCity_MiningMuseum/map.bin"
+    },
+    {
+      "id": "LAYOUT_ETERNA_CITY_GALACTIC_BUILDING_1F",
+      "name": "EternaCity_GalacticBuilding_1F_Layout",
+      "width": 22,
+      "height": 15,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_Galactic",
+      "border_filepath": "data/layouts/EternaCity_GalacticBuilding_1F/border.bin",
+      "blockdata_filepath": "data/layouts/EternaCity_GalacticBuilding_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ETERNA_CITY_GALACTIC_BUILDING_1F_1R",
+      "name": "EternaCity_GalacticBuilding_1F_1R_Layout",
+      "width": 13,
+      "height": 12,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_Galactic",
+      "border_filepath": "data/layouts/EternaCity_GalacticBuilding_1F_1R/border.bin",
+      "blockdata_filepath": "data/layouts/EternaCity_GalacticBuilding_1F_1R/map.bin"
+    },
+    {
+      "id": "LAYOUT_VEILSTONE_CITY_GALACTIC_HQ_1F",
+      "name": "VeilstoneCity_GalacticHQ_1F_Layout",
+      "width": 52,
+      "height": 23,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_Galactic",
+      "border_filepath": "data/layouts/VeilstoneCity_GalacticHQ_1F/border.bin",
+      "blockdata_filepath": "data/layouts/VeilstoneCity_GalacticHQ_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_VEILSTONE_CITY_GALACTIC_HQ_B1F",
+      "name": "VeilstoneCity_GalacticHQ_B1F_Layout",
+      "width": 10,
+      "height": 7,
+      "primary_tileset": "gTileset_SinnohBuilding",
+      "secondary_tileset": "gTileset_Galactic",
+      "border_filepath": "data/layouts/VeilstoneCity_GalacticHQ_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/VeilstoneCity_GalacticHQ_B1F/map.bin"
     }
   ]
 }

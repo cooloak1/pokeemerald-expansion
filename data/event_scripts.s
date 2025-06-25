@@ -1572,3 +1572,11 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/NewmoonIsland_Interior/scripts.inc"
 
 	.include "data/maps/OreburghCity_MiningMuseum/scripts.inc"
+
+	.include "data/maps/EternaCity_GalacticBuilding_1F/scripts.inc"
+
+	.include "data/maps/EternaCity_GalacticBuilding_1F_1R/scripts.inc"
+
+	.include "data/maps/VeilstoneCity_GalacticHQ_1F/scripts.inc"
+
+	.include "data/maps/VeilstoneCity_GalacticHQ_B1F/scripts.inc"
