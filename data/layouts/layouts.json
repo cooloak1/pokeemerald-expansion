@@ -5514,8 +5514,8 @@
     {
       "id": "LAYOUT_ACUITY_LAKEFRONT",
       "name": "AcuityLakefront_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 49,
+      "height": 28,
       "primary_tileset": "gTileset_Snow",
       "secondary_tileset": "gTileset_Snowpoint",
       "border_filepath": "data/layouts/AcuityLakefront/border.bin",
@@ -5524,8 +5524,8 @@
     {
       "id": "LAYOUT_LAKE_ACUITY",
       "name": "LakeAcuity_Layout",
-      "width": 20,
-      "height": 20,
+      "width": 32,
+      "height": 32,
       "primary_tileset": "gTileset_Snow",
       "secondary_tileset": "gTileset_Snowpoint",
       "border_filepath": "data/layouts/LakeAcuity/border.bin",
