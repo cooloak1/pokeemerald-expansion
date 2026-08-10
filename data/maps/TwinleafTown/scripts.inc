@@ -771,8 +771,8 @@ TwinleafTown_Text_Barry_Thud::
 TwinleafTown_Text_Barry_GoingToSeeRowan::
 # 325 "data/maps/TwinleafTown/scripts.pory"
 	.string "Barry: What was that about?!\p"
-	.string "Oh, hey, {PLAYER}! Hey, I'm going to\n"
-	.string "see Prof. Rowan!\p"
+	.string "Oh, hey, {PLAYER}! Hey, I'm going to see\n"
+	.string "Prof. Rowan!\p"
 	.string "You should come, too! And quickly!$"
 
 TwinleafTown_Text_Barry_ForgotSomething::

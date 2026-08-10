@@ -212,7 +212,7 @@ PetalburgCity_Gym_Movement_WallyExitGym:
 
 # 107 "data/maps/PetalburgCity_Gym/scripts.pory"
 PetalburgCity_Gym_EventScript_Norman::
-# 108 "data/maps/PetalburgCity_Gym/scripts.pory"
+	vsseeker_rematchid TRAINER_NORMAN_1
 	lock
 # 109 "data/maps/PetalburgCity_Gym/scripts.pory"
 	faceplayer
@@ -2202,9 +2202,6 @@ PetalburgCity_Gym_EventScript_SetOHKORoomDoorMetatiles::
 PetalburgCity_Gym_EventScript_SlideOpenRoomDoors::
 # 1102 "data/maps/PetalburgCity_Gym/scripts.pory"
 	special PetalburgGymSlideOpenRoomDoors
-# 1103 "data/maps/PetalburgCity_Gym/scripts.pory"
-	waitstate
-# 1104 "data/maps/PetalburgCity_Gym/scripts.pory"
 	return
 # 1105 "data/maps/PetalburgCity_Gym/scripts.pory"
 

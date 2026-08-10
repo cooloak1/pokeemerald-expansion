@@ -370,13 +370,7 @@ BattleFrontier_BattlePyramidTop_EventScript_DefeatedBrandonGold::
 BattleFrontier_BattlePyramidTop_EventScript_DoBrandonBattle::
 # 186 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	closemessage
-# 187 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
-	setvar VAR_0x8004, SPECIAL_BATTLE_PYRAMID
-# 188 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
-	setvar VAR_0x8005, 0
-# 189 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
-	special DoSpecialTrainerBattle
-# 190 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
+	dofacilitytrainerbattle FACILITY_BATTLE_PYRAMID
 	waitstate
 # 191 "data/maps/BattleFrontier_BattlePyramidTop/scripts.pory"
 	return

@@ -90,9 +90,6 @@ PetalburgCity_EventScript_WallyTutorial::
 	msgbox Route102_Text_WatchMeCatchPokemon, MSGBOX_DEFAULT
 # 46 "data/maps/PetalburgCity/scripts.pory"
 	special StartWallyTutorialBattle
-# 47 "data/maps/PetalburgCity/scripts.pory"
-	waitstate
-# 48 "data/maps/PetalburgCity/scripts.pory"
 	msgbox Route102_Text_WallyIDidIt, MSGBOX_DEFAULT
 # 49 "data/maps/PetalburgCity/scripts.pory"
 	applymovement LOCALID_WALLY, Common_Movement_WalkInPlaceFasterLeft, MAP_PETALBURG_CITY

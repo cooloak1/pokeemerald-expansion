@@ -318,9 +318,6 @@ BattleFrontier_BattlePalaceLobby_EventScript_TryEnterChallenge::
 	setvar VAR_0x8005, FRONTIER_PARTY_SIZE
 # 160 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	special ChoosePartyForBattleFrontier
-# 161 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
-	waitstate
-# 162 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattlePalaceLobby_EventScript_LoadPartyAndCancelChallenge
 # 163 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	msgbox BattleFrontier_BattlePalaceLobby_Text_MustSaveBeforeChallenge2, MSGBOX_YESNO
@@ -414,7 +411,8 @@ BattleFrontier_BattlePalaceLobby_EventScript_NotEnoughValidMons::
 BattleFrontier_BattlePalaceLobby_EventScript_NotEnoughValidMonsLv50::
 # 208 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	msgbox BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLv50, MSGBOX_DEFAULT
-# 209 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+	call BattleFrontier_ShowCaughtBannedSpecies
+	msgbox BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsEnd, MSGBOX_DEFAULT
 	goto BattleFrontier_BattlePalaceLobby_EventScript_EndCancelChallenge
 # 210 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 
@@ -422,7 +420,8 @@ BattleFrontier_BattlePalaceLobby_EventScript_NotEnoughValidMonsLv50::
 BattleFrontier_BattlePalaceLobby_EventScript_NotEnoughValidMonsLvOpen::
 # 212 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	msgbox BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLvOpen, MSGBOX_DEFAULT
-# 213 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+	call BattleFrontier_ShowCaughtBannedSpecies
+	msgbox BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsEnd, MSGBOX_DEFAULT
 	goto BattleFrontier_BattlePalaceLobby_EventScript_EndCancelChallenge
 # 214 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 
@@ -864,9 +863,9 @@ BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLv50:
 	.string "They also must not be holding\n"
 # 433 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "the same kinds of items.\p"
-# 434 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-# 435 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+	.string "EGGS{STR_VAR_1}.$"
+
+BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsEnd:
 	.string "Come back when you have made\n"
 # 436 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "your preparations.$"
@@ -888,13 +887,7 @@ BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLvOpen:
 	.string "They also must not be holding\n"
 # 445 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 	.string "the same kinds of items.\p"
-# 446 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
-# 447 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
-	.string "Come back when you have made\n"
-# 448 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
-	.string "your preparations.$"
-# 449 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
+	.string "EGGS{STR_VAR_1}.$"
 
 # 450 "data/maps/BattleFrontier_BattlePalaceLobby/scripts.pory"
 BattleFrontier_BattlePalaceLobby_Text_NowSelectThreeMons:

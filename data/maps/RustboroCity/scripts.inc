@@ -170,9 +170,6 @@ RustboroCity_EventScript_MatchCallTutorial::
 	setflag FLAG_ADDED_MATCH_CALL_TO_POKENAV
 # 86 "data/maps/RustboroCity/scripts.pory"
 	special ScriptMenu_CreateStartMenuForPokenavTutorial
-# 87 "data/maps/RustboroCity/scripts.pory"
-	waitstate
-# 88 "data/maps/RustboroCity/scripts.pory"
 	switch VAR_RESULT
 # 89 "data/maps/RustboroCity/scripts.pory"
 	case 0, RustboroCity_EventScript_PleaseSelectPokenav
@@ -192,9 +189,6 @@ RustboroCity_EventScript_MatchCallTutorial::
 	case MULTI_B_PRESSED, RustboroCity_EventScript_PleaseSelectPokenav
 # 97 "data/maps/RustboroCity/scripts.pory"
 	special OpenPokenavForTutorial
-# 98 "data/maps/RustboroCity/scripts.pory"
-	waitstate
-# 99 "data/maps/RustboroCity/scripts.pory"
 	delay 20
 # 100 "data/maps/RustboroCity/scripts.pory"
 	msgbox RustboroCity_Text_IdBetterGetBackToWork, MSGBOX_DEFAULT

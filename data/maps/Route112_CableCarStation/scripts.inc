@@ -102,9 +102,6 @@ Route112_CableCarStation_EventScript_RideCableCar::
 	special CableCarWarp
 # 52 "data/maps/Route112_CableCarStation/scripts.pory"
 	special CableCar
-# 53 "data/maps/Route112_CableCarStation/scripts.pory"
-	waitstate
-# 54 "data/maps/Route112_CableCarStation/scripts.pory"
 	release
 # 55 "data/maps/Route112_CableCarStation/scripts.pory"
 	end

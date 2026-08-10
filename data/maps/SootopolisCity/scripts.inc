@@ -414,13 +414,8 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter::
 	setvar VAR_0x8004, FALSE @ Just do Groudon/Kyogre fight scene
 # 208 "data/maps/SootopolisCity/scripts.pory"
 	special Script_DoRayquazaScene
-# 209 "data/maps/SootopolisCity/scripts.pory"
-	waitstate
-# 210 "data/maps/SootopolisCity/scripts.pory"
-	applymovement LOCALID_KYOGRE, Common_Movement_WalkInPlaceFasterLeft
-# 211 "data/maps/SootopolisCity/scripts.pory"
-	applymovement LOCALID_GROUDON, Common_Movement_WalkInPlaceFasterRight
-# 212 "data/maps/SootopolisCity/scripts.pory"
+	applymovement LOCALID_SOOTOPOLIS_KYOGRE, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_SOOTOPOLIS_GROUDON, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 # 213 "data/maps/SootopolisCity/scripts.pory"
 	delay 60
@@ -614,13 +609,8 @@ SootopolisCity_EventScript_LegendariesSceneFromDive::
 	setvar VAR_0x8004, FALSE @ Just do Groudon/Kyogre fight scene
 # 308 "data/maps/SootopolisCity/scripts.pory"
 	special Script_DoRayquazaScene
-# 309 "data/maps/SootopolisCity/scripts.pory"
-	waitstate
-# 310 "data/maps/SootopolisCity/scripts.pory"
-	applymovement LOCALID_KYOGRE, Common_Movement_WalkInPlaceFasterLeft
-# 311 "data/maps/SootopolisCity/scripts.pory"
-	applymovement LOCALID_GROUDON, Common_Movement_WalkInPlaceFasterRight
-# 312 "data/maps/SootopolisCity/scripts.pory"
+	applymovement LOCALID_SOOTOPOLIS_KYOGRE, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_SOOTOPOLIS_GROUDON, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 # 313 "data/maps/SootopolisCity/scripts.pory"
 	delay 60
@@ -998,9 +988,6 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter::
 	setvar VAR_0x8004, TRUE
 # 500 "data/maps/SootopolisCity/scripts.pory"
 	special Script_DoRayquazaScene
-# 501 "data/maps/SootopolisCity/scripts.pory"
-	waitstate
-# 502 "data/maps/SootopolisCity/scripts.pory"
 	playse SE_THUNDER
 # 503 "data/maps/SootopolisCity/scripts.pory"
 	special SpawnCameraObject
@@ -1054,9 +1041,6 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter::
 	removeobject LOCALID_RAYQUAZA
 # 528 "data/maps/SootopolisCity/scripts.pory"
 	special WaitWeather
-# 529 "data/maps/SootopolisCity/scripts.pory"
-	waitstate
-# 530 "data/maps/SootopolisCity/scripts.pory"
 	clearflag FLAG_SYS_WEATHER_CTRL
 # 531 "data/maps/SootopolisCity/scripts.pory"
 	setvar VAR_SKY_PILLAR_STATE, 3
@@ -1104,9 +1088,6 @@ SootopolisCity_EventScript_RayquazaSceneFromDive::
 	setvar VAR_0x8004, TRUE
 # 553 "data/maps/SootopolisCity/scripts.pory"
 	special Script_DoRayquazaScene
-# 554 "data/maps/SootopolisCity/scripts.pory"
-	waitstate
-# 555 "data/maps/SootopolisCity/scripts.pory"
 	special SpawnCameraObject
 # 556 "data/maps/SootopolisCity/scripts.pory"
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanUp
@@ -1160,9 +1141,6 @@ SootopolisCity_EventScript_RayquazaSceneFromDive::
 	removeobject LOCALID_RAYQUAZA
 # 581 "data/maps/SootopolisCity/scripts.pory"
 	special WaitWeather
-# 582 "data/maps/SootopolisCity/scripts.pory"
-	waitstate
-# 583 "data/maps/SootopolisCity/scripts.pory"
 	clearflag FLAG_SYS_WEATHER_CTRL
 # 584 "data/maps/SootopolisCity/scripts.pory"
 	setvar VAR_SKY_PILLAR_STATE, 2
@@ -1454,9 +1432,7 @@ SootopolisCity_EventScript_KiriRayquaza::
 	end
 # 728 "data/maps/SootopolisCity/scripts.pory"
 
-# 729 "data/maps/SootopolisCity/scripts.pory"
-@ Gives 2 berries daily. First ranges from FIRST_KIRI_BERRY to LAST_KIRI_BERRY, second is always Figy or Iapapa
-# 730 "data/maps/SootopolisCity/scripts.pory"
+@ Gives 2 berries daily. First ranges from BERRY_ID_POMEG to BERRY_ID_NOMEL, second is always Figy or Iapapa
 SootopolisCity_EventScript_KiriGiveBerry::
 # 731 "data/maps/SootopolisCity/scripts.pory"
 	dotimebasedevents
@@ -1466,15 +1442,7 @@ SootopolisCity_EventScript_KiriGiveBerry::
 	goto_if_set FLAG_DAILY_SOOTOPOLIS_RECEIVED_BERRY, SootopolisCity_EventScript_KiriReceivedBerry
 # 734 "data/maps/SootopolisCity/scripts.pory"
 	msgbox SootopolisCity_Text_NameIsKiriHaveOneOfThese, MSGBOX_DEFAULT
-# 735 "data/maps/SootopolisCity/scripts.pory"
-	random NUM_KIRI_BERRIES
-# 736 "data/maps/SootopolisCity/scripts.pory"
-	addvar VAR_RESULT, NUM_KIRI_BERRIES_SKIPPED
-# 737 "data/maps/SootopolisCity/scripts.pory"
-	addvar VAR_RESULT, FIRST_BERRY_INDEX
-# 738 "data/maps/SootopolisCity/scripts.pory"
-	giveitem VAR_RESULT
-# 739 "data/maps/SootopolisCity/scripts.pory"
+	giverandomberry BERRY_ID_POMEG, BERRY_ID_NOMEL
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 # 740 "data/maps/SootopolisCity/scripts.pory"
 	setflag FLAG_DAILY_SOOTOPOLIS_RECEIVED_BERRY

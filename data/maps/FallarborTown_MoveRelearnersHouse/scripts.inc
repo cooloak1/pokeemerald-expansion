@@ -52,9 +52,8 @@ FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove::
 FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon::
 # 27 "data/maps/FallarborTown_MoveRelearnersHouse/scripts.pory"
 	msgbox FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon, MSGBOX_DEFAULT
-# 28 "data/maps/FallarborTown_MoveRelearnersHouse/scripts.pory"
-	special ChooseMonForMoveRelearner
-# 29 "data/maps/FallarborTown_MoveRelearnersHouse/scripts.pory"
+	setmoverelearnerstate MOVE_RELEARNER_LEVEL_UP_MOVES @ Specifically supposed to teach level up moves
+	chooseboxmon SELECT_PC_MON_MOVE_RELEARNER
 	waitstate
 # 30 "data/maps/FallarborTown_MoveRelearnersHouse/scripts.pory"
 	goto_if_eq VAR_0x8004, PARTY_NOTHING_CHOSEN, FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale
@@ -62,9 +61,8 @@ FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon::
 	special IsSelectedMonEgg
 # 32 "data/maps/FallarborTown_MoveRelearnersHouse/scripts.pory"
 	goto_if_eq VAR_RESULT, TRUE, FallarborTown_MoveRelearnersHouse_EventScript_CantTeachEgg
-# 33 "data/maps/FallarborTown_MoveRelearnersHouse/scripts.pory"
-	goto_if_eq VAR_0x8005, 0, FallarborTown_MoveRelearnersHouse_EventScript_NoMoveToTeachMon
-# 34 "data/maps/FallarborTown_MoveRelearnersHouse/scripts.pory"
+	special Special_HasMoveToRelearn
+	goto_if_eq VAR_RESULT, FALSE, FallarborTown_MoveRelearnersHouse_EventScript_NoMoveToTeachMon
 	goto FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove
 # 35 "data/maps/FallarborTown_MoveRelearnersHouse/scripts.pory"
 	end
@@ -76,11 +74,7 @@ FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove::
 	msgbox FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove, MSGBOX_DEFAULT
 # 39 "data/maps/FallarborTown_MoveRelearnersHouse/scripts.pory"
 	special TeachMoveRelearnerMove
-# 40 "data/maps/FallarborTown_MoveRelearnersHouse/scripts.pory"
-	waitstate
-# 41 "data/maps/FallarborTown_MoveRelearnersHouse/scripts.pory"
-	goto_if_eq VAR_0x8004, 0, FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
-# 42 "data/maps/FallarborTown_MoveRelearnersHouse/scripts.pory"
+	goto_if_eq VAR_RESULT, FALSE, FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
 	msgbox FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale, MSGBOX_DEFAULT
 # 43 "data/maps/FallarborTown_MoveRelearnersHouse/scripts.pory"
 	removeitem ITEM_HEART_SCALE

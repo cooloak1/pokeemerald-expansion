@@ -82,13 +82,7 @@ LilycoveCity_EventScript_BerryGentleman::
 	goto_if_set FLAG_DAILY_LILYCOVE_RECEIVED_BERRY, LilycoveCity_EventScript_ReceivedBerry
 # 42 "data/maps/LilycoveCity/scripts.pory"
 	msgbox LilycoveCity_Text_BerrySuitsYou, MSGBOX_DEFAULT
-# 43 "data/maps/LilycoveCity/scripts.pory"
-	random 10
-# 44 "data/maps/LilycoveCity/scripts.pory"
-	addvar VAR_RESULT, FIRST_BERRY_INDEX
-# 45 "data/maps/LilycoveCity/scripts.pory"
-	giveitem VAR_RESULT
-# 46 "data/maps/LilycoveCity/scripts.pory"
+	giverandomberry BERRY_ID_CHERI, BERRY_ID_SITRUS
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 # 47 "data/maps/LilycoveCity/scripts.pory"
 	setflag FLAG_DAILY_LILYCOVE_RECEIVED_BERRY

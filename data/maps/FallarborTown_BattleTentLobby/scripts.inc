@@ -266,9 +266,6 @@ FallarborTown_BattleTentLobby_EventScript_TryEnterChallenge::
 	setvar VAR_0x8005, FRONTIER_PARTY_SIZE
 # 134 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
 	special ChoosePartyForBattleFrontier
-# 135 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
-	waitstate
-# 136 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
 	goto_if_eq VAR_RESULT, 0, FallarborTown_BattleTentLobby_EventScript_LoadPartyCancelChallenge
 # 137 "data/maps/FallarborTown_BattleTentLobby/scripts.pory"
 	msgbox FallarborTown_BattleTentLobby_Text_SaveBeforeChallenge, MSGBOX_YESNO

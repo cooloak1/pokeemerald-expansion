@@ -462,11 +462,7 @@ Route101_EventScript_BirchsBag::
 	waitmovement 0
 # 232 "data/maps/Route101/scripts.pory"
 	special ChooseStarter
-# 233 "data/maps/Route101/scripts.pory"
-	waitstate
-# 234 "data/maps/Route101/scripts.pory"
-	applymovement LOCALID_BIRCH, Route101_Movement_BirchApproachPlayer
-# 235 "data/maps/Route101/scripts.pory"
+	applymovement LOCALID_ROUTE101_BIRCH, Route101_Movement_BirchApproachPlayer
 	waitmovement 0
 # 236 "data/maps/Route101/scripts.pory"
 	msgbox Route101_Text_YouSavedMe, MSGBOX_DEFAULT

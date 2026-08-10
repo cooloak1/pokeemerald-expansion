@@ -500,9 +500,6 @@ LittlerootTown_BrendansHouse_2F_EventScript_CheckPlayersPC::
 	msgbox gText_PlayerHouseBootPC, MSGBOX_DEFAULT
 # 251 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	special BedroomPC
-# 252 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	waitstate
-# 253 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	releaseall
 # 254 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	end
@@ -596,9 +593,7 @@ PlayersHouse_2F_Text_Notebook:
 Common_Text_LookCloserAtMap:
 # 299 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "{PLAYER} took a closer look at the\n"
-# 300 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "HOENN region map.$"
-# 301 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	.string "{REGION} region map.$"
 
 # 302 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 PlayersHouse_2F_Text_ItsAGameCube:

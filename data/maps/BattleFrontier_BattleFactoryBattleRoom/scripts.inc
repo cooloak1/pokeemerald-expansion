@@ -178,13 +178,7 @@ BattleFrontier_BattleFactoryBattleRoom_EventScript_BattleOpponent::
 	frontier_set FRONTIER_DATA_RECORD_DISABLED, FALSE
 # 90 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	special HealPlayerParty
-# 91 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
-	setvar VAR_0x8004, SPECIAL_BATTLE_FACTORY
-# 92 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
-	setvar VAR_0x8005, 0
-# 93 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
-	special DoSpecialTrainerBattle
-# 94 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
+	dofacilitytrainerbattle FRONTIER_FACILITY_FACTORY
 	waitstate
 # 95 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	switch VAR_RESULT
@@ -360,13 +354,7 @@ BattleFrontier_BattleFactoryBattleRoom_EventScript_DoNolandBattle::
 	frontier_set FRONTIER_DATA_RECORD_DISABLED, FALSE
 # 181 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	special HealPlayerParty
-# 182 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
-	setvar VAR_0x8004, SPECIAL_BATTLE_FACTORY
-# 183 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
-	setvar VAR_0x8005, 0
-# 184 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
-	special DoSpecialTrainerBattle
-# 185 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
+	dofacilitytrainerbattle FACILITY_BATTLE_FACTORY
 	waitstate
 # 186 "data/maps/BattleFrontier_BattleFactoryBattleRoom/scripts.pory"
 	return

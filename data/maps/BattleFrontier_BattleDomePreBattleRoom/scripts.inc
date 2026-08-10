@@ -44,7 +44,7 @@ BattleFrontier_BattleDomePreBattleRoom_OnFrame:
 BattleFrontier_BattleDomePreBattleRoom_EventScript_EnterRoom::
 # 23 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	goto_if_eq VAR_0x8006, 1, BattleFrontier_BattleDomePreBattleRoom_EventScript_ReturnFromBattle
-# 24 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
+	delay 1
 	frontier_set FRONTIER_DATA_RECORD_DISABLED, TRUE
 # 25 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	setvar VAR_TEMP_0, 1
@@ -288,9 +288,6 @@ BattleFrontier_BattleDomePreBattleRoom_EventScript_ContinueChallenge::
 	setvar VAR_0x8005, DOME_BATTLE_PARTY_SIZE  @ 2 of the 3 party mons are selected for battle
 # 145 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	special ChoosePartyForBattleFrontier
-# 146 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
-	waitstate
-# 147 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	frontier_resetsketch
 # 148 "data/maps/BattleFrontier_BattleDomePreBattleRoom/scripts.pory"
 	goto_if_eq VAR_RESULT, 0, BattleFrontier_BattleDomePreBattleRoom_EventScript_AskReadyForNextRound

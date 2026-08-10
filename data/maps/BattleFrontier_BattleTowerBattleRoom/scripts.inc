@@ -604,13 +604,7 @@ BattleFrontier_BattleTowerBattleRoom_EventScript_DoTowerBattle::
 	frontier_set FRONTIER_DATA_RECORD_DISABLED, FALSE
 # 303 "data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.pory"
 	special HealPlayerParty
-# 304 "data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.pory"
-	setvar VAR_0x8004, SPECIAL_BATTLE_TOWER
-# 305 "data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.pory"
-	setvar VAR_0x8005, 0
-# 306 "data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.pory"
-	special DoSpecialTrainerBattle
-# 307 "data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.pory"
+	dofacilitytrainerbattle FACILITY_BATTLE_TOWER
 	waitstate
 # 308 "data/maps/BattleFrontier_BattleTowerBattleRoom/scripts.pory"
 	copyvar VAR_0x8004, VAR_FRONTIER_BATTLE_MODE

@@ -28,9 +28,6 @@ RustboroCity_Flat1_2F_EventScript_WaldasDad::
 RustboroCity_Flat1_2F_EventScript_GivePhrase::
 # 15 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	special DoWaldaNamingScreen
-# 16 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
-	waitstate
-# 17 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	goto_if_eq VAR_0x8004, 1, RustboroCity_Flat1_2F_EventScript_CancelGivePhrase
 # 18 "data/maps/RustboroCity_Flat1_2F/scripts.pory"
 	goto_if_eq VAR_0x8004, 2, RustboroCity_Flat1_2F_EventScript_CancelGiveFirstPhrase

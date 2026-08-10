@@ -88,9 +88,6 @@ LilycoveCity_Harbor_EventScript_FerryRegularLocationSelect::
 	setvar VAR_0x8004, 0
 # 45 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	special ScriptMenu_CreateLilycoveSSTidalMultichoice
-# 46 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	waitstate
-# 47 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	special GetLilycoveSSTidalSelection
 # 48 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	switch VAR_RESULT
@@ -584,9 +581,6 @@ LilycoveCity_Harbor_EventScript_MultipleEventTicketsFirstTime::
 	setvar VAR_0x8004, 1
 # 293 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	special ScriptMenu_CreateLilycoveSSTidalMultichoice
-# 294 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	waitstate
-# 295 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	special GetLilycoveSSTidalSelection
 # 296 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	switch VAR_RESULT
@@ -680,11 +674,8 @@ LilycoveCity_Harbor_EventScript_BoardFerryWithSailor::
 	call_if_eq VAR_FACING, DIR_EAST, LilycoveCity_Harbor_EventScript_PlayerBoardFerryEast
 # 341 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	delay 30
-# 342 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	hideobjectat OBJ_EVENT_ID_PLAYER, 0
-# 343 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	setvar VAR_0x8004, LOCALID_SS_TIDAL
-# 344 "data/maps/LilycoveCity_Harbor/scripts.pory"
+	hideplayer
+	setvar VAR_0x8004, LOCALID_LILYCOVE_HARBOR_SS_TIDAL
 	call Common_EventScript_FerryDepart
 # 345 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	return
@@ -800,11 +791,8 @@ LilycoveCity_Harbor_EventScript_BoardFerry::
 	call_if_eq VAR_FACING, DIR_EAST, LilycoveCity_Harbor_EventScript_PlayerBoardFerryEast
 # 401 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	delay 30
-# 402 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	hideobjectat OBJ_EVENT_ID_PLAYER, 0
-# 403 "data/maps/LilycoveCity_Harbor/scripts.pory"
-	setvar VAR_0x8004, LOCALID_SS_TIDAL
-# 404 "data/maps/LilycoveCity_Harbor/scripts.pory"
+	hideplayer
+	setvar VAR_0x8004, LOCALID_LILYCOVE_HARBOR_SS_TIDAL
 	call Common_EventScript_FerryDepart
 # 405 "data/maps/LilycoveCity_Harbor/scripts.pory"
 	return

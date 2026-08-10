@@ -712,11 +712,12 @@ LilycoveCity_ContestLobby_EventScript_SetMasterContestType::
 @ Functionally unused
 # 357 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 LilycoveCity_ContestLobby_EventScript_SetDebug::
-# 358 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	setflag FLAG_HOENN_1
-# 359 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	copyvar VAR_LILYCOVE_MUSEUM_2F_STATE, 1
-# 360 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
+	setflag FLAG_HIDE_LILYCOVE_MUSEUM_CURATOR
+#ifdef UBFIX
+	setvar VAR_LILYCOVE_MUSEUM_2F_STATE, 1
+#else
+	copyvar VAR_LILYCOVE_MUSEUM_2F_STATE, 1, warn=FALSE
+#endif
 	additem ITEM_CONTEST_PASS
 # 361 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	setvar VAR_0x800B, 8
@@ -756,9 +757,6 @@ LilycoveCity_ContestLobby_EventScript_WarpToCoolContestHall::
 	setwarp MAP_CONTEST_HALL_COOL, 7, 5
 # 379 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	special DoContestHallWarp
-# 380 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	waitstate
-# 381 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	return
 # 382 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 
@@ -768,9 +766,6 @@ LilycoveCity_ContestLobby_EventScript_WarpToBeautyContestHall::
 	setwarp MAP_CONTEST_HALL_BEAUTY, 7, 5
 # 385 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	special DoContestHallWarp
-# 386 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	waitstate
-# 387 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	return
 # 388 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 
@@ -780,9 +775,6 @@ LilycoveCity_ContestLobby_EventScript_WarpToCuteContestHall::
 	setwarp MAP_CONTEST_HALL_CUTE, 7, 5
 # 391 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	special DoContestHallWarp
-# 392 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	waitstate
-# 393 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	return
 # 394 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 
@@ -792,9 +784,6 @@ LilycoveCity_ContestLobby_EventScript_WarpToSmartContestHall::
 	setwarp MAP_CONTEST_HALL_SMART, 7, 5
 # 397 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	special DoContestHallWarp
-# 398 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	waitstate
-# 399 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	return
 # 400 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 
@@ -804,9 +793,6 @@ LilycoveCity_ContestLobby_EventScript_WarpToToughContestHall::
 	setwarp MAP_CONTEST_HALL_TOUGH, 7, 5
 # 403 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	special DoContestHallWarp
-# 404 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	waitstate
-# 405 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	return
 # 406 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 
@@ -1532,9 +1518,6 @@ LilycoveCity_ContestLobby_EventScript_TrySetUpLinkContest::
 LilycoveCity_ContestLobby_EventScript_TryLinkEMode::
 # 767 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	special TryContestEModeLinkup
-# 768 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	waitstate
-# 769 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	return
 # 770 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 
@@ -1542,9 +1525,6 @@ LilycoveCity_ContestLobby_EventScript_TryLinkEMode::
 LilycoveCity_ContestLobby_EventScript_TryLinkGMode::
 # 772 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	special TryContestGModeLinkup
-# 773 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	waitstate
-# 774 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	return
 # 775 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 
@@ -1758,9 +1738,6 @@ LilycoveCity_ContestLobby_EventScript_TryJoinGroup::
 LilycoveCity_ContestLobby_EventScript_TryBecomeLinkLeader::
 # 880 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	special TryBecomeLinkLeader
-# 881 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	waitstate
-# 882 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	return
 # 883 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 
@@ -1768,9 +1745,6 @@ LilycoveCity_ContestLobby_EventScript_TryBecomeLinkLeader::
 LilycoveCity_ContestLobby_EventScript_TryJoinLinkGroup::
 # 885 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	special TryJoinLinkGroup
-# 886 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
-	waitstate
-# 887 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 	return
 # 888 "data/maps/LilycoveCity_ContestLobby/scripts.pory"
 

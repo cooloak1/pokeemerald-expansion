@@ -234,9 +234,6 @@ Route111_EventScript_MirageTowerDisappear::
 	lockall
 # 118 "data/maps/Route111/scripts.pory"
 	special StartMirageTowerShake
-# 119 "data/maps/Route111/scripts.pory"
-	waitstate
-# 120 "data/maps/Route111/scripts.pory"
 	delay 24
 # 121 "data/maps/Route111/scripts.pory"
 	playse SE_FALL
@@ -244,11 +241,7 @@ Route111_EventScript_MirageTowerDisappear::
 	addobject LOCALID_ROUTE111_PLAYER_FALLING
 # 123 "data/maps/Route111/scripts.pory"
 	special StartPlayerDescendMirageTower
-# 124 "data/maps/Route111/scripts.pory"
-	waitstate
-# 125 "data/maps/Route111/scripts.pory"
-	showobjectat OBJ_EVENT_ID_PLAYER, MAP_LITTLEROOT_TOWN
-# 126 "data/maps/Route111/scripts.pory"
+	showobjectat LOCALID_PLAYER, MAP_LITTLEROOT_TOWN
 	removeobject LOCALID_ROUTE111_PLAYER_FALLING
 # 127 "data/maps/Route111/scripts.pory"
 	delay 16
@@ -258,13 +251,7 @@ Route111_EventScript_MirageTowerDisappear::
 	delay 16
 # 130 "data/maps/Route111/scripts.pory"
 	special StartMirageTowerDisintegration
-# 131 "data/maps/Route111/scripts.pory"
-	waitstate
-# 132 "data/maps/Route111/scripts.pory"
 	special StartMirageTowerFossilFallAndSink
-# 133 "data/maps/Route111/scripts.pory"
-	waitstate
-# 134 "data/maps/Route111/scripts.pory"
 	setvar VAR_MIRAGE_TOWER_STATE, 2
 # 135 "data/maps/Route111/scripts.pory"
 	clearflag FLAG_HOENN_4

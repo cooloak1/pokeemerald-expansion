@@ -154,9 +154,6 @@ SkyPillar_Outside_EventScript_WallaceScene::
 	doweather
 # 78 "data/maps/SkyPillar_Outside/scripts.pory"
 	special WaitWeather
-# 79 "data/maps/SkyPillar_Outside/scripts.pory"
-	waitstate
-# 80 "data/maps/SkyPillar_Outside/scripts.pory"
 	delay 30
 # 81 "data/maps/SkyPillar_Outside/scripts.pory"
 	msgbox SkyPillar_Outside_Text_GotToGoBackForSootopolis, MSGBOX_DEFAULT
