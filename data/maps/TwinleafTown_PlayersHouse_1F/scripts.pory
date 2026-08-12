@@ -4,10 +4,17 @@ mapscripts TwinleafTown_PlayersHouse_1F_MapScripts {
 	
 	MAP_SCRIPT_ON_FRAME_TABLE [
 		VAR_PLAYERS_MOM_STATE, 0: TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft
+		VAR_PLAYERS_MOM_STATE, 4: TwinleafTown_PlayersHouse_1F_Mom_AfterBattle
+
 	]
 }
 
 script TwinleafTown_PlayersHouse_1F_MapScript_OnTransition {
+	setrespawn(HEAL_LOCATION_TWINLEAF_TOWN)
+	if(var(VAR_PLAYERS_MOM_STATE) == 4){
+		setobjectxyperm(LOCALID_MOM, 1, 3)
+		setobjectmovementtype(OBJ_EVENT_ID_PLAYER, MOVEMENT_TYPE_FACE_UP)
+	}
 }
 
 script TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft {
@@ -56,7 +63,51 @@ script TwinleafTown_PlayersHouse_1F_Mom_TalkedTo {
 			msgbox(TwinleafTown_PlayersHouse_1F_Text_YouKnowBarry, MSGBOX_NPC)
 		case 2:
 			msgbox(TwinleafTown_PlayersHouse_1F_Text_TakeCare, MSGBOX_NPC)
+		case 3:
+			msgbox(TwinleafTown_PlayersHouse_1F_Text_IsntBarryWaitingForYou, MSGBOX_NPC)
+		case 4:
+		case 5:
+			msgbox(TwinleafTown_PlayersHouse_1F_Text_RunningShoes, MSGBOX_NPC)
+		case 6:
+			msgbox(TwinleafTown_PlayersHouse_1F_Text_TakeARest, MSGBOX_NPC)
 	}
+}
+
+script TwinleafTown_PlayersHouse_1F_Mom_AfterBattle {
+	lock
+	delay(24)
+	applymovement(LOCALID_PLAYERS_MOM, moves(
+		walk_left
+		face_up
+	))
+	waitmovement(0)
+	delay(24)
+	applymovement(LOCALID_PLAYERS_MOM, moves(
+		walk_right * 3
+		walk_down * 2
+		walk_right * 3
+		walk_down * 2
+		walk_in_place_left
+	))
+	delay(48)
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(
+		walk_in_place_right
+	))
+	delay(48)
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(
+		walk_right * 2
+		walk_down * 2
+		walk_right
+	))
+	waitmovementall
+	msgbox(TwinleafTown_PlayersHouse_1F_Text_AfterBattle)
+	
+	delay(24)
+	msgbox(TwinleafTown_PlayersHouse_1F_Text_PutTheseOn)
+	setvar(VAR_PLAYERS_MOM_STATE, 5)
+	release
+	end
+
 }
 
 script TwinleafTown_PlayersHouse_1F_EventScript_Counter {
@@ -111,18 +162,18 @@ text TwinleafTown_PlayersHouse_1F_Text_Sink {
 	format("Mom's kitchen is spotless!\nYou can see your face on the floor!")
 }
 
-text text11 {
-	format("")
+text TwinleafTown_PlayersHouse_1F_Text_AfterBattle {
+	format("Mom: What’s the matter, dear?\p...\pWow.\nThat’s what happened to you?\pYou and Barry are lucky to have met Prof. Rowan.\pImagine if you didn’t...\pI wouldn’t like to think what the wild Pokémon might have done to you two.\p{PLAYER}, go see Prof. Rowan, and thank him properly for your Pokémon.\pHis lab is in Sandgem Town, isn’t it?\pNow that you have your own Pokémon, the tall grass won’t be so threatening.")
 }
 
-text text12 {
-	format("")
+text TwinleafTown_PlayersHouse_1F_Text_PutTheseOn {
+	format("Oh, I know!\n{PLAYER}, put these on.\p{PLAY_SE MUS_OBTAIN_ITEM}{PLAYER} recieved a pair of {COLOR RED}Running Shoes{COLOR DARK_GRAY}!{WAIT_SE}\pGoing to Sandgem Town is like an adventure in itself, right?\pWith those Running Shoes, you can get to faraway places much faster.\pOK...\nLet me read the instructions...\p“Press the B Button and dash about faster than ever before!\p“Put on the Running Shoes and blaze new trails of adventure!”\pWell, isn’t that just nifty!")
 }
 
-text text13 {
-	format("")
+text TwinleafTown_PlayersHouse_1F_Text_RunningShoes {
+	format("Mom: I’ll read you the instructions for the Running Shoes...\p“Press the B Button and dash about faster than ever before!\p“Put on the Running Shoes and blaze new trails of adventure!”\pWell, isn’t that just nifty!")
 }
 
-text text14 {
-	format("")
+text TwinleafTown_PlayersHouse_1F_Text_TakeARest {
+	format("Mom: Welcome home, {PLAYER}.\nAre you and your Pokémon healthy?\pTake a quick rest, dear.\p")
 }

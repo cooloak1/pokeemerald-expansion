@@ -315,6 +315,7 @@ script Route201_EventScript_ProfRowansBriefcase {
 		case STARTER_PIPLUP:
 			trainerbattle_no_intro(TRAINER_BARRY_ROUTE_201_PIPLUP, Route201_Text_Barry_LetsGoHome)
 	}
+	setvar(VAR_PLAYERS_MOM_STATE, 4)
 	warpsilent(MAP_TWINLEAF_TOWN_PLAYERS_HOUSE_1F, 1 , 5)
 	waitstate
 	release

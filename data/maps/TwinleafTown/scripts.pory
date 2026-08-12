@@ -4,6 +4,9 @@ mapscripts TwinleafTown_MapScripts {
 		if (var(VAR_PLAYERS_MOM_STATE) < 3) {
 			setvar(VAR_PLAYERS_MOM_STATE, 3)
 		}
+		elif (var(VAR_PLAYERS_MOM_STATE) == 5) {
+			setvar(VAR_PLAYERS_MOM_STATE, 6)
+		}
 	}
 }
 
