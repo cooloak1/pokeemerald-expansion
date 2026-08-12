@@ -326,7 +326,9 @@ LittlerootTown_EventScript_GoInsideWithMom::
 	setflag FLAG_HOENN_8
 # 164 "data/maps/LittlerootTown/scripts.pory"
 	setvar VAR_LITTLEROOT_INTRO_STATE, 3
-	hideplayer
+# 165 "data/maps/LittlerootTown/scripts.pory"
+	//hideobjectat OBJ_EVENT_ID_PLAYER, 0
+# 166 "data/maps/LittlerootTown/scripts.pory"
 	closedoor VAR_0x8004, VAR_0x8005
 # 167 "data/maps/LittlerootTown/scripts.pory"
 	waitdooranim
@@ -1267,7 +1269,7 @@ LittlerootTown_EventScript_MomReturnHomeMale2::
 # 635 "data/maps/LittlerootTown/scripts.pory"
 	waitmovement 0
 # 636 "data/maps/LittlerootTown/scripts.pory"
-	hideobjectat LOCALID_MOM, MAP_LITTLEROOT_TOWN
+	//hideobjectat LOCALID_MOM, MAP_LITTLEROOT_TOWN
 # 637 "data/maps/LittlerootTown/scripts.pory"
 	closedoor VAR_0x8009, VAR_0x800A
 # 638 "data/maps/LittlerootTown/scripts.pory"
@@ -1291,7 +1293,7 @@ LittlerootTown_EventScript_MomReturnHomeMale3::
 # 647 "data/maps/LittlerootTown/scripts.pory"
 	waitmovement 0
 # 648 "data/maps/LittlerootTown/scripts.pory"
-	hideobjectat LOCALID_MOM, MAP_LITTLEROOT_TOWN
+	//hideobjectat LOCALID_MOM, MAP_LITTLEROOT_TOWN
 # 649 "data/maps/LittlerootTown/scripts.pory"
 	closedoor VAR_0x8009, VAR_0x800A
 # 650 "data/maps/LittlerootTown/scripts.pory"
@@ -1315,7 +1317,7 @@ LittlerootTown_EventScript_MomReturnHomeMale4::
 # 659 "data/maps/LittlerootTown/scripts.pory"
 	waitmovement 0
 # 660 "data/maps/LittlerootTown/scripts.pory"
-	hideobjectat LOCALID_MOM, MAP_LITTLEROOT_TOWN
+	//hideobjectat LOCALID_MOM, MAP_LITTLEROOT_TOWN
 # 661 "data/maps/LittlerootTown/scripts.pory"
 	closedoor VAR_0x8009, VAR_0x800A
 # 662 "data/maps/LittlerootTown/scripts.pory"
@@ -1339,7 +1341,7 @@ LittlerootTown_EventScript_MomReturnHomeMale5::
 # 671 "data/maps/LittlerootTown/scripts.pory"
 	waitmovement 0
 # 672 "data/maps/LittlerootTown/scripts.pory"
-	hideobjectat LOCALID_MOM, MAP_LITTLEROOT_TOWN
+	//hideobjectat LOCALID_MOM, MAP_LITTLEROOT_TOWN
 # 673 "data/maps/LittlerootTown/scripts.pory"
 	closedoor VAR_0x8009, VAR_0x800A
 # 674 "data/maps/LittlerootTown/scripts.pory"
@@ -1363,7 +1365,7 @@ LittlerootTown_EventScript_MomReturnHomeFemale2::
 # 683 "data/maps/LittlerootTown/scripts.pory"
 	waitmovement 0
 # 684 "data/maps/LittlerootTown/scripts.pory"
-	hideobjectat LOCALID_MOM, MAP_LITTLEROOT_TOWN
+	//hideobjectat LOCALID_MOM, MAP_LITTLEROOT_TOWN
 # 685 "data/maps/LittlerootTown/scripts.pory"
 	closedoor VAR_0x8009, VAR_0x800A
 # 686 "data/maps/LittlerootTown/scripts.pory"
@@ -1387,7 +1389,7 @@ LittlerootTown_EventScript_MomReturnHomeFemale3::
 # 695 "data/maps/LittlerootTown/scripts.pory"
 	waitmovement 0
 # 696 "data/maps/LittlerootTown/scripts.pory"
-	hideobjectat LOCALID_MOM, MAP_LITTLEROOT_TOWN
+	//hideobjectat LOCALID_MOM, MAP_LITTLEROOT_TOWN
 # 697 "data/maps/LittlerootTown/scripts.pory"
 	closedoor VAR_0x8009, VAR_0x800A
 # 698 "data/maps/LittlerootTown/scripts.pory"
@@ -1411,7 +1413,7 @@ LittlerootTown_EventScript_MomReturnHomeFemale4::
 # 707 "data/maps/LittlerootTown/scripts.pory"
 	waitmovement 0
 # 708 "data/maps/LittlerootTown/scripts.pory"
-	hideobjectat LOCALID_MOM, MAP_LITTLEROOT_TOWN
+	//hideobjectat LOCALID_MOM, MAP_LITTLEROOT_TOWN
 # 709 "data/maps/LittlerootTown/scripts.pory"
 	closedoor VAR_0x8009, VAR_0x800A
 # 710 "data/maps/LittlerootTown/scripts.pory"
@@ -1435,7 +1437,7 @@ LittlerootTown_EventScript_MomReturnHomeFemale5::
 # 719 "data/maps/LittlerootTown/scripts.pory"
 	waitmovement 0
 # 720 "data/maps/LittlerootTown/scripts.pory"
-	hideobjectat LOCALID_MOM, MAP_LITTLEROOT_TOWN
+	//hideobjectat LOCALID_MOM, MAP_LITTLEROOT_TOWN
 # 721 "data/maps/LittlerootTown/scripts.pory"
 	closedoor VAR_0x8009, VAR_0x800A
 # 722 "data/maps/LittlerootTown/scripts.pory"
@@ -1771,7 +1773,7 @@ LittlerootTown_EventScript_Mom::
 # 887 "data/maps/LittlerootTown/scripts.pory"
 	waitmovement 0
 # 888 "data/maps/LittlerootTown/scripts.pory"
-	hideobjectat LOCALID_MOM, MAP_LITTLEROOT_TOWN
+	//hideobjectat LOCALID_MOM, MAP_LITTLEROOT_TOWN
 # 889 "data/maps/LittlerootTown/scripts.pory"
 	closedoor VAR_0x8009, VAR_0x800A
 # 890 "data/maps/LittlerootTown/scripts.pory"

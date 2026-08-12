@@ -473,9 +473,9 @@ FallarborTown_BattleTentBattleRoom_OnWarp:
 # 237 "data/maps/FallarborTown_BattleTentBattleRoom/scripts.pory"
 FallarborTown_BattleTentBattleRoom_EventScript_SetUpObjects::
 # 238 "data/maps/FallarborTown_BattleTentBattleRoom/scripts.pory"
-	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_FALLARBOR_TOWN_BATTLE_TENT_BATTLE_ROOM
+	//hideobjectat OBJ_EVENT_ID_PLAYER, MAP_FALLARBOR_TOWN_BATTLE_TENT_BATTLE_ROOM
 # 239 "data/maps/FallarborTown_BattleTentBattleRoom/scripts.pory"
-	hideobjectat LOCALID_PLAYER, MAP_FALLARBOR_TOWN_BATTLE_TENT_BATTLE_ROOM
+	//hideobjectat LOCALID_PLAYER, MAP_FALLARBOR_TOWN_BATTLE_TENT_BATTLE_ROOM
 # 240 "data/maps/FallarborTown_BattleTentBattleRoom/scripts.pory"
 	removeobject LOCALID_OPPONENT
 # 241 "data/maps/FallarborTown_BattleTentBattleRoom/scripts.pory"

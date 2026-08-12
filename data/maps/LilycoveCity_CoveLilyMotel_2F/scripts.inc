@@ -58,6 +58,9 @@ LilycoveCity_CoveLilyMotel_2F_EventScript_ShowDiploma::
 	call Common_EventScript_PlayGymBadgeFanfare
 # 30 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	special Special_ShowDiploma
+# 31 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
+	waitstate
+# 32 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	release
 # 33 "data/maps/LilycoveCity_CoveLilyMotel_2F/scripts.pory"
 	end

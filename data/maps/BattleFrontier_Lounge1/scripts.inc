@@ -28,7 +28,9 @@ BattleFrontier_Lounge1_EventScript_Breeder::
 
 # 15 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 BattleFrontier_Lounge1_EventScript_ChooseMonToShowBreeder::
-	chooseboxmon
+# 16 "data/maps/BattleFrontier_Lounge1/scripts.pory"
+	special ChoosePartyMon
+# 17 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	waitstate
 # 18 "data/maps/BattleFrontier_Lounge1/scripts.pory"
 	goto_if_ne VAR_0x8004, PARTY_NOTHING_CHOSEN, BattleFrontier_Lounge1_EventScript_ShowMonToBreeder

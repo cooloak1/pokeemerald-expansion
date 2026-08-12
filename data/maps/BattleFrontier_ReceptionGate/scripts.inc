@@ -290,6 +290,9 @@ BattleFrontier_ReceptionGate_EventScript_ChooseFacilityToLearnAbout::
 	setvar VAR_0x8004, SCROLL_MULTI_BF_RECEPTIONIST
 # 146 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	special ShowScrollableMultichoice
+# 147 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
+	waitstate
+# 148 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	switch VAR_RESULT
 # 149 "data/maps/BattleFrontier_ReceptionGate/scripts.pory"
 	case 0, BattleFrontier_ReceptionGate_EventScript_BattleTower

@@ -77,7 +77,7 @@ Route109_EventScript_EnterBoatWest::
 # 39 "data/maps/Route109/scripts.pory"
 Route109_EventScript_DoSailToDewford::
 # 40 "data/maps/Route109/scripts.pory"
-	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE109
+	//hideobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE109
 # 41 "data/maps/Route109/scripts.pory"
 	call Common_EventScript_PlayBrineysBoatMusic
 # 42 "data/maps/Route109/scripts.pory"
@@ -115,7 +115,7 @@ Route109_EventScript_DoSailToDewford::
 # 58 "data/maps/Route109/scripts.pory"
 	setflag FLAG_HOENN_4
 # 59 "data/maps/Route109/scripts.pory"
-	hideobjectat LOCALID_BOAT_R109, MAP_ROUTE109
+	//hideobjectat LOCALID_BOAT_R109, MAP_ROUTE109
 # 60 "data/maps/Route109/scripts.pory"
 	msgbox DewfordTown_Text_BrineyLandedInDewford, MSGBOX_DEFAULT
 # 61 "data/maps/Route109/scripts.pory"

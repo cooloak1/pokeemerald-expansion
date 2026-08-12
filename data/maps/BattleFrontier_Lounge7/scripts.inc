@@ -6,7 +6,7 @@ BattleFrontier_Lounge7_MapScripts::
 	.byte 0
 # 4 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 
-@special ChooseMonForMoveTutor
+# 5 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 BattleFrontier_Lounge7_EventScript_LeftMoveTutor::
 # 6 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	lock
@@ -52,6 +52,9 @@ BattleFrontier_Lounge7_EventScript_ChooseLeftTutorMove::
 	setvar VAR_0x8006, 0
 # 27 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	special ShowScrollableMultichoice
+# 28 "data/maps/BattleFrontier_Lounge7/scripts.pory"
+	waitstate
+# 29 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	copyvar VAR_TEMP_FRONTIER_TUTOR_SELECTION, VAR_RESULT
 # 30 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	switch VAR_RESULT
@@ -97,6 +100,9 @@ BattleFrontier_Lounge7_EventScript_ChooseNewLeftTutorMove::
 	setvar VAR_0x8006, 1
 # 51 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	special ShowScrollableMultichoice
+# 52 "data/maps/BattleFrontier_Lounge7/scripts.pory"
+	waitstate
+# 53 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	copyvar VAR_TEMP_FRONTIER_TUTOR_SELECTION, VAR_RESULT
 # 54 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	switch VAR_RESULT
@@ -294,6 +300,9 @@ BattleFrontier_Lounge7_EventScript_ChooseRightTutorMove::
 	setvar VAR_0x8006, 0
 # 151 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	special ShowScrollableMultichoice
+# 152 "data/maps/BattleFrontier_Lounge7/scripts.pory"
+	waitstate
+# 153 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	copyvar VAR_TEMP_FRONTIER_TUTOR_SELECTION, VAR_RESULT
 # 154 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	switch VAR_RESULT
@@ -339,6 +348,9 @@ BattleFrontier_Lounge7_EventScript_ChooseNewRightTutorMove::
 	setvar VAR_0x8006, 1
 # 175 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	special ShowScrollableMultichoice
+# 176 "data/maps/BattleFrontier_Lounge7/scripts.pory"
+	waitstate
+# 177 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	copyvar VAR_TEMP_FRONTIER_TUTOR_SELECTION, VAR_RESULT
 # 178 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	switch VAR_RESULT
@@ -544,6 +556,7 @@ BattleFrontier_Lounge7_EventScript_ConfirmMoveSelection::
 	end
 # 279 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 
+# 280 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 BattleFrontier_Lounge7_EventScript_TeachTutorMove::
 # 281 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	msgbox BattleFrontier_Lounge7_Text_TeachMoveToWhichMon, MSGBOX_DEFAULT
@@ -553,7 +566,9 @@ BattleFrontier_Lounge7_EventScript_TeachTutorMove::
 	special CloseBattlePointsWindow
 # 284 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	special CloseBattleFrontierTutorWindow
-	chooseboxmon SELECT_PC_MON_MOVE_TUTOR
+# 285 "data/maps/BattleFrontier_Lounge7/scripts.pory"
+	special ChooseMonForMoveTutor
+# 286 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	waitstate
 # 287 "data/maps/BattleFrontier_Lounge7/scripts.pory"
 	goto_if_eq VAR_RESULT, FALSE, BattleFrontier_Lounge7_EventScript_CancelChooseMon

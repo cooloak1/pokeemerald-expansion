@@ -3,8 +3,7 @@
   "name": "SeafloorCavern_Entrance",
   "layout": "LAYOUT_SEAFLOOR_CAVERN_ENTRANCE",
   "music": "MUS_MT_CHIMNEY",
-  "region": "REGION_HOENN",
-  "region_map_section": "MAPSEC_SEAFLOOR_CAVERN",
+  "region_map_section": "MAPSEC_HOENN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_UNDERGROUND",
@@ -13,7 +12,7 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": null,
   "object_events": [
     {
       "local_id": "LOCALID_SEAFLOOR_CAVERN_ENTRANCE_GRUNT",
@@ -46,10 +45,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_HOENN"
 }

@@ -789,7 +789,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         )
         .levelUpLearnset = sSamurottLevelUpLearnset,
         .teachableLearnset = sSamurottTeachableLearnset,
-//        .formSpeciesIdTable = sSamurottFormSpeciesIdTable,
+        .formSpeciesIdTable = sSamurottFormSpeciesIdTable,
     },
 
 #if P_HISUIAN_FORMS
@@ -814,7 +814,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Samurott"),
         .cryId = CRY_SAMUROTT,
-        .natDexNum = NATIONAL_DEX_SAMUROTT_HISUIAN,
+        .natDexNum = NATIONAL_DEX_SAMUROTT,
         .categoryName = _("Formidable"),
         .height = 15,
         .weight = 582,
@@ -855,7 +855,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sSamurottHisuiLevelUpLearnset,
         .teachableLearnset = sSamurottHisuiTeachableLearnset,
-//        .formSpeciesIdTable = sSamurottFormSpeciesIdTable,
+        .formSpeciesIdTable = sSamurottFormSpeciesIdTable,
     },
 #endif //P_HISUIAN_FORMS
 #endif //P_FAMILY_OSHAWOTT
@@ -4490,7 +4490,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sLilligantHisuiLevelUpLearnset,
         .teachableLearnset = sLilligantHisuiTeachableLearnset,
-//        .formSpeciesIdTable = sLilligantFormSpeciesIdTable,
+        .formSpeciesIdTable = sLilligantFormSpeciesIdTable,
     },
 #endif //P_HISUIAN_FORMS
 #endif //P_FAMILY_PETILIL
@@ -6789,7 +6789,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sZoruaLevelUpLearnset,
         .teachableLearnset = sZoruaTeachableLearnset,
         .eggMoveLearnset = sZoruaEggMoveLearnset,
-//        .formSpeciesIdTable = sZoruaFormSpeciesIdTable,
+        .formSpeciesIdTable = sZoruaFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_ZOROARK}),
     },
 
@@ -6860,7 +6860,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         )
         .levelUpLearnset = sZoroarkLevelUpLearnset,
         .teachableLearnset = sZoroarkTeachableLearnset,
-//        .formSpeciesIdTable = sZoroarkFormSpeciesIdTable,
+        .formSpeciesIdTable = sZoroarkFormSpeciesIdTable,
     },
 
 #if P_HISUIAN_FORMS
@@ -6885,7 +6885,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .bodyColor = BODY_COLOR_GRAY,
         .speciesName = _("Zorua"),
         .cryId = CRY_ZORUA,
-        .natDexNum = NATIONAL_DEX_ZORUA_HISUIAN,
+        .natDexNum = NATIONAL_DEX_ZORUA,
         .categoryName = _("Spiteful Fox"),
         .height = 7,
         .weight = 125,
@@ -6953,7 +6953,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .noFlip = TRUE,
         .speciesName = _("Zoroark"),
         .cryId = CRY_ZOROARK,
-        .natDexNum = NATIONAL_DEX_ZOROARK_HISUIAN,
+        .natDexNum = NATIONAL_DEX_ZOROARK,
         .categoryName = _("Baneful Fox"),
         .height = 16,
         .weight = 730,
@@ -6994,7 +6994,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sZoroarkHisuiLevelUpLearnset,
         .teachableLearnset = sZoroarkHisuiTeachableLearnset,
-//        .formSpeciesIdTable = sZoroarkFormSpeciesIdTable,
+        .formSpeciesIdTable = sZoroarkFormSpeciesIdTable,
     },
 #endif //P_HISUIAN_FORMS
 #endif //P_FAMILY_ZORUA
@@ -11906,7 +11906,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sBraviaryHisuiLevelUpLearnset,
         .teachableLearnset = sBraviaryHisuiTeachableLearnset,
-//        .formSpeciesIdTable = sBraviaryFormSpeciesIdTable,
+        .formSpeciesIdTable = sBraviaryFormSpeciesIdTable,
     },
 #endif //P_HISUIAN_FORMS
 #endif //P_FAMILY_RUFFLET

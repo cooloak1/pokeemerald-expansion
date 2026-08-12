@@ -43,7 +43,7 @@ LilycoveCity_Harbor_EventScript_NoFirstTimeEventTickets::
 LilycoveCity_Harbor_EventScript_FerryRegularLocationSelect::
 	setvar VAR_0x8004, 0
 	special ScriptMenu_CreateLilycoveSSTidalMultichoice
-	waitstate
+	//waitstate
 	special GetLilycoveSSTidalSelection
 	switch VAR_RESULT
 	case 0, LilycoveCity_Harbor_EventScript_GoToSlateport
@@ -323,7 +323,7 @@ LilycoveCity_Harbor_EventScript_GetEventTicketSailor::
 	applymovement VAR_LAST_TALKED, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 30
-	hideobjectat VAR_LAST_TALKED, MAP_LILYCOVE_CITY_HARBOR
+	//hideobjectat VAR_LAST_TALKED, MAP_LILYCOVE_CITY_HARBOR
 	delay 60
 	addobject LOCALID_FERRY_SAILOR
 	delay 30
@@ -339,7 +339,7 @@ LilycoveCity_Harbor_EventScript_BoardFerryWithSailor::
 	call_if_eq VAR_FACING, DIR_NORTH, LilycoveCity_Harbor_EventScript_PlayerBoardFerryNorth
 	call_if_eq VAR_FACING, DIR_EAST, LilycoveCity_Harbor_EventScript_PlayerBoardFerryEast
 	delay 30
-	hideobjectat OBJ_EVENT_ID_PLAYER, 0
+	//hideobjectat OBJ_EVENT_ID_PLAYER, 0
 	setvar VAR_0x8004, LOCALID_SS_TIDAL
 	call Common_EventScript_FerryDepart
 	return
@@ -395,11 +395,11 @@ LilycoveCity_Harbor_EventScript_BoardFerry::
 	applymovement VAR_LAST_TALKED, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
 	delay 30
-	hideobjectat VAR_LAST_TALKED, MAP_LILYCOVE_CITY_HARBOR
+	//hideobjectat VAR_LAST_TALKED, MAP_LILYCOVE_CITY_HARBOR
 	call_if_eq VAR_FACING, DIR_NORTH, LilycoveCity_Harbor_EventScript_PlayerBoardFerryNorth
 	call_if_eq VAR_FACING, DIR_EAST, LilycoveCity_Harbor_EventScript_PlayerBoardFerryEast
 	delay 30
-	hideobjectat OBJ_EVENT_ID_PLAYER, 0
+	//hideobjectat OBJ_EVENT_ID_PLAYER, 0
 	setvar VAR_0x8004, LOCALID_SS_TIDAL
 	call Common_EventScript_FerryDepart
 	return

@@ -271,7 +271,7 @@ Route110_TrickHouseEntrance_EventScript_SetTrickMasterHidingSpot::
 # 136 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	addobject LOCALID_TRICK_MASTER
 # 137 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
-	hideobjectat LOCALID_TRICK_MASTER, MAP_ROUTE110_TRICK_HOUSE_ENTRANCE
+	//hideobjectat LOCALID_TRICK_MASTER, MAP_ROUTE110_TRICK_HOUSE_ENTRANCE
 # 138 "data/maps/Route110_TrickHouseEntrance/scripts.pory"
 	switch VAR_TRICK_HOUSE_LEVEL
 # 139 "data/maps/Route110_TrickHouseEntrance/scripts.pory"

@@ -713,7 +713,7 @@ Route104_EventScript_SailToDewford::
 # 357 "data/maps/Route104/scripts.pory"
 	waitmovement 0
 # 358 "data/maps/Route104/scripts.pory"
-	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE104
+	//hideobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE104
 # 359 "data/maps/Route104/scripts.pory"
 	call Common_EventScript_PlayBrineysBoatMusic
 # 360 "data/maps/Route104/scripts.pory"
@@ -811,7 +811,7 @@ Route104_EventScript_ArriveInDewford::
 # 406 "data/maps/Route104/scripts.pory"
 	setflag FLAG_HOENN_3
 # 407 "data/maps/Route104/scripts.pory"
-	hideobjectat LOCALID_BOAT_R104, MAP_ROUTE104
+	//hideobjectat LOCALID_BOAT_R104, MAP_ROUTE104
 # 408 "data/maps/Route104/scripts.pory"
 	copyvar VAR_BRINEY_LOCATION, VAR_0x8008
 # 409 "data/maps/Route104/scripts.pory"

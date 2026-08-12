@@ -1071,12 +1071,12 @@ static bool32 MapAllowsMatchCall(void)
     if (!Overworld_MapTypeAllowsTeleportAndFly(gMapHeader.mapType) || gMapHeader.regionMapSectionId == MAPSEC_SAFARI_ZONE)
         return FALSE;
 
-    if (gMapHeader.regionMapSectionId == MAPSEC_SOOTOPOLIS_CITY
+    if (gMapHeader.regionMapSectionId == MAPSEC_HOENN
      && FlagGet(FLAG_HOENN_4) == TRUE
      && FlagGet(FLAG_NEVER_SET_0x0DC) == FALSE)
         return FALSE;
 
-    if (gMapHeader.regionMapSectionId == MAPSEC_MT_CHIMNEY
+    if (gMapHeader.regionMapSectionId == MAPSEC_HOENN
      && FlagGet(FLAG_MET_ARCHIE_METEOR_FALLS) == TRUE
      && FlagGet(FLAG_DEFEATED_EVIL_TEAM_MT_CHIMNEY) == FALSE)
         return FALSE;

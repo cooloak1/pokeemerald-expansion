@@ -134,7 +134,7 @@ Route110_TrickHouseEntrance_EventScript_TrickMasterFound::
 
 Route110_TrickHouseEntrance_EventScript_SetTrickMasterHidingSpot::
 	addobject LOCALID_TRICK_MASTER
-	hideobjectat LOCALID_TRICK_MASTER, MAP_ROUTE110_TRICK_HOUSE_ENTRANCE
+	//hideobjectat LOCALID_TRICK_MASTER, MAP_ROUTE110_TRICK_HOUSE_ENTRANCE
 	switch VAR_TRICK_HOUSE_LEVEL
 	case 0, Route110_TrickHouseEntrance_EventScript_SetHidingSpotPuzzle1
 	case 1, Route110_TrickHouseEntrance_EventScript_SetHidingSpotPuzzle2

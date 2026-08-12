@@ -567,7 +567,7 @@ static u8 GetNumberOfBadges(void)
 static void SetShopItemsForSale(const u16 *items)
 {
     u16 i = 0;
-    u8 badgeCount = GetNumberOfBadges();
+    //u8 badgeCount = GetNumberOfBadges();
 
     sMartInfo.itemList = items;
     sMartInfo.itemCount = 0;

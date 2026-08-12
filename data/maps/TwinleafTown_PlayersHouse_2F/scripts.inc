@@ -406,5 +406,5 @@ TwinleafTown_PlayersHouse_2F_Barry_5::
 	.string "Oh, right, right! We're going to go see\n"
 	.string "Prof. Rowan and get some Pokemon.\p"
 	.string "I'll be waiting outside.\p"
-	.string "OK, {PLAYER}? If you're late, I'm\n"
-	.string "fining you ¥10 million!$"
+	.string "OK, {PLAYER}? If you're late, I'm fining\n"
+	.string "you ¥10 million!$"

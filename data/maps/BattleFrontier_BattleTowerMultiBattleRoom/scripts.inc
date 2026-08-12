@@ -85,7 +85,7 @@ BattleFrontier_BattleTowerMultiBattleRoom_OnWarp:
 # 43 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiBattleRoom_EventScript_HidePlayerObj::
 # 44 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_BATTLE_ROOM
+	//hideobjectat OBJ_EVENT_ID_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_BATTLE_ROOM
 # 45 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	end
 # 46 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
@@ -676,6 +676,9 @@ BattleFrontier_BattleTowerMultiBattleRoom_EventScript_ContinueChallengeLink::
 	waitmessage
 # 339 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	special LinkRetireStatusWithBattleTowerPartner
+# 340 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
+	waitstate
+# 341 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	goto_if_ne VAR_RESULT, BATTLE_TOWER_LINKSTAT_CONTINUE, BattleFrontier_BattleTowerMultiBattleRoom_EventScript_WarpToLobbyLost
 # 342 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	goto BattleFrontier_BattleTowerMultiBattleRoom_EventScript_LinkDelayForMsg
@@ -735,6 +738,9 @@ BattleFrontier_BattleTowerMultiBattleRoom_EventScript_RetireChallengeLink::
 	waitmessage
 # 370 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	special LinkRetireStatusWithBattleTowerPartner
+# 371 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
+	waitstate
+# 372 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	goto BattleFrontier_BattleTowerMultiBattleRoom_EventScript_WarpToLobbyLost
 # 373 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	end

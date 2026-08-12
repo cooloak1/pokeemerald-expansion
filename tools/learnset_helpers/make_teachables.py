@@ -30,16 +30,10 @@ import re
 import sys
 import typing
 
-<<<<<<< HEAD
-CONFIG_ENABLED_PAT = re.compile(r"#define P_LEARNSET_HELPER_TEACHABLE\s+(?P<cfg_val>[^ ]*)")
-INCFILE_HAS_TUTOR_PAT = re.compile(r"special ChooseMonForMoveTutor")
-INCFILE_MOVE_PAT = re.compile(r"setvar VAR_0x8005, (MOVE_.*)")
-=======
 
 CONFIG_ENABLED_PAT = re.compile(r"^#define P_LEARNSET_HELPER_TEACHABLE\s+(?P<cfg_val>[^ ]*)", flags=re.MULTILINE)
 ALPHABETICAL_ORDER_ENABLED_PAT = re.compile(r"^#define HGSS_SORT_TMS_BY_NUM\s+(?P<cfg_val>[^ ]*)", flags=re.MULTILINE)
 TM_LITERACY_PAT = re.compile(r"^#define P_TM_LITERACY\s+GEN_(?P<cfg_val>[^ ]*)", flags=re.MULTILINE)
->>>>>>> upstream/master
 TMHM_MACRO_PAT = re.compile(r"F\((\w+)\)")
 SNAKIFY_PAT = re.compile(r"(?!^)([A-Z]+)")
 
@@ -52,23 +46,6 @@ def enabled() -> bool:
         cfg_defined = CONFIG_ENABLED_PAT.search(cfg_pokemon)
         return cfg_defined is not None and cfg_defined.group("cfg_val") in ("TRUE", "1")
 
-<<<<<<< HEAD
-def extract_repo_tutors() -> typing.Generator[str, None, None]:
-    """
-    Yield MOVE constants which are *likely* assigned to a move tutor. This isn't
-    foolproof, but it's suitable.
-    """
-    for inc_fname in chain(glob.glob("./data/scripts/*.inc"), glob.glob("./data/maps/*/scripts.inc")):
-        with open(inc_fname, "r") as inc_fp:
-            incfile = inc_fp.read()
-            if not INCFILE_HAS_TUTOR_PAT.search(incfile):
-                continue
-
-            for move in INCFILE_MOVE_PAT.finditer(incfile):
-                yield move.group(1)
-
-=======
->>>>>>> upstream/master
 def extract_repo_tms() -> typing.Generator[str, None, None]:
     """
     Yield MOVE constants assigned to a TM or HM in the user's repo.
@@ -82,19 +59,6 @@ def extract_repo_tms() -> typing.Generator[str, None, None]:
         for match in match_it:
             yield f"MOVE_{match.group(1)}"
 
-<<<<<<< HEAD
-def extract_repo_universals() -> list[str]:
-    """
-    Return a list of MOVE constants which are deemed to be universal and can
-    thus be learned by any species.
-    """
-    with open("./src/pokemon.c", "r") as pokemon_fp:
-        if match := UNIVERSAL_MOVES_PAT.search(pokemon_fp.read()):
-            return list(filter(lambda s: s, map(lambda s: s.strip(), match.group(1).split(','))))
-        return list()
-
-def prepare_output(all_learnables: dict[str, set[str]], repo_teachables: set[str], header: str) -> str:
-=======
 def extract_tm_litteracy_config() -> bool:
     config = False
     with open("./include/config/pokemon.h", "r") as cfg_pokemon_fp:
@@ -107,7 +71,6 @@ def extract_tm_litteracy_config() -> bool:
     return config
 
 def prepare_output(all_learnables: dict[str, set[str]], tms: list[str], tutors: list[str], special_movesets, repo_teaching_types, header: str) -> str:
->>>>>>> upstream/master
     """
     Build the file content for teachable_learnsets.h.
     """
@@ -189,8 +152,6 @@ def prepare_header(h_align: int, tmshms: list[str], tutors: list[str], universal
 
     return "\n".join(lines)
 
-<<<<<<< HEAD
-=======
 def create_tutor_moves_array(tutors):
     """
     Generate gTutorMoves[].
@@ -221,7 +182,6 @@ def make_move_tutors(build_dir, special_movesets):
 
     return repo_tutors
 
->>>>>>> upstream/master
 def main():
     if not enabled():
         quit()

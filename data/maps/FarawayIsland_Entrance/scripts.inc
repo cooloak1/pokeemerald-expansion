@@ -63,7 +63,7 @@ FarawayIsland_Entrance_EventScript_Sailor::
 # 32 "data/maps/FarawayIsland_Entrance/scripts.pory"
 	delay 30
 # 33 "data/maps/FarawayIsland_Entrance/scripts.pory"
-	hideobjectat LOCALID_SAILOR, MAP_FARAWAY_ISLAND_ENTRANCE
+	//hideobjectat LOCALID_SAILOR, MAP_FARAWAY_ISLAND_ENTRANCE
 # 34 "data/maps/FarawayIsland_Entrance/scripts.pory"
 	setvar VAR_0x8004, LOCALID_SS_TIDAL
 # 35 "data/maps/FarawayIsland_Entrance/scripts.pory"

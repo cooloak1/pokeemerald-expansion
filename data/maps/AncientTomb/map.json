@@ -3,8 +3,7 @@
   "name": "AncientTomb",
   "layout": "LAYOUT_ANCIENT_TOMB",
   "music": "MUS_SEALED_CHAMBER",
-  "region": "REGION_HOENN",
-  "region_map_section": "MAPSEC_ANCIENT_TOMB",
+  "region_map_section": "MAPSEC_HOENN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_UNDERGROUND",
@@ -78,5 +77,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "AncientTomb_EventScript_CaveEntranceSide"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }

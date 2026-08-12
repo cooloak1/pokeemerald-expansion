@@ -8036,7 +8036,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sGrowlitheLevelUpLearnset,
         .teachableLearnset = sGrowlitheTeachableLearnset,
         .eggMoveLearnset = sGrowlitheEggMoveLearnset,
-//        .formSpeciesIdTable = sGrowlitheFormSpeciesIdTable,
+        .formSpeciesIdTable = sGrowlitheFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_FIRE_STONE, SPECIES_ARCANINE}),
     },
 
@@ -8105,7 +8105,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sArcanineLevelUpLearnset,
         .teachableLearnset = sArcanineTeachableLearnset,
-//        .formSpeciesIdTable = sArcanineFormSpeciesIdTable,
+        .formSpeciesIdTable = sArcanineFormSpeciesIdTable,
     },
 
 #if P_HISUIAN_FORMS
@@ -8130,7 +8130,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Growlithe"),
         .cryId = CRY_GROWLITHE,
-        .natDexNum = NATIONAL_DEX_GROWLITHE_HISUIAN,
+        .natDexNum = NATIONAL_DEX_GROWLITHE,
         .categoryName = _("Scout"),
         .height = 8,
         .weight = 227,
@@ -8197,7 +8197,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Arcanine"),
         .cryId = CRY_ARCANINE,
-        .natDexNum = NATIONAL_DEX_ARCANINE_HISUIAN,
+        .natDexNum = NATIONAL_DEX_ARCANINE,
         .categoryName = _("Legendary"),
         .height = 20,
         .weight = 1680,
@@ -8238,7 +8238,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sArcanineHisuiLevelUpLearnset,
         .teachableLearnset = sArcanineHisuiTeachableLearnset,
-//        .formSpeciesIdTable = sArcanineFormSpeciesIdTable,
+        .formSpeciesIdTable = sArcanineFormSpeciesIdTable,
     },
 #endif //P_HISUIAN_FORMS
 #endif //P_FAMILY_GROWLITHE
@@ -11032,7 +11032,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .levelUpLearnset = sMagnetonLevelUpLearnset,
         .teachableLearnset = sMagnetonTeachableLearnset,
     #if P_GEN_4_CROSS_EVOS
-        .evolutions = EVOLUTION({EVO_LEVEL, 0, SPECIES_MAGNEZONE, CONDITIONS({IF_IN_MAPSEC, MAPSEC_NEW_MAUVILLE})},
+        .evolutions = EVOLUTION({EVO_LEVEL, 0, SPECIES_MAGNEZONE, CONDITIONS({IF_IN_MAPSEC, MAPSEC_MOUNT_CORONET_PEAK})},
                                 {EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_MAGNEZONE}),
     #endif
     },
@@ -13165,7 +13165,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sVoltorbLevelUpLearnset,
         .teachableLearnset = sVoltorbTeachableLearnset,
-//        .formSpeciesIdTable = sVoltorbFormSpeciesIdTable,
+        .formSpeciesIdTable = sVoltorbFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_ELECTRODE}),
     },
 
@@ -13242,7 +13242,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         )
         .levelUpLearnset = sElectrodeLevelUpLearnset,
         .teachableLearnset = sElectrodeTeachableLearnset,
-//        .formSpeciesIdTable = sElectrodeFormSpeciesIdTable,
+        .formSpeciesIdTable = sElectrodeFormSpeciesIdTable,
     },
 
 #if P_HISUIAN_FORMS
@@ -13267,7 +13267,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Voltorb"),
         .cryId = CRY_VOLTORB,
-        .natDexNum = NATIONAL_DEX_VOLTORB_HISUIAN,
+        .natDexNum = NATIONAL_DEX_VOLTORB,
         .categoryName = _("Sphere"),
         .height = 5,
         .weight = 130,
@@ -13308,7 +13308,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sVoltorbHisuiLevelUpLearnset,
         .teachableLearnset = sVoltorbHisuiTeachableLearnset,
-//        .formSpeciesIdTable = sVoltorbFormSpeciesIdTable,
+        .formSpeciesIdTable = sVoltorbFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_ITEM, ITEM_LEAF_STONE, SPECIES_ELECTRODE_HISUI}),
     },
 
@@ -13333,7 +13333,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .bodyColor = BODY_COLOR_RED,
         .speciesName = _("Electrode"),
         .cryId = CRY_ELECTRODE,
-        .natDexNum = NATIONAL_DEX_ELECTRODE_HISUIAN,
+        .natDexNum = NATIONAL_DEX_ELECTRODE,
         .categoryName = _("Sphere"),
         .height = 12,
         .weight = 710,
@@ -13374,7 +13374,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sElectrodeHisuiLevelUpLearnset,
         .teachableLearnset = sElectrodeHisuiTeachableLearnset,
-//        .formSpeciesIdTable = sElectrodeFormSpeciesIdTable,
+        .formSpeciesIdTable = sElectrodeFormSpeciesIdTable,
     },
 #endif //P_HISUIAN_FORMS
 #endif //P_FAMILY_VOLTORB

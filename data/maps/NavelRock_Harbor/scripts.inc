@@ -33,7 +33,7 @@ NavelRock_Harbor_EventScript_Sailor::
 # 17 "data/maps/NavelRock_Harbor/scripts.pory"
 	delay 30
 # 18 "data/maps/NavelRock_Harbor/scripts.pory"
-	hideobjectat LOCALID_SAILOR, MAP_NAVEL_ROCK_HARBOR
+	//hideobjectat LOCALID_SAILOR, MAP_NAVEL_ROCK_HARBOR
 # 19 "data/maps/NavelRock_Harbor/scripts.pory"
 	setvar VAR_0x8004, LOCALID_SS_TIDAL
 # 20 "data/maps/NavelRock_Harbor/scripts.pory"

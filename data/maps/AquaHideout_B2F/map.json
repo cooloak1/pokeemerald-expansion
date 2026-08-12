@@ -3,8 +3,7 @@
   "name": "AquaHideout_B2F",
   "layout": "LAYOUT_AQUA_HIDEOUT_B2F",
   "music": "MUS_AQUA_MAGMA_HIDEOUT",
-  "region": "REGION_HOENN",
-  "region_map_section": "MAPSEC_AQUA_HIDEOUT",
+  "region_map_section": "MAPSEC_HOENN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -13,7 +12,7 @@
   "allow_running": false,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_AQUA",
-  "connections": 0,
+  "connections": null,
   "object_events": [
     {
       "local_id": "LOCALID_AQUA_HIDEOUT_MATT",
@@ -188,7 +187,6 @@
       "script": "AquaHideout_B2F_EventScript_MattNoticePlayer"
     }
   ],
-  "bg_events": [
-
-  ]
+  "bg_events": [],
+  "region": "REGION_HOENN"
 }

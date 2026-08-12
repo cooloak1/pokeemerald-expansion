@@ -3,8 +3,7 @@
   "name": "Route103",
   "layout": "LAYOUT_ROUTE103",
   "music": "MUS_ROUTE101",
-  "region": "REGION_HOENN",
-  "region_map_section": "MAPSEC_ROUTE_103",
+  "region_map_section": "MAPSEC_HOENN",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_ROUTE",
@@ -307,5 +306,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route103_EventScript_RouteSign"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }

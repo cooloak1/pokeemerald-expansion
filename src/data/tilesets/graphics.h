@@ -2224,7 +2224,7 @@ const u16 gTilesetPalettes_Galactic[][16] =
 
 const u32 gTilesetTiles_Galactic[] = INCBIN_U32("data/tilesets/secondary/galactic/tiles.4bpp.lz");
 
-const u32 gTilesetTiles_UnionRoom[] = INCGFX_U32("data/tilesets/secondary/union_room/tiles.png", ".4bpp.fastSmol");
+//const u32 gTilesetTiles_UnionRoom[] = INCGFX_U32("data/tilesets/secondary/union_room/tiles.png", ".4bpp.fastSmol");
 
 #if IS_FRLG
 

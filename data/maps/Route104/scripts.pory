@@ -355,7 +355,7 @@ Route104_EventScript_SailToDewford::
 	removeobject LOCALID_BRINEY_R104
 	applymovement OBJ_EVENT_ID_PLAYER, Route104_Movement_PlayerBoardBoat
 	waitmovement 0
-	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE104
+	//hideobjectat OBJ_EVENT_ID_PLAYER, MAP_ROUTE104
 	call Common_EventScript_PlayBrineysBoatMusic
 	goto_if_set FLAG_ENABLE_NORMAN_MATCH_CALL, Route104_EventScript_SailToDewfordNoCall
 	goto_if_unset FLAG_ENABLE_NORMAN_MATCH_CALL, Route104_EventScript_SailToDewfordDadCalls
@@ -404,7 +404,7 @@ Route104_EventScript_ArriveInDewford::
 	clearflag FLAG_HOENN_2
 	call Common_EventScript_StopBrineysBoatMusic
 	setflag FLAG_HOENN_3
-	hideobjectat LOCALID_BOAT_R104, MAP_ROUTE104
+	//hideobjectat LOCALID_BOAT_R104, MAP_ROUTE104
 	copyvar VAR_BRINEY_LOCATION, VAR_0x8008
 	resetobjectsubpriority OBJ_EVENT_ID_PLAYER, MAP_ROUTE104
 	resetobjectsubpriority LOCALID_BRINEY_DEWFORD, MAP_DEWFORD_TOWN

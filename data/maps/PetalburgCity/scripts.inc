@@ -90,6 +90,9 @@ PetalburgCity_EventScript_WallyTutorial::
 	msgbox Route102_Text_WatchMeCatchPokemon, MSGBOX_DEFAULT
 # 46 "data/maps/PetalburgCity/scripts.pory"
 	special StartWallyTutorialBattle
+# 47 "data/maps/PetalburgCity/scripts.pory"
+	waitstate
+# 48 "data/maps/PetalburgCity/scripts.pory"
 	msgbox Route102_Text_WallyIDidIt, MSGBOX_DEFAULT
 # 49 "data/maps/PetalburgCity/scripts.pory"
 	applymovement LOCALID_WALLY, Common_Movement_WalkInPlaceFasterLeft, MAP_PETALBURG_CITY
@@ -150,7 +153,7 @@ PetalburgCity_EventScript_WalkToWallyHouse::
 # 77 "data/maps/PetalburgCity/scripts.pory"
 	setflag FLAG_HOENN_3
 # 78 "data/maps/PetalburgCity/scripts.pory"
-	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_PETALBURG_CITY
+	//hideobjectat OBJ_EVENT_ID_PLAYER, MAP_PETALBURG_CITY
 # 79 "data/maps/PetalburgCity/scripts.pory"
 	closedoor VAR_0x8004, VAR_0x8005
 # 80 "data/maps/PetalburgCity/scripts.pory"

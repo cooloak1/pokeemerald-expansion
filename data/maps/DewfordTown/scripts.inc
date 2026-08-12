@@ -267,7 +267,7 @@ DewfordTown_EventScript_SailToPetalburg::
 # 134 "data/maps/DewfordTown/scripts.pory"
 	waitmovement 0
 # 135 "data/maps/DewfordTown/scripts.pory"
-	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN
+	//hideobjectat OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN
 # 136 "data/maps/DewfordTown/scripts.pory"
 	call Common_EventScript_PlayBrineysBoatMusic
 # 137 "data/maps/DewfordTown/scripts.pory"
@@ -295,7 +295,7 @@ DewfordTown_EventScript_SailToPetalburg::
 # 148 "data/maps/DewfordTown/scripts.pory"
 	setflag FLAG_HOENN_2
 # 149 "data/maps/DewfordTown/scripts.pory"
-	hideobjectat LOCALID_BOAT_DEWFORD, MAP_DEWFORD_TOWN
+	//hideobjectat LOCALID_BOAT_DEWFORD, MAP_DEWFORD_TOWN
 # 150 "data/maps/DewfordTown/scripts.pory"
 	setvar VAR_BOARD_BRINEY_BOAT_STATE, 2
 # 151 "data/maps/DewfordTown/scripts.pory"
@@ -331,7 +331,7 @@ DewfordTown_EventScript_SailToSlateport::
 # 166 "data/maps/DewfordTown/scripts.pory"
 	waitmovement 0
 # 167 "data/maps/DewfordTown/scripts.pory"
-	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN
+	//hideobjectat OBJ_EVENT_ID_PLAYER, MAP_DEWFORD_TOWN
 # 168 "data/maps/DewfordTown/scripts.pory"
 	call Common_EventScript_PlayBrineysBoatMusic
 # 169 "data/maps/DewfordTown/scripts.pory"
@@ -367,7 +367,7 @@ DewfordTown_EventScript_SailToSlateport::
 # 184 "data/maps/DewfordTown/scripts.pory"
 	setflag FLAG_HOENN_2
 # 185 "data/maps/DewfordTown/scripts.pory"
-	hideobjectat LOCALID_BOAT_DEWFORD, MAP_DEWFORD_TOWN
+	//hideobjectat LOCALID_BOAT_DEWFORD, MAP_DEWFORD_TOWN
 # 186 "data/maps/DewfordTown/scripts.pory"
 	call_if_unset FLAG_DELIVERED_DEVON_GOODS, DewfordTown_EventScript_LandedSlateportDeliverGoods
 # 187 "data/maps/DewfordTown/scripts.pory"

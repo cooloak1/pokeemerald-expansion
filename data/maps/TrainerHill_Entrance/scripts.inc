@@ -444,8 +444,11 @@ TrainerHill_Entrance_EventScript_Records::
 	lockall
 # 223 "data/maps/TrainerHill_Entrance/scripts.pory"
 	fadescreen FADE_TO_BLACK
-	setvar VAR_0x8004, 0
+# 224 "data/maps/TrainerHill_Entrance/scripts.pory"
 	special ShowTrainerHillRecords
+# 225 "data/maps/TrainerHill_Entrance/scripts.pory"
+	waitstate
+# 226 "data/maps/TrainerHill_Entrance/scripts.pory"
 	releaseall
 # 227 "data/maps/TrainerHill_Entrance/scripts.pory"
 	end

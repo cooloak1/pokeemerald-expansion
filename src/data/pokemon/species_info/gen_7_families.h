@@ -209,7 +209,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         )
         .levelUpLearnset = sDecidueyeLevelUpLearnset,
         .teachableLearnset = sDecidueyeTeachableLearnset,
-//        .formSpeciesIdTable = sDecidueyeFormSpeciesIdTable,
+        .formSpeciesIdTable = sDecidueyeFormSpeciesIdTable,
     },
 
 #if P_HISUIAN_FORMS
@@ -234,7 +234,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .bodyColor = BODY_COLOR_BROWN,
         .speciesName = _("Decidueye"),
         .cryId = CRY_DECIDUEYE,
-        .natDexNum = NATIONAL_DEX_DECIDUEYE_HISUIAN,
+        .natDexNum = NATIONAL_DEX_DECIDUEYE,
         .categoryName = _("Arrow Quill"),
         .height = 16,
         .weight = 370,
@@ -275,7 +275,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sDecidueyeHisuiLevelUpLearnset,
         .teachableLearnset = sDecidueyeHisuiTeachableLearnset,
-//        .formSpeciesIdTable = sDecidueyeFormSpeciesIdTable,
+        .formSpeciesIdTable = sDecidueyeFormSpeciesIdTable,
     },
 #endif //P_HISUIAN_FORMS
 #endif //P_FAMILY_ROWLET
@@ -1230,7 +1230,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
         )
         .levelUpLearnset = sCharjabugLevelUpLearnset,
         .teachableLearnset = sCharjabugTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 0, SPECIES_VIKAVOLT, CONDITIONS({IF_IN_MAPSEC, MAPSEC_NEW_MAUVILLE})},
+        .evolutions = EVOLUTION({EVO_LEVEL, 0, SPECIES_VIKAVOLT, CONDITIONS({IF_IN_MAPSEC, MAPSEC_MOUNT_CORONET_PEAK})},
                                 {EVO_ITEM, ITEM_THUNDER_STONE, SPECIES_VIKAVOLT},
                                 {EVO_NONE, 0, SPECIES_VIKAVOLT_TOTEM}),
     },

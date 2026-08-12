@@ -43,7 +43,7 @@ SouthernIsland_Exterior_EventScript_Sailor::
 # 22 "data/maps/SouthernIsland_Exterior/scripts.pory"
 	delay 30
 # 23 "data/maps/SouthernIsland_Exterior/scripts.pory"
-	hideobjectat LOCALID_SAILOR, MAP_SOUTHERN_ISLAND_EXTERIOR
+	//hideobjectat LOCALID_SAILOR, MAP_SOUTHERN_ISLAND_EXTERIOR
 # 24 "data/maps/SouthernIsland_Exterior/scripts.pory"
 	setvar VAR_0x8004, LOCALID_SS_TIDAL
 # 25 "data/maps/SouthernIsland_Exterior/scripts.pory"

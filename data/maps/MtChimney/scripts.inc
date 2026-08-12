@@ -960,7 +960,9 @@ MtChimney_EventScript_MachineOff::
 
 # 481 "data/maps/MtChimney/scripts.pory"
 MtChimney_EventScript_MachineOn::
-	msgbox MtChimney_Text_MeteoriteFittedOnMachine, MSGBOX_DEFAULT
+# 482 "data/maps/MtChimney/scripts.pory"
+	msgbox MtChimney_Text_MetoriteFittedOnMachine, MSGBOX_DEFAULT
+# 483 "data/maps/MtChimney/scripts.pory"
 	releaseall
 # 484 "data/maps/MtChimney/scripts.pory"
 	end
@@ -1468,7 +1470,9 @@ MtChimney_Text_OhFineThen:
 	.string "Oh, fine then.$"
 # 736 "data/maps/MtChimney/scripts.pory"
 
-MtChimney_Text_MeteoriteFittedOnMachine:
+# 737 "data/maps/MtChimney/scripts.pory"
+MtChimney_Text_MetoriteFittedOnMachine:
+# 738 "data/maps/MtChimney/scripts.pory"
 	.string "A METEORITE is fitted on a mysterious\n"
 # 739 "data/maps/MtChimney/scripts.pory"
 	.string "machine…\p"

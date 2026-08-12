@@ -41,11 +41,14 @@ SootopolisCity_MysteryEventsHouse_B1F_EventScript_BattleVisitingTrainer::
 # 21 "data/maps/SootopolisCity_MysteryEventsHouse_B1F/scripts.pory"
 	closemessage
 # 22 "data/maps/SootopolisCity_MysteryEventsHouse_B1F/scripts.pory"
-	setvar VAR_0x8004, SPECIAL_BATTLE_EREADER
+	setorcopyvar VAR_0x8004, SPECIAL_BATTLE_EREADER
 # 23 "data/maps/SootopolisCity_MysteryEventsHouse_B1F/scripts.pory"
 	setvar VAR_0x8005, 0
 # 24 "data/maps/SootopolisCity_MysteryEventsHouse_B1F/scripts.pory"
 	special DoSpecialTrainerBattle
+# 25 "data/maps/SootopolisCity_MysteryEventsHouse_B1F/scripts.pory"
+	waitstate
+# 26 "data/maps/SootopolisCity_MysteryEventsHouse_B1F/scripts.pory"
 	call_if_eq VAR_RESULT, B_OUTCOME_DREW, SootopolisCity_MysteryEventsHouse_B1F_EventScript_BattleTie
 # 27 "data/maps/SootopolisCity_MysteryEventsHouse_B1F/scripts.pory"
 	call_if_eq VAR_RESULT, B_OUTCOME_WON, SootopolisCity_MysteryEventsHouse_B1F_EventScript_BattleWon

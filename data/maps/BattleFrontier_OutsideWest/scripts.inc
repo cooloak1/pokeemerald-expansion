@@ -149,7 +149,7 @@ BattleFrontier_OutsideWest_EventScript_BoardFerry::
 # 75 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	delay 30
 # 76 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
-	hideobjectat LOCALID_FERRY_ATTENDANT, MAP_BATTLE_FRONTIER_OUTSIDE_WEST
+	//hideobjectat LOCALID_FERRY_ATTENDANT, MAP_BATTLE_FRONTIER_OUTSIDE_WEST
 # 77 "data/maps/BattleFrontier_OutsideWest/scripts.pory"
 	setvar VAR_0x8004, LOCALID_SS_TIDAL
 # 78 "data/maps/BattleFrontier_OutsideWest/scripts.pory"

@@ -271,7 +271,7 @@ VerdanturfTown_BattleTentBattleRoom_OnWarp:
 # 136 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 VerdanturfTown_BattleTentBattleRoom_EventScript_SetUpObjects::
 # 137 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
-	hideobjectat LOCALID_VERDANTURF_TENT_BATTLE_PLAYER, MAP_VERDANTURF_TOWN_BATTLE_TENT_BATTLE_ROOM
+	//hideobjectat LOCALID_VERDANTURF_TENT_BATTLE_PLAYER, MAP_VERDANTURF_TOWN_BATTLE_TENT_BATTLE_ROOM
 # 138 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"
 	call VerdanturfTown_BattleTentBattleRoom_EventScript_SetPlayerGfx
 # 139 "data/maps/VerdanturfTown_BattleTentBattleRoom/scripts.pory"

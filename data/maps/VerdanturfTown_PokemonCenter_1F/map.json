@@ -3,8 +3,7 @@
   "name": "VerdanturfTown_PokemonCenter_1F",
   "layout": "LAYOUT_POKEMON_CENTER",
   "music": "MUS_POKE_CENTER",
-  "region": "REGION_HOENN",
-  "region_map_section": "MAPSEC_VERDANTURF_TOWN",
+  "region_map_section": "MAPSEC_HOENN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -13,7 +12,7 @@
   "allow_running": false,
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": null,
   "object_events": [
     {
       "local_id": "LOCALID_VERDANTURF_NURSE",
@@ -92,10 +91,7 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_HOENN"
 }

@@ -111,7 +111,7 @@ gScriptCmdTable::
 	script_cmd_table_entry SCR_OP_ADDOBJECTAT                   ScrCmd_addobjectat,                 requests_effects=1  @ 0x56
 	script_cmd_table_entry SCR_OP_SETOBJECTXY                   ScrCmd_setobjectxy,                 requests_effects=1  @ 0x57
 	script_cmd_table_entry SCR_OP_SHOWOBJECTAT                  ScrCmd_showobjectat,                requests_effects=1  @ 0x58
-	script_cmd_table_entry SCR_OP_HIDEOBJECTAT                  ScrCmd_hideobjectat,                requests_effects=1  @ 0x59
+	script_cmd_table_entry SCR_OP_hideobjectat                  ScrCmd_hideobjectat,                requests_effects=1  @ 0x59
 	script_cmd_table_entry SCR_OP_FACEPLAYER                    ScrCmd_faceplayer,                  requests_effects=1  @ 0x5a
 	script_cmd_table_entry SCR_OP_TURNOBJECT                    ScrCmd_turnobject,                  requests_effects=1  @ 0x5b
 	script_cmd_table_entry SCR_OP_TRAINERBATTLE                 ScrCmd_trainerbattle,               requests_effects=1  @ 0x5c

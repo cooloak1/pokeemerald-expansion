@@ -3,8 +3,7 @@
   "name": "Route122",
   "layout": "LAYOUT_ROUTE122",
   "music": "MUS_ROUTE122",
-  "region": "REGION_HOENN",
-  "region_map_section": "MAPSEC_ROUTE_122",
+  "region_map_section": "MAPSEC_HOENN",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_ROUTE",
@@ -36,5 +35,6 @@
     }
   ],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [],
+  "region": "REGION_HOENN"
 }

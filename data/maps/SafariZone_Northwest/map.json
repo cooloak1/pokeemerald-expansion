@@ -3,8 +3,7 @@
   "name": "SafariZone_Northwest",
   "layout": "LAYOUT_SAFARI_ZONE_NORTHWEST",
   "music": "MUS_SAFARI_ZONE",
-  "region": "REGION_HOENN",
-  "region_map_section": "MAPSEC_SAFARI_ZONE",
+  "region_map_section": "MAPSEC_HOENN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_ROUTE",
@@ -53,13 +52,8 @@
       "flag": "FLAG_ITEM_HOENN"
     }
   ],
-  "warp_events": [
-
-  ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_HOENN"
 }

@@ -81,11 +81,11 @@ BattleFrontier_BattleTowerMultiCorridor_OnWarp:
 # 41 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 BattleFrontier_BattleTowerMultiCorridor_EventScript_SetUpObjects::
 # 42 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
-	hideobjectat OBJ_EVENT_ID_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_CORRIDOR
+	//hideobjectat OBJ_EVENT_ID_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_CORRIDOR
 # 43 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
-	hideobjectat LOCALID_FALLARBOR_TENT_BATTLE_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_CORRIDOR
+	//hideobjectat LOCALID_FALLARBOR_TENT_BATTLE_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_CORRIDOR
 # 44 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
-	hideobjectat LOCALID_PARTNER, MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_CORRIDOR
+	//hideobjectat LOCALID_PARTNER, MAP_BATTLE_FRONTIER_BATTLE_TOWER_MULTI_CORRIDOR
 # 45 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"
 	special OffsetCameraForBattle
 # 46 "data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.pory"

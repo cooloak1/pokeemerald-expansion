@@ -201,7 +201,7 @@ BattleFrontier_BattlePalaceBattleRoom_EventScript_BattleSpenser::
 	applymovement LOCALID_ATTENDANT, BattleFrontier_BattlePalaceBattleRoom_Movement_FaceRight
 	setobjectxyperm LOCALID_OPPONENT, 15, 1
 	addobject LOCALID_OPPONENT
-	hideobjectat LOCALID_OPPONENT, MAP_BATTLE_FRONTIER_BATTLE_PALACE_BATTLE_ROOM
+	//hideobjectat LOCALID_OPPONENT, MAP_BATTLE_FRONTIER_BATTLE_PALACE_BATTLE_ROOM
 	setobjectxy LOCALID_OPPONENT, 13, 1
 	setobjectxyperm LOCALID_OPPONENT, 13, 1
 	applymovement LOCALID_DUSCLOPS, BattleFrontier_BattlePalaceBattleRoom_Movement_DusclopsEnter
@@ -280,9 +280,7 @@ BattleFrontier_BattlePalaceBattleRoom_EventScript_DoPalaceBattle::
 	setvar VAR_TEMP_2, 0
 	frontier_set FRONTIER_DATA_RECORD_DISABLED, FALSE
 	special HealPlayerParty
-	setvar VAR_0x8004, SPECIAL_BATTLE_PALACE
-	setvar VAR_0x8005, 0
-	special DoSpecialTrainerBattle
+	dofacilitytrainerbattle FACILITY_BATTLE_PALACE
 	waitstate
 	frontier_restorehelditems
 	special HealPlayerParty
@@ -294,7 +292,7 @@ BattleFrontier_BattlePalaceBattleRoom_OnWarp:
 	.2byte 0
 
 BattleFrontier_BattlePalaceBattleRoom_EventScript_SetUpRoomObjects::
-	hideobjectat LOCALID_PALACE_BATTLE_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_PALACE_BATTLE_ROOM
+	//hideobjectat LOCALID_PALACE_BATTLE_PLAYER, MAP_BATTLE_FRONTIER_BATTLE_PALACE_BATTLE_ROOM
 	call BattleFrontier_BattlePalaceBattleRoom_EventScript_SetPlayerGfx
 	setvar VAR_TEMP_1, 1
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattlePalaceBattleRoom_Movement_SetInvisible

@@ -5785,7 +5785,7 @@ void CheckForLevelInParty(u8 Level)
     gSpecialVar_Result = FALSE;
     int i;
     for (i = 0; i < PARTY_SIZE; i++)
-        if (GetMonData(&gPlayerParty[i], MON_DATA_LEVEL) == Level)
+        if (GetMonData(&gParties[B_TRAINER_PLAYER][i], MON_DATA_LEVEL) == Level)
         gSpecialVar_Result = TRUE;
         gSpecialVar_0x8005 = i;
 }

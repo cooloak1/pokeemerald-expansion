@@ -5357,7 +5357,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sSliggooHisuiLevelUpLearnset,
         .teachableLearnset = sSliggooHisuiTeachableLearnset,
-//        .formSpeciesIdTable = sSliggooFormSpeciesIdTable,
+        .formSpeciesIdTable = sSliggooFormSpeciesIdTable,
         .evolutions = EVOLUTION({EVO_LEVEL, 50, SPECIES_GOODRA_HISUI, CONDITIONS({IF_WEATHER, WEATHER_RAIN})},
                                 {EVO_LEVEL, 50, SPECIES_GOODRA_HISUI, CONDITIONS({IF_WEATHER, WEATHER_FOG})}),
 
@@ -5425,7 +5425,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sGoodraHisuiLevelUpLearnset,
         .teachableLearnset = sGoodraHisuiTeachableLearnset,
-//        .formSpeciesIdTable = sGoodraFormSpeciesIdTable,
+        .formSpeciesIdTable = sGoodraFormSpeciesIdTable,
     },
 #endif //P_HISUIAN_FORMS
 #endif //P_FAMILY_GOOMY
@@ -6391,7 +6391,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .isHisuianForm = TRUE,
         .levelUpLearnset = sAvaluggHisuiLevelUpLearnset,
         .teachableLearnset = sAvaluggHisuiTeachableLearnset,
-//        .formSpeciesIdTable = sAvaluggFormSpeciesIdTable,
+        .formSpeciesIdTable = sAvaluggFormSpeciesIdTable,
     },
 #endif //P_HISUIAN_FORMS
 #endif //P_FAMILY_BERGMITE

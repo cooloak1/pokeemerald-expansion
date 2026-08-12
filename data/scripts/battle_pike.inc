@@ -53,7 +53,7 @@ BattleFrontier_BattlePikeRoomNormal_EventScript_InitRoomObjects::
 	goto_if_eq VAR_RESULT, PIKE_ROOM_HARD_BATTLE, BattleFrontier_BattlePikeRoomNormal_EventScript_InitTwoObjectRoom
 	goto_if_eq VAR_RESULT, PIKE_ROOM_DOUBLE_BATTLE, BattleFrontier_BattlePikeRoomNormal_EventScript_InitTwoObjectRoom
 	goto_if_eq VAR_RESULT, PIKE_ROOM_BRAIN, BattleFrontier_BattlePikeRoomNormal_EventScript_InitBrainRoomObjects
-	hideobjectat LOCALID_PIKE_ROOM_NPC_2, MAP_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_NORMAL
+	//hideobjectat LOCALID_PIKE_ROOM_NPC_2, MAP_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_NORMAL
 	setvar VAR_TEMP_4, 1
 	turnobject LOCALID_PLAYER, DIR_NORTH
 	end
@@ -66,7 +66,7 @@ BattleFrontier_BattlePikeRoomNormal_EventScript_InitTwoObjectRoom::
 BattleFrontier_BattlePikeRoomNormal_EventScript_InitBrainRoomObjects::
 	setvar VAR_TEMP_4, 1
 	turnobject LOCALID_PLAYER, DIR_NORTH
-	hideobjectat LOCALID_PIKE_ROOM_NPC_1, MAP_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_NORMAL  @ Pike Queen hidden initially
+	//hideobjectat LOCALID_PIKE_ROOM_NPC_1, MAP_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_NORMAL  @ Pike Queen hidden initially
 	end
 
 BattleFrontier_BattlePikeThreePathRoom_EventScript_LeftRoomWarp::

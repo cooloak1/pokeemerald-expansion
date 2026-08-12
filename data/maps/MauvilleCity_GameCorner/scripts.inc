@@ -6,7 +6,9 @@ MauvilleCity_GameCorner_MapScripts::
 	.byte 0
 # 4 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 
-	@ Game Corner prices
+# 5 "data/maps/MauvilleCity_GameCorner/scripts.pory"
+    @ Game Corner prices
+# 6 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.set TM_DOUBLE_TEAM_COINS, 1500
 # 7 "data/maps/MauvilleCity_GameCorner/scripts.pory"
 	.set TM_PSYCHIC_COINS, 3500

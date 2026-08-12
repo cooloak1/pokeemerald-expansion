@@ -3,8 +3,7 @@
   "name": "ShoalCave_HighTideInnerRoom",
   "layout": "LAYOUT_SHOAL_CAVE_HIGH_TIDE_INNER_ROOM",
   "music": "MUS_MT_PYRE",
-  "region": "REGION_HOENN",
-  "region_map_section": "MAPSEC_SHOAL_CAVE",
+  "region_map_section": "MAPSEC_HOENN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_UNDERGROUND",
@@ -13,17 +12,10 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
-  "object_events": [
-
-  ],
-  "warp_events": [
-
-  ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
-  ]
+  "connections": null,
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": [],
+  "region": "REGION_HOENN"
 }

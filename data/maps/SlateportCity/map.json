@@ -3,8 +3,7 @@
   "name": "SlateportCity",
   "layout": "LAYOUT_SLATEPORT_CITY",
   "music": "MUS_SLATEPORT",
-  "region": "REGION_HOENN",
-  "region_map_section": "MAPSEC_SLATEPORT_CITY",
+  "region_map_section": "MAPSEC_HOENN",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_CITY",
@@ -703,5 +702,6 @@
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "SlateportCity_EventScript_BerryCrushRankingsSign"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }

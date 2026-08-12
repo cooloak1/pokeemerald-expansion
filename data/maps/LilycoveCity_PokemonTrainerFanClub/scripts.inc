@@ -1044,6 +1044,9 @@ LilycoveCity_PokemonTrainerFanClub_EventScript_RateTrainer::
 	setvar VAR_0x8004, SCROLL_MULTI_POKEMON_FAN_CLUB_RATER
 # 523 "data/maps/LilycoveCity_PokemonTrainerFanClub/scripts.pory"
 	special ShowScrollableMultichoice
+# 524 "data/maps/LilycoveCity_PokemonTrainerFanClub/scripts.pory"
+	waitstate
+# 525 "data/maps/LilycoveCity_PokemonTrainerFanClub/scripts.pory"
 	setvar VAR_0x8004, FANCLUB_MEMBER1
 # 526 "data/maps/LilycoveCity_PokemonTrainerFanClub/scripts.pory"
 	switch VAR_RESULT

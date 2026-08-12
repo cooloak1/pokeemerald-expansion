@@ -3,8 +3,7 @@
   "name": "Route123",
   "layout": "LAYOUT_ROUTE123",
   "music": "MUS_ROUTE122",
-  "region": "REGION_HOENN",
-  "region_map_section": "MAPSEC_ROUTE_123",
+  "region_map_section": "MAPSEC_HOENN",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_ROUTE",
@@ -837,5 +836,6 @@
       "item": "ITEM_RARE_CANDY",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_123_RARE_CANDY"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }

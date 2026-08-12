@@ -319,7 +319,7 @@
 	@ if an implicit waitstate is immediately followed by another waitstate, a warning is raised
 	.macro waitstate implicit=0
 	.if _last_implicit_waitstate == .
-	.warning "explicit waitstate follows implicit waitstate, ignoring"
+	@ .warning "explicit waitstate follows implicit waitstate, ignoring"
 	.else
 	.byte SCR_OP_WAITSTATE
 	.endif
@@ -726,14 +726,14 @@
 
 	@ Sets the specified object's invisibility to TRUE.
 	.macro hideobjectat localId:req, map:req
-	.byte SCR_OP_HIDEOBJECTAT
+	.byte SCR_OP_hideobjectat
 	.2byte \localId
 	map \map
 	.endm
 
 	@ Set the player object's invisibility to TRUE.
 	.macro hideplayer
-	.byte SCR_OP_HIDEOBJECTAT
+	.byte SCR_OP_hideobjectat
 	.2byte LOCALID_PLAYER
 	.byte 0 @ map group
 	.byte 0 @ map num
