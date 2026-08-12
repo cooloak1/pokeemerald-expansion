@@ -4,19 +4,19 @@ JubilifeCity_Condo1_2F_MapScripts::
 
 JubilifeCity_Condo1_2F_EventScript_SomePokemonEvolve::
 # 4 "data/maps/JubilifeCity_Condo1_2F/scripts.pory"
-	msgbox JubilifeCity_Condo1_2F_Text_SomePokemonEvolve
+	msgbox JubilifeCity_Condo1_2F_Text_SomePokemonEvolve, MSGBOX_NPC
 	return
 
 
 JubilifeCity_Condo1_2F_EventScript_MysteriesOfEvolution::
 # 8 "data/maps/JubilifeCity_Condo1_2F/scripts.pory"
-	msgbox JubilifeCity_Condo1_2F_Text_MysteriesOfEvolution
+	msgbox JubilifeCity_Condo1_2F_Text_MysteriesOfEvolution, MSGBOX_NPC
 	return
 
 
 JubilifeCity_Condo1_2F_EventScript_RowanResearchedWithOak::
 # 12 "data/maps/JubilifeCity_Condo1_2F/scripts.pory"
-	msgbox JubilifeCity_Condo1_2F_Text_RowanResearchedWithOak
+	msgbox JubilifeCity_Condo1_2F_Text_RowanResearchedWithOak, MSGBOX_NPC
 	return
 
 
