@@ -308,9 +308,15 @@ script Route201_EventScript_ProfRowansBriefcase {
 	msgbox(Route201_Text_Barry_Challenge)
 	closemessage
 	switch(var(VAR_STARTER_MON)) {
-		case 0:
-			trainerbattle_no_intro(TRAINER_BARRY_ROUTE_201_TREECKO, Route201_Text_Barry_LetsGoHome)
+		case STARTER_TURTWIG:
+			trainerbattle_no_intro(TRAINER_BARRY_ROUTE_201_TURTWIG, Route201_Text_Barry_LetsGoHome)
+		case STARTER_CHIMCHAR:
+			trainerbattle_no_intro(TRAINER_BARRY_ROUTE_201_CHIMCHAR, Route201_Text_Barry_LetsGoHome)
+		case STARTER_PIPLUP:
+			trainerbattle_no_intro(TRAINER_BARRY_ROUTE_201_PIPLUP, Route201_Text_Barry_LetsGoHome)
 	}
+	warpsilent(MAP_TWINLEAF_TOWN_PLAYERS_HOUSE_1F, 1 , 5)
+	waitstate
 	release
 	end
 }
@@ -705,4 +711,8 @@ text Route201_Text_Barry_Challenge {
 
 text Route201_Text_Barry_LetsGoHome {
 	format("Barry: Whew!\nLet's go home.\pI'm beat after that battle.\nMy Pokemon needs rest, too.\pSee ya, {PLAYER}!")
+}
+
+text Route201_Text_Barry_IWon {
+	format("Barry: Aha...\nAhaha... I won? I won!\pBut that battle, it could've gone either way. It was that close!\pI can tell you one thing: battling is awesomely fun!\pOK, let's go home\pI'm beat after that battle.\pMy Pokémon needs rest, too.\pSee ya, {PLAYER}!")
 }

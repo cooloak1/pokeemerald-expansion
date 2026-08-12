@@ -9503,7 +9503,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Psychic
 - Future Sight
 
-=== TRAINER_BARRY_ROUTE_201_MUDKIP ===
+=== TRAINER_BARRY_ROUTE_201_PIPLUP ===
 Name: Barry
 Class: Rival
 Pic: Wally
@@ -9558,7 +9558,7 @@ Grovyle
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-=== TRAINER_BARRY_ROUTE_201_TREECKO ===
+=== TRAINER_BARRY_ROUTE_201_TURTWIG ===
 Name: Barry
 Class: Rival
 Pic: Wally
@@ -9613,7 +9613,7 @@ Combusken
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-=== TRAINER_BARRY_ROUTE_201_TORCHIC ===
+=== TRAINER_BARRY_ROUTE_201_CHIMCHAR ===
 Name: Barry
 Class: Rival
 Pic: Wally
