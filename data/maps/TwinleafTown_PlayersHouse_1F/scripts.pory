@@ -13,7 +13,7 @@ script TwinleafTown_PlayersHouse_1F_MapScript_OnTransition {
 	setrespawn(HEAL_LOCATION_TWINLEAF_TOWN)
 	if(var(VAR_PLAYERS_MOM_STATE) == 4){
 		setobjectxyperm(LOCALID_MOM, 1, 3)
-		applymovement(OBJ_EVENT_ID_PLAYER, face_up)
+		applymovement(OBJ_EVENT_ID_PLAYER, moves(face_up))
 	}
 }
 

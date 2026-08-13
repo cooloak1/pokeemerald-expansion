@@ -25,7 +25,7 @@ TwinleafTown_PlayersHouse_1F_MapScript_OnTransition_1:
 # 15 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	setobjectxyperm LOCALID_MOM, 1, 3
 # 16 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, face_up
+	applymovement OBJ_EVENT_ID_PLAYER, TwinleafTown_PlayersHouse_1F_MapScript_OnTransition_Movement_0
 	return
 
 
@@ -158,31 +158,39 @@ TwinleafTown_PlayersHouse_1F_Mom_AfterBattle::
 # 106 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	msgbox TwinleafTown_PlayersHouse_1F_Text_PutTheseOn
 # 107 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
-	setflag FLAG_RECEIVED_RUNNING_SHOES
+	setflag FLAG_SYS_B_DASH
 # 108 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
-	setvar VAR_PLAYERS_MOM_STATE, 5
+	setflag FLAG_RECEIVED_RUNNING_SHOES
 # 109 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	setvar VAR_PLAYERS_MOM_STATE, 5
+# 110 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	release
 	end
 
 
 TwinleafTown_PlayersHouse_1F_EventScript_Counter::
-# 115 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 116 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	msgbox TwinleafTown_PlayersHouse_1F_Text_Counter, MSGBOX_SIGN
 	return
 
 
 TwinleafTown_PlayersHouse_1F_EventScript_Fridge::
-# 119 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 120 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	msgbox TwinleafTown_PlayersHouse_1F_Text_Fridge, MSGBOX_SIGN
 	return
 
 
 TwinleafTown_PlayersHouse_1F_EventScript_Sink::
-# 123 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 124 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	msgbox TwinleafTown_PlayersHouse_1F_Text_Sink, MSGBOX_SIGN
 	return
 
+
+# 16 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+TwinleafTown_PlayersHouse_1F_MapScript_OnTransition_Movement_0:
+# 16 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+	face_up
+	step_end
 
 # 23 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 TwinleafTown_PlayersHouse_1F_EventScript_Mom_BarryLeft_Movement_0:
@@ -291,20 +299,20 @@ TwinleafTown_PlayersHouse_1F_Mom_AfterBattle_Movement_3:
 	step_end
 
 TwinleafTown_PlayersHouse_1F_Text_BarryAlreadyLeft::
-# 126 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 127 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom: {PLAYER}!\p"
 	.string "Barry already left.\p"
 	.string "I don't know what it was about, but he\n"
 	.string "sure was in a hurry!$"
 
 TwinleafTown_PlayersHouse_1F_Text_YouKnowBarry::
-# 130 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 131 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom: You know how impatient Barry is.\p"
 	.string "He took off before I could even ask\n"
 	.string "what it was about.$"
 
 TwinleafTown_PlayersHouse_1F_Text_DontGoInTallGrass::
-# 134 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 135 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom: Oh, yes!\n"
 	.string "{PLAYER}!\p"
 	.string "Don't go into the tall grass. Wild\n"
@@ -314,23 +322,23 @@ TwinleafTown_PlayersHouse_1F_Text_DontGoInTallGrass::
 	.string "Well, take care, sweetie!$"
 
 TwinleafTown_PlayersHouse_1F_Text_TakeCare::
-# 138 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 139 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom: Bye-bye {PLAYER}!\n"
 	.string "You take care now!$"
 
 TwinleafTown_PlayersHouse_1F_Text_IsntBarryWaitingForYou::
-# 142 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 143 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom: What is it, dear?\n"
 	.string "Isn't Barry waiting for you?$"
 
 TwinleafTown_PlayersHouse_1F_Text_QuickRest::
-# 146 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 147 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom: Welcome home, {PLAYER}.\n"
 	.string "Are you and your Pokemon healthy?\n"
 	.string "Take a quick rest, dear.$"
 
 TwinleafTown_PlayersHouse_1F_Text_TreatPokemonWithKindness::
-# 150 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 151 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom: {PLAYER}.\p"
 	.string "Listen. Always treat your Pokemon with\n"
 	.string "kindness.\p"
@@ -338,22 +346,22 @@ TwinleafTown_PlayersHouse_1F_Text_TreatPokemonWithKindness::
 	.string "themselves, but for you!$"
 
 TwinleafTown_PlayersHouse_1F_Text_Counter::
-# 154 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 155 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "This is where Mom does all her delicious\n"
 	.string "cooking.$"
 
 TwinleafTown_PlayersHouse_1F_Text_Fridge::
-# 158 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 159 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom's favorite dessert is in the\n"
 	.string "refrigerator$"
 
 TwinleafTown_PlayersHouse_1F_Text_Sink::
-# 162 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 163 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom's kitchen is spotless!\n"
 	.string "You can see your face on the floor!$"
 
 TwinleafTown_PlayersHouse_1F_Text_AfterBattle::
-# 166 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 167 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom: What’s the matter, dear?\p"
 	.string "...\p"
 	.string "Wow.\n"
@@ -370,7 +378,7 @@ TwinleafTown_PlayersHouse_1F_Text_AfterBattle::
 	.string "the tall grass won’t be so threatening.$"
 
 TwinleafTown_PlayersHouse_1F_Text_PutTheseOn::
-# 170 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 171 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Oh, I know!\n"
 	.string "{PLAYER}, put these on.\p"
 	.string "{PLAY_SE MUS_OBTAIN_ITEM}{PLAYER} recieved a pair of {COLOR RED}Running\n"
@@ -388,7 +396,7 @@ TwinleafTown_PlayersHouse_1F_Text_PutTheseOn::
 	.string "Well, isn’t that just nifty!$"
 
 TwinleafTown_PlayersHouse_1F_Text_RunningShoes::
-# 174 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 175 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom: I’ll read you the instructions for\n"
 	.string "the Running Shoes...\p"
 	.string "“Press the B Button and dash about\n"
@@ -398,7 +406,7 @@ TwinleafTown_PlayersHouse_1F_Text_RunningShoes::
 	.string "Well, isn’t that just nifty!$"
 
 TwinleafTown_PlayersHouse_1F_Text_TakeARest::
-# 178 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
+# 179 "data/maps/TwinleafTown_PlayersHouse_1F/scripts.pory"
 	.string "Mom: Welcome home, {PLAYER}.\n"
 	.string "Are you and your Pokémon healthy?\p"
 	.string "Take a quick rest, dear.\p"
