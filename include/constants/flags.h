@@ -54,8 +54,8 @@
 #define FLAG_MET_CYRUS_LAKE_VERITY           0x20
 #define FLAG_FOLLOWER_NPC_HEAL_AFTER_BATTLE  0x21 // Unused Flag
 #define FLAG_FOLLOWER_NPC_JOIN_WILD_BATTLE   0x22 // Unused Flag
-#define FLAG_UNUSED_0x023                    0x23 // Unused Flag
-#define FLAG_UNUSED_0x024                    0x24 // Unused Flag
+#define FLAG_BATTLED_RIVAL_ROUTE_201         0x23
+#define FLAG_TALKED_TO_RIVALS_MOM            0x24
 #define FLAG_UNUSED_0x025                    0x25 // Unused Flag
 #define FLAG_UNUSED_0x026                    0x26 // Unused Flag
 #define FLAG_UNUSED_0x027                    0x27 // Unused Flag

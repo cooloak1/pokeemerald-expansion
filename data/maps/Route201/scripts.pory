@@ -30,7 +30,7 @@ script Route201_EventScript_BarryTrigger_4 {
 }
 
 script Route201_EventScript_ChooseBarryDialogue {
-	if(flag(FLAG_SYS_POKEMON_GET)) {
+	if(flag(FLAG_BATTLED_RIVAL_ROUTE_201)) {
 		goto(Route201_EventScript_BarryGoingToLakeVerity)
 	}
 	else {
@@ -309,12 +309,15 @@ script Route201_EventScript_ProfRowansBriefcase {
 	closemessage
 	switch(var(VAR_STARTER_MON)) {
 		case STARTER_TURTWIG:
-			trainerbattle_no_intro(TRAINER_BARRY_ROUTE_201_TURTWIG, Route201_Text_Barry_LetsGoHome)
+			trainerbattle_no_intro(TRAINER_BARRY_ROUTE_201_TURTWIG, Route201_Text_Barry_BattleWin)
 		case STARTER_CHIMCHAR:
-			trainerbattle_no_intro(TRAINER_BARRY_ROUTE_201_CHIMCHAR, Route201_Text_Barry_LetsGoHome)
+			trainerbattle_no_intro(TRAINER_BARRY_ROUTE_201_CHIMCHAR, Route201_Text_Barry_BattleWin)
 		case STARTER_PIPLUP:
-			trainerbattle_no_intro(TRAINER_BARRY_ROUTE_201_PIPLUP, Route201_Text_Barry_LetsGoHome)
+			trainerbattle_no_intro(TRAINER_BARRY_ROUTE_201_PIPLUP, Route201_Text_Barry_BattleWin)
 	}
+	msgbox(Route201_Text_Barry_LetsGoHome)
+
+	setflag(FLAG_BATTLED_RIVAL_ROUTE_201)
 	setvar(VAR_PLAYERS_MOM_STATE, 4)
 	warpsilent(MAP_TWINLEAF_TOWN_PLAYERS_HOUSE_1F, 1 , 5)
 	waitstate
@@ -716,4 +719,8 @@ text Route201_Text_Barry_LetsGoHome {
 
 text Route201_Text_Barry_IWon {
 	format("Barry: Aha...\nAhaha... I won? I won!\pBut that battle, it could've gone either way. It was that close!\pI can tell you one thing: battling is awesomely fun!\pOK, let's go home\pI'm beat after that battle.\pMy Pokémon needs rest, too.\pSee ya, {PLAYER}!")
+}
+
+text Route201_Text_Barry_BattleWin {
+	format("What are you saying?!\nWe ended up losing?!")
 }
