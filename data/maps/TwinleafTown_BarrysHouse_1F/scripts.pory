@@ -2,17 +2,17 @@ mapscripts TwinleafTown_BarrysHouse_1F_MapScripts {
 
 }
 
-script TwinleafTown_BarrysHouse_1F_EventScript_RivalsMom {
+script TwinleafTown_BarrysHouse_1F_EventScript_BarrysMom {
 	switch(var(VAR_BARRY_STATE)) {
 		case 1:
-			msgbox(TwinleafTown_BarrysHouse_1F_Text_LookingForRival, MSGBOX_NPC)
+			msgbox(TwinleafTown_BarrysHouse_1F_Text_LookingForBarry, MSGBOX_NPC)
 		case 2:
 		case 3:
-			if(flag(FLAG_TALKED_TO_RIVALS_MOM)) {
+			if(flag(FLAG_TALKED_TO_BARRYS_MOM)) {
 				msgbox(TwinleafTown_BarrysHouse_1F_Text_BarryRoute201, MSGBOX_NPC)
 			} else {
 				msgbox(TwinleafTown_BarrysHouse_1F_Text_RocketedOff, MSGBOX_NPC)
-				setflag(FLAG_TALKED_TO_RIVALS_MOM)
+				setflag(FLAG_TALKED_TO_BARRYS_MOM)
 			}
 		case 4:
 			msgbox(TwinleafTown_BarrysHouse_1F_Text_FriendsWithPokemon, MSGBOX_NPC)
@@ -22,7 +22,7 @@ script TwinleafTown_BarrysHouse_1F_EventScript_RivalsMom {
 	}
 }
 
-text TwinleafTown_BarrysHouse_1F_Text_LookingForRival {
+text TwinleafTown_BarrysHouse_1F_Text_LookingForBarry {
 	format("Barry’s mom: Oh, hi, {PLAYER}.\pAre you looking for Barry?\pHe was gone for a second, but then he came running right back home.\pHe just can’t sit still, that boy.\nI wonder who he takes after? ")
 }
 text TwinleafTown_BarrysHouse_1F_Text_RocketedOff {

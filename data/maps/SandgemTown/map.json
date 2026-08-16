@@ -80,7 +80,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_RIVAL_SANDGEM_TOWN"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DP_ROWAN",
@@ -93,7 +93,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PROF_ROWAN_SANDGEM_TOWN"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DP_BARRY",
@@ -106,7 +106,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_BARRY_SANDGEM_TOWN"
     }
   ],
   "warp_events": [

@@ -14,11 +14,179 @@ script LakeVerity_EventScript_SetMapLayout {
 	}
 }
 
+script Lake_Verity_EventScript_CyrusTrigger1 {
+	setvar(VAR_TEMP_4, 0)
+	goto(LakeVerity_EventScript_CyrusScene)
+}
+
+script Lake_Verity_EventScript_CyrusTrigger2 {
+	setvar(VAR_TEMP_4, 1)
+	goto(LakeVerity_EventScript_CyrusScene)
+}
+
 script LakeVerity_EventScript_Sign{
 	msgbox(LakeVerity_Text_Sign, MSGBOX_SIGN)
 	end
 }
 
+script LakeVerity_EventScript_CyrusScene {
+	lock
+	setvar(VAR_BARRY_STATE, 4)
+	switch(var(VAR_TEMP_4)) {
+		case 0:
+			applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_in_place_down))
+			waitmovement(0)
+		case 1:
+			release
+			applymovement(OBJ_EVENT_ID_PLAYER, moves(
+				walk_left,
+				walk_in_place_right))
+			waitmovement(0)
+			lock
+	}
+	msgbox(LakeVerity_Text_Barry_WereHere)
+	closemessage
+	if(var(VAR_TEMP_4) == 0) {
+		applymovement(OBJ_EVENT_ID_NPC_FOLLOWER, moves(
+			walk_fast_right
+			walk_fast_up
+		))
+		waitmovement(0)
+	}
+	applymovement(OBJ_EVENT_ID_NPC_FOLLOWER, moves(walk_up * 2))
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_up * 2))
+	waitmovement(0)
+	msgbox(LakeVerity_Text_BarryWhatsGoingOn)
+	closemessage
+	special(SpawnCameraObject)
+	applymovement(LOCALID_CAMERA, moves(walk_up * 6))
+	waitmovement(0)
+	msgbox(LakeVerity_Text_CyrusOminous)
+	closemessage
+	applymovement(LOCALID_CAMERA, moves(walk_down * 6))
+	applymovement(LOCALID_CYRUS, moves(
+		walk_down * 3
+		walk_left
+		walk_down * 2
+	))
+	waitmovement(0)
+	special(RemoveCameraObject)
+	msgbox(LakeVerity_Text_Cyrus_StepAside)
+	closemessage
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_in_place_right))
+	applymovement(OBJ_EVENT_ID_NPC_FOLLOWER, moves(walk_right walk_in_place_left))
+	waitmovement(0)
+	applymovement(LOCALID_CYRUS, moves(walk_down * 6))
+	waitmovement(0)
+	removeobject(LOCALID_CYRUS)
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_in_place_down))
+	applymovement(OBJ_EVENT_ID_NPC_FOLLOWER, moves(walk_left walk_in_place_down))
+	waitmovement(0)
+	msgbox(LakeVerity_Text_Barry_WeirdGuy)
+	closemessage
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_in_place_right))
+	applymovement(OBJ_EVENT_ID_NPC_FOLLOWER, moves(walk_in_place_left))
+	waitmovement(0)
+	msgbox(LakeVerity_Text_Barry_LetsCatch)
+	closemessage
+	playmoncry(SPECIES_MESPRIT, CRY_MODE_NORMAL)
+	waitmoncry
+	applymovement(OBJ_EVENT_ID_NPC_FOLLOWER, Common_Movement_ExclamationMark)
+	playse(SE_PIN)
+	waitmovement(0)
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(
+		walk_in_place_up
+		delay_8
+		delay_16
+		delay_16
+		delay_16
+		delay_8
+		delay_16
+		delay_8
+		delay_16
+		delay_16
+		delay_16
+		walk_in_place_right
+		))
+	applymovement(OBJ_EVENT_ID_NPC_FOLLOWER, moves(
+		walk_fast_up * 3
+		delay_16
+		delay_16
+		delay_16
+		walk_in_place_fast_left
+		delay_16
+		walk_in_place_fast_up
+		delay_16
+		delay_8
+		walk_fast_down * 3
+		walk_in_place_left
+		))
+	waitmovement(0)
+	msgbox(LakeVerity_Text_Barry_DidYouHearThat)
+	closemessage
+	applymovement(OBJ_EVENT_ID_NPC_FOLLOWER, Common_Movement_ExclamationMark)
+	waitmovement(0)
+	msgbox(LakeVerity_Text_Barry_PokeBalls)
+	closemessage
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_in_place_down))
+	applymovement(OBJ_EVENT_ID_NPC_FOLLOWER, moves(walk_fast_down * 6))
+	waitmovement(0)
+	destroyfollowernpc
+	setflag(FLAG_HIDE_BARRY_ROUTE_201)
+
+	release
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 text LakeVerity_Text_Sign {
 	format("Lake Verity Ahead\pAccording to legend, this lake is home to the Pokemon said to be “The Being of Emotion.”\pIt is because of this Pokemon that people can experience sorrow and joy.")
+}
+
+text LakeVerity_Text_Barry_WereHere {
+	format("Barry: All right!\nWe’re at the lake!\pGet ready, because we’re capturing that legendary Pokémon.\pTrust me on this one. It’s here.\nIt even says so on the sign!")
+}
+
+text LakeVerity_Text_BarryWhatsGoingOn {
+	format("Barry: What’s going on...?")
+}
+
+text LakeVerity_Text_CyrusOminous {
+	format("...The flowing time...\n...The expanding space...\pI will make it all mine one day...\nCyrus is my name. Remember it...\pUntil then, sleep while you can, legendary Pokémon of the lake bed...")
+}
+
+text LakeVerity_Text_Cyrus_StepAside {
+	format(" Allow me to pass.\nStep aside.")
+}
+
+text LakeVerity_Text_Barry_WeirdGuy {
+	format("Barry: What was that about?\nWeird guy...")
+}
+
+text LakeVerity_Text_Barry_LetsCatch {
+	format("OK, {PLAYER}\nLet’s catch that legendary Pokémon!")
+}
+
+text LakeVerity_Text_Mesprit_Cry {
+	"Kyauuun!"
+}
+
+text LakeVerity_Text_Barry_DidYouHearThat {
+	format("Barry: !\nDid you hear that, {PLAYER}?!\pThat was the legendary Pokémon crying!\nThat had to be it!\pOK! This is our chance!\nLet’s catch it!")
+}
+
+text LakeVerity_Text_Barry_PokeBalls {
+	format("...Wait!\nWhat...?!\pWe don’t have anything on us!\pYou know, Poké Balls!\nP-O-K-accent-E Balls!\pIf we don’t have those, we can’t catch Pokémon or take them around with us!\p...Do you think Prof. Rowan’d give us some if we asked him?\pYou know, you remember what he said, don’t you?\pHe said to visit him at his lab if we needed anything.\pOK, {PLAYER}!\nI’ll race you!\pFirst one to the professor’s lab in Sandgem Town rules!")
 }

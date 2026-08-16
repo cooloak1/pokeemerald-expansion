@@ -36,7 +36,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_DP_GALACTIC_GRUNTF",
       "x": 26,
-      "y": 25,
+      "y": 23,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -44,12 +44,12 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_TEAM_GALACTIC_LAKE_VERITY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DP_GALACTIC_GRUNTM",
-      "x": 32,
-      "y": 25,
+      "x": 31,
+      "y": 23,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -57,7 +57,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_TEAM_GALACTIC_LAKE_VERITY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DP_GALACTIC_GRUNTM",
@@ -70,7 +70,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_TEAM_GALACTIC_LAKE_VERITY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DP_GALACTIC_GRUNTF",
@@ -83,7 +83,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_TEAM_GALACTIC_LAKE_VERITY"
     },
     {
       "local_id": "LOCALID_MARS",
@@ -97,7 +97,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_TEAM_GALACTIC_LAKE_VERITY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
@@ -110,13 +110,13 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_RIVAL_LAKE_VERITY"
     },
     {
       "local_id": "LOCALID_ROWAN",
       "graphics_id": "OBJ_EVENT_GFX_DP_ROWAN",
       "x": 28,
-      "y": 26,
+      "y": 28,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -124,12 +124,12 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PROF_ROWAN_LAKE_VERITY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DP_GALACTIC_GRUNTM",
-      "x": 29,
-      "y": 27,
+      "x": 31,
+      "y": 28,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -137,7 +137,21 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_TEAM_GALACTIC_LAKE_VERITY"
+    },
+    {
+      "local_id": "LOCALID_CYRUS",
+      "graphics_id": "OBJ_EVENT_GFX_DP_CYRUS",
+      "x": 30,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_CYRUS_LAKE_VERITY"
     }
   ],
   "warp_events": [
@@ -149,12 +163,31 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 28,
+      "y": 27,
+      "elevation": 0,
+      "var": "VAR_BARRY_STATE",
+      "var_value": "3",
+      "script": "Lake_Verity_EventScript_CyrusTrigger1"
+    },
+    {
+      "type": "trigger",
+      "x": 29,
+      "y": 27,
+      "elevation": 0,
+      "var": "VAR_BARRY_STATE",
+      "var_value": "3",
+      "script": "Lake_Verity_EventScript_CyrusTrigger2"
+    }
+  ],
   "bg_events": [
     {
       "type": "sign",
-      "x": 26,
-      "y": 26,
+      "x": 27,
+      "y": 28,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "LakeVerity_EventScript_Sign"

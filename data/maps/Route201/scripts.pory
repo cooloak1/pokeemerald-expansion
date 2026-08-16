@@ -1,7 +1,8 @@
 const LOCALID_BARRY = 5
 const LOCALID_ROWAN = 6
 const LOCALID_ROWANS_BAG = 7
-const LOCALID_RIVAL = 8
+const LOCALID_RIVAL_ROUTE_201 = 8
+
 
 mapscripts Route201_MapScripts {
 	MAP_SCRIPT_ON_TRANSITION {
@@ -30,7 +31,7 @@ script Route201_EventScript_BarryTrigger_4 {
 }
 
 script Route201_EventScript_ChooseBarryDialogue {
-	if(flag(FLAG_BATTLED_RIVAL_ROUTE_201)) {
+	if(flag(FLAG_BATTLED_BARRY_ROUTE_201)) {
 		goto(Route201_EventScript_BarryGoingToLakeVerity)
 	}
 	else {
@@ -38,9 +39,7 @@ script Route201_EventScript_ChooseBarryDialogue {
 	}
 }
 
-script Route201_EventScript_BarryGoingToLakeVerity {
-	
-}
+
 
 script Route201_EventScript_BarryGoingToSandgem {
 	lock
@@ -168,8 +167,8 @@ script Route201_EventScript_BarryGoingToSandgem {
 	))
 	waitmovement(0)
 	clearflag(FLAG_HIDE_RIVAL_ROUTE_201)
-	addobject(LOCALID_RIVAL)
-	applymovement(LOCALID_RIVAL, moves(
+	addobject(LOCALID_RIVAL_ROUTE_201)
+	applymovement(LOCALID_RIVAL_ROUTE_201, moves(
 		delay_16
 		walk_right * 6
 	))
@@ -191,7 +190,7 @@ script Route201_EventScript_BarryGoingToSandgem {
 	}
 	msgbox(Route201_Text_ProfRowan_ThereItIs_EntrustPokemon)
 	closemessage
-	applymovement(LOCALID_RIVAL, moves(walk_in_place_right))
+	applymovement(LOCALID_RIVAL_ROUTE_201, moves(walk_in_place_right))
 	waitmovement(0)
 	if(checkplayergender == MALE){
 		msgbox(Route201_Text_Dawn_AreYouSureThosePokemon)
@@ -269,7 +268,7 @@ script Route201_EventScript_ProfRowansBriefcase {
 	}
 	closemessage
 	applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_in_place_up))
-	applymovement(LOCALID_RIVAL, moves(walk_right))
+	applymovement(LOCALID_RIVAL_ROUTE_201, moves(walk_right))
 	waitmovement(0)
 	if(checkplayergender == MALE) {
 		msgbox(Route201_Text_Dawn_Sorry)
@@ -281,11 +280,11 @@ script Route201_EventScript_ProfRowansBriefcase {
 		delay_16
 		walk_in_place_right
 	))
-	applymovement(LOCALID_RIVAL, moves(
+	applymovement(LOCALID_RIVAL_ROUTE_201, moves(
 		walk_right * 9
 	))
 	waitmovement(0)
-	removeobject(LOCALID_RIVAL)
+	removeobject(LOCALID_RIVAL_ROUTE_201)
 	setflag(FLAG_HIDE_RIVAL_ROUTE_201)
 	delay(64)
 	applymovement(OBJ_EVENT_ID_PLAYER, moves(
@@ -316,8 +315,9 @@ script Route201_EventScript_ProfRowansBriefcase {
 			trainerbattle_no_intro(TRAINER_BARRY_ROUTE_201_PIPLUP, Route201_Text_Barry_BattleWin)
 	}
 	msgbox(Route201_Text_Barry_LetsGoHome)
+	closemessage
 
-	setflag(FLAG_BATTLED_RIVAL_ROUTE_201)
+	setflag(FLAG_BATTLED_BARRY_ROUTE_201)
 	setvar(VAR_PLAYERS_MOM_STATE, 4)
 	warpsilent(MAP_TWINLEAF_TOWN_PLAYERS_HOUSE_1F, 1 , 5)
 	waitstate
@@ -418,6 +418,75 @@ script Route201_EventScript_BarryMovePlayerToTallGrass {
 			waitmovement(0)
 	}
 	return
+}
+
+script Route201_EventScript_BarryGoingToLakeVerity {
+	lock
+	applymovement(LOCALID_BARRY, Common_Movement_ExclamationMark)	
+	waitmovement(0)
+	delay(48)
+	msgbox(Route201_Text_Barry_Lake)
+	closemessage
+	call(Route201_EventScript_BarryMoveToPlayer)
+	msgbox(Route201_Text_Barry_YouAndMe)
+	closemessage
+	setvar(VAR_BARRY_STATE, 3)
+	setfollowernpc(LOCALID_BARRY, 0, Route201_EventScript_BarryFollowerDialogue)
+	release
+}
+
+script Route201_EventScript_BarryFollowerDialogue {
+	switch(var(VAR_BARRY_FOLLOW_INTERACTIONS)) {
+		case 0:
+			msgbox(Route201_Text_BarryFollow1, MSGBOX_NPC)
+		case 1:
+			msgbox(Route201_Text_BarryFollow2, MSGBOX_NPC)
+		case 2:
+			switch(var(VAR_STARTER_MON)) {
+				case 0:
+					bufferspeciesname(STR_VAR_1, SPECIES_CHIMCHAR)
+				case 1:
+					bufferspeciesname(STR_VAR_1, SPECIES_PIPLUP)
+				case 2:
+					bufferspeciesname(STR_VAR_1, SPECIES_TURTWIG)
+			}
+			msgbox(Route201_Text_BarryFollow3, MSGBOX_NPC)
+		case 3:
+			msgbox(Route201_Text_BarryFollow4, MSGBOX_NPC)
+		case 4:
+			msgbox(Route201_Text_BarryFollow5, MSGBOX_NPC)
+		case 5:
+			msgbox(Route201_Text_BarryFollow6, MSGBOX_NPC)
+		default:
+			msgbox(Route201_Text_BarryFollow7, MSGBOX_NPC)
+	}
+	if(var(VAR_BARRY_FOLLOW_INTERACTIONS < 6)) {
+		addvar(VAR_BARRY_FOLLOW_INTERACTIONS, 1)
+	}
+}
+
+script Route201_EventScript_NotThatWay_South {
+	lock
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(
+		walk_in_place_up
+	))
+	msgbox(Route201_Text_Barry_WrongWay, MSGBOX_NPC)
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_up))
+	applymovement(OBJ_EVENT_ID_NPC_FOLLOWER, moves(walk_up))
+	waitmovementall
+	release
+}
+
+script Route201_EventScript_NotThatWay_East {
+	lock
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(
+		walk_in_place_left
+	))
+	msgbox(Route201_Text_Barry_WrongWay2, MSGBOX_NPC)
+	applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_left))
+	applymovement(OBJ_EVENT_ID_NPC_FOLLOWER, moves(walk_left))
+	waitmovementall
+	release
 }
 
 script Route201_EventScript_NPC1 {
@@ -723,4 +792,48 @@ text Route201_Text_Barry_IWon {
 
 text Route201_Text_Barry_BattleWin {
 	format("What are you saying?!\nWe ended up losing?!")
+}
+
+text Route201_Text_Barry_Lake {
+	format("Barry: Too slow!\n{PLAYER}, I’m sick of waiting!\pI’m going to go see Prof. Rowan, so I can thank him properly.\pSo, I had this great idea.\nListen up, OK?\pYou know that lake where we always play at?\pYou know how they say a legendary Pokémon lives there?\pYou guessed it!\nLet’s catch that Pokémon.\pThat’ll make Prof. Rowan happy.\nI’m sure of that!")
+}
+
+text Route201_Text_Barry_YouAndMe {
+	format("Barry: Me and you together, we’ve got nothing to fear!")
+}
+
+text Route201_Text_Barry_WrongWay {
+	format("Barry: Heheh, {PLAYER}.\nThe lake’s not that way!")
+}
+
+text Route201_Text_Barry_WrongWay2 {
+	format("Barry: Hey, {PLAYER}!\nI said, the lake's not that way!")
+}
+
+text Route201_Text_BarryFollow1 {
+	format("Barry:  That Pokémon battle...\nWasn’t that wickedly fun or what?\pI mean, I’d pick the moves, and my Pokémon would use them!\pYeah, I’m going to battle tons and get real close with Pokémon.")
+}
+
+text Route201_Text_BarryFollow2 {
+	format("Barry: Pokémon all have different moves, huh?\pA Trainer makes his Pokémon battle by ordering them to use moves.\pThat’s so awesomely cool.")
+}
+
+text Route201_Text_BarryFollow3 {
+	format("Barry: Do you believe it?\nI can hardly believe it.\pYou and me, we’re Pokémon Trainers all of a sudden.\pMan, we’ve got tons to learn about being a Trainer.\pBut seeing this Poké Ball with this\n{STR_VAR_1} inside...\pIt makes me feel like I can do anything!\nNothing’s impossible!")
+}
+
+text Route201_Text_BarryFollow4 {
+	format("Barry: That lake has a mirage Pokémon living in it.\pEveryone says it’s just a legend, but I know I’m right.")
+}
+
+text Route201_Text_BarryFollow5 {
+	format("Barry: Hey, do you know about the Champion?\pThere’s this out-of-this-world tough Trainer who gets called that.\pWell, I’m gonna get so tough, the Champ has to battle me. You watch!\pWith this little guy here, I’m sure I can get that tough.")
+}
+
+text Route201_Text_BarryFollow6 {
+	format("Barry: Hey, that’s enough talking already.\pI’m itching to get going to the lake.\nCome on, come on!")
+}
+
+text Route201_Text_BarryFollow7 {
+	format("Barry: All right!\nLet’s move out! Hustle up!")
 }

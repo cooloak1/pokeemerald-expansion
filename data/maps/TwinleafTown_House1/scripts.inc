@@ -11,7 +11,8 @@ TwinleafTown_House1_EventScript_Man::
 # 7 "data/maps/TwinleafTown_House1/scripts.pory"
 	faceplayer
 # 8 "data/maps/TwinleafTown_House1/scripts.pory"
-	goto_if_set FLAG_MET_CYRUS_LAKE_VERITY, TwinleafTown_House1_EventScript_Man_1
+	compare VAR_BARRY_STATE > 3, 0
+	goto_if_ne TwinleafTown_House1_EventScript_Man_1
 # 12 "data/maps/TwinleafTown_House1/scripts.pory"
 	msgbox TwinleafTown_House1_Text_Man_Intro, MSGBOX_NPC
 	return

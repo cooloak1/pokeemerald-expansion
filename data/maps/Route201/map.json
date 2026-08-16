@@ -83,6 +83,7 @@
       "flag": "0"
     },
     {
+      "local_id": "LOCALID_BARRY",
       "graphics_id": "OBJ_EVENT_GFX_DP_BARRY",
       "x": 14,
       "y": 19,
@@ -122,6 +123,7 @@
       "flag": "FLAG_HIDE_ROWANS_BAG_ROUTE_201"
     },
     {
+      "local_id": "LOCALID_RIVAL_ROUTE_201",
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
       "x": 8,
       "y": 17,
@@ -199,6 +201,78 @@
       "var": "FLAG_HIDE_ROWANS_BAG_ROUTE_201",
       "var_value": "0",
       "script": "Route201_EventScript_BriefcaseTrigger_2"
+    },
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 22,
+      "elevation": 0,
+      "var": "VAR_BARRY_STATE",
+      "var_value": "3",
+      "script": "Route201_EventScript_NotThatWay_South"
+    },
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 22,
+      "elevation": 0,
+      "var": "VAR_BARRY_STATE",
+      "var_value": "3",
+      "script": "Route201_EventScript_NotThatWay_South"
+    },
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 22,
+      "elevation": 0,
+      "var": "VAR_BARRY_STATE",
+      "var_value": "3",
+      "script": "Route201_EventScript_NotThatWay_South"
+    },
+    {
+      "type": "trigger",
+      "x": 15,
+      "y": 22,
+      "elevation": 0,
+      "var": "VAR_BARRY_STATE",
+      "var_value": "3",
+      "script": "Route201_EventScript_NotThatWay_South"
+    },
+    {
+      "type": "trigger",
+      "x": 17,
+      "y": 16,
+      "elevation": 0,
+      "var": "VAR_BARRY_STATE",
+      "var_value": "3",
+      "script": "Route201_EventScript_NotThatWay_East"
+    },
+    {
+      "type": "trigger",
+      "x": 17,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_BARRY_STATE",
+      "var_value": "3",
+      "script": "Route201_EventScript_NotThatWay_East"
+    },
+    {
+      "type": "trigger",
+      "x": 17,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_BARRY_STATE",
+      "var_value": "3",
+      "script": "Route201_EventScript_NotThatWay_East"
+    },
+    {
+      "type": "trigger",
+      "x": 17,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_BARRY_STATE",
+      "var_value": "3",
+      "script": "Route201_EventScript_NotThatWay_East"
     }
   ],
   "bg_events": [

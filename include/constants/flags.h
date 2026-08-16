@@ -51,11 +51,11 @@
 
 #else
 
-#define FLAG_MET_CYRUS_LAKE_VERITY           0x20
+#define FLAG_UNUSED_0x020                    0x20
 #define FLAG_FOLLOWER_NPC_HEAL_AFTER_BATTLE  0x21 // Unused Flag
 #define FLAG_FOLLOWER_NPC_JOIN_WILD_BATTLE   0x22 // Unused Flag
-#define FLAG_BATTLED_RIVAL_ROUTE_201         0x23
-#define FLAG_TALKED_TO_RIVALS_MOM            0x24
+#define FLAG_BATTLED_BARRY_ROUTE_201         0x23
+#define FLAG_TALKED_TO_BARRYS_MOM            0x24
 #define FLAG_UNUSED_0x025                    0x25 // Unused Flag
 #define FLAG_UNUSED_0x026                    0x26 // Unused Flag
 #define FLAG_UNUSED_0x027                    0x27 // Unused Flag
@@ -1343,6 +1343,13 @@
 #define FLAG_HIDE_PROF_ROWAN_ROUTE_201                  0x504
 #define FLAG_HIDE_ROWANS_BAG_ROUTE_201                  0x505
 #define FLAG_HIDE_RIVAL_ROUTE_201                       0x506
+#define FLAG_HIDE_CYRUS_LAKE_VERITY                     0x507
+#define FLAG_HIDE_BARRY_SANDGEM_TOWN                    0x508
+#define FLAG_HIDE_RIVAL_SANDGEM_TOWN                    0x509
+#define FLAG_HIDE_PROF_ROWAN_SANDGEM_TOWN               0x50A
+#define FLAG_HIDE_PROF_ROWAN_LAKE_VERITY                0x50B
+#define FLAG_HIDE_TEAM_GALACTIC_LAKE_VERITY             0x50C
+#define FLAG_HIDE_RIVAL_LAKE_VERITY                     0x50D
 
 // Trainer Flags
 // Trainer flags occupy 0x500 - 0x85F, the last 9 of which are unused

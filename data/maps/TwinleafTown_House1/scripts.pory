@@ -5,7 +5,7 @@ TwinleafTown_House1_MapScripts::
 script TwinleafTown_House1_EventScript_Man {
 	lock
 	faceplayer
-	if(flag(FLAG_MET_CYRUS_LAKE_VERITY)) {
+	if(var(VAR_BARRY_STATE > 3)) {
 		msgbox(TwinleafTown_House1_Text_Man_Adventure, MSGBOX_NPC)
 	}
 	else {

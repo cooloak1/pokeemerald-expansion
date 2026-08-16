@@ -2,47 +2,47 @@ TwinleafTown_BarrysHouse_1F_MapScripts::
 	.byte 0
 
 
-TwinleafTown_BarrysHouse_1F_EventScript_RivalsMom::
+TwinleafTown_BarrysHouse_1F_EventScript_BarrysMom::
 # 6 "data/maps/TwinleafTown_BarrysHouse_1F/scripts.pory"
 	switch VAR_BARRY_STATE
 # 7 "data/maps/TwinleafTown_BarrysHouse_1F/scripts.pory"
-	case 1, TwinleafTown_BarrysHouse_1F_EventScript_RivalsMom_2
+	case 1, TwinleafTown_BarrysHouse_1F_EventScript_BarrysMom_2
 # 9 "data/maps/TwinleafTown_BarrysHouse_1F/scripts.pory"
-	case 2, TwinleafTown_BarrysHouse_1F_EventScript_RivalsMom_3
+	case 2, TwinleafTown_BarrysHouse_1F_EventScript_BarrysMom_3
 # 10 "data/maps/TwinleafTown_BarrysHouse_1F/scripts.pory"
-	case 3, TwinleafTown_BarrysHouse_1F_EventScript_RivalsMom_3
+	case 3, TwinleafTown_BarrysHouse_1F_EventScript_BarrysMom_3
 # 17 "data/maps/TwinleafTown_BarrysHouse_1F/scripts.pory"
-	case 4, TwinleafTown_BarrysHouse_1F_EventScript_RivalsMom_4
+	case 4, TwinleafTown_BarrysHouse_1F_EventScript_BarrysMom_4
 # 20 "data/maps/TwinleafTown_BarrysHouse_1F/scripts.pory"
 	msgbox TwinleafTown_BarrysHouse_1F_Text_GreatestTrainer, MSGBOX_NPC
 	return
 
-TwinleafTown_BarrysHouse_1F_EventScript_RivalsMom_2:
+TwinleafTown_BarrysHouse_1F_EventScript_BarrysMom_2:
 # 8 "data/maps/TwinleafTown_BarrysHouse_1F/scripts.pory"
-	msgbox TwinleafTown_BarrysHouse_1F_Text_LookingForRival, MSGBOX_NPC
+	msgbox TwinleafTown_BarrysHouse_1F_Text_LookingForBarry, MSGBOX_NPC
 	return
 
-TwinleafTown_BarrysHouse_1F_EventScript_RivalsMom_3:
+TwinleafTown_BarrysHouse_1F_EventScript_BarrysMom_3:
 # 11 "data/maps/TwinleafTown_BarrysHouse_1F/scripts.pory"
-	goto_if_set FLAG_TALKED_TO_RIVALS_MOM, TwinleafTown_BarrysHouse_1F_EventScript_RivalsMom_6
+	goto_if_set FLAG_TALKED_TO_BARRYS_MOM, TwinleafTown_BarrysHouse_1F_EventScript_BarrysMom_6
 # 14 "data/maps/TwinleafTown_BarrysHouse_1F/scripts.pory"
 	msgbox TwinleafTown_BarrysHouse_1F_Text_RocketedOff, MSGBOX_NPC
 # 15 "data/maps/TwinleafTown_BarrysHouse_1F/scripts.pory"
-	setflag FLAG_TALKED_TO_RIVALS_MOM
+	setflag FLAG_TALKED_TO_BARRYS_MOM
 	return
 
-TwinleafTown_BarrysHouse_1F_EventScript_RivalsMom_4:
+TwinleafTown_BarrysHouse_1F_EventScript_BarrysMom_4:
 # 18 "data/maps/TwinleafTown_BarrysHouse_1F/scripts.pory"
 	msgbox TwinleafTown_BarrysHouse_1F_Text_FriendsWithPokemon, MSGBOX_NPC
 	return
 
-TwinleafTown_BarrysHouse_1F_EventScript_RivalsMom_6:
+TwinleafTown_BarrysHouse_1F_EventScript_BarrysMom_6:
 # 12 "data/maps/TwinleafTown_BarrysHouse_1F/scripts.pory"
 	msgbox TwinleafTown_BarrysHouse_1F_Text_BarryRoute201, MSGBOX_NPC
 	return
 
 
-TwinleafTown_BarrysHouse_1F_Text_LookingForRival::
+TwinleafTown_BarrysHouse_1F_Text_LookingForBarry::
 # 25 "data/maps/TwinleafTown_BarrysHouse_1F/scripts.pory"
 	.string "Barry’s mom: Oh, hi, {PLAYER}.\p"
 	.string "Are you looking for Barry?\p"
