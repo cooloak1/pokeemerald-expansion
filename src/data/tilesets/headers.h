@@ -841,7 +841,7 @@ const struct Tileset gTileset_SinnohWest =
     .palettes = gTilesetPalettes_SinnohWest,
     .metatiles = gMetatiles_SinnohWest,
     .metatileAttributes = gMetatileAttributes_SinnohWest,
-    .callback = NULL,
+    .callback = InitTilesetAnim_SinnohGeneral,
 };
 
 const struct Tileset gTileset_Sandgem =
@@ -1105,7 +1105,7 @@ const struct Tileset gTileset_SinnohEast =
     .palettes = gTilesetPalettes_SinnohEast,
     .metatiles = gMetatiles_SinnohEast,
     .metatileAttributes = gMetatileAttributes_SinnohEast,
-    .callback = NULL,
+    .callback = InitTilesetAnim_SinnohGeneral,
 };
 
 const struct Tileset gTileset_Snow =
@@ -1116,7 +1116,7 @@ const struct Tileset gTileset_Snow =
     .palettes = gTilesetPalettes_Snow,
     .metatiles = gMetatiles_Snow,
     .metatileAttributes = gMetatileAttributes_Snow,
-    .callback = NULL,
+    .callback = InitTilesetAnim_SinnohGeneral,
 };
 
 const struct Tileset gTileset_Snowpoint =

@@ -32,6 +32,8 @@ void InitTilesetAnim_EliteFour(void);
 void InitTilesetAnim_BattleDome(void);
 void InitTilesetAnim_BattlePyramid(void);
 
+void InitTilesetAnim_SinnohGeneral(void);
+
 // FRLG
 void InitTilesetAnim_General_Frlg(void);
 void InitTilesetAnim_CeladonCity(void);

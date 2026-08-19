@@ -24,6 +24,9 @@ static void (*sSecondaryTilesetAnimCallback)(u16);
 static void _InitPrimaryTilesetAnimation(void);
 static void _InitSecondaryTilesetAnimation(void);
 static void TilesetAnim_General(u16);
+
+static void TilesetAnim_SinnohGeneral(u16);
+
 static void TilesetAnim_Building(u16);
 static void TilesetAnim_Rustboro(u16);
 static void TilesetAnim_Dewford(u16);
@@ -48,6 +51,10 @@ static void QueueAnimTiles_General_Water(u16);
 static void QueueAnimTiles_General_SandWaterEdge(u16);
 static void QueueAnimTiles_General_Waterfall(u16);
 static void QueueAnimTiles_General_LandWaterEdge(u16);
+
+static void QueueAnimTiles_SinnohGeneral_Water(u16);
+static void QueueAnimTiles_SinnohGeneral_Waterfall(u16);
+
 static void QueueAnimTiles_Building_TVTurnedOn(u16);
 static void QueueAnimTiles_Rustboro_WindyWater(u16, u8);
 static void QueueAnimTiles_Rustboro_Fountain(u16);
@@ -106,6 +113,26 @@ const u16 *const gTilesetAnims_General_Water[] = {
     gTilesetAnims_General_Water_Frame7
 };
 
+const u16 gTilesetAnims_SinnohGeneral_Water_Frame0[] = INCGFX_U16("data/tilesets/primary/sinnoh_west/anim/water/0.png", ".4bpp");
+const u16 gTilesetAnims_SinnohGeneral_Water_Frame1[] = INCGFX_U16("data/tilesets/primary/sinnoh_west/anim/water/1.png", ".4bpp");
+const u16 gTilesetAnims_SinnohGeneral_Water_Frame2[] = INCGFX_U16("data/tilesets/primary/sinnoh_west/anim/water/2.png", ".4bpp");
+const u16 gTilesetAnims_SinnohGeneral_Water_Frame3[] = INCGFX_U16("data/tilesets/primary/sinnoh_west/anim/water/3.png", ".4bpp");
+const u16 gTilesetAnims_SinnohGeneral_Water_Frame4[] = INCGFX_U16("data/tilesets/primary/sinnoh_west/anim/water/4.png", ".4bpp");
+const u16 gTilesetAnims_SinnohGeneral_Water_Frame5[] = INCGFX_U16("data/tilesets/primary/sinnoh_west/anim/water/5.png", ".4bpp");
+const u16 gTilesetAnims_SinnohGeneral_Water_Frame6[] = INCGFX_U16("data/tilesets/primary/sinnoh_west/anim/water/6.png", ".4bpp");
+const u16 gTilesetAnims_SinnohGeneral_Water_Frame7[] = INCGFX_U16("data/tilesets/primary/sinnoh_west/anim/water/7.png", ".4bpp");
+
+const u16 *const gTilesetAnims_SinnohGeneral_Water[] = {
+    gTilesetAnims_SinnohGeneral_Water_Frame0,
+    gTilesetAnims_SinnohGeneral_Water_Frame1,
+    gTilesetAnims_SinnohGeneral_Water_Frame2,
+    gTilesetAnims_SinnohGeneral_Water_Frame3,
+    gTilesetAnims_SinnohGeneral_Water_Frame4,
+    gTilesetAnims_SinnohGeneral_Water_Frame5,
+    gTilesetAnims_SinnohGeneral_Water_Frame6,
+    gTilesetAnims_SinnohGeneral_Water_Frame7
+};
+
 const u16 gTilesetAnims_General_SandWaterEdge_Frame0[] = INCGFX_U16("data/tilesets/primary/general/anim/sand_water_edge/0.png", ".4bpp");
 const u16 gTilesetAnims_General_SandWaterEdge_Frame1[] = INCGFX_U16("data/tilesets/primary/general/anim/sand_water_edge/1.png", ".4bpp");
 const u16 gTilesetAnims_General_SandWaterEdge_Frame2[] = INCGFX_U16("data/tilesets/primary/general/anim/sand_water_edge/2.png", ".4bpp");
@@ -135,6 +162,18 @@ const u16 *const gTilesetAnims_General_Waterfall[] = {
     gTilesetAnims_General_Waterfall_Frame1,
     gTilesetAnims_General_Waterfall_Frame2,
     gTilesetAnims_General_Waterfall_Frame3
+};
+
+const u16 gTilesetAnims_SinnohGeneral_Waterfall_Frame0[] = INCGFX_U16("data/tilesets/primary/sinnoh_west/anim/waterfall/0.png", ".4bpp");
+const u16 gTilesetAnims_SinnohGeneral_Waterfall_Frame1[] = INCGFX_U16("data/tilesets/primary/sinnoh_west/anim/waterfall/1.png", ".4bpp");
+const u16 gTilesetAnims_SinnohGeneral_Waterfall_Frame2[] = INCGFX_U16("data/tilesets/primary/sinnoh_west/anim/waterfall/2.png", ".4bpp");
+const u16 gTilesetAnims_SinnohGeneral_Waterfall_Frame3[] = INCGFX_U16("data/tilesets/primary/sinnoh_west/anim/waterfall/3.png", ".4bpp");
+
+const u16 *const gTilesetAnims_SinnohGeneral_Waterfall[] = {
+    gTilesetAnims_SinnohGeneral_Waterfall_Frame0,
+    gTilesetAnims_SinnohGeneral_Waterfall_Frame1,
+    gTilesetAnims_SinnohGeneral_Waterfall_Frame2,
+    gTilesetAnims_SinnohGeneral_Waterfall_Frame3
 };
 
 const u16 gTilesetAnims_General_LandWaterEdge_Frame0[] = INCGFX_U16("data/tilesets/primary/general/anim/land_water_edge/0.png", ".4bpp");
@@ -622,6 +661,13 @@ void InitTilesetAnim_General(void)
     sPrimaryTilesetAnimCallback = TilesetAnim_General;
 }
 
+void InitTilesetAnim_SinnohGeneral(void)
+{
+    sPrimaryTilesetAnimCounter = 0;
+    sPrimaryTilesetAnimCounterMax = 256;
+    sPrimaryTilesetAnimCallback = TilesetAnim_SinnohGeneral;
+}
+
 void InitTilesetAnim_Building(void)
 {
     sPrimaryTilesetAnimCounter = 0;
@@ -643,6 +689,21 @@ static void TilesetAnim_General(u16 timer)
         QueueAnimTiles_General_LandWaterEdge(timer / 16);
 }
 
+static void TilesetAnim_SinnohGeneral(u16 timer)
+{
+    //if (timer % 16 == 0)
+    //    QueueAnimTiles_General_Flower(timer / 16);
+    if (timer % 16 == 1)
+        QueueAnimTiles_SinnohGeneral_Water(timer / 16);
+    //if (timer % 16 == 2)
+    //    QueueAnimTiles_General_SandWaterEdge(timer / 16);
+    if (timer % 16 == 3)
+        QueueAnimTiles_SinnohGeneral_Waterfall(timer / 16);
+    //if (timer % 16 == 4)
+    //    QueueAnimTiles_General_LandWaterEdge(timer / 16);
+}
+
+
 static void TilesetAnim_Building(u16 timer)
 {
     if (timer % 8 == 0)
@@ -661,6 +722,13 @@ static void QueueAnimTiles_General_Water(u16 timer)
     AppendTilesetAnimToBuffer(gTilesetAnims_General_Water[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(432)), 30 * TILE_SIZE_4BPP);
 }
 
+static void QueueAnimTiles_SinnohGeneral_Water(u16 timer)
+{
+    u8 i = timer % ARRAY_COUNT(gTilesetAnims_SinnohGeneral_Water);
+    AppendTilesetAnimToBuffer(gTilesetAnims_SinnohGeneral_Water[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(0x1CE)), 2 * TILE_SIZE_4BPP);
+}
+
+
 static void QueueAnimTiles_General_SandWaterEdge(u16 timer)
 {
     u16 i = timer % ARRAY_COUNT(gTilesetAnims_General_SandWaterEdge);
@@ -671,6 +739,12 @@ static void QueueAnimTiles_General_Waterfall(u16 timer)
 {
     u16 i = timer % ARRAY_COUNT(gTilesetAnims_General_Waterfall);
     AppendTilesetAnimToBuffer(gTilesetAnims_General_Waterfall[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(496)), 6 * TILE_SIZE_4BPP);
+}
+
+static void QueueAnimTiles_SinnohGeneral_Waterfall(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(gTilesetAnims_SinnohGeneral_Waterfall);
+    AppendTilesetAnimToBuffer(gTilesetAnims_SinnohGeneral_Waterfall[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(0x1D0)), 10 * TILE_SIZE_4BPP);
 }
 
 void InitTilesetAnim_Petalburg(void)
