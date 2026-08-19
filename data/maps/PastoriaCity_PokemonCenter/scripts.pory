@@ -1,1 +1,16 @@
-mapscripts PastoriaCity_PokemonCenter_MapScripts {}
+mapscripts PastoriaCity_PokemonCenter_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: PastoriaCity_PokemonCenter_MapScript_OnTransition
+}
+
+script PastoriaCity_PokemonCenter_MapScript_OnTransition {
+    setrespawn(HEAL_LOCATION_PASTORIA_CITY)
+}
+
+script PastoriaCity_PokemonCenter_EventScript_Nurse {
+    setvar(VAR_0x800B, LOCALID_PASTORIA_NURSE)
+    call(Common_EventScript_PkmnCenterNurse)
+    waitmessage
+	waitbuttonpress
+	release
+	end
+}

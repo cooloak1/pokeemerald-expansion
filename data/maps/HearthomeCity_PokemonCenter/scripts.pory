@@ -1,1 +1,16 @@
-mapscripts HearthomeCity_PokemonCenter_MapScripts {}
+mapscripts HearthomeCity_PokemonCenter_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: HearthomeCity_PokemonCenter_MapScript_OnTransition
+}
+
+script HearthomeCity_PokemonCenter_MapScript_OnTransition {
+    setrespawn(HEAL_LOCATION_HEARTHOME_CITY)
+}
+
+script HearthomeCity_PokemonCenter_EventScript_Nurse {
+    setvar(VAR_0x800B, LOCALID_HEARTHOME_NURSE)
+    call(Common_EventScript_PkmnCenterNurse)
+    waitmessage
+	waitbuttonpress
+	release
+	end
+}

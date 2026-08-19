@@ -1,1 +1,16 @@
-mapscripts EternaCity_PokemonCenter_MapScripts {}
+mapscripts EternaCity_PokemonCenter_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: EternaCity_PokemonCenter_MapScript_OnTransition
+}
+
+script EternaCity_PokemonCenter_MapScript_OnTransition {
+    setrespawn(HEAL_LOCATION_ETERNA_CITY)
+}
+
+script EternaCity_PokemonCenter_EventScript_Nurse {
+    setvar(VAR_0x800B, LOCALID_ETERNA_NURSE)
+    call(Common_EventScript_PkmnCenterNurse)
+    waitmessage
+	waitbuttonpress
+	release
+	end
+}

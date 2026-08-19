@@ -1,1 +1,16 @@
-mapscripts OreburghCity_PokemonCenter_MapScripts {}
+mapscripts OreburghCity_PokemonCenter_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: OreburghCity_PokemonCenter_MapScript_OnTransition
+}
+
+script OreburghCity_PokemonCenter_MapScript_OnTransition {
+    setrespawn(HEAL_LOCATION_OREBURGH_CITY)
+}
+
+script OreburghCity_PokemonCenter_EventScript_Nurse {
+    setvar(VAR_0x800B, LOCALID_OREBURGH_NURSE)
+    call(Common_EventScript_PkmnCenterNurse)
+    waitmessage
+	waitbuttonpress
+	release
+	end
+}

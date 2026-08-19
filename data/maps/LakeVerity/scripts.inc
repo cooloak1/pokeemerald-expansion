@@ -105,7 +105,7 @@ LakeVerity_EventScript_CyrusScene_5:
 # 78 "data/maps/LakeVerity/scripts.pory"
 	waitmovement 0
 # 79 "data/maps/LakeVerity/scripts.pory"
-	applymovement LOCALID_CYRUS, LakeVerity_EventScript_CyrusScene_Movement_9
+	applymovement LOCALID_CYRUS, LakeVerity_EventScript_CyrusScene_Movement_5
 # 80 "data/maps/LakeVerity/scripts.pory"
 	waitmovement 0
 # 81 "data/maps/LakeVerity/scripts.pory"
@@ -113,7 +113,7 @@ LakeVerity_EventScript_CyrusScene_5:
 # 82 "data/maps/LakeVerity/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, LakeVerity_EventScript_CyrusScene_Movement_0
 # 83 "data/maps/LakeVerity/scripts.pory"
-	applymovement OBJ_EVENT_ID_NPC_FOLLOWER, LakeVerity_EventScript_CyrusScene_Movement_10
+	applymovement OBJ_EVENT_ID_NPC_FOLLOWER, LakeVerity_EventScript_CyrusScene_Movement_9
 # 84 "data/maps/LakeVerity/scripts.pory"
 	waitmovement 0
 # 85 "data/maps/LakeVerity/scripts.pory"
@@ -123,7 +123,7 @@ LakeVerity_EventScript_CyrusScene_5:
 # 87 "data/maps/LakeVerity/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, LakeVerity_EventScript_CyrusScene_Movement_7
 # 88 "data/maps/LakeVerity/scripts.pory"
-	applymovement OBJ_EVENT_ID_NPC_FOLLOWER, LakeVerity_EventScript_CyrusScene_Movement_11
+	applymovement OBJ_EVENT_ID_NPC_FOLLOWER, LakeVerity_EventScript_CyrusScene_Movement_10
 # 89 "data/maps/LakeVerity/scripts.pory"
 	waitmovement 0
 # 90 "data/maps/LakeVerity/scripts.pory"
@@ -141,9 +141,9 @@ LakeVerity_EventScript_CyrusScene_5:
 # 96 "data/maps/LakeVerity/scripts.pory"
 	waitmovement 0
 # 97 "data/maps/LakeVerity/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, LakeVerity_EventScript_CyrusScene_Movement_12
+	applymovement OBJ_EVENT_ID_PLAYER, LakeVerity_EventScript_CyrusScene_Movement_11
 # 111 "data/maps/LakeVerity/scripts.pory"
-	applymovement OBJ_EVENT_ID_NPC_FOLLOWER, LakeVerity_EventScript_CyrusScene_Movement_13
+	applymovement OBJ_EVENT_ID_NPC_FOLLOWER, LakeVerity_EventScript_CyrusScene_Movement_12
 # 124 "data/maps/LakeVerity/scripts.pory"
 	waitmovement 0
 # 125 "data/maps/LakeVerity/scripts.pory"
@@ -161,7 +161,7 @@ LakeVerity_EventScript_CyrusScene_5:
 # 131 "data/maps/LakeVerity/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, LakeVerity_EventScript_CyrusScene_Movement_0
 # 132 "data/maps/LakeVerity/scripts.pory"
-	applymovement OBJ_EVENT_ID_NPC_FOLLOWER, LakeVerity_EventScript_CyrusScene_Movement_14
+	applymovement OBJ_EVENT_ID_NPC_FOLLOWER, LakeVerity_EventScript_CyrusScene_Movement_13
 # 133 "data/maps/LakeVerity/scripts.pory"
 	waitmovement 0
 # 134 "data/maps/LakeVerity/scripts.pory"
@@ -290,22 +290,8 @@ LakeVerity_EventScript_CyrusScene_Movement_8:
 	walk_in_place_left
 	step_end
 
-# 79 "data/maps/LakeVerity/scripts.pory"
-LakeVerity_EventScript_CyrusScene_Movement_9:
-# 79 "data/maps/LakeVerity/scripts.pory"
-	walk_down
-# 79 "data/maps/LakeVerity/scripts.pory"
-	walk_down
-# 79 "data/maps/LakeVerity/scripts.pory"
-	walk_down
-# 79 "data/maps/LakeVerity/scripts.pory"
-	walk_down
-# 79 "data/maps/LakeVerity/scripts.pory"
-	walk_down
-	step_end
-
 # 83 "data/maps/LakeVerity/scripts.pory"
-LakeVerity_EventScript_CyrusScene_Movement_10:
+LakeVerity_EventScript_CyrusScene_Movement_9:
 # 83 "data/maps/LakeVerity/scripts.pory"
 	walk_left
 # 83 "data/maps/LakeVerity/scripts.pory"
@@ -313,13 +299,13 @@ LakeVerity_EventScript_CyrusScene_Movement_10:
 	step_end
 
 # 88 "data/maps/LakeVerity/scripts.pory"
-LakeVerity_EventScript_CyrusScene_Movement_11:
+LakeVerity_EventScript_CyrusScene_Movement_10:
 # 88 "data/maps/LakeVerity/scripts.pory"
 	walk_in_place_left
 	step_end
 
 # 97 "data/maps/LakeVerity/scripts.pory"
-LakeVerity_EventScript_CyrusScene_Movement_12:
+LakeVerity_EventScript_CyrusScene_Movement_11:
 # 98 "data/maps/LakeVerity/scripts.pory"
 	walk_in_place_up
 # 99 "data/maps/LakeVerity/scripts.pory"
@@ -347,7 +333,7 @@ LakeVerity_EventScript_CyrusScene_Movement_12:
 	step_end
 
 # 111 "data/maps/LakeVerity/scripts.pory"
-LakeVerity_EventScript_CyrusScene_Movement_13:
+LakeVerity_EventScript_CyrusScene_Movement_12:
 # 112 "data/maps/LakeVerity/scripts.pory"
 	walk_fast_up
 # 112 "data/maps/LakeVerity/scripts.pory"
@@ -381,7 +367,9 @@ LakeVerity_EventScript_CyrusScene_Movement_13:
 	step_end
 
 # 132 "data/maps/LakeVerity/scripts.pory"
-LakeVerity_EventScript_CyrusScene_Movement_14:
+LakeVerity_EventScript_CyrusScene_Movement_13:
+# 132 "data/maps/LakeVerity/scripts.pory"
+	walk_fast_down
 # 132 "data/maps/LakeVerity/scripts.pory"
 	walk_fast_down
 # 132 "data/maps/LakeVerity/scripts.pory"

@@ -1,1 +1,16 @@
-mapscripts SunyshoreCity_PokemonCenter_MapScripts {}
+mapscripts SunyshoreCity_PokemonCenter_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: SunyshoreCity_PokemonCenter_MapScript_OnTransition
+}
+
+script SunyshoreCity_PokemonCenter_MapScript_OnTransition {
+    setrespawn(HEAL_LOCATION_SUNYSHORE_CITY)
+}
+
+script SunyshoreCity_PokemonCenter_EventScript_Nurse {
+    setvar(VAR_0x800B, LOCALID_SUNYSHORE_NURSE)
+    call(Common_EventScript_PkmnCenterNurse)
+    waitmessage
+	waitbuttonpress
+	release
+	end
+}

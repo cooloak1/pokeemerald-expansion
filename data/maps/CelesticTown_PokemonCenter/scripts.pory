@@ -1,1 +1,16 @@
-mapscripts CelesticTown_PokemonCenter_MapScripts {}
+mapscripts CelesticTown_PokemonCenter_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: CelesticTown_PokemonCenter_MapScript_OnTransition
+}
+
+script CelesticTown_PokemonCenter_MapScript_OnTransition {
+    setrespawn(HEAL_LOCATION_CELESTIC_TOWN)
+}
+
+script CelesticTown_PokemonCenter_EventScript_Nurse {
+    setvar(VAR_0x800B, LOCALID_CELESTIC_NURSE)
+    call(Common_EventScript_PkmnCenterNurse)
+    waitmessage
+	waitbuttonpress
+	release
+	end
+}

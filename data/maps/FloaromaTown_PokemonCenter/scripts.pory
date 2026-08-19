@@ -1,1 +1,16 @@
-mapscripts FloaromaTown_PokemonCenter_MapScripts {}
+mapscripts FloaromaTown_PokemonCenter_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: FloaromaTown_PokemonCenter_MapScript_OnTransition
+}
+
+script FloaromaTown_PokemonCenter_MapScript_OnTransition {
+    setrespawn(HEAL_LOCATION_FLOAROMA_TOWN)
+}
+
+script FloaromaTown_PokemonCenter_EventScript_Nurse {
+    setvar(VAR_0x800B, LOCALID_FLOAROMA_NURSE)
+    call(Common_EventScript_PkmnCenterNurse)
+    waitmessage
+	waitbuttonpress
+	release
+	end
+}

@@ -1,1 +1,16 @@
-mapscripts JubilifeCity_PokemonCenter_MapScripts {}
+mapscripts JubilifeCity_PokemonCenter_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: JubilifeCity_PokemonCenter_MapScript_OnTransition
+}
+
+script JubilifeCity_PokemonCenter_MapScript_OnTransition {
+    setrespawn(HEAL_LOCATION_JUBILIFE_CITY)
+}
+
+script JubilifeCity_PokemonCenter_EventScript_Nurse {
+    setvar(VAR_0x800B, LOCALID_JUBILIFE_NURSE)
+    call(Common_EventScript_PkmnCenterNurse)
+    waitmessage
+	waitbuttonpress
+	release
+	end
+}

@@ -1,1 +1,16 @@
-mapscripts VeilstoneCity_PokemonCenter_MapScripts {}
+mapscripts VeilstoneCity_PokemonCenter_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: VeilstoneCity_PokemonCenter_MapScript_OnTransition
+}
+
+script VeilstoneCity_PokemonCenter_MapScript_OnTransition {
+    setrespawn(HEAL_LOCATION_VEILSTONE_CITY)
+}
+
+script VeilstoneCity_PokemonCenter_EventScript_Nurse {
+    setvar(VAR_0x800B, LOCALID_VEILSTONE_NURSE)
+    call(Common_EventScript_PkmnCenterNurse)
+    waitmessage
+	waitbuttonpress
+	release
+	end
+}

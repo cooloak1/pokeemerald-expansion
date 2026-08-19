@@ -1,1 +1,16 @@
-mapscripts SnowpointCity_PokemonCenter_MapScripts {}
+mapscripts SnowpointCity_PokemonCenter_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: SnowpointCity_PokemonCenter_MapScript_OnTransition
+}
+
+script SnowpointCity_PokemonCenter_MapScript_OnTransition {
+    setrespawn(HEAL_LOCATION_SNOWPOINT_CITY)
+}
+
+script SnowpointCity_PokemonCenter_EventScript_Nurse {
+    setvar(VAR_0x800B, LOCALID_SNOWPOINT_NURSE)
+    call(Common_EventScript_PkmnCenterNurse)
+    waitmessage
+	waitbuttonpress
+	release
+	end
+}
