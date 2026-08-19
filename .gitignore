@@ -69,3 +69,4 @@ Stitch_From*.png
 __pycache__
 *.xcf
 .map_version
+.porydaw/
